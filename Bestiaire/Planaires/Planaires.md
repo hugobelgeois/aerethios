@@ -12,7 +12,7 @@ tags:
 
 une âme libre non dangereuse dans cet état
 
-# [[Dieux]]
+# [[Bestiaire/Planaires/Dieux/Dieux]]
 
 # [[Possédés]]
 
