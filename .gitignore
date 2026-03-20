@@ -1,7 +1,0 @@
-.obsidian
-*.jpg
-*.png
-web/
-/web/
-web/**/*
-/web/web/

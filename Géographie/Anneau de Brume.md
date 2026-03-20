@@ -1,2 +1,0 @@
-[[Ovliin]]
-[[Jade Pourpre]]

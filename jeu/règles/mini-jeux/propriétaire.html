@@ -1,0 +1,862 @@
+<!DOCTYPE html> <html lang="en"><head>
+<title>Propriétaire</title>
+<base href="../../..">
+<meta name="pathname" content="jeu/règles/mini-jeux/propriétaire.html">
+<meta name="description" content="Aerethios - Propriétaire">
+<meta property="og:title" content="Propriétaire">
+<meta property="og:description" content="Aerethios - Propriétaire">
+<meta property="og:type" content="website">
+<meta property="og:url" content="jeu/règles/mini-jeux/propriétaire.html">
+<meta property="og:image" content="undefined">
+<meta charset="UTF-8"><meta property="og:site_name" content="Aerethios"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0"><script async="" id="webpage-script" src="site-lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-wasm-script" src="site-lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="site-lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="site-lib/media/favicon.png"><link rel="stylesheet" href="site-lib/styles/obsidian.css"><link rel="stylesheet" href="site-lib/styles/theme.css"><link rel="preload" href="site-lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="site-lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/main-styles.css"></noscript><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-vertical-spacing:1.3em;--sidebar-margin:12px}:root{background-color:#202124}.sidebar{height:100%;font-size:14px;z-index:10;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));position:relative;overflow:hidden;overflow:clip;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}#left-sidebar{left:0}#right-sidebar{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}.sidebar.floating{position:absolute}.sidebar .leaf-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .leaf-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}#left-sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}#right-sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar #left-sidebar-content,.sidebar #right-sidebar-content{contain:none!important;container-type:normal!important;animation:none!important}.sidebar:has(.leaf-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:calc(2.3em + 2 * var(--sidebar-margin));width:var(--sidebar-width);padding:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}#left-sidebar .sidebar-topbar{left:0;flex-direction:row;border-top-right-radius:var(--radius-l)}#right-sidebar .sidebar-topbar{right:0;flex-direction:row-reverse;border-top-left-radius:var(--radius-l)}#left-sidebar .topbar-content{margin-right:calc(2.3em + var(--sidebar-margin));flex-direction:row}#right-sidebar .topbar-content{margin-left:calc(2.3em + var(--sidebar-margin));flex-direction:row-reverse}.topbar-content{overflow:hidden visible;overflow:clip visible;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:2px!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}#left-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}#right-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.feature-title{margin-left:1px;text-transform:uppercase;letter-spacing:.06em;margin-top:.75em;margin-bottom:.75em}.feature-header{display:flex;align-items:center;padding-top:0;font-size:1em;padding-left:0}body.floating-sidebars .sidebar{position:absolute}body{transition:background-color var(--color-fade-speed) ease-in-out}#navbar:not(:empty){display:flex;align-items:center;justify-content:space-between;padding:.5em 1em;width:100%}#main{display:flex;flex-direction:column;height:100%;width:100%;align-items:stretch;justify-content:center}#main-horizontal{display:flex;flex-direction:row;flex-grow:1;width:100%;align-items:stretch;justify-content:center}#center-content{flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0!important;transition:opacity .2s ease-in-out;pointer-events:none}#center-content>.obsidian-document{padding-left:2em;padding-right:1em;margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}body #center-content>.obsidian-document>.markdown-preview-sizer{padding-bottom:80vh;width:100%;max-width:var(--line-width);flex-basis:var(--line-width);transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document>div{width:100%!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document:not([data-type=markdown]).embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}#center-content>.obsidian-document:not([data-type=markdown]).embed>*{max-width:100%;max-height:100%;object-fit:contain}:not(h1,h2,h3,h4,h5,h6,li):has(> :is(.math,table)){overflow-x:auto!important}#center-content>.obsidian-document:not([data-type=markdown]){overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.obsidian-document[data-type=attachment]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;width:100%}.obsidian-document[data-type=attachment]>*{outline:0;border:none;box-shadow:none}.obsidian-document[data-type=attachment] :is(img){max-width:90%;max-height:90%;object-fit:contain}.obsidian-document[data-type=attachment]>:is(audio){width:100%;max-width:min(90%,var(--line-width))}.obsidian-document[data-type=attachment]>:is(embed,iframe,video){width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}.canvas-wrapper>:is(.header,.footer){z-index:100;position:absolute;display:flex;justify-content:center;flex-direction:column;width:100%;align-items:center}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){let e=document.querySelectorAll("link[itemprop='include']");for(const t of e){let e=t.getAttribute("href");try{let o="";if(e.startsWith("https:")||e.startsWith("http:")||"file:"!=window.location.protocol){const n=await fetch(e);if(!n.ok){console.log("Could not include file: "+e),t?.remove();continue}o=await n.text()}else{const t=document.getElementById(btoa(encodeURI(e)));if(t){const e=JSON.parse(decodeURI(atob(t.getAttribute("value")??"")));o=e?.data??""}}let n=document.createRange().createContextualFragment(o);t.before(n),t.remove(),console.log("Included text: "+o),console.log("Included file: "+e)}catch(o){t?.remove(),console.log("Could not include file: "+e,o);continue}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script")));!function e(n){let l=o[n],c=n+1;l?(l&&"true"!=l.getAttribute("loaded")||n<o.length&&e(c),n<o.length&&l.addEventListener("load",(()=>e(c)))):n<o.length?e(c):t()}(0)}</script></head><body class="publish css-settings-manager mod-windows is-hidden-frameless styled-scrollbars show-inline-title show-ribbon sidebar-float-bottom check-color check-bg wotc-beyond is-focused"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="parsed-feature-container" style="display: contents;"><link itemprop="include" href="site-lib/html/custom-head-content-content.html"></div><div id="main"><div id="navbar"></div><div id="main-horizontal"><div id="left-content" class="leaf" style="--sidebar-width: var(--sidebar-width-left);"><div id="left-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><div id="search-container"><div id="search-wrapper"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div aria-label="Clear search" id="search-clear-button"></div></div></div></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="left-sidebar-content" class="leaf-content"><link itemprop="include" href="site-lib/html/file-tree-content.html"></div></div><script defer="">let ls = document.querySelector("#left-sidebar"); ls.classList.toggle("is-collapsed", window.innerWidth < 768); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div></div><div id="center-content" class="leaf"><div class="obsidian-document markdown-preview-view markdown-rendered node-insert-event allow-fold-headings allow-fold-lists show-indentation-guide show-properties is-readable-line-width" data-type="markdown"><style id="MJX-CHTML-styles"></style><pre class="frontmatter language-yaml" style="display: none;"><code class="language-yaml is-loaded"><span class="token key atrule">tags</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> Règles</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre><div class="markdown-preview-sizer markdown-preview-section"><div class="header"><h1 class="page-title heading inline-title" id="Propriétaire_0">Propriétaire</h1><div class="data-bar"></div></div><div class="markdown-preview-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;"></div><div class="el-blockquote"><blockquote dir="auto">
+<p>Ce <a data-href="Mini-Jeux" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mini-Jeux</a> permet aux joueurs d'acheter et d'améliorer des bâtiments pour en faire des bases personnelles ou des activités commerciales pour le peuple.</p>
+</blockquote></div><div class="el-h2"><h2 data-heading="Fonctionnement" dir="auto" class="heading" id="Fonctionnement_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Fonctionnement</h2></div><div class="el-p"><p dir="auto">Le joueur pourra, 1 fois par semaine, interagir avec son bâtiment pour modifier les plans ou donner des tâches aux habitants.</p></div><div class="el-p"><p dir="auto">Le joueur doit dessiner les plans sur une feuille quadrillée où 1cm en vrai = 1m en jeu (ou une autre échelle de son choix).</p></div><div class="el-p"><p dir="auto">Le bâtiment peut avoir plusieurs utilités :</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>
+<p>une base pour les joueurs,</p>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>
+<p>un centre d'activité commerciale,</p>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span>
+<p>un lieu habité par des PNJ.</p>
+</li>
+</ul></div><div class="el-h3"><h3 data-heading="Construire" dir="auto" class="heading" id="Construire_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Construire</h3></div><div class="el-p"><p dir="auto">En dehors des chambres, des champs et des écuries, le joueur ne peut avoir qu'un type de pièce par bâtiment (les spécialisations des ateliers sont considérés comme des types différents).</p></div><div class="el-p"><p dir="auto">Les pièces se construisent en parallèle et leur durée de construction ne doit pas être additionnée entre elles.</p></div><div class="el-p"><p dir="auto">Selon l'endroit où il construit, le MJ peut imposer une surface maximum à ne pas dépasser (une maison mitoyenne ne peut pas construire dans la maison voisine).</p></div><div class="el-h3"><h3 data-heading="Agrandir" dir="auto" class="heading" id="Agrandir_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Agrandir</h3></div><div class="el-p"><p dir="auto">Le joueur peut agrandir une pièce déjà existante en payant la différence entre la nouvelle taille et la taille actuelle (en multipliant selon la qualité).</p></div><div class="el-p"><p dir="auto">Cependant la durée de construction reste la même</p></div><div class="el-h3"><h3 data-heading="Modifier" dir="auto" class="heading" id="Modifier_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Modifier</h3></div><div class="el-p"><p dir="auto">Le joueur peut modifier des pièces si besoin.</p></div><div class="el-p"><p dir="auto">S'il achète un bâtiment avec des pièces vides, il peut aménager une pièce vide pour 60% du prix de base (tant que la taille est similaire).</p></div><div class="el-blockquote"><blockquote dir="auto">
+<p><strong>Exemple</strong> : Une pièce vide de 4m² ne peut que devenir une petite chambre (pauvre) pour 12pa.</p>
+</blockquote></div><div class="el-p"><p dir="auto">Il peut modifier le type d'une pièce en payant 80% du prix de base (tant que la taille est similaire).</p></div><div class="el-blockquote"><blockquote dir="auto">
+<p><strong>Exemple</strong> : Un modeste restaurant de 100m² peut devenir un grand atelier d'artisanat (pauvre) pour 12po.</p>
+</blockquote></div><div class="el-h3"><h3 data-heading="Bonus de qualité" dir="auto" class="heading" id="Bonus_de_qualité_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Bonus de qualité</h3></div><div class="el-p"><p dir="auto">Chaque pièce peut être de différente qualité de construction afin de fournir des bonus différents (les pièces sont de qualité "pauvre" par défaut) :</p></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Pauvre</th>
+<th align="center" dir="ltr">Aisé</th>
+<th align="center" dir="ltr">Luxueux</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Coût de construction</strong></td>
+<td align="center" dir="ltr">x 1</td>
+<td align="center" dir="ltr">x 2</td>
+<td align="center" dir="ltr">x 4</td>
+</tr>
+</tbody>
+</table></div><div class="el-h3"><h3 data-heading="Finances" dir="auto" class="heading" id="Finances_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Finances</h3></div><div class="el-p"><p dir="auto">Selon l'endroit où se situe le bâtiment, ses revenus et ses taxes vont varier :</p></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Faubourg</th>
+<th align="center" dir="ltr">Ville</th>
+<th align="center" dir="ltr">Centre-ville</th>
+<th align="center" dir="ltr">Zone marchande</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Revenus</strong></td>
+<td align="center" dir="ltr">x 0.5</td>
+<td align="center" dir="ltr">x 1</td>
+<td align="center" dir="ltr">x 2</td>
+<td align="center" dir="ltr">x3</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Taxes</strong></td>
+<td align="center" dir="auto">10%</td>
+<td align="center" dir="auto">15%</td>
+<td align="center" dir="auto">20%</td>
+<td align="center" dir="auto">30%</td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">Si le nombre de personnel nécessaire n'est pas atteint pour une pièce, les revenus de cette pièce diminuent de 75% et le personnel actuellement présent dans la pièce devient <strong>stressé</strong>.</p></div><div class="el-p"><p dir="auto">Si le joueur n'arrive pas à payer les taxes ou les dettes liées à son bâtiment, il en perdra la propriété et la province pourrait envoyer des huissiers.</p></div><div class="el-hr"><hr></div><div class="el-h2"><h2 data-heading="Pièces" dir="auto" class="heading" id="Pièces_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Pièces</h2></div><div class="el-h3"><h3 data-heading="Chambre" dir="auto" class="heading" id="Chambre_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Chambre</h3></div><div class="el-p"><p dir="auto">Permet de loger les habitants ainsi que de donner des bonus aux joueurs lorsqu'ils dorment dans une chambre.</p></div><div class="el-p"><p dir="auto">Pour compter les revenus, ne pas oublier de décompter le personnel du nombre de clients.</p></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Petit</th>
+<th align="center" dir="ltr">Modeste</th>
+<th align="center" dir="ltr">Grand</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Taille (m²)</strong></td>
+<td align="center" dir="auto">4</td>
+<td align="center" dir="auto">9</td>
+<td align="center" dir="auto">16</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Coût de construction</strong></td>
+<td align="center" dir="ltr">20 pa</td>
+<td align="center" dir="ltr">40 pa</td>
+<td align="center" dir="ltr">70 pa</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Durée de construction (semaine)</strong></td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">2</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Peut loger X personne.s</strong></td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">2</td>
+<td align="center" dir="auto">4</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Revenu quotidien (par client)</strong></td>
+<td align="center" dir="ltr">20 pc</td>
+<td align="center" dir="ltr">20 pc</td>
+<td align="center" dir="ltr">20 pc</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Revenu hebdomadaire maximum</strong></td>
+<td align="center" dir="ltr">1.4 pa</td>
+<td align="center" dir="ltr">2.8 pa</td>
+<td align="center" dir="ltr">5.6 pa</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Revenu annuel maximum</strong></td>
+<td align="center" dir="ltr">72.8 pa</td>
+<td align="center" dir="ltr">1.45 po</td>
+<td align="center" dir="ltr">2.91 po</td>
+</tr>
+</tbody>
+</table></div><div class="el-h4"><h4 data-heading="Bonus de qualité" dir="auto" class="heading" id="Bonus_de_qualité_1"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Bonus de qualité</h4></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Pauvre</th>
+<th align="center" dir="ltr">Aisé</th>
+<th align="center" dir="ltr">Luxueux</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Régénération magique</strong></td>
+<td align="center" dir="ltr">x 1</td>
+<td align="center" dir="ltr">x 2</td>
+<td align="center" dir="ltr">x 3</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Revenus</strong></td>
+<td align="center" dir="ltr">x 1</td>
+<td align="center" dir="ltr">x 1.5</td>
+<td align="center" dir="ltr">x 2</td>
+</tr>
+</tbody>
+</table></div><div class="el-h3"><h3 data-heading="Champs" dir="auto" class="heading" id="Champs_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Champs</h3></div><div class="el-p"><p dir="auto">Indispensable pour fournir de la nourriture au cuisinier afin de nourrir les habitants.</p></div><div class="el-p"><p dir="auto">Il est supposé que le champ entoure le bâtiment (pas besoin de le dessiner sur un plan).</p></div><div class="el-p"><p dir="auto">Si le champs produit trop, le surplus peut être vendu.</p></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Petit</th>
+<th align="center" dir="ltr">Modeste</th>
+<th align="center" dir="ltr">Grand</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Taille (m²)</strong></td>
+<td align="center" dir="auto">200</td>
+<td align="center" dir="auto">500</td>
+<td align="center" dir="auto">1000</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Coût de construction</strong></td>
+<td align="center" dir="ltr">2 pa</td>
+<td align="center" dir="ltr">5 pa</td>
+<td align="center" dir="ltr">10 pa</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Durée de construction (semaine)</strong></td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">2</td>
+<td align="center" dir="auto">3</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Peut nourrir X personne.s</strong></td>
+<td align="center" dir="auto">2</td>
+<td align="center" dir="auto">5</td>
+<td align="center" dir="auto">10</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Personnel nécessaire</strong></td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">1</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Revenu quotidien (par client)</strong></td>
+<td align="center" dir="ltr">5 pc</td>
+<td align="center" dir="ltr">5 pc</td>
+<td align="center" dir="ltr">5 pc</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Revenu hebdomadaire maximum</strong></td>
+<td align="center" dir="ltr">70 pc</td>
+<td align="center" dir="ltr">1.75 pa</td>
+<td align="center" dir="ltr">3.5 pa</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Revenu annuel maximum</strong></td>
+<td align="center" dir="ltr">36.4 pa</td>
+<td align="center" dir="ltr">91 pa</td>
+<td align="center" dir="ltr">1.82 po</td>
+</tr>
+</tbody>
+</table></div><div class="el-h4"><h4 data-heading="Bonus de qualité" dir="auto" class="heading" id="Bonus_de_qualité_2"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Bonus de qualité</h4></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Pauvre</th>
+<th align="center" dir="ltr">Aisé</th>
+<th align="center" dir="ltr">Luxueux</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Nombre de personne nourrie</strong></td>
+<td align="center" dir="ltr">x 1</td>
+<td align="center" dir="ltr">x 1.5</td>
+<td align="center" dir="ltr">x 2</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Revenus</strong></td>
+<td align="center" dir="ltr">x 1</td>
+<td align="center" dir="ltr">x 1.5</td>
+<td align="center" dir="ltr">x 2</td>
+</tr>
+</tbody>
+</table></div><div class="el-h3"><h3 data-heading="Cuisine" dir="auto" class="heading" id="Cuisine_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Cuisine</h3></div><div class="el-p"><p dir="auto">Utilise ce que le champs produit pour nourrir les habitants ainsi que des clients potentiels.</p></div><div class="el-p"><p dir="auto">Si le champs ne produit pas assez, il faut acheter les ingrédients à 15pc/ client.</p></div><div class="el-p"><p dir="auto">Il ne peut y avoir qu'une seule cuisine par restaurant.</p></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Petit</th>
+<th align="center" dir="ltr">Modeste</th>
+<th align="center" dir="ltr">Grand</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Taille (m²)</strong></td>
+<td align="center" dir="auto">9</td>
+<td align="center" dir="auto">25</td>
+<td align="center" dir="auto">49</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Coût de construction</strong></td>
+<td align="center" dir="ltr">1.5 po</td>
+<td align="center" dir="ltr">4 po</td>
+<td align="center" dir="ltr">8 po</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Durée de construction (semaine)</strong></td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">2</td>
+<td align="center" dir="auto">4</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Peut nourrir X personne.s</strong></td>
+<td align="center" dir="auto">20</td>
+<td align="center" dir="auto">50</td>
+<td align="center" dir="auto">100</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Personnel nécessaire</strong></td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">2</td>
+<td align="center" dir="auto">2</td>
+</tr>
+</tbody>
+</table></div><div class="el-h4"><h4 data-heading="Bonus de qualité" dir="auto" class="heading" id="Bonus_de_qualité_3"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Bonus de qualité</h4></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Pauvre</th>
+<th align="center" dir="ltr">Aisé</th>
+<th align="center" dir="ltr">Luxueux</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Revenus du restaurant</strong></td>
+<td align="center" dir="ltr">x 1</td>
+<td align="center" dir="ltr">x 1.5</td>
+<td align="center" dir="ltr">x 2</td>
+</tr>
+</tbody>
+</table></div><div class="el-h3"><h3 data-heading="Restaurant" dir="auto" class="heading" id="Restaurant_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Restaurant</h3></div><div class="el-p"><p dir="auto">Permet de vendre le surplus de nourriture pour avoir quelques revenus.</p></div><div class="el-p"><p dir="auto">Pour compter les revenus, ne pas oublier de décompter le personnel du nombre de clients.</p></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Petit</th>
+<th align="center" dir="ltr">Modeste</th>
+<th align="center" dir="ltr">Grand</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Taille (m²)</strong></td>
+<td align="center" dir="auto">49</td>
+<td align="center" dir="auto">100</td>
+<td align="center" dir="auto">144</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Coût de construction</strong></td>
+<td align="center" dir="ltr">50 pa</td>
+<td align="center" dir="ltr">1 po</td>
+<td align="center" dir="ltr">1.5 po</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Durée de construction (semaine)</strong></td>
+<td align="center" dir="auto">4</td>
+<td align="center" dir="auto">8</td>
+<td align="center" dir="auto">12</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Peut accueillir X personne.s</strong></td>
+<td align="center" dir="auto">20</td>
+<td align="center" dir="auto">50</td>
+<td align="center" dir="auto">100</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Personnel nécessaire</strong></td>
+<td align="center" dir="auto">2</td>
+<td align="center" dir="auto">4</td>
+<td align="center" dir="auto">5</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Revenu quotidien (par client)</strong></td>
+<td align="center" dir="ltr">10 pc</td>
+<td align="center" dir="ltr">10 pc</td>
+<td align="center" dir="ltr">10 pc</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Revenu hebdomadaire maximum</strong></td>
+<td align="center" dir="ltr">14 pa</td>
+<td align="center" dir="ltr">35 pa</td>
+<td align="center" dir="ltr">70 pa</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Revenu annuel maximum</strong></td>
+<td align="center" dir="ltr">7.28 po</td>
+<td align="center" dir="ltr">18.2 po</td>
+<td align="center" dir="ltr">36.4 po</td>
+</tr>
+</tbody>
+</table></div><div class="el-h4"><h4 data-heading="Bonus de qualité" dir="auto" class="heading" id="Bonus_de_qualité_4"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Bonus de qualité</h4></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Pauvre</th>
+<th align="center" dir="ltr">Aisé</th>
+<th align="center" dir="ltr">Luxueux</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Nombre de clients présents en moyenne</strong></td>
+<td align="center" dir="auto">50%</td>
+<td align="center" dir="auto">75%</td>
+<td align="center" dir="auto">100%</td>
+</tr>
+</tbody>
+</table></div><div class="el-h3"><h3 data-heading="Infirmerie" dir="auto" class="heading" id="Infirmerie_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Infirmerie</h3></div><div class="el-p"><p dir="auto">Soigne les blessures plus ou moins graves.</p></div><div class="el-p"><p dir="auto">Ne peut pas être géré par des enfants.</p></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Petit</th>
+<th align="center" dir="ltr">Modeste</th>
+<th align="center" dir="ltr">Grand</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Taille (m²)</strong></td>
+<td align="center" dir="auto">9</td>
+<td align="center" dir="auto">25</td>
+<td align="center" dir="auto">49</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Coût de construction</strong></td>
+<td align="center" dir="ltr">2 po</td>
+<td align="center" dir="ltr">5 po</td>
+<td align="center" dir="ltr">10 po</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Durée de construction (semaine)</strong></td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">2</td>
+<td align="center" dir="auto">4</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Peut accueillir X patient.s</strong></td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">3</td>
+<td align="center" dir="auto">8</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Personnel nécessaire</strong></td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">2</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Revenu quotidien (par client)</strong></td>
+<td align="center" dir="ltr">2 pa</td>
+<td align="center" dir="ltr">2 pa</td>
+<td align="center" dir="ltr">2 pa</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Revenu hebdomadaire maximum</strong></td>
+<td align="center" dir="ltr">14 pa</td>
+<td align="center" dir="ltr">42 pa</td>
+<td align="center" dir="ltr">112 pa</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Revenu annuel maximum</strong></td>
+<td align="center" dir="ltr">7.28 po</td>
+<td align="center" dir="ltr">21.84 po</td>
+<td align="center" dir="ltr">58.24 po</td>
+</tr>
+</tbody>
+</table></div><div class="el-h4"><h4 data-heading="Bonus de qualité" dir="auto" class="heading" id="Bonus_de_qualité_5"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Bonus de qualité</h4></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Pauvre</th>
+<th align="center" dir="ltr">Aisé</th>
+<th align="center" dir="ltr">Luxueux</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Type de soins</strong></td>
+<td align="center" dir="ltr">Soins généralistes</td>
+<td align="center" dir="ltr">Blessures de combat</td>
+<td align="center" dir="ltr">Démembrement</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Revenus</strong></td>
+<td align="center" dir="ltr">x 1</td>
+<td align="center" dir="ltr">x 2</td>
+<td align="center" dir="ltr">x 4</td>
+</tr>
+</tbody>
+</table></div><div class="el-h3"><h3 data-heading="Enclos pour monture" dir="auto" class="heading" id="Enclos_pour_monture_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Enclos pour monture</h3></div><div class="el-p"><p dir="auto">Permet aux montures de se reposer pour être plus efficaces lors de leur prochain voyage.</p></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Petit</th>
+<th align="center" dir="ltr">Modeste</th>
+<th align="center" dir="ltr">Grand</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Taille (m²)</strong></td>
+<td align="center" dir="auto">16</td>
+<td align="center" dir="auto">36</td>
+<td align="center" dir="auto">81</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Coût de construction</strong></td>
+<td align="center" dir="ltr">70 pa</td>
+<td align="center" dir="ltr">1.5 po</td>
+<td align="center" dir="ltr">3 po</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Durée de construction (semaine)</strong></td>
+<td align="center" dir="auto">2</td>
+<td align="center" dir="auto">3</td>
+<td align="center" dir="auto">6</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Peut accueillir 1 monture de taille X</strong></td>
+<td align="center" dir="ltr">Moyenne</td>
+<td align="center" dir="ltr">Grande</td>
+<td align="center" dir="ltr">Très grande</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Consommation du champs</strong></td>
+<td align="center" dir="auto">+1</td>
+<td align="center" dir="auto">+3</td>
+<td align="center" dir="auto">+5</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Personnel nécessaire</strong></td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">1</td>
+</tr>
+</tbody>
+</table></div><div class="el-h4"><h4 data-heading="Bonus de qualité" dir="auto" class="heading" id="Bonus_de_qualité_6"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Bonus de qualité</h4></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Pauvre</th>
+<th align="center" dir="ltr">Aisé</th>
+<th align="center" dir="ltr">Luxueux</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Vitesse de voyage</strong></td>
+<td align="center" dir="ltr">x 1</td>
+<td align="center" dir="ltr">A déterminer</td>
+<td align="center" dir="ltr">A déterminer</td>
+</tr>
+</tbody>
+</table></div><div class="el-h3"><h3 data-heading="Atelier d'artisanat" dir="auto" class="heading" id="Atelier_d'artisanat_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Atelier d'artisanat</h3></div><div class="el-p"><p dir="auto">L'atelier permet au joueur et aux employés de fabriquer des objets pour s'en servir ou pour les revendre.</p></div><div class="el-p"><p dir="auto">Les matériaux pour la fabrication doivent toujours être fournis par le joueur.</p></div><div class="el-p"><p dir="auto">Chaque atelier doit se spécialiser parmi ces choix :</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>
+<p>bijouterie <em>(coût de construction x4)</em>,</p>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>
+<p>forge <em>(coût de construction x2)</em>,</p>
+</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span>
+<p>atelier d'enchanteur <em>(coût de construction x3)</em>,</p>
+</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span>
+<p>tannerie <em>(coût de construction x1)</em>,</p>
+</li>
+<li data-line="8" dir="auto"><span class="list-bullet"></span>
+<p>atelier d'artificier <em>(coût de construction x1.5)</em>.</p>
+</li>
+</ul></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Petit</th>
+<th align="center" dir="ltr">Modeste</th>
+<th align="center" dir="ltr">Grand</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Taille (m²)</strong></td>
+<td align="center" dir="auto">25</td>
+<td align="center" dir="auto">49</td>
+<td align="center" dir="auto">100</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Coût de construction</strong></td>
+<td align="center" dir="ltr">4 po</td>
+<td align="center" dir="ltr">8 po</td>
+<td align="center" dir="ltr">15 po</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Durée de construction (semaine)</strong></td>
+<td align="center" dir="auto">2</td>
+<td align="center" dir="auto">4</td>
+<td align="center" dir="auto">7</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Personnel nécessaire</strong></td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">2</td>
+<td align="center" dir="auto">4</td>
+</tr>
+</tbody>
+</table></div><div class="el-h4"><h4 data-heading="Bonus de qualité" dir="auto" class="heading" id="Bonus_de_qualité_7"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Bonus de qualité</h4></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Pauvre</th>
+<th align="center" dir="ltr">Aisé</th>
+<th align="center" dir="ltr">Luxueux</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Taux de réussite</strong></td>
+<td align="center" dir="ltr">x 1</td>
+<td align="center" dir="ltr">x 1.5</td>
+<td align="center" dir="ltr">x 2</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Vitesse des habitants</strong></td>
+<td align="center" dir="ltr">x 1</td>
+<td align="center" dir="ltr">x 1.5</td>
+<td align="center" dir="ltr">x 2</td>
+</tr>
+</tbody>
+</table></div><div class="el-h3"><h3 data-heading="Atelier d'alchimie" dir="auto" class="heading" id="Atelier_d'alchimie_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Atelier d'alchimie</h3></div><div class="el-p"><p dir="auto">L'atelier permet au joueur et aux employés de fabriquer des objets pour s'en servir ou pour les revendre.</p></div><div class="el-p"><p dir="auto">Les matériaux pour la fabrication doivent toujours être fournis par le joueur.</p></div><div class="el-p"><p dir="auto">Chaque atelier doit se spécialiser parmi ces choix :</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>
+<p>potionniste <em>(coût de construction x1)</em>,</p>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>
+<p>invocateur <em>(coût de construction x2)</em>.</p>
+</li>
+</ul></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Petit</th>
+<th align="center" dir="ltr">Modeste</th>
+<th align="center" dir="ltr">Grand</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Taille (m²)</strong></td>
+<td align="center" dir="auto">49</td>
+<td align="center" dir="auto">100</td>
+<td align="center" dir="auto">144</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Coût de construction</strong></td>
+<td align="center" dir="ltr">10 po</td>
+<td align="center" dir="ltr">20 po</td>
+<td align="center" dir="ltr">30 po</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Durée de construction (semaine)</strong></td>
+<td align="center" dir="auto">4</td>
+<td align="center" dir="auto">7</td>
+<td align="center" dir="auto">10</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Personnel nécessaire</strong></td>
+<td align="center" dir="auto">2</td>
+<td align="center" dir="auto">4</td>
+<td align="center" dir="auto">5</td>
+</tr>
+</tbody>
+</table></div><div class="el-h4"><h4 data-heading="Bonus de qualité" dir="auto" class="heading" id="Bonus_de_qualité_8"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Bonus de qualité</h4></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Pauvre</th>
+<th align="center" dir="ltr">Aisé</th>
+<th align="center" dir="ltr">Luxueux</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Taux de réussite</strong></td>
+<td align="center" dir="ltr">x 1</td>
+<td align="center" dir="ltr">x 1.5</td>
+<td align="center" dir="ltr">x 2</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Vitesse des habitants</strong></td>
+<td align="center" dir="ltr">x 1</td>
+<td align="center" dir="ltr">x 1.5</td>
+<td align="center" dir="ltr">x 2</td>
+</tr>
+</tbody>
+</table></div><div class="el-h3"><h3 data-heading="Hôtel des ventes" dir="auto" class="heading" id="Hôtel_des_ventes_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Hôtel des ventes</h3></div><div class="el-p"><p dir="auto">Rachète des biens pour tenter de les revendre plus chères.</p></div><div class="el-p"><p dir="auto">Si personne n'achète, les biens sont vendus à pertes.</p></div><div class="el-p"><p dir="auto">Chaque semaine, le joueur peut lancer 1d100 et faire 99 ou 100 pour récupérer un objet rare.</p></div><div class="el-p"><p dir="auto">Lorsqu'il y a un objet rare, il n'y a pas de revenus pour cette semaine.</p></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Petit</th>
+<th align="center" dir="ltr">Modeste</th>
+<th align="center" dir="ltr">Grand</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Taille (m²)</strong></td>
+<td align="center" dir="auto">9</td>
+<td align="center" dir="auto">16</td>
+<td align="center" dir="auto">25</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Coût de construction</strong></td>
+<td align="center" dir="ltr">1 po</td>
+<td align="center" dir="ltr">5 po</td>
+<td align="center" dir="ltr">10 po</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Durée de construction (semaine)</strong></td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">2</td>
+<td align="center" dir="auto">2</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Personnel nécessaire</strong></td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">1</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Revenus/ Pertes hebdomadaires</strong></td>
+<td align="center" dir="ltr">10 pa</td>
+<td align="center" dir="ltr">50 pa</td>
+<td align="center" dir="ltr">1 po</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Revenu annuel maximum</strong></td>
+<td align="center" dir="ltr">5.2 po</td>
+<td align="center" dir="ltr">26 po</td>
+<td align="center" dir="ltr">52 po</td>
+</tr>
+</tbody>
+</table></div><div class="el-h4"><h4 data-heading="Bonus de qualité" dir="auto" class="heading" id="Bonus_de_qualité_9"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Bonus de qualité</h4></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Pauvre</th>
+<th align="center" dir="ltr">Aisé</th>
+<th align="center" dir="ltr">Luxueux</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Chances de revenus</strong></td>
+<td align="center" dir="auto">+ 0</td>
+<td align="center" dir="auto">+ 1</td>
+<td align="center" dir="auto">+ 2</td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">Chaque semaine, le joueur lance 1d10 + <em>Chances de revenus</em>.</p></div><div class="el-p"><p dir="auto">S'il fait 6 ou plus, il gagne les revenus. Sinon il les déduit de son compte.</p></div><div class="el-blockquote"><blockquote dir="auto">
+<p><strong>Exemple</strong> : Modeste hôtel des ventes (<em>pauvre</em>) : 1d10 <em>+0</em>. Il fait 2 <em>+0</em> -&gt; Il perd 1 po.</p>
+</blockquote></div><div class="el-h3"><h3 data-heading="Portail de téléportation" dir="auto" class="heading" id="Portail_de_téléportation_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Portail de téléportation</h3></div><div class="el-p"><p dir="auto">La téléportation fonctionne par tranche de 100kg.</p></div><div class="el-p"><p dir="auto">Si on téléporte 101kg, il faut considérer qu'il y a "2 téléportations"</p></div><div class="el-p"><p dir="auto">On doit utiliser ses crystaux ou ceux du personnel pour utiliser le portail.</p></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Petit</th>
+<th align="center" dir="ltr">Modeste</th>
+<th align="center" dir="ltr">Grand</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Taille (m²)</strong></td>
+<td align="center" dir="auto">100</td>
+<td align="center" dir="auto">225</td>
+<td align="center" dir="auto">400</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Coût de construction</strong></td>
+<td align="center" dir="ltr">50 po</td>
+<td align="center" dir="ltr">100 po</td>
+<td align="center" dir="ltr">175 po</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Durée de construction (semaine)</strong></td>
+<td align="center" dir="auto">7</td>
+<td align="center" dir="auto">16</td>
+<td align="center" dir="auto">27</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Crystaux nécessaires pour téléporter 100kg</strong></td>
+<td align="center" dir="auto">12</td>
+<td align="center" dir="auto">8</td>
+<td align="center" dir="auto">4</td>
+</tr>
+</tbody>
+</table></div><div class="el-h4"><h4 data-heading="Bonus de qualité" dir="auto" class="heading" id="Bonus_de_qualité_10"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Bonus de qualité</h4></div><div class="el-table" dir="auto" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="auto"></th>
+<th align="center" dir="ltr">Pauvre</th>
+<th align="center" dir="ltr">Aisé</th>
+<th align="center" dir="ltr">Luxueux</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Crystaux nécessaires</strong></td>
+<td align="center" dir="auto">100%</td>
+<td align="center" dir="auto">75%</td>
+<td align="center" dir="auto">50%</td>
+</tr>
+</tbody>
+</table></div><div class="el-hr"><hr></div><div class="el-h2"><h2 data-heading="Evénements" dir="auto" class="heading" id="Evénements_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Evénements</h2></div><div class="el-h3"><h3 data-heading="Bâtiment" dir="auto" class="heading" id="Bâtiment_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Bâtiment</h3></div><div class="el-p"><p dir="auto">Toutes les semaines où le joueur n'est pas dans son bâtiment, il doit lancer 1d20 pour déterminer ce qu'il s'est passé pendant son absence.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Jet</th>
+<th dir="ltr">Résultat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1-4</td>
+<td dir="ltr">Un nouvel habitant s'est présenté</td>
+</tr>
+<tr>
+<td dir="auto">5</td>
+<td dir="ltr">Un vol a eu lieu<br>Le joueur perd 50% de son revenu de la semaine</td>
+</tr>
+<tr>
+<td dir="auto">6</td>
+<td dir="ltr">Un attaque a eu lieu<br>Le joueur lance 1d20 pour chaque habitant<br>1 résulte en la mort de l'habitant</td>
+</tr>
+<tr>
+<td dir="auto">7-20</td>
+<td dir="ltr">Rien ne se passe</td>
+</tr>
+</tbody>
+</table></div><div class="el-h3"><h3 data-heading="Habitants" dir="auto" class="heading" id="Habitants_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Habitants</h3></div><div class="el-p"><p dir="auto">Lorsqu'un nouvel habitant se présente, le joueur peut l'accepter et lui attribuer des tâches ou le renvoyer.</p></div><div class="el-p"><p dir="auto">S'il l'accepte, il faut :</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>
+<p>lui fournir une chambre (ça ne peut pas être la chambre d'un joueur quand il ne s'en sert pas),</p>
+</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><span class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>
+<p>le nourrir</p>
+<ul class="has-list-bullet">
+<li data-line="4" dir="auto"><span class="list-bullet"></span>
+<p>en payant 15pc de nourriture par jour,</p>
+</li>
+<li data-line="6" dir="auto"><span class="list-bullet"></span>
+<p>en ayant assez de nourriture à fournir à la cuisine.</p>
+</li>
+</ul>
+</li>
+</ul></div><div class="el-p"><p dir="auto">Le joueur peut ensuite lui attribuer une tâche, en l'associant à une pièce.</p></div><div class="el-p"><p dir="auto">Chaque semaine, pour chaque pièce, le joueur doit jeter 1d12 pour déterminer les événements qui s'y sont produits.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Jet</th>
+<th dir="ltr">Besoin</th>
+<th dir="ltr">Conséquences</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="ltr">Gourmandise</td>
+<td dir="ltr">Consomme 2x plus de nourriture<br>S'il n'y a pas assez de nourriture, il abime une pièce</td>
+</tr>
+<tr>
+<td dir="auto">2</td>
+<td dir="ltr">Luxe</td>
+<td dir="ltr">Utilise 20% des revenus d'une pièce</td>
+</tr>
+<tr>
+<td dir="auto">3</td>
+<td dir="ltr">Paresse</td>
+<td dir="ltr">N'effectue pas sa tâche pour la semaine</td>
+</tr>
+<tr>
+<td dir="auto">4</td>
+<td dir="ltr">Maladie</td>
+<td dir="ltr">Diminue le revenu de 50%<br>S'il n'est pas soigné après 1 semaine, contamine un autre habitant<br>Après 2 semaines de maladie, il meurt</td>
+</tr>
+<tr>
+<td dir="auto">5</td>
+<td dir="ltr">Folie</td>
+<td dir="ltr">N'effectue pas sa tâche<br>Peut rendre fou un autre habitant si non traité<br>Déclenche une mutinerie s'il y a 10 fous</td>
+</tr>
+<tr>
+<td dir="auto">6</td>
+<td dir="ltr">Studieux</td>
+<td dir="ltr">Double ses revenus</td>
+</tr>
+<tr>
+<td dir="auto">7</td>
+<td dir="ltr">Modèle</td>
+<td dir="ltr">Augmente les revenus totaux de 25%</td>
+</tr>
+<tr>
+<td dir="auto">8-12</td>
+<td dir="ltr">Rien</td>
+<td dir="auto">-</td>
+</tr>
+</tbody>
+</table></div><div class="footer"><div class="data-bar"></div></div></div></div></div><div id="right-content" class="leaf" style="--sidebar-width: var(--sidebar-width-right);"><div id="right-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme-toggle-input" id=""><input class="theme-toggle-input" type="checkbox" id="theme-toggle-input"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="right-sidebar-content" class="leaf-content"><div class="graph-view-wrapper"><div class="feature-header"><div class="feature-title">Interactive Graph</div></div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<div class="graph-icon graph-global" role="button" aria-label="Global Graph" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork"><circle cx="12" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><circle cx="18" cy="6" r="3"></circle><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"></path><path d="M12 12v3"></path></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div id="outline" class=" tree-container"><div class="feature-header"><div class="feature-title">Table Of Contents</div><button class="clickable-icon nav-action-button tree-collapse-all" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-item mod-collapsible" data-depth="1"><a class="tree-item-self is-clickable mod-collapsible" href="jeu/règles/mini-jeux/propriétaire.html#Propriétaire_0" data-path="#Propriétaire_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Propriétaire">Propriétaire</div></a><div class="tree-item-children"><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-item-self is-clickable mod-collapsible" href="jeu/règles/mini-jeux/propriétaire.html#Fonctionnement_0" data-path="#Fonctionnement_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Fonctionnement">Fonctionnement</div></a><div class="tree-item-children"><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="jeu/règles/mini-jeux/propriétaire.html#Construire_0" data-path="#Construire_0"><div class="tree-item-inner heading-link" heading-name="Construire">Construire</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="jeu/règles/mini-jeux/propriétaire.html#Agrandir_0" data-path="#Agrandir_0"><div class="tree-item-inner heading-link" heading-name="Agrandir">Agrandir</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="jeu/règles/mini-jeux/propriétaire.html#Modifier_0" data-path="#Modifier_0"><div class="tree-item-inner heading-link" heading-name="Modifier">Modifier</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="jeu/règles/mini-jeux/propriétaire.html#Bonus_de_qualité_0" data-path="#Bonus_de_qualité_0"><div class="tree-item-inner heading-link" heading-name="Bonus de qualité">Bonus de qualité</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="jeu/règles/mini-jeux/propriétaire.html#Finances_0" data-path="#Finances_0"><div class="tree-item-inner heading-link" heading-name="Finances">Finances</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-item-self is-clickable mod-collapsible" href="jeu/règles/mini-jeux/propriétaire.html#Pièces_0" data-path="#Pièces_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Pièces">Pièces</div></a><div class="tree-item-children"><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-item-self is-clickable mod-collapsible" href="jeu/règles/mini-jeux/propriétaire.html#Chambre_0" data-path="#Chambre_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Chambre">Chambre</div></a><div class="tree-item-children"><div class="tree-item" data-depth="4"><a class="tree-item-self is-clickable" href="jeu/règles/mini-jeux/propriétaire.html#Bonus_de_qualité_1" data-path="#Bonus_de_qualité_1"><div class="tree-item-inner heading-link" heading-name="Bonus de qualité">Bonus de qualité</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-item-self is-clickable mod-collapsible" href="jeu/règles/mini-jeux/propriétaire.html#Champs_0" data-path="#Champs_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Champs">Champs</div></a><div class="tree-item-children"><div class="tree-item" data-depth="4"><a class="tree-item-self is-clickable" href="jeu/règles/mini-jeux/propriétaire.html#Bonus_de_qualité_2" data-path="#Bonus_de_qualité_2"><div class="tree-item-inner heading-link" heading-name="Bonus de qualité">Bonus de qualité</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-item-self is-clickable mod-collapsible" href="jeu/règles/mini-jeux/propriétaire.html#Cuisine_0" data-path="#Cuisine_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Cuisine">Cuisine</div></a><div class="tree-item-children"><div class="tree-item" data-depth="4"><a class="tree-item-self is-clickable" href="jeu/règles/mini-jeux/propriétaire.html#Bonus_de_qualité_3" data-path="#Bonus_de_qualité_3"><div class="tree-item-inner heading-link" heading-name="Bonus de qualité">Bonus de qualité</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-item-self is-clickable mod-collapsible" href="jeu/règles/mini-jeux/propriétaire.html#Restaurant_0" data-path="#Restaurant_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Restaurant">Restaurant</div></a><div class="tree-item-children"><div class="tree-item" data-depth="4"><a class="tree-item-self is-clickable" href="jeu/règles/mini-jeux/propriétaire.html#Bonus_de_qualité_4" data-path="#Bonus_de_qualité_4"><div class="tree-item-inner heading-link" heading-name="Bonus de qualité">Bonus de qualité</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-item-self is-clickable mod-collapsible" href="jeu/règles/mini-jeux/propriétaire.html#Infirmerie_0" data-path="#Infirmerie_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Infirmerie">Infirmerie</div></a><div class="tree-item-children"><div class="tree-item" data-depth="4"><a class="tree-item-self is-clickable" href="jeu/règles/mini-jeux/propriétaire.html#Bonus_de_qualité_5" data-path="#Bonus_de_qualité_5"><div class="tree-item-inner heading-link" heading-name="Bonus de qualité">Bonus de qualité</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-item-self is-clickable mod-collapsible" href="jeu/règles/mini-jeux/propriétaire.html#Enclos_pour_monture_0" data-path="#Enclos_pour_monture_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Enclos pour monture">Enclos pour monture</div></a><div class="tree-item-children"><div class="tree-item" data-depth="4"><a class="tree-item-self is-clickable" href="jeu/règles/mini-jeux/propriétaire.html#Bonus_de_qualité_6" data-path="#Bonus_de_qualité_6"><div class="tree-item-inner heading-link" heading-name="Bonus de qualité">Bonus de qualité</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-item-self is-clickable mod-collapsible" href="jeu/règles/mini-jeux/propriétaire.html#Atelier_d'artisanat_0" data-path="#Atelier_d'artisanat_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Atelier d'artisanat">Atelier d'artisanat</div></a><div class="tree-item-children"><div class="tree-item" data-depth="4"><a class="tree-item-self is-clickable" href="jeu/règles/mini-jeux/propriétaire.html#Bonus_de_qualité_7" data-path="#Bonus_de_qualité_7"><div class="tree-item-inner heading-link" heading-name="Bonus de qualité">Bonus de qualité</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-item-self is-clickable mod-collapsible" href="jeu/règles/mini-jeux/propriétaire.html#Atelier_d'alchimie_0" data-path="#Atelier_d'alchimie_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Atelier d'alchimie">Atelier d'alchimie</div></a><div class="tree-item-children"><div class="tree-item" data-depth="4"><a class="tree-item-self is-clickable" href="jeu/règles/mini-jeux/propriétaire.html#Bonus_de_qualité_8" data-path="#Bonus_de_qualité_8"><div class="tree-item-inner heading-link" heading-name="Bonus de qualité">Bonus de qualité</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-item-self is-clickable mod-collapsible" href="jeu/règles/mini-jeux/propriétaire.html#Hôtel_des_ventes_0" data-path="#Hôtel_des_ventes_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Hôtel des ventes">Hôtel des ventes</div></a><div class="tree-item-children"><div class="tree-item" data-depth="4"><a class="tree-item-self is-clickable" href="jeu/règles/mini-jeux/propriétaire.html#Bonus_de_qualité_9" data-path="#Bonus_de_qualité_9"><div class="tree-item-inner heading-link" heading-name="Bonus de qualité">Bonus de qualité</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-item-self is-clickable mod-collapsible" href="jeu/règles/mini-jeux/propriétaire.html#Portail_de_téléportation_0" data-path="#Portail_de_téléportation_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Portail de téléportation">Portail de téléportation</div></a><div class="tree-item-children"><div class="tree-item" data-depth="4"><a class="tree-item-self is-clickable" href="jeu/règles/mini-jeux/propriétaire.html#Bonus_de_qualité_10" data-path="#Bonus_de_qualité_10"><div class="tree-item-inner heading-link" heading-name="Bonus de qualité">Bonus de qualité</div></a><div class="tree-item-children"></div></div></div></div></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-item-self is-clickable mod-collapsible" href="jeu/règles/mini-jeux/propriétaire.html#Evénements_0" data-path="#Evénements_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Evénements">Evénements</div></a><div class="tree-item-children"><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="jeu/règles/mini-jeux/propriétaire.html#Bâtiment_0" data-path="#Bâtiment_0"><div class="tree-item-inner heading-link" heading-name="Bâtiment">Bâtiment</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="jeu/règles/mini-jeux/propriétaire.html#Habitants_0" data-path="#Habitants_0"><div class="tree-item-inner heading-link" heading-name="Habitants">Habitants</div></a><div class="tree-item-children"></div></div></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector("#right-sidebar"); rs.classList.toggle("is-collapsed", window.innerWidth < 768); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></div></div></body></html>

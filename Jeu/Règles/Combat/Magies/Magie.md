@@ -1,1 +1,0 @@
->La magie brut, sans être imprégnée des différents éléments.
