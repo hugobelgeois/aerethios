@@ -128,8 +128,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "52ea735454c5fc85",
+  "active": "fb1b9455bbf01007",
   "lastOpenFiles": [
+    "README.md",
     "site-lib/rss.xml",
     "bestiaire/planaires/dieux/radeon,-dieu-dormant.html",
     "bestiaire/planaires/dieux/gamesh,-dieu-scintillant.html",
@@ -150,7 +151,6 @@
     "images/grande-mère.png",
     "images/geography.html",
     "images/naga-sand.html",
-    "images/naga-warrior.html",
     "tmp/index.md",
     "tmp/README.md",
     "tmp/Notes/Templis.md",
