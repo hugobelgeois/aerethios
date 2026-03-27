@@ -14,7 +14,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "Nouvel onglet"
+              "title": "New tab"
             }
           }
         ]
@@ -40,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorateur de fichiers"
+              "title": "Files"
             }
           },
           {
@@ -96,7 +96,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Mots-clés"
+              "title": "Tags"
             }
           },
           {
@@ -122,35 +122,36 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "command-palette:Ouvrir la palette de commandes": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fb1b9455bbf01007",
+  "active": "52ea735454c5fc85",
   "lastOpenFiles": [
-    "README.md",
-    "site-lib/rss.xml",
-    "bestiaire/planaires/dieux/radeon,-dieu-dormant.html",
-    "bestiaire/planaires/dieux/gamesh,-dieu-scintillant.html",
-    "bestiaire/planaires/dieux/obel,-dieu-affamé.html",
-    "bestiaire/planaires/dieux/kira,-dieu-pourpre.html",
-    "bestiaire/planaires/dieux/imet,-dieu-patient.html",
-    "bestiaire/planaires/dieux/aerel,-grande-mère.html",
-    "readme.html",
-    "images/zveindel.png",
-    "images/weapon-range.png",
-    "images/weapon-hast.png",
-    "images/nain-mech.png",
-    "images/naga-water.png",
-    "images/naga-warrior.png",
     "images/naga-sand.png",
+    "images/zveindel.png",
+    "images/zveindel.html",
+    "images/weapon-range.png",
+    "images/weapon-range.html",
+    "images/weapon-hast.png",
+    "images/weapon-hast.html",
+    "images/nain-mech.png",
+    "images/nain-mech.html",
+    "images/naga-sand.html",
+    "images/naga-water.png",
+    "images/naga-water.html",
+    "images/naga-warrior.png",
+    "images/naga-warrior.html",
     "images/naga-adult.png",
     "images/hazdaim.png",
+    "images/naga-adult.html",
+    "images/hazdaim.html",
     "images/grande-mère.png",
-    "images/geography.html",
-    "images/naga-sand.html",
+    "images/grande-mère.html",
+    "images/geography.jpg",
+    "README.md",
     "tmp/index.md",
     "tmp/README.md",
     "tmp/Notes/Templis.md",
@@ -174,7 +175,6 @@
     "tmp/Jeu/Règles/Combat/Magies/Magie.md",
     "tmp/Jeu/Règles/Compétences/Compétences d'Equipements/Armures Tmp.md",
     "tmp/Jeu/Règles/Compétences/Compétences d'Equipements/Armes Tmp.md",
-    "tmp/Jeu/Règles/Combat/Magies/Roche.md",
-    "tmp/Jeu/Règles/Combat/Magies/Lumière.md"
+    "tmp/Jeu/Règles/Combat/Magies/Roche.md"
   ]
 }
