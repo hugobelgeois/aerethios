@@ -14,7 +14,7 @@
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nouvel onglet"
             }
           }
         ]
@@ -40,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorateur de fichiers"
             }
           },
           {
@@ -96,7 +96,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Mots-clés"
             }
           },
           {
@@ -122,14 +122,22 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "command-palette:Open command palette": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "command-palette:Ouvrir la palette de commandes": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "52ea735454c5fc85",
   "lastOpenFiles": [
+    "site-lib/rss.xml",
+    "bestiaire/planaires/dieux/radeon,-dieu-dormant.html",
+    "bestiaire/planaires/dieux/gamesh,-dieu-scintillant.html",
+    "bestiaire/planaires/dieux/obel,-dieu-affamé.html",
+    "bestiaire/planaires/dieux/kira,-dieu-pourpre.html",
+    "bestiaire/planaires/dieux/imet,-dieu-patient.html",
+    "bestiaire/planaires/dieux/aerel,-grande-mère.html",
+    "readme.html",
     "images/zveindel.png",
     "images/weapon-range.png",
     "images/weapon-hast.png",
@@ -140,17 +148,9 @@
     "images/naga-adult.png",
     "images/hazdaim.png",
     "images/grande-mère.png",
-    "images/geography.jpg",
     "images/geography.html",
     "images/naga-sand.html",
     "images/naga-warrior.html",
-    "images/naga-water.html",
-    "images/naga-adult.html",
-    "images/nain-mech.html",
-    "images/dieu-dormant.html",
-    "images/dieu-scintillant.html",
-    "images/dieu-pourpre.html",
-    "images/grande-mère.html",
     "tmp/index.md",
     "tmp/README.md",
     "tmp/Notes/Templis.md",
