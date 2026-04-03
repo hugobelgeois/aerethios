@@ -1,53 +1,350 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Aerethios]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>Aerethios</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 27 Mar 2026 10:32:53 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 27 Mar 2026 10:32:19 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Bourg]]></title><description><![CDATA[
-Un bourg est un centre régional animé.
-Il accueille des artisans, des marchands, des temples et les autorités locales.
-Protégé par des remparts ou un fossé, il comporte souvent des quartiers spécialisés (marchand, artisanal, noble, religieux, populaire).
-Son activité repose sur le commerce, la production artisanale et la collecte des impôts locaux. Population : 2 000 à 10 000 habitants
-Maisons : 400 à 2 000 foyers
-Organisation : rues organisées, place centrale, bâtiments administratifs et marchands
-Rôle : centre commercial et artisanal pour la région environnante Autorité : maire ou conseil du bourg
-Sécurité : milice permanente, tours de guet
-Économie : marché régulier, artisanat spécialisé, commerce régional
-Culture : écoles, rassemblements communautaires, lieux de rencontre
-Religion / croyances : chapelle ou petit temple Maisons d’habitation (majoritairement en pierre ou bois renforcé)
-Logis seigneurial / manoir ou petit château fortifié
-Hôtel de ville / maison du conseil
-Temple principal (souvent monumental, dédié à un dieu majeur)
-Chapelles secondaires (liées à d’autres dieux ou confréries)
-Auberges et tavernes (multiples, selon le quartier)
-Fours banaux (un par quartier)
-Marché couvert central (halle monumentale)
-Puits et citernes répartis par zone
-Hospice / maison de soins (souvent tenu par un ordre religieux)
-Écoles et scriptorium (lieux d’enseignement ou de copie de textes) Ateliers d’artisans spécialisés : Forgerons (armes, outils, cloches, ferrures fines)
-Tanneurs, cordonniers, tisserands, teinturiers, potiers
-Menuisiers, verriers, orfèvres, sculpteurs Entrepôts de marchands et comptoirs d’échanges
-Guildes professionnelles (marchands, artisans, mages, guérisseurs)
-Moulin(s) à eau ou à vent, parfois intégrés aux remparts
-Bains publics / thermes (lieu social important, parfois magique)
-Petite garnison fortifiée (50 à 200 soldats selon le contexte politique)
-Prison et tribunal
-Tour du guet / beffroi (sert aussi de cloche civique ou d’alarme)
-Palissade / rempart de pierre avec portes fortifiées
-Pont ou quai fluvial si rivière à proximité
-Cimetière majeur + ossuaire
-Caravansérail (hébergement pour marchands itinérants et bêtes)
-Arène, théâtre ou place d’exécution publique (selon les coutumes locales) Champs périphériques (blé, orge, lin, légumes, etc.)
-Vergers, vignes et pâturages gérés par les familles rurales du bourg
-Rivières / canaux (souvent aménagés pour le transport et la défense)
-Bois communal (chasse, bois de chauffe, charbonnage)
-Carrière, mine ou marais exploité pour la pierre, le métal ou le sel
-Zones agricoles dépendantes (hameaux et villages sous l’autorité du bourg)
-Réseau de routes pavées reliant les bourgs voisins et les capitales régionales
-Place des foires (grands rassemblements saisonniers)
-Jardins sacrés / fontaines enchantées selon le culte dominant
-]]></description><link>géographie/misc/bourg.html</link><guid isPermaLink="false">Géographie/Misc/Bourg.md</guid><pubDate>Fri, 27 Mar 2026 10:30:13 GMT</pubDate></item><item><title><![CDATA[Kothula]]></title><description><![CDATA[<a data-href="Alegael" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Alegael</a><br><a data-href="Chenav" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chenav</a><br>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Aerethios]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>Aerethios</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 03 Apr 2026 14:16:42 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 03 Apr 2026 14:16:41 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Kothula]]></title><description><![CDATA[<a data-href="Alegael" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Alegael</a><br><a data-href="Chenav" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chenav</a><br>
 <a data-href="Eogulf" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Eogulf</a><br>
 <a data-href="Gelbiq" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Gelbiq</a><br>
 <a data-href="Izmir" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Izmir</a><br>
 <a data-href="Kamini" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Kamini</a><br>
 <a data-href="Payiong" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Payiong</a><br>
-<a data-href="Valdos" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Valdos</a>]]></description><link>géographie/kothula/kothula.html</link><guid isPermaLink="false">Géographie/Kothula/Kothula.md</guid><pubDate>Fri, 27 Mar 2026 10:30:09 GMT</pubDate></item><item><title><![CDATA[Alchimie]]></title><description><![CDATA[
+<a data-href="Valdos" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Valdos</a>]]></description><link>géographie/kothula/kothula.html</link><guid isPermaLink="false">Géographie/Kothula/Kothula.md</guid><pubDate>Fri, 03 Apr 2026 14:06:17 GMT</pubDate></item><item><title><![CDATA[Ovliin]]></title><description><![CDATA[<a data-href="Ruvik" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Ruvik</a><br><a data-href="Bizmor" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bizmor</a><br>
+<a data-href="Brek" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Brek</a><br>
+<a data-href="Gronok" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Gronok</a><br>
+<a data-href="Kraken" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Kraken</a><br>
+<a data-href="Mirnjoll" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mirnjoll</a><br>
+<a data-href="Ruskit" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Ruskit</a><br>
+<a data-href="Siv" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Siv</a><br>
+<a data-href="Urvalsn" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Urvalsn</a><br>
+<a data-href="Viskars" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Viskars</a><br>
+<a data-href="Wolg" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Wolg</a><br>
+<a data-href="Zuvir" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zuvir</a>]]></description><link>géographie/ovliin/ovliin.html</link><guid isPermaLink="false">Géographie/Ovliin/Ovliin.md</guid><pubDate>Fri, 03 Apr 2026 14:06:16 GMT</pubDate></item><item><title><![CDATA[Nirina]]></title><description><![CDATA[<a data-href="Melnavel" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Melnavel</a><br><a data-href="Elfais" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Elfais</a><br>
+<a data-href="Frakiln" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Frakiln</a><br>
+<a data-href="Fruss" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Fruss</a><br>
+<a data-href="Galmag" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Galmag</a><br>
+<a data-href="Pranels" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Pranels</a><br>
+<a data-href="Pulmius" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Pulmius</a><br>
+<a data-href="Sulimund" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Sulimund</a><br>
+<a data-href="Zaenir" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaenir</a>]]></description><link>géographie/nirina/nirina.html</link><guid isPermaLink="false">Géographie/Nirina/Nirina.md</guid><pubDate>Fri, 03 Apr 2026 14:06:16 GMT</pubDate></item><item><title><![CDATA[Suraja]]></title><description><![CDATA[<a data-href="Rhadiz" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Rhadiz</a><br><a data-href="Azurv" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Azurv</a><br>
+<a data-href="Eynamar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Eynamar</a><br>
+<a data-href="Irkma" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Irkma</a><br>
+<a data-href="Korkaahn" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Korkaahn</a><br>
+<a data-href="Myurnil" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Myurnil</a><br>
+<a data-href="Xubilayl" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Xubilayl</a><br>
+<a data-href="Zonig" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zonig</a>]]></description><link>géographie/suraja/suraja.html</link><guid isPermaLink="false">Géographie/Suraja/Suraja.md</guid><pubDate>Fri, 03 Apr 2026 14:06:16 GMT</pubDate></item><item><title><![CDATA[Cira]]></title><description><![CDATA[
+Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste
+Niveau : 8
+55 points à mettre au niveau 1 (min 7, max 14)
++1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (4/6) Maîtrise : 1
+Crystaux : 10
+Poids maximum : 38kg
+Force &gt; 10 : 40 + (Force Modificateur x 10)
+Force &lt; 10 : 40 + (Force Modificateur x 2) ]]></description><link>jeu/sessions-du-masque/joueurs/cira.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Cira.md</guid><pubDate>Fri, 03 Apr 2026 11:10:18 GMT</pubDate></item><item><title><![CDATA[Hazdaim]]></title><description><![CDATA[“Hazdaim.png” ne peut être trouvé.Niveau : 6
+55 points à mettre au niveau 1 (min 7, max 14)
++1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (2/4) Maîtrise : 1
+Crystaux : 9
+Poids maximum : 38kg
+Force &gt; 10 : 40 + (Force Modificateur x 10)
+Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
+<a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
+<a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
+<a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
+<a data-href="Léoric" href="jeu/sessions-du-masque/joueurs/léoric.html" class="internal-link" target="_self" rel="noopener nofollow">Léoric</a> <br>
+<a data-href="Zveindel" href="jeu/sessions-du-masque/joueurs/zveindel.html" class="internal-link" target="_self" rel="noopener nofollow">Zveindel</a> <br>
+<a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Radeon, Dieu Dormant" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Radeon, Dieu Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a> <br>
+<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> <br>
+<a data-href="Perseus" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Perseus</a> <br>
+<a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
+<a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
+<a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
+<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/hazdaim.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Hazdaim.md</guid><pubDate>Fri, 03 Apr 2026 11:08:32 GMT</pubDate></item><item><title><![CDATA[Haelrak]]></title><description><![CDATA[
+Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste
+Niveau : 5.5
+55 points à mettre au niveau 1 (min 7, max 14)
++1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (2/3) Maîtrise : 2
+Crystaux : 14
+Poids maximum : 38kg
+Force &gt; 10 : 40 + (Force Modificateur x 10)
+Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
+<a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
+<a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
+<a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
+<a data-href="Léoric" href="jeu/sessions-du-masque/joueurs/léoric.html" class="internal-link" target="_self" rel="noopener nofollow">Léoric</a> <br>
+<a data-href="Zveindel" href="jeu/sessions-du-masque/joueurs/zveindel.html" class="internal-link" target="_self" rel="noopener nofollow">Zveindel</a> <br>
+<a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Radeon, Dieu Dormant" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Radeon, Dieu Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a> <br>
+<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> <br>
+<a data-href="Perseus" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Perseus</a> <br>
+<a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
+<a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
+<a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
+<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/haelrak.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Haelrak.md</guid><pubDate>Fri, 03 Apr 2026 11:08:21 GMT</pubDate></item><item><title><![CDATA[Magie]]></title><description><![CDATA[
+Dé + Mental(Arcaniste|Intelligence|Sagesse) &gt;= AC -&gt; DR - (Résultat * (Crystaux + Toile Célèste)) = Dégâts au HP
+Si l'attaque n'atteint pas l'AC, lancer 1d4 pour savoir combien de crystaux ont été consommé.(Dé de magie + Maîtrise) x Nombre de crystaux + Toile Célèste = Dégâts(1d12 + [0:10]) x [1:20] + ? = [1:440]
+1d20 + Mental (Arcaniste|Intelligence|Sagesse) &gt;= DC
+S'il s'agit d'un buff, le coût en crystaux varie selon le type de stats que l'on souhaite buffer.S'il s'agit d'une action particulière, le MJ décide du coût en crystaux.S'il s'agit d'une Toile basée sur les magies courantes, on ajoute la valeur de la Toile]]></description><link>jeu/règles/combat/magie.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magie.md</guid><pubDate>Tue, 31 Mar 2026 14:04:37 GMT</pubDate></item><item><title><![CDATA[Charisme]]></title><description><![CDATA[
+Le joueur en choisi 1 tous les 5 points d'attribut (5, 10, 15, 20).
+Double le modificateur des jets selon la situation (le modificateur devient 0 s'il était négatif). Le joueur en choisi 1 tous les 1 point de modificateur (1, 2, 3, 4, 5).
+Il est nécessaire de posséder la compétence principale pour débloquer les compétences secondaires liées. S'il s'agit de son attribut le plus élevé, le joueur peut en choisir 1.
+Au niveau 20, il peut en choisir un deuxième ou annuler 1 effet négatif de celui qu'il a déjà (si c'est toujours son attribut le plus élevé).
+]]></description><link>jeu/règles/compétences/attributs/charisme.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Attributs/Charisme.md</guid><pubDate>Tue, 31 Mar 2026 13:37:32 GMT</pubDate></item><item><title><![CDATA[Dextérité]]></title><description><![CDATA[
+Le joueur en choisi 1 tous les 5 points d'attribut (5, 10, 15, 20).
+Double le modificateur des jets selon la situation (le modificateur devient 0 s'il était négatif). Le joueur en choisi 1 tous les 1 point de modificateur (1, 2, 3, 4, 5).
+Il est nécessaire de posséder la compétence principale pour débloquer les compétences secondaires liées. S'il s'agit de son attribut le plus élevé, le joueur peut en choisir 1.
+Au niveau 20, il peut en choisir un deuxième ou annuler 1 effet négatif de celui qu'il a déjà (si c'est toujours son attribut le plus élevé).
+]]></description><link>jeu/règles/compétences/attributs/dextérité.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Attributs/Dextérité.md</guid><pubDate>Tue, 31 Mar 2026 13:33:59 GMT</pubDate></item><item><title><![CDATA[00. Template]]></title><description><![CDATA[
+Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste
+Niveau :
+55 points à mettre au niveau 1 (min 7, max 14)
++1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 Maîtrise :
+Crystaux :
+Poids maximum :
+Force &gt; 10 : 40 + (Force Modificateur x 10)
+Force &lt; 10 : 40 + (Force Modificateur x 2) ]]></description><link>jeu/sessions-du-masque/joueurs/00.-template.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/00. Template.md</guid><pubDate>Tue, 31 Mar 2026 13:32:31 GMT</pubDate></item><item><title><![CDATA[Zveindel]]></title><description><![CDATA[“Zveindel.png” ne peut être trouvé.Niveau : 5.5
+55 points à mettre au niveau 1 (min 7, max 14)
++1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (2/3) Maîtrise : 3
+Crystaux : 14
+Poids maximum : 40+60 = 98kg
+Force &gt; 10 : 40 + (Force Modificateur x 10)
+Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
+<a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
+<a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
+<a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
+<a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
+<a data-href="Léoric" href="jeu/sessions-du-masque/joueurs/léoric.html" class="internal-link" target="_self" rel="noopener nofollow">Léoric</a> <br>
+<a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Radeon, Dieu Dormant" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Radeon, Dieu Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a> <br>
+<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> <br>
+<a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
+<a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
+<a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
+<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/zveindel.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Zveindel.md</guid><pubDate>Tue, 31 Mar 2026 13:27:33 GMT</pubDate></item><item><title><![CDATA[Léoric]]></title><description><![CDATA[
+Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste
+Niveau : 6
+55 points à mettre au niveau 1 (min 7, max 14)
++1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (2/4) Maîtrise : 2
+Crystaux : 9
+Poids maximum : 40kg
+Force &gt; 10 : 40 + (Force Modificateur x 10)
+Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
+<a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
+<a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
+<a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
+<a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
+<a data-href="Zveindel" href="jeu/sessions-du-masque/joueurs/zveindel.html" class="internal-link" target="_self" rel="noopener nofollow">Zveindel</a> <br>
+<a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Radeon, Dieu Dormant" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Radeon, Dieu Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a> <br>
+<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> <br>
+<a data-href="Perseus" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Perseus</a> <br>
+<a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
+<a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
+<a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
+<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/léoric.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Léoric.md</guid><pubDate>Tue, 31 Mar 2026 13:27:07 GMT</pubDate></item><item><title><![CDATA[Dara]]></title><description><![CDATA[“Dara.png” ne peut être trouvé.Niveau : 6
+55 points à mettre au niveau 1 (min 7, max 14)
++1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (2/4) Maîtrise : 1
+Crystaux : 9
+Poids maximum : 36+20 = 56kg
+Force &gt; 10 : 40 + (Force Modificateur x 10)
+Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
+<a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
+<a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
+<a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
+<a data-href="Léoric" href="jeu/sessions-du-masque/joueurs/léoric.html" class="internal-link" target="_self" rel="noopener nofollow">Léoric</a> <br>
+<a data-href="Zveindel" href="jeu/sessions-du-masque/joueurs/zveindel.html" class="internal-link" target="_self" rel="noopener nofollow">Zveindel</a> <br>
+<a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Radeon, Dieu Dormant" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Radeon, Dieu Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a> <br>
+<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> <br>
+<a data-href="Perseus" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Perseus</a> <br>
+<a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
+<a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
+<a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
+<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/dara.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Dara.md</guid><pubDate>Tue, 31 Mar 2026 13:25:46 GMT</pubDate></item><item><title><![CDATA[Arek]]></title><description><![CDATA[“Arek.png” ne peut être trouvé.Niveau : 8
+55 points à mettre au niveau 1 (min 7, max 14)
++1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 Maîtrise : 1
+Crystaux : 9
+Poids maximum : 70+80 = 150kg
+Force &gt; 10 : 40 + (Force Modificateur x 10)
+Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
+<a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
+<a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
+<a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
+<a data-href="Léoric" href="jeu/sessions-du-masque/joueurs/léoric.html" class="internal-link" target="_self" rel="noopener nofollow">Léoric</a> <br>
+<a data-href="Zveindel" href="jeu/sessions-du-masque/joueurs/zveindel.html" class="internal-link" target="_self" rel="noopener nofollow">Zveindel</a> <br>
+<a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Radeon, Dieu Dormant" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Radeon, Dieu Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a> <br>
+<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> <br>
+<a data-href="Perseus" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Perseus</a> <br>
+<a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
+<a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
+<a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
+<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/arek.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Arek.md</guid><pubDate>Tue, 31 Mar 2026 13:25:19 GMT</pubDate></item><item><title><![CDATA[Dieux]]></title><description><![CDATA[Dieu de la possession et du partage.
+“Dieu Scintillant.png” ne peut être trouvé.Déesse de la fertilité et du plaisir.
+“Grande Mère.png” ne peut être trouvé.Dieu des rêves et des ambitions.
+“Dieu Dormant.png” ne peut être trouvé.
+“Dieu Dormant 2.png” ne peut être trouvé.Dieu d'élévation et de grandeurDieu de la guerre et de l'amour.
+“Dieu Pourpre.png” ne peut être trouvé.Dieu de la vie et de la mort.]]></description><link>bestiaire/planaires/dieux/dieux.html</link><guid isPermaLink="false">Bestiaire/Planaires/Dieux/Dieux.md</guid><pubDate>Tue, 31 Mar 2026 13:01:30 GMT</pubDate></item><item><title><![CDATA[Halfdan]]></title><description><![CDATA[
+Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste
+Niveau : 4
+55 points à mettre au niveau 1 (min 7, max 14)
++1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 Maîtrise : 1
+Crystaux : 9
+Poids maximum : 50
+Force &gt; 10 : 40 + (Force Modificateur x 10)
+Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
+<a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
+<a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
+<a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
+<a data-href="Léoric" href="jeu/sessions-du-masque/joueurs/léoric.html" class="internal-link" target="_self" rel="noopener nofollow">Léoric</a> <br>
+<a data-href="Zveindel" href="jeu/sessions-du-masque/joueurs/zveindel.html" class="internal-link" target="_self" rel="noopener nofollow">Zveindel</a> <br>
+<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> ]]></description><link>jeu/sessions-du-masque/joueurs/halfdan.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Halfdan.md</guid><pubDate>Tue, 31 Mar 2026 12:59:39 GMT</pubDate></item><item><title><![CDATA[Armes]]></title><description><![CDATA[
+L'arme permet de se focaliser sur les dégâts rapides (vs AC) ou les dégâts lourds (vs DR).
+Utiliser la faiblesse de l'ennemi ne prend en compte que 50% de sa DR.
+Exemple avec X = 12 (Orichalque)Critiques -&gt; Permet de relancer un dé qui a fait le maximum pour cumuler les points
+Le nombre de relance disponible de l'enchantement de Nirina
+Le maximum de relance est égal au nombre de dés disponibles (ex: 3d4 = 3dés de relance max)
+Mêlée: Dé &gt;= AC -&gt; DR - (dé +X) = Dégâts au HP
+? Distance ? : 1d20 +Dex +Maîtrise &gt;= AC -&gt; DR - dégâts = Dégâts au HP
+X = Matériau
+Si le dé de dégâts atteint l'AC de la cible, on déduit de DR la somme du dé et de X, et ce qui reste réduit les HP.Enchanter une arme permet d'augmenter son dé de dégâts.Si une arme est en métal, seuls les <a data-tooltip-position="top" aria-label="Enchanteur &gt; Nirina" data-href="Enchanteur#Nirina" href="jeu/règles/apprentissages/artisanat/enchanteur.html#Nirina" class="internal-link" target="_self" rel="noopener nofollow">Enchantements de Nirina</a> sont efficaces. -&gt; Permettent de faire des coups critiques<br>Si une arme est en os, seul les <a data-tooltip-position="top" aria-label="Enchanteur &gt; Ovliin" data-href="Enchanteur#Ovliin" href="jeu/règles/apprentissages/artisanat/enchanteur.html#Ovliin" class="internal-link" target="_self" rel="noopener nofollow">Enchantements d'Ovliin</a> sont efficaces (en plus de lui ajouter un effet magique).
+La propriété VS (il faudra choisir) : ajoute un dé de dégâts lorsque l'attaque touche le bon type de cible (ne s'applique pas sur les armes à distance),
+double les dégâts finaux,
+annule la DR,
+divise la DR par 2. Effets
++ Se répare dans une forge/ avec la magie de métal
+Le revêtement retire les propriétés du matériau principal et applique le sien à la place.
+Les munitions utilisées avec une arme à distance possèdent leur propre propriété.]]></description><link>jeu/règles/combat/armes.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Armes.md</guid><pubDate>Tue, 31 Mar 2026 12:46:19 GMT</pubDate></item><item><title><![CDATA[Combat]]></title><description><![CDATA[Les humanoïdes possèdent tous un maximum de 50 HP qui se régénèrent avec du repos (pour peu que la personne ait mangé récemment) ou de la magie.Ils peuvent monter jusqu'à 100 HP pour une durée d'un jour si un plat avec des bons effets a été consommé.
+Seulement au premier tour, seulement fait par un joueur.
+Motiver son équipe pour lui donner un avantage/ Faire peur aux adversaires pour leur donner un désavantage (effet et durée selon le MJ)
+Résultat - Défense (DR) = Dégâts au HP. Prendre 10/20
+Prendre son temps (sans se faire perturber) pour réussir les DC de 10 (1 tour) / 20 (2 tours).Permet également de régénérer sa magie.]]></description><link>jeu/règles/combat/combat.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Combat.md</guid><pubDate>Tue, 31 Mar 2026 12:45:37 GMT</pubDate></item><item><title><![CDATA[Bestiaire]]></title><description><![CDATA[
+Les créatures du monde se regroupent en différentes catégories.
+Un <a data-href="aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Arvens" href=".html" class="internal-link" target="_self" rel="noopener nofollow">aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Arvens</a> ou un <a data-href="aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Templis" href=".html" class="internal-link" target="_self" rel="noopener nofollow">aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Templis</a> se doit de connaître les catégories qui le concernent s'il souhaite être efficace dans son domaine.
+<br>Entités combattues par les <a data-href="aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Arvens" href=".html" class="internal-link" target="_self" rel="noopener nofollow">aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Arvens</a> à l'aide de méthodes de combat conventionnelles.<br>Entités combattues par les <a data-href="aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Templis" href=".html" class="internal-link" target="_self" rel="noopener nofollow">aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Templis</a>
+Imbibé de magie (développe des abilités magiques posistives)
+Renforcé (les os sortent du corps pour faire un exo-squelette)
+Nécrosé de magie (comportement anormaux, régénération rapide, sorte de cancer)
+Parasité/ Symbioté
+Sacré Totémique (lié à un culte, sa force croît avec le nombre d’adorateurs ou de sacrifices)
+Cyclique (change d’apparence et de pouvoirs selon un cycle) Minuscule (rat, chauve-souris, familier)
+Petit (chien, gobelin, loup)
+Normal (humain, orc, ogre jeune)
+Grand (ours, troll, wyverne)
+Énorme (hydre, éléphant, ogroides puissants)
+Titanesque (dragons anciens, colosses, avatars des dieux)
+]]></description><link>bestiaire/bestiaire.html</link><guid isPermaLink="false">Bestiaire/Bestiaire.md</guid><pubDate>Fri, 27 Mar 2026 10:32:53 GMT</pubDate></item><item><title><![CDATA[Naga]]></title><description><![CDATA[Ne maîtrise qu'une seule magie, qu'ils peuvent imprégner dans un artefact d'invocation d'élémentaireGrandit infiniment, les plus grands ont été obligé de se retirer dans les océansAprès 100 ans, la partie humaine de leur corps devient plus massive qu'un humain normalDe ce fait, ils font peur et sont souvent chassés, ce qui les force à vivre en petits groupes souvent en mouvementIls vivaient dans une communauté avant la Grande Fracture mais la magie a rendu les hommes plus forts et ils ont été chassés à partir de ce moment là]]></description><link>bestiaire/terrestres/hybrides/naga.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Hybrides/Naga.md</guid><pubDate>Fri, 27 Mar 2026 10:32:53 GMT</pubDate></item><item><title><![CDATA[Hybrides]]></title><description><![CDATA[
+Définit les créatures ayant des origines venant d'au moins 2 espèces différentes. <a data-href="Vampire" href="bestiaire/terrestres/hybrides/vampire.html" class="internal-link" target="_self" rel="noopener nofollow">Vampire</a> <br><a data-href="Naga" href="bestiaire/terrestres/hybrides/naga.html" class="internal-link" target="_self" rel="noopener nofollow">Naga</a>
+]]></description><link>bestiaire/terrestres/hybrides/hybrides.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Hybrides/Hybrides.md</guid><pubDate>Fri, 27 Mar 2026 10:32:52 GMT</pubDate></item><item><title><![CDATA[Nain]]></title><description><![CDATA[Originaire de NirinaVivant sous la capitale avant la Grande Fracture, ils aidaient le pays en minant en échange de nourriture et étaient très proches de la couronne
+Ils fabriquaient des automates et des machines Steam punk“Nain Mech.png” ne peut être trouvé.Ils sont faibles face au soleil et étaient obligés de vivre sous terreLeur existence était caché du peuple pour ne pas effrayer les gens ou leur donner envie de les sortir de làAprès la Grande Fracture, les mines de la capitale de sont effondrées et un nuage de cendre la survole depuis, ainsi qu'un autre nuage qui tourne autour et couvre le reste du continent par périodes (1 mois).Les nains ont pu sortir des mines et habitent la capitales avec les humains (60% humains, 40% nains)D'autres nains sont partis vivre dans les montagnes du nord et à Crache PoussièreCertains vivent également plus loin, là ou le nuage voyageur ne passe que par période.
+Pendant ces périodes (1 mois) ils vivent sans armure, mais se recouvrent lorsque le nuage s'en va (4 mois) et qu'il pleut, et s'enterrent lorsqu'il fait beau (5 jours/ mois)En vivant dehors, ils ont rencontré les Dieux et ont décidé de croire à <a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Obel, Dieu Affamé" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Obel, Dieu Affamé" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Obel</a> car c'est lui qui les a élevé hors de terre et leur a permis de grandir auprès des hommes<br>Les nains sont complètement acceptés dans le pays de <a data-href="Melnavel" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Melnavel</a>, mais le reste du continent n'a pas entièrement passé le cap et certains les chassentIls possèdent des périodes de fêtes pendant que le nuage les surplombe, pendant lesquelles il est défendu d'utiliser la magie de Lumière sous peine de traitrise envers la couronne]]></description><link>bestiaire/terrestres/humanoïdes/nain.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Humanoïdes/Nain.md</guid><pubDate>Fri, 27 Mar 2026 10:32:52 GMT</pubDate></item><item><title><![CDATA[Humanoïdes]]></title><description><![CDATA[
+Définit les entités se tenant debout dotées d'une intelligence sociale inter-espèce
+]]></description><link>bestiaire/terrestres/humanoïdes/humanoïdes.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Humanoïdes/Humanoïdes.md</guid><pubDate>Fri, 27 Mar 2026 10:32:52 GMT</pubDate></item><item><title><![CDATA[Humain]]></title><link>bestiaire/terrestres/humanoïdes/humain.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Humanoïdes/Humain.md</guid><pubDate>Fri, 27 Mar 2026 10:32:52 GMT</pubDate></item><item><title><![CDATA[Elfe]]></title><description><![CDATA[Enfants d'une divinité et d'un humanoïde, ils n'ont de divin que la vie éternelleDépendant du dieu qui les a créé, ils voient leur personnalité en être affectée.Ils ne se consacrent qu'à une seule chose tout au long de leur vie et sont incapables de procréer.Les elfes du dieu de la guerre sont des combattants aguerris ayant accumulé des siècles de combat.Ils sont généralement dans les hautes sphères de la société et n'interagissent qu'avec l'élite (et encore).]]></description><link>bestiaire/terrestres/humanoïdes/elfe.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Humanoïdes/Elfe.md</guid><pubDate>Fri, 27 Mar 2026 10:32:52 GMT</pubDate></item><item><title><![CDATA[Anneau de Brume]]></title><description><![CDATA[<a data-href="Ovliin" href="géographie/ovliin/ovliin.html" class="internal-link" target="_self" rel="noopener nofollow">Ovliin</a><br>
+<a data-href="Jade Pourpre" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Jade Pourpre</a>]]></description><link>géographie/anneau-de-brume.html</link><guid isPermaLink="false">Géographie/Anneau de Brume.md</guid><pubDate>Fri, 27 Mar 2026 10:32:52 GMT</pubDate></item><item><title><![CDATA[Terrestres]]></title><link>bestiaire/terrestres/terrestres.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Terrestres.md</guid><pubDate>Fri, 27 Mar 2026 10:32:52 GMT</pubDate></item><item><title><![CDATA[Plantes]]></title><description><![CDATA[Définit les créatures dont le sang est remplacé par de la sève (entre autre) et qui ne possèdent pas d'organes.agissent lentement, ex. carnivores, lianes constricteursformes animales ou humanoïdes, ex. homme-champignon, dryades]]></description><link>bestiaire/terrestres/plantes/plantes.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Plantes/Plantes.md</guid><pubDate>Fri, 27 Mar 2026 10:32:51 GMT</pubDate></item><item><title><![CDATA[Naturels]]></title><description><![CDATA[Toutes les créatures qui existent dans le vrai monde mais dont la taille peut avoir été modifiée]]></description><link>bestiaire/terrestres/naturels/naturels.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Naturels/Naturels.md</guid><pubDate>Fri, 27 Mar 2026 10:32:51 GMT</pubDate></item><item><title><![CDATA[Mythiques]]></title><description><![CDATA[Définit les entités dont les pouvoirs peuvent côtoyer celui des dieux.
+issus des dieux ou de la Fracture]]></description><link>bestiaire/terrestres/mythiques/mythiques.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Mythiques/Mythiques.md</guid><pubDate>Fri, 27 Mar 2026 10:32:51 GMT</pubDate></item><item><title><![CDATA[Magiques]]></title><link>bestiaire/terrestres/magiques/magiques.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Magiques/Magiques.md</guid><pubDate>Fri, 27 Mar 2026 10:32:51 GMT</pubDate></item><item><title><![CDATA[Vampire]]></title><description><![CDATA[Maladie du corps (et plus précisément du sang).Leurs cellules sont fortement ralenties, ce qui fait qu'ils vieillissent et se régénèrent très lentement (une coupure qui se cicatrise en 1 jour peut prendre 1 an pour un vampire).Ils ne peuvent pas produire leur propre sang.Ils sont obligés de récupérer le sang d'autres entités pour se soigner et devenir plus forts.On devient un vampire si l'on injecte du sang de vampire dans le sien.Il y a 2 grandes classes de vampires;
+ceux qui sont agressifs et qui veulent consommer le plus de sang de haute qualité afin de devenir plus fort,
+ceux qui n'ont pas voulu de cette maladie et qui essaie d'être accepté par le reste de la société
+Les vampires en quête de pouvoir vont infecter des gens contre leur gré pour agrandir leur rang.
+Généralement ces gens n'apprécient pas d'être infecté contre leur gré, donc les vampires les engrossent pour que leur progéniture naisse vampire.
+Ils se débarrassent ensuite du parent pour éduquer l'enfant avec leur valeur.]]></description><link>bestiaire/terrestres/hybrides/vampire.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Hybrides/Vampire.md</guid><pubDate>Fri, 27 Mar 2026 10:32:51 GMT</pubDate></item><item><title><![CDATA[Géographie 1]]></title><description><![CDATA[id: aerethios-map
+image: [[geography.jpg]]
+lock: true
+recenter: false
+noScrollZoom: false
+height: 79%
+width: 100%
+bounds: [[0,0], [4176,8192]]
+lat: 2088
+long: 4096
+minZoom: -2
+maxZoom: 1
+defaultZoom: -2
+zoomDelta: 0.5
+unit: meters
+scale: 1
+darkMode: false
+marker: - default,3271.281026815793,3140.362619436029,00 - 24.01.25,J-0,-1,
+]]></description><link>géographie/géographie-1.html</link><guid isPermaLink="false">Géographie/Géographie 1.md</guid><pubDate>Fri, 27 Mar 2026 10:32:51 GMT</pubDate></item><item><title><![CDATA[Géographie]]></title><description><![CDATA[id: aerethios-map
+image: [[Images/geography.jpg]]
+lock: true
+recenter: false
+noScrollZoom: false
+height: 79%
+width: 100%
+bounds: [[0,0], [4176,8192]]
+lat: 2088
+long: 4096
+minZoom: -2
+maxZoom: 1
+defaultZoom: -2
+zoomDelta: 0.5
+unit: meters
+scale: 1
+darkMode: false
+marker: - [default,3271.281026815793,3140.362619436029,00 - 24.01.25,J-0
+Rencontre dans une guilde Arvens
+Quête d'escorte d'une boîte pour passer Arvens Or J-2
+Attaque d'ombres
+Un cheval est mort et Arek est blessé
+Léoric soigne le cheval mais pas Arek J-4
+Arek se fait posséder et brise la boîte
+Un masque avec 2 Toiles Célestes en sort et les fait tomber dans les pommes,-1,] - [default,3441.9781808621674,3134.389806576962,01 - 07.02.25,J-15
+Réveil dans une chambre de petite fille
+Les gardes arrivent et ils se font arrêter
+Tribunal, ils apprennent qu'ils sont maudits par la Toile vaudoo du masque et peuvent se transformer en poupée à tout moment
+Ils refont leur équipement et font des quêtes
+Combat contre des rats
+L'archimage leur vend de l'herbe pour se détendre Ils cherchent :
+Tarquin Alsyon -&gt; Financier principal
+Lysara Veyn -&gt; Donneuse de Toile Vaudoo
+Orvain Thessarion -&gt; Fusion des Toiles au masque,-1,] - [default,3692.290265304043,3058.0198023836647,02 - 21.02.25,J-22
+Escorte jusqu'à un village sous le joug d'un dictateur
+Infiltration dans son manoir pour lui casser la gueule
+Ils font la marionnette avec sa tête dans la caserne des gardes
+Grosse célébration pour la liberté du village
+Arek se fait voler son argent par Dara pour le rendre aux villageois
+Ils ont récupéré une lettre "Projet du Dieu Dormant",-1,] - [default,3643.6602883708397,2731.6285248193894,05 - 11.04.35,J-40
+Appel des personnes importantes
+Billy qui supervise la réunion des pays ne peut rien faire tout de suite Tarquin n'a pas de grimoir personnel Lysara a été payée par Tarquin pour fournir une Toile Vaudoo Orvain n'est pas joignable, il aurait été assassiné il y a peu Iskarion, le conseillé d'Eryndor, un Doigt de la Main, arrive pour leur dire qe la religion les aidera dans ce combat Ils se téléportent chez Orvain pour enquêter
+Son domaine a été detruit,-1,] - [default,3884.7010619944976,2829.571085425518,05 - 11.04.35,J-27
+Projet Dieu Dormant,-1,] - [default,3868.4310313919964,2960.4163257885434,04 - 28.03.25,J-35
+Ils sont vendus aux enchères
+Arek 9 - 11cm
+Dara 10 - 12cm
+Halfdan 13 - 18cm
+Hazdaim 17 - 20cm
+Léoric 1 - 5cm Perseus arrive pour les sortir de là
+Discussion avec lui, il dit qu'il sera là quand ils auront besoin d'aide
+Ils parent pour la capitale J-37
+Attaque par Bien Informé,-1,] - [default,3768.6886698723115,2983.049016013499,03 - 14.03.25,J-25
+Achats en ville
+Dara essaie de vendre une pipe contre un enchantement
+On les inscrit au tournoi
+Rencontre de Perseus
+Combat amical contre Léoric
+Soirée alcoolisée
+Combat dans l'arène (clandestine)
+-8 Raptidons (5 enfants, 3 adultes)
+-5 Humains
+-Chevalier TESO (bien informé)
+Ils gagnent, on leur tire dessus avec du plomb
+Ils perdent connaissance,-1,] - [default,2483.2713919956877,5280.888604054999,06-27.04.25,J-41
+Combat contre Harag,-1,] - [default,2721.5721600862416,5303.781635982288,07 - 18.05.25,J-41
+Voyage vers Ruvik J-43
+Rencontre d'un Gammoth
+Dara utilise les ténèbres pour qu'il attaque son troupeau J-48
+Rencontre de Einar qui les héberge, les nourri et les emmène à la capitale,-1,] - [default,2697.5624578897723,5494.826147751107,08 - 21.05.25,J-50
+Rencontre des Arvens, on leur demande s'ils ont récupéré leur colis
+Ils vont chercher leur colis
+Ils se font attaquer par des soldats de Suraja qui avaient pris leur identité
+Le colis est une poupée qui prend l'apparence de Zveindel
+C'est un colis de Lysara afin de pouvoir traquer le masque Rencontre des Scientes
+Orvain va se faire exécuter
+Ils arrivent trop tard, Einar a exécuté Orvain
+Einar les emmène voir sa fille, Bryumnes, qui est chef de guerre
+Les autres continents savent qu'ils sont liés à un masque surpuissant, ils sont donc considérés comme des menaces Bryumnes va prendre 3 jours pour se renseigner sur le masque et sur Tarquin
+Avant ça elle veut les tester -&gt; Combat contre Bryumnes,-1,]
+]]></description><link>géographie/géographie.html</link><guid isPermaLink="false">Géographie/Géographie.md</guid><pubDate>Fri, 27 Mar 2026 10:32:50 GMT</pubDate></item><item><title><![CDATA[Anneau des Vents]]></title><description><![CDATA[<a data-href="Kothula" href="géographie/kothula/kothula.html" class="internal-link" target="_self" rel="noopener nofollow">Kothula</a><br>
+<a data-href="Chaumide" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chaumide</a><br>
+<a data-href="Grand Bleu" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Grand Bleu</a><br>
+<a data-href="Mer Triste" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mer Triste</a>]]></description><link>géographie/anneau-des-vents.html</link><guid isPermaLink="false">Géographie/Anneau des Vents.md</guid><pubDate>Fri, 27 Mar 2026 10:32:50 GMT</pubDate></item><item><title><![CDATA[Anneau des Tempêtes]]></title><description><![CDATA[<a data-href="Nirina" href="géographie/nirina/nirina.html" class="internal-link" target="_self" rel="noopener nofollow">Nirina</a><br>
+<a data-href="Rapides d'Erve" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Rapides d'Erve</a><br>
+<a data-href="Merché" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Merché</a><br>
+<a data-href="Mer des Dents" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mer des Dents</a><br>
+<a data-href="Mer Lactée" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mer Lactée</a>]]></description><link>géographie/anneau-des-tempêtes.html</link><guid isPermaLink="false">Géographie/Anneau des Tempêtes.md</guid><pubDate>Fri, 27 Mar 2026 10:32:50 GMT</pubDate></item><item><title><![CDATA[Anneau de Givre]]></title><description><![CDATA[<a data-href="Ovliin" href="géographie/ovliin/ovliin.html" class="internal-link" target="_self" rel="noopener nofollow">Ovliin</a><br>
+<a data-href="Fosse d'Oslo" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Fosse d'Oslo</a><br>
+<a data-href="Jade Pourpre" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Jade Pourpre</a>]]></description><link>géographie/anneau-de-givre.html</link><guid isPermaLink="false">Géographie/Anneau de Givre.md</guid><pubDate>Fri, 27 Mar 2026 10:32:50 GMT</pubDate></item><item><title><![CDATA[Anneau de Feu]]></title><description><![CDATA[<a data-href="Suraja" href="géographie/suraja/suraja.html" class="internal-link" target="_self" rel="noopener nofollow">Suraja</a><br>
+<a data-href="Grand Bleu" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Grand Bleu</a><br>
+<a data-href="Mer Calme" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mer Calme</a>]]></description><link>géographie/anneau-de-feu.html</link><guid isPermaLink="false">Géographie/Anneau de Feu.md</guid><pubDate>Fri, 27 Mar 2026 10:32:50 GMT</pubDate></item><item><title><![CDATA[Alchimie]]></title><description><![CDATA[
 L’alchimie a pour objectif de transformer des composants en résultats.
 Les composants peuvent être de nature minérale, végétale ou magique.
 Selon son savoir-faire et son procédé, un alchimiste peut produire des substances, des objets consommables, ou même des formes de vie artificielles.
@@ -64,251 +361,7 @@ A force d'utiliser un ingrédient il peut diminuer la difficulté jusqu'à 0 et 
 Mais étant niveau 3, il a eu 9 points à répartir. Il en a mis 4 en commun (12-4) et 5 en rare (20-5), et doit donc faire un minimum 23 à son D20+3
 Les chances de réussite augmentent si le joueur travaille dans un lieu dédié à son travail (laboratoire stérile, cuisine).
 Ces lieux peuvent être loués pour 1 journée.Lors d’un voyage, une journée de récolte permet de découvrir divers composants.
-Le joueur lance : 1D100 pour déterminer la rareté du matériau trouvé. Pour connaître la quantité obtenue : D10 pour les déchets, D8 pour les communs, D6 pour les peu communs, D4 pour les rares, D2 pour les légendaires. 1D4 pour connaître le type d'ingrédient parmi cette liste : des minerais, des plantes, des champignons, des crystaux. ]]></description><link>jeu/règles/apprentissages/alchimie/alchimie.html</link><guid isPermaLink="false">Jeu/Règles/Apprentissages/Alchimie/Alchimie.md</guid><pubDate>Fri, 27 Mar 2026 10:30:09 GMT</pubDate></item><item><title><![CDATA[Suraja]]></title><description><![CDATA[
-<a data-href="Rhadiz" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Rhadiz</a><br><a data-href="Azurv" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Azurv</a><br>
-<a data-href="Eynamar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Eynamar</a><br>
-<a data-href="Irkma" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Irkma</a><br>
-<a data-href="Korkaahn" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Korkaahn</a><br>
-<a data-href="Myurnil" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Myurnil</a><br>
-<a data-href="Xubilayl" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Xubilayl</a><br>
-<a data-href="Zonig" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zonig</a>]]></description><link>géographie/suraja/suraja.html</link><guid isPermaLink="false">Géographie/Suraja/Suraja.md</guid><pubDate>Fri, 27 Mar 2026 10:30:04 GMT</pubDate></item><item><title><![CDATA[Ovliin]]></title><description><![CDATA[<a data-href="Ruvik" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Ruvik</a><br><a data-href="Bizmor" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bizmor</a><br>
-<a data-href="Brek" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Brek</a><br>
-<a data-href="Gronok" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Gronok</a><br>
-<a data-href="Kraken" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Kraken</a><br>
-<a data-href="Mirnjoll" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mirnjoll</a><br>
-<a data-href="Ruskit" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Ruskit</a><br>
-<a data-href="Siv" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Siv</a><br>
-<a data-href="Urvalsn" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Urvalsn</a><br>
-<a data-href="Viskars" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Viskars</a><br>
-<a data-href="Wolg" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Wolg</a><br>
-<a data-href="Zuvir" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zuvir</a>]]></description><link>géographie/ovliin/ovliin.html</link><guid isPermaLink="false">Géographie/Ovliin/Ovliin.md</guid><pubDate>Fri, 27 Mar 2026 10:30:04 GMT</pubDate></item><item><title><![CDATA[Nirina]]></title><description><![CDATA[<a data-href="Melnavel" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Melnavel</a><br><a data-href="Elfais" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Elfais</a><br>
-<a data-href="Frakiln" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Frakiln</a><br>
-<a data-href="Fruss" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Fruss</a><br>
-<a data-href="Galmag" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Galmag</a><br>
-<a data-href="Pranels" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Pranels</a><br>
-<a data-href="Pulmius" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Pulmius</a><br>
-<a data-href="Sulimund" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Sulimund</a><br>
-<a data-href="Zaenir" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaenir</a>]]></description><link>géographie/nirina/nirina.html</link><guid isPermaLink="false">Géographie/Nirina/Nirina.md</guid><pubDate>Fri, 27 Mar 2026 10:30:04 GMT</pubDate></item><item><title><![CDATA[Ville]]></title><description><![CDATA[
-Une ville est un centre économique et culturel de dimension régionale.
-Elle est souvent protégée par des fortifications et organisée en quartiers distincts.
-Elle abrite des institutions administratives, religieuses ou magiques, et sert de point d’échange entre les campagnes et les routes commerciales.
-Son architecture est diversifiée et durable, et son atmosphère reflète la complexité sociale de ses habitants. Population : 30 000 à 100 000 habitants
-Maisons : 5 000 à 20 000 foyers
-Organisation : quartiers spécialisés : résidentiel, commercial, artisanal, administratif, religieux, militaire
-Rôle : centre administratif et économique d’une région, regroupant institutions locales et services essentiels Autorité : maire ou conseil de ville
-Sécurité : garde urbaine, patrouilles et tours de surveillance
-Économie : commerce local et régional, artisanat spécialisé, marchés réguliers
-Culture : écoles, bibliothèques, lieux de rassemblement et de spectacle
-Religion / croyances : temples ou lieux de culte Cité haute / Vieille ville : forteresse, palais seigneurial, cathédrale, grands temples
-Ville basse / Marchande : marchés couverts, halles, entrepôts, auberges
-Quartier des artisans : forges, tanneries, bijouteries, ateliers d’enchantement
-Quartier résidentiel : maisons bourgeoises, logements d’ouvriers
-Faubourgs : habitations pauvres, champs périphériques, moulins, fermes attenantes
-Quartier militaire / caserne : garnison, armurerie, poste de garde, prison
-Quartier magique (si magie développée) : tours d’étude, librairies, école de mages, archives arcanes
-Quartier religieux : cathédrales, couvents, monastères, cimetières Hôtel de ville / Maison du conseil
-Caserne principale et tour de guet
-Cathédrale / Temple majeur
-Hôpital / Hospice / Orphelinat
-Grands bains publics (ou thermes magiques dans certains royaumes)
-Halles et marchés centraux (parfois couverts)
-Tribunal / Salle du juge
-Prison
-Port (fluvial ou maritime) ou grande porte commerciale
-Grande bibliothèque ou centre d’archives
-Théâtre / Amphithéâtre / Arène
-Quartier de la guilde des marchands ou des artisans
-Grand entrepôt / dépôt de marchandises Tours de mages / laboratoires / observatoires
-Banque ou comptoir commercial
-Maisons de nobles ou de riches familles
-Académie militaire ou école de chevalerie
-École / Université (souvent religieuse ou magique)
-Bureaux d’administration (impôts, douanes, cadastre)
-Auberges, tavernes, bordels, maisons de jeu
-Théâtre de rue / place à troubadours
-Temples mineurs dédiés à divers dieux
-Postes de guet dans chaque quartier
-Entrepôts de grain, réserves d’eau, silos Réseau d’aqueducs / canaux (eau potable et évacuation)
-Remparts de pierre avec tours et douves
-Ponts (souvent gardés et taxés)
-Port ou docks (si rivière, lac ou mer)
-Marchés ouverts (denrées, bétail, objets rares, magie)
-Parcs, jardins publics ou magiques
-Nécropole ou cimetière principal
-Chemins pavés ou dallés, balisés par des lanternes (souvent magiques dans les grandes cités)
-Monuments et statues (héros, dieux, rois)
-]]></description><link>géographie/misc/ville.html</link><guid isPermaLink="false">Géographie/Misc/Ville.md</guid><pubDate>Fri, 27 Mar 2026 10:30:04 GMT</pubDate></item><item><title><![CDATA[Village]]></title><description><![CDATA[
-Un village regroupe une population plus stable et organisée.
-Il dispose d’un centre administratif ou religieux, d’artisans spécialisés, et peut servir de carrefour commercial ou défensif pour les communautés alentours.
-Son architecture et sa structure varient selon le climat, la magie et le contexte politique du territoire. Population : 100 à 2 000 habitants
-Maisons : 120 à 400 foyers
-Organisation : bâtiments regroupés autour d’une place centrale ou d’une route principale
-Rôle : centre local pour l’habitat, l’agriculture et le commerce de proximité Autorité : chef de village ou conseil de village
-Sécurité : patrouilles locales ou milice villageoise
-Économie : agriculture, artisanat simple, commerce avec d’autres villages
-Culture : fêtes saisonnières, traditions locales
-Religion / croyances : petit lieu de culte ou chapelle Maisons d’habitation (180–220)
-Granges familiales + greniers collectifs fortifiés
-Puits principaux + citernes secondaires
-Écuries, étables, porcheries et poulaillers collectifs
-Fours banaux (souvent plusieurs, tenus par des familles autorisées)
-Maison du bourgmestre ou mairie (souvent sur la place du marché)
-Temple ou église majeure (souvent centre spirituel du village)
-Auberge / taverne (point de rassemblement des voyageurs et commerçants)
-École / maison des érudits (dans les villages les plus stables ou riches) Forgerons spécialisés (armes, outils, ferronnerie fine)
-Menuiseries / charpenteries / maçonneries
-Tanneur / cordonnier / tisserand / potier
-Marché couvert ou halle commerçante (activité hebdomadaire, parfois quotidienne)
-Moulin à eau ou à vent (parfois plusieurs, selon la taille des champs alentours)
-Entrepôts de marchands (souvent près de la route principale ou du quai fluvial)
-Bains publics / lavoir (souvent liés à un ruisseau ou à une source)
-Guérisseur / herboriste / apothicaire
-Petite garnison (10–30 soldats permanents, parfois avec écurie et armurerie)
-Tour de guet / beffroi (sert aussi d’alarme ou de cloche)
-Palissade ou mur de pierre (protège les entrées principales du village)
-Cimetière principal + ossuaire (souvent attenant au temple)
-Prison / poste de garde (dans les villages à juridiction locale) Champs agricoles étendus (grains, légumes, lin, chanvre)
-Vergers, vignes et houblonnières
-Pâturages extérieurs pour troupeaux communautaires
-Ruisseau, étang ou petite rivière (alimentation en eau, pêche, transport)
-Bois communaux (chasse, cueillette, bois de chauffe)
-Carrière / mine / marais (selon le relief, source de ressources locales)
-Jardin médicinal (près du temple ou du logis du guérisseur)
-Réseau de chemins pavés ou battus menant aux hameaux voisins
-Marché périphérique pour caravanes ou foires saisonnières
-Stèles anciennes / ruines intégrées au territoire (souvent considérées sacrées ou maudites)
-]]></description><link>géographie/misc/village.html</link><guid isPermaLink="false">Géographie/Misc/Village.md</guid><pubDate>Fri, 27 Mar 2026 10:30:04 GMT</pubDate></item><item><title><![CDATA[Petite Ville]]></title><description><![CDATA[
-Une petite ville représente le centre névralgique d’un territoire.
-Elle administre plusieurs bourgs et villages et abrite des institutions régionales et des guildes importantes.
-Elle combine commerce, culture, foi et défense, et peut être le siège d’un seigneur majeur, d’un grand prêtre ou d’un cercle d’érudits. Population : 10 000 à 30 000 habitants
-Maisons : 2 000 à 5 000 foyers
-Organisation : quartiers résidentiels, commerciaux et artisanaux bien définis
-Rôle : administration régionale, commerce, services publics et artisanat Autorité : maire ou conseil municipal
-Sécurité : garde urbaine, tours de surveillance, fortifications légères
-Économie : commerce local et interrégional, artisanat diversifié, marchés réguliers
-Culture : écoles, bibliothèques, espaces de loisirs, rassemblements civiques
-Religion / croyances : temple ou église centrale, lieux de culte communautaires Maisons d’habitation (en pierre ou bois noble, plusieurs étages en centre-ville)
-Hôtel de ville / Palais du conseil
-Château ou citadelle seigneuriale (souvent sur une hauteur)
-Temples majeurs (1 à 3 selon la religion dominante)
-Chapelles secondaires (culte des dieux mineurs, confréries ou ordres)
-Hall des guildes (artisans, commerçants, mages, navigateurs, guérisseurs…)
-Marché central couvert (la « Halle des Mille Voix » ou équivalent local)
-Hospice / hôpital (souvent tenu par un ordre religieux)
-Écoles, collèges ou académies mineures (alphabétisation, magie de base, histoire, arts)
-Auberges et tavernes par dizaines (chaque quartier a ses repères)
-Prison, tribunal, garnison principale
-Fontaines publiques (parfois enchantées ou purificatrices)
-Port ou caravansérail (selon situation géographique) Ateliers d’artisans à grande échelle : Forgerons spécialisés (armes, armures, outils fins)
-Tanneurs, verriers, bijoutiers, alchimistes, cartographes
-Architectes, charpentiers, bâtisseurs, enchanteurs mineurs Moulin(s) (souvent sur rivière ou canaux)
-Entrepôts marchands et comptoirs d’échanges étrangers
-Bains publics (lieu social et parfois magique)
-Théâtre / arène / cirque pour spectacles et annonces publiques
-Cimetière monumental (souvent divisé par culte)
-Tour de mages ou Observatoire arcanique (centre d’étude)
-Archives municipales / bibliothèque ducale
-Poste militaire avancé / garnison secondaire aux portes
-Tour du guet / beffroi (symbole d’indépendance)
-Ponts fortifiés sur les rivières environnantes
-Marché noir ou ruelles souterraines dans les faubourgs (selon ambiance politique) Ceintures agricoles : champs, vergers, vignes, pâturages
-Forêts proches (bois de chauffage, gibier, charbon de bois)
-Rivières ou lacs utilisés pour transport, pêche et énergie
-Canaux et égouts rudimentaires pour l’eau et les déchets
-Routes pavées reliant bourgs et autres villes
-Jardins publics et privés (parfois magiques ou botaniques)
-Cimetière annexe pour les pauvres et les étrangers
-Quartiers périphériques semi-ruraux (bergers, tanneurs, potiers)
-]]></description><link>géographie/misc/petite-ville.html</link><guid isPermaLink="false">Géographie/Misc/Petite Ville.md</guid><pubDate>Fri, 27 Mar 2026 10:30:04 GMT</pubDate></item><item><title><![CDATA[Métropole]]></title><description><![CDATA[
-Une métropole est une cité-monde, concentrant politique, économie, religion et culture.
-Elle attire richesse, savoirs, intrigues et magie, et forme un hub régional autour duquel gravitent plusieurs territoires.
-Ses rues et quartiers révèlent autant de merveilles que de dangers, et ses fondations cachent souvent des secrets très anciens.
-Les frontières entre foi, pouvoir, magie et technologie y deviennent floues. Population : 300 000 habitants et plus
-Maisons : 20 000 à 100 000 foyers
-Organisation : districts spécialisés (résidentiel, commercial, industriel, administratif, diplomatique), infrastructures complexes, réseaux de transport
-Rôle : centre politique, économique et culturel majeur, hub national ou international Autorité : gouverneur ou conseil métropolitain, administrations locales subordonnées
-Sécurité : forces de sécurité professionnelles, garnisons, fortifications, système de surveillance
-Économie : commerce national et international, industries diversifiées, marchés et bourses
-Culture : universités, centres de recherche, bibliothèques, théâtres, musées, événements culturels majeurs
-Religion / croyances : grands temples ou lieux de culte influents, présence de nombreux ordres religieux et cultes Cité impériale / haute : palais central, trône, tour de magie principale, sanctuaires royaux.
-Quartier noble : manoirs, villas, jardins suspendus, institutions diplomatiques.
-Quartier administratif : chancelleries, tribunaux, ambassades, sièges des guildes.
-Quartier marchand : marchés couverts, galeries commerciales, caravansérails, docks marchands.
-Quartier artisanal / industriel : forges massives, alchimistes, golemanciers, manufactures enchantées.
-Quartier magique : académies, tours flottantes, observatoires astraux, laboratoires interdits.
-Quartier religieux : temples colossaux, cathédrales multiples, séminaires, monastères, bibliothèques sacrées.
-Quartier populaire : ruelles étroites, tavernes, bas-fonds, marchés noirs, logements denses.
-Faubourgs extérieurs : champs, marchés aux bestiaux, camps de voyageurs, bidonvilles et routes royales.
-Sous-cité : égouts, tunnels, ruines antiques, cité cachée ou sanctuaire oublié (parfois habité par une autre civilisation). Palais impérial / citadelle royale
-Tour du Conseil / Sénat / Tribunal suprême
-Cathédrale principale (souvent dédiée au dieu dominant)
-Forteresse centrale et garnison de la garde impériale
-Hôtel de ville / chancellerie
-Hall des guildes majeures (marchands, mages, alchimistes, forgerons, assassins)
-Université impériale / Académie des arts et arcanes
-Arènes, théâtres, amphithéâtres géants
-Hôpital central / temple guérisseur / centre d’alchimie médicale
-Grand marché (souvent segmenté par types de produits et par classes sociales)
-Prison d’État, tour des condamnés, ou geôle magique
-Bibliothèque mondiale / Archives interdites
-Observatoire céleste / tour des augures
-Port intérieur / maritime / aérien (selon le niveau magique ou technologique)
-Caserne de la garde noire, des paladins, ou des mages de guerre Maisons des nobles et ambassades étrangères
-Tours d’érudits, d’astrologues et d’enchanteurs
-Banque impériale / maison du commerce universel
-Tribunal des guildes et salle du Trésor
-Bains publics, thermes luxueux, jardins magiques
-Monastères fortifiés / archives divines
-Marché noir central (souvent toléré ou dissimulé)
-Quartiers autonomes (elfique, nain, démoniaque, etc.)
-Centres de communication magique (miroirs, portails, messagers aériens)
-Arène de dragons / colisée de créatures mythiques
-Forges runiques et ateliers de golems
-Portes dimensionnelles ou tours de téléportation (dans les métropoles à magie développée)
-Centres de recherche interdite ou sanctuaires souterrains
-Refuge des mendiants / quartiers de résistance / sanctuaires cachés Murailles multiples (souvent jusqu’à quatre, chacune délimitant une classe sociale)
-Aqueducs et canaux sur plusieurs niveaux, parfois enchantés
-Réseau d’égouts transformé en cité souterraine
-Ponts monumentaux, parfois suspendus ou magiques
-Tours de défense et balistes arcanes sur les remparts
-Routes pavées et éclairage magique (cristaux, orbes, esprits de lumière)
-Port fluvial, maritime et parfois aérien (dirigeables, dragons, montures célestes)
-Jardins royaux, places monumentales, parcs enchantés
-Statues colossales (dieux, souverains, anciens héros)
-Crypte royale / nécropole souterraine / tombeaux divins
-Catacombes magiques renfermant des sceaux, artefacts ou entités anciennes
-Tour d’énergie / cœur magique (centre d’alimentation des enchantements urbains)
-Réseau de portails reliant d’autres grandes villes ou dimensions
-<a data-href="Chenav" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chenav</a><br>
-<a data-href="Eogulf" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Eogulf</a><br>
-<a data-href="Gelbiq" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Gelbiq</a><br>
-<a data-href="Izmir" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Izmir</a><br>
-<a data-href="Kamini" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Kamini</a><br>
-<a data-href="Payiong" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Payiong</a><br>
-<a data-href="Valdos" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Valdos</a><br><a data-href="Elfais" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Elfais</a><br>
-<a data-href="Frakiln" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Frakiln</a><br>
-<a data-href="Fruss" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Fruss</a><br>
-<a data-href="Galmag" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Galmag</a><br>
-<a data-href="Pranels" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Pranels</a><br>
-<a data-href="Pulmius" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Pulmius</a><br>
-<a data-href="Sulimund" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Sulimund</a><br>
-<a data-href="Zaenir" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaenir</a><br><a data-href="Bizmor" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bizmor</a><br>
-<a data-href="Brek" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Brek</a><br>
-<a data-href="Gronok" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Gronok</a><br>
-<a data-href="Kraken" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Kraken</a><br>
-<a data-href="Mirnjoll" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mirnjoll</a><br>
-<a data-href="Ruskit" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Ruskit</a><br>
-<a data-href="Siv" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Siv</a><br>
-<a data-href="Urvalsn" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Urvalsn</a><br>
-<a data-href="Viskars" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Viskars</a><br>
-<a data-href="Wolg" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Wolg</a><br>
-<a data-href="Zuvir" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zuvir</a><br><a data-href="Azurv" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Azurv</a><br>
-<a data-href="Eynamar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Eynamar</a><br>
-<a data-href="Irkma" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Irkma</a><br>
-<a data-href="Korkaahn" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Korkaahn</a><br>
-<a data-href="Myurnil" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Myurnil</a><br>
-<a data-href="Xubilayl" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Xubilayl</a><br>
-<a data-href="Zonig" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zonig</a>]]></description><link>géographie/misc/métropole.html</link><guid isPermaLink="false">Géographie/Misc/Métropole.md</guid><pubDate>Fri, 27 Mar 2026 10:30:03 GMT</pubDate></item><item><title><![CDATA[Apprentissages]]></title><description><![CDATA[Apprendre un apprentissage demande temps, argent et pratique.
+Le joueur lance : 1D100 pour déterminer la rareté du matériau trouvé. Pour connaître la quantité obtenue : D10 pour les déchets, D8 pour les communs, D6 pour les peu communs, D4 pour les rares, D2 pour les légendaires. 1D4 pour connaître le type d'ingrédient parmi cette liste : des minerais, des plantes, des champignons, des crystaux. ]]></description><link>jeu/règles/apprentissages/alchimie/alchimie.html</link><guid isPermaLink="false">Jeu/Règles/Apprentissages/Alchimie/Alchimie.md</guid><pubDate>Fri, 27 Mar 2026 10:30:09 GMT</pubDate></item><item><title><![CDATA[Apprentissages]]></title><description><![CDATA[Apprendre un apprentissage demande temps, argent et pratique.
 Chaque apprentissage appartient à une catégorie principale, sauf les apprentissages libres, qui peuvent être appris à tout moment. Un joueur peut s’investir dans une nouvelle catégorie seulement tous les 5 niveaux de personnage. À chaque nouvelle catégorie apprise, il choisit une spécialisation qui gagne plus d’expérience. Les autres apprentissages de la catégorie progressent au rythme normal. Le coût en pièces d’or (po) correspond au prix d’une leçon. Un niveau est gagné lorsqu’un joueur cumule l’expérience requise. Tous les types d’Enchanteurs partagent la même spécialisation Enchantement.
 Le joueur ne peut prendre que 3 leçons par jour (8h/ leçon).Pour chaque nuit que le joueur passe à étudier plutôt que dormir, il perd 10 HP.Pendant ses leçons, il ne peut effectuer aucune autre activité (pas de déplacement, d’enquête, de fabrication, ..).
 Jet : 1d20 + Mental + Concentration
@@ -1154,17 +1207,7 @@ Michel 16
 Nolan 3
 Thomas 15
 William 7
-]]></description><link>jeu/sessions-du-masque/arc-3/arc-3-13b-03.10.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25.md</guid><pubDate>Fri, 27 Mar 2026 10:29:01 GMT</pubDate></item><item><title><![CDATA[Arc 3]]></title><description><![CDATA[Lieu actuel : <a data-href="Suraja" href="géographie/suraja/suraja.html" class="internal-link" target="_self" rel="noopener nofollow">Suraja</a>Objectif : Abattre le Shara Ishvalda pour s'introduire dans le groupe Espers et se renseigner sur leur relation avec le masque<br>Pnjs notables : Billy, <a data-href="Raja" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Raja</a>, Forgeron, <a data-href="Rysom Javak" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Rysom Javak</a>, <a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a>, <a data-tooltip-position="top" aria-label="Dieu &gt; Dormant" data-href="Dieu#Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a>, <a data-href="Nocim" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Nocim</a><br>Boss final : <a data-href="Shara Ishvalda" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Shara Ishvalda</a><br><a data-href="Arc 3 - 11 - 14.08.25" href="jeu/sessions-du-masque/arc-3/arc-3-11-14.08.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 11 - 14.08.25</a><br><a data-href="Arc 3 - 13 - 29.08.25" href="jeu/sessions-du-masque/arc-3/arc-3-13-29.08.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 13 - 29.08.25</a><br><a data-href="Arc 3 - 12 - 19.09.25" href="jeu/sessions-du-masque/arc-3/arc-3-12-19.09.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 12 - 19.09.25</a><br><a data-href="Arc 3 - 13b - 03.10.25" href="jeu/sessions-du-masque/arc-3/arc-3-13b-03.10.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 13b - 03.10.25</a><br><a data-href="Arc 3 - 14 - 11.10.25" href="jeu/sessions-du-masque/arc-3/arc-3-14-11.10.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 14 - 11.10.25</a><br><a data-href="Arc 3 - 15 - 14.11.25" href="jeu/sessions-du-masque/arc-3/arc-3-15-14.11.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 15 - 14.11.25</a><br><a data-href="Arc 3 - 16 - 28.11.25" href="jeu/sessions-du-masque/arc-3/arc-3-16-28.11.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 16 - 28.11.25</a><br><a data-href="Arc 3 - 17 - 20.12.25" href="jeu/sessions-du-masque/arc-3/arc-3-17-20.12.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 17 - 20.12.25</a>]]></description><link>jeu/sessions-du-masque/arc-3/arc-3.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 3/Arc 3.md</guid><pubDate>Fri, 27 Mar 2026 10:29:01 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[test]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Fri, 27 Mar 2026 10:29:00 GMT</pubDate></item><item><title><![CDATA[Charisme]]></title><description><![CDATA[
-Le joueur en choisi 1 tous les 5 points d'attribut (5, 10, 15, 20).
-Double le modificateur des jets selon la situation (le modificateur devient 0 s'il était négatif). Le joueur en choisi 1 tous les 1 point de modificateur (1, 2, 3, 4, 5).
-Il est nécessaire de posséder la compétence principale pour débloquer les compétences secondaires liées. S'il s'agit de son attribut le plus élevé, le joueur peut en choisir 1.
-Au niveau 20, il peut en choisir un deuxième ou annuler 1 effet négatif de celui qu'il a déjà (si c'est toujours son attribut le plus élevé).
-]]></description><link>jeu/règles/compétences/attributs/charisme.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Attributs/Charisme.md</guid><pubDate>Fri, 27 Mar 2026 10:28:49 GMT</pubDate></item><item><title><![CDATA[Dextérité]]></title><description><![CDATA[
-Le joueur en choisi 1 tous les 5 points d'attribut (5, 10, 15, 20).
-Double le modificateur des jets selon la situation (le modificateur devient 0 s'il était négatif). Le joueur en choisi 1 tous les 1 point de modificateur (1, 2, 3, 4, 5).
-Il est nécessaire de posséder la compétence principale pour débloquer les compétences secondaires liées. S'il s'agit de son attribut le plus élevé, le joueur peut en choisir 1.
-Au niveau 20, il peut en choisir un deuxième ou annuler 1 effet négatif de celui qu'il a déjà (si c'est toujours son attribut le plus élevé).
-]]></description><link>jeu/règles/compétences/attributs/dextérité.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Attributs/Dextérité.md</guid><pubDate>Fri, 27 Mar 2026 10:28:49 GMT</pubDate></item><item><title><![CDATA[Mental]]></title><description><![CDATA[
+]]></description><link>jeu/sessions-du-masque/arc-3/arc-3-13b-03.10.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25.md</guid><pubDate>Fri, 27 Mar 2026 10:29:01 GMT</pubDate></item><item><title><![CDATA[Arc 3]]></title><description><![CDATA[Lieu actuel : <a data-href="Suraja" href="géographie/suraja/suraja.html" class="internal-link" target="_self" rel="noopener nofollow">Suraja</a>Objectif : Abattre le Shara Ishvalda pour s'introduire dans le groupe Espers et se renseigner sur leur relation avec le masque<br>Pnjs notables : Billy, <a data-href="Raja" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Raja</a>, Forgeron, <a data-href="Rysom Javak" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Rysom Javak</a>, <a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a>, <a data-tooltip-position="top" aria-label="Dieu &gt; Dormant" data-href="Dieu#Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a>, <a data-href="Nocim" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Nocim</a><br>Boss final : <a data-href="Shara Ishvalda" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Shara Ishvalda</a><br><a data-href="Arc 3 - 11 - 14.08.25" href="jeu/sessions-du-masque/arc-3/arc-3-11-14.08.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 11 - 14.08.25</a><br><a data-href="Arc 3 - 13 - 29.08.25" href="jeu/sessions-du-masque/arc-3/arc-3-13-29.08.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 13 - 29.08.25</a><br><a data-href="Arc 3 - 12 - 19.09.25" href="jeu/sessions-du-masque/arc-3/arc-3-12-19.09.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 12 - 19.09.25</a><br><a data-href="Arc 3 - 13b - 03.10.25" href="jeu/sessions-du-masque/arc-3/arc-3-13b-03.10.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 13b - 03.10.25</a><br><a data-href="Arc 3 - 14 - 11.10.25" href="jeu/sessions-du-masque/arc-3/arc-3-14-11.10.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 14 - 11.10.25</a><br><a data-href="Arc 3 - 15 - 14.11.25" href="jeu/sessions-du-masque/arc-3/arc-3-15-14.11.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 15 - 14.11.25</a><br><a data-href="Arc 3 - 16 - 28.11.25" href="jeu/sessions-du-masque/arc-3/arc-3-16-28.11.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 16 - 28.11.25</a><br><a data-href="Arc 3 - 17 - 20.12.25" href="jeu/sessions-du-masque/arc-3/arc-3-17-20.12.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 17 - 20.12.25</a>]]></description><link>jeu/sessions-du-masque/arc-3/arc-3.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 3/Arc 3.md</guid><pubDate>Fri, 27 Mar 2026 10:29:01 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[test]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Fri, 27 Mar 2026 10:29:00 GMT</pubDate></item><item><title><![CDATA[Mental]]></title><description><![CDATA[
 Le joueur en choisi 1 tous les 5 points d'attribut (5, 10, 15, 20).
 Double le modificateur des jets selon la situation (le modificateur devient 0 s'il était négatif). Le joueur en choisi 1 tous les 1 point de modificateur (1, 2, 3, 4, 5).
 Il est nécessaire de posséder la compétence principale pour débloquer les compétences secondaires liées. S'il s'agit de son attribut le plus élevé, le joueur peut en choisir 1.
@@ -1174,29 +1217,402 @@ Le joueur en choisi 1 tous les 5 points d'attribut (5, 10, 15, 20).
 Double le modificateur des jets selon la situation (le modificateur devient 0 s'il était négatif). Le joueur en choisi 1 tous les 1 point de modificateur (1, 2, 3, 4, 5).
 Il est nécessaire de posséder la compétence principale pour débloquer les compétences secondaires liées. S'il s'agit de son attribut le plus élevé, le joueur peut en choisir 1.
 Au niveau 20, il peut en choisir un deuxième ou annuler 1 effet négatif de celui qu'il a déjà (si c'est toujours son attribut le plus élevé).
-]]></description><link>jeu/règles/compétences/attributs/force.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Attributs/Force.md</guid><pubDate>Fri, 27 Mar 2026 10:28:48 GMT</pubDate></item><item><title><![CDATA[Arek]]></title><description><![CDATA[“Arek.png” ne peut être trouvé.Niveau : 8
-55 points à mettre au niveau 1 (min 7, max 14)
-+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20
-Maîtrise : 1Crystaux : 9Poids maximum : 70+80 = 150kg
-Force &gt; 10 : 40 + (Force Modificateur x 10)
-Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
-<a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
-<a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
-<a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
-<a data-href="Léoric" href="jeu/sessions-du-masque/joueurs/léoric.html" class="internal-link" target="_self" rel="noopener nofollow">Léoric</a> <br>
-<a data-href="Zveindel" href="jeu/sessions-du-masque/joueurs/zveindel.html" class="internal-link" target="_self" rel="noopener nofollow">Zveindel</a> <br>
-<a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Radeon, Dieu Dormant" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Radeon, Dieu Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a> <br>
-<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> <br>
-<a data-href="Perseus" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Perseus</a> <br>
-<a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
-<a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
-<a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
-<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/arek.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Arek.md</guid><pubDate>Fri, 27 Mar 2026 10:28:48 GMT</pubDate></item><item><title><![CDATA[Perception]]></title><description><![CDATA[
+]]></description><link>jeu/règles/compétences/attributs/force.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Attributs/Force.md</guid><pubDate>Fri, 27 Mar 2026 10:28:48 GMT</pubDate></item><item><title><![CDATA[Perception]]></title><description><![CDATA[
 Le joueur en choisi 1 tous les 5 points d'attribut (5, 10, 15, 20).
 Double le modificateur des jets selon la situation (le modificateur devient 0 s'il était négatif). Le joueur en choisi 1 tous les 1 point de modificateur (1, 2, 3, 4, 5).
 Il est nécessaire de posséder la compétence principale pour débloquer les compétences secondaires liées. S'il s'agit de son attribut le plus élevé, le joueur peut en choisir 1.
 Au niveau 20, il peut en choisir un deuxième ou annuler 1 effet négatif de celui qu'il a déjà (si c'est toujours son attribut le plus élevé).
-]]></description><link>jeu/règles/compétences/attributs/perception.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Attributs/Perception.md</guid><pubDate>Fri, 27 Mar 2026 10:28:44 GMT</pubDate></item><item><title><![CDATA[README]]></title><description><![CDATA[The website is accessible from this url <a rel="noopener nofollow" class="external-link is-unresolved" href="https://hugobelgeois.github.io/aerethios/" target="_self">https://hugobelgeois.github.io/aerethios/</a><br>Using this plugin to change md to html : <a rel="noopener nofollow" class="external-link is-unresolved" href="https://github.com/KosmosisDire/obsidian-webpage-export" target="_self">https://github.com/KosmosisDire/obsidian-webpage-export</a><br>Setting up Git with this <a rel="noopener nofollow" class="external-link is-unresolved" href="https://github.com/silvanocerza/github-gitless-sync" target="_self">https://github.com/silvanocerza/github-gitless-sync</a>]]></description><link>readme.html</link><guid isPermaLink="false">README.md</guid><pubDate>Fri, 27 Mar 2026 10:26:26 GMT</pubDate></item><item><title><![CDATA[Aerel, Grande Mère]]></title><description><![CDATA[Deux voyageurs se rencontrèrent au bord d’un puits.Ils burent ensemble.
+]]></description><link>jeu/règles/compétences/attributs/perception.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Attributs/Perception.md</guid><pubDate>Fri, 27 Mar 2026 10:28:44 GMT</pubDate></item><item><title><![CDATA[README]]></title><description><![CDATA[The website is accessible from this url <a rel="noopener nofollow" class="external-link is-unresolved" href="https://hugobelgeois.github.io/aerethios/" target="_self">https://hugobelgeois.github.io/aerethios/</a><br>Using this plugin to change md to html : <a rel="noopener nofollow" class="external-link is-unresolved" href="https://github.com/KosmosisDire/obsidian-webpage-export" target="_self">https://github.com/KosmosisDire/obsidian-webpage-export</a><br>Setting up Git with this <a rel="noopener nofollow" class="external-link is-unresolved" href="https://github.com/silvanocerza/github-gitless-sync" target="_self">https://github.com/silvanocerza/github-gitless-sync</a>]]></description><link>readme.html</link><guid isPermaLink="false">README.md</guid><pubDate>Fri, 27 Mar 2026 10:26:26 GMT</pubDate></item><item><title><![CDATA[Planaires]]></title><description><![CDATA[une âme libre non dangereuse dans cet étatune âme possède un vivant et remplace son âmeune âme récupère son corps d'originesorcier qui s'est séparé de son âme]]></description><link>bestiaire/planaires/planaires.html</link><guid isPermaLink="false">Bestiaire/Planaires/Planaires.md</guid><pubDate>Fri, 27 Mar 2026 08:41:43 GMT</pubDate></item><item><title><![CDATA[Armures]]></title><description><![CDATA[
+AC (Armor Class) = Mobilité d'esquive naturelle
+DR (Damage Reduction) = Réduction des dégâts AC total = AC + Modificateurs Le prix de main d'œuvre vaut 10% du prix des tous les matériaux requis.
+Une armure nécessite 24 matériaux pour être fabriquée.
+Sans armure, l'AC de base est de 18.
+Faiblesse = 50% DR
+Les HP ne se régénèrent pas naturellement lorsqu'une armure est équipée.
+Effets
++ <a data-tooltip-position="top" aria-label="Enchanteur &gt; Suraja" data-href="Enchanteur#Suraja" href="jeu/règles/apprentissages/artisanat/enchanteur.html#Suraja" class="internal-link" target="_self" rel="noopener nofollow">Enchantements de Suraja</a>
++ Pendant son tour, le joueur peut convertir des crystaux en AC (1:1, Max = Mental / 4)
+Il perd ce bonus une fois touché
+Les crystaux bonus par attaque nécessite d'en consommer au moins 1 pour s'appliquer (ex : 1 consommer +2 gratuits). Faiblesse : Tranchant
+Effets<br>
++ <a data-tooltip-position="top" aria-label="Enchanteur &gt; Kothula" data-href="Enchanteur#Kothula" href="jeu/règles/apprentissages/artisanat/enchanteur.html#Kothula" class="internal-link" target="_self" rel="noopener nofollow">Enchantements de Kothula</a>
++ Se répare auprès d'un tanneur
+La rareté varie entre 1 et 5 (Déchet, Commun, Peu commun, Rare, Légendaire) Faiblesse : Perforant
+Effets<br>
++ <a data-tooltip-position="top" aria-label="Enchanteur &gt; Ovliin" data-href="Enchanteur#Ovliin" href="jeu/règles/apprentissages/artisanat/enchanteur.html#Ovliin" class="internal-link" target="_self" rel="noopener nofollow">Enchantements d'Ovliin</a>
++ Se répare auprès d'un potionniste
+- Désavantage en Dextérité (Discrétion)
+- Désavantage en Magies en combat
+Faiblesse : Contondant
+Effets<br>
++ <a data-tooltip-position="top" aria-label="Enchanteur &gt; Nirina" data-href="Enchanteur#Nirina" href="jeu/règles/apprentissages/artisanat/enchanteur.html#Nirina" class="internal-link" target="_self" rel="noopener nofollow">Enchantements de Nirina</a>
++ Se répare dans une forge/ avec la magie de métal
+- Dextérité (Discrétion) impossible
+- Magies impossibles en combatEffets
+- La DR du bouclier ne s'ajoute que si le bouclier fait face à la source de l'attaque (attaque de front/ dans le dos)]]></description><link>jeu/règles/combat/armures.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Armures.md</guid><pubDate>Thu, 19 Mar 2026 12:50:25 GMT</pubDate></item><item><title><![CDATA[Forgeron]]></title><description><![CDATA[
+Spécialité de l'<a data-href="Artisanat" href="jeu/règles/apprentissages/artisanat/artisanat.html" class="internal-link" target="_self" rel="noopener nofollow">Artisanat</a> qui travaille les métaux pour en fabriquer des armes et armures.
+Une fois que le joueur a lancé les dés pour connaitre la rareté du matériau qu'il a obtenu, il doit lancer les dés pour savoir précisément l'effet de ce matériau.
+Métaux ou minerais bruts de faible qualité, oxydés, ou trop impurs pour produire un bon acier sans traitement lourd.
+Souvent recyclés ou fondus en alliage. Métaux courants, faciles à extraire et à travailler, base de la forge classique. Laiton (cuivre + zinc, semblable à l'or, utilisé pour faire des pièces pendant l'empire Romain) Métaux plus résistants ou nécessitant un savoir-faire supérieur pour le travail à chaud. Acier trempé (carbone maîtrisé, haute dureté)
+Tungstène (utilisé pour renforts ou tranchants fins, non forgé pur) Métaux à haute valeur technique, demandant extraction et forge complexes. Molybdène (alliage haute température) Acier inoxydable (alliage nickel + chrome)
+Vanadium (pour acier élastique et tranchant durable) Métaux exceptionnellement rares, difficiles à fondre ou forger sans technologie avancée.
+Historiquement utilisés pour symboliser la perfection métallurgique. Tantale (ultra-résistant, presque inoxydable)
+Rhodium (dur, brillant, excellent conducteur) Damassé
+]]></description><link>jeu/règles/apprentissages/artisanat/forgeron.html</link><guid isPermaLink="false">Jeu/Règles/Apprentissages/Artisanat/Forgeron.md</guid><pubDate>Thu, 19 Mar 2026 09:36:59 GMT</pubDate></item><item><title><![CDATA[Enchanteur]]></title><description><![CDATA[
+Spécialité de l'<a data-href="Artisanat" href="jeu/règles/apprentissages/artisanat/artisanat.html" class="internal-link" target="_self" rel="noopener nofollow">Artisanat</a> qui améliore magiquement les caractéristiques des équipements d'aventuriers.
+Chaque continent possède sa technique d'enchantement.Pour l'apprendre, il faut se rendre sur le continent concerné.Pour enchanter, il faut : l'objet à enchanter, un crystal purgé, qui facilite l'apport magique de l'enchanteur vers l'enchantement.
+Ce crystal coûte 5po et a 20% de chance de casser à chaque utilisation.
+Au niveau 4, le crystal a 10% de chance de casser, une réserve de magie sur soi, 8h de travail continu. Enchanter des parties du corps pour fluidifier les flux magiques qui circulent dedans et améliorer l'utilisation de la magie.
+Les parties du corps enchantables sont les bras, le dos et les jambes.Rater le processus d'enchantement le rend juste temporaire (1 semaine)Un échec critique (95 - 99) affaiblit le corps et réduit les chances de tatouage pendant 100 jours. (-50% de réussite)Un échec super critique (100) empêche de se faire tatouer sur cette partie du corps à l'avenir.
+Un objet rare permet d'empêcher cet échec (20 po au marché ou trouvable en expédition)L'effet dépend de l'architecture du tatouage (non cumulables sans conséquences) :
+Enchanter les métaux pour augmenter leur efficacité.
+Rater l'enchantement donne un malus au lieu d'un bonus.Une réussite critique fait que le montant minimum est la moitié de la valeur du dé.Une armure possède 2 "slots" à enchanter, et une arme en possède 1.Pour nettoyer les slots, il faut faire fondre et reforger l'équipement (la magie de métal n'est pas suffisante).En fonction du bonus souhaité, les chances de réussites varient :
+Enchanter les os pour en extraire la puissance élémentaire de son ancien "propriétaire".
+Une armure en os ou une arme avec le manche en os peuvent bénéficier de cette puissance.Pour enchanter, le joueur lance 1d20 + Niveau d'enchanteur (le bonus obtenu varie selon le résultat et la rareté de l'os).Un échec diminue la rareté de l'os de 1.Un échec critique rend l'os inutilisable.
+Enchanter les tissus pour augmenter leur résistance aux éléments magiques.
+Un tissu peut cumuler plusieurs enchantements (le maximum dépend du type de tissu).Le joueur peut ajouter de nouveaux enchantements (au risque d'en perdre d'autres), ou améliorer ceux déjà présents.Le joueur lance 1d20 + Niveau d'enchanteur.La difficulté de réussite change selon le nombre d'enchantements déjà présents :Résultats :
+réussite critique, l'enchantement est créé et a une valeur de 2,
+réussite, l'enchantement est créé et a une valeur de 1,
+échec, le tissu perd le dernier enchantement ajouté,
+échec critique, le tissu perd les 2 derniers enchantements ajoutés.
+Le joueur lance 1d6, la valeur de l'enchantement est le résultat obtenu.Si le dé fait 6, la valeur devient 0 (l'enchantement est désactivé mais pas supprimé).L'enchantement disparaît si le joueur fait 6 ou un nombre inférieur à la valeur actuelle deux fois de suite.]]></description><link>jeu/règles/apprentissages/artisanat/enchanteur.html</link><guid isPermaLink="false">Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md</guid><pubDate>Thu, 19 Mar 2026 09:36:54 GMT</pubDate></item><item><title><![CDATA[Lumière]]></title><description><![CDATA[
+Les sorts présents ici ne servent que d'exemple et n'empêchent pas la création de nouveaux sorts (avec l'accord du MJ).
+]]></description><link>jeu/règles/combat/magies/lumière.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Lumière.md</guid><pubDate>Thu, 19 Mar 2026 09:28:54 GMT</pubDate></item><item><title><![CDATA[Artisanat]]></title><description><![CDATA[
+L’artisanat a pour objectif de façonner une matière existante pour lui donner une forme utile et durable.
+Certains artisans se spécialisent dans les grandes constructions (bâtiments, véhicules, fortifications), mais ceux qui intéressent le plus les aventuriers sont ceux dont le savoir-faire améliore directement leurs armes, protections ou équipements.
+Un Artificier conçoit et assemble des dispositifs mécaniques, alchimiques ou explosifs.
+Son savoir combine ingénierie, alchimie et magie contrôlée, lui permettant de créer des pièges, bombes, mines, ou mécanismes défensifs.
+Certains se spécialisent dans les armes de siège miniaturisées, d’autres dans les gadgets de précision.
+Leur principal défi réside dans la stabilité de leurs créations — un chef-d’œuvre peut facilement devenir un désastre.Un Bijoutier travaille les métaux précieux et pierres rares pour façonner des anneaux, amulettes, talismans et sceaux.
+Son art ne se limite pas à l’esthétique : il conçoit des supports de cristaux capables de stocker la magie en canalisant ses effets négatifs.
+La qualité de ses œuvres dépend de la pureté des matériaux et de la précision des gravures.
+Les meilleurs bijoutiers savent équilibrer beauté, symbolisme et puissance, créant des objets aussi spirituels que fonctionnels.Un Enchanteur applique les savoirs ésotériques de son continent pour améliorer les propriétés d’une arme, d’une armure ou d’un objet.
+Chaque continent possède ses propres traditions enchantées, offrant des avantages uniques mais aussi des contreparties spécifiques.
+L’enchanteur agit comme un pont entre artisanat et magie, infusant la matière de symboles, de runes ou d’essences spirituelles.Un Forgeron maîtrise la fusion et le travail du métal afin de créer des armes et armures lourdes.
+Son expérience détermine sa capacité à forger des alliages rares, plus tranchants, résistants ou conducteurs de magie.
+Les meilleurs forgerons savent adapter leurs créations aux porteurs, équilibrant puissance, poids et résonance magique.Un Tanneur (ou Couturier) transforme les peaux et fourrures en armures légères et vêtements de protection.
+Son art dépend à la fois de la qualité de la matière première et de sa maîtrise du traitement : cuir souple, peau renforcée, ...
+Les tanneurs les plus habiles allient esthétique, confort et résistance, produisant des pièces aussi pratiques que discrètes.Le joueur doit d'abord raffiner ses ingrédients bruts en matériaux utilisables à l’aide d’un jet de D20 + Niveau d'Artisanat + Rareté de l'ingrédient (déchet= 0, commun= 1, 2, 4, 6).
+Un ingrédient ne peut pas devenir un matériau de rareté plus élevé, mais il peut cependant perdre en rareté.Ensuite, le joueur lance un autre dé pour déterminer avec précision le matériau qu'il vient d'obtenir.
+Voir la partie Raffinage de chaque spécialisation pour en savoir plus.Une fois les ingrédients transformés en matériaux, le joueur peut tenter une fabrication à l’aide d’un jet de D20 + Niveau d'Artisanat.Pour réussir, le résultat final doit être supérieur à la difficulté totale de la création.Les chances de réussite dépendent : du niveau d’artisanat du joueur, du nombre total d’ingrédients utilisés, et de la rareté de chacun d’eux. Les malus de difficulté s’additionnent pour chaque ingrédient.
+Lors d’un voyage, le joueur peut doubler le temps qu'il passe dans un hex afin de récolter divers composants.
+Le joueur lance : 1D100 pour déterminer la rareté de l'ingrédient trouvé. Pour connaître la quantité obtenue : D10 pour les déchets, D8 pour les communs, D6 pour les peu communs, D4 pour les rares, D2 pour les légendaires. Le type d'ingrédients est déterminé par l'hex dans lequelle le joueur fait sa récolte (minerais, gemmes, crystaux, ..). ]]></description><link>jeu/règles/apprentissages/artisanat/artisanat.html</link><guid isPermaLink="false">Jeu/Règles/Apprentissages/Artisanat/Artisanat.md</guid><pubDate>Thu, 19 Mar 2026 09:27:55 GMT</pubDate></item><item><title><![CDATA[Magie]]></title><description><![CDATA[
+La magie brut, sans être imprégnée des différents éléments.
+]]></description><link>jeu/règles/combat/magies/magie.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Magie.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Templis]]></title><description><![CDATA[
+Pèleriner les 77 Temples pieds nus. Purger un village de la souffrance. Offrir un sens aux Dieux soi-même (généralement la vue). Possibilité de détecter les entités planaires et d'être moins affecté par leur présence. Supporter une présence divine ? Possibilité d'emprunter 1 objet béni aux Templis. Il peut être échangé et conservé aussi longtemps qu'on le souhaite, mais on ne peut en avoir qu'un. Purifier un démon.
+]]></description><link>jeu/règles/compétences/maisons/templis.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Maisons/Templis.md</guid><pubDate>Tue, 17 Mar 2026 15:18:06 GMT</pubDate></item><item><title><![CDATA[Runild]]></title><description><![CDATA[
+Accès à l'hôtel des ventes. Accès à l'hôtel des ventes,
+N'est pas taxé par la banque lors d'un retrait. Accès à l'hôtel des ventes,
+N'est pas taxé par la banque lors d'un retrait,
+Octroie 10% de réduction cher les marchands Runild. Accès à l'hôtel des ventes,
+N'est pas taxé par la banque lors d'un retrait,
+Octroie 10% de réduction cher les marchands Runild,
+Le compte bancaire peut être bloqué tous les mois pour que la somme actuellement présente engrange 1% de bénéfices. Accès à l'hôtel des ventes,
+N'est pas taxé par la banque lors d'un retrait,
+Octroie 10% de réduction cher les marchands Runild,
+Le compte bancaire peut être bloqué tous les mois pour que la somme actuellement présente engrange 2% de bénéfices, ]]></description><link>jeu/règles/compétences/maisons/runild.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Maisons/Runild.md</guid><pubDate>Tue, 17 Mar 2026 15:18:06 GMT</pubDate></item><item><title><![CDATA[Scienctes]]></title><description><![CDATA[
+se concentrer pour récupérer 1 crystal (ne permet pas de prendre 10/20 en même temps). se concentrer pour récupérer 2 crystaux (ne permet pas de prendre 10/20 en même temps),
+la régénération passive de crystaux est doublée. se concentrer pour récupérer 3 crystaux (ne permet pas de prendre 10/20 en même temps),
+la régénération passive de crystaux est doublée,
+augmente les dégâts magiques de 2 par crystal. se concentrer pour récupérer 4 crystaux (ne permet pas de prendre 10/20 en même temps),
+la régénération passive de crystaux est doublée,
+augmente les dégâts magiques de 4 par crystal. se concentrer pour récupérer 5 crystaux (ne permet pas de prendre 10/20 en même temps),
+la régénération passive de crystaux est doublée,
+augmente les dégâts magiques de 6 par crystal.
+]]></description><link>jeu/règles/compétences/maisons/scienctes.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Maisons/Scienctes.md</guid><pubDate>Tue, 17 Mar 2026 15:18:06 GMT</pubDate></item><item><title><![CDATA[Arvens]]></title><description><![CDATA[
+Ces rangs se gagnent en aidant le peuple de diverses manières.
+Si un Arvens rate trop souvent ses missions ou n'est plus actif, ses rangs vont diminuer petit à petit (sauf une fois qu'il devient une légende). Niveau 1 à 3 = Poids morts la guilde fournit des rations pour la quête en cours,
+la guilde offre l'accès à ses bâtiments : la taverne. Niveau 4 à 7 = Débutants la guilde fournit des rations pour la quête en cours,
+la guilde paie la réparation des équipements,
+la guilde offre l'accès à ses bâtiments : la taverne,
+l'auberge. la guilde paie les transports nécessaires à la quête en cours : terrestre. Niveau 8 à 12 = Aventuriers la guilde fournit les ingrédients pour faire des plats (sans touche du chef) pour la quête en cours,
+la guilde paie la réparation des équipements,
+la guilde offre l'accès à ses bâtiments : la taverne,
+l'auberge,
+la salle d'artisanat. la guilde paie les transports nécessaires à la quête en cours : terrestre,
+aquatique. Niveau 13 à 18 = Héros la guilde fournit les ingrédients pour faire des plats (avec touche du chef) pour la quête en cours,
+la guilde paie la réparation des équipements,
+la guilde offre l'accès à ses bâtiments : la taverne,
+l'auberge,
+la salle d'artisanat,
+la salle d'alchimie. la guilde paie les transports nécessaires à la quête en cours : terrestre,
+aquatique,
+aérien. Niveau 19 à 20 = Légendes
+Se débloque selon le continent : Diamant (Ovliin),
+Emeraude (Nirina),
+Rubis (Kothula),
+Topaze (Suraja). la guilde fournit les ingrédients pour faire des plats (avec touche du chef) pour la quête en cours,
+la guilde paie la réparation des équipements,
+la guilde offre l'accès à ses bâtiments : la taverne,
+l'auberge,
+la salle d'artisanat,
+la salle d'alchimie. la guilde paie les transports nécessaires à la quête en cours : terrestre,
+aquatique,
+aérien,
+téléportation. ]]></description><link>jeu/règles/compétences/maisons/arvens.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Maisons/Arvens.md</guid><pubDate>Tue, 17 Mar 2026 15:18:06 GMT</pubDate></item><item><title><![CDATA[Bourg]]></title><description><![CDATA[
+Un bourg est un centre régional animé.
+Il accueille des artisans, des marchands, des temples et les autorités locales.
+Protégé par des remparts ou un fossé, il comporte souvent des quartiers spécialisés (marchand, artisanal, noble, religieux, populaire).
+Son activité repose sur le commerce, la production artisanale et la collecte des impôts locaux. Population : 2 000 à 10 000 habitants
+Maisons : 400 à 2 000 foyers
+Organisation : rues organisées, place centrale, bâtiments administratifs et marchands
+Rôle : centre commercial et artisanal pour la région environnante Autorité : maire ou conseil du bourg
+Sécurité : milice permanente, tours de guet
+Économie : marché régulier, artisanat spécialisé, commerce régional
+Culture : écoles, rassemblements communautaires, lieux de rencontre
+Religion / croyances : chapelle ou petit temple Maisons d’habitation (majoritairement en pierre ou bois renforcé)
+Logis seigneurial / manoir ou petit château fortifié
+Hôtel de ville / maison du conseil
+Temple principal (souvent monumental, dédié à un dieu majeur)
+Chapelles secondaires (liées à d’autres dieux ou confréries)
+Auberges et tavernes (multiples, selon le quartier)
+Fours banaux (un par quartier)
+Marché couvert central (halle monumentale)
+Puits et citernes répartis par zone
+Hospice / maison de soins (souvent tenu par un ordre religieux)
+Écoles et scriptorium (lieux d’enseignement ou de copie de textes) Ateliers d’artisans spécialisés : Forgerons (armes, outils, cloches, ferrures fines)
+Tanneurs, cordonniers, tisserands, teinturiers, potiers
+Menuisiers, verriers, orfèvres, sculpteurs Entrepôts de marchands et comptoirs d’échanges
+Guildes professionnelles (marchands, artisans, mages, guérisseurs)
+Moulin(s) à eau ou à vent, parfois intégrés aux remparts
+Bains publics / thermes (lieu social important, parfois magique)
+Petite garnison fortifiée (50 à 200 soldats selon le contexte politique)
+Prison et tribunal
+Tour du guet / beffroi (sert aussi de cloche civique ou d’alarme)
+Palissade / rempart de pierre avec portes fortifiées
+Pont ou quai fluvial si rivière à proximité
+Cimetière majeur + ossuaire
+Caravansérail (hébergement pour marchands itinérants et bêtes)
+Arène, théâtre ou place d’exécution publique (selon les coutumes locales) Champs périphériques (blé, orge, lin, légumes, etc.)
+Vergers, vignes et pâturages gérés par les familles rurales du bourg
+Rivières / canaux (souvent aménagés pour le transport et la défense)
+Bois communal (chasse, bois de chauffe, charbonnage)
+Carrière, mine ou marais exploité pour la pierre, le métal ou le sel
+Zones agricoles dépendantes (hameaux et villages sous l’autorité du bourg)
+Réseau de routes pavées reliant les bourgs voisins et les capitales régionales
+Place des foires (grands rassemblements saisonniers)
+Jardins sacrés / fontaines enchantées selon le culte dominant
+]]></description><link>géographie/misc/bourg.html</link><guid isPermaLink="false">Géographie/Misc/Bourg.md</guid><pubDate>Fri, 27 Mar 2026 10:30:13 GMT</pubDate></item><item><title><![CDATA[Ville]]></title><description><![CDATA[
+Une ville est un centre économique et culturel de dimension régionale.
+Elle est souvent protégée par des fortifications et organisée en quartiers distincts.
+Elle abrite des institutions administratives, religieuses ou magiques, et sert de point d’échange entre les campagnes et les routes commerciales.
+Son architecture est diversifiée et durable, et son atmosphère reflète la complexité sociale de ses habitants. Population : 30 000 à 100 000 habitants
+Maisons : 5 000 à 20 000 foyers
+Organisation : quartiers spécialisés : résidentiel, commercial, artisanal, administratif, religieux, militaire
+Rôle : centre administratif et économique d’une région, regroupant institutions locales et services essentiels Autorité : maire ou conseil de ville
+Sécurité : garde urbaine, patrouilles et tours de surveillance
+Économie : commerce local et régional, artisanat spécialisé, marchés réguliers
+Culture : écoles, bibliothèques, lieux de rassemblement et de spectacle
+Religion / croyances : temples ou lieux de culte Cité haute / Vieille ville : forteresse, palais seigneurial, cathédrale, grands temples
+Ville basse / Marchande : marchés couverts, halles, entrepôts, auberges
+Quartier des artisans : forges, tanneries, bijouteries, ateliers d’enchantement
+Quartier résidentiel : maisons bourgeoises, logements d’ouvriers
+Faubourgs : habitations pauvres, champs périphériques, moulins, fermes attenantes
+Quartier militaire / caserne : garnison, armurerie, poste de garde, prison
+Quartier magique (si magie développée) : tours d’étude, librairies, école de mages, archives arcanes
+Quartier religieux : cathédrales, couvents, monastères, cimetières Hôtel de ville / Maison du conseil
+Caserne principale et tour de guet
+Cathédrale / Temple majeur
+Hôpital / Hospice / Orphelinat
+Grands bains publics (ou thermes magiques dans certains royaumes)
+Halles et marchés centraux (parfois couverts)
+Tribunal / Salle du juge
+Prison
+Port (fluvial ou maritime) ou grande porte commerciale
+Grande bibliothèque ou centre d’archives
+Théâtre / Amphithéâtre / Arène
+Quartier de la guilde des marchands ou des artisans
+Grand entrepôt / dépôt de marchandises Tours de mages / laboratoires / observatoires
+Banque ou comptoir commercial
+Maisons de nobles ou de riches familles
+Académie militaire ou école de chevalerie
+École / Université (souvent religieuse ou magique)
+Bureaux d’administration (impôts, douanes, cadastre)
+Auberges, tavernes, bordels, maisons de jeu
+Théâtre de rue / place à troubadours
+Temples mineurs dédiés à divers dieux
+Postes de guet dans chaque quartier
+Entrepôts de grain, réserves d’eau, silos Réseau d’aqueducs / canaux (eau potable et évacuation)
+Remparts de pierre avec tours et douves
+Ponts (souvent gardés et taxés)
+Port ou docks (si rivière, lac ou mer)
+Marchés ouverts (denrées, bétail, objets rares, magie)
+Parcs, jardins publics ou magiques
+Nécropole ou cimetière principal
+Chemins pavés ou dallés, balisés par des lanternes (souvent magiques dans les grandes cités)
+Monuments et statues (héros, dieux, rois)
+]]></description><link>géographie/misc/ville.html</link><guid isPermaLink="false">Géographie/Misc/Ville.md</guid><pubDate>Fri, 27 Mar 2026 10:30:04 GMT</pubDate></item><item><title><![CDATA[Village]]></title><description><![CDATA[
+Un village regroupe une population plus stable et organisée.
+Il dispose d’un centre administratif ou religieux, d’artisans spécialisés, et peut servir de carrefour commercial ou défensif pour les communautés alentours.
+Son architecture et sa structure varient selon le climat, la magie et le contexte politique du territoire. Population : 100 à 2 000 habitants
+Maisons : 120 à 400 foyers
+Organisation : bâtiments regroupés autour d’une place centrale ou d’une route principale
+Rôle : centre local pour l’habitat, l’agriculture et le commerce de proximité Autorité : chef de village ou conseil de village
+Sécurité : patrouilles locales ou milice villageoise
+Économie : agriculture, artisanat simple, commerce avec d’autres villages
+Culture : fêtes saisonnières, traditions locales
+Religion / croyances : petit lieu de culte ou chapelle Maisons d’habitation (180–220)
+Granges familiales + greniers collectifs fortifiés
+Puits principaux + citernes secondaires
+Écuries, étables, porcheries et poulaillers collectifs
+Fours banaux (souvent plusieurs, tenus par des familles autorisées)
+Maison du bourgmestre ou mairie (souvent sur la place du marché)
+Temple ou église majeure (souvent centre spirituel du village)
+Auberge / taverne (point de rassemblement des voyageurs et commerçants)
+École / maison des érudits (dans les villages les plus stables ou riches) Forgerons spécialisés (armes, outils, ferronnerie fine)
+Menuiseries / charpenteries / maçonneries
+Tanneur / cordonnier / tisserand / potier
+Marché couvert ou halle commerçante (activité hebdomadaire, parfois quotidienne)
+Moulin à eau ou à vent (parfois plusieurs, selon la taille des champs alentours)
+Entrepôts de marchands (souvent près de la route principale ou du quai fluvial)
+Bains publics / lavoir (souvent liés à un ruisseau ou à une source)
+Guérisseur / herboriste / apothicaire
+Petite garnison (10–30 soldats permanents, parfois avec écurie et armurerie)
+Tour de guet / beffroi (sert aussi d’alarme ou de cloche)
+Palissade ou mur de pierre (protège les entrées principales du village)
+Cimetière principal + ossuaire (souvent attenant au temple)
+Prison / poste de garde (dans les villages à juridiction locale) Champs agricoles étendus (grains, légumes, lin, chanvre)
+Vergers, vignes et houblonnières
+Pâturages extérieurs pour troupeaux communautaires
+Ruisseau, étang ou petite rivière (alimentation en eau, pêche, transport)
+Bois communaux (chasse, cueillette, bois de chauffe)
+Carrière / mine / marais (selon le relief, source de ressources locales)
+Jardin médicinal (près du temple ou du logis du guérisseur)
+Réseau de chemins pavés ou battus menant aux hameaux voisins
+Marché périphérique pour caravanes ou foires saisonnières
+Stèles anciennes / ruines intégrées au territoire (souvent considérées sacrées ou maudites)
+]]></description><link>géographie/misc/village.html</link><guid isPermaLink="false">Géographie/Misc/Village.md</guid><pubDate>Fri, 27 Mar 2026 10:30:04 GMT</pubDate></item><item><title><![CDATA[Petite Ville]]></title><description><![CDATA[
+Une petite ville représente le centre névralgique d’un territoire.
+Elle administre plusieurs bourgs et villages et abrite des institutions régionales et des guildes importantes.
+Elle combine commerce, culture, foi et défense, et peut être le siège d’un seigneur majeur, d’un grand prêtre ou d’un cercle d’érudits. Population : 10 000 à 30 000 habitants
+Maisons : 2 000 à 5 000 foyers
+Organisation : quartiers résidentiels, commerciaux et artisanaux bien définis
+Rôle : administration régionale, commerce, services publics et artisanat Autorité : maire ou conseil municipal
+Sécurité : garde urbaine, tours de surveillance, fortifications légères
+Économie : commerce local et interrégional, artisanat diversifié, marchés réguliers
+Culture : écoles, bibliothèques, espaces de loisirs, rassemblements civiques
+Religion / croyances : temple ou église centrale, lieux de culte communautaires Maisons d’habitation (en pierre ou bois noble, plusieurs étages en centre-ville)
+Hôtel de ville / Palais du conseil
+Château ou citadelle seigneuriale (souvent sur une hauteur)
+Temples majeurs (1 à 3 selon la religion dominante)
+Chapelles secondaires (culte des dieux mineurs, confréries ou ordres)
+Hall des guildes (artisans, commerçants, mages, navigateurs, guérisseurs…)
+Marché central couvert (la « Halle des Mille Voix » ou équivalent local)
+Hospice / hôpital (souvent tenu par un ordre religieux)
+Écoles, collèges ou académies mineures (alphabétisation, magie de base, histoire, arts)
+Auberges et tavernes par dizaines (chaque quartier a ses repères)
+Prison, tribunal, garnison principale
+Fontaines publiques (parfois enchantées ou purificatrices)
+Port ou caravansérail (selon situation géographique) Ateliers d’artisans à grande échelle : Forgerons spécialisés (armes, armures, outils fins)
+Tanneurs, verriers, bijoutiers, alchimistes, cartographes
+Architectes, charpentiers, bâtisseurs, enchanteurs mineurs Moulin(s) (souvent sur rivière ou canaux)
+Entrepôts marchands et comptoirs d’échanges étrangers
+Bains publics (lieu social et parfois magique)
+Théâtre / arène / cirque pour spectacles et annonces publiques
+Cimetière monumental (souvent divisé par culte)
+Tour de mages ou Observatoire arcanique (centre d’étude)
+Archives municipales / bibliothèque ducale
+Poste militaire avancé / garnison secondaire aux portes
+Tour du guet / beffroi (symbole d’indépendance)
+Ponts fortifiés sur les rivières environnantes
+Marché noir ou ruelles souterraines dans les faubourgs (selon ambiance politique) Ceintures agricoles : champs, vergers, vignes, pâturages
+Forêts proches (bois de chauffage, gibier, charbon de bois)
+Rivières ou lacs utilisés pour transport, pêche et énergie
+Canaux et égouts rudimentaires pour l’eau et les déchets
+Routes pavées reliant bourgs et autres villes
+Jardins publics et privés (parfois magiques ou botaniques)
+Cimetière annexe pour les pauvres et les étrangers
+Quartiers périphériques semi-ruraux (bergers, tanneurs, potiers)
+]]></description><link>géographie/misc/petite-ville.html</link><guid isPermaLink="false">Géographie/Misc/Petite Ville.md</guid><pubDate>Fri, 27 Mar 2026 10:30:04 GMT</pubDate></item><item><title><![CDATA[Métropole]]></title><description><![CDATA[
+Une métropole est une cité-monde, concentrant politique, économie, religion et culture.
+Elle attire richesse, savoirs, intrigues et magie, et forme un hub régional autour duquel gravitent plusieurs territoires.
+Ses rues et quartiers révèlent autant de merveilles que de dangers, et ses fondations cachent souvent des secrets très anciens.
+Les frontières entre foi, pouvoir, magie et technologie y deviennent floues. Population : 300 000 habitants et plus
+Maisons : 20 000 à 100 000 foyers
+Organisation : districts spécialisés (résidentiel, commercial, industriel, administratif, diplomatique), infrastructures complexes, réseaux de transport
+Rôle : centre politique, économique et culturel majeur, hub national ou international Autorité : gouverneur ou conseil métropolitain, administrations locales subordonnées
+Sécurité : forces de sécurité professionnelles, garnisons, fortifications, système de surveillance
+Économie : commerce national et international, industries diversifiées, marchés et bourses
+Culture : universités, centres de recherche, bibliothèques, théâtres, musées, événements culturels majeurs
+Religion / croyances : grands temples ou lieux de culte influents, présence de nombreux ordres religieux et cultes Cité impériale / haute : palais central, trône, tour de magie principale, sanctuaires royaux.
+Quartier noble : manoirs, villas, jardins suspendus, institutions diplomatiques.
+Quartier administratif : chancelleries, tribunaux, ambassades, sièges des guildes.
+Quartier marchand : marchés couverts, galeries commerciales, caravansérails, docks marchands.
+Quartier artisanal / industriel : forges massives, alchimistes, golemanciers, manufactures enchantées.
+Quartier magique : académies, tours flottantes, observatoires astraux, laboratoires interdits.
+Quartier religieux : temples colossaux, cathédrales multiples, séminaires, monastères, bibliothèques sacrées.
+Quartier populaire : ruelles étroites, tavernes, bas-fonds, marchés noirs, logements denses.
+Faubourgs extérieurs : champs, marchés aux bestiaux, camps de voyageurs, bidonvilles et routes royales.
+Sous-cité : égouts, tunnels, ruines antiques, cité cachée ou sanctuaire oublié (parfois habité par une autre civilisation). Palais impérial / citadelle royale
+Tour du Conseil / Sénat / Tribunal suprême
+Cathédrale principale (souvent dédiée au dieu dominant)
+Forteresse centrale et garnison de la garde impériale
+Hôtel de ville / chancellerie
+Hall des guildes majeures (marchands, mages, alchimistes, forgerons, assassins)
+Université impériale / Académie des arts et arcanes
+Arènes, théâtres, amphithéâtres géants
+Hôpital central / temple guérisseur / centre d’alchimie médicale
+Grand marché (souvent segmenté par types de produits et par classes sociales)
+Prison d’État, tour des condamnés, ou geôle magique
+Bibliothèque mondiale / Archives interdites
+Observatoire céleste / tour des augures
+Port intérieur / maritime / aérien (selon le niveau magique ou technologique)
+Caserne de la garde noire, des paladins, ou des mages de guerre Maisons des nobles et ambassades étrangères
+Tours d’érudits, d’astrologues et d’enchanteurs
+Banque impériale / maison du commerce universel
+Tribunal des guildes et salle du Trésor
+Bains publics, thermes luxueux, jardins magiques
+Monastères fortifiés / archives divines
+Marché noir central (souvent toléré ou dissimulé)
+Quartiers autonomes (elfique, nain, démoniaque, etc.)
+Centres de communication magique (miroirs, portails, messagers aériens)
+Arène de dragons / colisée de créatures mythiques
+Forges runiques et ateliers de golems
+Portes dimensionnelles ou tours de téléportation (dans les métropoles à magie développée)
+Centres de recherche interdite ou sanctuaires souterrains
+Refuge des mendiants / quartiers de résistance / sanctuaires cachés Murailles multiples (souvent jusqu’à quatre, chacune délimitant une classe sociale)
+Aqueducs et canaux sur plusieurs niveaux, parfois enchantés
+Réseau d’égouts transformé en cité souterraine
+Ponts monumentaux, parfois suspendus ou magiques
+Tours de défense et balistes arcanes sur les remparts
+Routes pavées et éclairage magique (cristaux, orbes, esprits de lumière)
+Port fluvial, maritime et parfois aérien (dirigeables, dragons, montures célestes)
+Jardins royaux, places monumentales, parcs enchantés
+Statues colossales (dieux, souverains, anciens héros)
+Crypte royale / nécropole souterraine / tombeaux divins
+Catacombes magiques renfermant des sceaux, artefacts ou entités anciennes
+Tour d’énergie / cœur magique (centre d’alimentation des enchantements urbains)
+Réseau de portails reliant d’autres grandes villes ou dimensions
+<a data-href="Chenav" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chenav</a><br>
+<a data-href="Eogulf" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Eogulf</a><br>
+<a data-href="Gelbiq" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Gelbiq</a><br>
+<a data-href="Izmir" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Izmir</a><br>
+<a data-href="Kamini" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Kamini</a><br>
+<a data-href="Payiong" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Payiong</a><br>
+<a data-href="Valdos" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Valdos</a><br><a data-href="Elfais" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Elfais</a><br>
+<a data-href="Frakiln" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Frakiln</a><br>
+<a data-href="Fruss" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Fruss</a><br>
+<a data-href="Galmag" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Galmag</a><br>
+<a data-href="Pranels" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Pranels</a><br>
+<a data-href="Pulmius" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Pulmius</a><br>
+<a data-href="Sulimund" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Sulimund</a><br>
+<a data-href="Zaenir" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaenir</a><br><a data-href="Bizmor" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bizmor</a><br>
+<a data-href="Brek" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Brek</a><br>
+<a data-href="Gronok" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Gronok</a><br>
+<a data-href="Kraken" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Kraken</a><br>
+<a data-href="Mirnjoll" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mirnjoll</a><br>
+<a data-href="Ruskit" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Ruskit</a><br>
+<a data-href="Siv" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Siv</a><br>
+<a data-href="Urvalsn" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Urvalsn</a><br>
+<a data-href="Viskars" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Viskars</a><br>
+<a data-href="Wolg" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Wolg</a><br>
+<a data-href="Zuvir" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zuvir</a><br><a data-href="Azurv" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Azurv</a><br>
+<a data-href="Eynamar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Eynamar</a><br>
+<a data-href="Irkma" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Irkma</a><br>
+<a data-href="Korkaahn" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Korkaahn</a><br>
+<a data-href="Myurnil" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Myurnil</a><br>
+<a data-href="Xubilayl" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Xubilayl</a><br>
+<a data-href="Zonig" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zonig</a>]]></description><link>géographie/misc/métropole.html</link><guid isPermaLink="false">Géographie/Misc/Métropole.md</guid><pubDate>Fri, 27 Mar 2026 10:30:03 GMT</pubDate></item><item><title><![CDATA[Aerel, Grande Mère]]></title><description><![CDATA[Deux voyageurs se rencontrèrent au bord d’un puits.Ils burent ensemble.
 Ils rirent ensemble.
 Ils décidèrent de ne plus se quitter.Alors le monde changea.Leurs pas laissèrent une seule trace.
 Leurs voix devinrent une seule parole.Et bientôt, ils ne furent plus deux.Mais ils ne furent pas non plus un.Quelque chose d’autre naquit.Quelque chose qui pleurait quand ils riaient,
@@ -1259,225 +1675,7 @@ une tournée vers un abîme Ce que je vois peut naître
 Ce que j’ignore grandit
 Le rêve appelle le monde
 Et l’ombre lui répond
-]]></description><link>bestiaire/planaires/dieux/radeon,-dieu-dormant.html</link><guid isPermaLink="false">Bestiaire/Planaires/Dieux/Radeon, Dieu Dormant.md</guid><pubDate>Fri, 27 Mar 2026 10:20:47 GMT</pubDate></item><item><title><![CDATA[Planaires]]></title><description><![CDATA[une âme libre non dangereuse dans cet étatune âme possède un vivant et remplace son âmeune âme récupère son corps d'originesorcier qui s'est séparé de son âme]]></description><link>bestiaire/planaires/planaires.html</link><guid isPermaLink="false">Bestiaire/Planaires/Planaires.md</guid><pubDate>Fri, 27 Mar 2026 08:41:43 GMT</pubDate></item><item><title><![CDATA[Combat]]></title><description><![CDATA[Les humanoïdes possèdent tous un maximum de 50 HP qui se régénèrent avec du repos (pour peu que la personne ait mangé récemment) ou de la magie.Ils peuvent monter jusqu'à 100 HP pour une durée d'un jour si un plat avec des bons effets a été consommé.
-Seulement au premier tour, seulement un joueur.
-Motiver son équipe pour lui donner un avantage/ Faire peur aux adversaires pour leur donner un désavantage (effet et durée selon le MJ)
-Résultat - Défense (DR) = Dégâts au HP. Prendre 10/20
-Prendre son temps (sans se faire perturber) pour réussir les DC de 10 (1 tour) / 20 (2 tours).Permet également de régénérer sa magie.]]></description><link>jeu/règles/combat/combat.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Combat.md</guid><pubDate>Thu, 19 Mar 2026 14:23:00 GMT</pubDate></item><item><title><![CDATA[Magie]]></title><description><![CDATA[
-Dé + Mental(Arcaniste|Intelligence|Sagesse) &gt;= AC -&gt; DR - (Résultat * (Crystaux + Toile Célèste)) + Magie = Dégâts au HP 1d20 + Mental (Arcaniste|Intelligence|Sagesse) &gt;= DC
-S'il s'agit d'un buff, le coût en crystaux varie selon le type de stats que l'on souhaite buffer.S'il s'agit d'une action particulière, le MJ décide du coût en crystaux.S'il s'agit d'une Toile basée sur les magies courantes, on ajoute la valeur de la Toile]]></description><link>jeu/règles/combat/magie.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magie.md</guid><pubDate>Thu, 19 Mar 2026 14:20:52 GMT</pubDate></item><item><title><![CDATA[Armures]]></title><description><![CDATA[
-AC (Armor Class) = Mobilité d'esquive naturelle
-DR (Damage Reduction) = Réduction des dégâts AC total = AC + Modificateurs Le prix de main d'œuvre vaut 10% du prix des tous les matériaux requis.
-Une armure nécessite 24 matériaux pour être fabriquée.
-Sans armure, l'AC de base est de 18.
-Faiblesse = 50% DR
-Les HP ne se régénèrent pas naturellement lorsqu'une armure est équipée.
-Effets
-+ <a data-tooltip-position="top" aria-label="Enchanteur &gt; Suraja" data-href="Enchanteur#Suraja" href="jeu/règles/apprentissages/artisanat/enchanteur.html#Suraja" class="internal-link" target="_self" rel="noopener nofollow">Enchantements de Suraja</a>
-+ Pendant son tour, le joueur peut convertir des crystaux en AC (1:1, Max = Mental / 4)
-Il perd ce bonus une fois touché
-Les crystaux bonus par attaque nécessite d'en consommer au moins 1 pour s'appliquer (ex : 1 consommer +2 gratuits). Faiblesse : Tranchant
-Effets<br>
-+ <a data-tooltip-position="top" aria-label="Enchanteur &gt; Kothula" data-href="Enchanteur#Kothula" href="jeu/règles/apprentissages/artisanat/enchanteur.html#Kothula" class="internal-link" target="_self" rel="noopener nofollow">Enchantements de Kothula</a>
-+ Se répare auprès d'un tanneur
-La rareté varie entre 1 et 5 (Déchet, Commun, Peu commun, Rare, Légendaire) Faiblesse : Perforant
-Effets<br>
-+ <a data-tooltip-position="top" aria-label="Enchanteur &gt; Ovliin" data-href="Enchanteur#Ovliin" href="jeu/règles/apprentissages/artisanat/enchanteur.html#Ovliin" class="internal-link" target="_self" rel="noopener nofollow">Enchantements d'Ovliin</a>
-+ Se répare auprès d'un potionniste
-- Désavantage en Dextérité (Discrétion)
-- Désavantage en Magies en combat
-Faiblesse : Contondant
-Effets<br>
-+ <a data-tooltip-position="top" aria-label="Enchanteur &gt; Nirina" data-href="Enchanteur#Nirina" href="jeu/règles/apprentissages/artisanat/enchanteur.html#Nirina" class="internal-link" target="_self" rel="noopener nofollow">Enchantements de Nirina</a>
-+ Se répare dans une forge/ avec la magie de métal
-- Dextérité (Discrétion) impossible
-- Magies impossibles en combatEffets
-- La DR du bouclier ne s'ajoute que si le bouclier fait face à la source de l'attaque (attaque de front/ dans le dos)]]></description><link>jeu/règles/combat/armures.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Armures.md</guid><pubDate>Thu, 19 Mar 2026 12:50:25 GMT</pubDate></item><item><title><![CDATA[Dieux]]></title><description><![CDATA[Dieu de la possession et du partage.
-“Dieu Scintillant.png” ne peut être trouvé.Déesse de la fertilité et du plaisir.
-“Grande Mère.png” ne peut être trouvé.Dieu des rêves et des ambitions.
-“Dieu Dormant.png” ne peut être trouvé.
-“Dieu Dormant 2.png” ne peut être trouvé.Dieu d'élévation et de grandeurDieu de la guerre et de l'amour.
-“Dieu Pourpre.png” ne peut être trouvé.Dieu de la vie et de la mort.]]></description><link>bestiaire/planaires/dieux/dieux.html</link><guid isPermaLink="false">Bestiaire/Planaires/Dieux/Dieux.md</guid><pubDate>Thu, 19 Mar 2026 12:41:58 GMT</pubDate></item><item><title><![CDATA[Cira]]></title><description><![CDATA[
-Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste
-Niveau : 8
-55 points à mettre au niveau 1 (min 7, max 14)
-+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (4/6)
-Maîtrise : 1Crystaux : 10Poids maximum : 36
-Force &gt; 10 : 40 + (Force Modificateur x 10)
-Force &lt; 10 : 40 + (Force Modificateur x 2) ]]></description><link>jeu/sessions-du-masque/joueurs/cira.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Cira.md</guid><pubDate>Thu, 19 Mar 2026 10:55:38 GMT</pubDate></item><item><title><![CDATA[Hazdaim]]></title><description><![CDATA[“Hazdaim.png” ne peut être trouvé.Niveau : 6
-55 points à mettre au niveau 1 (min 7, max 14)
-+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (2/4)
-Maîtrise : 1Crystaux : 9Poids maximum : 38+40 = 78kg
-Force &gt; 10 : 40 + (Force Modificateur x 10)
-Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
-<a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
-<a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
-<a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
-<a data-href="Léoric" href="jeu/sessions-du-masque/joueurs/léoric.html" class="internal-link" target="_self" rel="noopener nofollow">Léoric</a> <br>
-<a data-href="Zveindel" href="jeu/sessions-du-masque/joueurs/zveindel.html" class="internal-link" target="_self" rel="noopener nofollow">Zveindel</a> <br>
-<a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Radeon, Dieu Dormant" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Radeon, Dieu Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a> <br>
-<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> <br>
-<a data-href="Perseus" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Perseus</a> <br>
-<a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
-<a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
-<a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
-<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/hazdaim.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Hazdaim.md</guid><pubDate>Thu, 19 Mar 2026 10:54:33 GMT</pubDate></item><item><title><![CDATA[Léoric]]></title><description><![CDATA[
-Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste
-Niveau : 6
-55 points à mettre au niveau 1 (min 7, max 14)
-+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (2/4)
-Maîtrise : 2Crystaux : 9Poids maximum : 40kg
-Force &gt; 10 : 40 + (Force Modificateur x 10)
-Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
-<a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
-<a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
-<a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
-<a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
-<a data-href="Zveindel" href="jeu/sessions-du-masque/joueurs/zveindel.html" class="internal-link" target="_self" rel="noopener nofollow">Zveindel</a> <br>
-<a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Radeon, Dieu Dormant" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Radeon, Dieu Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a> <br>
-<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> <br>
-<a data-href="Perseus" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Perseus</a> <br>
-<a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
-<a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
-<a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
-<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/léoric.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Léoric.md</guid><pubDate>Thu, 19 Mar 2026 10:53:41 GMT</pubDate></item><item><title><![CDATA[Haelrak]]></title><description><![CDATA[
-Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste
-Niveau : 5.5
-55 points à mettre au niveau 1 (min 7, max 14)
-+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (2/3)
-Maîtrise : 2Crystaux : 14Poids maximum : 38+20 = 58kg
-Force &gt; 10 : 40 + (Force Modificateur x 10)
-Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
-<a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
-<a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
-<a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
-<a data-href="Léoric" href="jeu/sessions-du-masque/joueurs/léoric.html" class="internal-link" target="_self" rel="noopener nofollow">Léoric</a> <br>
-<a data-href="Zveindel" href="jeu/sessions-du-masque/joueurs/zveindel.html" class="internal-link" target="_self" rel="noopener nofollow">Zveindel</a> <br>
-<a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Radeon, Dieu Dormant" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Radeon, Dieu Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a> <br>
-<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> <br>
-<a data-href="Perseus" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Perseus</a> <br>
-<a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
-<a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
-<a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
-<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/haelrak.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Haelrak.md</guid><pubDate>Thu, 19 Mar 2026 10:53:07 GMT</pubDate></item><item><title><![CDATA[Dara]]></title><description><![CDATA[“Dara.png” ne peut être trouvé.Niveau : 6
-55 points à mettre au niveau 1 (min 7, max 14)
-+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (2/4)
-Maîtrise : 1Crystaux : 9Poids maximum : 36+20 = 56kg
-Force &gt; 10 : 40 + (Force Modificateur x 10)
-Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
-<a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
-<a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
-<a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
-<a data-href="Léoric" href="jeu/sessions-du-masque/joueurs/léoric.html" class="internal-link" target="_self" rel="noopener nofollow">Léoric</a> <br>
-<a data-href="Zveindel" href="jeu/sessions-du-masque/joueurs/zveindel.html" class="internal-link" target="_self" rel="noopener nofollow">Zveindel</a> <br>
-<a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Radeon, Dieu Dormant" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Radeon, Dieu Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a> <br>
-<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> <br>
-<a data-href="Perseus" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Perseus</a> <br>
-<a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
-<a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
-<a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
-<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/dara.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Dara.md</guid><pubDate>Thu, 19 Mar 2026 10:52:54 GMT</pubDate></item><item><title><![CDATA[Armes]]></title><description><![CDATA[
-L'arme permet de se focaliser sur les dégâts rapides (vs AC) ou les dégâts lourds (vs DR).
-Utiliser la faiblesse de l'ennemi ne prend en compte que 50% de sa DR.
-Exemple avec X = 12 (Orichalque)Critiques -&gt; Permet de relancer un dé qui a fait le maximum pour cumuler les points
-Le nombre de relance disponible de l'enchantement de Nirina
-Le maximum de relance est égal au nombre de dés disponibles (ex: 3d4 = 3dés de relance max)
-Mêlée: Dé &gt;= AC -&gt; DR - (dé +X) = Dégâts au HP
-? Distance ? : 1d20 +Dex +Maîtrise &gt;= AC -&gt; DR - dégâts = Dégâts au HP
-X = Matériau
-Si le dé de dégâts atteint l'AC de la cible, on déduit de DR la somme du dé et de X, et ce qui reste réduit les HP.Enchanter une arme permet d'augmenter son dé de dégâts.Si une arme est en métal, seuls les <a data-tooltip-position="top" aria-label="Enchanteur &gt; Nirina" data-href="Enchanteur#Nirina" href="jeu/règles/apprentissages/artisanat/enchanteur.html#Nirina" class="internal-link" target="_self" rel="noopener nofollow">Enchantements de Nirina</a> sont efficaces. -&gt; Permettent de faire des coups critiques<br>Si une arme est en os, seul les <a data-tooltip-position="top" aria-label="Enchanteur &gt; Ovliin" data-href="Enchanteur#Ovliin" href="jeu/règles/apprentissages/artisanat/enchanteur.html#Ovliin" class="internal-link" target="_self" rel="noopener nofollow">Enchantements d'Ovliin</a> sont efficaces (en plus de lui ajouter un effet magique).
-La propriété VS (il faudra choisir) : ajoute un dé de dégâts lorsque l'attaque touche le bon type de cible (ne s'applique pas sur les armes à distance),
-double les dégâts finaux,
-annule la DR,
-divise la DR par 2. Effets
-+ Se répare dans une forge/ avec la magie de métal
-Le revêtement retire les propriétés du matériau principal et applique le sien à la place.
-Les munitions utilisées avec une arme à distance possèdent leur propre propriété.]]></description><link>jeu/règles/combat/armes.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Armes.md</guid><pubDate>Thu, 19 Mar 2026 10:45:28 GMT</pubDate></item><item><title><![CDATA[Forgeron]]></title><description><![CDATA[
-Spécialité de l'<a data-href="Artisanat" href="jeu/règles/apprentissages/artisanat/artisanat.html" class="internal-link" target="_self" rel="noopener nofollow">Artisanat</a> qui travaille les métaux pour en fabriquer des armes et armures.
-Une fois que le joueur a lancé les dés pour connaitre la rareté du matériau qu'il a obtenu, il doit lancer les dés pour savoir précisément l'effet de ce matériau.
-Métaux ou minerais bruts de faible qualité, oxydés, ou trop impurs pour produire un bon acier sans traitement lourd.
-Souvent recyclés ou fondus en alliage. Métaux courants, faciles à extraire et à travailler, base de la forge classique. Laiton (cuivre + zinc, semblable à l'or, utilisé pour faire des pièces pendant l'empire Romain) Métaux plus résistants ou nécessitant un savoir-faire supérieur pour le travail à chaud. Acier trempé (carbone maîtrisé, haute dureté)
-Tungstène (utilisé pour renforts ou tranchants fins, non forgé pur) Métaux à haute valeur technique, demandant extraction et forge complexes. Molybdène (alliage haute température) Acier inoxydable (alliage nickel + chrome)
-Vanadium (pour acier élastique et tranchant durable) Métaux exceptionnellement rares, difficiles à fondre ou forger sans technologie avancée.
-Historiquement utilisés pour symboliser la perfection métallurgique. Tantale (ultra-résistant, presque inoxydable)
-Rhodium (dur, brillant, excellent conducteur) Damassé
-]]></description><link>jeu/règles/apprentissages/artisanat/forgeron.html</link><guid isPermaLink="false">Jeu/Règles/Apprentissages/Artisanat/Forgeron.md</guid><pubDate>Thu, 19 Mar 2026 09:36:59 GMT</pubDate></item><item><title><![CDATA[Enchanteur]]></title><description><![CDATA[
-Spécialité de l'<a data-href="Artisanat" href="jeu/règles/apprentissages/artisanat/artisanat.html" class="internal-link" target="_self" rel="noopener nofollow">Artisanat</a> qui améliore magiquement les caractéristiques des équipements d'aventuriers.
-Chaque continent possède sa technique d'enchantement.Pour l'apprendre, il faut se rendre sur le continent concerné.Pour enchanter, il faut : l'objet à enchanter, un crystal purgé, qui facilite l'apport magique de l'enchanteur vers l'enchantement.
-Ce crystal coûte 5po et a 20% de chance de casser à chaque utilisation.
-Au niveau 4, le crystal a 10% de chance de casser, une réserve de magie sur soi, 8h de travail continu. Enchanter des parties du corps pour fluidifier les flux magiques qui circulent dedans et améliorer l'utilisation de la magie.
-Les parties du corps enchantables sont les bras, le dos et les jambes.Rater le processus d'enchantement le rend juste temporaire (1 semaine)Un échec critique (95 - 99) affaiblit le corps et réduit les chances de tatouage pendant 100 jours. (-50% de réussite)Un échec super critique (100) empêche de se faire tatouer sur cette partie du corps à l'avenir.
-Un objet rare permet d'empêcher cet échec (20 po au marché ou trouvable en expédition)L'effet dépend de l'architecture du tatouage (non cumulables sans conséquences) :
-Enchanter les métaux pour augmenter leur efficacité.
-Rater l'enchantement donne un malus au lieu d'un bonus.Une réussite critique fait que le montant minimum est la moitié de la valeur du dé.Une armure possède 2 "slots" à enchanter, et une arme en possède 1.Pour nettoyer les slots, il faut faire fondre et reforger l'équipement (la magie de métal n'est pas suffisante).En fonction du bonus souhaité, les chances de réussites varient :
-Enchanter les os pour en extraire la puissance élémentaire de son ancien "propriétaire".
-Une armure en os ou une arme avec le manche en os peuvent bénéficier de cette puissance.Pour enchanter, le joueur lance 1d20 + Niveau d'enchanteur (le bonus obtenu varie selon le résultat et la rareté de l'os).Un échec diminue la rareté de l'os de 1.Un échec critique rend l'os inutilisable.
-Enchanter les tissus pour augmenter leur résistance aux éléments magiques.
-Un tissu peut cumuler plusieurs enchantements (le maximum dépend du type de tissu).Le joueur peut ajouter de nouveaux enchantements (au risque d'en perdre d'autres), ou améliorer ceux déjà présents.Le joueur lance 1d20 + Niveau d'enchanteur.La difficulté de réussite change selon le nombre d'enchantements déjà présents :Résultats :
-réussite critique, l'enchantement est créé et a une valeur de 2,
-réussite, l'enchantement est créé et a une valeur de 1,
-échec, le tissu perd le dernier enchantement ajouté,
-échec critique, le tissu perd les 2 derniers enchantements ajoutés.
-Le joueur lance 1d6, la valeur de l'enchantement est le résultat obtenu.Si le dé fait 6, la valeur devient 0 (l'enchantement est désactivé mais pas supprimé).L'enchantement disparaît si le joueur fait 6 ou un nombre inférieur à la valeur actuelle deux fois de suite.]]></description><link>jeu/règles/apprentissages/artisanat/enchanteur.html</link><guid isPermaLink="false">Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md</guid><pubDate>Thu, 19 Mar 2026 09:36:54 GMT</pubDate></item><item><title><![CDATA[Halfdan]]></title><description><![CDATA[
-Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste
-Niveau : 4
-55 points à mettre au niveau 1 (min 7, max 14)
-+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20
-Maîtrise : 1Crystaux : 9Poids maximum : 50
-Force &gt; 10 : 40 + (Force Modificateur x 10)
-Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
-<a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
-<a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
-<a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
-<a data-href="Léoric" href="jeu/sessions-du-masque/joueurs/léoric.html" class="internal-link" target="_self" rel="noopener nofollow">Léoric</a> <br>
-<a data-href="Zveindel" href="jeu/sessions-du-masque/joueurs/zveindel.html" class="internal-link" target="_self" rel="noopener nofollow">Zveindel</a> <br>
-<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> ]]></description><link>jeu/sessions-du-masque/joueurs/halfdan.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Halfdan.md</guid><pubDate>Thu, 19 Mar 2026 09:34:21 GMT</pubDate></item><item><title><![CDATA[00. Template]]></title><description><![CDATA[
-Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste
-Niveau :
-55 points à mettre au niveau 1 (min 7, max 14)
-+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20
-Maîtrise :Crystaux :Poids maximum :
-Force &gt; 10 : 40 + (Force Modificateur x 10)
-Force &lt; 10 : 40 + (Force Modificateur x 2) ]]></description><link>jeu/sessions-du-masque/joueurs/00.-template.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/00. Template.md</guid><pubDate>Thu, 19 Mar 2026 09:32:48 GMT</pubDate></item><item><title><![CDATA[Zveindel]]></title><description><![CDATA[“Zveindel.png” ne peut être trouvé.Niveau : 5.5
-55 points à mettre au niveau 1 (min 7, max 14)
-+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (2/3)
-Maîtrise : 3Crystaux : 14Poids maximum : 38+60 = 98kg
-Force &gt; 10 : 40 + (Force Modificateur x 10)
-Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
-<a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
-<a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
-<a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
-<a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
-<a data-href="Léoric" href="jeu/sessions-du-masque/joueurs/léoric.html" class="internal-link" target="_self" rel="noopener nofollow">Léoric</a> <br>
-<a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Radeon, Dieu Dormant" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Radeon, Dieu Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a> <br>
-<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> <br>
-<a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
-<a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
-<a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
-<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/zveindel.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Zveindel.md</guid><pubDate>Thu, 19 Mar 2026 09:31:15 GMT</pubDate></item><item><title><![CDATA[Lumière]]></title><description><![CDATA[
-Les sorts présents ici ne servent que d'exemple et n'empêchent pas la création de nouveaux sorts (avec l'accord du MJ).
-]]></description><link>jeu/règles/combat/magies/lumière.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Lumière.md</guid><pubDate>Thu, 19 Mar 2026 09:28:54 GMT</pubDate></item><item><title><![CDATA[Artisanat]]></title><description><![CDATA[
-L’artisanat a pour objectif de façonner une matière existante pour lui donner une forme utile et durable.
-Certains artisans se spécialisent dans les grandes constructions (bâtiments, véhicules, fortifications), mais ceux qui intéressent le plus les aventuriers sont ceux dont le savoir-faire améliore directement leurs armes, protections ou équipements.
-Un Artificier conçoit et assemble des dispositifs mécaniques, alchimiques ou explosifs.
-Son savoir combine ingénierie, alchimie et magie contrôlée, lui permettant de créer des pièges, bombes, mines, ou mécanismes défensifs.
-Certains se spécialisent dans les armes de siège miniaturisées, d’autres dans les gadgets de précision.
-Leur principal défi réside dans la stabilité de leurs créations — un chef-d’œuvre peut facilement devenir un désastre.Un Bijoutier travaille les métaux précieux et pierres rares pour façonner des anneaux, amulettes, talismans et sceaux.
-Son art ne se limite pas à l’esthétique : il conçoit des supports de cristaux capables de stocker la magie en canalisant ses effets négatifs.
-La qualité de ses œuvres dépend de la pureté des matériaux et de la précision des gravures.
-Les meilleurs bijoutiers savent équilibrer beauté, symbolisme et puissance, créant des objets aussi spirituels que fonctionnels.Un Enchanteur applique les savoirs ésotériques de son continent pour améliorer les propriétés d’une arme, d’une armure ou d’un objet.
-Chaque continent possède ses propres traditions enchantées, offrant des avantages uniques mais aussi des contreparties spécifiques.
-L’enchanteur agit comme un pont entre artisanat et magie, infusant la matière de symboles, de runes ou d’essences spirituelles.Un Forgeron maîtrise la fusion et le travail du métal afin de créer des armes et armures lourdes.
-Son expérience détermine sa capacité à forger des alliages rares, plus tranchants, résistants ou conducteurs de magie.
-Les meilleurs forgerons savent adapter leurs créations aux porteurs, équilibrant puissance, poids et résonance magique.Un Tanneur (ou Couturier) transforme les peaux et fourrures en armures légères et vêtements de protection.
-Son art dépend à la fois de la qualité de la matière première et de sa maîtrise du traitement : cuir souple, peau renforcée, ...
-Les tanneurs les plus habiles allient esthétique, confort et résistance, produisant des pièces aussi pratiques que discrètes.Le joueur doit d'abord raffiner ses ingrédients bruts en matériaux utilisables à l’aide d’un jet de D20 + Niveau d'Artisanat + Rareté de l'ingrédient (déchet= 0, commun= 1, 2, 4, 6).
-Un ingrédient ne peut pas devenir un matériau de rareté plus élevé, mais il peut cependant perdre en rareté.Ensuite, le joueur lance un autre dé pour déterminer avec précision le matériau qu'il vient d'obtenir.
-Voir la partie Raffinage de chaque spécialisation pour en savoir plus.Une fois les ingrédients transformés en matériaux, le joueur peut tenter une fabrication à l’aide d’un jet de D20 + Niveau d'Artisanat.Pour réussir, le résultat final doit être supérieur à la difficulté totale de la création.Les chances de réussite dépendent : du niveau d’artisanat du joueur, du nombre total d’ingrédients utilisés, et de la rareté de chacun d’eux. Les malus de difficulté s’additionnent pour chaque ingrédient.
-Lors d’un voyage, le joueur peut doubler le temps qu'il passe dans un hex afin de récolter divers composants.
-Le joueur lance : 1D100 pour déterminer la rareté de l'ingrédient trouvé. Pour connaître la quantité obtenue : D10 pour les déchets, D8 pour les communs, D6 pour les peu communs, D4 pour les rares, D2 pour les légendaires. Le type d'ingrédients est déterminé par l'hex dans lequelle le joueur fait sa récolte (minerais, gemmes, crystaux, ..). ]]></description><link>jeu/règles/apprentissages/artisanat/artisanat.html</link><guid isPermaLink="false">Jeu/Règles/Apprentissages/Artisanat/Artisanat.md</guid><pubDate>Thu, 19 Mar 2026 09:27:55 GMT</pubDate></item><item><title><![CDATA[Magie]]></title><description><![CDATA[
-La magie brut, sans être imprégnée des différents éléments.
-]]></description><link>jeu/règles/combat/magies/magie.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Magie.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Capitale]]></title><description><![CDATA[
+]]></description><link>bestiaire/planaires/dieux/radeon,-dieu-dormant.html</link><guid isPermaLink="false">Bestiaire/Planaires/Dieux/Radeon, Dieu Dormant.md</guid><pubDate>Fri, 27 Mar 2026 10:20:47 GMT</pubDate></item><item><title><![CDATA[Capitale]]></title><description><![CDATA[
 La capitale est le cœur vivant d’un royaume, d’un empire ou d’une région majeure.
 C’est un symbole, une forteresse et un organisme colossal où chaque pierre respire le pouvoir.
 Elle concentre rois, armées, mages, peuples et dieux, et constitue un centre stratégique de magie, religion et politique.
@@ -1628,192 +1826,4 @@ Ruisseau ou mare (eau douce, parfois liée à un esprit local)
 Petit cimetière (près de la chapelle)
 Chemin principal menant à la bourgade la plus proche
 Pierre runique / stèle ancienne (dans un univers fantasy, trace d’un ancien culte ou sceau magique)
-]]></description><link>géographie/misc/hameau.html</link><guid isPermaLink="false">Géographie/Misc/Hameau.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Anneau de Feu]]></title><description><![CDATA[<a data-href="Suraja" href="géographie/suraja/suraja.html" class="internal-link" target="_self" rel="noopener nofollow">Suraja</a><br>
-<a data-href="Grand Bleu" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Grand Bleu</a><br>
-<a data-href="Mer Calme" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mer Calme</a>]]></description><link>géographie/anneau-de-feu.html</link><guid isPermaLink="false">Géographie/Anneau de Feu.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Anneau de Givre]]></title><description><![CDATA[<a data-href="Ovliin" href="géographie/ovliin/ovliin.html" class="internal-link" target="_self" rel="noopener nofollow">Ovliin</a><br>
-<a data-href="Fosse d'Oslo" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Fosse d'Oslo</a><br>
-<a data-href="Jade Pourpre" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Jade Pourpre</a>]]></description><link>géographie/anneau-de-givre.html</link><guid isPermaLink="false">Géographie/Anneau de Givre.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Anneau des Tempêtes]]></title><description><![CDATA[<a data-href="Nirina" href="géographie/nirina/nirina.html" class="internal-link" target="_self" rel="noopener nofollow">Nirina</a><br>
-<a data-href="Rapides d'Erve" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Rapides d'Erve</a><br>
-<a data-href="Merché" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Merché</a><br>
-<a data-href="Mer des Dents" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mer des Dents</a><br>
-<a data-href="Mer Lactée" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mer Lactée</a>]]></description><link>géographie/anneau-des-tempêtes.html</link><guid isPermaLink="false">Géographie/Anneau des Tempêtes.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Anneau des Vents]]></title><description><![CDATA[<a data-href="Kothula" href="géographie/kothula/kothula.html" class="internal-link" target="_self" rel="noopener nofollow">Kothula</a><br>
-<a data-href="Chaumide" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chaumide</a><br>
-<a data-href="Grand Bleu" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Grand Bleu</a><br>
-<a data-href="Mer Triste" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mer Triste</a>]]></description><link>géographie/anneau-des-vents.html</link><guid isPermaLink="false">Géographie/Anneau des Vents.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Géographie]]></title><description><![CDATA[id: aerethios-map
-image: [[Images/geography.jpg]]
-lock: true
-recenter: false
-noScrollZoom: false
-height: 79%
-width: 100%
-bounds: [[0,0], [4176,8192]]
-lat: 2088
-long: 4096
-minZoom: -2
-maxZoom: 1
-defaultZoom: -2
-zoomDelta: 0.5
-unit: meters
-scale: 1
-darkMode: false
-marker: - [default,3271.281026815793,3140.362619436029,00 - 24.01.25,J-0
-Rencontre dans une guilde Arvens
-Quête d'escorte d'une boîte pour passer Arvens Or J-2
-Attaque d'ombres
-Un cheval est mort et Arek est blessé
-Léoric soigne le cheval mais pas Arek J-4
-Arek se fait posséder et brise la boîte
-Un masque avec 2 Toiles Célestes en sort et les fait tomber dans les pommes,-1,] - [default,3441.9781808621674,3134.389806576962,01 - 07.02.25,J-15
-Réveil dans une chambre de petite fille
-Les gardes arrivent et ils se font arrêter
-Tribunal, ils apprennent qu'ils sont maudits par la Toile vaudoo du masque et peuvent se transformer en poupée à tout moment
-Ils refont leur équipement et font des quêtes
-Combat contre des rats
-L'archimage leur vend de l'herbe pour se détendre Ils cherchent :
-Tarquin Alsyon -&gt; Financier principal
-Lysara Veyn -&gt; Donneuse de Toile Vaudoo
-Orvain Thessarion -&gt; Fusion des Toiles au masque,-1,] - [default,3692.290265304043,3058.0198023836647,02 - 21.02.25,J-22
-Escorte jusqu'à un village sous le joug d'un dictateur
-Infiltration dans son manoir pour lui casser la gueule
-Ils font la marionnette avec sa tête dans la caserne des gardes
-Grosse célébration pour la liberté du village
-Arek se fait voler son argent par Dara pour le rendre aux villageois
-Ils ont récupéré une lettre "Projet du Dieu Dormant",-1,] - [default,3643.6602883708397,2731.6285248193894,05 - 11.04.35,J-40
-Appel des personnes importantes
-Billy qui supervise la réunion des pays ne peut rien faire tout de suite Tarquin n'a pas de grimoir personnel Lysara a été payée par Tarquin pour fournir une Toile Vaudoo Orvain n'est pas joignable, il aurait été assassiné il y a peu Iskarion, le conseillé d'Eryndor, un Doigt de la Main, arrive pour leur dire qe la religion les aidera dans ce combat Ils se téléportent chez Orvain pour enquêter
-Son domaine a été detruit,-1,] - [default,3884.7010619944976,2829.571085425518,05 - 11.04.35,J-27
-Projet Dieu Dormant,-1,] - [default,3868.4310313919964,2960.4163257885434,04 - 28.03.25,J-35
-Ils sont vendus aux enchères
-Arek 9 - 11cm
-Dara 10 - 12cm
-Halfdan 13 - 18cm
-Hazdaim 17 - 20cm
-Léoric 1 - 5cm Perseus arrive pour les sortir de là
-Discussion avec lui, il dit qu'il sera là quand ils auront besoin d'aide
-Ils parent pour la capitale J-37
-Attaque par Bien Informé,-1,] - [default,3768.6886698723115,2983.049016013499,03 - 14.03.25,J-25
-Achats en ville
-Dara essaie de vendre une pipe contre un enchantement
-On les inscrit au tournoi
-Rencontre de Perseus
-Combat amical contre Léoric
-Soirée alcoolisée
-Combat dans l'arène (clandestine)
--8 Raptidons (5 enfants, 3 adultes)
--5 Humains
--Chevalier TESO (bien informé)
-Ils gagnent, on leur tire dessus avec du plomb
-Ils perdent connaissance,-1,] - [default,2483.2713919956877,5280.888604054999,06-27.04.25,J-41
-Combat contre Harag,-1,] - [default,2721.5721600862416,5303.781635982288,07 - 18.05.25,J-41
-Voyage vers Ruvik J-43
-Rencontre d'un Gammoth
-Dara utilise les ténèbres pour qu'il attaque son troupeau J-48
-Rencontre de Einar qui les héberge, les nourri et les emmène à la capitale,-1,] - [default,2697.5624578897723,5494.826147751107,08 - 21.05.25,J-50
-Rencontre des Arvens, on leur demande s'ils ont récupéré leur colis
-Ils vont chercher leur colis
-Ils se font attaquer par des soldats de Suraja qui avaient pris leur identité
-Le colis est une poupée qui prend l'apparence de Zveindel
-C'est un colis de Lysara afin de pouvoir traquer le masque Rencontre des Scientes
-Orvain va se faire exécuter
-Ils arrivent trop tard, Einar a exécuté Orvain
-Einar les emmène voir sa fille, Bryumnes, qui est chef de guerre
-Les autres continents savent qu'ils sont liés à un masque surpuissant, ils sont donc considérés comme des menaces Bryumnes va prendre 3 jours pour se renseigner sur le masque et sur Tarquin
-Avant ça elle veut les tester -&gt; Combat contre Bryumnes,-1,]
-]]></description><link>géographie/géographie.html</link><guid isPermaLink="false">Géographie/Géographie.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Géographie 1]]></title><description><![CDATA[id: aerethios-map
-image: [[geography.jpg]]
-lock: true
-recenter: false
-noScrollZoom: false
-height: 79%
-width: 100%
-bounds: [[0,0], [4176,8192]]
-lat: 2088
-long: 4096
-minZoom: -2
-maxZoom: 1
-defaultZoom: -2
-zoomDelta: 0.5
-unit: meters
-scale: 1
-darkMode: false
-marker: - default,3271.281026815793,3140.362619436029,00 - 24.01.25,J-0,-1,
-]]></description><link>géographie/géographie-1.html</link><guid isPermaLink="false">Géographie/Géographie 1.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Vampire]]></title><description><![CDATA[Maladie du corps (et plus précisément du sang).Leurs cellules sont fortement ralenties, ce qui fait qu'ils vieillissent et se régénèrent très lentement (une coupure qui se cicatrise en 1 jour peut prendre 1 an pour un vampire).Ils ne peuvent pas produire leur propre sang.Ils sont obligés de récupérer le sang d'autres entités pour se soigner et devenir plus forts.On devient un vampire si l'on injecte du sang de vampire dans le sien.Il y a 2 grandes classes de vampires;
-ceux qui sont agressifs et qui veulent consommer le plus de sang de haute qualité afin de devenir plus fort,
-ceux qui n'ont pas voulu de cette maladie et qui essaie d'être accepté par le reste de la société
-Les vampires en quête de pouvoir vont infecter des gens contre leur gré pour agrandir leur rang.
-Généralement ces gens n'apprécient pas d'être infecté contre leur gré, donc les vampires les engrossent pour que leur progéniture naisse vampire.
-Ils se débarrassent ensuite du parent pour éduquer l'enfant avec leur valeur.]]></description><link>bestiaire/terrestres/hybrides/vampire.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Hybrides/Vampire.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Magiques]]></title><link>bestiaire/terrestres/magiques/magiques.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Magiques/Magiques.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Mythiques]]></title><description><![CDATA[Définit les entités dont les pouvoirs peuvent côtoyer celui des dieux.
-issus des dieux ou de la Fracture]]></description><link>bestiaire/terrestres/mythiques/mythiques.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Mythiques/Mythiques.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Naturels]]></title><description><![CDATA[Toutes les créatures qui existent dans le vrai monde mais dont la taille peut avoir été modifiée]]></description><link>bestiaire/terrestres/naturels/naturels.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Naturels/Naturels.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Plantes]]></title><description><![CDATA[Définit les créatures dont le sang est remplacé par de la sève (entre autre) et qui ne possèdent pas d'organes.agissent lentement, ex. carnivores, lianes constricteursformes animales ou humanoïdes, ex. homme-champignon, dryades]]></description><link>bestiaire/terrestres/plantes/plantes.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Plantes/Plantes.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Terrestres]]></title><link>bestiaire/terrestres/terrestres.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Terrestres.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Anneau de Brume]]></title><description><![CDATA[<a data-href="Ovliin" href="géographie/ovliin/ovliin.html" class="internal-link" target="_self" rel="noopener nofollow">Ovliin</a><br>
-<a data-href="Jade Pourpre" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Jade Pourpre</a>]]></description><link>géographie/anneau-de-brume.html</link><guid isPermaLink="false">Géographie/Anneau de Brume.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Elfe]]></title><description><![CDATA[Enfants d'une divinité et d'un humanoïde, ils n'ont de divin que la vie éternelleDépendant du dieu qui les a créé, ils voient leur personnalité en être affectée.Ils ne se consacrent qu'à une seule chose tout au long de leur vie et sont incapables de procréer.Les elfes du dieu de la guerre sont des combattants aguerris ayant accumulé des siècles de combat.Ils sont généralement dans les hautes sphères de la société et n'interagissent qu'avec l'élite (et encore).]]></description><link>bestiaire/terrestres/humanoïdes/elfe.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Humanoïdes/Elfe.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Humain]]></title><link>bestiaire/terrestres/humanoïdes/humain.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Humanoïdes/Humain.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Humanoïdes]]></title><description><![CDATA[
-Définit les entités se tenant debout dotées d'une intelligence sociale inter-espèce
-]]></description><link>bestiaire/terrestres/humanoïdes/humanoïdes.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Humanoïdes/Humanoïdes.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Nain]]></title><description><![CDATA[Originaire de NirinaVivant sous la capitale avant la Grande Fracture, ils aidaient le pays en minant en échange de nourriture et étaient très proches de la couronne
-Ils fabriquaient des automates et des machines Steam punk“Nain Mech.png” ne peut être trouvé.Ils sont faibles face au soleil et étaient obligés de vivre sous terreLeur existence était caché du peuple pour ne pas effrayer les gens ou leur donner envie de les sortir de làAprès la Grande Fracture, les mines de la capitale de sont effondrées et un nuage de cendre la survole depuis, ainsi qu'un autre nuage qui tourne autour et couvre le reste du continent par périodes (1 mois).Les nains ont pu sortir des mines et habitent la capitales avec les humains (60% humains, 40% nains)D'autres nains sont partis vivre dans les montagnes du nord et à Crache PoussièreCertains vivent également plus loin, là ou le nuage voyageur ne passe que par période.
-Pendant ces périodes (1 mois) ils vivent sans armure, mais se recouvrent lorsque le nuage s'en va (4 mois) et qu'il pleut, et s'enterrent lorsqu'il fait beau (5 jours/ mois)En vivant dehors, ils ont rencontré les Dieux et ont décidé de croire à <a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Obel, Dieu Affamé" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Obel, Dieu Affamé" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Obel</a> car c'est lui qui les a élevé hors de terre et leur a permis de grandir auprès des hommes<br>Les nains sont complètement acceptés dans le pays de <a data-href="Melnavel" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Melnavel</a>, mais le reste du continent n'a pas entièrement passé le cap et certains les chassentIls possèdent des périodes de fêtes pendant que le nuage les surplombe, pendant lesquelles il est défendu d'utiliser la magie de Lumière sous peine de traitrise envers la couronne]]></description><link>bestiaire/terrestres/humanoïdes/nain.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Humanoïdes/Nain.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Hybrides]]></title><description><![CDATA[
-Définit les créatures ayant des origines venant d'au moins 2 espèces différentes. <a data-href="Vampire" href="bestiaire/terrestres/hybrides/vampire.html" class="internal-link" target="_self" rel="noopener nofollow">Vampire</a> <br><a data-href="Naga" href="bestiaire/terrestres/hybrides/naga.html" class="internal-link" target="_self" rel="noopener nofollow">Naga</a>
-]]></description><link>bestiaire/terrestres/hybrides/hybrides.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Hybrides/Hybrides.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Naga]]></title><description><![CDATA[Ne maîtrise qu'une seule magie, qu'ils peuvent imprégner dans un artefact d'invocation d'élémentaireGrandit infiniment, les plus grands ont été obligé de se retirer dans les océansAprès 100 ans, la partie humaine de leur corps devient plus massive qu'un humain normalDe ce fait, ils font peur et sont souvent chassés, ce qui les force à vivre en petits groupes souvent en mouvementIls vivaient dans une communauté avant la Grande Fracture mais la magie a rendu les hommes plus forts et ils ont été chassés à partir de ce moment là]]></description><link>bestiaire/terrestres/hybrides/naga.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Hybrides/Naga.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Bestiaire]]></title><description><![CDATA[
-Les créatures du monde se regroupent en différentes catégories.
-Un <a data-href="aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Arvens" href=".html" class="internal-link" target="_self" rel="noopener nofollow">aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Arvens</a> ou un <a data-href="aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Templis" href=".html" class="internal-link" target="_self" rel="noopener nofollow">aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Templis</a> se doit de connaître les catégories qui le concernent s'il souhaite être efficace dans son domaine.
-<br>Entités combattues par les <a data-href="aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Arvens" href=".html" class="internal-link" target="_self" rel="noopener nofollow">aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Arvens</a> à l'aide de méthodes de combat conventionnelles.<br>Entités combattues par les <a data-href="aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Templis" href=".html" class="internal-link" target="_self" rel="noopener nofollow">aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Templis</a>
-Imbibé de magie (développe des abilités magiques posistives)
-Renforcé (les os sortent du corps pour faire un exo-squelette)
-Nécrosé de magie (comportement anormaux, régénération rapide, sorte de cancer)
-Parasité/ Symbioté
-Sacré Totémique (lié à un culte, sa force croît avec le nombre d’adorateurs ou de sacrifices)
-Cyclique (change d’apparence et de pouvoirs selon un cycle) Minuscule (rat, chauve-souris, familier)
-Petit (chien, gobelin, loup)
-Normal (humain, orc, ogre jeune)
-Grand (ours, troll, wyverne)
-Énorme (hydre, éléphant, ogroides puissants)
-Titanesque (dragons anciens, colosses, avatars des dieux)
-]]></description><link>bestiaire/bestiaire.html</link><guid isPermaLink="false">Bestiaire/Bestiaire.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Templis]]></title><description><![CDATA[
-Pèleriner les 77 Temples pieds nus. Purger un village de la souffrance. Offrir un sens aux Dieux soi-même (généralement la vue). Possibilité de détecter les entités planaires et d'être moins affecté par leur présence. Supporter une présence divine ? Possibilité d'emprunter 1 objet béni aux Templis. Il peut être échangé et conservé aussi longtemps qu'on le souhaite, mais on ne peut en avoir qu'un. Purifier un démon.
-]]></description><link>jeu/règles/compétences/maisons/templis.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Maisons/Templis.md</guid><pubDate>Tue, 17 Mar 2026 15:18:06 GMT</pubDate></item><item><title><![CDATA[Runild]]></title><description><![CDATA[
-Accès à l'hôtel des ventes. Accès à l'hôtel des ventes,
-N'est pas taxé par la banque lors d'un retrait. Accès à l'hôtel des ventes,
-N'est pas taxé par la banque lors d'un retrait,
-Octroie 10% de réduction cher les marchands Runild. Accès à l'hôtel des ventes,
-N'est pas taxé par la banque lors d'un retrait,
-Octroie 10% de réduction cher les marchands Runild,
-Le compte bancaire peut être bloqué tous les mois pour que la somme actuellement présente engrange 1% de bénéfices. Accès à l'hôtel des ventes,
-N'est pas taxé par la banque lors d'un retrait,
-Octroie 10% de réduction cher les marchands Runild,
-Le compte bancaire peut être bloqué tous les mois pour que la somme actuellement présente engrange 2% de bénéfices, ]]></description><link>jeu/règles/compétences/maisons/runild.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Maisons/Runild.md</guid><pubDate>Tue, 17 Mar 2026 15:18:06 GMT</pubDate></item><item><title><![CDATA[Scienctes]]></title><description><![CDATA[
-se concentrer pour récupérer 1 crystal (ne permet pas de prendre 10/20 en même temps). se concentrer pour récupérer 2 crystaux (ne permet pas de prendre 10/20 en même temps),
-la régénération passive de crystaux est doublée. se concentrer pour récupérer 3 crystaux (ne permet pas de prendre 10/20 en même temps),
-la régénération passive de crystaux est doublée,
-augmente les dégâts magiques de 2 par crystal. se concentrer pour récupérer 4 crystaux (ne permet pas de prendre 10/20 en même temps),
-la régénération passive de crystaux est doublée,
-augmente les dégâts magiques de 4 par crystal. se concentrer pour récupérer 5 crystaux (ne permet pas de prendre 10/20 en même temps),
-la régénération passive de crystaux est doublée,
-augmente les dégâts magiques de 6 par crystal.
-]]></description><link>jeu/règles/compétences/maisons/scienctes.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Maisons/Scienctes.md</guid><pubDate>Tue, 17 Mar 2026 15:18:06 GMT</pubDate></item><item><title><![CDATA[Arvens]]></title><description><![CDATA[
-Ces rangs se gagnent en aidant le peuple de diverses manières.
-Si un Arvens rate trop souvent ses missions ou n'est plus actif, ses rangs vont diminuer petit à petit (sauf une fois qu'il devient une légende). Niveau 1 à 3 = Poids morts la guilde fournit des rations pour la quête en cours,
-la guilde offre l'accès à ses bâtiments : la taverne. Niveau 4 à 7 = Débutants la guilde fournit des rations pour la quête en cours,
-la guilde paie la réparation des équipements,
-la guilde offre l'accès à ses bâtiments : la taverne,
-l'auberge. la guilde paie les transports nécessaires à la quête en cours : terrestre. Niveau 8 à 12 = Aventuriers la guilde fournit les ingrédients pour faire des plats (sans touche du chef) pour la quête en cours,
-la guilde paie la réparation des équipements,
-la guilde offre l'accès à ses bâtiments : la taverne,
-l'auberge,
-la salle d'artisanat. la guilde paie les transports nécessaires à la quête en cours : terrestre,
-aquatique. Niveau 13 à 18 = Héros la guilde fournit les ingrédients pour faire des plats (avec touche du chef) pour la quête en cours,
-la guilde paie la réparation des équipements,
-la guilde offre l'accès à ses bâtiments : la taverne,
-l'auberge,
-la salle d'artisanat,
-la salle d'alchimie. la guilde paie les transports nécessaires à la quête en cours : terrestre,
-aquatique,
-aérien. Niveau 19 à 20 = Légendes
-Se débloque selon le continent : Diamant (Ovliin),
-Emeraude (Nirina),
-Rubis (Kothula),
-Topaze (Suraja). la guilde fournit les ingrédients pour faire des plats (avec touche du chef) pour la quête en cours,
-la guilde paie la réparation des équipements,
-la guilde offre l'accès à ses bâtiments : la taverne,
-l'auberge,
-la salle d'artisanat,
-la salle d'alchimie. la guilde paie les transports nécessaires à la quête en cours : terrestre,
-aquatique,
-aérien,
-téléportation. ]]></description><link>jeu/règles/compétences/maisons/arvens.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Maisons/Arvens.md</guid><pubDate>Tue, 17 Mar 2026 15:18:06 GMT</pubDate></item></channel></rss>
+]]></description><link>géographie/misc/hameau.html</link><guid isPermaLink="false">Géographie/Misc/Hameau.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item></channel></rss>

@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a886462fa2d36d16",
+        "id": "1a12ae7b01b3b139",
         "type": "tabs",
         "children": [
           {
-            "id": "52ea735454c5fc85",
+            "id": "d8f52a665185f245",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "jeu/sessions-du-masque/00.-template.html",
+                "bFile": "jeu/sessions-du-masque/00.-template.html",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 00.-template.html  (Working Tree)"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorateur de fichiers"
             }
           },
           {
@@ -96,7 +100,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Mots-clés"
             }
           },
           {
@@ -113,40 +117,51 @@
               "icon": "lucide-list",
               "title": "Outline of Welcome"
             }
+          },
+          {
+            "id": "4d629c1ff82eb147",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 251.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "command-palette:Open command palette": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "command-palette:Ouvrir la palette de commandes": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "52ea735454c5fc85",
+  "active": "4d629c1ff82eb147",
   "lastOpenFiles": [
-    "images/naga-sand.png",
     "images/zveindel.png",
     "images/zveindel.html",
+    "images/nain-mech.png",
     "images/weapon-range.png",
     "images/weapon-range.html",
     "images/weapon-hast.png",
     "images/weapon-hast.html",
-    "images/nain-mech.png",
     "images/nain-mech.html",
-    "images/naga-sand.html",
     "images/naga-water.png",
     "images/naga-water.html",
     "images/naga-warrior.png",
     "images/naga-warrior.html",
+    "images/naga-sand.png",
+    "images/naga-sand.html",
     "images/naga-adult.png",
-    "images/hazdaim.png",
     "images/naga-adult.html",
+    "images/hazdaim.png",
     "images/hazdaim.html",
     "images/grande-mère.png",
     "images/grande-mère.html",
