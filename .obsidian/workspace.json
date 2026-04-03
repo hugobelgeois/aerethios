@@ -143,8 +143,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4d629c1ff82eb147",
+  "active": "fb1b9455bbf01007",
   "lastOpenFiles": [
+    "site-lib/search-index.json",
+    "site-lib/metadata.json",
     "images/zveindel.png",
     "images/zveindel.html",
     "images/nain-mech.png",
@@ -164,8 +166,6 @@
     "images/hazdaim.png",
     "images/hazdaim.html",
     "images/grande-mère.png",
-    "images/grande-mère.html",
-    "images/geography.jpg",
     "README.md",
     "tmp/index.md",
     "tmp/README.md",
