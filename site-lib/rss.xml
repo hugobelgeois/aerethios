@@ -1,4 +1,11 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Aerethios]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>Aerethios</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 19 May 2026 14:30:16 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 19 May 2026 14:30:12 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Arc 2 - Ovliin]]></title><description><![CDATA[Extrait du carnet de voyage de Léoric, Arvens d’Ovliin]]></description><link>jeu/sessions-du-masque/arc-2-ovliin.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 2 - Ovliin.md</guid><pubDate>Tue, 19 May 2026 14:27:13 GMT</pubDate></item><item><title><![CDATA[Arc 2 - 05 - 27.04.25]]></title><description><![CDATA[
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Aerethios]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>Aerethios</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 21 May 2026 14:38:11 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 21 May 2026 14:37:30 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Arc 2 - Ovliin]]></title><description><![CDATA[Extrait du carnet de voyage de Léoric, Arvens d’Ovliin]]></description><link>jeu/sessions-du-masque/arc-2-ovliin.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 2 - Ovliin.md</guid><pubDate>Wed, 20 May 2026 08:23:22 GMT</pubDate></item><item><title><![CDATA[Vampire]]></title><description><![CDATA[Maladie du corps (et plus précisément du sang).Leurs cellules sont fortement ralenties, ce qui fait qu'ils vieillissent et se régénèrent très lentement (une coupure qui se cicatrise en 1 jour peut prendre 1 an pour un vampire).Ils ne peuvent pas produire leur propre sang.Ils sont obligés de récupérer le sang d'autres entités pour se soigner et devenir plus forts.
+?? On devient un vampire si l'on injecte du sang de vampire dans le sien ??
+Il y a 2 grandes classes de vampires;
+ceux qui sont agressifs et qui veulent consommer le plus de sang de haute qualité afin de devenir plus fort,
+ceux qui n'ont pas voulu de cette maladie et qui essaie d'être accepté par le reste de la société
+Les vampires en quête de pouvoir vont infecter des gens contre leur gré pour agrandir leur rang.
+Généralement ces gens n'apprécient pas d'être infecté contre leur gré, donc les vampires les engrossent pour que leur progéniture naisse vampire.
+Ils se débarrassent ensuite du parent pour éduquer l'enfant avec leur valeur.]]></description><link>bestiaire/terrestres/hybrides/vampire.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Hybrides/Vampire.md</guid><pubDate>Tue, 19 May 2026 14:40:31 GMT</pubDate></item><item><title><![CDATA[Elfe]]></title><description><![CDATA[Enfants d'une divinité et d'un humanoïde, ils n'ont de divin que la vie éternelleDépendant du dieu qui les a créé, ils voient leur personnalité en être affectée.Ils ne se consacrent qu'à une seule chose tout au long de leur vie et sont incapables de procréer.Ils sont généralement dans les hautes sphères de la société et n'interagissent qu'avec l'élite (et encore).Ex : Les elfes du dieu de la guerre sont des combattants aguerris ayant accumulé des siècles de combat.]]></description><link>bestiaire/terrestres/humanoïdes/elfe.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Humanoïdes/Elfe.md</guid><pubDate>Tue, 19 May 2026 14:38:10 GMT</pubDate></item><item><title><![CDATA[Arc 2 - 05 - 27.04.25]]></title><description><![CDATA[
 Combat contre le Goss Harag
 Lieu actuel : Ovliin, les terres d'Orvain, entre Siv, Bizmor et RuvikObjectif : Combattre le Goss Harag et trouver des infos sur OrvainPnjs notables : -J-41
 Combat contre HaragCombat contre Goss Harag
@@ -268,7 +275,97 @@ Michel 26
 Nolan 10
 Thomas 22
 William 7
-]]></description><link>jeu/sessions-du-masque/arc-4/arc-4-22b-06.03.26.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26.md</guid><pubDate>Thu, 07 May 2026 11:56:11 GMT</pubDate></item><item><title><![CDATA[Kothula]]></title><description><![CDATA[<a data-href="Alegael" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Alegael</a><br><a data-href="Chenav" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chenav</a><br>
+]]></description><link>jeu/sessions-du-masque/arc-4/arc-4-22b-06.03.26.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26.md</guid><pubDate>Thu, 07 May 2026 11:56:11 GMT</pubDate></item><item><title><![CDATA[Léoric]]></title><description><![CDATA[
+Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste
+Niveau : 6
+55 points à mettre au niveau 1 (min 7, max 14)
++1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (0/4) Maîtrise : 2
+Crystaux : 9
+Poids maximum : 40kg
+Force &gt; 10 : 40 + (Force Modificateur x 10)
+Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
+<a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
+<a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
+<a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
+<a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
+<a data-href="Zveindel" href="jeu/sessions-du-masque/joueurs/zveindel.html" class="internal-link" target="_self" rel="noopener nofollow">Zveindel</a> <br>
+<a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Radeon, Dieu Dormant" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Radeon, Dieu Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a> <br>
+<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> <br>
+<a data-href="Perseus" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Perseus</a> <br>
+<a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
+<a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
+<a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
+<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/léoric.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Léoric.md</guid><pubDate>Tue, 14 Apr 2026 09:40:32 GMT</pubDate></item><item><title><![CDATA[Arc 3 - 13 - 29.08.25]]></title><description><![CDATA[
+Résumé
+Lieu actuel : Suraja, KorkaahnObjectif : Rencontre de Raja et du Shara IshvaldaPnjs notables : RajaSuraja
+Scientifiques/Commerçants cachés avec beaucoup de main d'oeuvre Shara Ishvalda leur fait perdre des clients et les empêche de se développer financièrement Diego 14
+Loïc 10
+Lucas 4
+Michel 15
+Nolan 3
+Thomas 14
+William 7
+]]></description><link>jeu/sessions-du-masque/arc-3/arc-3-13-29.08.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 3/Arc 3 - 13 - 29.08.25.md</guid><pubDate>Tue, 14 Apr 2026 09:20:34 GMT</pubDate></item><item><title><![CDATA[Arc 3 - 12 - 19.09.25]]></title><description><![CDATA[
+Résumé
+Lieu actuel : Suraja, ville au sud d'IrkmaObjectif : Baiser le forgeron pour récupérer son minerai en mithrilPnjs notables : -Equilibrage
+Retirer les armes en mithril et remettre les anciennes
+Le forgeron possède un minerai rare dans une vitrine qui pourrait faire 3 lingots
+Le minerai a une valeur sentimentale et coûte cherConvois de carapaces pour aller à Irkma
+Diego 13
+Loïc 9
+Lucas 3
+Michel 14
+Nolan 2
+Thomas 13
+William 6
+]]></description><link>jeu/sessions-du-masque/arc-3/arc-3-12-19.09.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 3/Arc 3 - 12 - 19.09.25.md</guid><pubDate>Tue, 14 Apr 2026 09:20:20 GMT</pubDate></item><item><title><![CDATA[Haelrak]]></title><description><![CDATA[
+Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste
+Niveau : 5.5
+55 points à mettre au niveau 1 (min 7, max 14)
++1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 Maîtrise : 2
+Crystaux : 14
+Poids maximum : 38kg
+Force &gt; 10 : 40 + (Force Modificateur x 10)
+Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
+<a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
+<a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
+<a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
+<a data-href="Léoric" href="jeu/sessions-du-masque/joueurs/léoric.html" class="internal-link" target="_self" rel="noopener nofollow">Léoric</a> <br>
+<a data-href="Zveindel" href="jeu/sessions-du-masque/joueurs/zveindel.html" class="internal-link" target="_self" rel="noopener nofollow">Zveindel</a> <br>
+<a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Radeon, Dieu Dormant" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Radeon, Dieu Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a> <br>
+<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> <br>
+<a data-href="Perseus" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Perseus</a> <br>
+<a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
+<a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
+<a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
+<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/haelrak.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Haelrak.md</guid><pubDate>Tue, 14 Apr 2026 08:49:35 GMT</pubDate></item><item><title><![CDATA[Cira]]></title><description><![CDATA[
+Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste
+Niveau : 8
+55 points à mettre au niveau 1 (min 7, max 14)
++1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 Maîtrise : 1
+Crystaux : 10
+Poids maximum : 38kg
+Force &gt; 10 : 40 + (Force Modificateur x 10)
+Force &lt; 10 : 40 + (Force Modificateur x 2) ]]></description><link>jeu/sessions-du-masque/joueurs/cira.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Cira.md</guid><pubDate>Tue, 14 Apr 2026 08:47:30 GMT</pubDate></item><item><title><![CDATA[Dara]]></title><description><![CDATA[<img alt="Dara.png" src="images/dara.png" target="_self">Niveau : 6
+55 points à mettre au niveau 1 (min 7, max 14)
++1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 Maîtrise : 1
+Crystaux : 9
+Poids maximum : 36+20 = 56kg
+Force &gt; 10 : 40 + (Force Modificateur x 10)
+Force &lt; 10 : 40 + (Force Modificateur x 2) <br>
+<a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
+<a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
+<a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
+<a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
+<a data-href="Léoric" href="jeu/sessions-du-masque/joueurs/léoric.html" class="internal-link" target="_self" rel="noopener nofollow">Léoric</a> <br>
+<a data-href="Zveindel" href="jeu/sessions-du-masque/joueurs/zveindel.html" class="internal-link" target="_self" rel="noopener nofollow">Zveindel</a> <br>
+<a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Radeon, Dieu Dormant" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Radeon, Dieu Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a> <br>
+<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> <br>
+<a data-href="Perseus" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Perseus</a> <br>
+<a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
+<a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
+<a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
+<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/dara.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Dara.md</guid><pubDate>Tue, 14 Apr 2026 07:32:39 GMT</pubDate><enclosure url="images/dara.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/dara.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[zveindel]]></title><description><![CDATA[<img src="images/zveindel.png" target="_self">]]></description><link>images/zveindel.html</link><guid isPermaLink="false">Images/zveindel.png</guid><pubDate>Fri, 03 Apr 2026 14:13:49 GMT</pubDate><enclosure url="images/zveindel.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/zveindel.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[weapon-range]]></title><description><![CDATA[<img src="images/weapon-range.png" target="_self">]]></description><link>images/weapon-range.html</link><guid isPermaLink="false">Images/weapon-range.png</guid><pubDate>Fri, 03 Apr 2026 14:13:49 GMT</pubDate><enclosure url="images/weapon-range.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/weapon-range.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[weapon-hast]]></title><description><![CDATA[<img src="images/weapon-hast.png" target="_self">]]></description><link>images/weapon-hast.html</link><guid isPermaLink="false">Images/weapon-hast.png</guid><pubDate>Fri, 03 Apr 2026 14:13:49 GMT</pubDate><enclosure url="images/weapon-hast.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/weapon-hast.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[nain-mech]]></title><description><![CDATA[<img src="images/nain-mech.png" target="_self">]]></description><link>images/nain-mech.html</link><guid isPermaLink="false">Images/nain-mech.png</guid><pubDate>Fri, 03 Apr 2026 14:13:49 GMT</pubDate><enclosure url="images/nain-mech.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/nain-mech.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[naga-water]]></title><description><![CDATA[<img src="images/naga-water.png" target="_self">]]></description><link>images/naga-water.html</link><guid isPermaLink="false">Images/naga-water.png</guid><pubDate>Fri, 03 Apr 2026 14:13:49 GMT</pubDate><enclosure url="images/naga-water.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/naga-water.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[naga-warrior]]></title><description><![CDATA[<img src="images/naga-warrior.png" target="_self">]]></description><link>images/naga-warrior.html</link><guid isPermaLink="false">Images/naga-warrior.png</guid><pubDate>Fri, 03 Apr 2026 14:13:49 GMT</pubDate><enclosure url="images/naga-warrior.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/naga-warrior.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[naga-sand]]></title><description><![CDATA[<img src="images/naga-sand.png" target="_self">]]></description><link>images/naga-sand.html</link><guid isPermaLink="false">Images/naga-sand.png</guid><pubDate>Fri, 03 Apr 2026 14:13:49 GMT</pubDate><enclosure url="images/naga-sand.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/naga-sand.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[naga-adult]]></title><description><![CDATA[<img src="images/naga-adult.png" target="_self">]]></description><link>images/naga-adult.html</link><guid isPermaLink="false">Images/naga-adult.png</guid><pubDate>Fri, 03 Apr 2026 14:13:49 GMT</pubDate><enclosure url="images/naga-adult.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/naga-adult.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[hazdaim]]></title><description><![CDATA[<img src="images/hazdaim.png" target="_self">]]></description><link>images/hazdaim.html</link><guid isPermaLink="false">Images/hazdaim.png</guid><pubDate>Fri, 03 Apr 2026 14:13:49 GMT</pubDate><enclosure url="images/hazdaim.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/hazdaim.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[grande-mère]]></title><description><![CDATA[<img src="images/grande-mère.png" target="_self">]]></description><link>images/grande-mère.html</link><guid isPermaLink="false">Images/grande-mère.png</guid><pubDate>Fri, 03 Apr 2026 14:13:49 GMT</pubDate><enclosure url="images/grande-mère.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/grande-mère.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[geography]]></title><description><![CDATA[<img src="images/geography.jpg" target="_self">]]></description><link>images/geography.html</link><guid isPermaLink="false">Images/geography.jpg</guid><pubDate>Fri, 03 Apr 2026 14:13:49 GMT</pubDate><enclosure url="images/geography.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="images/geography.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[dieu-scintillant]]></title><description><![CDATA[<img src="images/dieu-scintillant.png" target="_self">]]></description><link>images/dieu-scintillant.html</link><guid isPermaLink="false">Images/dieu-scintillant.png</guid><pubDate>Fri, 03 Apr 2026 14:13:49 GMT</pubDate><enclosure url="images/dieu-scintillant.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/dieu-scintillant.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[dieu-pourpre]]></title><description><![CDATA[<img src="images/dieu-pourpre.png" target="_self">]]></description><link>images/dieu-pourpre.html</link><guid isPermaLink="false">Images/dieu-pourpre.png</guid><pubDate>Fri, 03 Apr 2026 14:13:49 GMT</pubDate><enclosure url="images/dieu-pourpre.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/dieu-pourpre.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[dieu-dormant]]></title><description><![CDATA[<img src="images/dieu-dormant.png" target="_self">]]></description><link>images/dieu-dormant.html</link><guid isPermaLink="false">Images/dieu-dormant.png</guid><pubDate>Fri, 03 Apr 2026 14:13:49 GMT</pubDate><enclosure url="images/dieu-dormant.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/dieu-dormant.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[dieu-dormant-2]]></title><description><![CDATA[<img src="images/dieu-dormant-2.png" target="_self">]]></description><link>images/dieu-dormant-2.html</link><guid isPermaLink="false">Images/dieu-dormant-2.png</guid><pubDate>Fri, 03 Apr 2026 14:13:49 GMT</pubDate><enclosure url="images/dieu-dormant-2.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/dieu-dormant-2.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[dara]]></title><description><![CDATA[<img src="images/dara.png" target="_self">]]></description><link>images/dara.html</link><guid isPermaLink="false">Images/dara.png</guid><pubDate>Fri, 03 Apr 2026 14:13:49 GMT</pubDate><enclosure url="images/dara.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/dara.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[arek]]></title><description><![CDATA[<img src="images/arek.png" target="_self">]]></description><link>images/arek.html</link><guid isPermaLink="false">Images/arek.png</guid><pubDate>Fri, 03 Apr 2026 14:13:49 GMT</pubDate><enclosure url="images/arek.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/arek.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Kothula]]></title><description><![CDATA[<a data-href="Alegael" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Alegael</a><br><a data-href="Chenav" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chenav</a><br>
 <a data-href="Eogulf" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Eogulf</a><br>
 <a data-href="Gelbiq" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Gelbiq</a><br>
 <a data-href="Izmir" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Izmir</a><br>
@@ -297,21 +394,14 @@ William 7
 <a data-href="Korkaahn" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Korkaahn</a><br>
 <a data-href="Myurnil" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Myurnil</a><br>
 <a data-href="Xubilayl" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Xubilayl</a><br>
-<a data-href="Zonig" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zonig</a>]]></description><link>géographie/suraja/suraja.html</link><guid isPermaLink="false">Géographie/Suraja/Suraja.md</guid><pubDate>Fri, 03 Apr 2026 14:06:16 GMT</pubDate></item><item><title><![CDATA[Cira]]></title><description><![CDATA[
-Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste
-Niveau : 8
-55 points à mettre au niveau 1 (min 7, max 14)
-+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (4/6) Maîtrise : 1
-Crystaux : 10
-Poids maximum : 38kg
-Force &gt; 10 : 40 + (Force Modificateur x 10)
-Force &lt; 10 : 40 + (Force Modificateur x 2) ]]></description><link>jeu/sessions-du-masque/joueurs/cira.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Cira.md</guid><pubDate>Fri, 03 Apr 2026 11:10:18 GMT</pubDate></item><item><title><![CDATA[Hazdaim]]></title><description><![CDATA[“Hazdaim.png” ne peut être trouvé.Niveau : 6
+<a data-href="Zonig" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zonig</a>]]></description><link>géographie/suraja/suraja.html</link><guid isPermaLink="false">Géographie/Suraja/Suraja.md</guid><pubDate>Fri, 03 Apr 2026 14:06:16 GMT</pubDate></item><item><title><![CDATA[Hazdaim]]></title><description><![CDATA[<img alt="Hazdaim.png" src="images/hazdaim.png" target="_self">Niveau : 6
 55 points à mettre au niveau 1 (min 7, max 14)
 +1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (2/4) Maîtrise : 1
 Crystaux : 9
 Poids maximum : 38kg
 Force &gt; 10 : 40 + (Force Modificateur x 10)
-Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
+Force &lt; 10 : 40 + (Force Modificateur x 2) <br>
+<a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
 <a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
 <a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
 <a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
@@ -323,27 +413,7 @@ Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sess
 <a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
 <a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
 <a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
-<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/hazdaim.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Hazdaim.md</guid><pubDate>Fri, 03 Apr 2026 11:08:32 GMT</pubDate></item><item><title><![CDATA[Haelrak]]></title><description><![CDATA[
-Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste
-Niveau : 5.5
-55 points à mettre au niveau 1 (min 7, max 14)
-+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (2/3) Maîtrise : 2
-Crystaux : 14
-Poids maximum : 38kg
-Force &gt; 10 : 40 + (Force Modificateur x 10)
-Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
-<a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
-<a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
-<a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
-<a data-href="Léoric" href="jeu/sessions-du-masque/joueurs/léoric.html" class="internal-link" target="_self" rel="noopener nofollow">Léoric</a> <br>
-<a data-href="Zveindel" href="jeu/sessions-du-masque/joueurs/zveindel.html" class="internal-link" target="_self" rel="noopener nofollow">Zveindel</a> <br>
-<a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Radeon, Dieu Dormant" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Radeon, Dieu Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a> <br>
-<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> <br>
-<a data-href="Perseus" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Perseus</a> <br>
-<a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
-<a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
-<a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
-<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/haelrak.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Haelrak.md</guid><pubDate>Fri, 03 Apr 2026 11:08:21 GMT</pubDate></item><item><title><![CDATA[Charisme]]></title><description><![CDATA[
+<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/hazdaim.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Hazdaim.md</guid><pubDate>Fri, 03 Apr 2026 11:08:32 GMT</pubDate><enclosure url="images/hazdaim.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/hazdaim.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Charisme]]></title><description><![CDATA[
 Le joueur en choisi 1 tous les 5 points d'attribut (5, 10, 15, 20).
 Double le modificateur des jets selon la situation (le modificateur devient 0 s'il était négatif). Le joueur en choisi 1 tous les 1 point de modificateur (1, 2, 3, 4, 5).
 Il est nécessaire de posséder la compétence principale pour débloquer les compétences secondaires liées. S'il s'agit de son attribut le plus élevé, le joueur peut en choisir 1.
@@ -361,13 +431,14 @@ Niveau :
 Crystaux :
 Poids maximum :
 Force &gt; 10 : 40 + (Force Modificateur x 10)
-Force &lt; 10 : 40 + (Force Modificateur x 2) ]]></description><link>jeu/sessions-du-masque/joueurs/00.-template.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/00. Template.md</guid><pubDate>Tue, 31 Mar 2026 13:32:31 GMT</pubDate></item><item><title><![CDATA[Zveindel]]></title><description><![CDATA[“Zveindel.png” ne peut être trouvé.Niveau : 5.5
+Force &lt; 10 : 40 + (Force Modificateur x 2) ]]></description><link>jeu/sessions-du-masque/joueurs/00.-template.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/00. Template.md</guid><pubDate>Tue, 31 Mar 2026 13:32:31 GMT</pubDate></item><item><title><![CDATA[Zveindel]]></title><description><![CDATA[<img alt="Zveindel.png" src="images/zveindel.png" target="_self">Niveau : 5.5
 55 points à mettre au niveau 1 (min 7, max 14)
 +1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (2/3) Maîtrise : 3
 Crystaux : 14
 Poids maximum : 40+60 = 98kg
 Force &gt; 10 : 40 + (Force Modificateur x 10)
-Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
+Force &lt; 10 : 40 + (Force Modificateur x 2) <br>
+<a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
 <a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
 <a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
 <a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
@@ -378,51 +449,14 @@ Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sess
 <a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
 <a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
 <a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
-<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/zveindel.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Zveindel.md</guid><pubDate>Tue, 31 Mar 2026 13:27:33 GMT</pubDate></item><item><title><![CDATA[Léoric]]></title><description><![CDATA[
-Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste
-Niveau : 6
-55 points à mettre au niveau 1 (min 7, max 14)
-+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (2/4) Maîtrise : 2
-Crystaux : 9
-Poids maximum : 40kg
-Force &gt; 10 : 40 + (Force Modificateur x 10)
-Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
-<a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
-<a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
-<a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
-<a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
-<a data-href="Zveindel" href="jeu/sessions-du-masque/joueurs/zveindel.html" class="internal-link" target="_self" rel="noopener nofollow">Zveindel</a> <br>
-<a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Radeon, Dieu Dormant" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Radeon, Dieu Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a> <br>
-<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> <br>
-<a data-href="Perseus" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Perseus</a> <br>
-<a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
-<a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
-<a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
-<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/léoric.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Léoric.md</guid><pubDate>Tue, 31 Mar 2026 13:27:07 GMT</pubDate></item><item><title><![CDATA[Dara]]></title><description><![CDATA[“Dara.png” ne peut être trouvé.Niveau : 6
-55 points à mettre au niveau 1 (min 7, max 14)
-+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 (2/4) Maîtrise : 1
-Crystaux : 9
-Poids maximum : 36+20 = 56kg
-Force &gt; 10 : 40 + (Force Modificateur x 10)
-Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Arek" href="jeu/sessions-du-masque/joueurs/arek.html" class="internal-link" target="_self" rel="noopener nofollow">Arek</a> <br>
-<a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
-<a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
-<a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
-<a data-href="Léoric" href="jeu/sessions-du-masque/joueurs/léoric.html" class="internal-link" target="_self" rel="noopener nofollow">Léoric</a> <br>
-<a data-href="Zveindel" href="jeu/sessions-du-masque/joueurs/zveindel.html" class="internal-link" target="_self" rel="noopener nofollow">Zveindel</a> <br>
-<a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Radeon, Dieu Dormant" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Radeon, Dieu Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a> <br>
-<a data-href="Billy" href="0_private/billy.html" class="internal-link" target="_self" rel="noopener nofollow">Billy</a> <br>
-<a data-href="Perseus" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Perseus</a> <br>
-<a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
-<a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
-<a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
-<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/dara.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Dara.md</guid><pubDate>Tue, 31 Mar 2026 13:25:46 GMT</pubDate></item><item><title><![CDATA[Arek]]></title><description><![CDATA[“Arek.png” ne peut être trouvé.Niveau : 8
+<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/zveindel.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Zveindel.md</guid><pubDate>Tue, 31 Mar 2026 13:27:33 GMT</pubDate><enclosure url="images/zveindel.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/zveindel.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Arek]]></title><description><![CDATA[<img alt="Arek.png" src="images/arek.png" target="_self">Niveau : 8
 55 points à mettre au niveau 1 (min 7, max 14)
 +1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20 Maîtrise : 1
 Crystaux : 9
 Poids maximum : 70+80 = 150kg
 Force &gt; 10 : 40 + (Force Modificateur x 10)
-Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
+Force &lt; 10 : 40 + (Force Modificateur x 2) <br>
+<a data-href="Dara" href="jeu/sessions-du-masque/joueurs/dara.html" class="internal-link" target="_self" rel="noopener nofollow">Dara</a> <br>
 <a data-href="Haelrak" href="jeu/sessions-du-masque/joueurs/haelrak.html" class="internal-link" target="_self" rel="noopener nofollow">Haelrak</a> <br>
 <a data-href="Halfdan" href="jeu/sessions-du-masque/joueurs/halfdan.html" class="internal-link" target="_self" rel="noopener nofollow">Halfdan</a> <br>
 <a data-href="Hazdaim" href="jeu/sessions-du-masque/joueurs/hazdaim.html" class="internal-link" target="_self" rel="noopener nofollow">Hazdaim</a> <br>
@@ -434,7 +468,7 @@ Force &lt; 10 : 40 + (Force Modificateur x 2) <a data-href="Dara" href="jeu/sess
 <a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a> <br>
 <a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a> <br>
 <a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a> <br>
-<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/arek.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Arek.md</guid><pubDate>Tue, 31 Mar 2026 13:25:19 GMT</pubDate></item><item><title><![CDATA[Dieux]]></title><description><![CDATA[Dieu de la possession et du partage.
+<a data-href="Zaledra" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Zaledra</a> ]]></description><link>jeu/sessions-du-masque/joueurs/arek.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Joueurs/Arek.md</guid><pubDate>Tue, 31 Mar 2026 13:25:19 GMT</pubDate><enclosure url="images/arek.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="images/arek.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Dieux]]></title><description><![CDATA[Dieu de la possession et du partage.
 “Dieu Scintillant.png” ne peut être trouvé.Déesse de la fertilité et du plaisir.
 “Grande Mère.png” ne peut être trouvé.Dieu des rêves et des ambitions.
 “Dieu Dormant.png” ne peut être trouvé.
@@ -494,14 +528,9 @@ Définit les créatures ayant des origines venant d'au moins 2 espèces différe
 Ils fabriquaient des automates et des machines Steam punk“Nain Mech.png” ne peut être trouvé.Ils sont faibles face au soleil et étaient obligés de vivre sous terreLeur existence était caché du peuple pour ne pas effrayer les gens ou leur donner envie de les sortir de làAprès la Grande Fracture, les mines de la capitale de sont effondrées et un nuage de cendre la survole depuis, ainsi qu'un autre nuage qui tourne autour et couvre le reste du continent par périodes (1 mois).Les nains ont pu sortir des mines et habitent la capitales avec les humains (60% humains, 40% nains)D'autres nains sont partis vivre dans les montagnes du nord et à Crache PoussièreCertains vivent également plus loin, là ou le nuage voyageur ne passe que par période.
 Pendant ces périodes (1 mois) ils vivent sans armure, mais se recouvrent lorsque le nuage s'en va (4 mois) et qu'il pleut, et s'enterrent lorsqu'il fait beau (5 jours/ mois)En vivant dehors, ils ont rencontré les Dieux et ont décidé de croire à <a data-tooltip-position="top" aria-label="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux &gt; Obel, Dieu Affamé" data-href="aerethios/docs/Bestiaire/Planaires/Dieux/Dieux#Obel, Dieu Affamé" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Obel</a> car c'est lui qui les a élevé hors de terre et leur a permis de grandir auprès des hommes<br>Les nains sont complètement acceptés dans le pays de <a data-href="Melnavel" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Melnavel</a>, mais le reste du continent n'a pas entièrement passé le cap et certains les chassentIls possèdent des périodes de fêtes pendant que le nuage les surplombe, pendant lesquelles il est défendu d'utiliser la magie de Lumière sous peine de traitrise envers la couronne]]></description><link>bestiaire/terrestres/humanoïdes/nain.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Humanoïdes/Nain.md</guid><pubDate>Fri, 27 Mar 2026 10:32:52 GMT</pubDate></item><item><title><![CDATA[Humanoïdes]]></title><description><![CDATA[
 Définit les entités se tenant debout dotées d'une intelligence sociale inter-espèce
-]]></description><link>bestiaire/terrestres/humanoïdes/humanoïdes.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Humanoïdes/Humanoïdes.md</guid><pubDate>Fri, 27 Mar 2026 10:32:52 GMT</pubDate></item><item><title><![CDATA[Humain]]></title><link>bestiaire/terrestres/humanoïdes/humain.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Humanoïdes/Humain.md</guid><pubDate>Fri, 27 Mar 2026 10:32:52 GMT</pubDate></item><item><title><![CDATA[Elfe]]></title><description><![CDATA[Enfants d'une divinité et d'un humanoïde, ils n'ont de divin que la vie éternelleDépendant du dieu qui les a créé, ils voient leur personnalité en être affectée.Ils ne se consacrent qu'à une seule chose tout au long de leur vie et sont incapables de procréer.Les elfes du dieu de la guerre sont des combattants aguerris ayant accumulé des siècles de combat.Ils sont généralement dans les hautes sphères de la société et n'interagissent qu'avec l'élite (et encore).]]></description><link>bestiaire/terrestres/humanoïdes/elfe.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Humanoïdes/Elfe.md</guid><pubDate>Fri, 27 Mar 2026 10:32:52 GMT</pubDate></item><item><title><![CDATA[Anneau de Brume]]></title><description><![CDATA[<a data-href="Ovliin" href="géographie/ovliin/ovliin.html" class="internal-link" target="_self" rel="noopener nofollow">Ovliin</a><br>
+]]></description><link>bestiaire/terrestres/humanoïdes/humanoïdes.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Humanoïdes/Humanoïdes.md</guid><pubDate>Fri, 27 Mar 2026 10:32:52 GMT</pubDate></item><item><title><![CDATA[Humain]]></title><link>bestiaire/terrestres/humanoïdes/humain.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Humanoïdes/Humain.md</guid><pubDate>Fri, 27 Mar 2026 10:32:52 GMT</pubDate></item><item><title><![CDATA[Anneau de Brume]]></title><description><![CDATA[<a data-href="Ovliin" href="géographie/ovliin/ovliin.html" class="internal-link" target="_self" rel="noopener nofollow">Ovliin</a><br>
 <a data-href="Jade Pourpre" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Jade Pourpre</a>]]></description><link>géographie/anneau-de-brume.html</link><guid isPermaLink="false">Géographie/Anneau de Brume.md</guid><pubDate>Fri, 27 Mar 2026 10:32:52 GMT</pubDate></item><item><title><![CDATA[Terrestres]]></title><link>bestiaire/terrestres/terrestres.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Terrestres.md</guid><pubDate>Fri, 27 Mar 2026 10:32:52 GMT</pubDate></item><item><title><![CDATA[Plantes]]></title><description><![CDATA[Définit les créatures dont le sang est remplacé par de la sève (entre autre) et qui ne possèdent pas d'organes.agissent lentement, ex. carnivores, lianes constricteursformes animales ou humanoïdes, ex. homme-champignon, dryades]]></description><link>bestiaire/terrestres/plantes/plantes.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Plantes/Plantes.md</guid><pubDate>Fri, 27 Mar 2026 10:32:51 GMT</pubDate></item><item><title><![CDATA[Naturels]]></title><description><![CDATA[Toutes les créatures qui existent dans le vrai monde mais dont la taille peut avoir été modifiée]]></description><link>bestiaire/terrestres/naturels/naturels.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Naturels/Naturels.md</guid><pubDate>Fri, 27 Mar 2026 10:32:51 GMT</pubDate></item><item><title><![CDATA[Mythiques]]></title><description><![CDATA[Définit les entités dont les pouvoirs peuvent côtoyer celui des dieux.
-issus des dieux ou de la Fracture]]></description><link>bestiaire/terrestres/mythiques/mythiques.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Mythiques/Mythiques.md</guid><pubDate>Fri, 27 Mar 2026 10:32:51 GMT</pubDate></item><item><title><![CDATA[Magiques]]></title><link>bestiaire/terrestres/magiques/magiques.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Magiques/Magiques.md</guid><pubDate>Fri, 27 Mar 2026 10:32:51 GMT</pubDate></item><item><title><![CDATA[Vampire]]></title><description><![CDATA[Maladie du corps (et plus précisément du sang).Leurs cellules sont fortement ralenties, ce qui fait qu'ils vieillissent et se régénèrent très lentement (une coupure qui se cicatrise en 1 jour peut prendre 1 an pour un vampire).Ils ne peuvent pas produire leur propre sang.Ils sont obligés de récupérer le sang d'autres entités pour se soigner et devenir plus forts.On devient un vampire si l'on injecte du sang de vampire dans le sien.Il y a 2 grandes classes de vampires;
-ceux qui sont agressifs et qui veulent consommer le plus de sang de haute qualité afin de devenir plus fort,
-ceux qui n'ont pas voulu de cette maladie et qui essaie d'être accepté par le reste de la société
-Les vampires en quête de pouvoir vont infecter des gens contre leur gré pour agrandir leur rang.
-Généralement ces gens n'apprécient pas d'être infecté contre leur gré, donc les vampires les engrossent pour que leur progéniture naisse vampire.
-Ils se débarrassent ensuite du parent pour éduquer l'enfant avec leur valeur.]]></description><link>bestiaire/terrestres/hybrides/vampire.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Hybrides/Vampire.md</guid><pubDate>Fri, 27 Mar 2026 10:32:51 GMT</pubDate></item><item><title><![CDATA[Géographie 1]]></title><description><![CDATA[id: aerethios-map
+issus des dieux ou de la Fracture]]></description><link>bestiaire/terrestres/mythiques/mythiques.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Mythiques/Mythiques.md</guid><pubDate>Fri, 27 Mar 2026 10:32:51 GMT</pubDate></item><item><title><![CDATA[Magiques]]></title><link>bestiaire/terrestres/magiques/magiques.html</link><guid isPermaLink="false">Bestiaire/Terrestres/Magiques/Magiques.md</guid><pubDate>Fri, 27 Mar 2026 10:32:51 GMT</pubDate></item><item><title><![CDATA[Géographie 1]]></title><description><![CDATA[id: aerethios-map
 image: [[geography.jpg]]
 lock: true
 recenter: false
@@ -704,19 +733,7 @@ Pour augmenter son nombre de crystaux ou sa maîtrise magique, il faut général
 L’exploration a pour objectif de faciliter les déplacements à travers le monde.
 ]]></description><link>jeu/règles/apprentissages/exploration/exploration.html</link><guid isPermaLink="false">Jeu/Règles/Apprentissages/Exploration/Exploration.md</guid><pubDate>Fri, 27 Mar 2026 10:29:44 GMT</pubDate></item><item><title><![CDATA[Érudition]]></title><description><![CDATA[
 L’érudition a pour objectif d'améliorer ses connaissances magiques.
-]]></description><link>jeu/règles/apprentissages/érudition/érudition.html</link><guid isPermaLink="false">Jeu/Règles/Apprentissages/Érudition/Érudition.md</guid><pubDate>Fri, 27 Mar 2026 10:29:44 GMT</pubDate></item><item><title><![CDATA[Ténèbres]]></title><description><![CDATA[
-Les sorts présents ici ne servent que d'exemple et n'empêchent pas la création de nouveaux sorts (avec l'accord du MJ).
-]]></description><link>jeu/règles/combat/magies/ténèbres.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Ténèbres.md</guid><pubDate>Fri, 27 Mar 2026 10:29:44 GMT</pubDate></item><item><title><![CDATA[Roche]]></title><description><![CDATA[
-Les sorts présents ici ne servent que d'exemple et n'empêchent pas la création de nouveaux sorts (avec l'accord du MJ).
-]]></description><link>jeu/règles/combat/magies/roche.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Roche.md</guid><pubDate>Fri, 27 Mar 2026 10:29:44 GMT</pubDate></item><item><title><![CDATA[Foudre]]></title><description><![CDATA[
-Les sorts présents ici ne servent que d'exemple et n'empêchent pas la création de nouveaux sorts (avec l'accord du MJ).
-]]></description><link>jeu/règles/combat/magies/foudre.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Foudre.md</guid><pubDate>Fri, 27 Mar 2026 10:29:43 GMT</pubDate></item><item><title><![CDATA[Feu]]></title><description><![CDATA[
-Les sorts présents ici ne servent que d'exemple et n'empêchent pas la création de nouveaux sorts (avec l'accord du MJ).
-]]></description><link>jeu/règles/combat/magies/feu.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Feu.md</guid><pubDate>Fri, 27 Mar 2026 10:29:43 GMT</pubDate></item><item><title><![CDATA[Eau]]></title><description><![CDATA[
-Les sorts présents ici ne servent que d'exemple et n'empêchent pas la création de nouveaux sorts (avec l'accord du MJ).
-]]></description><link>jeu/règles/combat/magies/eau.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Eau.md</guid><pubDate>Fri, 27 Mar 2026 10:29:43 GMT</pubDate></item><item><title><![CDATA[Air]]></title><description><![CDATA[
-Les sorts présents ici ne servent que d'exemple et n'empêchent pas la création de nouveaux sorts (avec l'accord du MJ).
-]]></description><link>jeu/règles/combat/magies/air.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Air.md</guid><pubDate>Fri, 27 Mar 2026 10:29:43 GMT</pubDate></item><item><title><![CDATA[Chasseur de prime]]></title><description><![CDATA[
+]]></description><link>jeu/règles/apprentissages/érudition/érudition.html</link><guid isPermaLink="false">Jeu/Règles/Apprentissages/Érudition/Érudition.md</guid><pubDate>Fri, 27 Mar 2026 10:29:44 GMT</pubDate></item><item><title><![CDATA[Chasseur de prime]]></title><description><![CDATA[
 Ce <a data-href="Mini-Jeux" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mini-Jeux</a> permet aux joueurs de battre des cibles afin que le peuple soit libérer de leur joug ainsi que de se faire de l'argent.
 À son arrivée en ville, le joueur reçoit une lettre anonyme (ou via un contact local) désignant une ou plusieurs cibles à neutraliser.Le joueur enquêtera de nuit pour découvrir la routine de sa cible afin de saisir le moment parfait pour frapper.Pendant la nuit, le joueur faire jusqu'à 4 recherches, chacune durant 2h.Pour chaque recherche, il jette 1d6 pour gagner des Points de Recherche (PR).Le gain de PR peut varier en fonction de l'environnement où se déroule la recherche.
 Le gain de PR ne peut pas être négatif.
@@ -802,188 +819,7 @@ Chaque pièce peut être de différente qualité de construction afin de fournir
 Exemple : Modeste hôtel des ventes (pauvre) : 1d10 +0. Il fait 2 +0 -&gt; Il perd 1 po.
 La téléportation fonctionne par tranche de 100kg.Si on téléporte 101kg, il faut considérer qu'il y a "2 téléportations"On doit utiliser ses crystaux ou ceux du personnel pour utiliser le portail.Toutes les semaines où le joueur n'est pas dans son bâtiment, il doit lancer 1d20 pour déterminer ce qu'il s'est passé pendant son absence.Lorsqu'un nouvel habitant se présente, le joueur peut l'accepter et lui attribuer des tâches ou le renvoyer.S'il l'accepte, il faut : lui fournir une chambre (ça ne peut pas être la chambre d'un joueur quand il ne s'en sert pas), le nourrir en payant 15pc de nourriture par jour, en ayant assez de nourriture à fournir à la cuisine. Le joueur peut ensuite lui attribuer une tâche, en l'associant à une pièce.Chaque semaine, pour chaque pièce, le joueur doit jeter 1d12 pour déterminer les événements qui s'y sont produits.]]></description><link>jeu/règles/mini-jeux/propriétaire.html</link><guid isPermaLink="false">Jeu/Règles/Mini-Jeux/Propriétaire.md</guid><pubDate>Fri, 27 Mar 2026 10:29:41 GMT</pubDate></item><item><title><![CDATA[Commerçant]]></title><description><![CDATA[
 Ce <a data-href="Mini-Jeux" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Mini-Jeux</a> permet aux joueurs d'acheter et de vendre des biens afin de gagner de l'argent ainsi que d'obtenir un réseau.
-Le joueur recevra régulièrement une lettre avec : des offres d'achats pour ses biens, une liste de biens actuellement mis en vente (s'il est Runild) En agrandissant son réseau et ses fonds, le joueur aura accès à plus d'offres.Ne pouvant se rendre jusqu'au lieu de la transaction, le joueur choisit une main-d'oeuvre afin de faire les démarches à sa place (livrer, récupérer, escorter, ..) ainsi que les routes qu'elle devra parcourir.Le mini-jeu consiste à augmenter sa fortune en gérant ses achats, ses ventes, ses contacts et sa main-d'oeuvre.Si le joueur possède des contacts, il pourra échanger régulièrement avec eux.Si vous échangez suffisamment avec un même contact, vos transactions seront plus intéressantes.Le joueur peut également rejoindre les Runild et rendre sa fortune bancaire visible au public.En faisant cela, il accède à l'hôtel des ventes afin d'obtenir plus d'offres et de contacts.Il peut aussi louer un coffre fort pour sécuriser ses biens physiques.Il existe 3 types de réputation pour le joueur, qui évolue avec ses compétences marchandes : une pour la qualité de ses ventes (prix corrects, objet correct, ..), une pour le type de marchandise qu'il vend (objet, vivant, dangereux, ..), une pour la confiance que la main-d'œuvre a envers lui (bonne paie, mission suicide, ..). Cette réputation influencera qui vient faire affaire avec le joueur, à quel point ils acceptent de négocier avec lui, le genre de bien qu'on lui propose, ainsi que la volonté de la main-d'œuvre de travailler avec lui.Le joueur peut faire différentes dépenses supplémentaires afin d'améliorer son réseau, ses transactions et sa réputation.Pour un même type de dépense, la qualité peut varier. (bas - moyen - haut)Ainsi il est possible de réduire les frais, mais rien ne garantit que le bien arrivera à bon port.Les biens peuvent subir des taxes et réglementations différentes en fonction de leur catégorie.Un bien peut avoir plusieurs catégories.Certaines marchandises ne peuvent être simplement portées à la main]]></description><link>jeu/règles/mini-jeux/commerçant.html</link><guid isPermaLink="false">Jeu/Règles/Mini-Jeux/Commerçant.md</guid><pubDate>Fri, 27 Mar 2026 10:29:41 GMT</pubDate></item><item><title><![CDATA[Arc 1 - 04b - 11.04.35]]></title><description><![CDATA[
-Projet Dieu Dormant
-Lieu actuel : Kothula, KaminiObjectif : Se renseigner sur le projet Dieu DormantPnjs notables : Perseus, Sire Malkar, Dieu DormantProjet Dieu Dormant
-La lettre dit ceci
-Le Dieu Dormant requiert un sacrifice de quantité ou de qualité
-Ayant fait tes preuves, il t'accordera une fraction de ses pouvoirs
-Rends-toi à son autel un soir de Lune Pleine, je t'assisterai
-Sur place, l'homme qui a écrit la lettre est surpris de ne pas voir Sire Malkar, mais il change vite de cible pour proposer aux joueurs d'avoir plein de pouvoirs
-Il fait une cérémonie pour invoquer le dieuBeaucoup de jets de mental + malus quand le dieu est là
-Il s'agit du dieu des rêves et des ambitions, qui sonde le plus profond de votre âme pour réaliser ce que vous souhaites
-L'homme se plaint que le dieu ne ressemble pas aux dessins de Billy, dieu se montrera sur un autre jour s'ils en valent la peineChacun propose son sacrifice pour avoir les bienfaits du dieu
-L'homme propose les joueurs
-Le dieu, divertit par leur conneries, leur propose de sacrifier leur temps pour le divertirIls vont d'abord affronter leur cauchemar
-Perseus est hanté par la maladie de sa fille
-L'homme a peur des araignées
-Dara a peur de voir ses proches se faire tuer comme le nécromancien
-Arek a peur de devenir impuissant et mourir
-Hazdaim a peur de la famine et de mal voir
-Une fois qu'ils ont vaincu leur peur, le dieu leur propose de vaincre une des peur les plus partagée
-Diego 6
-Loïc 4
-Michel 6
-Thomas 6
-William 3
-]]></description><link>jeu/sessions-du-masque/arc-1/arc-1-04b-11.04.35.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 1/Arc 1 - 04b - 11.04.35.md</guid><pubDate>Fri, 27 Mar 2026 10:29:29 GMT</pubDate></item><item><title><![CDATA[Arc 1 - 04 - 28.03.25]]></title><description><![CDATA[
-Résumé
-Lieu actuel : Kothula, EogulfObjectif : Sortir du tournoi clandestin et se renseigner sur le masquePnjs notables : Perseus, IskarionIls se font réveiller par la douleur des bracelets de plomb qui transpercent leurs poignets
-Ils sont nus et transportés devant une foule pour être vendus (jet de dés taille de bite)
-Arek 9 - 11cm
-Dara 10 - 12cm
-Halfdan 13 - 18cm
-Hazdaim 17 - 20cm
-Léoric 1 - 5cm
-Alors qu'ils sont en train d'être vendus, Perseus arrive et dit qu'ils sont déjà à lui en montrant la marque de Léoric
-Ils récupèrent leur équipement et repartent chez Perseus
-Sauver les autres esclaves?
-Perseus demande pourquoi ils sont poupées -&gt; ne peut pas les aider, mais sera là quand il faudra agir
-Rester discret sur cette information pour ne pas que la panique se répande
-Impossible de retrouver l'enchanteur escroc et le marchand de peinturesIls doivent continuer leur chemin vers la capital, Alegael (Perseus les presse après avoir entendu leur histoire)Sur le chemin, ils se font rattraper par le soldat qu'ils avaient combattu dans l'arèneArrivés à la capital, ils doivent payer l'accès à la ville (fonctionnaires pas efficaces)La chapelle contenant le livre est fermée pour ce soir, ils doivent attendre le lendemainCapitale constituée de plusieurs plateau/ étages (sur et sous le sol)
-Bas : Arvens, Scienctes, Egout/ Pauvres/ Clandestins/ Mines
-Haut : Runild, Marché, Habitation, Noblesse, Religion, Politique, RoyautéQuand ils se rendent au livre de communication :
-Billy -&gt; Leur dit de faire vite car : En train de superviser l'entretien politique des représentants des différents continents qui se déroule sur un bateau Il faut montrer la marque des chasseurs d'Halfdan pour pouvoir le contacter Tarquin Alsyon -&gt; Pas de grimoire personnel
-Lysara Veyn (Nirina) -&gt; A été payée par quelqu'un qui s'appelle Tarquin Alsyon pour fournir une toile vaudoo et ses recherches dessus (elle ne l'a pas personnellement vu) La demande était louche, elle conseille de laisser tomber et ne pas poser de questions pour ne pas attirer les mauvaises personnes Orvain Thessarion (Ovliin) -&gt; A été commissionné par lettre officielle, cacheté d'un sceau supérieur, pour fusionner des toiles (impossible que ce soit un sceau de Tarquin Alsyon) Il a été assassiné il y a peu
-Ses sens étaient bloqués car il s'agissait d'une mission confidentielle, il ne sait donc pas les toiles qu'il a fusionnées, ni sur quoi il les a fusionné
-Il sait juste qu'il y avait 3 toiles Lorsqu'il pose leurs questions, Iskarion, le conseillé d'Eryndor, un doigt de la main, arrive pour leur dire qu'il a entendu la conversation
-La religion les aidera dans ce combat !Recontacte avec Billy pour expliquer la situation
-Il les téléporte chez Orvain Thessarion pour aller enquêter
-Son domaine a été détruit, une aura dangereuse rôde
-Diego 5
-Loïc 4
-Michel 5
-Thomas 5
-William 3
-]]></description><link>jeu/sessions-du-masque/arc-1/arc-1-04-28.03.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 1/Arc 1 - 04 - 28.03.25.md</guid><pubDate>Fri, 27 Mar 2026 10:29:29 GMT</pubDate></item><item><title><![CDATA[Arc 1 - 03 - 14.03.25]]></title><description><![CDATA[
-Résumé
-Lieu actuel : Kothula, KaminiObjectif : Gagner le tournoi pour se faire de l'argent et un enchantement de KothulaPnjs notables : Perseus
-Permettre à Léoric de faire ses achats aux anciens prix
-Ils sont embarqués un peu de force dans le tournoi en échange d'un apprentissage d'enchantement du corps pour Dara
-Ils doivent se reposer avant, et vont dans leur taverneDes combats amicaux se disputent dans la taverne pour que les combattants puissent se rencontrer
-Ils rencontrent Perseus qui est d'abord attiré par la carrure d'Arek, puis par Léoric pour ne pas avoir d'armes sur luiCombat amical entre Perseus et LéoricLe lendemain se rendent au point de rdv du marchand
-Dans les coulisses, on leur met un collier en plomb pour limiter leur magie à 2 crystal par sort, mais on leur fait des tatouages magiques temporaire pour qu'ils aient une réserve infinieCombat à mort
-Au premier tour, on leur retire leurs armes et ils doivent utiliser la magie pour combattre 8 Raptidons (5 enfants, 3 adultes)
-Enfant 0
-Adulte 2
-Pas un combat à mort
-Au deuxième tour, on leur demande d'aller à la grille pour reprendre leurs armes
-Quand ils y arrivent, on jette leurs armes au milieu de l'arène et les autres combattants entrent (5 humains)
-Armure de titane 5
-Arme en fer 3
-Maitrise 5
-Au troisième tour, on leur rend leurs armes et ils combattent le champion de l'arène
-Armure en en titane + nickel + carbone 7
-Epée longue titane + nickel + sombronce 6 + Vs humain
-Maitrise 7
-Une fois le combat finit, ils se font tirer dessus avec du plomb
-Diego 4
-Loïc 3
-Michel 4
-Thomas 4
-William 2
-]]></description><link>jeu/sessions-du-masque/arc-1/arc-1-03-14.03.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 1/Arc 1 - 03 - 14.03.25.md</guid><pubDate>Fri, 27 Mar 2026 10:29:21 GMT</pubDate></item><item><title><![CDATA[Arc 1 - 02 - 21.02.25]]></title><description><![CDATA[
-Résumé
-Lieu actuel : Kothula, voyageObjectif : Voyager jusqu'à Kamini, sauver un village de la tyrannie d'un bourgePnjs notables : Sire MalkarIls commencent leur voyage
-S'ils partent en calèche, ils devront faire un détour de 2 jours pour contourner la rivièreJour 3 nuit -&gt; Certains joueurs font un rêve ou le masque leur parle
-Il y a une dizaine d'humains suspendus comme des pantins
-Des fils les attrapent membre par membre pour les suspendre également, ils doivent se battre pour les défaire
-Celui qui fait la garde les voit se lever désarticulés
-(Une fois de temps en temps, ils refont ce rêve, et il y a de plus en plus de pantins)Jour 7 -&gt; Ils croisent un village sous le joug du noble local, Sire Malkar
-Les villageois sont sur-taxés, les miliciens leur prennent tout, ils violent les femmes, les enfants doivent travailler
-Une fois entrés, ils ne peuvent plus sortir pour expliquer ce qu'il se passe dans le villageProblèmes possibles
-Des miliciens brutaux font régner l’ordre.
-Un paysan demande leur aide après que sa fille a été enlevée pour forcer le village à obéir.
-Le noble détient un document ou un indice sur un contact lié au masque.
-Options
-Renverser le noble de force.
-Manipuler un de ses hommes pour en apprendre plus.
-Utiliser la ruse pour récupérer les informations sans confrontation directeQuand ils arrivent à lui, il les supplie en pleurant qu'il doit juste amasser de l'argent pour acheter les services d'un ange afin de protéger le village
-Après cela ils sont libres de partir sans le tuer
-S'ils le tuent ou qu'ils fouillent, ils trouvent une lettre signée par un certain H.K. et parle d’un Projet du Dieu Dormant
-S'ils ne le tuent pas, ils auront des assassins à leur trousse avant d'arriver à la ville marchande Projet du Dieu Dormant
-Un sacrifice de qualité ou de quantité à l'autel ??? incitera le Dieu Dormant à venir
-Ayant fait tes preuves, il t'accordera une fraction de ses pouvoirs
-Rends-toi-z'y un soir de Lune Pleine, je t'assisterai
-Jour 10 -&gt; Ville marchande
-Pour monter à Eogulf, il faut payer
-Un tournoi a lieu pour récompenser les vainqueurs
-Diego 3
-Loïc 3
-Michel 3
-Thomas 3
-William 1
-]]></description><link>jeu/sessions-du-masque/arc-1/arc-1-02-21.02.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 1/Arc 1 - 02 - 21.02.25.md</guid><pubDate>Fri, 27 Mar 2026 10:29:21 GMT</pubDate></item><item><title><![CDATA[Arc 1 - 01 - 07.02.25]]></title><description><![CDATA[
-Résumé
-Lieu actuel : Kothula], Ville au nord de ChenavObjectif : Faire de l'argent pour s'équiper avant de partirPnjs notables : archimageIls se réveillent dans une chambre d'enfant sans équipement, avec des vêtements de maid, de princesse (de poupée)
-Petite discussionL'enfant rentre et hurle en les voyant, ce qui attire les gardes
-Ils sont emmenés en prison et Arek y reste pour ses anciens crimes
-Les autres devant l'archimage qui leur fait un procès
-Ils expliquent la situation
-Le père de la fille montre la poupée d'Halfdan qu'il avait acheté pour elleExplications du lien qu'il ont avec le masque
-Ils sont maudits par la magie vaudou
-Le masque devait arriver il y a 3 semaines
-On ne sait pas où il est
-Si le masque utilise encore la magie vaudou, il aura des marionnettes, les joueurs ont résisté car il n'avait pas tous ses pouvoirs
-Ils sont liés au masque et peuvent tenter de le retrouverLeur mission de rang or est passée platine et Arek doit les suivre
-On leur fourni un budget pour refaire leur équipement, mais le village n'étant pas grand, il n'y a pas d'équipement puissant
-L'économie locale n'est pas à son fort pour le moment, faire des quêtes pour les villageois leur feront faire un geste commercialQuêtes
-Fabriquer une potion de soin pour les os (ressources dans la crypte)
-Des rats empêchent de se rendre à la crypte qui se trouve sur un ilot au milieu du fleuve
-Livraison de colis à Kamini
-S'ils veulent directement partir, on leur indique qu'ils doivent prendre contact avec les personnes qui sont en liaisons avec le masque pour avoir un max d'infos dessus
-Le meilleur moyen de rentrer en contact avec eux est de rejoindre la capitale et utiliser le téléphonicon (Toilicon ?)Personnes
-Tarquin Alsyon, Maître Runild -&gt; Financier principal
-Lysara Veyn, Ange Scientes (Toile vaudoo) -&gt; Chercheur de contrôle
-Orvain Thessarion, Ange Scientes (Toile télékinésie) -&gt; Chercheur de fusion des toiles Diego 2
-Loïc 2
-Michel 2
-Thomas 2
-William 1
-]]></description><link>jeu/sessions-du-masque/arc-1/arc-1-01-07.02.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 1/Arc 1 - 01 - 07.02.25.md</guid><pubDate>Fri, 27 Mar 2026 10:29:21 GMT</pubDate></item><item><title><![CDATA[Arc 1 - 00 - 24.01.25]]></title><description><![CDATA[
-Le groupe se rencontre à Kothula et doit escorter une caisse métallique pour passer Arvens rang or.
-La caisse finit par céder, dévoilant un masque de démon dont les cornes sont déjà développées.
-Sur chaque corne se trouve une toile céleste.
-Lieu actuel : Kothula, ChenavObjectif : Escorter une boîte métallique pour passer Arvens OrPnjs notables : -Ils sont tous dans une guilde Arvens à Kothula, assis à la même table, à attendre leur nouveau grade
-Un ancien arrive et leur explique la quête pour les faire passer rang or
-Ce rang permet d'accéder à des objets de haute qualité, de meilleurs matériaux et services, des quêtes qui rapportent plusIl faut escorter un objet maudit et scellé
-Eviter le contact au maximum
-La caisse ne doit absolument pas être fragilisée pour ne pas que l'objet se libère
-Elle est en alliage de métaux renforcés et est très lourde -&gt; Pas de magie de métalLéoric est là pour maintenir le sceau avec son appui religieux
-Arek et Halfdan servent de superviseurs et ont déjà montré une certaine résistance aux énergies puissantes. Ils font cette quête parce qu'ils ont besoin d'argent
-Dara a entendu parlé de cette énergie maudite et veut vérifier s'il ne s'agit pas de la même que sa Toile Céleste
-Hazdaim est là pour monter son rang Arvens plus vite"Aller faire vos préparatifs, vous en aurez pour 5 jours de marche"Après avoir marché quelques heures, s'ils sont partis le matin, la nuit tombe d'un coup, si le soir, les torches n'éclairent plus rien
-"Vous êtes dans la prairie, le soleil vous chauffe la peau, le vent souffle calmement sur les herbes, vous voyez les oiseaux voler au loin, il fait nuit, le chariot n'avance plus, les chevaux sont morts, vous n'entendez plus de bruit"
-Combat contre des humains recousus comme des poupées avec des aiguilles plantée dans le corps
-Arek se fait sauter dessus par une poupée, et les aiguilles le transpercent
-Explication du combat
-Avant le combat
-Attaque surprise -&gt; Perception pour les joueurs avec Intuition
-Ordre des joueurs -&gt; D'abord ceux qui ont réussi leur intuition, puis jet de dés pour les autres -&gt; Du plus petit au plus grand
-Tout le monde décrit les actions en même temps, le MJ décrit la scène par vague
-Premier tour
-Adrénaline Speech de motivation
-Tous les tours
-Concentration Action (attaque, magie, déplacement poussé, fuite, ..)Ce n'est qu'une illusion, ils reviennent à eux, plusieurs heures sont passées et ils ont quand même pris des coups et les chevaux sont mortsExplication de faire l'inventaire
-Se soigner, manger, s'organiserIls doivent tirer le chariot eux-mêmes pour continuer
-A force d'être proche du chariot, ils se sentent mal et Léoric doit gérer sa magie pour les soigner eux et sceller la caisse
-Avances rapides entre les différents "Faire l'inventaire" pour gérer la nourriture
-Nourrir Léoric d'abord pour qu'il ait assez d'énergie pour purger tout le monde
-Nourrir tout le monde pour qu'ils puissent tirer le chariot jusqu'au bout
-Nourrir Arek pour qu'il tire le chariot seul
-Malgré les soins de Léoric, Arek se sent de plus en plus mal
-Après un certain temps, Arek est contrôlé comme une poupée et essaie de détruire la boîte
-Les autres doivent l'en empêcher, Arek peut faire des jets de force pour retenir ses attaquesA la fin du combat, Arek parvient a fissurer la caisse, laissant sortir un masque
-Il s'agit d'un masque de démon, dont les cornes de bélier ont déjà poussées
-Des toiles célestes ont été arrochées autour de ces cornes et devant sa boucheLe masque fait apparaitre des aiguilles et les cloues au sol
-"Vous n'êtes que des poupées pour mon royaume"
-Ils perdent connaissances sous l'afflux de magie
-Diego 1
-Loïc 1
-Michel 1
-Thomas 1
-William 0
-]]></description><link>jeu/sessions-du-masque/arc-1/arc-1-00-24.01.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 1/Arc 1 - 00 - 24.01.25.md</guid><pubDate>Fri, 27 Mar 2026 10:29:21 GMT</pubDate></item><item><title><![CDATA[Arc 1]]></title><description><![CDATA[Lieu actuel : <a data-href="Kothula" href="géographie/kothula/kothula.html" class="internal-link" target="_self" rel="noopener nofollow">Kothula</a>Objectif : Se renseigner sur le masque et se préparer à le contrer<br>Pnjs notables : Archimage, Sire Malkar, <a data-href="Perseus" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Perseus</a>, <a data-href="Iskarion" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Iskarion</a>, <a data-tooltip-position="top" aria-label="Dieu &gt; Dormant" data-href="Dieu#Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a>Boss final : Chevalier de Ronces<br><a data-href="Arc 1 - 00 - 24.01.25" href="jeu/sessions-du-masque/arc-1/arc-1-00-24.01.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 1 - 00 - 24.01.25</a><br><a data-href="Arc 1 - 01 - 07.02.25" href="jeu/sessions-du-masque/arc-1/arc-1-01-07.02.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 1 - 01 - 07.02.25</a><br><a data-href="Arc 1 - 02 - 21.02.25" href="jeu/sessions-du-masque/arc-1/arc-1-02-21.02.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 1 - 02 - 21.02.25</a><br><a data-href="Arc 1 - 03 - 14.03.25" href="jeu/sessions-du-masque/arc-1/arc-1-03-14.03.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 1 - 03 - 14.03.25</a><br><a data-href="Arc 1 - 04 - 28.03.25" href="jeu/sessions-du-masque/arc-1/arc-1-04-28.03.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 1 - 04 - 28.03.25</a><br><a data-href="Arc 1 - 04b - 11.04.35" href="jeu/sessions-du-masque/arc-1/arc-1-04b-11.04.35.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 1 - 04b - 11.04.35</a>]]></description><link>jeu/sessions-du-masque/arc-1/arc-1.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 1/Arc 1.md</guid><pubDate>Fri, 27 Mar 2026 10:29:17 GMT</pubDate></item><item><title><![CDATA[Arc 2 - 09 - 13.06.25]]></title><description><![CDATA[
+Le joueur recevra régulièrement une lettre avec : des offres d'achats pour ses biens, une liste de biens actuellement mis en vente (s'il est Runild) En agrandissant son réseau et ses fonds, le joueur aura accès à plus d'offres.Ne pouvant se rendre jusqu'au lieu de la transaction, le joueur choisit une main-d'oeuvre afin de faire les démarches à sa place (livrer, récupérer, escorter, ..) ainsi que les routes qu'elle devra parcourir.Le mini-jeu consiste à augmenter sa fortune en gérant ses achats, ses ventes, ses contacts et sa main-d'oeuvre.Si le joueur possède des contacts, il pourra échanger régulièrement avec eux.Si vous échangez suffisamment avec un même contact, vos transactions seront plus intéressantes.Le joueur peut également rejoindre les Runild et rendre sa fortune bancaire visible au public.En faisant cela, il accède à l'hôtel des ventes afin d'obtenir plus d'offres et de contacts.Il peut aussi louer un coffre fort pour sécuriser ses biens physiques.Il existe 3 types de réputation pour le joueur, qui évolue avec ses compétences marchandes : une pour la qualité de ses ventes (prix corrects, objet correct, ..), une pour le type de marchandise qu'il vend (objet, vivant, dangereux, ..), une pour la confiance que la main-d'œuvre a envers lui (bonne paie, mission suicide, ..). Cette réputation influencera qui vient faire affaire avec le joueur, à quel point ils acceptent de négocier avec lui, le genre de bien qu'on lui propose, ainsi que la volonté de la main-d'œuvre de travailler avec lui.Le joueur peut faire différentes dépenses supplémentaires afin d'améliorer son réseau, ses transactions et sa réputation.Pour un même type de dépense, la qualité peut varier. (bas - moyen - haut)Ainsi il est possible de réduire les frais, mais rien ne garantit que le bien arrivera à bon port.Les biens peuvent subir des taxes et réglementations différentes en fonction de leur catégorie.Un bien peut avoir plusieurs catégories.Certaines marchandises ne peuvent être simplement portées à la main]]></description><link>jeu/règles/mini-jeux/commerçant.html</link><guid isPermaLink="false">Jeu/Règles/Mini-Jeux/Commerçant.md</guid><pubDate>Fri, 27 Mar 2026 10:29:41 GMT</pubDate></item><item><title><![CDATA[Arc 2 - 09 - 13.06.25]]></title><description><![CDATA[
 Résumé
 Lieu actuel : Ovliin, RuvikObjectif : S'occuper en attendant que Bryumnes trouve des infos sur Tarquin AlsyonPnjs notables : BryumnesEn attendant les 3 jours, ils vont faire une quête pour abattre une des créature d'Orvain Thessarion qui se serait échappée
 Combat contre 1 Owlbear horrifique
@@ -1068,7 +904,7 @@ Loïc 8
 Michel 12
 Thomas 11
 William 5
-]]></description><link>jeu/sessions-du-masque/arc-2/arc-2-09b-27.06.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25.md</guid><pubDate>Fri, 27 Mar 2026 10:29:16 GMT</pubDate></item><item><title><![CDATA[Arc 2]]></title><description><![CDATA[Lieu actuel : <a data-href="Ovliin" href="géographie/ovliin/ovliin.html" class="internal-link" target="_self" rel="noopener nofollow">Ovliin</a>Objectif : Trouver Orvain Thessarion et ce qu'il a fusionné au masque<br>Pnjs notables : <a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a>, <a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a>, Orvain Thessarion<br>Boss final : <a data-href="Gammoth" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Gammoth</a><br><a data-href="Arc 2 - 05 - 27.04.25" href="jeu/sessions-du-masque/arc-2/arc-2-05-27.04.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2 - 05 - 27.04.25</a><br><a data-href="Arc 2 - 06 - 18.05.25" href="jeu/sessions-du-masque/arc-2/arc-2-06-18.05.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2 - 06 - 18.05.25</a><br><a data-href="Arc 2 - 07 - 21.05.25" href="jeu/sessions-du-masque/arc-2/arc-2-07-21.05.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2 - 07 - 21.05.25</a><br><a data-href="Arc 2 - 08 - 30.05.25" href="jeu/sessions-du-masque/arc-2/arc-2-08-30.05.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2 - 08 - 30.05.25</a><br><a data-href="Arc 2 - 09 - 13.06.25" href="jeu/sessions-du-masque/arc-2/arc-2-09-13.06.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2 - 09 - 13.06.25</a><br><a data-href="Arc 2 - 09b - 27.06.25" href="jeu/sessions-du-masque/arc-2/arc-2-09b-27.06.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2 - 09b - 27.06.25</a><br><a data-href="Arc 2.5 - 10 - 06.07.25 Diego" href="jeu/sessions-du-masque/arc-2/oav/arc-2.5-10-06.07.25-diego.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2.5 - 10 - 06.07.25 Diego</a><br><a data-href="Arc 2.5 - 10 - 05.08.25 Loic" href="jeu/sessions-du-masque/arc-2/oav/arc-2.5-10-05.08.25-loic.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2.5 - 10 - 05.08.25 Loic</a><br><a data-href="Arc 2.5 - 10 - 11.07.25 + 08.08.25 Michel" href="jeu/sessions-du-masque/arc-2/oav/arc-2.5-10-11.07.25-+-08.08.25-michel.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2.5 - 10 - 11.07.25 + 08.08.25 Michel</a><br><a data-href="Arc 2.5 - 10 - 07.07.25 Thomas" href="jeu/sessions-du-masque/arc-2/oav/arc-2.5-10-07.07.25-thomas.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2.5 - 10 - 07.07.25 Thomas</a>]]></description><link>jeu/sessions-du-masque/arc-2/arc-2.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 2/Arc 2.md</guid><pubDate>Fri, 27 Mar 2026 10:29:16 GMT</pubDate></item><item><title><![CDATA[Arc 2.5 - 10 - 06.07.25 Diego]]></title><description><![CDATA[
+]]></description><link>jeu/sessions-du-masque/arc-2/arc-2-09b-27.06.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25.md</guid><pubDate>Fri, 27 Mar 2026 10:29:16 GMT</pubDate></item><item><title><![CDATA[Arc 2.5 - 10 - 06.07.25 Diego]]></title><description><![CDATA[
 Résumé
 Lieu actuel : Suraja, [[]]Objectif :Pnjs notables : -
 Commerce avec son père dans la ville voisine
@@ -1126,30 +962,7 @@ Loïc
 Michel
 Thomas
 William
-]]></description><link>jeu/sessions-du-masque/arc-2/oav/arc-2.5-10-05.08.25-loic.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 05.08.25 Loic.md</guid><pubDate>Fri, 27 Mar 2026 10:29:16 GMT</pubDate></item><item><title><![CDATA[Arc 3 - 13 - 29.08.25]]></title><description><![CDATA[
-Résumé
-Lieu actuel : Suraja, KorkaahnObjectif : Rencontre de Raja et du Shara IshvaldaPnjs notables : RajaSuraja
-Scientifiques/Commerçants cachés avec beaucoup de main d'oeuvre Shara Ishvalda leur fait perdre des clients et les empêche de se développer financièrement Diego 13
-Loïc 10
-Lucas 3
-Michel 14
-Nolan 2
-Thomas 13
-William 6
-]]></description><link>jeu/sessions-du-masque/arc-3/arc-3-13-29.08.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 3/Arc 3 - 13 - 29.08.25.md</guid><pubDate>Fri, 27 Mar 2026 10:29:16 GMT</pubDate></item><item><title><![CDATA[Arc 3 - 12 - 19.09.25]]></title><description><![CDATA[
-Résumé
-Lieu actuel : Suraja, ville au sud d'IrkmaObjectif : Baiser le forgeron pour récupérer son minerai en mithrilPnjs notables : -Equilibrage
-Retirer les armes en mithril et remettre les anciennes
-Le forgeron possède un minerai rare dans une vitrine qui pourrait faire 3 lingots
-Le minerai a une valeur sentimentale et coûte cherConvois de carapaces pour aller à Irkma
-Diego 14
-Loïc 10
-Lucas 4
-Michel 15
-Nolan 3
-Thomas 14
-William 7
-]]></description><link>jeu/sessions-du-masque/arc-3/arc-3-12-19.09.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 3/Arc 3 - 12 - 19.09.25.md</guid><pubDate>Fri, 27 Mar 2026 10:29:15 GMT</pubDate></item><item><title><![CDATA[Arc 3 - 11 - 14.08.25]]></title><description><![CDATA[
+]]></description><link>jeu/sessions-du-masque/arc-2/oav/arc-2.5-10-05.08.25-loic.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 05.08.25 Loic.md</guid><pubDate>Fri, 27 Mar 2026 10:29:16 GMT</pubDate></item><item><title><![CDATA[Arc 3 - 11 - 14.08.25]]></title><description><![CDATA[
 Résumé
 Lieu actuel : Dimension de BillyObjectif : Se renseigner sur Tarquin Alsyon et choisir où allerPnjs notables : Billy, Dieu DormantRéunion avec Billy Il ne peut pas combattre le masque, ça va à l'encontre des serments et pactes qu'il a fait Actuellement le Pacte de Certitude
 Il se doute de ce qu'est le matériau brûlant et mou mais ne veut pas le dire avant d'être sûr Réussite critique de mental permet de le deviner, mais le joueur ne pourra rien dire Billy doit se concerter avec les dieux et préparer le terrain pour le combat contre le masque Il leur donne les infos qu'il a récupérées sur Tarquin Alsyon, et leur donne une quête Platine en même temps
@@ -1221,17 +1034,7 @@ Loïc
 Michel
 Thomas
 William
-]]></description><link>jeu/sessions-du-masque/arc-2/oav/arc-2.5-10-07.07.25-thomas.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 07.07.25 Thomas.md</guid><pubDate>Fri, 27 Mar 2026 10:29:15 GMT</pubDate></item><item><title><![CDATA[Arc 4 - 22b - 06.03.26 1]]></title><description><![CDATA[
-Résumé
-Lieu actuel : Nirina, ForêtObjectif :Pnjs notables :En chassant un enfant, ils se perdent dans la brume et se font traquer par un Soul Catcher (voir sur discord)Mais en fait ce n'est pas eux qui se faisaient traquer, c'était le Soul Catcher qui se faisait traquer par le MagalaLe magala les attaque et ils doivent choisir qui réagira à son attaque (ils ne peuvent pas tous agir)
-Diego
-Loïc
-Lucas
-Michel
-Nolan
-Thomas
-William
-]]></description><link>jeu/sessions-du-masque/arc-4/arc-4-22b-06.03.26-1.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26 1.md</guid><pubDate>Fri, 27 Mar 2026 10:29:15 GMT</pubDate></item><item><title><![CDATA[Arc 4 - 21 - 20.02.26]]></title><description><![CDATA[
+]]></description><link>jeu/sessions-du-masque/arc-2/oav/arc-2.5-10-07.07.25-thomas.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 07.07.25 Thomas.md</guid><pubDate>Fri, 27 Mar 2026 10:29:15 GMT</pubDate></item><item><title><![CDATA[Arc 4 - 21 - 20.02.26]]></title><description><![CDATA[
 Résumé
 Lieu actuel : Nirina, Vers PulmiusObjectif :Pnjs notables : Kigan KrustDire aux joueurs qu'ils vont devoir faire preuve d'initiative.Dara -&gt; Ombre Zaledra -&gt; Il intercepte ses missives de commerce -&gt; Plus de mini-jeu de commerce
 Interaction, Qui &gt; Quoi
@@ -1437,7 +1240,7 @@ Michel 16
 Nolan 3
 Thomas 15
 William 7
-]]></description><link>jeu/sessions-du-masque/arc-3/arc-3-13b-03.10.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25.md</guid><pubDate>Fri, 27 Mar 2026 10:29:01 GMT</pubDate></item><item><title><![CDATA[Arc 3]]></title><description><![CDATA[Lieu actuel : <a data-href="Suraja" href="géographie/suraja/suraja.html" class="internal-link" target="_self" rel="noopener nofollow">Suraja</a>Objectif : Abattre le Shara Ishvalda pour s'introduire dans le groupe Espers et se renseigner sur leur relation avec le masque<br>Pnjs notables : Billy, <a data-href="Raja" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Raja</a>, Forgeron, <a data-href="Rysom Javak" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Rysom Javak</a>, <a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a>, <a data-tooltip-position="top" aria-label="Dieu &gt; Dormant" data-href="Dieu#Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a>, <a data-href="Nocim" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Nocim</a><br>Boss final : <a data-href="Shara Ishvalda" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Shara Ishvalda</a><br><a data-href="Arc 3 - 11 - 14.08.25" href="jeu/sessions-du-masque/arc-3/arc-3-11-14.08.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 11 - 14.08.25</a><br><a data-href="Arc 3 - 13 - 29.08.25" href="jeu/sessions-du-masque/arc-3/arc-3-13-29.08.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 13 - 29.08.25</a><br><a data-href="Arc 3 - 12 - 19.09.25" href="jeu/sessions-du-masque/arc-3/arc-3-12-19.09.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 12 - 19.09.25</a><br><a data-href="Arc 3 - 13b - 03.10.25" href="jeu/sessions-du-masque/arc-3/arc-3-13b-03.10.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 13b - 03.10.25</a><br><a data-href="Arc 3 - 14 - 11.10.25" href="jeu/sessions-du-masque/arc-3/arc-3-14-11.10.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 14 - 11.10.25</a><br><a data-href="Arc 3 - 15 - 14.11.25" href="jeu/sessions-du-masque/arc-3/arc-3-15-14.11.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 15 - 14.11.25</a><br><a data-href="Arc 3 - 16 - 28.11.25" href="jeu/sessions-du-masque/arc-3/arc-3-16-28.11.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 16 - 28.11.25</a><br><a data-href="Arc 3 - 17 - 20.12.25" href="jeu/sessions-du-masque/arc-3/arc-3-17-20.12.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 17 - 20.12.25</a>]]></description><link>jeu/sessions-du-masque/arc-3/arc-3.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 3/Arc 3.md</guid><pubDate>Fri, 27 Mar 2026 10:29:01 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[test]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Fri, 27 Mar 2026 10:29:00 GMT</pubDate></item><item><title><![CDATA[Mental]]></title><description><![CDATA[
+]]></description><link>jeu/sessions-du-masque/arc-3/arc-3-13b-03.10.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25.md</guid><pubDate>Fri, 27 Mar 2026 10:29:01 GMT</pubDate></item><item><title><![CDATA[Arc 3]]></title><description><![CDATA[Lieu actuel : <a data-href="Suraja" href="géographie/suraja/suraja.html" class="internal-link" target="_self" rel="noopener nofollow">Suraja</a>Objectif : Abattre le Shara Ishvalda pour s'introduire dans le groupe Espers et se renseigner sur leur relation avec le masque<br>Pnjs notables : Billy, <a data-href="Raja" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Raja</a>, Forgeron, <a data-href="Rysom Javak" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Rysom Javak</a>, <a data-href="Chlorys" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Chlorys</a>, <a data-tooltip-position="top" aria-label="Dieu &gt; Dormant" data-href="Dieu#Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a>, <a data-href="Nocim" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Nocim</a><br>Boss final : <a data-href="Shara Ishvalda" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Shara Ishvalda</a><br><a data-href="Arc 3 - 11 - 14.08.25" href="jeu/sessions-du-masque/arc-3/arc-3-11-14.08.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 11 - 14.08.25</a><br><a data-href="Arc 3 - 13 - 29.08.25" href="jeu/sessions-du-masque/arc-3/arc-3-13-29.08.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 13 - 29.08.25</a><br><a data-href="Arc 3 - 12 - 19.09.25" href="jeu/sessions-du-masque/arc-3/arc-3-12-19.09.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 12 - 19.09.25</a><br><a data-href="Arc 3 - 13b - 03.10.25" href="jeu/sessions-du-masque/arc-3/arc-3-13b-03.10.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 13b - 03.10.25</a><br><a data-href="Arc 3 - 14 - 11.10.25" href="jeu/sessions-du-masque/arc-3/arc-3-14-11.10.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 14 - 11.10.25</a><br><a data-href="Arc 3 - 15 - 14.11.25" href="jeu/sessions-du-masque/arc-3/arc-3-15-14.11.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 15 - 14.11.25</a><br><a data-href="Arc 3 - 16 - 28.11.25" href="jeu/sessions-du-masque/arc-3/arc-3-16-28.11.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 16 - 28.11.25</a><br><a data-href="Arc 3 - 17 - 20.12.25" href="jeu/sessions-du-masque/arc-3/arc-3-17-20.12.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 3 - 17 - 20.12.25</a>]]></description><link>jeu/sessions-du-masque/arc-3/arc-3.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 3/Arc 3.md</guid><pubDate>Fri, 27 Mar 2026 10:29:01 GMT</pubDate></item><item><title><![CDATA[Mental]]></title><description><![CDATA[
 Le joueur en choisi 1 tous les 5 points d'attribut (5, 10, 15, 20).
 Double le modificateur des jets selon la situation (le modificateur devient 0 s'il était négatif). Le joueur en choisi 1 tous les 1 point de modificateur (1, 2, 3, 4, 5).
 Il est nécessaire de posséder la compétence principale pour débloquer les compétences secondaires liées. S'il s'agit de son attribut le plus élevé, le joueur peut en choisir 1.
@@ -1505,9 +1308,7 @@ réussite critique, l'enchantement est créé et a une valeur de 2,
 réussite, l'enchantement est créé et a une valeur de 1,
 échec, le tissu perd le dernier enchantement ajouté,
 échec critique, le tissu perd les 2 derniers enchantements ajoutés.
-Le joueur lance 1d6, la valeur de l'enchantement est le résultat obtenu.Si le dé fait 6, la valeur devient 0 (l'enchantement est désactivé mais pas supprimé).L'enchantement disparaît si le joueur fait 6 ou un nombre inférieur à la valeur actuelle deux fois de suite.]]></description><link>jeu/règles/apprentissages/artisanat/enchanteur.html</link><guid isPermaLink="false">Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md</guid><pubDate>Thu, 19 Mar 2026 09:36:54 GMT</pubDate></item><item><title><![CDATA[Lumière]]></title><description><![CDATA[
-Les sorts présents ici ne servent que d'exemple et n'empêchent pas la création de nouveaux sorts (avec l'accord du MJ).
-]]></description><link>jeu/règles/combat/magies/lumière.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Lumière.md</guid><pubDate>Thu, 19 Mar 2026 09:28:54 GMT</pubDate></item><item><title><![CDATA[Artisanat]]></title><description><![CDATA[
+Le joueur lance 1d6, la valeur de l'enchantement est le résultat obtenu.Si le dé fait 6, la valeur devient 0 (l'enchantement est désactivé mais pas supprimé).L'enchantement disparaît si le joueur fait 6 ou un nombre inférieur à la valeur actuelle deux fois de suite.]]></description><link>jeu/règles/apprentissages/artisanat/enchanteur.html</link><guid isPermaLink="false">Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md</guid><pubDate>Thu, 19 Mar 2026 09:36:54 GMT</pubDate></item><item><title><![CDATA[Artisanat]]></title><description><![CDATA[
 L’artisanat a pour objectif de façonner une matière existante pour lui donner une forme utile et durable.
 Certains artisans se spécialisent dans les grandes constructions (bâtiments, véhicules, fortifications), mais ceux qui intéressent le plus les aventuriers sont ceux dont le savoir-faire améliore directement leurs armes, protections ou équipements.
 Un Artificier conçoit et assemble des dispositifs mécaniques, alchimiques ou explosifs.
@@ -1526,9 +1327,7 @@ Les tanneurs les plus habiles allient esthétique, confort et résistance, produ
 Un ingrédient ne peut pas devenir un matériau de rareté plus élevé, mais il peut cependant perdre en rareté.Ensuite, le joueur lance un autre dé pour déterminer avec précision le matériau qu'il vient d'obtenir.
 Voir la partie Raffinage de chaque spécialisation pour en savoir plus.Une fois les ingrédients transformés en matériaux, le joueur peut tenter une fabrication à l’aide d’un jet de D20 + Niveau d'Artisanat.Pour réussir, le résultat final doit être supérieur à la difficulté totale de la création.Les chances de réussite dépendent : du niveau d’artisanat du joueur, du nombre total d’ingrédients utilisés, et de la rareté de chacun d’eux. Les malus de difficulté s’additionnent pour chaque ingrédient.
 Lors d’un voyage, le joueur peut doubler le temps qu'il passe dans un hex afin de récolter divers composants.
-Le joueur lance : 1D100 pour déterminer la rareté de l'ingrédient trouvé. Pour connaître la quantité obtenue : D10 pour les déchets, D8 pour les communs, D6 pour les peu communs, D4 pour les rares, D2 pour les légendaires. Le type d'ingrédients est déterminé par l'hex dans lequelle le joueur fait sa récolte (minerais, gemmes, crystaux, ..). ]]></description><link>jeu/règles/apprentissages/artisanat/artisanat.html</link><guid isPermaLink="false">Jeu/Règles/Apprentissages/Artisanat/Artisanat.md</guid><pubDate>Thu, 19 Mar 2026 09:27:55 GMT</pubDate></item><item><title><![CDATA[Magie]]></title><description><![CDATA[
-La magie brut, sans être imprégnée des différents éléments.
-]]></description><link>jeu/règles/combat/magies/magie.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Magie.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Templis]]></title><description><![CDATA[
+Le joueur lance : 1D100 pour déterminer la rareté de l'ingrédient trouvé. Pour connaître la quantité obtenue : D10 pour les déchets, D8 pour les communs, D6 pour les peu communs, D4 pour les rares, D2 pour les légendaires. Le type d'ingrédients est déterminé par l'hex dans lequelle le joueur fait sa récolte (minerais, gemmes, crystaux, ..). ]]></description><link>jeu/règles/apprentissages/artisanat/artisanat.html</link><guid isPermaLink="false">Jeu/Règles/Apprentissages/Artisanat/Artisanat.md</guid><pubDate>Thu, 19 Mar 2026 09:27:55 GMT</pubDate></item><item><title><![CDATA[Templis]]></title><description><![CDATA[
 Pèleriner les 77 Temples pieds nus. Purger un village de la souffrance. Offrir un sens aux Dieux soi-même (généralement la vue). Possibilité de détecter les entités planaires et d'être moins affecté par leur présence. Supporter une présence divine ? Possibilité d'emprunter 1 objet béni aux Templis. Il peut être échangé et conservé aussi longtemps qu'on le souhaite, mais on ne peut en avoir qu'un. Purifier un démon.
 ]]></description><link>jeu/règles/compétences/maisons/templis.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Maisons/Templis.md</guid><pubDate>Tue, 17 Mar 2026 15:18:06 GMT</pubDate></item><item><title><![CDATA[Runild]]></title><description><![CDATA[
 Accès à l'hôtel des ventes. Accès à l'hôtel des ventes,
@@ -1579,7 +1378,214 @@ la salle d'artisanat,
 la salle d'alchimie. la guilde paie les transports nécessaires à la quête en cours : terrestre,
 aquatique,
 aérien,
-téléportation. ]]></description><link>jeu/règles/compétences/maisons/arvens.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Maisons/Arvens.md</guid><pubDate>Tue, 17 Mar 2026 15:18:06 GMT</pubDate></item><item><title><![CDATA[Bourg]]></title><description><![CDATA[
+téléportation. ]]></description><link>jeu/règles/compétences/maisons/arvens.html</link><guid isPermaLink="false">Jeu/Règles/Compétences/Maisons/Arvens.md</guid><pubDate>Tue, 17 Mar 2026 15:18:06 GMT</pubDate></item><item><title><![CDATA[Ténèbres]]></title><description><![CDATA[
+Les sorts présents ici ne servent que d'exemple et n'empêchent pas la création de nouveaux sorts (avec l'accord du MJ).
+]]></description><link>jeu/règles/combat/magies/ténèbres.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Ténèbres.md</guid><pubDate>Fri, 27 Mar 2026 10:29:44 GMT</pubDate></item><item><title><![CDATA[Roche]]></title><description><![CDATA[
+Les sorts présents ici ne servent que d'exemple et n'empêchent pas la création de nouveaux sorts (avec l'accord du MJ).
+]]></description><link>jeu/règles/combat/magies/roche.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Roche.md</guid><pubDate>Fri, 27 Mar 2026 10:29:44 GMT</pubDate></item><item><title><![CDATA[Foudre]]></title><description><![CDATA[
+Les sorts présents ici ne servent que d'exemple et n'empêchent pas la création de nouveaux sorts (avec l'accord du MJ).
+]]></description><link>jeu/règles/combat/magies/foudre.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Foudre.md</guid><pubDate>Fri, 27 Mar 2026 10:29:43 GMT</pubDate></item><item><title><![CDATA[Feu]]></title><description><![CDATA[
+Les sorts présents ici ne servent que d'exemple et n'empêchent pas la création de nouveaux sorts (avec l'accord du MJ).
+]]></description><link>jeu/règles/combat/magies/feu.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Feu.md</guid><pubDate>Fri, 27 Mar 2026 10:29:43 GMT</pubDate></item><item><title><![CDATA[Eau]]></title><description><![CDATA[
+Les sorts présents ici ne servent que d'exemple et n'empêchent pas la création de nouveaux sorts (avec l'accord du MJ).
+]]></description><link>jeu/règles/combat/magies/eau.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Eau.md</guid><pubDate>Fri, 27 Mar 2026 10:29:43 GMT</pubDate></item><item><title><![CDATA[Air]]></title><description><![CDATA[
+Les sorts présents ici ne servent que d'exemple et n'empêchent pas la création de nouveaux sorts (avec l'accord du MJ).
+]]></description><link>jeu/règles/combat/magies/air.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Air.md</guid><pubDate>Fri, 27 Mar 2026 10:29:43 GMT</pubDate></item><item><title><![CDATA[Arc 1 - 04b - 11.04.35]]></title><description><![CDATA[
+Projet Dieu Dormant
+Lieu actuel : Kothula, KaminiObjectif : Se renseigner sur le projet Dieu DormantPnjs notables : Perseus, Sire Malkar, Dieu DormantProjet Dieu Dormant
+La lettre dit ceci
+Le Dieu Dormant requiert un sacrifice de quantité ou de qualité
+Ayant fait tes preuves, il t'accordera une fraction de ses pouvoirs
+Rends-toi à son autel un soir de Lune Pleine, je t'assisterai
+Sur place, l'homme qui a écrit la lettre est surpris de ne pas voir Sire Malkar, mais il change vite de cible pour proposer aux joueurs d'avoir plein de pouvoirs
+Il fait une cérémonie pour invoquer le dieuBeaucoup de jets de mental + malus quand le dieu est là
+Il s'agit du dieu des rêves et des ambitions, qui sonde le plus profond de votre âme pour réaliser ce que vous souhaites
+L'homme se plaint que le dieu ne ressemble pas aux dessins de Billy, dieu se montrera sur un autre jour s'ils en valent la peineChacun propose son sacrifice pour avoir les bienfaits du dieu
+L'homme propose les joueurs
+Le dieu, divertit par leur conneries, leur propose de sacrifier leur temps pour le divertirIls vont d'abord affronter leur cauchemar
+Perseus est hanté par la maladie de sa fille
+L'homme a peur des araignées
+Dara a peur de voir ses proches se faire tuer comme le nécromancien
+Arek a peur de devenir impuissant et mourir
+Hazdaim a peur de la famine et de mal voir
+Une fois qu'ils ont vaincu leur peur, le dieu leur propose de vaincre une des peur les plus partagée
+Diego 6
+Loïc 4
+Michel 6
+Thomas 6
+William 3
+]]></description><link>jeu/sessions-du-masque/arc-1/arc-1-04b-11.04.35.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 1/Arc 1 - 04b - 11.04.35.md</guid><pubDate>Fri, 27 Mar 2026 10:29:29 GMT</pubDate></item><item><title><![CDATA[Arc 1 - 04 - 28.03.25]]></title><description><![CDATA[
+Résumé
+Lieu actuel : Kothula, EogulfObjectif : Sortir du tournoi clandestin et se renseigner sur le masquePnjs notables : Perseus, IskarionIls se font réveiller par la douleur des bracelets de plomb qui transpercent leurs poignets
+Ils sont nus et transportés devant une foule pour être vendus (jet de dés taille de bite)
+Arek 9 - 11cm
+Dara 10 - 12cm
+Halfdan 13 - 18cm
+Hazdaim 17 - 20cm
+Léoric 1 - 5cm
+Alors qu'ils sont en train d'être vendus, Perseus arrive et dit qu'ils sont déjà à lui en montrant la marque de Léoric
+Ils récupèrent leur équipement et repartent chez Perseus
+Sauver les autres esclaves?
+Perseus demande pourquoi ils sont poupées -&gt; ne peut pas les aider, mais sera là quand il faudra agir
+Rester discret sur cette information pour ne pas que la panique se répande
+Impossible de retrouver l'enchanteur escroc et le marchand de peinturesIls doivent continuer leur chemin vers la capital, Alegael (Perseus les presse après avoir entendu leur histoire)Sur le chemin, ils se font rattraper par le soldat qu'ils avaient combattu dans l'arèneArrivés à la capital, ils doivent payer l'accès à la ville (fonctionnaires pas efficaces)La chapelle contenant le livre est fermée pour ce soir, ils doivent attendre le lendemainCapitale constituée de plusieurs plateau/ étages (sur et sous le sol)
+Bas : Arvens, Scienctes, Egout/ Pauvres/ Clandestins/ Mines
+Haut : Runild, Marché, Habitation, Noblesse, Religion, Politique, RoyautéQuand ils se rendent au livre de communication :
+Billy -&gt; Leur dit de faire vite car : En train de superviser l'entretien politique des représentants des différents continents qui se déroule sur un bateau Il faut montrer la marque des chasseurs d'Halfdan pour pouvoir le contacter Tarquin Alsyon -&gt; Pas de grimoire personnel
+Lysara Veyn (Nirina) -&gt; A été payée par quelqu'un qui s'appelle Tarquin Alsyon pour fournir une toile vaudoo et ses recherches dessus (elle ne l'a pas personnellement vu) La demande était louche, elle conseille de laisser tomber et ne pas poser de questions pour ne pas attirer les mauvaises personnes Orvain Thessarion (Ovliin) -&gt; A été commissionné par lettre officielle, cacheté d'un sceau supérieur, pour fusionner des toiles (impossible que ce soit un sceau de Tarquin Alsyon) Il a été assassiné il y a peu
+Ses sens étaient bloqués car il s'agissait d'une mission confidentielle, il ne sait donc pas les toiles qu'il a fusionnées, ni sur quoi il les a fusionné
+Il sait juste qu'il y avait 3 toiles Lorsqu'il pose leurs questions, Iskarion, le conseillé d'Eryndor, un doigt de la main, arrive pour leur dire qu'il a entendu la conversation
+La religion les aidera dans ce combat !Recontacte avec Billy pour expliquer la situation
+Il les téléporte chez Orvain Thessarion pour aller enquêter
+Son domaine a été détruit, une aura dangereuse rôde
+Diego 5
+Loïc 4
+Michel 5
+Thomas 5
+William 3
+]]></description><link>jeu/sessions-du-masque/arc-1/arc-1-04-28.03.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 1/Arc 1 - 04 - 28.03.25.md</guid><pubDate>Fri, 27 Mar 2026 10:29:29 GMT</pubDate></item><item><title><![CDATA[Arc 1 - 03 - 14.03.25]]></title><description><![CDATA[
+Résumé
+Lieu actuel : Kothula, KaminiObjectif : Gagner le tournoi pour se faire de l'argent et un enchantement de KothulaPnjs notables : Perseus
+Permettre à Léoric de faire ses achats aux anciens prix
+Ils sont embarqués un peu de force dans le tournoi en échange d'un apprentissage d'enchantement du corps pour Dara
+Ils doivent se reposer avant, et vont dans leur taverneDes combats amicaux se disputent dans la taverne pour que les combattants puissent se rencontrer
+Ils rencontrent Perseus qui est d'abord attiré par la carrure d'Arek, puis par Léoric pour ne pas avoir d'armes sur luiCombat amical entre Perseus et LéoricLe lendemain se rendent au point de rdv du marchand
+Dans les coulisses, on leur met un collier en plomb pour limiter leur magie à 2 crystal par sort, mais on leur fait des tatouages magiques temporaire pour qu'ils aient une réserve infinieCombat à mort
+Au premier tour, on leur retire leurs armes et ils doivent utiliser la magie pour combattre 8 Raptidons (5 enfants, 3 adultes)
+Enfant 0
+Adulte 2
+Pas un combat à mort
+Au deuxième tour, on leur demande d'aller à la grille pour reprendre leurs armes
+Quand ils y arrivent, on jette leurs armes au milieu de l'arène et les autres combattants entrent (5 humains)
+Armure de titane 5
+Arme en fer 3
+Maitrise 5
+Au troisième tour, on leur rend leurs armes et ils combattent le champion de l'arène
+Armure en en titane + nickel + carbone 7
+Epée longue titane + nickel + sombronce 6 + Vs humain
+Maitrise 7
+Une fois le combat finit, ils se font tirer dessus avec du plomb
+Diego 4
+Loïc 3
+Michel 4
+Thomas 4
+William 2
+]]></description><link>jeu/sessions-du-masque/arc-1/arc-1-03-14.03.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 1/Arc 1 - 03 - 14.03.25.md</guid><pubDate>Fri, 27 Mar 2026 10:29:21 GMT</pubDate></item><item><title><![CDATA[Arc 1 - 02 - 21.02.25]]></title><description><![CDATA[
+Résumé
+Lieu actuel : Kothula, voyageObjectif : Voyager jusqu'à Kamini, sauver un village de la tyrannie d'un bourgePnjs notables : Sire MalkarIls commencent leur voyage
+S'ils partent en calèche, ils devront faire un détour de 2 jours pour contourner la rivièreJour 3 nuit -&gt; Certains joueurs font un rêve ou le masque leur parle
+Il y a une dizaine d'humains suspendus comme des pantins
+Des fils les attrapent membre par membre pour les suspendre également, ils doivent se battre pour les défaire
+Celui qui fait la garde les voit se lever désarticulés
+(Une fois de temps en temps, ils refont ce rêve, et il y a de plus en plus de pantins)Jour 7 -&gt; Ils croisent un village sous le joug du noble local, Sire Malkar
+Les villageois sont sur-taxés, les miliciens leur prennent tout, ils violent les femmes, les enfants doivent travailler
+Une fois entrés, ils ne peuvent plus sortir pour expliquer ce qu'il se passe dans le villageProblèmes possibles
+Des miliciens brutaux font régner l’ordre.
+Un paysan demande leur aide après que sa fille a été enlevée pour forcer le village à obéir.
+Le noble détient un document ou un indice sur un contact lié au masque.
+Options
+Renverser le noble de force.
+Manipuler un de ses hommes pour en apprendre plus.
+Utiliser la ruse pour récupérer les informations sans confrontation directeQuand ils arrivent à lui, il les supplie en pleurant qu'il doit juste amasser de l'argent pour acheter les services d'un ange afin de protéger le village
+Après cela ils sont libres de partir sans le tuer
+S'ils le tuent ou qu'ils fouillent, ils trouvent une lettre signée par un certain H.K. et parle d’un Projet du Dieu Dormant
+S'ils ne le tuent pas, ils auront des assassins à leur trousse avant d'arriver à la ville marchande Projet du Dieu Dormant
+Un sacrifice de qualité ou de quantité à l'autel ??? incitera le Dieu Dormant à venir
+Ayant fait tes preuves, il t'accordera une fraction de ses pouvoirs
+Rends-toi-z'y un soir de Lune Pleine, je t'assisterai
+Jour 10 -&gt; Ville marchande
+Pour monter à Eogulf, il faut payer
+Un tournoi a lieu pour récompenser les vainqueurs
+Diego 3
+Loïc 3
+Michel 3
+Thomas 3
+William 1
+]]></description><link>jeu/sessions-du-masque/arc-1/arc-1-02-21.02.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 1/Arc 1 - 02 - 21.02.25.md</guid><pubDate>Fri, 27 Mar 2026 10:29:21 GMT</pubDate></item><item><title><![CDATA[Arc 1 - 01 - 07.02.25]]></title><description><![CDATA[
+Résumé
+Lieu actuel : Kothula], Ville au nord de ChenavObjectif : Faire de l'argent pour s'équiper avant de partirPnjs notables : archimageIls se réveillent dans une chambre d'enfant sans équipement, avec des vêtements de maid, de princesse (de poupée)
+Petite discussionL'enfant rentre et hurle en les voyant, ce qui attire les gardes
+Ils sont emmenés en prison et Arek y reste pour ses anciens crimes
+Les autres devant l'archimage qui leur fait un procès
+Ils expliquent la situation
+Le père de la fille montre la poupée d'Halfdan qu'il avait acheté pour elleExplications du lien qu'il ont avec le masque
+Ils sont maudits par la magie vaudou
+Le masque devait arriver il y a 3 semaines
+On ne sait pas où il est
+Si le masque utilise encore la magie vaudou, il aura des marionnettes, les joueurs ont résisté car il n'avait pas tous ses pouvoirs
+Ils sont liés au masque et peuvent tenter de le retrouverLeur mission de rang or est passée platine et Arek doit les suivre
+On leur fourni un budget pour refaire leur équipement, mais le village n'étant pas grand, il n'y a pas d'équipement puissant
+L'économie locale n'est pas à son fort pour le moment, faire des quêtes pour les villageois leur feront faire un geste commercialQuêtes
+Fabriquer une potion de soin pour les os (ressources dans la crypte)
+Des rats empêchent de se rendre à la crypte qui se trouve sur un ilot au milieu du fleuve
+Livraison de colis à Kamini
+S'ils veulent directement partir, on leur indique qu'ils doivent prendre contact avec les personnes qui sont en liaisons avec le masque pour avoir un max d'infos dessus
+Le meilleur moyen de rentrer en contact avec eux est de rejoindre la capitale et utiliser le téléphonicon (Toilicon ?)Personnes
+Tarquin Alsyon, Maître Runild -&gt; Financier principal
+Lysara Veyn, Ange Scientes (Toile vaudoo) -&gt; Chercheur de contrôle
+Orvain Thessarion, Ange Scientes (Toile télékinésie) -&gt; Chercheur de fusion des toiles Diego 2
+Loïc 2
+Michel 2
+Thomas 2
+William 1
+]]></description><link>jeu/sessions-du-masque/arc-1/arc-1-01-07.02.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 1/Arc 1 - 01 - 07.02.25.md</guid><pubDate>Fri, 27 Mar 2026 10:29:21 GMT</pubDate></item><item><title><![CDATA[Arc 1 - 00 - 24.01.25]]></title><description><![CDATA[
+Le groupe se rencontre à Kothula et doit escorter une caisse métallique pour passer Arvens rang or.
+La caisse finit par céder, dévoilant un masque de démon dont les cornes sont déjà développées.
+Sur chaque corne se trouve une toile céleste.
+Lieu actuel : Kothula, ChenavObjectif : Escorter une boîte métallique pour passer Arvens OrPnjs notables : -Ils sont tous dans une guilde Arvens à Kothula, assis à la même table, à attendre leur nouveau grade
+Un ancien arrive et leur explique la quête pour les faire passer rang or
+Ce rang permet d'accéder à des objets de haute qualité, de meilleurs matériaux et services, des quêtes qui rapportent plusIl faut escorter un objet maudit et scellé
+Eviter le contact au maximum
+La caisse ne doit absolument pas être fragilisée pour ne pas que l'objet se libère
+Elle est en alliage de métaux renforcés et est très lourde -&gt; Pas de magie de métalLéoric est là pour maintenir le sceau avec son appui religieux
+Arek et Halfdan servent de superviseurs et ont déjà montré une certaine résistance aux énergies puissantes. Ils font cette quête parce qu'ils ont besoin d'argent
+Dara a entendu parlé de cette énergie maudite et veut vérifier s'il ne s'agit pas de la même que sa Toile Céleste
+Hazdaim est là pour monter son rang Arvens plus vite"Aller faire vos préparatifs, vous en aurez pour 5 jours de marche"Après avoir marché quelques heures, s'ils sont partis le matin, la nuit tombe d'un coup, si le soir, les torches n'éclairent plus rien
+"Vous êtes dans la prairie, le soleil vous chauffe la peau, le vent souffle calmement sur les herbes, vous voyez les oiseaux voler au loin, il fait nuit, le chariot n'avance plus, les chevaux sont morts, vous n'entendez plus de bruit"
+Combat contre des humains recousus comme des poupées avec des aiguilles plantée dans le corps
+Arek se fait sauter dessus par une poupée, et les aiguilles le transpercent
+Explication du combat
+Avant le combat
+Attaque surprise -&gt; Perception pour les joueurs avec Intuition
+Ordre des joueurs -&gt; D'abord ceux qui ont réussi leur intuition, puis jet de dés pour les autres -&gt; Du plus petit au plus grand
+Tout le monde décrit les actions en même temps, le MJ décrit la scène par vague
+Premier tour
+Adrénaline Speech de motivation
+Tous les tours
+Concentration Action (attaque, magie, déplacement poussé, fuite, ..)Ce n'est qu'une illusion, ils reviennent à eux, plusieurs heures sont passées et ils ont quand même pris des coups et les chevaux sont mortsExplication de faire l'inventaire
+Se soigner, manger, s'organiserIls doivent tirer le chariot eux-mêmes pour continuer
+A force d'être proche du chariot, ils se sentent mal et Léoric doit gérer sa magie pour les soigner eux et sceller la caisse
+Avances rapides entre les différents "Faire l'inventaire" pour gérer la nourriture
+Nourrir Léoric d'abord pour qu'il ait assez d'énergie pour purger tout le monde
+Nourrir tout le monde pour qu'ils puissent tirer le chariot jusqu'au bout
+Nourrir Arek pour qu'il tire le chariot seul
+Malgré les soins de Léoric, Arek se sent de plus en plus mal
+Après un certain temps, Arek est contrôlé comme une poupée et essaie de détruire la boîte
+Les autres doivent l'en empêcher, Arek peut faire des jets de force pour retenir ses attaquesA la fin du combat, Arek parvient a fissurer la caisse, laissant sortir un masque
+Il s'agit d'un masque de démon, dont les cornes de bélier ont déjà poussées
+Des toiles célestes ont été arrochées autour de ces cornes et devant sa boucheLe masque fait apparaitre des aiguilles et les cloues au sol
+"Vous n'êtes que des poupées pour mon royaume"
+Ils perdent connaissances sous l'afflux de magie
+Diego 1
+Loïc 1
+Michel 1
+Thomas 1
+William 0
+]]></description><link>jeu/sessions-du-masque/arc-1/arc-1-00-24.01.25.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 1/Arc 1 - 00 - 24.01.25.md</guid><pubDate>Fri, 27 Mar 2026 10:29:21 GMT</pubDate></item><item><title><![CDATA[Arc 1]]></title><description><![CDATA[Lieu actuel : <a data-href="Kothula" href="géographie/kothula/kothula.html" class="internal-link" target="_self" rel="noopener nofollow">Kothula</a>Objectif : Se renseigner sur le masque et se préparer à le contrer<br>Pnjs notables : Archimage, Sire Malkar, <a data-href="Perseus" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Perseus</a>, <a data-href="Iskarion" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Iskarion</a>, <a data-tooltip-position="top" aria-label="Dieu &gt; Dormant" data-href="Dieu#Dormant" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dieu Dormant</a>Boss final : Chevalier de Ronces<br><a data-href="Arc 1 - 00 - 24.01.25" href="jeu/sessions-du-masque/arc-1/arc-1-00-24.01.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 1 - 00 - 24.01.25</a><br><a data-href="Arc 1 - 01 - 07.02.25" href="jeu/sessions-du-masque/arc-1/arc-1-01-07.02.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 1 - 01 - 07.02.25</a><br><a data-href="Arc 1 - 02 - 21.02.25" href="jeu/sessions-du-masque/arc-1/arc-1-02-21.02.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 1 - 02 - 21.02.25</a><br><a data-href="Arc 1 - 03 - 14.03.25" href="jeu/sessions-du-masque/arc-1/arc-1-03-14.03.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 1 - 03 - 14.03.25</a><br><a data-href="Arc 1 - 04 - 28.03.25" href="jeu/sessions-du-masque/arc-1/arc-1-04-28.03.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 1 - 04 - 28.03.25</a><br><a data-href="Arc 1 - 04b - 11.04.35" href="jeu/sessions-du-masque/arc-1/arc-1-04b-11.04.35.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 1 - 04b - 11.04.35</a>]]></description><link>jeu/sessions-du-masque/arc-1/arc-1.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 1/Arc 1.md</guid><pubDate>Fri, 27 Mar 2026 10:29:17 GMT</pubDate></item><item><title><![CDATA[Arc 2]]></title><description><![CDATA[Lieu actuel : <a data-href="Ovliin" href="géographie/ovliin/ovliin.html" class="internal-link" target="_self" rel="noopener nofollow">Ovliin</a>Objectif : Trouver Orvain Thessarion et ce qu'il a fusionné au masque<br>Pnjs notables : <a data-href="Einar" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Einar</a>, <a data-href="Bryumnes" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Bryumnes</a>, Orvain Thessarion<br>Boss final : <a data-href="Gammoth" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Gammoth</a><br><a data-href="Arc 2 - 05 - 27.04.25" href="jeu/sessions-du-masque/arc-2/arc-2-05-27.04.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2 - 05 - 27.04.25</a><br><a data-href="Arc 2 - 06 - 18.05.25" href="jeu/sessions-du-masque/arc-2/arc-2-06-18.05.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2 - 06 - 18.05.25</a><br><a data-href="Arc 2 - 07 - 21.05.25" href="jeu/sessions-du-masque/arc-2/arc-2-07-21.05.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2 - 07 - 21.05.25</a><br><a data-href="Arc 2 - 08 - 30.05.25" href="jeu/sessions-du-masque/arc-2/arc-2-08-30.05.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2 - 08 - 30.05.25</a><br><a data-href="Arc 2 - 09 - 13.06.25" href="jeu/sessions-du-masque/arc-2/arc-2-09-13.06.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2 - 09 - 13.06.25</a><br><a data-href="Arc 2 - 09b - 27.06.25" href="jeu/sessions-du-masque/arc-2/arc-2-09b-27.06.25.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2 - 09b - 27.06.25</a><br><a data-href="Arc 2.5 - 10 - 06.07.25 Diego" href="jeu/sessions-du-masque/arc-2/oav/arc-2.5-10-06.07.25-diego.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2.5 - 10 - 06.07.25 Diego</a><br><a data-href="Arc 2.5 - 10 - 05.08.25 Loic" href="jeu/sessions-du-masque/arc-2/oav/arc-2.5-10-05.08.25-loic.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2.5 - 10 - 05.08.25 Loic</a><br><a data-href="Arc 2.5 - 10 - 11.07.25 + 08.08.25 Michel" href="jeu/sessions-du-masque/arc-2/oav/arc-2.5-10-11.07.25-+-08.08.25-michel.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2.5 - 10 - 11.07.25 + 08.08.25 Michel</a><br><a data-href="Arc 2.5 - 10 - 07.07.25 Thomas" href="jeu/sessions-du-masque/arc-2/oav/arc-2.5-10-07.07.25-thomas.html" class="internal-link" target="_self" rel="noopener nofollow">Arc 2.5 - 10 - 07.07.25 Thomas</a>]]></description><link>jeu/sessions-du-masque/arc-2/arc-2.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 2/Arc 2.md</guid><pubDate>Fri, 27 Mar 2026 10:29:16 GMT</pubDate></item><item><title><![CDATA[Arc 4 - 22b - 06.03.26 1]]></title><description><![CDATA[
+Résumé
+Lieu actuel : Nirina, ForêtObjectif :Pnjs notables :En chassant un enfant, ils se perdent dans la brume et se font traquer par un Soul Catcher (voir sur discord)Mais en fait ce n'est pas eux qui se faisaient traquer, c'était le Soul Catcher qui se faisait traquer par le MagalaLe magala les attaque et ils doivent choisir qui réagira à son attaque (ils ne peuvent pas tous agir)
+Diego
+Loïc
+Lucas
+Michel
+Nolan
+Thomas
+William
+]]></description><link>jeu/sessions-du-masque/arc-4/arc-4-22b-06.03.26-1.html</link><guid isPermaLink="false">Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26 1.md</guid><pubDate>Fri, 27 Mar 2026 10:29:15 GMT</pubDate></item><item><title><![CDATA[index]]></title><description><![CDATA[test]]></description><link>index.html</link><guid isPermaLink="false">index.md</guid><pubDate>Fri, 27 Mar 2026 10:29:00 GMT</pubDate></item><item><title><![CDATA[Lumière]]></title><description><![CDATA[
+Les sorts présents ici ne servent que d'exemple et n'empêchent pas la création de nouveaux sorts (avec l'accord du MJ).
+]]></description><link>jeu/règles/combat/magies/lumière.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Lumière.md</guid><pubDate>Thu, 19 Mar 2026 09:28:54 GMT</pubDate></item><item><title><![CDATA[Magie]]></title><description><![CDATA[
+La magie brut, sans être imprégnée des différents éléments.
+]]></description><link>jeu/règles/combat/magies/magie.html</link><guid isPermaLink="false">Jeu/Règles/Combat/Magies/Magie.md</guid><pubDate>Thu, 19 Mar 2026 08:55:34 GMT</pubDate></item><item><title><![CDATA[Bourg]]></title><description><![CDATA[
 Un bourg est un centre régional animé.
 Il accueille des artisans, des marchands, des temples et les autorités locales.
 Protégé par des remparts ou un fossé, il comporte souvent des quartiers spécialisés (marchand, artisanal, noble, religieux, populaire).
