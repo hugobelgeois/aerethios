@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "1a12ae7b01b3b139",
+        "id": "cedb4a2ba3cff778",
         "type": "tabs",
         "children": [
           {
-            "id": "d8f52a665185f245",
+            "id": "d28ab49c7ad11f9a",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "jeu/sessions-du-masque/00.-template.html",
-                "bFile": "jeu/sessions-du-masque/00.-template.html",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 00.-template.html  (Working Tree)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nouvel onglet"
             }
           }
         ]
@@ -143,32 +139,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d8f52a665185f245",
+  "active": "fb1b9455bbf01007",
   "lastOpenFiles": [
+    "tmp/site-lib/styles/theme.css",
+    "tmp/site-lib/styles/obsidian.css",
+    "tmp/site-lib/scripts/graph-wasm.wasm",
+    "tmp/site-lib/styles/main-styles.css",
+    "tmp/site-lib/styles/global-variable-styles.css",
+    "tmp/site-lib/scripts/webpage.js",
+    "tmp/site-lib/scripts/graph-wasm.js",
+    "tmp/site-lib/scripts/graph-render-worker.js",
+    "tmp/site-lib/media/favicon.png",
+    "tmp/site-lib/media/6155340132a851f6089e.svg",
+    "tmp/site-lib/media/2308ab1944a6bfa5c5b8.svg",
+    "tmp/site-lib/html/file-tree-content.html",
+    "tmp/site-lib/fonts/mathjax_zero.woff",
+    "tmp/site-lib/fonts/mathjax_vector-regular.woff",
+    "tmp/images/zveindel.png",
+    "tmp/images/weapon-range.png",
+    "tmp/images/weapon-hast.png",
+    "tmp/images/nain-mech.png",
+    "tmp/images/naga-water.png",
+    "tmp/images/naga-warrior.png",
+    "tmp/images/naga-sand.png",
+    "tmp/README.md",
     "conflict-files-obsidian-git.md",
-    "jeu/sessions-du-masque/arc-1/arc-1.html",
-    "jeu/sessions-du-masque/arc-1/arc-1-04b-11.04.25.html",
-    "jeu/sessions-du-masque/arc-1/arc-1-04-28.03.25.html",
-    "jeu/sessions-du-masque/arc-1/arc-1-03-14.03.25.html",
-    "jeu/sessions-du-masque/arc-1/arc-1-02-21.02.25.html",
-    "jeu/sessions-du-masque/arc-1/arc-1-01-07.02.25.html",
-    "jeu/sessions-du-masque/arc-1/arc-1-00-24.01.25.html",
-    "jeu/sessions-du-masque/arc-1",
-    "site-lib/search-index.json",
-    "site-lib/metadata.json",
-    "images/zveindel.png",
-    "images/nain-mech.png",
-    "images/weapon-range.png",
-    "images/weapon-hast.png",
-    "images/naga-water.png",
-    "images/naga-warrior.png",
-    "images/naga-sand.png",
-    "images/naga-adult.png",
-    "images/hazdaim.png",
-    "images/grande-mère.png",
     "README.md",
     "tmp/index.md",
-    "tmp/README.md",
     "tmp/Notes/Templis.md",
     "tmp/Notes/Stats joueurs.md",
     "tmp/Notes/Economie.md",
@@ -189,7 +186,6 @@
     "tmp/Jeu/Règles/Combat/Magies/Ténèbres.md",
     "tmp/Jeu/Règles/Combat/Magies/Magie.md",
     "tmp/Jeu/Règles/Compétences/Compétences d'Equipements/Armures Tmp.md",
-    "tmp/Jeu/Règles/Compétences/Compétences d'Equipements/Armes Tmp.md",
-    "tmp/Jeu/Règles/Combat/Magies/Roche.md"
+    "tmp/Jeu/Règles/Compétences/Compétences d'Equipements/Armes Tmp.md"
   ]
 }
