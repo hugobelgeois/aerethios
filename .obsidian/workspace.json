@@ -11,10 +11,14 @@
             "id": "d28ab49c7ad11f9a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Nouvel onglet"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "site-lib/search-index.json",
+                "bFile": "site-lib/search-index.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: search-index.json  (Working Tree)"
             }
           }
         ]
@@ -139,7 +143,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fb1b9455bbf01007",
+  "active": "d28ab49c7ad11f9a",
   "lastOpenFiles": [
     "tmp/site-lib/styles/theme.css",
     "tmp/site-lib/styles/obsidian.css",
