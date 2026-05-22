@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "site-lib/search-index.json",
-                "bFile": "site-lib/search-index.json",
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: search-index.json  (Working Tree)"
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -143,8 +143,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d28ab49c7ad11f9a",
+  "active": "4d629c1ff82eb147",
   "lastOpenFiles": [
+    "site-lib/search-index.json",
+    "site-lib/metadata.json",
     "tmp/site-lib/styles/theme.css",
     "tmp/site-lib/styles/obsidian.css",
     "tmp/site-lib/scripts/graph-wasm.wasm",
@@ -157,8 +159,6 @@
     "tmp/site-lib/media/6155340132a851f6089e.svg",
     "tmp/site-lib/media/2308ab1944a6bfa5c5b8.svg",
     "tmp/site-lib/html/file-tree-content.html",
-    "tmp/site-lib/fonts/mathjax_zero.woff",
-    "tmp/site-lib/fonts/mathjax_vector-regular.woff",
     "tmp/images/zveindel.png",
     "tmp/images/weapon-range.png",
     "tmp/images/weapon-hast.png",
