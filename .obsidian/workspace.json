@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bc6ef3443eb6eb1e",
+        "id": "cedb4a2ba3cff778",
         "type": "tabs",
         "children": [
           {
-            "id": "77ddb4f4d2f773ac",
+            "id": "d28ab49c7ad11f9a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorateur de fichiers"
             }
           },
           {
@@ -86,7 +90,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Mots-clés"
             }
           },
           {
@@ -105,7 +109,7 @@
             }
           },
           {
-            "id": "5e8a8f4cea0b4061",
+            "id": "4d629c1ff82eb147",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -119,32 +123,33 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 279.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "command-palette:Open command palette": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "command-palette:Ouvrir la palette de commandes": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fb1b9455bbf01007",
+  "active": "4d629c1ff82eb147",
   "lastOpenFiles": [
+    "jeu/scènes/orphelinat-d'hazdaim.md",
+    "jeu/scènes/campement-de-nix-et-salomé.md",
+    "jeu/scènes",
+    "jeu/campagne-2/scenes/session-0.html",
+    "jeu/campagne-2/scenes/00.-template.html",
+    "site-lib/search-index.json",
+    "site-lib/metadata.json",
     "tmp/site-lib/styles/theme.css",
     "tmp/site-lib/styles/obsidian.css",
+    "tmp/site-lib/scripts/graph-wasm.wasm",
     "tmp/site-lib/styles/main-styles.css",
     "tmp/site-lib/styles/global-variable-styles.css",
-    "tmp/site-lib/scripts/webpage.js",
-    "tmp/site-lib/scripts/graph-wasm.wasm",
-    "tmp/site-lib/scripts/graph-wasm.js",
-    "tmp/site-lib/html/file-tree-content.html",
-    "tmp/site-lib/scripts/graph-render-worker.js",
     "tmp/site-lib/media/favicon.png",
     "tmp/site-lib/media/6155340132a851f6089e.svg",
     "tmp/site-lib/media/2308ab1944a6bfa5c5b8.svg",
-    "tmp/site-lib/fonts/mathjax_zero.woff",
-    "tmp/site-lib/fonts/mathjax_vector-regular.woff",
     "tmp/images/zveindel.png",
     "tmp/images/weapon-range.png",
     "tmp/images/weapon-hast.png",
@@ -153,8 +158,6 @@
     "tmp/images/naga-warrior.png",
     "tmp/images/naga-sand.png",
     "tmp/README.md",
-    "jeu/scènes/orphelinat-d'hazdaim.md",
-    "jeu/scènes/campement-de-nix-et-salomé.md",
     "conflict-files-obsidian-git.md",
     "README.md",
     "tmp/index.md",
@@ -176,6 +179,7 @@
     "tmp/Jeu/Règles/Compétences/Compétences d'Attributs/Dextérité.md",
     "tmp/Jeu/Règles/Compétences/Compétences d'Attributs/Charisme.md",
     "tmp/Jeu/Règles/Combat/Magies/Ténèbres.md",
-    "tmp/Jeu/Règles/Combat/Magies/Magie.md"
+    "tmp/Jeu/Règles/Combat/Magies/Magie.md",
+    "tmp/Jeu/Règles/Compétences/Compétences d'Equipements/Armures Tmp.md"
   ]
 }
