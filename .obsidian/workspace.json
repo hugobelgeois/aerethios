@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cedb4a2ba3cff778",
+        "id": "bc6ef3443eb6eb1e",
         "type": "tabs",
         "children": [
           {
-            "id": "d28ab49c7ad11f9a",
+            "id": "77ddb4f4d2f773ac",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/plugins/obsidian-git/data.json",
-                "bFile": ".obsidian/plugins/obsidian-git/data.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: data.json  (Working Tree)"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -44,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorateur de fichiers"
+              "title": "Files"
             }
           },
           {
@@ -68,7 +64,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 300
   },
   "right": {
     "id": "cfb57a5342fbad0a",
@@ -90,7 +86,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Mots-clés"
+              "title": "Tags"
             }
           },
           {
@@ -109,7 +105,7 @@
             }
           },
           {
-            "id": "4d629c1ff82eb147",
+            "id": "5e8a8f4cea0b4061",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -123,31 +119,32 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "command-palette:Ouvrir la palette de commandes": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4d629c1ff82eb147",
+  "active": "5e8a8f4cea0b4061",
   "lastOpenFiles": [
-    "site-lib/search-index.json",
-    "site-lib/metadata.json",
+    "jeu/sessions-du-masque/scenes/img/orphelinat-d'hazdaim.jpg",
+    "jeu/sessions-du-masque/scenes/img/campement-de-nix-et-salomé.jpg",
+    "jeu/sessions-du-masque/scenes/img",
     "tmp/web/static/orphelinat-d'hazdaim.jpg",
     "tmp/web/static/campement-de-nix-et-salomé.jpg",
     "tmp/web/static",
     "tmp/web",
-    "tmp/site-lib/styles/main-styles.css",
-    "tmp/site-lib/styles/theme.css",
-    "tmp/site-lib/styles/obsidian.css",
-    "tmp/site-lib/styles/global-variable-styles.css",
-    "tmp/site-lib/scripts/graph-wasm.wasm",
     "tmp/site-lib/scripts/webpage.js",
     "tmp/site-lib/scripts/graph-wasm.js",
+    "tmp/site-lib/scripts/graph-wasm.wasm",
+    "tmp/site-lib/styles/theme.css",
+    "tmp/site-lib/scripts/graph-render-worker.js",
+    "tmp/site-lib/styles/obsidian.css",
+    "tmp/site-lib/styles/main-styles.css",
     "tmp/site-lib/media/favicon.png",
     "tmp/site-lib/media/6155340132a851f6089e.svg",
     "tmp/site-lib/media/2308ab1944a6bfa5c5b8.svg",
@@ -157,14 +154,13 @@
     "tmp/jeu/sessions-du-masque/scenes/01.-orphelinat-d'hazdaim.md",
     "tmp/images/zveindel.png",
     "tmp/images/weapon-range.png",
-    "tmp/images/weapon-hast.png",
-    "README.md",
-    "conflict-files-obsidian-git.md",
+    "tmp/README.md",
     "jeu/sessions-du-masque/scenes/02.-campement-de-nix-et-salomé.md",
     "jeu/sessions-du-masque/scenes/01.-orphelinat-d'hazdaim.md",
     "jeu/scènes/orphelinat-d'hazdaim.md",
     "jeu/scènes/campement-de-nix-et-salomé.md",
-    "tmp/README.md",
+    "conflict-files-obsidian-git.md",
+    "README.md",
     "tmp/index.md",
     "tmp/Notes/Templis.md",
     "tmp/Notes/Stats joueurs.md",
