@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorateur de fichiers"
+              "title": "Files"
             }
           },
           {
@@ -127,17 +127,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "command-palette:Ouvrir la palette de commandes": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false
     }
   },
   "active": "4d629c1ff82eb147",
   "lastOpenFiles": [
+    "site-lib/search-index.json",
     "jeu/campagne-2/wip/armes-de-mêlées.html",
     "jeu/campagne-2/wip",
-    "site-lib/search-index.json",
     "site-lib/metadata.json",
     "tmp/web/static/orphelinat-d'hazdaim.jpg",
     "tmp/web/static/campement-de-nix-et-salomé.jpg",
