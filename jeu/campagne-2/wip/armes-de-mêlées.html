@@ -15,6 +15,7 @@
 <tr>
 <th dir="ltr">Catégorie</th>
 <th dir="ltr">Dé</th>
+<th align="center" dir="ltr">Dégâts</th>
 <th align="right" dir="ltr">Prix main d'œuvre</th>
 <th align="center" dir="ltr">Propriétés</th>
 <th align="right" dir="ltr">Matériaux</th>
@@ -24,6 +25,7 @@
 <tr>
 <td dir="ltr">Courte</td>
 <td dir="ltr">2d10</td>
+<td align="center" dir="auto">4</td>
 <td align="right" dir="ltr">5 pa</td>
 <td align="center" dir="ltr">Ambidextre (peut jouer une deuxième fois avec l'arme dans son autre main)</td>
 <td align="right" dir="auto">1</td>
@@ -31,6 +33,7 @@
 <tr>
 <td dir="ltr">1 Main</td>
 <td dir="ltr">2d8</td>
+<td align="center" dir="auto">8</td>
 <td align="right" dir="ltr">10 pa</td>
 <td align="center" dir="auto">---</td>
 <td align="right" dir="auto">2</td>
@@ -38,6 +41,7 @@
 <tr>
 <td dir="ltr">2 Mains</td>
 <td dir="ltr">2d6</td>
+<td align="center" dir="auto">12</td>
 <td align="right" dir="ltr">20 pa</td>
 <td align="center" dir="ltr">Destructrice (Double la dégradation de la DR)</td>
 <td align="right" dir="auto">3</td>
@@ -126,7 +130,7 @@ La propriété VS n'est d'application que sur les armes Tranchantes et Perforant
 <tr>
 <th dir="ltr">Matériau</th>
 <th align="right" dir="ltr">Prix/ unité</th>
-<th align="center" dir="ltr">Propriétés</th>
+<th align="center" dir="ltr">Dégâts</th>
 <th align="right" dir="ltr">Poids/ unité</th>
 </tr>
 </thead>
@@ -134,7 +138,7 @@ La propriété VS n'est d'application que sur les armes Tranchantes et Perforant
 <tr>
 <td dir="ltr">Os</td>
 <td align="right" dir="ltr">5 ^ rareté pa</td>
-<td align="center" dir="ltr">Enchantements élémentaires x2</td>
+<td align="center" dir="ltr">Effets magiques d'infusions +rareté<br>(ajoute la rareté au dé de magie)</td>
 <td align="right" dir="ltr">0.75 kg</td>
 </tr>
 <tr>
@@ -230,7 +234,8 @@ La propriété VS n'est d'application que sur les armes Tranchantes et Perforant
 </tbody>
 </table></div><div class="el-h2"><h2 data-heading="Infusions" dir="auto" class="heading" id="Infusions_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Infusions</h2></div><div class="el-blockquote"><blockquote dir="auto">
 <p>Détermine quel modificateur sera utilisé.<br>
-Certaines infusions empêchent d'appliquer une huile sur l'arme.</p>
+Certaines infusions empêchent d'appliquer une huile sur l'arme.<br>
+Les effets permettent d'appliquer la magie concernée sur son arme (lancer son dé de magie pour déterminer les dégâts ajoutés).</p>
 </blockquote></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
 <thead>
 <tr>
@@ -246,6 +251,13 @@ Certaines infusions empêchent d'appliquer une huile sur l'arme.</p>
 <td dir="ltr">Gemme Brute</td>
 <td dir="auto">+4</td>
 <td dir="auto">---</td>
+<td dir="auto">---</td>
+<td dir="ltr">Oui</td>
+</tr>
+<tr>
+<td dir="ltr">Gemme Puissante</td>
+<td dir="auto">+8</td>
+<td dir="ltr">---<br>Retire 1 dé à l'arme</td>
 <td dir="auto">---</td>
 <td dir="ltr">Oui</td>
 </tr>
@@ -278,24 +290,24 @@ Certaines infusions empêchent d'appliquer une huile sur l'arme.</p>
 <td dir="ltr">Oui</td>
 </tr>
 <tr>
-<td dir="ltr">Gemme de Feu</td>
+<td dir="ltr">Gemme de "Magie" I<br>(Feu, Foudre, Glace, ...)</td>
 <td dir="auto">-4</td>
 <td dir="auto">---</td>
-<td dir="ltr">Feu</td>
+<td dir="ltr">"Magie"<br>Max 6</td>
 <td dir="auto">-</td>
 </tr>
 <tr>
-<td dir="ltr">Gemme de Glace</td>
-<td dir="auto">-4</td>
+<td dir="ltr">Gemme de "Magie" II<br>(Feu, Foudre, Glace, ...)</td>
+<td dir="auto">-8</td>
 <td dir="auto">---</td>
-<td dir="ltr">Glace</td>
+<td dir="ltr">"Magie"<br>Max 12</td>
 <td dir="auto">-</td>
 </tr>
 <tr>
-<td dir="ltr">Gemme de Foudre</td>
-<td dir="auto">-4</td>
+<td dir="ltr">Gemme de "Magie" III<br>(Feu, Foudre, Glace, ...)</td>
+<td dir="auto">-12</td>
 <td dir="auto">---</td>
-<td dir="ltr">Foudre</td>
+<td dir="ltr">"Magie"<br>Max 18</td>
 <td dir="auto">-</td>
 </tr>
 </tbody>
@@ -322,36 +334,56 @@ Elle ne peut être resplendissante qu'auprès d'un forgeron, dans une forge, s'i
 </tr>
 </tbody>
 </table></div><div class="el-h2"><h2 data-heading="Effets Supplémentaires" dir="auto" class="heading" id="Effets_Supplémentaires_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Effets Supplémentaires</h2></div><div class="el-h3"><h3 data-heading="Styles" dir="auto" class="heading" id="Styles_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Styles</h3></div><div class="el-blockquote"><blockquote dir="auto">
-<p>Modifie<br>
-En début de combat, le joueur peut lancer son dé de Maîtrise pour voir s'il applique correctement son style.</p>
+<p>En début de combat, le joueur peut lancer 1d10 + Maîtrise pour appliquer un style.<br>
+Si le jet réussit, l'effet est positif, sinon il est négatif.<br>
+Les styles disponibles dépendent de l'arme utilisée.</p>
 </blockquote></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
 <thead>
 <tr>
+<th dir="ltr"><strong>Jet &gt;=</strong></th>
+<th align="center" dir="auto">6</th>
+<th align="center" dir="auto">9</th>
+<th align="center" dir="auto">13</th>
+<th align="center" dir="auto">16</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Valeur de l'Effet</strong></td>
+<td align="center" dir="auto">1</td>
+<td align="center" dir="auto">2</td>
+<td align="center" dir="auto">3</td>
+<td align="center" dir="auto">4</td>
+</tr>
+</tbody>
+</table></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
 <th dir="ltr">Style</th>
-<th dir="ltr">Jet réussi</th>
-<th dir="ltr">Jet raté</th>
+<th dir="ltr">Effet</th>
+<th dir="ltr">Arme</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td dir="ltr">Défense</td>
-<td dir="ltr">+1 DR</td>
-<td dir="ltr">-1 DR</td>
+<td dir="ltr">DR</td>
+<td dir="auto"></td>
 </tr>
 <tr>
 <td dir="ltr">Offense</td>
-<td dir="ltr">+1 Dégâts</td>
-<td dir="ltr">-1 Dégâts</td>
+<td dir="ltr">Dégâts</td>
+<td dir="auto"></td>
 </tr>
 <tr>
 <td dir="ltr">Agile</td>
-<td dir="ltr">+1 AC</td>
-<td dir="ltr">-1 AC</td>
+<td dir="ltr">AC</td>
+<td dir="auto"></td>
 </tr>
 <tr>
 <td dir="ltr">Briseur</td>
-<td dir="ltr">+1 Dégâts DR</td>
-<td dir="ltr">-1 Dégâts DR</td>
+<td dir="ltr">Dégâts DR</td>
+<td dir="auto"></td>
 </tr>
 </tbody>
 </table></div><div class="el-h3"><h3 data-heading="Huiles &amp; Résines" dir="auto" class="heading" id="Huiles_&amp;_Résines_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Huiles &amp; Résines</h3></div><div class="el-blockquote"><blockquote dir="auto">
@@ -402,7 +434,7 @@ Elles sont fabriquées par un Alchimiste(Potionniste).</p>
 <tbody>
 <tr>
 <td dir="ltr">Critique</td>
-<td dir="ltr">Permet de faire des coups critiques<br>Les dégâts passent outre la DR</td>
+<td dir="ltr">Permet de faire des coups critiques (les dégâts passent outre la DR)</td>
 </tr>
 <tr>
 <td dir="ltr">Vampirique</td>
