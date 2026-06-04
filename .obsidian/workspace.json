@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bc6ef3443eb6eb1e",
+        "id": "cedb4a2ba3cff778",
         "type": "tabs",
         "children": [
           {
-            "id": "77ddb4f4d2f773ac",
+            "id": "d28ab49c7ad11f9a",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "jeu/règles/apprentissages/apprentissages.html",
-                "bFile": "jeu/règles/apprentissages/apprentissages.html",
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: apprentissages.html  (Working Tree)"
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -68,7 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 257.5
   },
   "right": {
     "id": "cfb57a5342fbad0a",
@@ -90,7 +90,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Mots-clés"
             }
           },
           {
@@ -109,7 +109,7 @@
             }
           },
           {
-            "id": "5e8a8f4cea0b4061",
+            "id": "4d629c1ff82eb147",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -123,7 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 279.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -133,38 +133,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77ddb4f4d2f773ac",
+  "active": "d28ab49c7ad11f9a",
   "lastOpenFiles": [
-    "site-lib/fonts/mathjax_vector-bold.woff",
+    "jeu/campagne-2/combat-wip/armures.html",
+    "jeu/campagne-2/combat-wip/armes-de-mêlées.html",
+    "jeu/campagne-2/combat-wip/armes-à-distances.html",
+    "jeu/campagne-2/combat-wip/magie.html",
+    "jeu/campagne-2/combat-wip",
+    "site-lib/fonts/mathjax_zero.woff",
     "site-lib/fonts/mathjax_vector-regular.woff",
+    "site-lib/fonts/mathjax_vector-bold.woff",
     "site-lib/fonts/mathjax_typewriter-regular.woff",
-    "site-lib/fonts/mathjax_script-regular.woff",
-    "site-lib/fonts/mathjax_sansserif-italic.woff",
-    "site-lib/fonts/mathjax_sansserif-bold.woff",
-    "site-lib/fonts/mathjax_sansserif-regular.woff",
-    "site-lib/fonts/mathjax_fraktur-bold.woff",
-    "site-lib/fonts/mathjax_fraktur-regular.woff",
-    "site-lib/fonts/mathjax_calligraphic-bold.woff",
-    "site-lib/fonts/mathjax_calligraphic-regular.woff",
-    "web/static/orphelinat-d'hazdaim.jpg",
-    "web/static/campement-de-nix-et-salomé.jpg",
-    "jeu/sessions-du-masque/scenes/img/orphelinat-d'hazdaim.jpg",
-    "jeu/sessions-du-masque/scenes/img/campement-de-nix-et-salomé.jpg",
+    "site-lib/fonts/mathjax_size4-regular.woff",
+    "site-lib/fonts/mathjax_size3-regular.woff",
     "tmp/web/static/orphelinat-d'hazdaim.jpg",
     "tmp/web/static/campement-de-nix-et-salomé.jpg",
     "tmp/site-lib/media/favicon.png",
     "tmp/site-lib/media/6155340132a851f6089e.svg",
     "tmp/site-lib/media/2308ab1944a6bfa5c5b8.svg",
     "tmp/jeu/sessions-du-masque/scenes/img/orphelinat-d'hazdaim.jpg",
+    "tmp/jeu/sessions-du-masque/scenes/img/campement-de-nix-et-salomé.jpg",
     "tmp/jeu/sessions-du-masque/scenes/02.-campement-de-nix-et-salomé.md",
     "tmp/jeu/sessions-du-masque/scenes/01.-orphelinat-d'hazdaim.md",
-    "tmp/README.md",
+    "tmp/images/zveindel.png",
+    "tmp/images/weapon-range.png",
+    "tmp/images/weapon-hast.png",
+    "README.md",
+    "conflict-files-obsidian-git.md",
     "jeu/sessions-du-masque/scenes/02.-campement-de-nix-et-salomé.md",
     "jeu/sessions-du-masque/scenes/01.-orphelinat-d'hazdaim.md",
     "jeu/scènes/orphelinat-d'hazdaim.md",
     "jeu/scènes/campement-de-nix-et-salomé.md",
-    "conflict-files-obsidian-git.md",
-    "README.md",
+    "tmp/README.md",
     "tmp/index.md",
     "tmp/Notes/Templis.md",
     "tmp/Notes/Stats joueurs.md",
