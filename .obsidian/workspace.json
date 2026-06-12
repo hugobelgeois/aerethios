@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cedb4a2ba3cff778",
+        "id": "bc6ef3443eb6eb1e",
         "type": "tabs",
         "children": [
           {
-            "id": "d28ab49c7ad11f9a",
+            "id": "77ddb4f4d2f773ac",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
+                "aFile": "jeu/règles/apprentissages/apprentissages.html",
+                "bFile": "jeu/règles/apprentissages/apprentissages.html",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "title": "Diff: apprentissages.html  (Working Tree)"
             }
           }
         ]
@@ -68,7 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257.5
+    "width": 300
   },
   "right": {
     "id": "cfb57a5342fbad0a",
@@ -90,7 +90,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Mots-clés"
+              "title": "Tags"
             }
           },
           {
@@ -109,7 +109,7 @@
             }
           },
           {
-            "id": "4d629c1ff82eb147",
+            "id": "5e8a8f4cea0b4061",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -123,7 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -133,38 +133,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d28ab49c7ad11f9a",
+  "active": "77ddb4f4d2f773ac",
   "lastOpenFiles": [
     "jeu/campagne-2/combat-wip/armures.html",
-    "jeu/campagne-2/combat-wip/armes-de-mêlées.html",
     "jeu/campagne-2/combat-wip/armes-à-distances.html",
     "jeu/campagne-2/combat-wip/magie.html",
+    "jeu/campagne-2/combat-wip/armes-de-mêlées.html",
     "jeu/campagne-2/combat-wip",
-    "site-lib/fonts/mathjax_zero.woff",
-    "site-lib/fonts/mathjax_vector-regular.woff",
     "site-lib/fonts/mathjax_vector-bold.woff",
+    "site-lib/fonts/mathjax_vector-regular.woff",
     "site-lib/fonts/mathjax_typewriter-regular.woff",
-    "site-lib/fonts/mathjax_size4-regular.woff",
-    "site-lib/fonts/mathjax_size3-regular.woff",
+    "site-lib/fonts/mathjax_script-regular.woff",
+    "site-lib/fonts/mathjax_sansserif-italic.woff",
+    "site-lib/fonts/mathjax_sansserif-bold.woff",
+    "web/static/orphelinat-d'hazdaim.jpg",
+    "web/static/campement-de-nix-et-salomé.jpg",
+    "jeu/sessions-du-masque/scenes/img/orphelinat-d'hazdaim.jpg",
+    "jeu/sessions-du-masque/scenes/img/campement-de-nix-et-salomé.jpg",
     "tmp/web/static/orphelinat-d'hazdaim.jpg",
     "tmp/web/static/campement-de-nix-et-salomé.jpg",
     "tmp/site-lib/media/favicon.png",
     "tmp/site-lib/media/6155340132a851f6089e.svg",
     "tmp/site-lib/media/2308ab1944a6bfa5c5b8.svg",
     "tmp/jeu/sessions-du-masque/scenes/img/orphelinat-d'hazdaim.jpg",
-    "tmp/jeu/sessions-du-masque/scenes/img/campement-de-nix-et-salomé.jpg",
     "tmp/jeu/sessions-du-masque/scenes/02.-campement-de-nix-et-salomé.md",
     "tmp/jeu/sessions-du-masque/scenes/01.-orphelinat-d'hazdaim.md",
-    "tmp/images/zveindel.png",
-    "tmp/images/weapon-range.png",
-    "tmp/images/weapon-hast.png",
-    "README.md",
-    "conflict-files-obsidian-git.md",
+    "tmp/README.md",
     "jeu/sessions-du-masque/scenes/02.-campement-de-nix-et-salomé.md",
     "jeu/sessions-du-masque/scenes/01.-orphelinat-d'hazdaim.md",
     "jeu/scènes/orphelinat-d'hazdaim.md",
     "jeu/scènes/campement-de-nix-et-salomé.md",
-    "tmp/README.md",
+    "conflict-files-obsidian-git.md",
+    "README.md",
     "tmp/index.md",
     "tmp/Notes/Templis.md",
     "tmp/Notes/Stats joueurs.md",
