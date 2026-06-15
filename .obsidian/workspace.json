@@ -133,8 +133,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77ddb4f4d2f773ac",
+  "active": "5e8a8f4cea0b4061",
   "lastOpenFiles": [
+    "jeu/campagne-2/combat-wip/armures-new.html",
+    "jeu/campagne-2/combat-wip/armes-de-mêlées-new.html",
+    "jeu/campagne-2/combat-wip/armes-à-distances-new.html",
+    "jeu/campagne-2/combat-wip/magie-new.html",
     "jeu/campagne-2/combat-wip/armures.html",
     "jeu/campagne-2/combat-wip/armes-à-distances.html",
     "jeu/campagne-2/combat-wip/magie.html",
@@ -142,10 +146,6 @@
     "jeu/campagne-2/combat-wip",
     "site-lib/fonts/mathjax_vector-bold.woff",
     "site-lib/fonts/mathjax_vector-regular.woff",
-    "site-lib/fonts/mathjax_typewriter-regular.woff",
-    "site-lib/fonts/mathjax_script-regular.woff",
-    "site-lib/fonts/mathjax_sansserif-italic.woff",
-    "site-lib/fonts/mathjax_sansserif-bold.woff",
     "web/static/orphelinat-d'hazdaim.jpg",
     "web/static/campement-de-nix-et-salomé.jpg",
     "jeu/sessions-du-masque/scenes/img/orphelinat-d'hazdaim.jpg",
