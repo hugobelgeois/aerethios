@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "jeu/règles/apprentissages/apprentissages.html",
-                "bFile": "jeu/règles/apprentissages/apprentissages.html",
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: apprentissages.html  (Working Tree)"
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -133,19 +133,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5e8a8f4cea0b4061",
+  "active": "77ddb4f4d2f773ac",
   "lastOpenFiles": [
-    "site-lib/fonts/mathjax_vector-regular.woff",
-    "site-lib/fonts/mathjax_vector-bold.woff",
-    "site-lib/fonts/mathjax_sansserif-italic.woff",
-    "site-lib/fonts/mathjax_typewriter-regular.woff",
-    "site-lib/fonts/mathjax_script-regular.woff",
-    "site-lib/fonts/mathjax_sansserif-bold.woff",
-    "site-lib/fonts/mathjax_sansserif-regular.woff",
-    "site-lib/fonts/mathjax_calligraphic-bold.woff",
-    "site-lib/fonts/mathjax_fraktur-regular.woff",
-    "site-lib/fonts/mathjax_calligraphic-regular.woff",
-    "site-lib/fonts/mathjax_fraktur-bold.woff",
+    "jeu/campagne-2/joueurs/aldrich.html",
+    "jeu/campagne-2/joueurs/ronronov.html",
+    "jeu/campagne-2/joueurs/strauss.html",
+    "jeu/campagne-2/joueurs/urzok.html",
+    "jeu/campagne-2/règles-wip/armes-de-mêlées-new.html",
+    "jeu/campagne-2/règles-wip/armes-à-distances-new.html",
+    "jeu/campagne-2/règles-wip/affinités.html",
+    "jeu/campagne-2/règles-wip/magie-new.html",
+    "jeu/campagne-2/règles-wip/armures-new.html",
+    "jeu/campagne-2/règles-wip",
+    "site-lib/fonts/mathjax_zero.woff",
     "web/static/orphelinat-d'hazdaim.jpg",
     "web/static/campement-de-nix-et-salomé.jpg",
     "jeu/sessions-du-masque/scenes/img/orphelinat-d'hazdaim.jpg",
