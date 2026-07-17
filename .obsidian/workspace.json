@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
+                "aFile": "jeu/règles/apprentissages/apprentissages.html",
+                "bFile": "jeu/règles/apprentissages/apprentissages.html",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "title": "Diff: apprentissages.html  (Working Tree)"
             }
           }
         ]
@@ -133,20 +133,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77ddb4f4d2f773ac",
+  "active": "5e8a8f4cea0b4061",
   "lastOpenFiles": [
     "jeu/sessions-du-masque/scenes/img/orphelinat-d'hazdaim.jpg",
     "jeu/sessions-du-masque/scenes/img/campement-de-nix-et-salomé.jpg",
     "jeu/sessions-du-masque/scenes/img",
     "jeu/campagne-2/scenes/00b.-xx-xx-26.html",
-    "jeu/campagne-2/joueurs/aldrich.html",
-    "jeu/campagne-2/joueurs/ronronov.html",
-    "jeu/campagne-2/joueurs/strauss.html",
-    "jeu/campagne-2/joueurs/urzok.html",
+    "jeu/campagne-2/règles-wip/magie-new.html",
     "jeu/campagne-2/règles-wip/armes-de-mêlées-new.html",
+    "jeu/campagne-2/règles-wip/armures-new.html",
     "jeu/campagne-2/règles-wip/armes-à-distances-new.html",
     "jeu/campagne-2/règles-wip/affinités.html",
-    "jeu/campagne-2/règles-wip/magie-new.html",
+    "jeu/campagne-2/règles-wip",
+    "jeu/campagne-2/joueurs/urzok.html",
+    "jeu/campagne-2/joueurs/strauss.html",
     "web/static/orphelinat-d'hazdaim.jpg",
     "web/static/campement-de-nix-et-salomé.jpg",
     "tmp/web/static/orphelinat-d'hazdaim.jpg",
