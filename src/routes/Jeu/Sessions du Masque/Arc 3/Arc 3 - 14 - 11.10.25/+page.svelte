@@ -81,7 +81,7 @@
 {#snippet joueurs()}
 	<section>
 		<h2 id="joueurs">Joueurs</h2>
-	{@html renderMarkdown("\n- [x] Diego 15\n- [x] Loïc 12\n- [x] Lucas 5\n- [x] Michel 17\n- [ ] Nolan 3\n- [x] Thomas 16\n- [ ] William 7\n\n|     Précédent     |      Suivant      |\n| :---------------: | :---------------: |\n| <a href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25\" data-wiki-fragment=\"\">Arc 3 - 13b - 03.10.25</a> | <a href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3 - 15 - 14.11.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3 - 15 - 14.11.25\" data-wiki-fragment=\"\">Arc 3 - 15 - 14.11.25</a> |")}
+	{@html renderMarkdown("\n- [x] Diego 15\n- [x] Loïc 12\n- [x] Lucas 5\n- [x] Michel 17\n- [ ] Nolan 3\n- [x] Thomas 16\n- [ ] William 7\n\n|     Précédent     |      Suivant      |\n| :---------------: | :---------------: |\n| <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25\" data-wiki-fragment=\"\">Arc 3 - 13b - 03.10.25</a> | <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 3/Arc 3 - 15 - 14.11.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3 - 15 - 14.11.25\" data-wiki-fragment=\"\">Arc 3 - 15 - 14.11.25</a> |")}
 
 	</section>
 {/snippet}

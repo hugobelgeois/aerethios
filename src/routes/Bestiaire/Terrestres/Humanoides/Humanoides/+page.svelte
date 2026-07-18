@@ -62,7 +62,7 @@
 
 {#snippet humain()}
 	<section>
-		<h2 id="humain"><a href="/Bestiaire/Terrestres/Humanoides/Humain" class="wiki-link internal-link" data-wiki-href="/Bestiaire/Terrestres/Humanoides/Humain" data-wiki-fragment="">Humain</a></h2>
+		<h2 id="humain"><a href="%%BASE%%/Bestiaire/Terrestres/Humanoides/Humain" class="wiki-link internal-link" data-wiki-href="/Bestiaire/Terrestres/Humanoides/Humain" data-wiki-fragment="">Humain</a></h2>
 
 
 	</section>
@@ -70,7 +70,7 @@
 
 {#snippet nain()}
 	<section>
-		<h2 id="nain"><a href="/Bestiaire/Terrestres/Humanoides/Nain" class="wiki-link internal-link" data-wiki-href="/Bestiaire/Terrestres/Humanoides/Nain" data-wiki-fragment="">Nain</a></h2>
+		<h2 id="nain"><a href="%%BASE%%/Bestiaire/Terrestres/Humanoides/Nain" class="wiki-link internal-link" data-wiki-href="/Bestiaire/Terrestres/Humanoides/Nain" data-wiki-fragment="">Nain</a></h2>
 
 
 	</section>
@@ -78,7 +78,7 @@
 
 {#snippet elfe()}
 	<section>
-		<h2 id="elfe"><a href="/Bestiaire/Terrestres/Humanoides/Elfe" class="wiki-link internal-link" data-wiki-href="/Bestiaire/Terrestres/Humanoides/Elfe" data-wiki-fragment="">Elfe</a></h2>
+		<h2 id="elfe"><a href="%%BASE%%/Bestiaire/Terrestres/Humanoides/Elfe" class="wiki-link internal-link" data-wiki-href="/Bestiaire/Terrestres/Humanoides/Elfe" data-wiki-fragment="">Elfe</a></h2>
 
 
 	</section>
@@ -86,7 +86,7 @@
 
 {#snippet orc()}
 	<section>
-		<h2 id="orc"><a href="/Bestiaire/Terrestres/Humanoides/Orc" class="wiki-link internal-link" data-wiki-href="/Bestiaire/Terrestres/Humanoides/Orc" data-wiki-fragment="">Orc</a></h2>
+		<h2 id="orc"><a href="%%BASE%%/Bestiaire/Terrestres/Humanoides/Orc" class="wiki-link internal-link" data-wiki-href="/Bestiaire/Terrestres/Humanoides/Orc" data-wiki-fragment="">Orc</a></h2>
 
 
 	</section>
@@ -94,7 +94,7 @@
 
 {#snippet calico()}
 	<section>
-		<h2 id="calico"><a href="/Bestiaire/Terrestres/Humanoides/Calico" class="wiki-link internal-link" data-wiki-href="/Bestiaire/Terrestres/Humanoides/Calico" data-wiki-fragment="">Calico</a></h2>
+		<h2 id="calico"><a href="%%BASE%%/Bestiaire/Terrestres/Humanoides/Calico" class="wiki-link internal-link" data-wiki-href="/Bestiaire/Terrestres/Humanoides/Calico" data-wiki-fragment="">Calico</a></h2>
 
 
 	</section>

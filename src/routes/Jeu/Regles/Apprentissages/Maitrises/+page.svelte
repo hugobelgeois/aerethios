@@ -116,7 +116,7 @@
 {#snippet matriseMagique_Crystaux()}
 	<section>
 		<h3 id="matrise-magique--crystaux">Maîtrise magique & Crystaux</h3>
-	{@html renderMarkdown("\nPour augmenter son nombre de crystaux ou sa maîtrise magique, il faut généralement monter en rang chez les <span class=\"wiki-unresolved\">Arvens</span> ou les <a href=\"/Jeu/Regles/Competences/Maisons/Scienctes\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Competences/Maisons/Scienctes\" data-wiki-fragment=\"\">Scienctes</a>.")}
+	{@html renderMarkdown("\nPour augmenter son nombre de crystaux ou sa maîtrise magique, il faut généralement monter en rang chez les <span class=\"wiki-unresolved\">Arvens</span> ou les <a href=\"%%BASE%%/Jeu/Regles/Competences/Maisons/Scienctes\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Competences/Maisons/Scienctes\" data-wiki-fragment=\"\">Scienctes</a>.")}
 
 	</section>
 {/snippet}

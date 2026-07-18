@@ -81,7 +81,7 @@
 {#snippet joueurs()}
 	<section>
 		<h2 id="joueurs">Joueurs</h2>
-	{@html renderMarkdown("\n- [x] Diego 8\n- [ ] Loïc 5\n- [x] Michel 8\n- [x] Thomas 8\n- [ ] William 3\n\n|     Précédent     |      Suivant      |\n| :---------------: | :---------------: |\n| <a href=\"/Jeu/Sessions du Masque/Arc 2/Arc 2 - 05 - 27.04.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 2/Arc 2 - 05 - 27.04.25\" data-wiki-fragment=\"\">Arc 2 - 05 - 27.04.25</a> | <a href=\"/Jeu/Sessions du Masque/Arc 2/Arc 2 - 07 - 21.05.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 2/Arc 2 - 07 - 21.05.25\" data-wiki-fragment=\"\">Arc 2 - 07 - 21.05.25</a> |")}
+	{@html renderMarkdown("\n- [x] Diego 8\n- [ ] Loïc 5\n- [x] Michel 8\n- [x] Thomas 8\n- [ ] William 3\n\n|     Précédent     |      Suivant      |\n| :---------------: | :---------------: |\n| <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 2/Arc 2 - 05 - 27.04.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 2/Arc 2 - 05 - 27.04.25\" data-wiki-fragment=\"\">Arc 2 - 05 - 27.04.25</a> | <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 2/Arc 2 - 07 - 21.05.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 2/Arc 2 - 07 - 21.05.25\" data-wiki-fragment=\"\">Arc 2 - 07 - 21.05.25</a> |")}
 
 	</section>
 {/snippet}

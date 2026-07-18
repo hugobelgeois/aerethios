@@ -164,7 +164,7 @@
 {#snippet joueurs()}
 	<section>
 		<h2 id="joueurs">Joueurs</h2>
-	{@html renderMarkdown("\n- [x] Diego 19\n- [ ] Loïc 15\n- [ ] Lucas 8\n- [x] Michel 21\n- [x] Nolan 7\n- [x] Thomas 19\n- [ ] William 7\n\n|         Précédent         |         Suivant          |\n| :-----------------------: | :----------------------: |\n| <a href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25\" data-wiki-fragment=\"\">Arc 3 - 17 - 20.12.25</a> | <a href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26\" data-wiki-fragment=\"\">Arc 4 - 19 - 23.01.26</a> |")}
+	{@html renderMarkdown("\n- [x] Diego 19\n- [ ] Loïc 15\n- [ ] Lucas 8\n- [x] Michel 21\n- [x] Nolan 7\n- [x] Thomas 19\n- [ ] William 7\n\n|         Précédent         |         Suivant          |\n| :-----------------------: | :----------------------: |\n| <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25\" data-wiki-fragment=\"\">Arc 3 - 17 - 20.12.25</a> | <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26\" data-wiki-fragment=\"\">Arc 4 - 19 - 23.01.26</a> |")}
 
 	</section>
 {/snippet}

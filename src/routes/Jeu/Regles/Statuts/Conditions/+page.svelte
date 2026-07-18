@@ -157,7 +157,7 @@
 {#snippet attrap()}
 	<section>
 		<h2 id="attrap">Attrapé</h2>
-	{@html renderMarkdown("\n- La vitesse d'une créature attrapée devient 0 et elle ne peut bénéficier d'aucun bonus à sa vitesse.\n- La condition prend fin si l'attrapeur est <a href=\"/Jeu/Regles/Statuts/Conditions#incapable\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Statuts/Conditions\" data-wiki-fragment=\"Incapable\">incapacité</a>.\n- La condition prend également fin si un effet retire la créature aux prises de la portée de l'attrapeur.\n")}
+	{@html renderMarkdown("\n- La vitesse d'une créature attrapée devient 0 et elle ne peut bénéficier d'aucun bonus à sa vitesse.\n- La condition prend fin si l'attrapeur est <a href=\"%%BASE%%/Jeu/Regles/Statuts/Conditions#incapable\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Statuts/Conditions\" data-wiki-fragment=\"Incapable\">incapacité</a>.\n- La condition prend également fin si un effet retire la créature aux prises de la portée de l'attrapeur.\n")}
 
 	</section>
 {/snippet}
@@ -181,7 +181,7 @@
 {#snippet paralys()}
 	<section>
 		<h2 id="paralys">Paralysé</h2>
-	{@html renderMarkdown("\n- Une créature paralysée est <a href=\"/Jeu/Regles/Statuts/Conditions#incapable\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Statuts/Conditions\" data-wiki-fragment=\"Incapable\">incapacité</a> et ne peut ni bouger ni parler.\n- La créature échoue automatiquement aux jets de sauvegarde de Force et de Dextérité. Les jets d'attaque contre la créature ont un avantage.\n- Toute attaque qui frappe la créature est un coup critique si l'attaquant se trouve à moins de 5 pieds de la créature.\n")}
+	{@html renderMarkdown("\n- Une créature paralysée est <a href=\"%%BASE%%/Jeu/Regles/Statuts/Conditions#incapable\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Statuts/Conditions\" data-wiki-fragment=\"Incapable\">incapacité</a> et ne peut ni bouger ni parler.\n- La créature échoue automatiquement aux jets de sauvegarde de Force et de Dextérité. Les jets d'attaque contre la créature ont un avantage.\n- Toute attaque qui frappe la créature est un coup critique si l'attaquant se trouve à moins de 5 pieds de la créature.\n")}
 
 	</section>
 {/snippet}
@@ -189,7 +189,7 @@
 {#snippet ptrifi()}
 	<section>
 		<h2 id="ptrifi">Pétrifié</h2>
-	{@html renderMarkdown("\n- Une créature pétrifiée est transformée, avec tout objet non magique qu'elle porte ou transporte, en une substance solide inanimée (généralement de la pierre). Son poids est multiplié par dix et il cesse de vieillir.\n- La créature est <a href=\"/Jeu/Regles/Statuts/Conditions#incapable\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Statuts/Conditions\" data-wiki-fragment=\"Incapable\">incapacité</a>, ne peut ni bouger ni parler et n'est pas conscient de son environnement.\n- Les jets d'attaque contre la créature ont un avantage.\n- La créature échoue automatiquement aux jets de sauvegarde de Force et de Dextérité.\n- La créature a une résistance à tous les dégâts.\n- La créature est immunisée contre le poison et les maladies, bien qu'un poison ou une maladie déjà présent dans son organisme soit suspendu et non neutralisé.\n")}
+	{@html renderMarkdown("\n- Une créature pétrifiée est transformée, avec tout objet non magique qu'elle porte ou transporte, en une substance solide inanimée (généralement de la pierre). Son poids est multiplié par dix et il cesse de vieillir.\n- La créature est <a href=\"%%BASE%%/Jeu/Regles/Statuts/Conditions#incapable\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Statuts/Conditions\" data-wiki-fragment=\"Incapable\">incapacité</a>, ne peut ni bouger ni parler et n'est pas conscient de son environnement.\n- Les jets d'attaque contre la créature ont un avantage.\n- La créature échoue automatiquement aux jets de sauvegarde de Force et de Dextérité.\n- La créature a une résistance à tous les dégâts.\n- La créature est immunisée contre le poison et les maladies, bien qu'un poison ou une maladie déjà présent dans son organisme soit suspendu et non neutralisé.\n")}
 
 	</section>
 {/snippet}
@@ -213,7 +213,7 @@
 {#snippet abasourdi()}
 	<section>
 		<h2 id="abasourdi">Abasourdi</h2>
-	{@html renderMarkdown("\n- Une créature étourdie est <a href=\"/Jeu/Regles/Statuts/Conditions#incapable\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Statuts/Conditions\" data-wiki-fragment=\"Incapable\">incapacité</a>, ne peut pas bouger et ne peut parler que de manière hésitante.\n- La créature échoue automatiquement aux jets de sauvegarde de Force et de Dextérité.\n- Les jets d'attaque contre la créature ont un avantage.\n")}
+	{@html renderMarkdown("\n- Une créature étourdie est <a href=\"%%BASE%%/Jeu/Regles/Statuts/Conditions#incapable\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Statuts/Conditions\" data-wiki-fragment=\"Incapable\">incapacité</a>, ne peut pas bouger et ne peut parler que de manière hésitante.\n- La créature échoue automatiquement aux jets de sauvegarde de Force et de Dextérité.\n- Les jets d'attaque contre la créature ont un avantage.\n")}
 
 	</section>
 {/snippet}
@@ -221,7 +221,7 @@
 {#snippet inconscient()}
 	<section>
 		<h2 id="inconscient">Inconscient</h2>
-	{@html renderMarkdown("\n- Une créature inconsciente est <a href=\"/Jeu/Regles/Statuts/Conditions#incapable\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Statuts/Conditions\" data-wiki-fragment=\"Incapable\">incapacité</a>, ne peut ni bouger ni parler et n'est pas conscient de son environnement.\n- La créature laisse tomber tout ce qu'elle tient et tombe <a href=\"/Jeu/Regles/Statuts/Conditions#couch\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Statuts/Conditions\" data-wiki-fragment=\"Couch%C3%A9\">couché</a>.\n- La créature échoue automatiquement aux jets de sauvegarde de Force et de Dextérité.\n- Les jets d'attaque contre la créature ont un avantage.\n- Toute attaque qui frappe la créature est un coup critique si l'attaquant se trouve à moins de 5 pieds de la créature.")}
+	{@html renderMarkdown("\n- Une créature inconsciente est <a href=\"%%BASE%%/Jeu/Regles/Statuts/Conditions#incapable\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Statuts/Conditions\" data-wiki-fragment=\"Incapable\">incapacité</a>, ne peut ni bouger ni parler et n'est pas conscient de son environnement.\n- La créature laisse tomber tout ce qu'elle tient et tombe <a href=\"%%BASE%%/Jeu/Regles/Statuts/Conditions#couch\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Statuts/Conditions\" data-wiki-fragment=\"Couch%C3%A9\">couché</a>.\n- La créature échoue automatiquement aux jets de sauvegarde de Force et de Dextérité.\n- Les jets d'attaque contre la créature ont un avantage.\n- Toute attaque qui frappe la créature est un coup critique si l'attaquant se trouve à moins de 5 pieds de la créature.")}
 
 	</section>
 {/snippet}

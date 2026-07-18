@@ -89,7 +89,7 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown(">Spécialité de l'<a href=\"/Jeu/Regles/Apprentissages/Artisanat/Artisanat\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Apprentissages/Artisanat/Artisanat\" data-wiki-fragment=\"\">Artisanat</a> qui améliore magiquement les caractéristiques des équipements d'aventuriers.\n")}
+	{@html renderMarkdown(">Spécialité de l'<a href=\"%%BASE%%/Jeu/Regles/Apprentissages/Artisanat/Artisanat\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Apprentissages/Artisanat/Artisanat\" data-wiki-fragment=\"\">Artisanat</a> qui améliore magiquement les caractéristiques des équipements d'aventuriers.\n")}
 {/snippet}
 
 {#snippet apprentissage()}
@@ -118,7 +118,7 @@
 
 {#snippet kothulaWip()}
 	<section>
-		<h2 id="kothula-wip"><a href="/Geographie/Kothula/Kothula" class="wiki-link internal-link" data-wiki-href="/Geographie/Kothula/Kothula" data-wiki-fragment="">Kothula</a> (WIP)</h2>
+		<h2 id="kothula-wip"><a href="%%BASE%%/Geographie/Kothula/Kothula" class="wiki-link internal-link" data-wiki-href="/Geographie/Kothula/Kothula" data-wiki-fragment="">Kothula</a> (WIP)</h2>
 	{@html renderMarkdown(">Enchanter des parties du corps pour fluidifier les flux magiques qui circulent dedans et améliorer l'utilisation de la magie.\n\nLes parties du corps enchantables sont les bras, le dos et les jambes.\n\nRater le processus d'enchantement le rend juste temporaire (1 semaine)\n\nUn échec critique (95 - 99) affaiblit le corps et réduit les chances de tatouage pendant 100 jours. (-50% de réussite)\n\nUn échec super critique (100) empêche de se faire tatouer sur cette partie du corps à l'avenir.\n\tUn objet rare permet d'empêcher cet échec (20 po au marché ou trouvable en expédition)\n\nL'effet dépend de l'architecture du tatouage (non cumulables sans conséquences) :\n\n| Anneau              | Lignes          | X Points    |\n| ------------------- | --------------- | ----------- |\n| Maîtrise Magique +2 | Régénération x2 | +X crystaux |\n")}
 
 	</section>
@@ -126,7 +126,7 @@
 
 {#snippet nirina()}
 	<section>
-		<h2 id="nirina"><a href="/Geographie/Nirina/Nirina" class="wiki-link internal-link" data-wiki-href="/Geographie/Nirina/Nirina" data-wiki-fragment="">Nirina</a></h2>
+		<h2 id="nirina"><a href="%%BASE%%/Geographie/Nirina/Nirina" class="wiki-link internal-link" data-wiki-href="/Geographie/Nirina/Nirina" data-wiki-fragment="">Nirina</a></h2>
 	{@html renderMarkdown(">Enchanter les métaux pour augmenter leur efficacité.\n\nRater l'enchantement donne un malus au lieu d'un bonus.\n\nUne réussite critique fait que le montant minimum est la moitié de la valeur du dé.\n\nUne armure possède 2 \"slots\" à enchanter, et une arme en possède 1.\n\nPour nettoyer les slots, il faut faire fondre et reforger l'équipement (la magie de métal n'est pas suffisante).\n\nEn fonction du bonus souhaité, les chances de réussites varient :\n\n|                      | D4  | D6   | D8   | D10  |\n| -------------------- | --- | ---- | ---- | ---- |\n| **Taux de Réussite** | -0% | -20% | -40% | -60% |\n| **Malus d'Echec**    | -1  | -2   | -3   | -4   |\n")}
 
 	</section>
@@ -134,7 +134,7 @@
 
 {#snippet ovliin()}
 	<section>
-		<h2 id="ovliin"><a href="/Geographie/Ovliin/Ovliin" class="wiki-link internal-link" data-wiki-href="/Geographie/Ovliin/Ovliin" data-wiki-fragment="">Ovliin</a></h2>
+		<h2 id="ovliin"><a href="%%BASE%%/Geographie/Ovliin/Ovliin" class="wiki-link internal-link" data-wiki-href="/Geographie/Ovliin/Ovliin" data-wiki-fragment="">Ovliin</a></h2>
 	{@html renderMarkdown(">Enchanter les os pour en extraire la puissance élémentaire de son ancien \"propriétaire\".\n\nUne armure en os ou une arme avec le manche en os peuvent bénéficier de cette puissance.\n\nPour enchanter, le joueur lance **1d20 + Niveau d'enchanteur** (le bonus obtenu varie selon le résultat et la rareté de l'os).\n\nUn échec diminue la rareté de l'os de 1.\n\nUn échec critique rend l'os inutilisable.\n")}
 	{@render arme()}
 	{@render armure()}
@@ -159,7 +159,7 @@
 
 {#snippet suraja()}
 	<section>
-		<h2 id="suraja"><a href="/Geographie/Suraja/Suraja" class="wiki-link internal-link" data-wiki-href="/Geographie/Suraja/Suraja" data-wiki-fragment="">Suraja</a></h2>
+		<h2 id="suraja"><a href="%%BASE%%/Geographie/Suraja/Suraja" class="wiki-link internal-link" data-wiki-href="/Geographie/Suraja/Suraja" data-wiki-fragment="">Suraja</a></h2>
 	{@html renderMarkdown("\n>Enchanter les tissus pour augmenter leur résistance aux éléments magiques.\n\nUn tissu peut cumuler plusieurs enchantements (le maximum dépend du type de tissu).\n\nLe joueur peut ajouter de nouveaux enchantements (au risque d'en perdre d'autres), ou améliorer ceux déjà présents.\n")}
 	{@render ajouter()}
 	{@render amliorer()}

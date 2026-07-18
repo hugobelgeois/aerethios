@@ -63,7 +63,7 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("> **Potionniste** est une spécialité de l'<a href=\"/Jeu/Regles/Apprentissages/Alchimie/Alchimie\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Apprentissages/Alchimie/Alchimie\" data-wiki-fragment=\"\">Alchimie</a> qui combine différents ingrédients pour créer des **substances consommables**.\n")}
+	{@html renderMarkdown("> **Potionniste** est une spécialité de l'<a href=\"%%BASE%%/Jeu/Regles/Apprentissages/Alchimie/Alchimie\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Apprentissages/Alchimie/Alchimie\" data-wiki-fragment=\"\">Alchimie</a> qui combine différents ingrédients pour créer des **substances consommables**.\n")}
 {/snippet}
 
 {#snippet matriel()}

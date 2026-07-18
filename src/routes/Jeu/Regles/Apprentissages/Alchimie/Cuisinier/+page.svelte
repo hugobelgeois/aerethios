@@ -61,7 +61,7 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("> **Cuisinier** est une spécialité dérivée de l’<a href=\"/Jeu/Regles/Apprentissages/Alchimie/Alchimie\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Apprentissages/Alchimie/Alchimie\" data-wiki-fragment=\"\">Alchimie</a> qui sublime les ingrédients les plus simples — parfois sans valeur apparente — pour en tirer le meilleur. Là où l’alchimiste transforme, le cuisinier **révèle**.\n")}
+	{@html renderMarkdown("> **Cuisinier** est une spécialité dérivée de l’<a href=\"%%BASE%%/Jeu/Regles/Apprentissages/Alchimie/Alchimie\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Apprentissages/Alchimie/Alchimie\" data-wiki-fragment=\"\">Alchimie</a> qui sublime les ingrédients les plus simples — parfois sans valeur apparente — pour en tirer le meilleur. Là où l’alchimiste transforme, le cuisinier **révèle**.\n")}
 {/snippet}
 
 {#snippet matriel()}

@@ -95,7 +95,7 @@
 
 {#snippet cuisinier()}
 	<section>
-		<h3 id="cuisinier"><a href="/Jeu/Regles/Apprentissages/Alchimie/Cuisinier" class="wiki-link internal-link" data-wiki-href="/Jeu/Regles/Apprentissages/Alchimie/Cuisinier" data-wiki-fragment="">Cuisinier</a></h3>
+		<h3 id="cuisinier"><a href="%%BASE%%/Jeu/Regles/Apprentissages/Alchimie/Cuisinier" class="wiki-link internal-link" data-wiki-href="/Jeu/Regles/Apprentissages/Alchimie/Cuisinier" data-wiki-fragment="">Cuisinier</a></h3>
 	{@html renderMarkdown("\nUn **Cuisinier** combine des ingrédients de rareté basse (déchets) sans effets apparents pour en tirer le meilleur.\nSes plats permettent de se nourrir tout en octroyant des bonus, le tout de façon économe.\n")}
 
 	</section>
@@ -103,7 +103,7 @@
 
 {#snippet invocateur()}
 	<section>
-		<h3 id="invocateur"><a href="/Jeu/Regles/Apprentissages/Alchimie/Invocateur" class="wiki-link internal-link" data-wiki-href="/Jeu/Regles/Apprentissages/Alchimie/Invocateur" data-wiki-fragment="">Invocateur</a></h3>
+		<h3 id="invocateur"><a href="%%BASE%%/Jeu/Regles/Apprentissages/Alchimie/Invocateur" class="wiki-link internal-link" data-wiki-href="/Jeu/Regles/Apprentissages/Alchimie/Invocateur" data-wiki-fragment="">Invocateur</a></h3>
 	{@html renderMarkdown("\nUn **Invocateur** (également nommé _Transmutateur_ ou _Synthétiste_) insuffle la **magie vitale** dans les composants pour leur donner **forme et volonté**.\nSes œuvres peuvent aller de simples **familiers alchimiques** à de véritables **entités conscientes**, liées à leur créateur.\nL’invocateur se situe à la frontière entre l’alchimie et la magie ancienne, manipulant les lois de la vie plutôt que la matière seule.\n")}
 
 	</section>
@@ -111,7 +111,7 @@
 
 {#snippet potionniste()}
 	<section>
-		<h3 id="potionniste"><a href="/Jeu/Regles/Apprentissages/Alchimie/Potionniste" class="wiki-link internal-link" data-wiki-href="/Jeu/Regles/Apprentissages/Alchimie/Potionniste" data-wiki-fragment="">Potionniste</a></h3>
+		<h3 id="potionniste"><a href="%%BASE%%/Jeu/Regles/Apprentissages/Alchimie/Potionniste" class="wiki-link internal-link" data-wiki-href="/Jeu/Regles/Apprentissages/Alchimie/Potionniste" data-wiki-fragment="">Potionniste</a></h3>
 	{@html renderMarkdown("\nUn **Potionniste** combine différents ingrédients pour créer des **substances consommables**.\nSes créations prennent souvent la forme de **potions**, **pommades** ou **huiles**, capables d’altérer le corps, l’esprit ou l’environnement.\nSon art repose sur la précision, le dosage et la pureté des éléments employés.\n")}
 
 	</section>
@@ -131,7 +131,7 @@
 {#snippet fabrication_2()}
 	<section>
 		<h3 id="fabrication">Fabrication</h3>
-	{@html renderMarkdown("\nS’il s’agit d’une préparation dont **le joueur ne connaît pas encore la recette**, il doit d’abord réussir le **<a href=\"/Jeu/Regles/Mini-Jeux/Recherche Alchimique\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Mini-Jeux/Recherche Alchimique\" data-wiki-fragment=\"\">Recherche Alchimique</a>**.\n\nUne fois la recette connue, il peut tenter une **préparation** à l’aide d’un **jet de D20 + Niveau d'Alchimie**.\n\nPour réussir, le résultat final doit être **supérieur** à la **difficulté totale** de la création.\n\nLes **chances de réussite** dépendent :\n\n- du **niveau d’alchimie** du joueur,\n\n- du **nombre total d’ingrédients utilisés**,\n\n- et de la **rareté** de chacun d’eux.\n\n> Les malus de difficulté s’additionnent pour chaque ingrédient.\n")}
+	{@html renderMarkdown("\nS’il s’agit d’une préparation dont **le joueur ne connaît pas encore la recette**, il doit d’abord réussir le **<a href=\"%%BASE%%/Jeu/Regles/Mini-Jeux/Recherche Alchimique\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Mini-Jeux/Recherche Alchimique\" data-wiki-fragment=\"\">Recherche Alchimique</a>**.\n\nUne fois la recette connue, il peut tenter une **préparation** à l’aide d’un **jet de D20 + Niveau d'Alchimie**.\n\nPour réussir, le résultat final doit être **supérieur** à la **difficulté totale** de la création.\n\nLes **chances de réussite** dépendent :\n\n- du **niveau d’alchimie** du joueur,\n\n- du **nombre total d’ingrédients utilisés**,\n\n- et de la **rareté** de chacun d’eux.\n\n> Les malus de difficulté s’additionnent pour chaque ingrédient.\n")}
 
 	</section>
 {/snippet}

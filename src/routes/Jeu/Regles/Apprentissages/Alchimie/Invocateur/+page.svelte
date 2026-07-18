@@ -76,7 +76,7 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("> **Invocateur** est une spécialité de l'<a href=\"/Jeu/Regles/Apprentissages/Alchimie/Alchimie\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Apprentissages/Alchimie/Alchimie\" data-wiki-fragment=\"\">Alchimie</a> qui insuffle la **magie vitale** dans les composants pour leur donner **forme et volonté**.\n")}
+	{@html renderMarkdown("> **Invocateur** est une spécialité de l'<a href=\"%%BASE%%/Jeu/Regles/Apprentissages/Alchimie/Alchimie\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Apprentissages/Alchimie/Alchimie\" data-wiki-fragment=\"\">Alchimie</a> qui insuffle la **magie vitale** dans les composants pour leur donner **forme et volonté**.\n")}
 {/snippet}
 
 {#snippet matriel()}

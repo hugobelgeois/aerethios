@@ -26,5 +26,5 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("<a href=\"/Geographie/Kothula/Kothula\" class=\"wiki-link internal-link\" data-wiki-href=\"/Geographie/Kothula/Kothula\" data-wiki-fragment=\"\">Kothula</a>\n<span class=\"wiki-unresolved\">Chaumide</span>\n<span class=\"wiki-unresolved\">Grand Bleu</span>\n<span class=\"wiki-unresolved\">Mer Triste</span>")}
+	{@html renderMarkdown("<a href=\"%%BASE%%/Geographie/Kothula/Kothula\" class=\"wiki-link internal-link\" data-wiki-href=\"/Geographie/Kothula/Kothula\" data-wiki-fragment=\"\">Kothula</a>\n<span class=\"wiki-unresolved\">Chaumide</span>\n<span class=\"wiki-unresolved\">Grand Bleu</span>\n<span class=\"wiki-unresolved\">Mer Triste</span>")}
 {/snippet}

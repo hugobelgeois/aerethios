@@ -118,7 +118,7 @@
 
 {#snippet enchanteur()}
 	<section>
-		<h3 id="enchanteur"><a href="/Jeu/Regles/Apprentissages/Artisanat/Enchanteur" class="wiki-link internal-link" data-wiki-href="/Jeu/Regles/Apprentissages/Artisanat/Enchanteur" data-wiki-fragment="">Enchanteur</a></h3>
+		<h3 id="enchanteur"><a href="%%BASE%%/Jeu/Regles/Apprentissages/Artisanat/Enchanteur" class="wiki-link internal-link" data-wiki-href="/Jeu/Regles/Apprentissages/Artisanat/Enchanteur" data-wiki-fragment="">Enchanteur</a></h3>
 	{@html renderMarkdown("\nUn **Enchanteur** applique les **savoirs ésotériques** de son continent pour **améliorer les propriétés** d’une arme, d’une armure ou d’un objet.\nChaque continent possède ses **propres traditions enchantées**, offrant des avantages uniques mais aussi des **contreparties** spécifiques.\nL’enchanteur agit comme un pont entre **artisanat et magie**, infusant la matière de symboles, de runes ou d’essences spirituelles.\n")}
 
 	</section>
@@ -126,7 +126,7 @@
 
 {#snippet forgeron()}
 	<section>
-		<h3 id="forgeron"><a href="/Jeu/Regles/Apprentissages/Artisanat/Forgeron" class="wiki-link internal-link" data-wiki-href="/Jeu/Regles/Apprentissages/Artisanat/Forgeron" data-wiki-fragment="">Forgeron</a></h3>
+		<h3 id="forgeron"><a href="%%BASE%%/Jeu/Regles/Apprentissages/Artisanat/Forgeron" class="wiki-link internal-link" data-wiki-href="/Jeu/Regles/Apprentissages/Artisanat/Forgeron" data-wiki-fragment="">Forgeron</a></h3>
 	{@html renderMarkdown("\nUn **Forgeron** maîtrise la **fusion et le travail du métal** afin de créer des **armes** et **armures lourdes**.\nSon expérience détermine sa capacité à forger des **alliages rares**, plus **tranchants, résistants ou conducteurs de magie**.\nLes meilleurs forgerons savent adapter leurs créations aux porteurs, équilibrant puissance, poids et résonance magique.\n")}
 
 	</section>

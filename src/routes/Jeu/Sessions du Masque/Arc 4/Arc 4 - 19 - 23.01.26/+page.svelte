@@ -94,7 +94,7 @@
 {#snippet joueurs()}
 	<section>
 		<h2 id="joueurs">Joueurs</h2>
-	{@html renderMarkdown("\n- [x] Diego 20\n- [ ] Loïc 15\n- [ ] Lucas 8\n- [x] Michel 22\n- [x] Nolan 8\n- [x] Thomas 20\n- [ ] William 7\n\n|         Précédent         |          Suivant          |\n| :-----------------------: | :-----------------------: |\n| <a href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26\" data-wiki-fragment=\"\">Arc 4 - 18 - 02.01.26</a> | <a href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26\" data-wiki-fragment=\"\">Arc 4 - 20 - 13.02.26</a> |\n")}
+	{@html renderMarkdown("\n- [x] Diego 20\n- [ ] Loïc 15\n- [ ] Lucas 8\n- [x] Michel 22\n- [x] Nolan 8\n- [x] Thomas 20\n- [ ] William 7\n\n|         Précédent         |          Suivant          |\n| :-----------------------: | :-----------------------: |\n| <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26\" data-wiki-fragment=\"\">Arc 4 - 18 - 02.01.26</a> | <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26\" data-wiki-fragment=\"\">Arc 4 - 20 - 13.02.26</a> |\n")}
 
 	</section>
 {/snippet}

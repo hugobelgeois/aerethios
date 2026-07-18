@@ -1,6 +1,17 @@
+import { base } from "$app/paths";
+
+/**
+ * Must stay byte-for-byte identical to BASE_PATH_SENTINEL in the plugin's
+ * src/constants.ts (a separate, esbuild-bundled module graph — this file
+ * lives in the exported SvelteKit project instead and can't import it
+ * directly). pageexporter.ts stamps every route/image URL it generates with
+ * this placeholder at export time, before the site's real `base` path is
+ * known; swapped for the real thing below, once per render.
+ */
+const BASE_SENTINEL = "%%BASE%%";
+
 /**
  * Lightweight Markdown → HTML renderer.
- * No external dependencies — safe to use in any Svelte/SvelteKit project.
  */
 export function renderMarkdown(md: string): string {
 	let src = md.replace(/\r\n/g, "\n").replace(/\r/g, "\n");
@@ -128,7 +139,10 @@ export function renderMarkdown(md: string): string {
 		}
 	}
 
-	return out.join("\n");
+	// split/join instead of a regex replace — the sentinel is a plain
+	// literal string, never a pattern, and this can't misfire on any
+	// regex-special characters `base` itself might contain.
+	return out.join("\n").split(BASE_SENTINEL).join(base);
 }
 
 // ── Inline renderer ────────────────────────────────────────────────────────

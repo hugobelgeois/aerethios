@@ -219,7 +219,7 @@
 {#snippet joueurs()}
 	<section>
 		<h2 id="joueurs">Joueurs</h2>
-	{@html renderMarkdown("\n- [x] Diego 18\n- [x] Loïc 15\n- [x] Lucas 8\n- [x] Michel 20\n- [x] Nolan 6\n- [x] Thomas 18\n- [ ] William 7\n\n|         Précédent         |  Suivant  |\n| :-----------------------: | :-------: |\n| <a href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3 - 16 - 28.11.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3 - 16 - 28.11.25\" data-wiki-fragment=\"\">Arc 3 - 16 - 28.11.25</a> | <a href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4\" data-wiki-fragment=\"\">Arc 4</a> |")}
+	{@html renderMarkdown("\n- [x] Diego 18\n- [x] Loïc 15\n- [x] Lucas 8\n- [x] Michel 20\n- [x] Nolan 6\n- [x] Thomas 18\n- [ ] William 7\n\n|         Précédent         |  Suivant  |\n| :-----------------------: | :-------: |\n| <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 3/Arc 3 - 16 - 28.11.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3 - 16 - 28.11.25\" data-wiki-fragment=\"\">Arc 3 - 16 - 28.11.25</a> | <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4\" data-wiki-fragment=\"\">Arc 4</a> |")}
 
 	</section>
 {/snippet}

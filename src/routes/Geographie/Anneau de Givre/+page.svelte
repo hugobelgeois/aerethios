@@ -26,5 +26,5 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("<a href=\"/Geographie/Ovliin/Ovliin\" class=\"wiki-link internal-link\" data-wiki-href=\"/Geographie/Ovliin/Ovliin\" data-wiki-fragment=\"\">Ovliin</a>\n<span class=\"wiki-unresolved\">Fosse d'Oslo</span>\n<span class=\"wiki-unresolved\">Jade Pourpre</span>")}
+	{@html renderMarkdown("<a href=\"%%BASE%%/Geographie/Ovliin/Ovliin\" class=\"wiki-link internal-link\" data-wiki-href=\"/Geographie/Ovliin/Ovliin\" data-wiki-fragment=\"\">Ovliin</a>\n<span class=\"wiki-unresolved\">Fosse d'Oslo</span>\n<span class=\"wiki-unresolved\">Jade Pourpre</span>")}
 {/snippet}

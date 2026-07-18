@@ -63,7 +63,7 @@
 {#snippet mutations_Maladies()}
 	<section>
 		<h1 id="mutations--maladies"><span class="wiki-unresolved">Mutations</span> / Maladies</h1>
-	{@html renderMarkdown("\n- <a href=\"/Bestiaire/Terrestres/Hybrides/Vampire\" class=\"wiki-link internal-link\" data-wiki-href=\"/Bestiaire/Terrestres/Hybrides/Vampire\" data-wiki-fragment=\"\">Vampire</a>\n")}
+	{@html renderMarkdown("\n- <a href=\"%%BASE%%/Bestiaire/Terrestres/Hybrides/Vampire\" class=\"wiki-link internal-link\" data-wiki-href=\"/Bestiaire/Terrestres/Hybrides/Vampire\" data-wiki-fragment=\"\">Vampire</a>\n")}
 
 	</section>
 {/snippet}
@@ -71,7 +71,7 @@
 {#snippet evolutifs()}
 	<section>
 		<h1 id="evolutifs"><span class="wiki-unresolved">Evolutifs</span></h1>
-	{@html renderMarkdown("\n- <a href=\"/Bestiaire/Terrestres/Hybrides/Naga\" class=\"wiki-link internal-link\" data-wiki-href=\"/Bestiaire/Terrestres/Hybrides/Naga\" data-wiki-fragment=\"\">Naga</a>\n")}
+	{@html renderMarkdown("\n- <a href=\"%%BASE%%/Bestiaire/Terrestres/Hybrides/Naga\" class=\"wiki-link internal-link\" data-wiki-href=\"/Bestiaire/Terrestres/Hybrides/Naga\" data-wiki-fragment=\"\">Naga</a>\n")}
 
 	</section>
 {/snippet}

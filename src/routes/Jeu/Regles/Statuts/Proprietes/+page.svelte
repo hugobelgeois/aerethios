@@ -176,7 +176,7 @@
 {#snippet lacration()}
 	<section>
 		<h2 id="lacration">Lacération</h2>
-	{@html renderMarkdown("\nUne fois par tour, augmente l'affliction <a href=\"/Jeu/Regles/Statuts/Afflictions#saignement\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Statuts/Afflictions\" data-wiki-fragment=\"Saignement\">Saignement</a> de 1 sur la cible touchée si les dégâts passent outre le DR.\n")}
+	{@html renderMarkdown("\nUne fois par tour, augmente l'affliction <a href=\"%%BASE%%/Jeu/Regles/Statuts/Afflictions#saignement\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Statuts/Afflictions\" data-wiki-fragment=\"Saignement\">Saignement</a> de 1 sur la cible touchée si les dégâts passent outre le DR.\n")}
 
 	</section>
 {/snippet}

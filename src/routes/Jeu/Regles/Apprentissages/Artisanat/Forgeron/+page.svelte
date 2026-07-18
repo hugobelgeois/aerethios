@@ -64,7 +64,7 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown(">Spécialité de l'<a href=\"/Jeu/Regles/Apprentissages/Artisanat/Artisanat\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Apprentissages/Artisanat/Artisanat\" data-wiki-fragment=\"\">Artisanat</a> qui travaille les métaux pour en fabriquer des armes et armures.\n")}
+	{@html renderMarkdown(">Spécialité de l'<a href=\"%%BASE%%/Jeu/Regles/Apprentissages/Artisanat/Artisanat\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Apprentissages/Artisanat/Artisanat\" data-wiki-fragment=\"\">Artisanat</a> qui travaille les métaux pour en fabriquer des armes et armures.\n")}
 {/snippet}
 
 {#snippet raffinage()}

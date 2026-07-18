@@ -26,5 +26,5 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("<a href=\"/Geographie/Suraja/Suraja\" class=\"wiki-link internal-link\" data-wiki-href=\"/Geographie/Suraja/Suraja\" data-wiki-fragment=\"\">Suraja</a>\n<span class=\"wiki-unresolved\">Grand Bleu</span>\n<span class=\"wiki-unresolved\">Mer Calme</span>")}
+	{@html renderMarkdown("<a href=\"%%BASE%%/Geographie/Suraja/Suraja\" class=\"wiki-link internal-link\" data-wiki-href=\"/Geographie/Suraja/Suraja\" data-wiki-fragment=\"\">Suraja</a>\n<span class=\"wiki-unresolved\">Grand Bleu</span>\n<span class=\"wiki-unresolved\">Mer Calme</span>")}
 {/snippet}
