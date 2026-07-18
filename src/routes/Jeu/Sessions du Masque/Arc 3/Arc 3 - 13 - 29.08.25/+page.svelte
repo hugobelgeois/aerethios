@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -56,7 +56,7 @@
 
 {#snippet dtails()}
 	<section>
-		<h2 id="dtails">Détails</h2>
+		<h2 id="dtails">{@html applyBase("Détails")}</h2>
 	{@html renderMarkdown("\nLieu actuel : Suraja, Korkaahn\n\nObjectif : Rencontre de Raja et du Shara Ishvalda\n\nPnjs notables : Raja\n")}
 
 	</section>
@@ -64,7 +64,7 @@
 
 {#snippet scnario()}
 	<section>
-		<h2 id="scnario">Scénario</h2>
+		<h2 id="scnario">{@html applyBase("Scénario")}</h2>
 
 
 	</section>
@@ -72,7 +72,7 @@
 
 {#snippet notes()}
 	<section>
-		<h2 id="notes">Notes</h2>
+		<h2 id="notes">{@html applyBase("Notes")}</h2>
 	{@html renderMarkdown("\n**Suraja**\n- Scientifiques/Commerçants cachés avec beaucoup de main d'oeuvre\n  - Shara Ishvalda leur fait perdre des clients et les empêche de se développer financièrement\n")}
 
 	</section>
@@ -80,7 +80,7 @@
 
 {#snippet joueurs()}
 	<section>
-		<h2 id="joueurs">Joueurs</h2>
+		<h2 id="joueurs">{@html applyBase("Joueurs")}</h2>
 	{@html renderMarkdown("\n- [x] Diego 14\n- [x] Loïc 10\n- [x] Lucas 4\n- [x] Michel 15\n- [x] Nolan 3\n- [x] Thomas 14\n- [x] William 7\n\n|     Précédent     |      Suivant      |\n| :---------------: | :---------------: |\n| <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 3/Arc 3 - 11 - 14.08.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3 - 11 - 14.08.25\" data-wiki-fragment=\"\">Arc 3 - 11 - 14.08.25</a> | <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 3/Arc 3 - 12 - 19.09.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3 - 12 - 19.09.25\" data-wiki-fragment=\"\">Arc 3 - 12 - 19.09.25</a> |")}
 
 	</section>

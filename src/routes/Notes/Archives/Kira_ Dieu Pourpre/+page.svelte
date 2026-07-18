@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -43,7 +43,7 @@
 
 {#snippet lesDeuxGuerriers()}
 	<section>
-		<h2 id="les-deux-guerriers">Les Deux Guerriers</h2>
+		<h2 id="les-deux-guerriers">{@html applyBase("Les Deux Guerriers")}</h2>
 	{@html renderMarkdown("\nDeux guerriers jurèrent de s’entretuer.\n\nIls se cherchèrent des années.\n\nÀ travers champs, mers, royaumes.\n\nÀ chaque fois qu’ils s’approchaient,  \nle monde semblait les rapprocher encore plus.\n\nEt quand enfin ils se trouvèrent,  \nils ne purent s’arrêter.\n\nLe combat dura des jours.  \nPuis des nuits.\n\nJusqu’à ce qu’ils tombent.\n\nL’un contre l’autre.\n\nMorts.\n\nLeurs corps ne furent jamais séparés.\n\nCar personne ne put dire  \noù l’un finissait  \net où l’autre commençait.\n")}
 	{@render totem()}
 	{@render chanson()}
@@ -52,7 +52,7 @@
 
 {#snippet totem()}
 	<section>
-		<h3 id="totem">Totem</h3>
+		<h3 id="totem">{@html applyBase("Totem")}</h3>
 	{@html renderMarkdown("\nDeux **lames croisées**, fusionnées au point d’impact\n")}
 
 	</section>
@@ -60,7 +60,7 @@
 
 {#snippet chanson()}
 	<section>
-		<h3 id="chanson">Chanson</h3>
+		<h3 id="chanson">{@html applyBase("Chanson")}</h3>
 	{@html renderMarkdown("\n> Ce qui brûle se rejoint  \n> Ce qui frappe se lie  \n> L’amour et la guerre  \n> Ne font qu’un cri")}
 
 	</section>

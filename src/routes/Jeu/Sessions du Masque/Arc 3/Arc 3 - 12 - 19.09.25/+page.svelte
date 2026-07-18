@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -56,7 +56,7 @@
 
 {#snippet dtails()}
 	<section>
-		<h2 id="dtails">Détails</h2>
+		<h2 id="dtails">{@html applyBase("Détails")}</h2>
 	{@html renderMarkdown("\nLieu actuel : Suraja, ville au sud d'Irkma\n\nObjectif : Baiser le forgeron pour récupérer son minerai en mithril\n\nPnjs notables : -\n")}
 
 	</section>
@@ -64,7 +64,7 @@
 
 {#snippet scnario()}
 	<section>
-		<h2 id="scnario">Scénario</h2>
+		<h2 id="scnario">{@html applyBase("Scénario")}</h2>
 
 
 	</section>
@@ -72,7 +72,7 @@
 
 {#snippet notes()}
 	<section>
-		<h2 id="notes">Notes</h2>
+		<h2 id="notes">{@html applyBase("Notes")}</h2>
 	{@html renderMarkdown("\n__Equilibrage__\nRetirer les armes en mithril et remettre les anciennes\nLe forgeron possède un minerai rare dans une vitrine qui pourrait faire 3 lingots\nLe minerai a une valeur sentimentale et coûte cher\n\nConvois de carapaces pour aller à Irkma\n")}
 
 	</section>
@@ -80,7 +80,7 @@
 
 {#snippet joueurs()}
 	<section>
-		<h2 id="joueurs">Joueurs</h2>
+		<h2 id="joueurs">{@html applyBase("Joueurs")}</h2>
 	{@html renderMarkdown("\n- [x] Diego 13\n- [ ] Loïc 9\n- [x] Lucas 3\n- [x] Michel 14\n- [x] Nolan 2\n- [x] Thomas 13\n- [x] William 6\n\n|     Précédent     |      Suivant      |\n| :---------------: | :---------------: |\n| <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 3/Arc 3 - 13 - 29.08.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3 - 13 - 29.08.25\" data-wiki-fragment=\"\">Arc 3 - 13 - 29.08.25</a> | <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25\" data-wiki-fragment=\"\">Arc 3 - 13b - 03.10.25</a> |")}
 
 	</section>

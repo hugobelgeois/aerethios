@@ -135,6 +135,7 @@
   },
   "active": "5e8a8f4cea0b4061",
   "lastOpenFiles": [
+    "src/lib/routePath.ts",
     "node_modules/@sveltejs/adapter-static/index.d.ts",
     "node_modules/@sveltejs/adapter-static/README.md",
     "node_modules/@sveltejs/adapter-static/package.json",
@@ -149,7 +150,6 @@
     "site-lib/styles/snippets.css",
     "site-lib/styles/obsidian.css",
     "site-lib/styles/main-styles.css",
-    "site-lib/styles/global-variable-styles.css",
     "jeu/sessions-du-masque/scenes/img/orphelinat-d'hazdaim.jpg",
     "jeu/sessions-du-masque/scenes/img/campement-de-nix-et-salomé.jpg",
     "web/static/orphelinat-d'hazdaim.jpg",

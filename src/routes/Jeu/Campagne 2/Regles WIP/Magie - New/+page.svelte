@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -55,7 +55,7 @@
 
 {#snippet crystaux()}
 	<section>
-		<h2 id="crystaux">Crystaux</h2>
+		<h2 id="crystaux">{@html applyBase("Crystaux")}</h2>
 	{@html renderMarkdown("> Les crystaux ne sont pas exploitables tels quels, il faut d'abord les traiter.\n\n| Utilisation | Durée    | Effets                                                                               | Effets secondaires                                                                                                                                                                            | Prix/ unité |\n| ----------- | -------- | ------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------: |\n| Implanter   | -        | - Utilisation normale<br>- Régénération de magie                                     | - Impossible d'utiliser plus que 5 crystaux par sort                                                                                                                                          |        5 po |\n| Manger      | 1 jour   | - Réserve de 5 \"crystaux\"<br>- Cumulable                                             | - Nausée si plusieurs doses consommées par jour                                                                                                                                               |       50 pa |\n| Respirer    | 1 combat | - Réserve de 10 \"crystaux\"<br>- Régénération de 2 \"crystaux\" par tour<br>- Cumulable | - Addiction = 1d20+ Mental(Volonté) < Nombre de respiration \\* 8                                                                                                                              |       25 pa |\n| Injecter    | 2 tours  | - Chaque sort utilise +10 \"crystaux\"<br>- Réserve infinie                            | - Pour chaque palier de 10 dégâts effectué, le joueur perd 1d10HP<br>- Statuts \"Discombobulate\" une fois l'effet terminé<br>- Addiction = 1d20+ Mental(Volonté) < Nombre de respiration \\* 12 |       20 pa |\n\tExemple Injecter : J'ai 16 en Foudre, chaque sort utiliser (2d6+16) \"crystaux\".\n")}
 
 	</section>
@@ -63,7 +63,7 @@
 
 {#snippet utilisation()}
 	<section>
-		<h2 id="utilisation">Utilisation</h2>
+		<h2 id="utilisation">{@html applyBase("Utilisation")}</h2>
 
 	{@render dangers()}
 	</section>
@@ -71,7 +71,7 @@
 
 {#snippet dangers()}
 	<section>
-		<h3 id="dangers">Dangers</h3>
+		<h3 id="dangers">{@html applyBase("Dangers")}</h3>
 	{@html renderMarkdown("> La magie est mauvaise pour un corps non entraîné. Dépasser ses limites peut être dangereux.\n")}
 
 	</section>
@@ -79,7 +79,7 @@
 
 {#snippet reliques()}
 	<section>
-		<h2 id="reliques">Reliques</h2>
+		<h2 id="reliques">{@html applyBase("Reliques")}</h2>
 	{@html renderMarkdown("> Les reliques permettent de mieux concentrer sa magie pour mieux viser.\n> Baguettes, Sceptres, Sceaux, Grimoires, ...\n\n| Relique | Modificateur                             |\n| ------- | ---------------------------------------- |\n| 1 Main  | Mental                                   |\n| 2 Mains | Mental(Arcaniste\\|Intelligence\\|Sagesse) |")}
 
 	</section>

@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -76,7 +76,7 @@
 
 {#snippet description()}
 	<section>
-		<h2 id="description">Description</h2>
+		<h2 id="description">{@html applyBase("Description")}</h2>
 	{@html renderMarkdown("> Description à lire aux joueurs en entrant dans cette scène.\n\n\t... Après plusieurs minutes à suivre les traces laissées dans la boue, les arbres changent peu à peu. Leurs troncs deviennent démesurés. Tordus comme des membres vivants. Des lianes noires pendent depuis les hauteurs invisibles, oscillant lentement malgré l’absence totale de vent.\n\n\tPuis vous les entendez. Des voix. Faibles. Lointaines.\n\n\tEn avançant, le marais disparaît sous un sol couvert de racines épaisses, formant presque des marches naturelles. Une brume pâle rampe entre les troncs tandis qu’une lumière bleuâtre filtre depuis le centre de la forêt.\n\n\tAu milieu des arbres gigantesques se trouve une structure faite de racines vivantes et de pierre ancienne. Des escaliers mangés par la mousse descendent vers une large cavité circulaire où l’eau noire est parfaitement immobile, comme du verre.\n\n\tSuspendues tout autour, des dizaines de lanternes artisanales diffusent une lumière froide.\n\n\tLes enfants sont là. Surveillés par la servante et le cuisinier. Les deux paladins sont assis dans l'ombre, elles vous ont vu.\n\n<img src=\"%%BASE%%/Campement%20de%20Nix%20et%20Salom%C3%A9.jpg\" alt=\"Campement de Nix et Salomé.jpg\" class=\"wiki-image\" />\n")}
 
 	</section>
@@ -84,7 +84,7 @@
 
 {#snippet dtails()}
 	<section>
-		<h2 id="dtails">Détails</h2>
+		<h2 id="dtails">{@html applyBase("Détails")}</h2>
 	{@html renderMarkdown("\n| Lieu                               | Météo | Heure  | Musique |\n| ---------------------------------- | ----- | ------ | ------- |\n| Nirina, Mangroves phosphorescentes | Calme | Soirée |         |")}
 	{@render maps()}
 	{@render rencontres()}
@@ -93,7 +93,7 @@
 
 {#snippet maps()}
 	<section>
-		<h3 id="maps">Maps</h3>
+		<h3 id="maps">{@html applyBase("Maps")}</h3>
 
 
 	</section>
@@ -101,7 +101,7 @@
 
 {#snippet rencontres()}
 	<section>
-		<h3 id="rencontres">Rencontres</h3>
+		<h3 id="rencontres">{@html applyBase("Rencontres")}</h3>
 	{@html renderMarkdown("\n|  Nom   | Rôle                  |  Race  | Sexe  | Age |     Personnalité     |   Accent    |   Equipement    |\n| :----: | --------------------- | :----: | :---: | :-: | :------------------: | :---------: | :-------------: |\n|        | Cuisinier             | Humain | Homme | 40  |                      | Marseillais |                 |\n|        | Servante              | Humain | Femme | 25  |                      |      -      |                 |\n|  Nix   | Mercenaire<br>Paladin | Humain | Femme | 30  | Joviale<br>Camioneur |      -      |  <img src=\"%%BASE%%/Nix.jpg\" alt=\"Nix.jpg\" class=\"wiki-image\" />   |\n| Salomé | Prêtresse<br>Paladin  | Humain | Femme | 30  | Directe<br>Factuelle |      -      | <img src=\"%%BASE%%/Salom%C3%A9.jpg\" alt=\"Salomé.jpg\" class=\"wiki-image\" /> |\n")}
 
 	</section>
@@ -109,7 +109,7 @@
 
 {#snippet intrigues()}
 	<section>
-		<h2 id="intrigues">Intrigues</h2>
+		<h2 id="intrigues">{@html applyBase("Intrigues")}</h2>
 	{@html renderMarkdown("> Evénements et leur conclusion sans l'intervention des joueurs\n")}
 	{@render lpreuveDesEnfants()}
 	{@render laGemmeMaudite()}
@@ -119,7 +119,7 @@
 
 {#snippet lpreuveDesEnfants()}
 	<section>
-		<h3 id="lpreuve-des-enfants">L'épreuve des Enfants</h3>
+		<h3 id="lpreuve-des-enfants">{@html applyBase("L'épreuve des Enfants")}</h3>
 	{@html renderMarkdown("- 1d6 enfants décident de rester avec Nix et Salomé\n  - Les autres peuvent se joindre à Hazdaim et retourner à l'orphelinat\n")}
 
 	</section>
@@ -127,7 +127,7 @@
 
 {#snippet laGemmeMaudite()}
 	<section>
-		<h3 id="la-gemme-maudite">La Gemme Maudite</h3>
+		<h3 id="la-gemme-maudite">{@html applyBase("La Gemme Maudite")}</h3>
 	{@html renderMarkdown("- Nix fouille dans le sac d'Arek pour voir s'il a toujours le sceau de leur ancien groupe\n  - Elle trouve la gemme venant du golem dans le domaine du Masque\n\t Si on ne fait rien, elle fera une crise et risquera de se faire controller par le Masque\n")}
 
 	</section>
@@ -135,7 +135,7 @@
 
 {#snippet lesMurmuresSousLesRacines()}
 	<section>
-		<h3 id="les-murmures-sous-les-racines">Les Murmures Sous les Racines</h3>
+		<h3 id="les-murmures-sous-les-racines">{@html applyBase("Les Murmures Sous les Racines")}</h3>
 	{@html renderMarkdown("- Nix entend des murmures dans la forêt, mais Salomé dit qu'il s'agit simplement d'esprits égarés\n  - Les enfants ne veulent plus manger de peur d'être trop appétissants\n\t Si on ne fait rien, quiconque s'éloigne du groupe en petit nombre se fait attaquer par le monstre\n\n<img src=\"%%BASE%%/Campement%20de%20Nix%20et%20Salom%C3%A9%20Monstre.jpg\" alt=\"Campement de Nix et Salomé Monstre.jpg\" width=\"750\" class=\"wiki-image\" />\n\n| Entités | AC  | DR  | HP  | Résistances                                 |  Léger  |   Lourde    |\n| ------- | :-: | :-: | :-: | ------------------------------------------- | :-----: | :---------: |\n| Arbre   |  8  | 16  | 400 | Magie (sauf Feu)<br>Contondant et Perforant |         |             |\n| Shroom  | 12  |  0  | 20  | -                                           | (2d6+6) | (2d6+2) +15 |\n| Enfant  | 10  |  0  | 30  | -                                           |    -    |      -      |\n\n| Attaque | Dégâts                                                                   | Effet                                             | Coût |\n| ------- | ------------------------------------------------------------------------ | ------------------------------------------------- | ---: |\n| Frappe  | (2d6+8) +10<br>+ 4/8/12 (si smash -> armure du grab légère/inter/lourde) | -                                                 |    - |\n| Grab    | (2d6+4)<br>2d4/6/8 / tour aux HP<br>(armure légère/inter/lourde)         | Incapacité<br>DC 20 (STR, DEX)<br>HP 40           |    - |\n| Smash   | 2d12<br>+ 4/8/12 HP (armure)                                             | Nécessite Grab                                    |    - |\n| Lianes  | (3d4+8)<br>1d4/6/8 HP / tour (armure)                                    | Immobilisation<br>DC 15 (STR, DEX)<br>HP 15 (Feu) |    1 |\n| Racines | (2d6+4)<br>2d4/6/8 HP / tour (armure)                                    | Immobilisation<br>DC 20 (STR, DEX)<br>HP 40 (Feu) |    2 |\n| Appel   | -                                                                        | Invoque 2+1d4 Shroom                              |    2 |\n")}
 
 	</section>
@@ -143,7 +143,7 @@
 
 {#snippet actionsDesJoueurs()}
 	<section>
-		<h2 id="actions-des-joueurs">Actions des joueurs</h2>
+		<h2 id="actions-des-joueurs">{@html applyBase("Actions des joueurs")}</h2>
 	{@html renderMarkdown("\n**23/05/26**\n- Le groupe discute avec Nix et Salomé et conviennent de mettre les enfants à l'épreuve le lendemain pour savoir avec qui ils veulent aller\n- Hazdaim prie un dieu pour que les enfants fassent le bon choix4\n\n**20/06/26**\n- Nix touche la gemme (qui provient du coeur du golem dans le domaine du masque) et convulse en se soulevant comme un pantin\n\t- Magie de lumière et poing dans sa gueule pour la faire revenir à elle\n- Les enfants se réveillent et sont livrés à eux-mêmes dans la forêt pour errer jusqu'au bon groupe\n\t- Ronronov = Loïc\n\t- Strauss = Thomas\n\t- Urzok = Michel\n\t- Aldrich = Diego\n- Ils trouvent des couteaux rouillés, et Ronronov trouve une dague de glace\n- Ronronov attaque un enfant champignon, et Strauss vient le retirer trop tard et ils se font asperger de spores\n- Aldrich lance de la merde magique sur Ronronov qui baillait\n- Ils trouvent une épée sans garde ni pommeau\n\t- Ils veulent la mouiller pour glacer l'eau et fendre la roche autour de la lame\n\t\t- Ca électrocute Aldrich lorsqu'il jette l'eau dessus\n- Ronronov rentre dans un cercle de champignons et fait apparaitre une grosse fée\n\t- Urzok rentre dans le cercle, ce qui fait exploser la fée\n- Ils rencontrent un gros champignon qui s'en prend à Strauss, et qui se fait découper par l'épée électrique de Aldrich\n- Uzrok trouve un casque magique qui permet de respirer sous l'eau\n- Ils rencontrent des arbres cogneurs avec de belles formes humanoïdes qui se mettent à les pourchasser\n- Ils passent la nuit dans une vieille grange et se font attaquer par l'arbre de la forêt\n\n**03/07/26**\n- Combat contre l'Arbre de la forêt\n- Arek jette les enfants loin de l'Arbre\n- Hazdaim fait la toupie sur l'Arbre\n- Les joueurs suspectent Salomé d'avoir invoqué l'Arbre\n\t- Dara utilise sa lame de Sombronce pour l'immobiliser\n\t\t- Elle libère une onde de choc de foudre (10d10) qu'il évite\n- Tout le monde se fait entraver par des lianes\n\t- La majorité se libère sauf les enfants\n- Les enfants se font attaquer par des Champignons\n- Arek se fait attraper par l'Arbre, et il s'en sert pour swinger Hazdaim au loin\n\t- Zveindel lance une boule de feu sur l'Arbre et touche Arek, ce qui le libère\n- L'Arbre s'enracine pour réapparaitre près de Dara et Salomé\n\t- Il prend Salomé et s'en sert pour la fracasser contre Dara 4 fois d'affilée (=8 tokens) (4x 37 dmg)\n\t\t- Dara utilise 6 tokens pour rester en vie, et le groupe utilise chacun 1 token pour passer le tour de l'Arbre\n- L'Arbre au bord de la mort utilise tout ce qu'il lui reste (16 tokens) pour créer une explosion énorme\n\t- Les joueurs utilisent leur token pour passer son tour et évite 158 dmg\n\n**17/07/2026**\n- Arrivée dans la ville de Pulmius -> Courses\n- Le groupe suit le chemin pour arriver dans une carrière\n- Un morceau de la paroi émet de la magie, ainsi que quelque chose au fond de l'eau\n- Arek fracasse ~~la porte~~ la paroi de son poing et de sa charge\n- Il tombe sur un couloir qui aurait été utilisé il y a moins d'un an\n- Il le suive et se font emporter pas de l'eau avant d'atteindre la sortie\n- Ils voient des lumières au loin et s'en rapproche")}
 
 	</section>

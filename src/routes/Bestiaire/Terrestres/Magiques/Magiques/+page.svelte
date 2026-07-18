@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -51,7 +51,7 @@
 
 {#snippet invocation()}
 	<section>
-		<h1 id="invocation"><span class="wiki-unresolved">Invocation</span></h1>
+		<h1 id="invocation">{@html applyBase("<span class=\"wiki-unresolved\">Invocation</span>")}</h1>
 
 
 	</section>
@@ -59,7 +59,7 @@
 
 {#snippet elmentaire()}
 	<section>
-		<h1 id="elmentaire"><span class="wiki-unresolved">Elémentaire</span></h1>
+		<h1 id="elmentaire">{@html applyBase("<span class=\"wiki-unresolved\">Elémentaire</span>")}</h1>
 
 
 	</section>
@@ -67,7 +67,7 @@
 
 {#snippet mimics()}
 	<section>
-		<h1 id="mimics"><span class="wiki-unresolved">Mimics</span></h1>
+		<h1 id="mimics">{@html applyBase("<span class=\"wiki-unresolved\">Mimics</span>")}</h1>
 
 
 	</section>
@@ -75,7 +75,7 @@
 
 {#snippet draconide()}
 	<section>
-		<h1 id="draconide"><span class="wiki-unresolved">Draconide</span></h1>
+		<h1 id="draconide">{@html applyBase("<span class=\"wiki-unresolved\">Draconide</span>")}</h1>
 
 
 	</section>

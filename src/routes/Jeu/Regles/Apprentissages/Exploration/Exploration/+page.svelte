@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -63,7 +63,7 @@
 
 {#snippet spcialisations()}
 	<section>
-		<h2 id="spcialisations">Spécialisations</h2>
+		<h2 id="spcialisations">{@html applyBase("Spécialisations")}</h2>
 
 	{@render cartographe()}
 	{@render chasseur()}
@@ -75,7 +75,7 @@
 
 {#snippet cartographe()}
 	<section>
-		<h3 id="cartographe"><span class="wiki-unresolved">Cartographe</span></h3>
+		<h3 id="cartographe">{@html applyBase("<span class=\"wiki-unresolved\">Cartographe</span>")}</h3>
 
 
 	</section>
@@ -83,7 +83,7 @@
 
 {#snippet chasseur()}
 	<section>
-		<h3 id="chasseur"><span class="wiki-unresolved">Chasseur</span></h3>
+		<h3 id="chasseur">{@html applyBase("<span class=\"wiki-unresolved\">Chasseur</span>")}</h3>
 
 
 	</section>
@@ -91,7 +91,7 @@
 
 {#snippet equitation()}
 	<section>
-		<h3 id="equitation"><span class="wiki-unresolved">Equitation</span></h3>
+		<h3 id="equitation">{@html applyBase("<span class=\"wiki-unresolved\">Equitation</span>")}</h3>
 
 
 	</section>
@@ -99,7 +99,7 @@
 
 {#snippet natation()}
 	<section>
-		<h3 id="natation"><span class="wiki-unresolved">Natation</span></h3>
+		<h3 id="natation">{@html applyBase("<span class=\"wiki-unresolved\">Natation</span>")}</h3>
 
 
 	</section>
@@ -107,7 +107,7 @@
 
 {#snippet navigation()}
 	<section>
-		<h3 id="navigation"><span class="wiki-unresolved">Navigation</span></h3>
+		<h3 id="navigation">{@html applyBase("<span class=\"wiki-unresolved\">Navigation</span>")}</h3>
 
 
 	</section>

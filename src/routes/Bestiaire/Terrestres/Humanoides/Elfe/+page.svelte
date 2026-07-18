@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -62,7 +62,7 @@
 
 {#snippet nature()}
 	<section>
-		<h2 id="nature">Nature</h2>
+		<h2 id="nature">{@html applyBase("Nature")}</h2>
 	{@html renderMarkdown("\nLes Elfes ne vieillissent pas et ne peuvent pas se reproduire.\n\nIls ne ressentent que très peu d'émotions et peinent à comprendre les préoccupations des autres peuples, notamment leur obsession pour la survie, la famille ou l'amélioration de leur condition.\n")}
 
 	</section>
@@ -70,7 +70,7 @@
 
 {#snippet obsession()}
 	<section>
-		<h2 id="obsession">Obsession</h2>
+		<h2 id="obsession">{@html applyBase("Obsession")}</h2>
 	{@html renderMarkdown("\nChaque Elfe développe très tôt une obsession unique qui définit l'intégralité de son existence.\n\nCette obsession est fortement influencée par la divinité dont il descend.\n\nToute sa vie sera consacrée à cet unique objectif.\n\nUn Elfe peut ainsi passer plusieurs siècles :\n- à perfectionner son art ;\n- à étudier un sujet ;\n- à mener une guerre ;\n- à poursuivre une découverte.\n\nTout le reste devient secondaire.\n")}
 
 	</section>
@@ -78,7 +78,7 @@
 
 {#snippet socit()}
 	<section>
-		<h2 id="socit">Société</h2>
+		<h2 id="socit">{@html applyBase("Société")}</h2>
 	{@html renderMarkdown("\nLes Elfes ne ressentent aucun besoin naturel de vivre en communauté.\n\nIls fréquentent d'autres individus uniquement lorsque cela sert leur obsession.\n\nMême les communautés elfiques sont rares et généralement temporaires.\n")}
 
 	</section>
@@ -86,7 +86,7 @@
 
 {#snippet rputation()}
 	<section>
-		<h2 id="rputation">Réputation</h2>
+		<h2 id="rputation">{@html applyBase("Réputation")}</h2>
 	{@html renderMarkdown("\nLes autres peuples se méfient souvent des Elfes.\n\nUn Elfe est incapable d'abandonner son obsession, même lorsque cela implique :\n- de trahir un allié ;\n- de provoquer une catastrophe ;\n- de sacrifier des innocents.\n\nLeur parole n'est donc jamais considérée comme totalement fiable.\n")}
 
 	</section>
@@ -94,7 +94,7 @@
 
 {#snippet particularits()}
 	<section>
-		<h2 id="particularits">Particularités</h2>
+		<h2 id="particularits">{@html applyBase("Particularités")}</h2>
 	{@html renderMarkdown("\n- Immortels.\n- Stériles.\n- Faible compréhension émotionnelle.\n- Dévouement absolu à une obsession unique.")}
 
 	</section>

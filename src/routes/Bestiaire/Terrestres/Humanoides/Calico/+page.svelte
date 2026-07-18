@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -68,7 +68,7 @@
 
 {#snippet lore()}
 	<section>
-		<h1 id="lore">Lore</h1>
+		<h1 id="lore">{@html applyBase("Lore")}</h1>
 
 	{@render apparence()}
 	{@render socit()}
@@ -79,7 +79,7 @@
 
 {#snippet apparence()}
 	<section>
-		<h2 id="apparence">Apparence</h2>
+		<h2 id="apparence">{@html applyBase("Apparence")}</h2>
 	{@html renderMarkdown("\nLes Calicos mesurent généralement autour d'un mètre de haut et conservent les caractéristiques physiques de leur espèce d'origine.\n\nLeur croissance dépend directement de la manière dont la magie est utilisée durant leur jeunesse :\n\n- Si leur cerveau est stimulé par l'apprentissage et l'observation, la magie se concentre dans leurs connexions neuronales, favorisant leur intelligence et limitant leur croissance physique.\n\n- Si cette stimulation est insuffisante, la magie se répand dans l'ensemble du corps, produisant des créatures beaucoup plus massives, puissantes et dangereuses.\n")}
 
 	</section>
@@ -87,7 +87,7 @@
 
 {#snippet socit()}
 	<section>
-		<h2 id="socit">Société</h2>
+		<h2 id="socit">{@html applyBase("Société")}</h2>
 	{@html renderMarkdown("\nOn distingue généralement deux grands groupes :\n")}
 	{@render calicosCiviliss()}
 	{@render calicosSauvages()}
@@ -96,7 +96,7 @@
 
 {#snippet calicosCiviliss()}
 	<section>
-		<h3 id="calicos-civiliss">Calicos civilisés</h3>
+		<h3 id="calicos-civiliss">{@html applyBase("Calicos civilisés")}</h3>
 	{@html renderMarkdown("\nAyant grandi au contact des humanoïdes, ils marchent sur deux pattes, utilisent des outils et adoptent souvent les comportements des peuples qu'ils ont observés.\n")}
 
 	</section>
@@ -104,7 +104,7 @@
 
 {#snippet calicosSauvages()}
 	<section>
-		<h3 id="calicos-sauvages">Calicos sauvages</h3>
+		<h3 id="calicos-sauvages">{@html applyBase("Calicos sauvages")}</h3>
 	{@html renderMarkdown("\nPlus proches de leur nature animale, ils possèdent une intelligence variable mais ne cherchent pas nécessairement à reproduire les modes de vie humanoïdes.\n")}
 
 	</section>
@@ -112,7 +112,7 @@
 
 {#snippet culture()}
 	<section>
-		<h2 id="culture">Culture</h2>
+		<h2 id="culture">{@html applyBase("Culture")}</h2>
 	{@html renderMarkdown("\nChaque culture Calico est influencée par deux facteurs :\n- Les sociétés humanoïdes qu'elle a observées.\n- Les instincts propres à l'animal dont elle est issue.\n\nAinsi, deux communautés Calicos peuvent avoir très peu de points communs malgré leur origine commune.\n")}
 
 	</section>
@@ -120,7 +120,7 @@
 
 {#snippet particularits()}
 	<section>
-		<h2 id="particularits">Particularités</h2>
+		<h2 id="particularits">{@html applyBase("Particularités")}</h2>
 	{@html renderMarkdown("\n- Grande affinité avec la magie.\n- Corps naturellement imprégné de micro-crystaux.\n- Forte diversité culturelle et comportementale.")}
 
 	</section>

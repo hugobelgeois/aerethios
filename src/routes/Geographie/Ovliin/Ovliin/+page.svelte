@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -69,7 +69,7 @@
 
 {#snippet capitale()}
 	<section>
-		<h2 id="capitale">Capitale</h2>
+		<h2 id="capitale">{@html applyBase("Capitale")}</h2>
 	{@html renderMarkdown("<span class=\"wiki-unresolved\">Ruvik</span>\n")}
 
 	</section>
@@ -77,7 +77,7 @@
 
 {#snippet mtropol()}
 	<section>
-		<h2 id="mtropol">Métropol</h2>
+		<h2 id="mtropol">{@html applyBase("Métropol")}</h2>
 	{@html renderMarkdown("<span class=\"wiki-unresolved\">Bizmor</span>\n<span class=\"wiki-unresolved\">Brek</span>\n<span class=\"wiki-unresolved\">Gronok</span>\n<span class=\"wiki-unresolved\">Kraken</span>\n<span class=\"wiki-unresolved\">Mirnjoll</span>\n<span class=\"wiki-unresolved\">Ruskit</span>\n<span class=\"wiki-unresolved\">Siv</span>\n<span class=\"wiki-unresolved\">Urvalsn</span>\n<span class=\"wiki-unresolved\">Viskars</span>\n<span class=\"wiki-unresolved\">Wolg</span>\n<span class=\"wiki-unresolved\">Zuvir</span>\n")}
 
 	</section>
@@ -85,7 +85,7 @@
 
 {#snippet grandeVille()}
 	<section>
-		<h2 id="grande-ville">Grande Ville</h2>
+		<h2 id="grande-ville">{@html applyBase("Grande Ville")}</h2>
 
 
 	</section>
@@ -93,7 +93,7 @@
 
 {#snippet ville()}
 	<section>
-		<h2 id="ville">Ville</h2>
+		<h2 id="ville">{@html applyBase("Ville")}</h2>
 
 
 	</section>
@@ -101,7 +101,7 @@
 
 {#snippet bourg()}
 	<section>
-		<h2 id="bourg">Bourg</h2>
+		<h2 id="bourg">{@html applyBase("Bourg")}</h2>
 
 
 	</section>
@@ -109,7 +109,7 @@
 
 {#snippet village()}
 	<section>
-		<h2 id="village">Village</h2>
+		<h2 id="village">{@html applyBase("Village")}</h2>
 
 
 	</section>
@@ -117,7 +117,7 @@
 
 {#snippet hameau()}
 	<section>
-		<h2 id="hameau">Hameau</h2>
+		<h2 id="hameau">{@html applyBase("Hameau")}</h2>
 
 
 	</section>

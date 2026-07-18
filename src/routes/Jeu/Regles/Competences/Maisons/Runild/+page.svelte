@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -57,7 +57,7 @@
 
 {#snippet _Po()}
 	<section>
-		<h2 id="1-po">1 po</h2>
+		<h2 id="1-po">{@html applyBase("1 po")}</h2>
 	{@html renderMarkdown("\n- Accès à l'hôtel des ventes.\n")}
 
 	</section>
@@ -65,7 +65,7 @@
 
 {#snippet _0Po()}
 	<section>
-		<h2 id="50-po">50 po</h2>
+		<h2 id="50-po">{@html applyBase("50 po")}</h2>
 	{@html renderMarkdown("\n- Accès à l'hôtel des ventes,\n- **N'est pas taxé par la banque lors d'un retrait.**\n")}
 
 	</section>
@@ -73,7 +73,7 @@
 
 {#snippet _00Po()}
 	<section>
-		<h2 id="100-po">100 po</h2>
+		<h2 id="100-po">{@html applyBase("100 po")}</h2>
 	{@html renderMarkdown("\n- Accès à l'hôtel des ventes,\n- N'est pas taxé par la banque lors d'un retrait,\n- **Octroie 10% de réduction cher les marchands Runild.**\n")}
 
 	</section>
@@ -81,7 +81,7 @@
 
 {#snippet _00Po_2()}
 	<section>
-		<h2 id="500-po">500 po</h2>
+		<h2 id="500-po">{@html applyBase("500 po")}</h2>
 	{@html renderMarkdown("\n- Accès à l'hôtel des ventes,\n- N'est pas taxé par la banque lors d'un retrait,\n- Octroie 10% de réduction cher les marchands Runild,\n- **Le compte bancaire peut être bloqué tous les mois pour que la somme actuellement présente engrange 1% de bénéfices.**\n")}
 
 	</section>
@@ -89,7 +89,7 @@
 
 {#snippet _000Po()}
 	<section>
-		<h2 id="1000-po">1000 po</h2>
+		<h2 id="1000-po">{@html applyBase("1000 po")}</h2>
 	{@html renderMarkdown("\n- Accès à l'hôtel des ventes,\n- N'est pas taxé par la banque lors d'un retrait,\n- Octroie 10% de réduction cher les marchands Runild,\n- Le compte bancaire peut être bloqué tous les mois pour que la somme actuellement présente engrange **2%** de bénéfices,\n-")}
 
 	</section>

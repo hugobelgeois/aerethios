@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -43,7 +43,7 @@
 
 {#snippet spcialisations()}
 	<section>
-		<h2 id="spcialisations">Spécialisations</h2>
+		<h2 id="spcialisations">{@html applyBase("Spécialisations")}</h2>
 
 	{@render mdecine()}
 	</section>
@@ -51,7 +51,7 @@
 
 {#snippet mdecine()}
 	<section>
-		<h3 id="mdecine"><span class="wiki-unresolved">Médecine</span></h3>
+		<h3 id="mdecine">{@html applyBase("<span class=\"wiki-unresolved\">Médecine</span>")}</h3>
 
 
 	</section>

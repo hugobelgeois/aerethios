@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -81,7 +81,7 @@
 
 {#snippet dtails()}
 	<section>
-		<h2 id="dtails">Détails</h2>
+		<h2 id="dtails">{@html applyBase("Détails")}</h2>
 	{@html renderMarkdown("\nLieu actuel : Nirina, Vers Pulmius\n\nObjectif :\n\nPnjs notables : Kigan Krust\n")}
 
 	</section>
@@ -89,7 +89,7 @@
 
 {#snippet notes()}
 	<section>
-		<h2 id="notes">Notes</h2>
+		<h2 id="notes">{@html applyBase("Notes")}</h2>
 	{@html renderMarkdown("\n|           |       Arek       |       Dara        |           Haelrak           |      Hazdaim       |      Léoric      |  Zveindel   |\n| --------- | :--------------: | :---------------: | :-------------------------: | :----------------: | :--------------: | :---------: |\n| **AC**    |      8 (-3)      |        15         |             14              |         14         |        9         |     10      |\n| **DR**    |     25 (+40)     |        14         |             12              |         12         |        23        |     20      |\n| **DMG**   | 5 + 33<br>6 + 40 | 9 + 27<br>14 + 10 | 12 + 4<br>16 + 5<br>12 + 15 | 10 + 10<br>12 + 10 | 14 + 6<br>7 + 20 |      -      |\n| **Magie** |    9 (1d8 +5)    |     9 (1d12)      |          14 (1d8)           |      9 (1d6)       |     9 (1d8)      | 14 (1d8 +2) |\n\n| Ennemi     | AC  | DR  | HP  |          Léger          | Lourde | Magie |\n| ---------- | :-: | :-: | :-: | :---------------------: | :----: | :---: |\n| Aventurier | 18  | 12  | 50  | 3d8 +8<br>VS Humanoides |   -    |   -   |\n")}
 
 	</section>
@@ -97,7 +97,7 @@
 
 {#snippet scnario()}
 	<section>
-		<h2 id="scnario">Scénario</h2>
+		<h2 id="scnario">{@html applyBase("Scénario")}</h2>
 	{@html renderMarkdown("\nDire aux joueurs qu'ils vont devoir faire preuve d'initiative.\n\n**Dara** -> Ombre Zaledra -> Il intercepte ses missives de commerce -> Plus de mini-jeu de commerce\n")}
 	{@render _LeDuoDePaladinsEstPlatineOuHiromage()}
 	{@render _VoyageJusquLaDouane()}
@@ -109,7 +109,7 @@
 
 {#snippet _LeDuoDePaladinsEstPlatineOuHiromage()}
 	<section>
-		<h3 id="1-le-duo-de-paladins-est-platine-ou-hiromage">1) Le duo de Paladins est Platine ou Hiéromage</h3>
+		<h3 id="1-le-duo-de-paladins-est-platine-ou-hiromage">{@html applyBase("1) Le duo de Paladins est Platine ou Hiéromage")}</h3>
 	{@html renderMarkdown("> **Interaction**, Qui > Quoi\n\nKigan a été se renseigner auprès des Arvens pour avoir une estimation du rang du duo de paladins.\n\nIls ont beaucoup de magie et appréhendent les combats intelligemment, donc sûrement Platine ou Hiéromage.\n\nIls attaquent rarement leur cible de front.\n\nIls ont enfumé la ville sous le volcan et abattu les nains qui sortaient des trous.\n\nIl s'est aussi renseigné et sait où sont Nyx et Salomé (Pulmius)\n")}
 
 	</section>
@@ -117,7 +117,7 @@
 
 {#snippet _VoyageJusquLaDouane()}
 	<section>
-		<h3 id="2-voyage-jusqu-la-douane">2) Voyage jusqu'à la douane</h3>
+		<h3 id="2-voyage-jusqu-la-douane">{@html applyBase("2) Voyage jusqu'à la douane")}</h3>
 	{@html renderMarkdown("> **Exploration**, Qui > Quoi\n\nInstaurer un stress et de la parano.\n\nDes jets de perception fréquent.\n\n\"Tu t'es déjà senti observé? Non? Hm.\"\n\nS'ils ne me coupent pas pour faire des tours de garde la nuit -> Ils dorment tous.\n")}
 
 	</section>
@@ -125,7 +125,7 @@
 
 {#snippet _AventurierSolitaireEnQuteDeDfi()}
 	<section>
-		<h3 id="3-aventurier-solitaire-en-qute-de-dfi">3) Aventurier solitaire en quête de défi</h3>
+		<h3 id="3-aventurier-solitaire-en-qute-de-dfi">{@html applyBase("3) Aventurier solitaire en quête de défi")}</h3>
 	{@html renderMarkdown(">**Combat**, Qui > Quoi\n\nIl challenge un des joueurs à un combat amical contre de l'argent.\n")}
 
 	</section>
@@ -133,7 +133,7 @@
 
 {#snippet _Bloqu_LaDouaneParOrdreDesLionsDargent()}
 	<section>
-		<h3 id="4-bloqu--la-douane-par-ordre-des-lions-dargent">4) Bloqué à la douane ~~par ordre des Lions d'Argent~~</h3>
+		<h3 id="4-bloqu--la-douane-par-ordre-des-lions-dargent">{@html applyBase("4) Bloqué à la douane ~~par ordre des Lions d'Argent~~")}</h3>
 	{@html renderMarkdown("> **Puzzle**, Qui > Quoi\n\n\"N'essayez pas de prendre un bateau, on contrôle tous les ports\"\n\n/!\\ Comportements suspects des joueurs\n- Soudoyer les gardes\n- Trop argumenter, trop de questions\n\nIls ont quartier libre pour imaginer comment passer la douane.\n")}
 
 	</section>
@@ -141,7 +141,7 @@
 
 {#snippet _ALaRechercheDeNyxEtSalom()}
 	<section>
-		<h3 id="5-a-la-recherche-de-nyx-et-salom">5) A la recherche de Nyx et Salomé</h3>
+		<h3 id="5-a-la-recherche-de-nyx-et-salom">{@html applyBase("5) A la recherche de Nyx et Salomé")}</h3>
 	{@html renderMarkdown("> **Exploration**, Qui > Quoi\n\nDirection Pulmius, et escale à l'orphelinat.\n")}
 
 	</section>
@@ -149,7 +149,7 @@
 
 {#snippet joueurs()}
 	<section>
-		<h2 id="joueurs">Joueurs</h2>
+		<h2 id="joueurs">{@html applyBase("Joueurs")}</h2>
 	{@html renderMarkdown("\n- [x] Diego 22\n- [x] Loïc 17\n- [ ] Lucas 9\n- [x] Michel 24\n- [ ] Nolan 8\n- [x] Thomas 21\n- [ ] William 7\n\n|         Précédent         |          Suivant          |\n| :-----------------------: | :-----------------------: |\n| <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26\" data-wiki-fragment=\"\">Arc 4 - 20 - 13.02.26</a> | <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 22 - 03.04.26\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 22 - 03.04.26\" data-wiki-fragment=\"\">Arc 4 - 22 - 03.04.26</a> |\n")}
 
 	</section>

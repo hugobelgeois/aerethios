@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -56,7 +56,7 @@
 
 {#snippet craturesTerrestres()}
 	<section>
-		<h1 id="cratures-terrestres">Créatures Terrestres</h1>
+		<h1 id="cratures-terrestres">{@html applyBase("Créatures Terrestres")}</h1>
 	{@html renderMarkdown("\nEntités combattues par les <span class=\"wiki-unresolved\">Arvens</span> à l'aide de méthodes de combat conventionnelles.\n\n---\n")}
 
 	</section>
@@ -64,7 +64,7 @@
 
 {#snippet craturesPlanaires()}
 	<section>
-		<h1 id="cratures-planaires">Créatures Planaires</h1>
+		<h1 id="cratures-planaires">{@html applyBase("Créatures Planaires")}</h1>
 	{@html renderMarkdown("\nEntités combattues par les <span class=\"wiki-unresolved\">Templis</span>\n\n---\n")}
 
 	</section>
@@ -72,7 +72,7 @@
 
 {#snippet altrations()}
 	<section>
-		<h1 id="altrations">Altérations</h1>
+		<h1 id="altrations">{@html applyBase("Altérations")}</h1>
 	{@html renderMarkdown("\n- Imbibé de magie (développe des abilités magiques posistives)\n- Renforcé (les os sortent du corps pour faire un exo-squelette)\n- Nécrosé de magie (comportement anormaux, régénération rapide, sorte de cancer)\n- Parasité/ Symbioté\n- Sacré \n- Totémique (lié à un culte, sa force croît avec le nombre d’adorateurs ou de sacrifices)\n- Cyclique (change d’apparence et de pouvoirs selon un cycle)\n\n---\n")}
 
 	</section>
@@ -80,7 +80,7 @@
 
 {#snippet tailles()}
 	<section>
-		<h1 id="tailles">Tailles</h1>
+		<h1 id="tailles">{@html applyBase("Tailles")}</h1>
 	{@html renderMarkdown("\n- Minuscule (rat, chauve-souris, familier)\n- Petit (chien, gobelin, loup)\n- Normal (humain, orc, ogre jeune)\n- Grand (ours, troll, wyverne)\n- Énorme (hydre, éléphant, ogroides puissants)\n- Titanesque (dragons anciens, colosses, avatars des dieux)")}
 
 	</section>

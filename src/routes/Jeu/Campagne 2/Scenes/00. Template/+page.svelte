@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -61,7 +61,7 @@
 
 {#snippet description()}
 	<section>
-		<h2 id="description">Description</h2>
+		<h2 id="description">{@html applyBase("Description")}</h2>
 	{@html renderMarkdown("> Description à lire aux joueurs en entrant dans cette scène.\n\n\t...\n")}
 
 	</section>
@@ -69,7 +69,7 @@
 
 {#snippet dtails()}
 	<section>
-		<h2 id="dtails">Détails</h2>
+		<h2 id="dtails">{@html applyBase("Détails")}</h2>
 	{@html renderMarkdown("\n| Lieu | Météo | Heure | Musique |\n| ---- | ----- | ----- | ------- |\n|      |       |       |         |")}
 	{@render maps()}
 	{@render rencontres()}
@@ -78,7 +78,7 @@
 
 {#snippet maps()}
 	<section>
-		<h3 id="maps">Maps</h3>
+		<h3 id="maps">{@html applyBase("Maps")}</h3>
 
 
 	</section>
@@ -86,7 +86,7 @@
 
 {#snippet rencontres()}
 	<section>
-		<h3 id="rencontres">Rencontres</h3>
+		<h3 id="rencontres">{@html applyBase("Rencontres")}</h3>
 	{@html renderMarkdown("\n| Nom | Rôle | Race | Sexe | Age | Personnalité | Accent | Equipement |\n| :-: | ---- | :--: | :--: | :-: | :----------: | :----: | :--------: |\n|     |      |      |      |     |              |        |            |\n")}
 
 	</section>
@@ -94,7 +94,7 @@
 
 {#snippet intrigues()}
 	<section>
-		<h2 id="intrigues">Intrigues</h2>
+		<h2 id="intrigues">{@html applyBase("Intrigues")}</h2>
 	{@html renderMarkdown("> Evénements et leur conclusion sans l'intervention des joueurs\n\n-\n")}
 
 	</section>
@@ -102,7 +102,7 @@
 
 {#snippet actionsDesJoueurs()}
 	<section>
-		<h2 id="actions-des-joueurs">Actions des joueurs</h2>
+		<h2 id="actions-des-joueurs">{@html applyBase("Actions des joueurs")}</h2>
 	{@html renderMarkdown("\n- ")}
 
 	</section>

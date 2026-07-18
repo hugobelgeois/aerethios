@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -59,7 +59,7 @@
 
 {#snippet hitPointsHp()}
 	<section>
-		<h2 id="hit-points-hp">Hit Points (HP)</h2>
+		<h2 id="hit-points-hp">{@html applyBase("Hit Points (HP)")}</h2>
 	{@html renderMarkdown("\nLes humanoïdes possèdent tous un **maximum de 50 HP** qui se régénèrent avec du repos (pour peu que la personne ait mangé récemment) ou de la magie.\n\nIls peuvent monter jusqu'à 100 HP pour une durée d'un jour si un plat avec des bons effets a été consommé.\n")}
 
 	</section>
@@ -67,7 +67,7 @@
 
 {#snippet actions()}
 	<section>
-		<h2 id="actions">Actions</h2>
+		<h2 id="actions">{@html applyBase("Actions")}</h2>
 
 	{@render motiver()}
 	{@render attaquer()}
@@ -77,7 +77,7 @@
 
 {#snippet motiver()}
 	<section>
-		<h3 id="motiver">Motiver</h3>
+		<h3 id="motiver">{@html applyBase("Motiver")}</h3>
 	{@html renderMarkdown(">Seulement au premier tour, seulement fait par un joueur.\n>Selon l'appréciation du MJ.\n\nMotiver son équipe pour lui donner un avantage/ Faire peur aux adversaires pour leur donner un désavantage (effet et durée selon le MJ)\n")}
 
 	</section>
@@ -85,7 +85,7 @@
 
 {#snippet attaquer()}
 	<section>
-		<h3 id="attaquer">Attaquer</h3>
+		<h3 id="attaquer">{@html applyBase("Attaquer")}</h3>
 	{@html renderMarkdown(">Résultat - Défense (DR) = Dégâts au HP.\n\n| Mêlée                             | Distance                              | Magie                                | Requis |\n| --------------------------------- | ------------------------------------- | ------------------------------------ | ------ |\n| Dés d'arme<br>+Maîtrise           | Dés d'arme<br>+Maîtrise               | Dés de magie                         | >= AC  |\n| + Matériaux                       | + Matériaux                           | + Toiles Célestes                    | > DR   |\n| Style<br>*(multiplicateur final)* | Précision<br>*(multiplicateur final)* | Crystaux<br>*(multiplicateur final)* | -      |\n")}
 
 	</section>
@@ -93,7 +93,7 @@
 
 {#snippet seConcentrer()}
 	<section>
-		<h3 id="se-concentrer">Se concentrer</h3>
+		<h3 id="se-concentrer">{@html applyBase("Se concentrer")}</h3>
 	{@html renderMarkdown(">Prendre 10/20\n\nPrendre son temps (sans se faire perturber) pour réussir les DC de 10 (1 tour) / 20 (2 tours).\n\nPermet également de régénérer sa magie.")}
 
 	</section>

@@ -11,6 +11,21 @@ import { base } from "$app/paths";
 const BASE_SENTINEL = "%%BASE%%";
 
 /**
+ * Swaps BASE_SENTINEL for the site's real base path. renderMarkdown() does
+ * this itself on its own output — this standalone export exists for the
+ * rare spot that embeds wikilink-derived HTML directly instead of going
+ * through a full renderMarkdown() call (section headings in pageexporter.ts,
+ * which can contain a wikilink and are spliced straight into the compiled
+ * Svelte template rather than rendered at runtime).
+ */
+export function applyBase(html: string): string {
+	// split/join instead of a regex replace — the sentinel is a plain
+	// literal string, never a pattern, and this can't misfire on any
+	// regex-special characters `base` itself might contain.
+	return html.split(BASE_SENTINEL).join(base);
+}
+
+/**
  * Lightweight Markdown → HTML renderer.
  */
 export function renderMarkdown(md: string): string {
@@ -139,10 +154,7 @@ export function renderMarkdown(md: string): string {
 		}
 	}
 
-	// split/join instead of a regex replace — the sentinel is a plain
-	// literal string, never a pattern, and this can't misfire on any
-	// regex-special characters `base` itself might contain.
-	return out.join("\n").split(BASE_SENTINEL).join(base);
+	return applyBase(out.join("\n"));
 }
 
 // ── Inline renderer ────────────────────────────────────────────────────────

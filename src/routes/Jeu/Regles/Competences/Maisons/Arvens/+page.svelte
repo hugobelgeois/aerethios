@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -62,7 +62,7 @@
 
 {#snippet bronze()}
 	<section>
-		<h2 id="bronze">Bronze</h2>
+		<h2 id="bronze">{@html applyBase("Bronze")}</h2>
 	{@html renderMarkdown(">Niveau 1 à 3 = Poids morts\n\n- **la guilde fournit des rations pour la quête en cours,**\n- **la guilde offre l'accès à ses bâtiments :**\n\t- **la taverne.**\n")}
 
 	</section>
@@ -70,7 +70,7 @@
 
 {#snippet argent()}
 	<section>
-		<h2 id="argent">Argent</h2>
+		<h2 id="argent">{@html applyBase("Argent")}</h2>
 	{@html renderMarkdown(">Niveau 4 à 7 = Débutants\n\n| Crystaux | Maîtrise Magique | Magie Débloquée | Points magiques |\n| :------: | :--------------: | :-------------: | :-------------: |\n|    5     |        0         |        1        |     5 [1-5]     |\n\n- la guilde fournit des rations pour la quête en cours,\n- **la guilde paie la réparation des équipements,**\n- la guilde offre l'accès à ses bâtiments :\n\t- la taverne,\n\t- **l'auberge.**\n- **la guilde paie les transports nécessaires à la quête en cours :**\n\t- **terrestre**.\n")}
 
 	</section>
@@ -78,7 +78,7 @@
 
 {#snippet or()}
 	<section>
-		<h2 id="or">Or</h2>
+		<h2 id="or">{@html applyBase("Or")}</h2>
 	{@html renderMarkdown(">Niveau 8 à 12 = Aventuriers\n\n| Crystaux | Maîtrise Magique | Magies Débloquées | Points magiques |\n| :------: | :--------------: | :---------------: | :-------------: |\n|  **10**  |      **1**       |       **2**       |  **10 [1-7]**   |\n\n- **la guilde fournit les ingrédients pour faire des plats (sans touche du chef) pour la quête en cours,**\n- la guilde paie la réparation des équipements,\n- la guilde offre l'accès à ses bâtiments :\n\t- la taverne,\n\t- l'auberge,\n\t- **la salle d'artisanat**.\n- la guilde paie les transports nécessaires à la quête en cours :\n\t- terrestre,\n\t- **aquatique**.\n")}
 
 	</section>
@@ -86,7 +86,7 @@
 
 {#snippet platine()}
 	<section>
-		<h2 id="platine">Platine</h2>
+		<h2 id="platine">{@html applyBase("Platine")}</h2>
 	{@html renderMarkdown(">Niveau 13 à 18 = Héros\n\n| Crystaux | Maîtrise Magique | Magies Débloquées | Points magiques |\n| :------: | :--------------: | :---------------: | :-------------: |\n|    10    |        1         |       **3**       |  **15 [1-9]**   |\n\n- la guilde fournit les ingrédients pour faire des plats (**avec touche du chef**) pour la quête en cours,\n- la guilde paie la réparation des équipements,\n- la guilde offre l'accès à ses bâtiments :\n\t- la taverne,\n\t- l'auberge,\n\t- la salle d'artisanat,\n\t- **la salle d'alchimie**.\n- la guilde paie les transports nécessaires à la quête en cours :\n\t- terrestre,\n\t- aquatique,\n\t- **aérien**.\n")}
 
 	</section>
@@ -94,7 +94,7 @@
 
 {#snippet lgendes()}
 	<section>
-		<h2 id="lgendes">Légendes</h2>
+		<h2 id="lgendes">{@html applyBase("Légendes")}</h2>
 	{@html renderMarkdown(">Niveau 19 à 20 = Légendes\n>Se débloque selon le continent :\n>- **Diamant** (Ovliin),\n>- **Emeraude** (Nirina),\n>- **Rubis** (Kothula),\n>- **Topaze** (Suraja).\n\n| Crystaux | Maîtrise Magique | Magies Débloquées | Points magiques |\n| :------: | :--------------: | :---------------: | :-------------: |\n|    10    |      **2**       |         3         |  **20 [2-11]**  |\n\n- la guilde fournit les ingrédients pour faire des plats (avec touche du chef) pour la quête en cours,\n- la guilde paie la réparation des équipements,\n- la guilde offre l'accès à ses bâtiments :\n\t- la taverne,\n\t- l'auberge,\n\t- la salle d'artisanat,\n\t- la salle d'alchimie.\n- la guilde paie les transports nécessaires à la quête en cours :\n\t- terrestre,\n\t- aquatique,\n\t- aérien,\n\t- **téléportation.**")}
 
 	</section>

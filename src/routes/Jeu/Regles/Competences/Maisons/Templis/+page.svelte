@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -57,7 +57,7 @@
 
 {#snippet plerin()}
 	<section>
-		<h2 id="plerin">Pèlerin</h2>
+		<h2 id="plerin">{@html applyBase("Pèlerin")}</h2>
 	{@html renderMarkdown(">Pèleriner les 77 Temples pieds nus.\n\n-\n")}
 
 	</section>
@@ -65,7 +65,7 @@
 
 {#snippet passeur()}
 	<section>
-		<h2 id="passeur">Passeur</h2>
+		<h2 id="passeur">{@html applyBase("Passeur")}</h2>
 	{@html renderMarkdown(">Purger un village de la souffrance.\n")}
 
 	</section>
@@ -73,7 +73,7 @@
 
 {#snippet oracle()}
 	<section>
-		<h2 id="oracle">Oracle</h2>
+		<h2 id="oracle">{@html applyBase("Oracle")}</h2>
 	{@html renderMarkdown(">Offrir un sens aux Dieux soi-même (généralement la vue).\n\n- Possibilité de détecter les entités planaires et d'être moins affecté par leur présence.\n")}
 
 	</section>
@@ -81,7 +81,7 @@
 
 {#snippet forgeron()}
 	<section>
-		<h2 id="forgeron">Forgeron</h2>
+		<h2 id="forgeron">{@html applyBase("Forgeron")}</h2>
 	{@html renderMarkdown(">Supporter une présence divine ?\n\n- Possibilité d'emprunter 1 objet béni aux Templis.\n\t- Il peut être échangé et conservé aussi longtemps qu'on le souhaite, mais on ne peut en avoir qu'un.\n")}
 
 	</section>
@@ -89,7 +89,7 @@
 
 {#snippet juge()}
 	<section>
-		<h2 id="juge">Juge</h2>
+		<h2 id="juge">{@html applyBase("Juge")}</h2>
 	{@html renderMarkdown("> Purifier un démon.")}
 
 	</section>

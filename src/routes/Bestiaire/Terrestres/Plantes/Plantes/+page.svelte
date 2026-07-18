@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -50,7 +50,7 @@
 
 {#snippet fixes()}
 	<section>
-		<h1 id="fixes">Fixées</h1>
+		<h1 id="fixes">{@html applyBase("Fixées")}</h1>
 	{@html renderMarkdown("\nagissent lentement, ex. carnivores, lianes constricteurs\n")}
 
 	</section>
@@ -58,7 +58,7 @@
 
 {#snippet animes()}
 	<section>
-		<h1 id="animes">Animées</h1>
+		<h1 id="animes">{@html applyBase("Animées")}</h1>
 	{@html renderMarkdown("\nformes animales ou humanoïdes, ex. homme-champignon, dryades\n")}
 
 	</section>
@@ -66,7 +66,7 @@
 
 {#snippet parasites()}
 	<section>
-		<h1 id="parasites">Parasites</h1>
+		<h1 id="parasites">{@html applyBase("Parasites")}</h1>
 
 
 	</section>

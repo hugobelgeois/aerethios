@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -43,7 +43,7 @@
 
 {#snippet leRoiTropGrand()}
 	<section>
-		<h2 id="le-roi-trop-grand">Le Roi Trop Grand</h2>
+		<h2 id="le-roi-trop-grand">{@html applyBase("Le Roi Trop Grand")}</h2>
 	{@html renderMarkdown("\nUn roi voulait être plus grand que tous les rois.\n\nAlors il mangea.\n\nIl mangea la viande des bêtes.\nPuis les récoltes.\nPuis les terres.\n\nMais cela ne suffit pas.\n\nAlors il mangea ses ennemis.\nPuis ses alliés.\nPuis son peuple.\n\nEt enfin, il devint immense.\n\nMais il était seul.\n\nAlors il parla au ciel :\n\n— “Je suis le plus grand.”\n\nEt le ciel répondit :\n\n> _“Tu es ce qu’il reste.”_\n\nLe roi regarda ses mains.\n\nEt il comprit qu’il avait tout perdu…\npour devenir cela.\n")}
 	{@render totem()}
 	{@render chanson()}
@@ -52,7 +52,7 @@
 
 {#snippet totem()}
 	<section>
-		<h3 id="totem">Totem</h3>
+		<h3 id="totem">{@html applyBase("Totem")}</h3>
 	{@html renderMarkdown("\nUne **bouche ouverte** dont l’intérieur forme une **montagne**\n")}
 
 	</section>
@@ -60,7 +60,7 @@
 
 {#snippet chanson()}
 	<section>
-		<h3 id="chanson">Chanson</h3>
+		<h3 id="chanson">{@html applyBase("Chanson")}</h3>
 	{@html renderMarkdown("\n> Rien ne croît sans chute\n> Rien ne monte sans perte\n> Ce que je prends me change\n> Ce que je perds me fait")}
 
 	</section>

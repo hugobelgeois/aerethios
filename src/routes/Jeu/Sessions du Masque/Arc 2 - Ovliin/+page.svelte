@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -68,7 +68,7 @@
 
 {#snippet _70425()}
 	<section>
-		<h6 id="270425">$$27.04.25$$</h6>
+		<h6 id="270425">{@html applyBase("$$27.04.25$$")}</h6>
 
 
 	</section>
@@ -76,7 +76,7 @@
 
 {#snippet _80525()}
 	<section>
-		<h6 id="180525">$$18.05.25$$</h6>
+		<h6 id="180525">{@html applyBase("$$18.05.25$$")}</h6>
 
 
 	</section>
@@ -84,7 +84,7 @@
 
 {#snippet _10525()}
 	<section>
-		<h6 id="210525">$$21.05.25$$</h6>
+		<h6 id="210525">{@html applyBase("$$21.05.25$$")}</h6>
 
 
 	</section>
@@ -92,7 +92,7 @@
 
 {#snippet _00525()}
 	<section>
-		<h6 id="300525">$$30.05.25$$</h6>
+		<h6 id="300525">{@html applyBase("$$30.05.25$$")}</h6>
 
 
 	</section>
@@ -100,7 +100,7 @@
 
 {#snippet _30625()}
 	<section>
-		<h6 id="130625">$$13.06.25$$</h6>
+		<h6 id="130625">{@html applyBase("$$13.06.25$$")}</h6>
 
 
 	</section>
@@ -108,7 +108,7 @@
 
 {#snippet _70625()}
 	<section>
-		<h6 id="270625">$$27.06.25$$</h6>
+		<h6 id="270625">{@html applyBase("$$27.06.25$$")}</h6>
 
 
 	</section>
