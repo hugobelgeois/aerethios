@@ -1,0 +1,443 @@
+{
+  "/Jeu/Campagne 2/Regles WIP/Affinites": [],
+  "/Jeu/Campagne 2/Regles WIP/Armes a distances - New": [
+    "/Jeu/Regles/Statuts/Afflictions",
+    "/Jeu/Regles/Statuts/Proprietes",
+    "/Jeu/Regles/Statuts/Conditions"
+  ],
+  "/Jeu/Campagne 2/Regles WIP/Armures - New": [
+    "/Jeu/Regles/Apprentissages/Artisanat/Enchanteur",
+    "/Jeu/Regles/Statuts/Proprietes"
+  ],
+  "/Jeu/Campagne 2/Regles WIP/Magie - New": [],
+  "/Jeu/Campagne 2/Regles WIP/Tests": [],
+  "/Jeu/Campagne 2/Regles WIP/Armes de melees - New": [],
+  "/Jeu/Campagne 2/Scenes/00. Template": [],
+  "/Jeu/Campagne 2/Scenes/00b. xx-xx-26": [],
+  "/Jeu/Campagne 2/Scenes/00a. 13-06-26": [],
+  "/Jeu/Sessions du Masque/Joueurs/Dara": [
+    "/Jeu/Regles/Competences/Maisons/Runild",
+    "/Jeu/Regles/Competences/Attributs/Force",
+    "/Jeu/Regles/Competences/Attributs/Dexterite",
+    "/Jeu/Regles/Competences/Attributs/Mental",
+    "/Jeu/Regles/Competences/Attributs/Perception",
+    "/Jeu/Regles/Competences/Attributs/Charisme",
+    "/Jeu/Regles/Combat/Armes",
+    "/Jeu/Regles/Statuts/Proprietes",
+    "/Jeu/Regles/Combat/Armures",
+    "/Jeu/Regles/Statuts/Conditions",
+    "/Jeu/Regles/Apprentissages/Apprentissages",
+    "/Jeu/Sessions du Masque/Joueurs/Arek",
+    "/Jeu/Sessions du Masque/Joueurs/Haelrak",
+    "/Jeu/Sessions du Masque/Joueurs/Halfdan",
+    "/Jeu/Sessions du Masque/Joueurs/Hazdaim",
+    "/Jeu/Sessions du Masque/Joueurs/Leoric",
+    "/Jeu/Sessions du Masque/Joueurs/Zveindel",
+    "/0_Private/Billy"
+  ],
+  "/Jeu/Sessions du Masque/Joueurs/Arek": [
+    "/Jeu/Regles/Competences/Attributs/Force",
+    "/Jeu/Regles/Competences/Attributs/Dexterite",
+    "/Jeu/Regles/Competences/Attributs/Mental",
+    "/Jeu/Regles/Competences/Attributs/Perception",
+    "/Jeu/Regles/Competences/Attributs/Charisme",
+    "/Jeu/Regles/Combat/Armes",
+    "/Jeu/Regles/Statuts/Proprietes",
+    "/Jeu/Regles/Combat/Armures",
+    "/Jeu/Regles/Apprentissages/Apprentissages",
+    "/Jeu/Sessions du Masque/Joueurs/Dara",
+    "/Jeu/Sessions du Masque/Joueurs/Haelrak",
+    "/Jeu/Sessions du Masque/Joueurs/Halfdan",
+    "/Jeu/Sessions du Masque/Joueurs/Hazdaim",
+    "/Jeu/Sessions du Masque/Joueurs/Leoric",
+    "/Jeu/Sessions du Masque/Joueurs/Zveindel",
+    "/0_Private/Billy"
+  ],
+  "/Jeu/Sessions du Masque/Joueurs/Haelrak": [
+    "/Jeu/Regles/Competences/Maisons/Scienctes",
+    "/Jeu/Regles/Competences/Attributs/Force",
+    "/Jeu/Regles/Competences/Attributs/Dexterite",
+    "/Jeu/Regles/Competences/Attributs/Mental",
+    "/Jeu/Regles/Competences/Attributs/Perception",
+    "/Jeu/Regles/Competences/Attributs/Charisme",
+    "/Jeu/Regles/Combat/Armes",
+    "/Jeu/Regles/Statuts/Proprietes",
+    "/Jeu/Regles/Combat/Armures",
+    "/Jeu/Regles/Statuts/Conditions",
+    "/Jeu/Regles/Apprentissages/Apprentissages",
+    "/Jeu/Sessions du Masque/Joueurs/Arek",
+    "/Jeu/Sessions du Masque/Joueurs/Dara",
+    "/Jeu/Sessions du Masque/Joueurs/Halfdan",
+    "/Jeu/Sessions du Masque/Joueurs/Hazdaim",
+    "/Jeu/Sessions du Masque/Joueurs/Leoric",
+    "/Jeu/Sessions du Masque/Joueurs/Zveindel",
+    "/0_Private/Billy"
+  ],
+  "/Jeu/Sessions du Masque/Joueurs/Cira": [
+    "/Jeu/Regles/Competences/Maisons/Runild",
+    "/Jeu/Regles/Competences/Attributs/Force",
+    "/Jeu/Regles/Competences/Attributs/Dexterite",
+    "/Jeu/Regles/Competences/Attributs/Mental",
+    "/Jeu/Regles/Competences/Attributs/Perception",
+    "/Jeu/Regles/Competences/Attributs/Charisme",
+    "/Jeu/Regles/Combat/Armes",
+    "/Jeu/Regles/Statuts/Proprietes",
+    "/Jeu/Regles/Combat/Armures",
+    "/Jeu/Regles/Statuts/Conditions"
+  ],
+  "/Jeu/Sessions du Masque/Joueurs/Halfdan": [
+    "/Jeu/Regles/Competences/Attributs/Force",
+    "/Jeu/Regles/Competences/Attributs/Dexterite",
+    "/Jeu/Regles/Competences/Attributs/Mental",
+    "/Jeu/Regles/Competences/Attributs/Perception",
+    "/Jeu/Regles/Competences/Attributs/Charisme",
+    "/Jeu/Regles/Combat/Armes",
+    "/Jeu/Regles/Statuts/Proprietes",
+    "/Jeu/Regles/Combat/Armures",
+    "/Jeu/Regles/Statuts/Conditions",
+    "/Jeu/Regles/Apprentissages/Apprentissages",
+    "/Jeu/Sessions du Masque/Joueurs/Arek",
+    "/Jeu/Sessions du Masque/Joueurs/Dara",
+    "/Jeu/Sessions du Masque/Joueurs/Haelrak",
+    "/Jeu/Sessions du Masque/Joueurs/Hazdaim",
+    "/Jeu/Sessions du Masque/Joueurs/Leoric",
+    "/Jeu/Sessions du Masque/Joueurs/Zveindel",
+    "/0_Private/Billy"
+  ],
+  "/Jeu/Sessions du Masque/Joueurs/Hazdaim": [
+    "/Jeu/Regles/Competences/Attributs/Force",
+    "/Jeu/Regles/Competences/Attributs/Dexterite",
+    "/Jeu/Regles/Competences/Attributs/Mental",
+    "/Jeu/Regles/Competences/Attributs/Perception",
+    "/Jeu/Regles/Competences/Attributs/Charisme",
+    "/Jeu/Regles/Combat/Armes",
+    "/Jeu/Regles/Statuts/Proprietes",
+    "/Jeu/Regles/Combat/Armures",
+    "/Jeu/Regles/Statuts/Conditions",
+    "/Jeu/Regles/Apprentissages/Apprentissages",
+    "/Jeu/Sessions du Masque/Joueurs/Arek",
+    "/Jeu/Sessions du Masque/Joueurs/Dara",
+    "/Jeu/Sessions du Masque/Joueurs/Haelrak",
+    "/Jeu/Sessions du Masque/Joueurs/Halfdan",
+    "/Jeu/Sessions du Masque/Joueurs/Leoric",
+    "/Jeu/Sessions du Masque/Joueurs/Zveindel",
+    "/0_Private/Billy"
+  ],
+  "/Jeu/Sessions du Masque/Joueurs/Zveindel": [
+    "/Jeu/Regles/Competences/Maisons/Scienctes",
+    "/Jeu/Regles/Competences/Attributs/Force",
+    "/Jeu/Regles/Competences/Attributs/Dexterite",
+    "/Jeu/Regles/Competences/Attributs/Mental",
+    "/Jeu/Regles/Competences/Attributs/Perception",
+    "/Jeu/Regles/Competences/Attributs/Charisme",
+    "/Jeu/Regles/Combat/Armes",
+    "/Jeu/Regles/Combat/Armures",
+    "/Jeu/Sessions du Masque/Joueurs/Arek",
+    "/Jeu/Sessions du Masque/Joueurs/Dara",
+    "/Jeu/Sessions du Masque/Joueurs/Haelrak",
+    "/Jeu/Sessions du Masque/Joueurs/Halfdan",
+    "/Jeu/Sessions du Masque/Joueurs/Hazdaim",
+    "/Jeu/Sessions du Masque/Joueurs/Leoric",
+    "/0_Private/Billy"
+  ],
+  "/Jeu/Sessions du Masque/Joueurs/Leoric": [
+    "/Jeu/Regles/Competences/Maisons/Scienctes",
+    "/Jeu/Regles/Competences/Attributs/Force",
+    "/Jeu/Regles/Competences/Attributs/Dexterite",
+    "/Jeu/Regles/Competences/Attributs/Mental",
+    "/Jeu/Regles/Competences/Attributs/Perception",
+    "/Jeu/Regles/Competences/Attributs/Charisme",
+    "/Jeu/Regles/Combat/Armes",
+    "/Jeu/Regles/Statuts/Proprietes",
+    "/Jeu/Regles/Combat/Armures",
+    "/Jeu/Regles/Apprentissages/Apprentissages",
+    "/Jeu/Sessions du Masque/Joueurs/Arek",
+    "/Jeu/Sessions du Masque/Joueurs/Dara",
+    "/Jeu/Sessions du Masque/Joueurs/Haelrak",
+    "/Jeu/Sessions du Masque/Joueurs/Halfdan",
+    "/Jeu/Sessions du Masque/Joueurs/Hazdaim",
+    "/Jeu/Sessions du Masque/Joueurs/Zveindel",
+    "/0_Private/Billy"
+  ],
+  "/Jeu/Regles/Apprentissages/Alchimie/Alchimie": [
+    "/Jeu/Regles/Apprentissages/Alchimie/Cuisinier",
+    "/Jeu/Regles/Apprentissages/Alchimie/Invocateur",
+    "/Jeu/Regles/Apprentissages/Alchimie/Potionniste",
+    "/Jeu/Regles/Mini-Jeux/Recherche Alchimique"
+  ],
+  "/Jeu/Regles/Apprentissages/Alchimie/Cuisinier": [
+    "/Jeu/Regles/Apprentissages/Alchimie/Alchimie"
+  ],
+  "/Jeu/Regles/Apprentissages/Alchimie/Invocateur": [
+    "/Jeu/Regles/Apprentissages/Alchimie/Alchimie"
+  ],
+  "/Jeu/Regles/Apprentissages/Alchimie/Potionniste": [
+    "/Jeu/Regles/Apprentissages/Alchimie/Alchimie"
+  ],
+  "/Jeu/Regles/Apprentissages/Exploration/Exploration": [],
+  "/Jeu/Regles/Apprentissages/Erudition/Erudition": [],
+  "/Jeu/Regles/Apprentissages/Apprentissages": [
+    "/Jeu/Regles/Apprentissages/Alchimie/Alchimie",
+    "/Jeu/Regles/Apprentissages/Alchimie/Cuisinier",
+    "/Jeu/Regles/Apprentissages/Alchimie/Potionniste",
+    "/Jeu/Regles/Apprentissages/Alchimie/Invocateur",
+    "/Jeu/Regles/Apprentissages/Artisanat/Artisanat",
+    "/Jeu/Regles/Apprentissages/Artisanat/Enchanteur",
+    "/Jeu/Regles/Apprentissages/Artisanat/Forgeron",
+    "/Jeu/Regles/Apprentissages/Exploration/Exploration"
+  ],
+  "/Jeu/Regles/Apprentissages/Maitrises": [
+    "/Jeu/Regles/Competences/Maisons/Scienctes"
+  ],
+  "/Jeu/Regles/Apprentissages/Artisanat/Artisanat": [
+    "/Jeu/Regles/Apprentissages/Artisanat/Enchanteur",
+    "/Jeu/Regles/Apprentissages/Artisanat/Forgeron"
+  ],
+  "/Jeu/Regles/Apprentissages/Artisanat/Enchanteur": [
+    "/Jeu/Regles/Apprentissages/Artisanat/Artisanat",
+    "/Geographie/Kothula/Kothula",
+    "/Geographie/Nirina/Nirina",
+    "/Geographie/Ovliin/Ovliin",
+    "/Geographie/Suraja/Suraja"
+  ],
+  "/Jeu/Regles/Apprentissages/Artisanat/Forgeron": [
+    "/Jeu/Regles/Apprentissages/Artisanat/Artisanat"
+  ],
+  "/Jeu/Regles/Benedictions": [],
+  "/Jeu/Regles/Statuts/Conditions": [
+    "/Jeu/Regles/Statuts/Conditions"
+  ],
+  "/Jeu/Regles/Statuts/Proprietes": [
+    "/Jeu/Regles/Statuts/Afflictions"
+  ],
+  "/Jeu/Regles/Statuts/Afflictions": [],
+  "/Jeu/Regles/Combat/Magie": [],
+  "/Jeu/Regles/Combat/Combat": [],
+  "/Jeu/Regles/Combat/Armures": [
+    "/Jeu/Regles/Apprentissages/Artisanat/Enchanteur",
+    "/Jeu/Regles/Statuts/Conditions",
+    "/Jeu/Regles/Statuts/Proprietes"
+  ],
+  "/Jeu/Regles/Combat/Armes": [
+    "/Jeu/Regles/Statuts/Proprietes",
+    "/Jeu/Regles/Apprentissages/Artisanat/Enchanteur",
+    "/Jeu/Regles/Statuts/Afflictions",
+    "/Jeu/Regles/Statuts/Conditions"
+  ],
+  "/Jeu/Regles/Competences/Attributs/Charisme": [],
+  "/Jeu/Regles/Competences/Attributs/Mental": [],
+  "/Jeu/Regles/Competences/Attributs/Perception": [],
+  "/Jeu/Regles/Competences/Attributs/Force": [],
+  "/Jeu/Regles/Competences/Attributs/Dexterite": [],
+  "/Jeu/Regles/Competences/Maisons/Runild": [],
+  "/Jeu/Regles/Competences/Maisons/Arvens": [],
+  "/Jeu/Regles/Competences/Maisons/Templis": [],
+  "/Jeu/Regles/Competences/Maisons/Scienctes": [],
+  "/Jeu/Regles/Mini-Jeux/Alcoolique": [],
+  "/Jeu/Regles/Mini-Jeux/Commercant": [],
+  "/Jeu/Regles/Mini-Jeux/Proprietaire": [],
+  "/Jeu/Regles/Mini-Jeux/Chasseur de prime": [],
+  "/Jeu/Regles/Mini-Jeux/Bagarre": [],
+  "/Jeu/Regles/Mini-Jeux/Recherche Alchimique": [],
+  "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 12 - 19.09.25": [
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 13 - 29.08.25",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25"
+  ],
+  "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 11 - 14.08.25": [
+    "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 13 - 29.08.25"
+  ],
+  "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 13 - 29.08.25": [
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 11 - 14.08.25",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 12 - 19.09.25"
+  ],
+  "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 14 - 11.10.25": [
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 15 - 14.11.25"
+  ],
+  "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 16 - 28.11.25": [
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 15 - 14.11.25",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25"
+  ],
+  "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25": [
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 16 - 28.11.25",
+    "/Jeu/Sessions du Masque/Arc 4/Arc 4"
+  ],
+  "/Jeu/Sessions du Masque/Arc 3/Arc 3": [
+    "/Geographie/Suraja/Suraja",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 11 - 14.08.25",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 13 - 29.08.25",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 12 - 19.09.25",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 14 - 11.10.25",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 15 - 14.11.25",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 16 - 28.11.25",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25",
+    "/Jeu/Sessions du Masque/Arc 4/Arc 4"
+  ],
+  "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25": [
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 12 - 19.09.25",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 14 - 11.10.25"
+  ],
+  "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 15 - 14.11.25": [
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 14 - 11.10.25",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 16 - 28.11.25"
+  ],
+  "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 05 - 27.04.25": [
+    "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 06 - 18.05.25"
+  ],
+  "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 07 - 21.05.25": [
+    "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 06 - 18.05.25",
+    "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 08 - 30.05.25"
+  ],
+  "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09 - 13.06.25": [
+    "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 08 - 30.05.25",
+    "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25"
+  ],
+  "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 06 - 18.05.25": [
+    "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 05 - 27.04.25",
+    "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 07 - 21.05.25"
+  ],
+  "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25": [
+    "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09 - 13.06.25",
+    "/Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 05.08.25 Loic"
+  ],
+  "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 08 - 30.05.25": [
+    "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 07 - 21.05.25",
+    "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09 - 13.06.25"
+  ],
+  "/Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 06.07.25 Diego": [
+    "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3"
+  ],
+  "/Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 11.07.25 _ 08.08.25 Michel": [
+    "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3"
+  ],
+  "/Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 05.08.25 Loic": [
+    "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3"
+  ],
+  "/Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 07.07.25 Thomas": [
+    "/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3"
+  ],
+  "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26": [
+    "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26",
+    "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26"
+  ],
+  "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 21 - 20.02.26": [
+    "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26",
+    "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 22 - 03.04.26"
+  ],
+  "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26": [
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25",
+    "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26"
+  ],
+  "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26": [
+    "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 22 - 03.04.26",
+    "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 23 - 23.05.26"
+  ],
+  "/Jeu/Sessions du Masque/Arc 4/Arc 4": [
+    "/Geographie/Nirina/Nirina",
+    "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26",
+    "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26",
+    "/Jeu/Sessions du Masque/Arc 3/Arc 3"
+  ],
+  "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26": [
+    "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26",
+    "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 21 - 20.02.26"
+  ],
+  "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 22 - 03.04.26": [
+    "/Jeu/Regles/Combat/Armes",
+    "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 21 - 20.02.26",
+    "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26"
+  ],
+  "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 23 - 23.05.26": [
+    "/Jeu/Sessions du Masque/Scenes/01. Orphelinat dHazdaim",
+    "/Jeu/Sessions du Masque/Scenes/02. Campement de Nix et Salome",
+    "/Jeu/Sessions du Masque/Scenes/03. Ville du chef",
+    "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26",
+    "/0_Private/Arc 4 - 24 - 05.06.26"
+  ],
+  "/Jeu/Sessions du Masque/Scenes/01. Orphelinat dHazdaim": [],
+  "/Jeu/Sessions du Masque/Scenes/02. Campement de Nix et Salome": [],
+  "/Jeu/Sessions du Masque/Scenes/03. Ville du chef": [],
+  "/Geographie/Anneau de Brume": [
+    "/Geographie/Ovliin/Ovliin"
+  ],
+  "/Geographie/Anneau de Feu": [
+    "/Geographie/Suraja/Suraja"
+  ],
+  "/Geographie/Anneau des Tempetes": [
+    "/Geographie/Nirina/Nirina"
+  ],
+  "/Geographie/Anneau de Givre": [
+    "/Geographie/Ovliin/Ovliin"
+  ],
+  "/Geographie/Anneau des Vents": [
+    "/Geographie/Kothula/Kothula"
+  ],
+  "/Geographie/Nirina/Nirina": [],
+  "/Geographie/Geographie 1": [],
+  "/Geographie/Suraja/Suraja": [],
+  "/Geographie/Kothula/Kothula": [],
+  "/Geographie/Geographie": [],
+  "/Geographie/Ovliin/Ovliin": [],
+  "/Bestiaire/Bestiaire": [],
+  "/Bestiaire/Planaires/Dieux/Dieux": [
+    "/Notes/Archives/Gamesh_ Dieu Scintillant",
+    "/Notes/Archives/Aerel_ Grande Mere",
+    "/Notes/Archives/Radeon_ Dieu Dormant",
+    "/Notes/Archives/Obel_ Dieu Affame",
+    "/Notes/Archives/Kira_ Dieu Pourpre",
+    "/Notes/Archives/Imet_ Dieu Patient"
+  ],
+  "/Bestiaire/Planaires/Planaires": [
+    "/0_Private/Dieux"
+  ],
+  "/Bestiaire/Terrestres/Humanoides/Calico": [],
+  "/Bestiaire/Terrestres/Humanoides/Elfe": [],
+  "/Bestiaire/Terrestres/Humanoides/Humanoides": [
+    "/Bestiaire/Terrestres/Humanoides/Humain",
+    "/Bestiaire/Terrestres/Humanoides/Nain",
+    "/Bestiaire/Terrestres/Humanoides/Elfe",
+    "/Bestiaire/Terrestres/Humanoides/Orc",
+    "/Bestiaire/Terrestres/Humanoides/Calico"
+  ],
+  "/Bestiaire/Terrestres/Humanoides/Orc": [],
+  "/Bestiaire/Terrestres/Humanoides/Humain": [],
+  "/Bestiaire/Terrestres/Humanoides/Nain": [],
+  "/Bestiaire/Terrestres/Hybrides/Hybrides": [
+    "/Bestiaire/Terrestres/Hybrides/Vampire",
+    "/Bestiaire/Terrestres/Hybrides/Naga"
+  ],
+  "/Bestiaire/Terrestres/Hybrides/Naga": [],
+  "/Bestiaire/Terrestres/Hybrides/Vampire": [],
+  "/Bestiaire/Terrestres/Magiques/Magiques": [],
+  "/Bestiaire/Terrestres/Naturels/Naturels": [],
+  "/Bestiaire/Terrestres/Mythiques/Mythiques": [],
+  "/Bestiaire/Terrestres/Plantes/Plantes": [],
+  "/Bestiaire/Terrestres/Terrestres": [
+    "/Bestiaire/Terrestres/Humanoides/Humanoides",
+    "/Bestiaire/Terrestres/Hybrides/Hybrides",
+    "/Bestiaire/Terrestres/Magiques/Magiques",
+    "/Bestiaire/Terrestres/Mythiques/Mythiques",
+    "/Bestiaire/Terrestres/Naturels/Naturels",
+    "/Bestiaire/Terrestres/Plantes/Plantes"
+  ],
+  "/Notes/Arvens": [],
+  "/Notes/Stats joueurs": [],
+  "/Notes/Economie": [],
+  "/Notes/Archives/Gamesh_ Dieu Scintillant": [],
+  "/Notes/Archives/Imet_ Dieu Patient": [],
+  "/Notes/Archives/Kira_ Dieu Pourpre": [],
+  "/Notes/Archives/Aerel_ Grande Mere": [],
+  "/Notes/Archives/Radeon_ Dieu Dormant": [],
+  "/Notes/Archives/Obel_ Dieu Affame": [],
+  "/Notes/Templis": [],
+  "/Jeu/Sessions du Masque/Arc 1 - Kothula": [
+    "/Jeu/Sessions du Masque/Arc 1 - Kothula"
+  ],
+  "/Jeu/Sessions du Masque/Arc 2 - Ovliin": []
+}

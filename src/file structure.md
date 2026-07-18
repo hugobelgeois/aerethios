@@ -1,0 +1,28 @@
+src
+-- constants.ts
+-- main.ts
+-- pageexporter.ts
+-- scaffold.ts
+-- settings.ts
+svelte-lib
+-- app.css
+-- layout.css
+-- markdown.css
+-- routes
+---- +layout.svelte
+---- +layout.ts
+---- +page.svelte
+--lib
+---- Body.svelte
+---- Embedblock.svelte
+---- FileTree.svelte
+---- Graph.svelte
+---- LeftSidebar.svelte
+---- Linkpreview.svelte
+---- linkGraph.ts
+---- markdownRenderer.ts
+---- RightSidebar.svelte
+---- siteTree.ts
+---- stores.ts
+---- Toc.svelte
+---- wikiFetch.ts
