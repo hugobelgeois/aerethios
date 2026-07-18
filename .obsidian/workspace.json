@@ -135,6 +135,13 @@
   },
   "active": "5e8a8f4cea0b4061",
   "lastOpenFiles": [
+    "node_modules/@sveltejs/adapter-static/index.d.ts",
+    "node_modules/@sveltejs/adapter-static/README.md",
+    "node_modules/@sveltejs/adapter-static/package.json",
+    "node_modules/@sveltejs/adapter-static/platforms.js",
+    "node_modules/@sveltejs/adapter-static/index.js",
+    "node_modules/@sveltejs/adapter-static/LICENSE",
+    "node_modules/@sveltejs/adapter-static",
     "site-lib/media/favicon.png",
     "site-lib/media/6155340132a851f6089e.svg",
     "site-lib/media/2308ab1944a6bfa5c5b8.svg",
@@ -143,11 +150,6 @@
     "site-lib/styles/obsidian.css",
     "site-lib/styles/main-styles.css",
     "site-lib/styles/global-variable-styles.css",
-    "site-lib/fonts/01dcbad1bac635f9c9cd.woff2",
-    "site-lib/scripts/webpage.js",
-    "site-lib/scripts/graph-wasm.wasm",
-    "site-lib/scripts/graph-wasm.js",
-    "site-lib/scripts/graph-render-worker.js",
     "jeu/sessions-du-masque/scenes/img/orphelinat-d'hazdaim.jpg",
     "jeu/sessions-du-masque/scenes/img/campement-de-nix-et-salomé.jpg",
     "web/static/orphelinat-d'hazdaim.jpg",
@@ -155,7 +157,6 @@
     "tmp/web/static/orphelinat-d'hazdaim.jpg",
     "tmp/web/static/campement-de-nix-et-salomé.jpg",
     "tmp/site-lib/media/favicon.png",
-    "tmp/site-lib/media/6155340132a851f6089e.svg",
     "tmp/jeu/sessions-du-masque/scenes/02.-campement-de-nix-et-salomé.md",
     "tmp/jeu/sessions-du-masque/scenes/01.-orphelinat-d'hazdaim.md",
     "tmp/README.md",
@@ -179,7 +180,6 @@
     "tmp/Jeu/Règles/Compétences/Compétences de Maisons/Runild.md",
     "tmp/Jeu/Règles/Compétences/Compétences d'Attributs/Force.md",
     "tmp/Jeu/Règles/Compétences/Compétences de Maisons/Arvens.md",
-    "tmp/Jeu/Règles/Compétences/Compétences d'Attributs/Mental.md",
-    "tmp/Jeu/Règles/Compétences/Compétences d'Attributs/Perception.md"
+    "tmp/Jeu/Règles/Compétences/Compétences d'Attributs/Mental.md"
   ]
 }
