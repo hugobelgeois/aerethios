@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bc6ef3443eb6eb1e",
+        "id": "29e9538fc4d7dea6",
         "type": "tabs",
         "children": [
           {
-            "id": "77ddb4f4d2f773ac",
+            "id": "425d227e0a60cb40",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "jeu/règles/apprentissages/apprentissages.html",
-                "bFile": "jeu/règles/apprentissages/apprentissages.html",
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: apprentissages.html  (Working Tree)"
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -135,28 +135,28 @@
   },
   "active": "5e8a8f4cea0b4061",
   "lastOpenFiles": [
-    "src/lib/routePath.ts",
-    "node_modules/@sveltejs/adapter-static/index.d.ts",
-    "node_modules/@sveltejs/adapter-static/README.md",
-    "node_modules/@sveltejs/adapter-static/package.json",
-    "node_modules/@sveltejs/adapter-static/platforms.js",
-    "node_modules/@sveltejs/adapter-static/index.js",
-    "node_modules/@sveltejs/adapter-static/LICENSE",
-    "node_modules/@sveltejs/adapter-static",
-    "site-lib/media/favicon.png",
-    "site-lib/media/6155340132a851f6089e.svg",
-    "site-lib/media/2308ab1944a6bfa5c5b8.svg",
-    "site-lib/styles/theme.css",
-    "site-lib/styles/snippets.css",
-    "site-lib/styles/obsidian.css",
-    "site-lib/styles/main-styles.css",
-    "jeu/sessions-du-masque/scenes/img/orphelinat-d'hazdaim.jpg",
-    "jeu/sessions-du-masque/scenes/img/campement-de-nix-et-salomé.jpg",
-    "web/static/orphelinat-d'hazdaim.jpg",
-    "web/static/campement-de-nix-et-salomé.jpg",
-    "tmp/web/static/orphelinat-d'hazdaim.jpg",
-    "tmp/web/static/campement-de-nix-et-salomé.jpg",
-    "tmp/site-lib/media/favicon.png",
+    "vite.config.ts",
+    "tsconfig.json",
+    "static/zveindel.png",
+    "static/weapon-range.png",
+    "static/weapon-hast.png",
+    "static/Orphelinat d'Hazdaim.jpg",
+    "static/Ville du chef.jpg",
+    "static/Salomé.jpg",
+    "static/nain-mech.png",
+    "static/Orphelinat d'Hazdaim.png",
+    "static/naga-warrior.png",
+    "static/Nix.jpg",
+    "static",
+    "src/routes/Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 11.07.25 _ 08.08.25 Michel/+page.svelte",
+    "src/routes/Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 07.07.25 Thomas/+page.svelte",
+    "src/routes/Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 07.07.25 Thomas/+page.ts",
+    "src/routes/Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 06.07.25 Diego/+page.svelte",
+    "src/routes/Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 11.07.25 _ 08.08.25 Michel/+page.ts",
+    "src/routes/Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 06.07.25 Diego/+page.ts",
+    "src/routes/Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 05.08.25 Loic/+page.ts",
+    "src/routes/Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 05.08.25 Loic/+page.svelte",
+    "src/file structure.md",
     "tmp/jeu/sessions-du-masque/scenes/02.-campement-de-nix-et-salomé.md",
     "tmp/jeu/sessions-du-masque/scenes/01.-orphelinat-d'hazdaim.md",
     "tmp/README.md",
