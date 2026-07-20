@@ -183,12 +183,9 @@
     "/Jeu/Regles/Apprentissages/Alchimie/Invocateur",
     "/Jeu/Regles/Apprentissages/Artisanat/Artisanat",
     "/Jeu/Regles/Apprentissages/Artisanat/Enchanteur",
-    "/Jeu/Regles/Apprentissages/Artisanat/Forgeron",
-    "/Jeu/Regles/Apprentissages/Exploration/Exploration"
+    "/Jeu/Regles/Apprentissages/Artisanat/Forgeron"
   ],
-  "/Jeu/Regles/Apprentissages/Maitrises": [
-    "/Jeu/Regles/Competences/Maisons/Scienctes"
-  ],
+  "/Jeu/Regles/Apprentissages/Maitrises": [],
   "/Jeu/Regles/Apprentissages/Artisanat/Artisanat": [
     "/Jeu/Regles/Apprentissages/Artisanat/Enchanteur",
     "/Jeu/Regles/Apprentissages/Artisanat/Forgeron"
@@ -439,5 +436,71 @@
   "/Jeu/Sessions du Masque/Arc 1 - Kothula": [
     "/Jeu/Sessions du Masque/Arc 1 - Kothula"
   ],
-  "/Jeu/Sessions du Masque/Arc 2 - Ovliin": []
+  "/Jeu/Sessions du Masque/Arc 2 - Ovliin": [],
+  "/Jeu/Campagne 2/Joueurs/Aldrich": [
+    "/Jeu/Regles/Competences/Attributs/Force",
+    "/Jeu/Regles/Competences/Attributs/Dexterite",
+    "/Jeu/Regles/Competences/Attributs/Mental",
+    "/Jeu/Regles/Competences/Attributs/Perception",
+    "/Jeu/Regles/Competences/Attributs/Charisme",
+    "/Jeu/Regles/Combat/Armes",
+    "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
+    "/Jeu/Regles/Apprentissages/Apprentissages"
+  ],
+  "/Jeu/Campagne 2/Joueurs/Ronronov": [
+    "/Jeu/Regles/Competences/Attributs/Force",
+    "/Jeu/Regles/Competences/Attributs/Dexterite",
+    "/Jeu/Regles/Competences/Attributs/Mental",
+    "/Jeu/Regles/Competences/Attributs/Perception",
+    "/Jeu/Regles/Competences/Attributs/Charisme",
+    "/Jeu/Regles/Combat/Armes",
+    "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
+    "/Jeu/Regles/Apprentissages/Apprentissages"
+  ],
+  "/Jeu/Campagne 2/Joueurs/Strauss": [
+    "/Jeu/Regles/Competences/Attributs/Force",
+    "/Jeu/Regles/Competences/Attributs/Dexterite",
+    "/Jeu/Regles/Competences/Attributs/Mental",
+    "/Jeu/Regles/Competences/Attributs/Perception",
+    "/Jeu/Regles/Competences/Attributs/Charisme",
+    "/Jeu/Regles/Combat/Armes",
+    "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
+    "/Jeu/Regles/Apprentissages/Apprentissages"
+  ],
+  "/Jeu/Campagne 2/Joueurs/Urzok": [
+    "/Jeu/Regles/Competences/Attributs/Force",
+    "/Jeu/Regles/Competences/Attributs/Dexterite",
+    "/Jeu/Regles/Competences/Attributs/Mental",
+    "/Jeu/Regles/Competences/Attributs/Perception",
+    "/Jeu/Regles/Competences/Attributs/Charisme",
+    "/Jeu/Regles/Combat/Armes",
+    "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
+    "/Jeu/Regles/Apprentissages/Apprentissages"
+  ],
+  "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New": [
+    "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles"
+  ],
+  "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New": [
+    "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles",
+    "/Jeu/Regles/Statuts/Afflictions",
+    "/Jeu/Regles/Statuts/Proprietes",
+    "/Jeu/Regles/Statuts/Conditions"
+  ],
+  "/Jeu/Regles 2.0 WIP/Combat/Armures - New": [
+    "/Jeu/Regles/Apprentissages/Artisanat/Enchanteur",
+    "/Jeu/Regles/Statuts/Proprietes"
+  ],
+  "/Jeu/Regles 2.0 WIP/Combat/Combat - New": [],
+  "/Jeu/Regles 2.0 WIP/Combat/Magie - New": [],
+  "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles": [],
+  "/Jeu/Regles 2.0 WIP/Metiers/Metiers": [
+    "/Jeu/Regles/Apprentissages/Alchimie/Alchimie",
+    "/Jeu/Regles/Apprentissages/Alchimie/Cuisinier",
+    "/Jeu/Regles/Apprentissages/Alchimie/Potionniste",
+    "/Jeu/Regles/Apprentissages/Alchimie/Invocateur",
+    "/Jeu/Regles/Apprentissages/Artisanat/Artisanat",
+    "/Jeu/Regles/Apprentissages/Artisanat/Enchanteur",
+    "/Jeu/Regles/Apprentissages/Erudition/Erudition"
+  ],
+  "/Jeu/Regles 2.0 WIP/Races/Affinites": []
 }

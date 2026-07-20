@@ -46,7 +46,7 @@
 {#snippet saignement()}
 	<section>
 		<h2 id="saignement">{@html applyBase("Saignement")}</h2>
-	{@html renderMarkdown("La cible perd Xd4 HP par tour jusqu'à être soignée.\n*X représente le nombre de saignement appliqués.*\n\nSoin :\n\t- kit de soin,\n\t- sort de soutien de DC 20.\n")}
+	{@html renderMarkdown("La cible perd Xd4 HP par tour jusqu'à être soignée.\r\n*X représente le nombre de saignement appliqués.*\r\n\r\nSoin :\r\n\t- kit de soin,\r\n\t- sort de soutien de DC 20.\r\n\r")}
 
 	</section>
 {/snippet}
@@ -54,7 +54,7 @@
 {#snippet poison()}
 	<section>
 		<h2 id="poison">{@html applyBase("Poison")}</h2>
-	{@html renderMarkdown("La cible prend 1d6 HP par tour pendant 3 tours ou jusqu'à être soigné.\n\nChaque nouvelle application ajoute 3 tours.\n\nSoin :\n\t- antidote,\n\t- sort de soutien de DC 15.\n")}
+	{@html renderMarkdown("La cible prend 1d6 HP par tour pendant 3 tours ou jusqu'à être soigné.\r\n\r\nChaque nouvelle application ajoute 3 tours.\r\n\r\nSoin :\r\n\t- antidote,\r\n\t- sort de soutien de DC 15.\r\n\r")}
 
 	</section>
 {/snippet}
@@ -62,7 +62,7 @@
 {#snippet surcharge()}
 	<section>
 		<h2 id="surcharge">{@html applyBase("Surcharge")}</h2>
-	{@html renderMarkdown("\nLa cible perd 1d4 crystaux et prend 1d6 HP par crystal perdu.\n\nSi les dégâts sont supérieurs à 12, elle doit se concentrer pour pouvoir réutiliser sa magie et régénérer ses crystaux.")}
+	{@html renderMarkdown("\r\nLa cible perd 1d4 crystaux et perd 4 HP par crystal perdu.\r\n\r\nSi les dégâts valent 16, elle doit utiliser une action pour se concentrer afin de réutiliser sa magie et régénérer ses crystaux.\r\n\r\nUne fois atteinte de Surcharge, la cible est immunisé pour le reste du combat.")}
 
 	</section>
 {/snippet}
