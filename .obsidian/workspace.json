@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".export-cache.json",
-                "bFile": ".export-cache.json",
+                "aFile": "node_modules/deepmerge/.eslintcache",
+                "bFile": "node_modules/deepmerge/.eslintcache",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: .export-cache.json  (Working Tree)"
+              "title": "Diff: .eslintcache  (Working Tree)"
             }
           }
         ]
@@ -134,16 +134,28 @@
   },
   "active": "cfec22c8b087b387",
   "lastOpenFiles": [
-    "build/404.html",
-    "build/_app/immutable/nodes/97.D5nubUWd.js",
-    "build/_app/immutable/nodes/96.CcEvuwdB.js",
-    "build/_app/immutable/nodes/95.BOIkE9Wz.js",
-    "build/_app/immutable/nodes/94.CYT9vR0p.js",
-    "build/_app/immutable/nodes/93.BHcMMDtD.js",
-    "build/_app/immutable/nodes/92.D_ZU0w5_.js",
-    "build/_app/immutable/nodes/91.G2fowKRE.js",
-    "build/_app/immutable/nodes/90.Duv7Zk-y.js",
-    "build/_app/immutable/nodes/9.Cq_GhSmg.js",
-    "build/_app/immutable/nodes/89.BwEkKXk0.js"
+    "src/routes/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements a Distance/+page.ts",
+    "src/routes/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements a Distance/+page.svelte",
+    "src/routes/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements a Distance",
+    "src/routes/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte/+page.ts",
+    "src/routes/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte/+page.svelte",
+    "src/routes/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication/+page.ts",
+    "src/routes/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication/+page.svelte",
+    "src/routes/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu/+page.ts",
+    "src/routes/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu/+page.svelte",
+    "src/routes/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte",
+    "src/routes/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu",
+    "static/Ville du chef.jpg",
+    "static/Salomé.jpg",
+    "static/Orphelinat d'Hazdaim.png",
+    "static/Orphelinat d'Hazdaim.jpg",
+    "static/Nix.jpg",
+    "static/Mattias du Lion Tuant.jpg",
+    "static/weapon-hast.png",
+    "static/weapon-range.png",
+    "static/zveindel.png",
+    "static/hazdaim.png",
+    "node_modules/@sveltejs/adapter-static/README.md",
+    "README.md"
   ]
 }
