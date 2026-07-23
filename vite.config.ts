@@ -20,7 +20,14 @@ export default defineConfig({
 			// BASE_PATH is set by .github/workflows/deploy.yml at build time so the
 			// site resolves correctly under that subpath without hardcoding the repo
 			// name here (empty locally, so `npm run dev`/`preview` still work at "/").
-			paths: { base: process.env.BASE_PATH ?? "" },
+			// relative: false keeps every generated href/src an absolute
+			// "${base}/…" path instead of SvelteKit's default dot-relative
+			// ("../../foo") rewriting. GitHub Pages never redirects a
+			// trailing-slash-less request (e.g. the bare repo URL) to add
+			// the slash the way a real web server would, so a relative link
+			// on that page resolves one directory too high and drops the
+			// "/<repo>" prefix entirely — absolute paths sidestep that.
+			paths: { base: process.env.BASE_PATH ?? "", relative: false },
 
 			// A vault this size will always have a few dead wikilinks or
 			// missing embeds — don't let one broken link abort the entire
