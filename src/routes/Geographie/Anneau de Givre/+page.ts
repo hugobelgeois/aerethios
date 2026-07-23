@@ -6,4 +6,5 @@ export const load: PageLoad = () => ({
   pageTitle: "Anneau de Givre",
   pageDescription: "",
   fullBleed: false,
+  fullHeight: false,
 });

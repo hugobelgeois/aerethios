@@ -6,4 +6,5 @@ export const load: PageLoad = () => ({
   pageTitle: "Cuisinier",
   pageDescription: "",
   fullBleed: false,
+  fullHeight: false,
 });

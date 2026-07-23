@@ -6,4 +6,5 @@ export const load: PageLoad = () => ({
   pageTitle: "Kira, Dieu Pourpre",
   pageDescription: "",
   fullBleed: false,
+  fullHeight: false,
 });

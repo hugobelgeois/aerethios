@@ -6,4 +6,5 @@ export const load: PageLoad = () => ({
   pageTitle: "Enchanteur",
   pageDescription: "",
   fullBleed: false,
+  fullHeight: false,
 });

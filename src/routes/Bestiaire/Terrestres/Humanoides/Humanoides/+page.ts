@@ -6,4 +6,5 @@ export const load: PageLoad = () => ({
   pageTitle: "Humanoïdes",
   pageDescription: "",
   fullBleed: false,
+  fullHeight: false,
 });

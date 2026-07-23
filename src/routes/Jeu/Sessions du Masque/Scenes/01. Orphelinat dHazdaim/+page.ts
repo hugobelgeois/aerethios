@@ -6,4 +6,5 @@ export const load: PageLoad = () => ({
   pageTitle: "01. Orphelinat d'Hazdaim",
   pageDescription: "",
   fullBleed: false,
+  fullHeight: false,
 });

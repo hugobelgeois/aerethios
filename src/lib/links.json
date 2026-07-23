@@ -1,6 +1,6 @@
 {
   "/Jeu/Sessions du Masque/Joueurs/Dara": [
-    "/Jeu/Regles/Competences/Maisons/Runild",
+    "/Jeu/Regles/Competences/Maisons",
     "/Jeu/Regles/Competences/Attributs/Force",
     "/Jeu/Regles/Competences/Attributs/Dexterite",
     "/Jeu/Regles/Competences/Attributs/Mental",
@@ -38,7 +38,6 @@
     "/0_Private/Billy"
   ],
   "/Jeu/Sessions du Masque/Joueurs/Haelrak": [
-    "/Jeu/Regles/Competences/Maisons/Scienctes",
     "/Jeu/Regles/Competences/Attributs/Force",
     "/Jeu/Regles/Competences/Attributs/Dexterite",
     "/Jeu/Regles/Competences/Attributs/Mental",
@@ -58,7 +57,7 @@
     "/0_Private/Billy"
   ],
   "/Jeu/Sessions du Masque/Joueurs/Cira": [
-    "/Jeu/Regles/Competences/Maisons/Runild",
+    "/Jeu/Regles/Competences/Maisons",
     "/Jeu/Regles/Competences/Attributs/Force",
     "/Jeu/Regles/Competences/Attributs/Dexterite",
     "/Jeu/Regles/Competences/Attributs/Mental",
@@ -108,7 +107,6 @@
     "/0_Private/Billy"
   ],
   "/Jeu/Sessions du Masque/Joueurs/Zveindel": [
-    "/Jeu/Regles/Competences/Maisons/Scienctes",
     "/Jeu/Regles/Competences/Attributs/Force",
     "/Jeu/Regles/Competences/Attributs/Dexterite",
     "/Jeu/Regles/Competences/Attributs/Mental",
@@ -125,7 +123,6 @@
     "/0_Private/Billy"
   ],
   "/Jeu/Sessions du Masque/Joueurs/Leoric": [
-    "/Jeu/Regles/Competences/Maisons/Scienctes",
     "/Jeu/Regles/Competences/Attributs/Force",
     "/Jeu/Regles/Competences/Attributs/Dexterite",
     "/Jeu/Regles/Competences/Attributs/Mental",
@@ -209,10 +206,6 @@
   "/Jeu/Regles/Competences/Attributs/Perception": [],
   "/Jeu/Regles/Competences/Attributs/Force": [],
   "/Jeu/Regles/Competences/Attributs/Dexterite": [],
-  "/Jeu/Regles/Competences/Maisons/Runild": [],
-  "/Jeu/Regles/Competences/Maisons/Arvens": [],
-  "/Jeu/Regles/Competences/Maisons/Templis": [],
-  "/Jeu/Regles/Competences/Maisons/Scienctes": [],
   "/Jeu/Regles/Mini-Jeux/Alcoolique": [],
   "/Jeu/Regles/Mini-Jeux/Commercant": [],
   "/Jeu/Regles/Mini-Jeux/Proprietaire": [],
@@ -343,27 +336,6 @@
   "/Jeu/Sessions du Masque/Scenes/01. Orphelinat dHazdaim": [],
   "/Jeu/Sessions du Masque/Scenes/02. Campement de Nix et Salome": [],
   "/Jeu/Sessions du Masque/Scenes/03. Ville du chef": [],
-  "/Geographie/Anneau de Brume": [
-    "/Geographie/Ovliin/Ovliin"
-  ],
-  "/Geographie/Anneau de Feu": [
-    "/Geographie/Suraja/Suraja"
-  ],
-  "/Geographie/Anneau des Tempetes": [
-    "/Geographie/Nirina/Nirina"
-  ],
-  "/Geographie/Anneau de Givre": [
-    "/Geographie/Ovliin/Ovliin"
-  ],
-  "/Geographie/Anneau des Vents": [
-    "/Geographie/Kothula/Kothula"
-  ],
-  "/Geographie/Nirina/Nirina": [],
-  "/Geographie/Geographie 1": [],
-  "/Geographie/Suraja/Suraja": [],
-  "/Geographie/Kothula/Kothula": [],
-  "/Geographie/Geographie": [],
-  "/Geographie/Ovliin/Ovliin": [],
   "/Bestiaire/Bestiaire": [],
   "/Bestiaire/Planaires/Dieux/Dieux": [
     "/Notes/Archives/Gamesh_ Dieu Scintillant",
@@ -487,5 +459,26 @@
     "/Jeu/Regles/Apprentissages/Alchimie/Invocateur",
     "/Jeu/Regles/Apprentissages/Erudition/Erudition"
   ],
-  "/Jeu/Regles 2.0 WIP/Races/Affinites": []
+  "/Jeu/Regles 2.0 WIP/Races/Affinites": [],
+  "/Geographie/Anneau de Brume": [
+    "/Geographie/Ovliin/Ovliin"
+  ],
+  "/Geographie/Anneau de Feu": [
+    "/Geographie/Suraja/Suraja"
+  ],
+  "/Geographie/Anneau de Givre": [
+    "/Geographie/Ovliin/Ovliin"
+  ],
+  "/Geographie/Anneau des Tempetes": [
+    "/Geographie/Nirina/Nirina"
+  ],
+  "/Geographie/Anneau des Vents": [
+    "/Geographie/Kothula/Kothula"
+  ],
+  "/Geographie/Geographie": [],
+  "/Geographie/Kothula/Kothula": [],
+  "/Geographie/Nirina/Nirina": [],
+  "/Geographie/Ovliin/Ovliin": [],
+  "/Geographie/Suraja/Suraja": [],
+  "/Geographie/WorldMap": []
 }

@@ -89,7 +89,7 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown(">Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste\n\n**Niveau** : 10\n\n|       Arvens        | Runild |        Scienctes         | Templis |\n| :-----------------: | :----: | :----------------------: | :-----: |\n| <span class=\"wiki-unresolved\">Or</span> 1 |   -    | <a href=\"%%BASE%%/Jeu/Regles/Competences/Maisons/Scienctes#mage\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Competences/Maisons/Scienctes\" data-wiki-fragment=\"Mage%5C\">Mage</a> |    -    |\n")}
+	{@html renderMarkdown(">Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste\n\n**Niveau** : 10\n\n|       Arvens        | Runild |        Scienctes         | Templis |\n| :-----------------: | :----: | :----------------------: | :-----: |\n| <span class=\"wiki-unresolved\">Or</span> 1 |   -    | <span class=\"wiki-unresolved\">Mage</span> |    -    |\n")}
 {/snippet}
 
 {#snippet attributs()}

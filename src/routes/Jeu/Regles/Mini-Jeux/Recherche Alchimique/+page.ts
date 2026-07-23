@@ -6,4 +6,5 @@ export const load: PageLoad = () => ({
   pageTitle: "Recherche Alchimique",
   pageDescription: "",
   fullBleed: false,
+  fullHeight: false,
 });

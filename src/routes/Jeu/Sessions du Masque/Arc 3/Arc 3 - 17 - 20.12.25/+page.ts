@@ -6,4 +6,5 @@ export const load: PageLoad = () => ({
   pageTitle: "Arc 3 - 17 - 20.12.25",
   pageDescription: "",
   fullBleed: false,
+  fullHeight: false,
 });

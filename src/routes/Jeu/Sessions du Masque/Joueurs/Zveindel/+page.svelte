@@ -77,7 +77,7 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("<img src=\"%%BASE%%/zveindel.png\" alt=\"zveindel.png\" width=\"300\" class=\"wiki-image\" />\n\n**Niveau** : 10\n\n|           Arvens            | Runild |             Scienctes              | Templis |\n| :-------------------------: | :----: | :--------------------------------: | :-----: |\n| <span class=\"wiki-unresolved\">Argent</span> 2 |   -    | <a href=\"%%BASE%%/Jeu/Regles/Competences/Maisons/Scienctes#archimage\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Competences/Maisons/Scienctes\" data-wiki-fragment=\"Archimage%5C\">Archimage</a> |    -    |\n")}
+	{@html renderMarkdown("<img src=\"%%BASE%%/zveindel.png\" alt=\"zveindel.png\" width=\"300\" class=\"wiki-image\" />\n\n**Niveau** : 10\n\n|           Arvens            | Runild |             Scienctes              | Templis |\n| :-------------------------: | :----: | :--------------------------------: | :-----: |\n| <span class=\"wiki-unresolved\">Argent</span> 2 |   -    | <span class=\"wiki-unresolved\">Archimage</span> |    -    |\n")}
 {/snippet}
 
 {#snippet attributs()}
