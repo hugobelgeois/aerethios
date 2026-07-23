@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "node_modules/deepmerge/.eslintcache",
-                "bFile": "node_modules/deepmerge/.eslintcache",
+                "aFile": ".export-cache.json",
+                "bFile": ".export-cache.json",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: .eslintcache  (Working Tree)"
+              "title": "Diff: .export-cache.json  (Working Tree)"
             }
           }
         ]
@@ -132,29 +132,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cfec22c8b087b387",
+  "active": "548494edba67712a",
   "lastOpenFiles": [
-    "src/routes/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements a Distance/+page.ts",
-    "src/routes/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements a Distance/+page.svelte",
-    "src/routes/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements a Distance",
-    "src/routes/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte/+page.ts",
-    "src/routes/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte/+page.svelte",
-    "src/routes/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication/+page.ts",
-    "src/routes/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication/+page.svelte",
-    "src/routes/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu/+page.ts",
-    "src/routes/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu/+page.svelte",
-    "src/routes/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte",
-    "src/routes/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu",
-    "static/Ville du chef.jpg",
-    "static/Salomé.jpg",
-    "static/Orphelinat d'Hazdaim.png",
-    "static/Orphelinat d'Hazdaim.jpg",
-    "static/Nix.jpg",
-    "static/Mattias du Lion Tuant.jpg",
-    "static/weapon-hast.png",
-    "static/weapon-range.png",
-    "static/zveindel.png",
-    "static/hazdaim.png",
+    "static/Colonel Thierry du Lion d'Argent.webp",
+    "static/Campement de Nix et Salomé.jpg",
+    "static/Campement de Nix et Salomé Monstre.jpg",
+    "static/naga-sand.png",
+    "static/naga-adult.png",
+    "static/naga-warrior.png",
+    "static/grande-mère.png",
+    "static/geography.jpg",
+    "src/lib/links.json",
+    "src/lib/nameMap.json",
+    "src/lib/hidden.json",
+    "src/lib/nodeColors.json",
+    "src/lib/styleSettingsClasses.json",
+    "src/app.css",
+    "build/Bestiaire/Terrestres/Plantes/Plantes/index.html",
+    "build/Bestiaire/Terrestres/Naturels/Naturels/index.html",
+    "build/Bestiaire/Terrestres/Mythiques/Mythiques/index.html",
+    "build/Bestiaire/Terrestres/Humanoides/Orc/index.html",
+    "build/zveindel.png",
+    "build/weapon-range.png",
+    "build/weapon-hast.png",
     "node_modules/@sveltejs/adapter-static/README.md",
     "README.md"
   ]

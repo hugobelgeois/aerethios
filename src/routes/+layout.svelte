@@ -6,7 +6,7 @@
 	import { DEFAULT_COLOR_MODE } from "$lib/themeConfig";
 	import type { Snippet } from "svelte";
 	import { onMount, tick } from "svelte";
-	import { afterNavigate } from "$app/navigation";
+	import { afterNavigate, goto } from "$app/navigation";
 	import { base } from "$app/paths";
 	import { page } from "$app/stores";
 	import "../app.css";
@@ -38,6 +38,27 @@
 	if (typeof window !== "undefined") {
 		(window as unknown as { MAP_MANAGER_VIEWER_BASE_URL?: string }).MAP_MANAGER_VIEWER_BASE_URL =
 			base || "/";
+	}
+
+	// Map Manager's snapshot JSON also embeds fully-rendered HTML for each
+	// linked note (baked in by the live Obsidian plugin when the map was
+	// last saved), including that note's own <a href="/Jeu/..."> links —
+	// generated from inside Obsidian, which has no idea the export will
+	// live under a GitHub Pages "/<repo>" subpath, so they're always
+	// root-relative and base-less. mountBlock() drops that HTML straight
+	// into the page via innerHTML, so clicking one of those links 404s
+	// (missing the base prefix) even though every link this app generates
+	// itself is correctly prefixed. A delegated click handler is the only
+	// way to catch these, since the HTML arrives well after this layout
+	// mounts, at whatever point the user opens a token's note tab.
+	function fixUnbasedInternalLink(e: MouseEvent) {
+		if (!base || e.defaultPrevented) return;
+		const link = (e.target as HTMLElement).closest?.("a[href]");
+		if (!(link instanceof HTMLAnchorElement)) return;
+		const href = link.getAttribute("href");
+		if (!href || !href.startsWith("/") || href.startsWith(`${base}/`)) return;
+		e.preventDefault();
+		void goto(base + href);
 	}
 
 	// The graph page's own content IS the graph — the right sidebar's mini
@@ -128,6 +149,8 @@
 			leftCollapsed = true;
 			rightCollapsed = true;
 		}
+
+		document.addEventListener("click", fixUnbasedInternalLink);
 	});
 
 	// onMount alone only fires once, when this root layout first mounts —
