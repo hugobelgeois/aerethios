@@ -11,10 +11,14 @@
             "id": "cfec22c8b087b387",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".export-cache.json",
+                "bFile": ".export-cache.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: .export-cache.json  (Working Tree)"
             }
           }
         ]
