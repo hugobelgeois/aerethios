@@ -136,8 +136,8 @@
 	<section>
 		<h3 id="magie">{@html applyBase("Magie")}</h3>
 	{@html renderMarkdown("> Permet d'imprégner l'arme de la magie concernée.\n\nConvertit les dégâts de l'arme en dégâts magiques, et les augmente de 4 par crystal dépensé.\nLes dégâts magiques sont réduits de moitié si la cible a une résistance à cette magie.\n\tIls sont doublés si la cible a une faiblesse à cette magie.\n\n")}
-	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles"} fragment={"Huiles"} />
-	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles"} fragment={"Enchantements d'Arme de mêlée"} />
+	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles"} fragment={""} />
+	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements de Melees"} fragment={""} />
 
 	</section>
 {/snippet}

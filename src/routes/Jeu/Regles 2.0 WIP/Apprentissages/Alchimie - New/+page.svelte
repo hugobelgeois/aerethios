@@ -1,0 +1,139 @@
+<script lang="ts">
+  import { onDestroy } from "svelte";
+  import { tocHeadings } from "$lib/stores";
+  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
+  import LinkPreview from "$lib/LinkPreview.svelte";
+  import EmbedBlock from "$lib/EmbedBlock.svelte";
+
+  tocHeadings.set([
+      {
+          "id": "rappel",
+          "text": "Rappel",
+          "level": 3
+      },
+      {
+          "id": "spcialisations",
+          "text": "Spécialisations",
+          "level": 2
+      },
+      {
+          "id": "bijoutier",
+          "text": "Bijoutier",
+          "level": 3
+      },
+      {
+          "id": "cuisinier",
+          "text": "Cuisinier",
+          "level": 3
+      },
+      {
+          "id": "invocateur",
+          "text": "Invocateur",
+          "level": 3
+      },
+      {
+          "id": "potionniste",
+          "text": "Potionniste",
+          "level": 3
+      },
+      {
+          "id": "potions",
+          "text": "Potions",
+          "level": 4
+      },
+      {
+          "id": "huiles",
+          "text": "Huiles",
+          "level": 4
+      }
+  ]);
+
+  onDestroy(() => tocHeadings.set([]));
+</script>
+
+<svelte:head>
+  <title>Alchimie - New</title>
+</svelte:head>
+
+<article class="md-page">
+  <header class="md-header">
+    <h1>Alchimie - New</h1>
+  </header>
+  <div class="markdown-rendered">
+		{@render rappel()}
+		{@render spcialisations()}
+  </div>
+</article>
+
+<LinkPreview />
+
+{#snippet rappel()}
+	<section>
+		<h3 id="rappel">{@html applyBase("Rappel")}</h3>
+	{@html renderMarkdown("\n| Durée | Interruption | Amélioration | Déconstruction | Consommation | Echec                                                                              |\n| :---: | :----------: | :----------: | :------------: | :----------: | :--------------------------------------------------------------------------------- |\n|  2h   |      X       |      X       |       X        |      -       | - +1 ingrédient inférieur<br>- Possibilité d'effet négatif ajouté à l'objet (DC 5) |\n\n")}
+	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication"} fragment={""} />
+	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte"} fragment={""} />
+	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu"} fragment={""} />
+
+	</section>
+{/snippet}
+
+{#snippet spcialisations()}
+	<section>
+		<h2 id="spcialisations">{@html applyBase("Spécialisations")}</h2>
+
+	{@render bijoutier()}
+	{@render cuisinier()}
+	{@render invocateur()}
+	{@render potionniste()}
+	</section>
+{/snippet}
+
+{#snippet bijoutier()}
+	<section>
+		<h3 id="bijoutier">{@html applyBase("Bijoutier")}</h3>
+	{@html renderMarkdown("> Améliore les bijoux d'un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" data-wiki-fragment=\"\">Artisan</a> pour qu'ils émettent des magies que l'on ne maîtrise pas.\n\n| Déchet | Commun | Peu Commun | Rare | Légendaire |\n| :----: | :----: | :--------: | :--: | :--------: |\n|  1d4   |  1d6   |    2d4     | 2d6  |    2d8     |\n\nAjoute une/des maîtrise.s magique.s selon le type d'ingrédient (à décider avec le Maître du Jeu).\nLa puissance de chaque magie dépend de la rareté de l'ingrédient qui lui est lié.\n\n\tExemple : J'ai un coeur de magma légendaire et une algue commune, ma bague fait 2d8 de Feu et 1d6 d'Eau.\n")}
+
+	</section>
+{/snippet}
+
+{#snippet cuisinier()}
+	<section>
+		<h3 id="cuisinier">{@html applyBase("Cuisinier")}</h3>
+	{@html renderMarkdown("> Octroie des points selon la rareté de l'ingrédient que le joueur répartit dans ses Attributs pour 1 jour.\n> 1 seul ingrédient par repas.\n\n| Déchet | Commun | Peu Commun | Rare | Légendaire |\n| :----: | :----: | :--------: | :--: | :--------: |\n|   1    |   2    |     3      |  6   |     10     |\n")}
+
+	</section>
+{/snippet}
+
+{#snippet invocateur()}
+	<section>
+		<h3 id="invocateur">{@html applyBase("Invocateur")}</h3>
+	{@html renderMarkdown("> Créé un élémentaire inerte qui prendra vie et puissance grâce à un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Erudition\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Erudition\" data-wiki-fragment=\"\">Érudit</a>.\n\n| Déchet | Commun | Peu Commun | Rare | Légendaire |\n| :----: | :----: | :--------: | :--: | :--------: |\n|  +1h   |  +12h  |    +1j     | +3j  |    +7j     |\n\nLa durée de vie de l'invocation dépend de la somme de la durée des ingrédients.\n")}
+
+	</section>
+{/snippet}
+
+{#snippet potionniste()}
+	<section>
+		<h3 id="potionniste">{@html applyBase("Potionniste")}</h3>
+	{@html renderMarkdown("> Fabrique des liquides consommables (potions) ou applicables (huiles) pour altérer le monde.\n")}
+	{@render potions()}
+	{@render huiles()}
+	</section>
+{/snippet}
+
+{#snippet potions()}
+	<section>
+		<h4 id="potions">{@html applyBase("Potions")}</h4>
+	{@html renderMarkdown("> Débloque une affinité ou une compétence.\n> Durée : 1 jour\n\n|              | Déchet |  Commun  |      Peu Commun       |         Rare          |    Légendaire     |\n| ------------ | :----: | :------: | :-------------------: | :-------------------: | :---------------: |\n| Débloque     |   -    | Affinité | Compétence Secondaire | Compétence Principale | Compétence Finale |\n| Intoxication |   -    |    +1    |          +2           |          +4           |        +6         |\nLe seuil maximal tolérable pour un humain est 5.\n\tAu delà, le joueur perd chaque jour **2d6HP** par point d'intoxication supplémentaire.\nDormir réduit l’intoxication de 3.\n\nLes potions peuvent également avoir d'autres effets plus précis, tels que rendre des HP par exemple.\n\tDécrivez vos intentions dans votre recette et discutez-en avec votre MJ.\n")}
+
+	</section>
+{/snippet}
+
+{#snippet huiles()}
+	<section>
+		<h4 id="huiles">{@html applyBase("Huiles")}</h4>
+	{@html renderMarkdown("> Applique des <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles#huiles\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles\" data-wiki-fragment=\"Huiles\">Effets</a> sur une arme dont les dégâts infligés avec le temps varient selon la rareté des ingrédients.\n> Durée : 1 combat\n\n| Déchet | Commun | Peu Commun | Rare |           Légendaire           |\n| :----: | :----: | :--------: | :--: | :----------------------------: |\n|   -    |   1    |     2      |  4   | 4<br>+ Cumulable à chaque coup |")}
+
+	</section>
+{/snippet}

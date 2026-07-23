@@ -155,7 +155,6 @@
   "/Jeu/Regles/Apprentissages/Alchimie/Potionniste": [
     "/Jeu/Regles/Apprentissages/Alchimie/Alchimie"
   ],
-  "/Jeu/Regles/Apprentissages/Erudition/Erudition": [],
   "/Jeu/Regles/Apprentissages/Apprentissages": [
     "/Jeu/Regles/Apprentissages/Alchimie/Alchimie",
     "/Jeu/Regles/Apprentissages/Alchimie/Cuisinier",
@@ -435,10 +434,12 @@
   "/Jeu/Campagne 2/Scenes/00b. xx-xx-26": [],
   "/Jeu/Campagne 2/Scenes/00a. 13-06-26": [],
   "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New": [
-    "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles"
+    "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles",
+    "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements de Melees"
   ],
   "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New": [
     "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles",
+    "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements a Distance",
     "/Jeu/Regles/Statuts/Afflictions",
     "/Jeu/Regles/Statuts/Proprietes",
     "/Jeu/Regles/Statuts/Conditions"
@@ -449,15 +450,8 @@
   ],
   "/Jeu/Regles 2.0 WIP/Combat/Combat - New": [],
   "/Jeu/Regles 2.0 WIP/Combat/Magie - New": [],
-  "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles": [],
-  "/Jeu/Regles 2.0 WIP/Metiers/Metiers": [
-    "/Jeu/Regles/Apprentissages/Artisanat/Artisanat",
-    "/Jeu/Regles/Apprentissages/Artisanat/Enchanteur",
-    "/Jeu/Regles/Apprentissages/Alchimie/Alchimie",
-    "/Jeu/Regles/Apprentissages/Alchimie/Cuisinier",
-    "/Jeu/Regles/Apprentissages/Alchimie/Potionniste",
-    "/Jeu/Regles/Apprentissages/Alchimie/Invocateur",
-    "/Jeu/Regles/Apprentissages/Erudition/Erudition"
+  "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles": [
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New"
   ],
   "/Jeu/Regles 2.0 WIP/Races/Affinites": [],
   "/Geographie/Anneau de Brume": [
@@ -480,5 +474,37 @@
   "/Geographie/Nirina/Nirina": [],
   "/Geographie/Ovliin/Ovliin": [],
   "/Geographie/Suraja/Suraja": [],
-  "/Geographie/WorldMap": []
+  "/Geographie/WorldMap": [],
+  "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New": [
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition"
+  ],
+  "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication": [],
+  "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu": [],
+  "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte": [],
+  "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements de Melees": [],
+  "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements a Distance": [],
+  "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New": [
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New"
+  ],
+  "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition": [
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu"
+  ],
+  "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New": [
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition",
+    "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles"
+  ]
 }
