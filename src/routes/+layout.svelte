@@ -7,6 +7,7 @@
 	import type { Snippet } from "svelte";
 	import { onMount, tick } from "svelte";
 	import { afterNavigate } from "$app/navigation";
+	import { base } from "$app/paths";
 	import { page } from "$app/stores";
 	import "../app.css";
 	import "../markdown.css";
@@ -25,6 +26,19 @@
 	// resolve.alias entry; a relative path sidesteps that alias-resolution
 	// step, which otherwise silently returns an empty match (no error).
 	const customScripts = import.meta.glob("../lib/customScripts/*.{js,ts}");
+
+	// Some custom scripts (e.g. the Map Manager plugin's viewer) fetch their
+	// own data files by an absolute, vault-root-relative URL rather than
+	// through SvelteKit's routing, so they can't pick up `base` themselves.
+	// Map Manager's viewer specifically reads this global — see its
+	// customScript.ts (`window.MAP_MANAGER_VIEWER_BASE_URL || "/"`). Without
+	// it, its fetches resolve against the domain root instead of the GitHub
+	// Pages "/<repo>/" subpath (base is "" locally, so this was invisible in
+	// dev) and every map 404s as "Carte introuvable".
+	if (typeof window !== "undefined") {
+		(window as unknown as { MAP_MANAGER_VIEWER_BASE_URL?: string }).MAP_MANAGER_VIEWER_BASE_URL =
+			base || "/";
+	}
 
 	// The graph page's own content IS the graph — the right sidebar's mini
 	// preview of the same graph would be redundant, so it's not just
