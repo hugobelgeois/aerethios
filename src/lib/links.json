@@ -435,7 +435,9 @@
   "/Jeu/Campagne 2/Scenes/00a. 13-06-26": [],
   "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New": [
     "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles",
-    "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements de Melees"
+    "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements de Melees",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition"
   ],
   "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New": [
     "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles",
@@ -486,18 +488,25 @@
   "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication": [],
   "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu": [],
   "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte": [],
-  "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements de Melees": [],
-  "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements a Distance": [],
+  "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements de Melees": [
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition"
+  ],
+  "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements a Distance": [
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition"
+  ],
   "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New": [
     "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu",
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New"
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition"
   ],
   "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition": [
     "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte",
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu"
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New"
   ],
   "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New": [
     "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication",

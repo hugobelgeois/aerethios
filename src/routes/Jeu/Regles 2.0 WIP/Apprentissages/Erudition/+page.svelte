@@ -17,8 +17,8 @@
           "level": 2
       },
       {
-          "id": "enchanteur",
-          "text": "Enchanteur",
+          "id": "enchanteur---wip",
+          "text": "Enchanteur - WIP",
           "level": 3
       },
       {
@@ -27,8 +27,13 @@
           "level": 3
       },
       {
-          "id": "runniste",
-          "text": "Runniste",
+          "id": "joaillier",
+          "text": "Joaillier",
+          "level": 3
+      },
+      {
+          "id": "runniste---wip",
+          "text": "Runniste - WIP",
           "level": 3
       }
   ]);
@@ -67,16 +72,17 @@
 	<section>
 		<h2 id="spcialisations">{@html applyBase("Spécialisations")}</h2>
 
-	{@render enchanteur()}
+	{@render enchanteur__Wip()}
 	{@render invocateur()}
-	{@render runniste()}
+	{@render joaillier()}
+	{@render runniste__Wip()}
 	</section>
 {/snippet}
 
-{#snippet enchanteur()}
+{#snippet enchanteur__Wip()}
 	<section>
-		<h3 id="enchanteur">{@html applyBase("Enchanteur")}</h3>
-
+		<h3 id="enchanteur---wip">{@html applyBase("Enchanteur - WIP")}</h3>
+	{@html renderMarkdown("> Enchante les équipements fabriquées par un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" data-wiki-fragment=\"\">Artisan</a> ainsi que certaines matières inorganiques pour leur conférer des capacités spéciales.\n> Infuse\n> ~2po/h\n\nDes ingrédients plus rares augmentent les chances d'avoir de meilleurs enchantements.\n")}
 
 	</section>
 {/snippet}
@@ -84,15 +90,23 @@
 {#snippet invocateur()}
 	<section>
 		<h3 id="invocateur">{@html applyBase("Invocateur")}</h3>
-
+	{@html renderMarkdown("> Insuffle de la vie et de la puissance dans un élémentaire inerte créé par un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" data-wiki-fragment=\"\">Alchimiste</a>.\n> ~1po/h\n\n| Déchet | Commun | Peu Commun | Rare | Légendaire |\n| :----: | :----: | :--------: | :--: | :--------: |\n|   -    |   -    |     x1     |  x2  |     x3     |\nLa puissance de l'élémentaire varie selon la rareté des ingrédients.\n")}
 
 	</section>
 {/snippet}
 
-{#snippet runniste()}
+{#snippet joaillier()}
 	<section>
-		<h3 id="runniste">{@html applyBase("Runniste")}</h3>
+		<h3 id="joaillier">{@html applyBase("Joaillier")}</h3>
+	{@html renderMarkdown("> Infuse des gemmes dans les armes pour modifier leur comportement.\n> ~/h\n\n| Déchet | Commun | Peu Commun | Rare | Légendaire |\n| :----: | :----: | :--------: | :--: | :--------: |\n|   -    |   -    |     1      |  2   |     4      |\n\nLa modification de dégâts de l'arme varie selon la rareté de l'ingrédient.\n")}
 
+	</section>
+{/snippet}
+
+{#snippet runniste__Wip()}
+	<section>
+		<h3 id="runniste---wip">{@html applyBase("Runniste - WIP")}</h3>
+	{@html renderMarkdown("> Schématise la magie sous forme de gravure, peinture et autre pour la préparer à l'avance et la déclencher à distance.\n> ~50pa/h")}
 
 	</section>
 {/snippet}

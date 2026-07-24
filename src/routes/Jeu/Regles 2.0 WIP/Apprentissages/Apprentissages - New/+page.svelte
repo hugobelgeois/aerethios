@@ -91,7 +91,7 @@
 {#snippet gnral()}
 	<section>
 		<h2 id="gnral">{@html applyBase("Général")}</h2>
-	{@html renderMarkdown("> Chaque leçon prend 1 jour, et chaque jour coûte 20pa.\n\n1d20 par leçon pour apprendre :\n   - 1 = La leçon n'a servie à rien\n   - 20 = La leçon compte double\n\n| Compétence        | Leçons Requises |\n| ----------------- | --------------- |\n| **Équitation**    | 30              |\n| **Lire / Écrire** | 50              |\n| **Natation**      | 30              |\n| **Navigation**    | 100             |\n")}
+	{@html renderMarkdown("> Chaque leçon prend 1 jour, et chaque jour coûte 20pa.\n\n1d20 par leçon pour apprendre :\n   - 1 = La leçon n'a servie à rien\n   - 20 = La leçon compte double\n\n| Compétence        | Leçons Requises |\n| ----------------- | --------------- |\n| **Équitation**    | 30-60           |\n| **Lire / Écrire** | 100-500         |\n| **Natation**      | 30-60           |\n| **Navigation**    | 50-250          |\n")}
 
 	</section>
 {/snippet}
@@ -109,7 +109,7 @@
 {#snippet artisanat__New()}
 	<section>
 		<h3 id="artisanat---new">{@html applyBase("<a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" data-wiki-fragment=\"\">Artisanat - New</a>")}</h3>
-	{@html renderMarkdown("\n| Compétence     | Description                                   |\n| -------------- | --------------------------------------------- |\n| **Artificier** | Fabrication des armes à feu                   |\n| **Bijoutier**  | Fabrication de bijoux ou catalyseurs de magie |\n| **Enchanteur** | Création et application de capacités uniques  |\n| **Forgeron**   | Fabrication d'armes et d’armures              |\n")}
+	{@html renderMarkdown("\n| Compétence     | Description                                             |\n| -------------- | ------------------------------------------------------- |\n| **Artificier** | Fabrication d'automations, de mécanismes et d'explosifs |\n| **Bijoutier**  | Fabrication de bijoux ou catalyseurs de magie           |\n| **Enchanteur** | Création et application de capacités uniques            |\n| **Forgeron**   | Fabrication d'armes et d’armures                        |\n")}
 
 	</section>
 {/snippet}
@@ -117,7 +117,7 @@
 {#snippet alchimie__New()}
 	<section>
 		<h3 id="alchimie---new">{@html applyBase("<a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" data-wiki-fragment=\"\">Alchimie - New</a>")}</h3>
-	{@html renderMarkdown("\n| Compétence      | Description                                                          |\n| --------------- | -------------------------------------------------------------------- |\n| **Cuisinier**   | Préparation de repas conférant des bonus temporaires                 |\n| **Bijoutier**   | Fabrication de bijoux ou catalyseurs de magie                        |\n| **Potionniste** | Création de potions, huiles et remèdes                               |\n| **Invocateur**  | Animation ou transmutation d’entités à partir d’ingrédients magiques |\n")}
+	{@html renderMarkdown("\n| Compétence      | Description                                                          |\n| --------------- | -------------------------------------------------------------------- |\n| **Bijoutier**   | Fabrication de bijoux ou catalyseurs de magie                        |\n| **Cuisinier**   | Préparation de repas conférant des bonus temporaires                 |\n| **Invocateur**  | Animation ou transmutation d’entités à partir d’ingrédients magiques |\n| **Potionniste** | Création de potions, huiles et remèdes                               |\n")}
 
 	</section>
 {/snippet}
@@ -125,7 +125,7 @@
 {#snippet rudition()}
 	<section>
 		<h3 id="rudition">{@html applyBase("<a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Erudition\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Erudition\" data-wiki-fragment=\"\">Érudition</a>")}</h3>
-	{@html renderMarkdown("\n| Compétence     | Description                                                                               |\n| -------------- | ----------------------------------------------------------------------------------------- |\n| **Enchanteur** | Création et application de capacités uniques                                              |\n| **Invocateur** | Animation ou transmutation d’entités à partir d’ingrédients magiques                      |\n| **Runniste**   | Création de runes et de glyphes applicable sur des objets et entités pour les magicaliser |\n")}
+	{@html renderMarkdown("\n| Compétence     | Description                                                                               |\n| -------------- | ----------------------------------------------------------------------------------------- |\n| **Enchanteur** | Création et application de capacités uniques                                              |\n| **Invocateur** | Animation ou transmutation d’entités à partir d’ingrédients magiques                      |\n| **Joaillier**  | Application de gemmes sur les armes                                                       |\n| **Runniste**   | Création de runes et de glyphes applicable sur des objets et entités pour les magicaliser |\n")}
 
 	</section>
 {/snippet}
@@ -182,7 +182,7 @@
 {#snippet lieux()}
 	<section>
 		<h3 id="lieux">{@html applyBase("Lieux")}</h3>
-	{@html renderMarkdown("> Selon le lieu où la fabrication se fait, le résultat est modifié, et la rareté maximale des ingrédients utilisées change.\n\n")}
+	{@html renderMarkdown("> Selon le lieu où la fabrication se fait, le résultat est modifié, et la rareté maximale des ingrédients pouvant être utilisés change.\n\n")}
 	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu"} fragment={""} />
 
 	</section>
@@ -191,7 +191,7 @@
 {#snippet rgles()}
 	<section>
 		<h3 id="rgles">{@html applyBase("Règles")}</h3>
-	{@html renderMarkdown("> Selon la catégorie de métier, les règles varient.\n\n|                                | Artisanat                                                                       | Alchimie                                                                       | Erudition                                                                      |\n| ------------------------------ | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |\n| **Durée d'1 lancé de dé**      | 8h                                                                              | 2h                                                                             | 1h                                                                             |\n| **Peut être interrompu**       | Oui                                                                             | Non                                                                            | Non                                                                            |\n| **Amélioration post création** | Oui                                                                             | Non                                                                            | Non                                                                            |\n| **Déconstruction possible**    | Oui (50% du temps de construction)<br>**(6+1d2) \\* 10%** de matériaux récupérés | Non                                                                            | Non                                                                            |\n| **Consomme des Crystaux**      | Non                                                                             | Non                                                                            | Oui<br>1 par heure de travail<br>Si plus de crystaux -> Echec                  |\n| **Effet d'échec**              | +1 ingrédient inférieur                                                         | +1 ingrédient inférieur<br>Possibilité d'effet négatif ajouté à l'objet (DC 5) | +1 ingrédient inférieur<br>Possibilité d'effet négatif ajouté au joueur (DC 5) |")}
+	{@html renderMarkdown("> Selon la catégorie de métier, les règles varient.\n\n|                                | Artisanat                                                                       | Alchimie                                                                       | Erudition                                                                      |\n| ------------------------------ | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |\n| **Durée d'1 lancé de dé**      | 4h                                                                              | 2h                                                                             | 1h                                                                             |\n| **Peut être interrompu**       | Oui                                                                             | Non                                                                            | Non                                                                            |\n| **Amélioration post création** | Oui                                                                             | Non                                                                            | Non                                                                            |\n| **Déconstruction possible**    | Oui (50% du temps de construction)<br>**(6+1d2) \\* 10%** de matériaux récupérés | Non                                                                            | Non                                                                            |\n| **Consomme des Crystaux**      | Non                                                                             | Non                                                                            | Oui<br>1 par heure de travail<br>Si plus de crystaux -> Echec                  |\n| **Effet d'échec**              | +1 ingrédient inférieur                                                         | +1 ingrédient inférieur<br>Possibilité d'effet négatif ajouté à l'objet (DC 5) | +1 ingrédient inférieur<br>Possibilité d'effet négatif ajouté au joueur (DC 5) |")}
 
 	</section>
 {/snippet}

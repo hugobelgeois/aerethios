@@ -92,7 +92,7 @@
 {#snippet bijoutier()}
 	<section>
 		<h3 id="bijoutier">{@html applyBase("Bijoutier")}</h3>
-	{@html renderMarkdown("> Améliore les bijoux d'un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" data-wiki-fragment=\"\">Artisan</a> pour qu'ils émettent des magies que l'on ne maîtrise pas.\n\n| Déchet | Commun | Peu Commun | Rare | Légendaire |\n| :----: | :----: | :--------: | :--: | :--------: |\n|  1d4   |  1d6   |    2d4     | 2d6  |    2d8     |\n\nAjoute une/des maîtrise.s magique.s selon le type d'ingrédient (à décider avec le Maître du Jeu).\nLa puissance de chaque magie dépend de la rareté de l'ingrédient qui lui est lié.\n\n\tExemple : J'ai un coeur de magma légendaire et une algue commune, ma bague fait 2d8 de Feu et 1d6 d'Eau.\n")}
+	{@html renderMarkdown("> Améliore les bijoux d'un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" data-wiki-fragment=\"\">Artisan</a> pour qu'ils émettent des magies que l'on ne maîtrise pas.\n> ~20pa/h\n\n| Déchet | Commun | Peu Commun | Rare | Légendaire |\n| :----: | :----: | :--------: | :--: | :--------: |\n|  1d4   |  1d6   |    2d4     | 2d6  |    2d8     |\n\nAjoute une/des maîtrise.s magique.s selon le type d'ingrédient (à décider avec le Maître du Jeu).\nLa puissance de chaque magie dépend de la rareté de l'ingrédient qui lui est lié.\n\n\tExemple : J'ai un coeur de magma légendaire et une algue commune, ma bague fait 2d8 de Feu et 1d6 d'Eau.\n")}
 
 	</section>
 {/snippet}
@@ -100,7 +100,7 @@
 {#snippet cuisinier()}
 	<section>
 		<h3 id="cuisinier">{@html applyBase("Cuisinier")}</h3>
-	{@html renderMarkdown("> Octroie des points selon la rareté de l'ingrédient que le joueur répartit dans ses Attributs pour 1 jour.\n> 1 seul ingrédient par repas.\n\n| Déchet | Commun | Peu Commun | Rare | Légendaire |\n| :----: | :----: | :--------: | :--: | :--------: |\n|   1    |   2    |     3      |  6   |     10     |\n")}
+	{@html renderMarkdown("> Augmente les attributs pour 1 jour selon l'ingrédient le plus rare de la recette.\n> Le bonus s'applique à un attribut pour chaque ingrédient de rareté différente.\n> ~20pc/h\n\n| Déchet | Commun | Peu Commun | Rare | Légendaire |\n| :----: | :----: | :--------: | :--: | :--------: |\n|   -    |   1    |     2      |  3   |     4      |\n\n\tExemple : J'ai 2 ingrédients (1 commun, 1 rare), j'ai 3 points bonus dans 2 attributs.\n")}
 
 	</section>
 {/snippet}
@@ -108,7 +108,7 @@
 {#snippet invocateur()}
 	<section>
 		<h3 id="invocateur">{@html applyBase("Invocateur")}</h3>
-	{@html renderMarkdown("> Créé un élémentaire inerte qui prendra vie et puissance grâce à un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Erudition\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Erudition\" data-wiki-fragment=\"\">Érudit</a>.\n\n| Déchet | Commun | Peu Commun | Rare | Légendaire |\n| :----: | :----: | :--------: | :--: | :--------: |\n|  +1h   |  +12h  |    +1j     | +3j  |    +7j     |\n\nLa durée de vie de l'invocation dépend de la somme de la durée des ingrédients.\n")}
+	{@html renderMarkdown("> Créé un élémentaire inerte qui prendra vie et puissance grâce à un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Erudition\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Erudition\" data-wiki-fragment=\"\">Érudit</a>.\n> ~50pa/h\n\n| Déchet | Commun | Peu Commun | Rare | Légendaire |\n| :----: | :----: | :--------: | :--: | :--------: |\n|  +1h   |  +12h  |    +1j     | +3j  |    +7j     |\n\nLa durée de vie de l'invocation dépend de la somme de la durée des ingrédients.\n")}
 
 	</section>
 {/snippet}
@@ -116,7 +116,7 @@
 {#snippet potionniste()}
 	<section>
 		<h3 id="potionniste">{@html applyBase("Potionniste")}</h3>
-	{@html renderMarkdown("> Fabrique des liquides consommables (potions) ou applicables (huiles) pour altérer le monde.\n")}
+	{@html renderMarkdown("> Fabrique des liquides consommables (potions) ou applicables (huiles) pour altérer le monde.\n> ~10pa/h\n")}
 	{@render potions()}
 	{@render huiles()}
 	</section>

@@ -17,8 +17,8 @@
           "level": 2
       },
       {
-          "id": "artificier",
-          "text": "Artificier",
+          "id": "artificier---wip",
+          "text": "Artificier - WIP",
           "level": 3
       },
       {
@@ -60,7 +60,7 @@
 {#snippet rappel()}
 	<section>
 		<h3 id="rappel">{@html applyBase("Rappel")}</h3>
-	{@html renderMarkdown("\n| Durée | Interruption | Amélioration | Déconstruction                                                                    | Consommation | Echec                     |\n| :---: | :----------: | :----------: | :-------------------------------------------------------------------------------- | :----------: | :------------------------ |\n|  8h   |      V       |      V       | Durée : 50% du temps de construction<br>**(6+1d2) \\* 10%** de matériaux récupérés |      -       | - +1 ingrédient inférieur |\n\n")}
+	{@html renderMarkdown("\n| Durée | Interruption | Amélioration | Déconstruction                                                                    | Consommation | Echec                     |\n| :---: | :----------: | :----------: | :-------------------------------------------------------------------------------- | :----------: | :------------------------ |\n|  4h   |      V       |      V       | Durée : 50% du temps de construction<br>**(6+1d2) \\* 10%** de matériaux récupérés |      -       | - +1 ingrédient inférieur |\n\n")}
 	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication"} fragment={""} />
 	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte"} fragment={""} />
 	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu"} fragment={""} />
@@ -72,17 +72,17 @@
 	<section>
 		<h2 id="spcialisations">{@html applyBase("Spécialisations")}</h2>
 
-	{@render artificier()}
+	{@render artificier__Wip()}
 	{@render bijoutier()}
 	{@render enchanteur()}
 	{@render forgeron()}
 	</section>
 {/snippet}
 
-{#snippet artificier()}
+{#snippet artificier__Wip()}
 	<section>
-		<h3 id="artificier">{@html applyBase("Artificier")}</h3>
-	{@html renderMarkdown("> Les minerais sont classés par rareté.\n> La rareté en elle-même ne change rien au résultat final.\n")}
+		<h3 id="artificier---wip">{@html applyBase("Artificier - WIP")}</h3>
+	{@html renderMarkdown("> Création d'automations, de mécanismes et d'explosifs.\n> ~20pa/h\n")}
 
 	</section>
 {/snippet}
@@ -90,7 +90,7 @@
 {#snippet bijoutier()}
 	<section>
 		<h3 id="bijoutier">{@html applyBase("Bijoutier")}</h3>
-	{@html renderMarkdown("> Selon la rareté de l'ingrédient, augmente le nombre de magie qu'un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" data-wiki-fragment=\"\">Alchimiste</a> peut canaliser dedans.\n\n| Déchet | Commun | Peu Commun | Rare | Légendaire |\n| :----: | :----: | :--------: | :--: | :--------: |\n|   +1   |   +2   |     +3     |  +5  |     +7     |\n")}
+	{@html renderMarkdown("> Selon la rareté de l'ingrédient, augmente le nombre de magies qu'un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" data-wiki-fragment=\"\">Alchimiste</a> peut canaliser dedans.\n> ~20pa/h\n\n| Déchet | Commun | Peu Commun | Rare | Légendaire |\n| :----: | :----: | :--------: | :--: | :--------: |\n|   +1   |   +2   |     +3     |  +5  |     +7     |\n")}
 
 	</section>
 {/snippet}
@@ -98,7 +98,7 @@
 {#snippet enchanteur()}
 	<section>
 		<h3 id="enchanteur">{@html applyBase("Enchanteur")}</h3>
-	{@html renderMarkdown("\nUn **Enchanteur** applique les **savoirs ésotériques** de son continent pour **améliorer les propriétés** d’une arme, d’une armure ou d’un objet.\nChaque continent possède ses **propres traditions enchantées**, offrant des avantages uniques mais aussi des **contreparties** spécifiques.\nL’enchanteur agit comme un pont entre **artisanat et magie**, infusant la matière de symboles, de runes ou d’essences spirituelles.\n")}
+	{@html renderMarkdown("> Prépare l'équipement pour accueillir l'enchantement d'un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Erudition\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Erudition\" data-wiki-fragment=\"\">Érudit</a> sans imploser.\n> Les chances de réussite varient selon la rareté de l'ingrédient.\n> ~50pa/h\n\n| Déchet | Commun | Peu Commun | Rare | Légendaire |\n| :----: | :----: | :--------: | :--: | :--------: |\n|   +1   |   +2   |     +3     |  +5  |     +7     |\n")}
 
 	</section>
 {/snippet}
@@ -106,7 +106,7 @@
 {#snippet forgeron()}
 	<section>
 		<h3 id="forgeron">{@html applyBase("Forgeron")}</h3>
-	{@html renderMarkdown("> Les minerais sont classés par rareté.\n> La rareté en elle-même ne change rien au résultat final.")}
+	{@html renderMarkdown("> Fabrique des armes et des armures en tout genre et de tous matériaux.\n> Les minerais sont classés par rareté, qui en elle-même ne change rien au résultat final.\n> ~5pa/h")}
 
 	</section>
 {/snippet}

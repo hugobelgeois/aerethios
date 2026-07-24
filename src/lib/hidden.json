@@ -31,15 +31,6 @@
   "/Images/weapon-hast.png",
   "/Images/weapon-range.png",
   "/Images/zveindel.png",
-  "/Jeu/Campagne 2",
-  "/Jeu/Campagne 2/Joueurs",
-  "/Jeu/Campagne 2/Joueurs/Aldrich",
-  "/Jeu/Campagne 2/Joueurs/Ronronov",
-  "/Jeu/Campagne 2/Joueurs/Strauss",
-  "/Jeu/Campagne 2/Joueurs/Urzok",
-  "/Jeu/Campagne 2/Scenes",
-  "/Jeu/Campagne 2/Scenes/00b. xx-xx-26",
-  "/Jeu/Campagne 2/Scenes/00a. 13-06-26",
   "/Jeu/Sessions du Masque/Scenes/Images",
   "/Jeu/Sessions du Masque/Scenes/Images/Campement de Nix et Salome Monstre.jpg",
   "/Jeu/Sessions du Masque/Scenes/Images/Campement de Nix et Salome.jpg",
@@ -57,5 +48,9 @@
   "/Jeu/Regles 2.0 WIP/Combat/Misc",
   "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles",
   "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements a Distance",
-  "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements de Melees"
+  "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements de Melees",
+  "/Jeu/Campagne 2/Scenes",
+  "/Jeu/Campagne 2/Scenes/00. Template",
+  "/Jeu/Campagne 2/Scenes/00b. xx-xx-26",
+  "/Jeu/Campagne 2/Scenes/00a. 13-06-26"
 ]

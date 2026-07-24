@@ -7,8 +7,8 @@
 
   tocHeadings.set([
       {
-          "id": "enchantements",
-          "text": "Enchantements",
+          "id": "enchantements---wip",
+          "text": "Enchantements - WIP",
           "level": 3
       }
   ]);
@@ -25,16 +25,16 @@
     <h1>Enchantements de Mêlées</h1>
   </header>
   <div class="markdown-rendered">
-		{@render enchantements()}
+		{@render enchantements__Wip()}
   </div>
 </article>
 
 <LinkPreview />
 
-{#snippet enchantements()}
+{#snippet enchantements__Wip()}
 	<section>
-		<h3 id="enchantements">{@html applyBase("Enchantements")}</h3>
-	{@html renderMarkdown("> Ajoute des effets uniques à l'arme si aucune infusion n'a été appliquée dessus.\n\n| Enchantement | Effet                                                                | Prix | Durée de fabrication |\n| ------------ | -------------------------------------------------------------------- | ---: | -------------------: |\n| Critique     | Permet de faire des coups critiques (les dégâts passent outre la DR) | ? po |                 20 j |\n| Vampirique   | Récupère 4HP par coup qui passe outre la DR                          | ? po |                 20 j |\n| Crystallique | Récupère 1MP par coup qui passe outre la DR si la cible est magique  | ? po |                 20 j |\n")}
+		<h3 id="enchantements---wip">{@html applyBase("Enchantements - WIP")}</h3>
+	{@html renderMarkdown("> Fait par un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Erudition#enchanteur---wip\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Erudition\" data-wiki-fragment=\"Enchanteur%20-%20WIP\">Enchanteur</a> pour déterminer l'enchantement.\n> Ajoute des effets uniques à l'arme si aucune infusion n'a été appliquée dessus.\n\n| Enchantement | Effet                                                                | Rareté |\n| ------------ | -------------------------------------------------------------------- | ------ |\n| Critique     | Permet de faire des coups critiques (les dégâts passent outre la DR) |        |\n| Vampirique   | Récupère 4HP par coup qui passe outre la DR                          |        |\n| Crystallique | Récupère 1MP par coup qui passe outre la DR si la cible est magique  |        |")}
 
 	</section>
 {/snippet}

@@ -26,5 +26,5 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("\n| Zone sauvage | Campement | Lieu sécurisé | Lieu conçu pour |\n| ------------ | --------- | ------------- | --------------- |\n| Désavantage  | Résultat  | Avantage      | Temps/2         |\n| ---          | ---       | Rareté +1     | Rareté +2       |\n")}
+	{@html renderMarkdown("\n| Zone sauvage | Campement | Lieu sécurisé | Lieu conçu pour             |\n| ------------ | --------- | ------------- | --------------------------- |\n| Désavantage  | Résultat  | Avantage      | Difficulté de Fabrication/2 |\n| ---          | ---       | Rareté +1     | Rareté +2                   |\n")}
 {/snippet}
