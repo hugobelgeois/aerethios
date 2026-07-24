@@ -82,7 +82,7 @@
 {#snippet tape_0_Inspiration()}
 	<section>
 		<h3 id="tape-0--inspiration">{@html applyBase("Étape 0 : Inspiration")}</h3>
-	{@html renderMarkdown("- Quel personnage existant de n'importe quel média t'inspire\n- Quel musique d'ambiance (sans/ peu de paroles) représente ton personnage\n- Quel est LE trait de charactère qui peut représenter à lui seul ton personnage (un extrême peut faciliter le RP)\n\t- Ex : une voix, un accent, une émotion, ...\n")}
+	{@html renderMarkdown("- Quel personnage existant de n'importe quel média t'inspire\n- Quel musique d'ambiance (sans/ peu de paroles) représente ton personnage\n- Quel est LE trait de caractère qui peut représenter à lui seul ton personnage (un extrême peut faciliter le RP)\n\t- Ex : une voix, un accent, une émotion, ...\n")}
 
 	</section>
 {/snippet}
@@ -90,7 +90,7 @@
 {#snippet tape_1_Identit()}
 	<section>
 		<h3 id="tape-1--identit">{@html applyBase("Étape 1 : Identité")}</h3>
-	{@html renderMarkdown("- D'où viens-tu (Kothula, Ovliin, Nirina, Suraja)\n\t- Si c'est ailleurs que Kothula, pourquoi as-tu voyagé jusque là (fuite, voyage, immigration, aventures, ..)\n- Quel âge as-tu\n\t- As-tu fait des études ou as-tu directement travaillé (dans quel domaine)\n- Quel est ton statut social (économies & réputation locale)\n- Quel sont tes objectifs actuels (court et long terme)\n\t- Quelle est ta plus grande fierté\n\t- Quelle est ta plus grande honte\n- Que refuses-tu de faire\n\t- Quelle sont tes phobies\n- Quel est ton plus grand mensonge\n")}
+	{@html renderMarkdown("- D'où viens-tu (Kothula, Ovliin, Nirina, Suraja)\n\t- Si c'est ailleurs que Kothula, pourquoi as-tu voyagé jusque là (fuite, voyage, immigration, aventures, ..)\n- Quel âge as-tu\n\t- As-tu fait des études ou as-tu directement travaillé (<a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New\" data-wiki-fragment=\"\">voir les métiers</a>)\n- Quel est ton statut social (économies & réputation locale)\n- Quel sont tes objectifs actuels (court et long terme)\n\t- Quelle est ta plus grande fierté\n\t- Quelle est ta plus grande honte\n- Que refuses-tu de faire\n\t- Quelle sont tes phobies\n- Quel est ton plus grand mensonge\n")}
 
 	</section>
 {/snippet}

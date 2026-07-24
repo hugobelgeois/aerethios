@@ -431,7 +431,9 @@
     "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
     "/Jeu/Regles/Apprentissages/Apprentissages"
   ],
-  "/Jeu/Campagne 2/Scenes/00b. xx-xx-26": [],
+  "/Jeu/Campagne 2/Scenes/00b. xx-xx-26": [
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
+  ],
   "/Jeu/Campagne 2/Scenes/00a. 13-06-26": [],
   "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New": [
     "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles",
