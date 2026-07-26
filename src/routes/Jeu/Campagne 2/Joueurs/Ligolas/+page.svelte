@@ -55,6 +55,16 @@
           "id": "notes",
           "text": "Notes",
           "level": 2
+      },
+      {
+          "id": "maison-guildes-et-organisations",
+          "text": "Maison, Guildes et Organisations",
+          "level": 3
+      },
+      {
+          "id": "relations",
+          "text": "Relations",
+          "level": 3
       }
   ]);
 
@@ -62,12 +72,12 @@
 </script>
 
 <svelte:head>
-  <title>Strauss</title>
+  <title>Ligolas</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>Strauss</h1>
+    <h1>Ligolas</h1>
   </header>
   <div class="markdown-rendered">
 		{@render preamble()}
@@ -106,7 +116,7 @@
 {#snippet magie()}
 	<section>
 		<h3 id="magie">{@html applyBase("Magie")}</h3>
-	{@html renderMarkdown("> **Maîtrise** :\n> **Crystaux** :\n\n| Air | Eau | Roche | Feu | Foudre | Lumière | Ténèbres |\n| :-: | :-: | :---: | :-: | :----: | :-----: | :------: |\n|     |     |       |     |        |         |          |\n|     |     |       |     |        |         |          |\n")}
+	{@html renderMarkdown("> **Maîtrise** :\n> **Crystaux** :\n\n| Air | Eau | Roche | Feu | Foudre | Lumière | Ténèbres |\n| :-: | :-: | :---: | :-: | :----: | :-----: | :------: |\n|  -  |  -  |   -   |  -  |   -    |    0    |    -     |\n|     |     |       |     |        |         |          |\n")}
 
 	</section>
 {/snippet}
@@ -131,7 +141,7 @@
 {#snippet armesDeMles__New_Armes_Distances__New()}
 	<section>
 		<h3 id="armes-de-mles---new--armes--distances---new">{@html applyBase("<a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New\" data-wiki-fragment=\"\">Armes de mêlées - New</a> | <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New\" data-wiki-fragment=\"\">Armes à distances - New</a>")}</h3>
-	{@html renderMarkdown("\n| Court | 1 Main | 2 Mains | Corde | Feu |\n| :---: | :----: | :-----: | :---: | --- |\n|       |        |         |       |     |\n|       |        |         |       |     |\n\n| Arme | Dégâts | Enchantements | Poids (kg) | Propriétés |\n| ---- | :----: | :-----------: | :--------: | :--------: |\n|      |        |               |            |            |\n")}
+	{@html renderMarkdown("\n| Court | 1 Main | 2 Mains | Corde | Feu |\n| :---: | :----: | :-----: | :---: | --- |\n|       |        |         |   0   |     |\n|       |        |         |       |     |\n\n| Arme | Dégâts | Enchantements | Poids (kg) | Propriétés |\n| ---- | :----: | :-----------: | :--------: | :--------: |\n|      |        |               |            |            |\n")}
 
 	</section>
 {/snippet}
@@ -147,7 +157,7 @@
 {#snippet apprentissages__New()}
 	<section>
 		<h2 id="apprentissages---new">{@html applyBase("<a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New\" data-wiki-fragment=\"\">Apprentissages - New</a>")}</h2>
-	{@html renderMarkdown("\n- \n")}
+	{@html renderMarkdown("\n- Lire / Écrire\n- Alchimie\n\t- Bijoutier\n")}
 
 	</section>
 {/snippet}
@@ -163,7 +173,24 @@
 {#snippet notes()}
 	<section>
 		<h2 id="notes">{@html applyBase("Notes")}</h2>
-	{@html renderMarkdown("\nHumain d'Ovliin\nIssu d'une fratrie de 4 enfants, l'aînée est une femme, ensuite un grand-frère, Strauss et puis une petite sœur (le premier homme est l'héritier légitime)\nFort intraverti avec les inconnus, devient très à l'aise avec ses amis\nMa famille c'est les Silvermane, les crinières d'argent. Le symbole de la famille qui est sur mon armure est un pégase en argent.\n\nJ'ai été envoyé à Kothula parce que mon père en avait marre de ma timidité et que je devais embrasser mon statut plus fièrement parce que, même si je ne suis pas héritier, il attend de moi que je devienne une figure importante dans le monde, ce qui pèse sur mes épaules.\n\nIl va toujours se forcer pour les autres, il prend peu de décisions car on ne lui a jamais appris à avoir l'esprit d'un chef par peur qu'il se retourne contre son frère pour devenir l'héritier")}
+	{@html renderMarkdown("\nElfe de Kothula, enfant du Dieu Dormant.\nMémoire perdue depuis un accident om on a dû lui recoudre la jambe avec un bijoux magique (~collier).\nObsession sur les bijoux pour comprendre comment on l'a soignée et comment elle peut aider d'autres personnes ayant le même mal.\n")}
+	{@render maisonGuildesEtOrganisations()}
+	{@render relations()}
+	</section>
+{/snippet}
+
+{#snippet maisonGuildesEtOrganisations()}
+	<section>
+		<h3 id="maison-guildes-et-organisations">{@html applyBase("Maison, Guildes et Organisations")}</h3>
+	{@html renderMarkdown("\n| Arvens | Runild | Scienctes | Templis |\n| :----: | :----: | :-------: | :-----: |\n|        |        |           |         |\n")}
+
+	</section>
+{/snippet}
+
+{#snippet relations()}
+	<section>
+		<h3 id="relations">{@html applyBase("Relations")}</h3>
+	{@html renderMarkdown("\n| Nom | Relation |\n| --- | -------- |\n|     |          |")}
 
 	</section>
 {/snippet}

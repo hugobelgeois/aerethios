@@ -397,9 +397,10 @@
     "/Jeu/Regles/Competences/Attributs/Mental",
     "/Jeu/Regles/Competences/Attributs/Perception",
     "/Jeu/Regles/Competences/Attributs/Charisme",
-    "/Jeu/Regles/Combat/Armes",
+    "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New",
+    "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New",
     "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
-    "/Jeu/Regles/Apprentissages/Apprentissages"
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
   ],
   "/Jeu/Campagne 2/Joueurs/Ronronov": [
     "/Jeu/Regles/Competences/Attributs/Force",
@@ -407,9 +408,10 @@
     "/Jeu/Regles/Competences/Attributs/Mental",
     "/Jeu/Regles/Competences/Attributs/Perception",
     "/Jeu/Regles/Competences/Attributs/Charisme",
-    "/Jeu/Regles/Combat/Armes",
+    "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New",
+    "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New",
     "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
-    "/Jeu/Regles/Apprentissages/Apprentissages"
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
   ],
   "/Jeu/Campagne 2/Joueurs/Strauss": [
     "/Jeu/Regles/Competences/Attributs/Force",
@@ -417,9 +419,10 @@
     "/Jeu/Regles/Competences/Attributs/Mental",
     "/Jeu/Regles/Competences/Attributs/Perception",
     "/Jeu/Regles/Competences/Attributs/Charisme",
-    "/Jeu/Regles/Combat/Armes",
+    "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New",
+    "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New",
     "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
-    "/Jeu/Regles/Apprentissages/Apprentissages"
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
   ],
   "/Jeu/Campagne 2/Joueurs/Urzok": [
     "/Jeu/Regles/Competences/Attributs/Force",
@@ -427,25 +430,25 @@
     "/Jeu/Regles/Competences/Attributs/Mental",
     "/Jeu/Regles/Competences/Attributs/Perception",
     "/Jeu/Regles/Competences/Attributs/Charisme",
-    "/Jeu/Regles/Combat/Armes",
+    "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New",
+    "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New",
     "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
-    "/Jeu/Regles/Apprentissages/Apprentissages"
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
   ],
   "/Jeu/Campagne 2/Scenes/00b. xx-xx-26": [
     "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
   ],
   "/Jeu/Campagne 2/Scenes/00a. 13-06-26": [],
   "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New": [
-    "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles",
     "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements de Melees",
+    "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition"
   ],
   "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New": [
-    "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles",
     "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements a Distance",
+    "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles",
     "/Jeu/Regles/Statuts/Afflictions",
-    "/Jeu/Regles/Statuts/Proprietes",
     "/Jeu/Regles/Statuts/Conditions"
   ],
   "/Jeu/Regles 2.0 WIP/Combat/Armures - New": [
@@ -517,5 +520,18 @@
     "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition",
     "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles"
-  ]
+  ],
+  "/Jeu/Campagne 2/Joueurs/Ligolas": [
+    "/Jeu/Regles/Competences/Attributs/Force",
+    "/Jeu/Regles/Competences/Attributs/Dexterite",
+    "/Jeu/Regles/Competences/Attributs/Mental",
+    "/Jeu/Regles/Competences/Attributs/Perception",
+    "/Jeu/Regles/Competences/Attributs/Charisme",
+    "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New",
+    "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New",
+    "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
+  ],
+  "/Jeu/Regles/Competences/Maisons": [],
+  "/Jeu/Sessions du Masque/Scenes/00. Template": []
 }

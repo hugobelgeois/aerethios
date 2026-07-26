@@ -34,7 +34,7 @@
 {#snippet huiles()}
 	<section>
 		<h3 id="huiles">{@html applyBase("Huiles")}</h3>
-	{@html renderMarkdown("> Fait par un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New#huiles\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" data-wiki-fragment=\"Huiles\">Potionniste</a> pour déterminer les dégâts (DMG arrondi vers le bas).\n> Ajoute temporairement l'effet d'1 huile à votre arme (dure 1 combat).\n> Les huiles ne s'appliquent que sur les armes Tranchantes ainsi que les Arcs et Arbalètes.\n")}
+	{@html renderMarkdown("> Fait par un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New#huiles\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" data-wiki-fragment=\"Huiles\">Potionniste</a> pour déterminer les dégâts (DMG arrondi vers le bas).\n> Ajoute temporairement l'effet d'1 huile à votre arme (dure 1 combat).\n> Les huiles ne s'appliquent que sur les armes Tranchantes et à Corde.")}
 
 	</section>
 {/snippet}

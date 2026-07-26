@@ -122,7 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 253.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -134,6 +134,15 @@
   },
   "active": "548494edba67712a",
   "lastOpenFiles": [
+    "src/routes/Jeu/Sessions du Masque/Scenes/00. Template/+page.ts",
+    "src/routes/Jeu/Sessions du Masque/Scenes/00. Template/+page.svelte",
+    "src/routes/Jeu/Sessions du Masque/Scenes/00. Template",
+    "src/routes/Jeu/Regles/Competences/Maisons/+page.ts",
+    "src/routes/Jeu/Regles/Competences/Maisons/+page.svelte",
+    "src/routes/Jeu/Regles/Competences/Maisons",
+    "src/routes/Jeu/Campagne 2/Joueurs/Ligolas/+page.ts",
+    "src/routes/Jeu/Campagne 2/Joueurs/Ligolas/+page.svelte",
+    "src/routes/Jeu/Campagne 2/Joueurs/Ligolas",
     "static/Colonel Thierry du Lion d'Argent.webp",
     "static/Campement de Nix et Salomé.jpg",
     "static/Campement de Nix et Salomé Monstre.jpg",
@@ -144,17 +153,8 @@
     "static/geography.jpg",
     "src/lib/links.json",
     "src/lib/nameMap.json",
-    "src/lib/hidden.json",
-    "src/lib/nodeColors.json",
-    "src/lib/styleSettingsClasses.json",
-    "src/app.css",
-    "build/Bestiaire/Terrestres/Plantes/Plantes/index.html",
-    "build/Bestiaire/Terrestres/Naturels/Naturels/index.html",
-    "build/Bestiaire/Terrestres/Mythiques/Mythiques/index.html",
-    "build/Bestiaire/Terrestres/Humanoides/Orc/index.html",
     "build/zveindel.png",
     "build/weapon-range.png",
-    "build/weapon-hast.png",
     "node_modules/@sveltejs/adapter-static/README.md",
     "README.md"
   ]

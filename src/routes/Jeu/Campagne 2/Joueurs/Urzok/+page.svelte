@@ -32,8 +32,8 @@
           "level": 2
       },
       {
-          "id": "armes",
-          "text": "Armes",
+          "id": "armes-de-mles---new--armes--distances---new",
+          "text": "Armes de mêlées - New | Armes à distances - New",
           "level": 3
       },
       {
@@ -42,8 +42,8 @@
           "level": 3
       },
       {
-          "id": "apprentissages",
-          "text": "Apprentissages",
+          "id": "apprentissages---new",
+          "text": "Apprentissages - New",
           "level": 2
       },
       {
@@ -74,7 +74,7 @@
 		{@render attributs()}
 		{@render comptences()}
 		{@render equipement()}
-		{@render apprentissages()}
+		{@render apprentissages__New()}
 		{@render inventaire()}
 		{@render notes()}
   </div>
@@ -123,15 +123,15 @@
 	<section>
 		<h2 id="equipement">{@html applyBase("Equipement")}</h2>
 
-	{@render armes()}
+	{@render armesDeMles__New_Armes_Distances__New()}
 	{@render armures__New()}
 	</section>
 {/snippet}
 
-{#snippet armes()}
+{#snippet armesDeMles__New_Armes_Distances__New()}
 	<section>
-		<h3 id="armes">{@html applyBase("<a href=\"%%BASE%%/Jeu/Regles/Combat/Armes\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Combat/Armes\" data-wiki-fragment=\"\">Armes</a>")}</h3>
-	{@html renderMarkdown("\n| Court | 1 Main | 2 Mains | Haste | Distance |\n| :---: | :----: | :-----: | :---: | :------: |\n|       |        |         |       |          |\n|       |        |         |       |          |\n\n| Arme | Dégâts | Enchantements | Poids (kg) | Propriétés |\n| ---- | :----: | :-----------: | :--------: | :--------: |\n|      |        |               |            |            |\n")}
+		<h3 id="armes-de-mles---new--armes--distances---new">{@html applyBase("<a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New\" data-wiki-fragment=\"\">Armes de mêlées - New</a> | <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New\" data-wiki-fragment=\"\">Armes à distances - New</a>")}</h3>
+	{@html renderMarkdown("\n| Court | 1 Main | 2 Mains | Corde | Feu |\n| :---: | :----: | :-----: | :---: | --- |\n|       |        |         |       |     |\n|       |        |         |       |     |\n\n| Arme | Dégâts | Enchantements | Poids (kg) | Propriétés |\n| ---- | :----: | :-----------: | :--------: | :--------: |\n|      |        |               |            |            |\n")}
 
 	</section>
 {/snippet}
@@ -144,10 +144,10 @@
 	</section>
 {/snippet}
 
-{#snippet apprentissages()}
+{#snippet apprentissages__New()}
 	<section>
-		<h2 id="apprentissages">{@html applyBase("<a href=\"%%BASE%%/Jeu/Regles/Apprentissages/Apprentissages\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Apprentissages/Apprentissages\" data-wiki-fragment=\"\">Apprentissages</a>")}</h2>
-	{@html renderMarkdown("\n| Apprentissage               | Niveau | Expérience |\n| --------------------------- | :----: | :--------: |\n")}
+		<h2 id="apprentissages---new">{@html applyBase("<a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New\" data-wiki-fragment=\"\">Apprentissages - New</a>")}</h2>
+	{@html renderMarkdown("\n- \n")}
 
 	</section>
 {/snippet}
