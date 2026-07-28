@@ -57,7 +57,7 @@
     "/0_Private/Billy"
   ],
   "/Jeu/Sessions du Masque/Joueurs/Cira": [
-    "/Jeu/Regles/Competences/Maisons",
+    "/Jeu/Regles 2.0 WIP/Competences/Maisons",
     "/Jeu/Regles/Competences/Attributs/Force",
     "/Jeu/Regles/Competences/Attributs/Dexterite",
     "/Jeu/Regles/Competences/Attributs/Mental",
@@ -533,5 +533,7 @@
     "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
   ],
   "/Jeu/Regles/Competences/Maisons": [],
-  "/Jeu/Sessions du Masque/Scenes/00. Template": []
+  "/Jeu/Sessions du Masque/Scenes/00. Template": [],
+  "/Jeu/Regles 2.0 WIP/Competences/Affinites": [],
+  "/Jeu/Regles 2.0 WIP/Competences/Maisons": []
 }

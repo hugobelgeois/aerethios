@@ -77,7 +77,7 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown(">Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste\n\n**Niveau** : 8\n\n|                                      Arvens                                      |          Runild          | Scienctes | Templis |\n| :------------------------------------------------------------------------------: | :----------------------: | :-------: | :-----: |\n| <span class=\"wiki-unresolved\">Or</span> 1 | <a href=\"%%BASE%%/Jeu/Regles/Competences/Maisons#100-po\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Competences/Maisons\" data-wiki-fragment=\"100%20po%5C\">Riche</a> |           |         |\n")}
+	{@html renderMarkdown(">Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste\n\n**Niveau** : 8\n\n|                                      Arvens                                      |          Runild          | Scienctes | Templis |\n| :------------------------------------------------------------------------------: | :----------------------: | :-------: | :-----: |\n| <span class=\"wiki-unresolved\">Or</span> 1 | <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Competences/Maisons#100-po\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Competences/Maisons\" data-wiki-fragment=\"100%20po%5C\">Riche</a> |           |         |\n")}
 {/snippet}
 
 {#snippet attributs()}
