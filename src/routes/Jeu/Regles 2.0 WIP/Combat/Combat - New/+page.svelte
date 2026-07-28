@@ -47,8 +47,13 @@
           "level": 3
       },
       {
-          "id": "pendant-le-tour-dun-ennemi",
-          "text": "Pendant le tour d'un ennemi",
+          "id": "pendant-le-tour-dun-ennemi---wip",
+          "text": "Pendant le tour d'un ennemi - WIP",
+          "level": 2
+      },
+      {
+          "id": "attaques-spciales",
+          "text": "Attaques spéciales",
           "level": 2
       }
   ]);
@@ -67,7 +72,8 @@
   <div class="markdown-rendered">
 		{@render pendantSonTour()}
 		{@render dsDespoirDePeurEtTokens()}
-		{@render pendantLeTourDunEnnemi()}
+		{@render pendantLeTourDunEnnemi__Wip()}
+		{@render attaquesSpciales()}
   </div>
 </article>
 
@@ -76,7 +82,7 @@
 {#snippet pendantSonTour()}
 	<section>
 		<h2 id="pendant-son-tour">{@html applyBase("Pendant son tour")}</h2>
-	{@html renderMarkdown("\nAu début de son tour, le joueur prends en compte tous les effets qui lui sont appliqués.\nEnsuite il peut faire plusieurs choses :\n- Déplacement\n- Action\n- Action Bonus (s'il en possède une)\n")}
+	{@html renderMarkdown("\nAu début de son tour, le joueur prends en compte tous les effets qui lui sont appliqués.\n\nEnsuite il peut faire plusieurs choses :\n- Déplacement\n- Action\n- Action Bonus (s'il en possède une)\n")}
 	{@render dplacement()}
 	{@render action()}
 	{@render actionBonus()}
@@ -140,10 +146,18 @@
 	</section>
 {/snippet}
 
-{#snippet pendantLeTourDunEnnemi()}
+{#snippet pendantLeTourDunEnnemi__Wip()}
 	<section>
-		<h2 id="pendant-le-tour-dun-ennemi">{@html applyBase("Pendant le tour d'un ennemi")}</h2>
-	{@html renderMarkdown("\nAu début de son tour, l'ennemi prends en compte tous les effets qui lui sont appliqués.")}
+		<h2 id="pendant-le-tour-dun-ennemi---wip">{@html applyBase("Pendant le tour d'un ennemi - WIP")}</h2>
+	{@html renderMarkdown("\nAu début de son tour, l'ennemi prends en compte tous les effets qui lui sont appliqués.\nEnsuite il agit selon ses compétences.\n\nLorsqu'un\n")}
+
+	</section>
+{/snippet}
+
+{#snippet attaquesSpciales()}
+	<section>
+		<h2 id="attaques-spciales">{@html applyBase("Attaques spéciales")}</h2>
+	{@html renderMarkdown("> Augmentent les dégâts (cumulable) de 1d10 et se jouent avec avantage.\n\n- Attaque dans le dos,\n- attaque surprise,\n- attaque d'opportunité.\n\nUne attaque critique ne touche pas forcément, mais ses dégâts sont toujours maximum.")}
 
 	</section>
 {/snippet}
