@@ -23,5 +23,5 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("```map\nWorldMap.map\n```\n")}
+	{@html renderMarkdown("```map\nWorldMap.map\n```")}
 {/snippet}

@@ -74,8 +74,21 @@
 	// Collapse state lives here (not inside each sidebar) so the floating
 	// reveal buttons below (and the mobile "open one, close the other"
 	// behavior in openLeft/openRight) can control either one.
-	let leftCollapsed = $state(false);
-	let rightCollapsed = $state(false);
+	//
+	// Defaults to collapsed (not open) on purpose: every page is prerendered
+	// server-side (see `export const prerender = true` in +page.ts), where
+	// there's no `window` to check screen width — the very first HTML a
+	// mobile visitor's browser paints, before any JS has loaded/hydrated,
+	// is whatever this default is. Defaulting to open (the old behavior)
+	// meant every mobile page load started with both 200px-wide sidebars
+	// laid out — desktop's shape, not remotely fitting a phone screen, with
+	// nothing to scroll to reach the squeezed content between them — until
+	// onMount corrected it, however long that took. Collapsed is the safe
+	// default for a screen of unknown size; onMount below now only
+	// *expands* them back open once it can confirm the screen is actually
+	// wide enough for that.
+	let leftCollapsed = $state(true);
+	let rightCollapsed = $state(true);
 
 	function applyTheme(t: "dark" | "light") {
 		document.body.classList.remove("theme-dark", "theme-light");
@@ -116,9 +129,11 @@
 		);
 		applyTheme(theme);
 
-		if (window.innerWidth <= 768) {
-			leftCollapsed = true;
-			rightCollapsed = true;
+		// Both start collapsed (see the $state default above) — open them
+		// back up here if the screen actually has room for them.
+		if (window.innerWidth > 768) {
+			leftCollapsed = false;
+			rightCollapsed = false;
 		}
 
 		document.addEventListener("click", fixUnbasedInternalLink);
