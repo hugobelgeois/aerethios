@@ -52,6 +52,11 @@
           "level": 2
       },
       {
+          "id": "raction",
+          "text": "Réaction",
+          "level": 3
+      },
+      {
           "id": "attaques-spciales",
           "text": "Attaques spéciales",
           "level": 2
@@ -149,7 +154,15 @@
 {#snippet pendantLeTourDunEnnemi__Wip()}
 	<section>
 		<h2 id="pendant-le-tour-dun-ennemi---wip">{@html applyBase("Pendant le tour d'un ennemi - WIP")}</h2>
-	{@html renderMarkdown("\nAu début de son tour, l'ennemi prends en compte tous les effets qui lui sont appliqués.\nEnsuite il agit selon ses compétences.\n\nLorsqu'un\n")}
+	{@html renderMarkdown("\nAu début de son tour, l'ennemi prends en compte tous les effets qui lui sont appliqués.\nEnsuite il agit selon ses compétences.\n\nUne fois par tour, lorsqu'un ennemi agit contre un joueur, celui-ci peut utiliser une Réaction.\n")}
+	{@render raction()}
+	</section>
+{/snippet}
+
+{#snippet raction()}
+	<section>
+		<h3 id="raction">{@html applyBase("Réaction")}</h3>
+
 
 	</section>
 {/snippet}

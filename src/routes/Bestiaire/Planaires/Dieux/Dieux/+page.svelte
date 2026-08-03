@@ -50,7 +50,6 @@
     <h1>Dieux</h1>
   </header>
   <div class="markdown-rendered">
-		{@render preamble()}
 		{@render gameshDieuScintillant()}
 		{@render aerelGrandeMre()}
 		{@render radeonDieuDormant()}
@@ -62,14 +61,10 @@
 
 <LinkPreview />
 
-{#snippet preamble()}
-	{@html renderMarkdown("---\r\ntags:\r\n  - Bestiaire\r\n---\r")}
-{/snippet}
-
 {#snippet gameshDieuScintillant()}
 	<section>
 		<h2 id="gamesh-dieu-scintillant">{@html applyBase("<a href=\"%%BASE%%/Notes/Archives/Gamesh_ Dieu Scintillant\" class=\"wiki-link internal-link\" data-wiki-href=\"/Notes/Archives/Gamesh_ Dieu Scintillant\" data-wiki-fragment=\"\">Gamesh, Dieu Scintillant</a>")}</h2>
-	{@html renderMarkdown("\r\nDieu de la possession et du partage.\r\n<img src=\"%%BASE%%/dieu-scintillant.png\" alt=\"dieu-scintillant.png\" class=\"wiki-image\" />\r\n\r")}
+	{@html renderMarkdown("\nDieu de la possession et du partage.\n<img src=\"%%BASE%%/dieu-scintillant.png\" alt=\"dieu-scintillant.png\" class=\"wiki-image\" />\n")}
 
 	</section>
 {/snippet}
@@ -77,7 +72,7 @@
 {#snippet aerelGrandeMre()}
 	<section>
 		<h2 id="aerel-grande-mre">{@html applyBase("<a href=\"%%BASE%%/Notes/Archives/Aerel_ Grande Mere\" class=\"wiki-link internal-link\" data-wiki-href=\"/Notes/Archives/Aerel_ Grande Mere\" data-wiki-fragment=\"\">Aerel, Grande Mère</a>")}</h2>
-	{@html renderMarkdown("\r\nDéesse de la fertilité et du plaisir.\r\n<img src=\"%%BASE%%/grande-m%C3%A8re.png\" alt=\"grande-mère.png\" class=\"wiki-image\" />\r\n\r")}
+	{@html renderMarkdown("\nDéesse de la fertilité et du plaisir.\n<img src=\"%%BASE%%/grande-m%C3%A8re.png\" alt=\"grande-mère.png\" class=\"wiki-image\" />\n")}
 
 	</section>
 {/snippet}
@@ -85,7 +80,7 @@
 {#snippet radeonDieuDormant()}
 	<section>
 		<h2 id="radeon-dieu-dormant">{@html applyBase("<a href=\"%%BASE%%/Notes/Archives/Radeon_ Dieu Dormant\" class=\"wiki-link internal-link\" data-wiki-href=\"/Notes/Archives/Radeon_ Dieu Dormant\" data-wiki-fragment=\"\">Radeon, Dieu Dormant</a>")}</h2>
-	{@html renderMarkdown("\r\nDieu des rêves et des ambitions.\r\n<img src=\"%%BASE%%/dieu-dormant.png\" alt=\"dieu-dormant.png\" class=\"wiki-image\" />\r\n<img src=\"%%BASE%%/dieu-dormant-2.png\" alt=\"dieu-dormant-2.png\" class=\"wiki-image\" />\r\n\r")}
+	{@html renderMarkdown("\nDieu des rêves et des ambitions.\n<img src=\"%%BASE%%/dieu-dormant.png\" alt=\"dieu-dormant.png\" class=\"wiki-image\" />\n<img src=\"%%BASE%%/dieu-dormant-2.png\" alt=\"dieu-dormant-2.png\" class=\"wiki-image\" />\n")}
 
 	</section>
 {/snippet}
@@ -93,7 +88,7 @@
 {#snippet obelDieuAffam()}
 	<section>
 		<h2 id="obel-dieu-affam">{@html applyBase("<a href=\"%%BASE%%/Notes/Archives/Obel_ Dieu Affame\" class=\"wiki-link internal-link\" data-wiki-href=\"/Notes/Archives/Obel_ Dieu Affame\" data-wiki-fragment=\"\">Obel, Dieu Affamé</a>")}</h2>
-	{@html renderMarkdown("\r\nDieu d'élévation et de grandeur\r\n\r")}
+	{@html renderMarkdown("\nDieu d'élévation et de grandeur\n")}
 
 	</section>
 {/snippet}
@@ -101,7 +96,7 @@
 {#snippet kiraDieuPourpre()}
 	<section>
 		<h2 id="kira-dieu-pourpre">{@html applyBase("<a href=\"%%BASE%%/Notes/Archives/Kira_ Dieu Pourpre\" class=\"wiki-link internal-link\" data-wiki-href=\"/Notes/Archives/Kira_ Dieu Pourpre\" data-wiki-fragment=\"\">Kira, Dieu Pourpre</a>")}</h2>
-	{@html renderMarkdown("\r\nDieu de la guerre et de l'amour.\r\n<img src=\"%%BASE%%/dieu-pourpre.png\" alt=\"dieu-pourpre.png\" class=\"wiki-image\" />\r\n\r")}
+	{@html renderMarkdown("\nDieu de la guerre et de l'amour.\n<img src=\"%%BASE%%/dieu-pourpre.png\" alt=\"dieu-pourpre.png\" class=\"wiki-image\" />\n")}
 
 	</section>
 {/snippet}
@@ -109,7 +104,7 @@
 {#snippet imetDieuPatient()}
 	<section>
 		<h2 id="imet-dieu-patient">{@html applyBase("<a href=\"%%BASE%%/Notes/Archives/Imet_ Dieu Patient\" class=\"wiki-link internal-link\" data-wiki-href=\"/Notes/Archives/Imet_ Dieu Patient\" data-wiki-fragment=\"\">Imet, Dieu Patient</a>")}</h2>
-	{@html renderMarkdown("\r\nDieu de la vie et de la mort.")}
+	{@html renderMarkdown("\nDieu de la vie et de la mort.")}
 
 	</section>
 {/snippet}
