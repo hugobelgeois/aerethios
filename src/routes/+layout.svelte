@@ -71,8 +71,9 @@
 
 	let theme: "dark" | "light" = $state(DEFAULT_COLOR_MODE);
 
-	// Collapse state lives here (not inside each sidebar) so a swipe
-	// gesture on the central workspace can open either one.
+	// Collapse state lives here (not inside each sidebar) so the floating
+	// reveal buttons below (and the mobile "open one, close the other"
+	// behavior in openLeft/openRight) can control either one.
 	let leftCollapsed = $state(false);
 	let rightCollapsed = $state(false);
 
@@ -100,36 +101,6 @@
 		if (onGraphPage) return; // not rendered on this route — nothing to open
 		rightCollapsed = false;
 		if (window.innerWidth <= 768) leftCollapsed = true;
-	}
-
-	// ── Swipe to open ────────────────────────────────────────────────────────
-	// Swipe right → open the left sidebar. Swipe left → open the right
-	// sidebar. Mostly-horizontal, decent-length swipes only, so scrolling
-	// the content vertically doesn't accidentally trigger a sidebar.
-	const SWIPE_THRESHOLD = 60;
-	let touchStartX = 0;
-	let touchStartY = 0;
-	let touchTracking = false;
-
-	function handleTouchStart(e: TouchEvent) {
-		// The graph view drags/pans with touch on its own <canvas> (see
-		// Graph.svelte) — don't let that gesture also register as a
-		// sidebar swipe underneath it.
-		touchTracking = !(e.target as HTMLElement).closest("canvas");
-		touchStartX = e.touches[0].clientX;
-		touchStartY = e.touches[0].clientY;
-	}
-
-	function handleTouchEnd(e: TouchEvent) {
-		if (!touchTracking) return;
-		const dx = e.changedTouches[0].clientX - touchStartX;
-		const dy = e.changedTouches[0].clientY - touchStartY;
-		if (Math.abs(dx) < SWIPE_THRESHOLD || Math.abs(dx) < Math.abs(dy)) return;
-		if (dx > 0) {
-			openLeft();
-		} else {
-			openRight();
-		}
 	}
 
 	onMount(() => {
@@ -181,11 +152,7 @@
 
 <div class="app-container">
 	<div class="horizontal-main-container">
-		<div
-			class="workspace is-left-sidedock-open is-right-sidedock-open"
-			ontouchstart={handleTouchStart}
-			ontouchend={handleTouchEnd}
-		>
+		<div class="workspace is-left-sidedock-open is-right-sidedock-open">
 			<LeftSidebar
 				collapsed={leftCollapsed}
 				toggleCollapsed={() => (leftCollapsed = !leftCollapsed)}
