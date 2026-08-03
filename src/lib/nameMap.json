@@ -143,6 +143,8 @@
   "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New": "Artisanat - New",
   "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition": "Érudition",
   "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New": "Alchimie - New",
+  "/Geographie/WorldMap": "WorldMap",
+  "/Geographie": "Géographie",
   "/Jeu/Campagne 2/Joueurs/Aldrich": "Aldrich",
   "/Jeu/Campagne 2/Joueurs": "Joueurs",
   "/Jeu/Campagne 2/Joueurs/Strauss": "Strauss",
@@ -153,13 +155,5 @@
   "/Jeu/Regles 2.0 WIP/Competences/Maisons": "Maisons",
   "/Jeu/Regles 2.0 WIP/Generales": "Générales",
   "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel": "Rappel",
-  "/Jeu/Regles 2.0 WIP/Apprentissages/Misc": "Misc",
-  "/Geographie/WorldMap": "WorldMap",
-  "/Geographie": "Géographie",
-  "/Jeu/Regles 2.0 WIP/Competences/Attributs/Charisme - New": "Charisme - New",
-  "/Jeu/Regles 2.0 WIP/Competences/Attributs": "Attributs",
-  "/Jeu/Regles 2.0 WIP/Competences/Attributs/Dexterite - New": "Dextérité - New",
-  "/Jeu/Regles 2.0 WIP/Competences/Attributs/Force - New": "Force - New",
-  "/Jeu/Regles 2.0 WIP/Competences/Attributs/Mental - New": "Mental - New",
-  "/Jeu/Regles 2.0 WIP/Competences/Attributs/Perception - New": "Perception - New"
+  "/Jeu/Regles 2.0 WIP/Apprentissages/Misc": "Misc"
 }

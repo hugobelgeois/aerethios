@@ -400,4 +400,24 @@
   .markdown-preview-sizer {
     padding: var(--size-4-6, 24px) var(--size-4-4, 16px) var(--size-4-12, 48px);
   }
+
+  /* Some Obsidian themes (e.g. ITS Theme) set word-break: keep-all directly
+     on h1–h6 for desktop typography — an explicit rule on the element
+     itself always wins over .markdown-rendered's inherited overflow-wrap
+     fix above, no matter the selector specificity. A long, unbreakable
+     heading (a note title, or a heading containing a wikilink) then
+     overflows past the screen edge again. !important is the only way to
+     reliably win against a theme's own app.css here (see
+     .markdown-preview-sizer.full-bleed above for the same pattern). Scoped
+     to mobile only so a theme's intentional desktop heading style is left
+     alone where the extra width makes it a non-issue. */
+  .markdown-rendered h1,
+  .markdown-rendered h2,
+  .markdown-rendered h3,
+  .markdown-rendered h4,
+  .markdown-rendered h5,
+  .markdown-rendered h6 {
+    overflow-wrap: anywhere !important;
+    word-break: break-word !important;
+  }
 }
