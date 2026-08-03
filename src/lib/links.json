@@ -391,50 +391,6 @@
     "/Jeu/Sessions du Masque/Arc 1 - Kothula"
   ],
   "/Jeu/Sessions du Masque/Arc 2 - Ovliin": [],
-  "/Jeu/Campagne 2/Joueurs/Aldrich": [
-    "/Jeu/Regles/Competences/Attributs/Force",
-    "/Jeu/Regles/Competences/Attributs/Dexterite",
-    "/Jeu/Regles/Competences/Attributs/Mental",
-    "/Jeu/Regles/Competences/Attributs/Perception",
-    "/Jeu/Regles/Competences/Attributs/Charisme",
-    "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New",
-    "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New",
-    "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
-  ],
-  "/Jeu/Campagne 2/Joueurs/Ronronov": [
-    "/Jeu/Regles/Competences/Attributs/Force",
-    "/Jeu/Regles/Competences/Attributs/Dexterite",
-    "/Jeu/Regles/Competences/Attributs/Mental",
-    "/Jeu/Regles/Competences/Attributs/Perception",
-    "/Jeu/Regles/Competences/Attributs/Charisme",
-    "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New",
-    "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New",
-    "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
-  ],
-  "/Jeu/Campagne 2/Joueurs/Strauss": [
-    "/Jeu/Regles/Competences/Attributs/Force",
-    "/Jeu/Regles/Competences/Attributs/Dexterite",
-    "/Jeu/Regles/Competences/Attributs/Mental",
-    "/Jeu/Regles/Competences/Attributs/Perception",
-    "/Jeu/Regles/Competences/Attributs/Charisme",
-    "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New",
-    "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New",
-    "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
-  ],
-  "/Jeu/Campagne 2/Joueurs/Urzok": [
-    "/Jeu/Regles/Competences/Attributs/Force",
-    "/Jeu/Regles/Competences/Attributs/Dexterite",
-    "/Jeu/Regles/Competences/Attributs/Mental",
-    "/Jeu/Regles/Competences/Attributs/Perception",
-    "/Jeu/Regles/Competences/Attributs/Charisme",
-    "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New",
-    "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New",
-    "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
-  ],
   "/Jeu/Campagne 2/Scenes/00b. xx-xx-26": [
     "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
   ],
@@ -460,7 +416,6 @@
   "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles": [
     "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New"
   ],
-  "/Geographie/WorldMap": [],
   "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New": [
     "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New",
@@ -488,6 +443,51 @@
     "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition",
     "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles"
+  ],
+  "/Geographie/WorldMap": [],
+  "/Jeu/Campagne 2/Joueurs/Aldrich": [
+    "/Jeu/Regles/Competences/Attributs/Force",
+    "/Jeu/Regles/Competences/Attributs/Dexterite",
+    "/Jeu/Regles/Competences/Attributs/Mental",
+    "/Jeu/Regles/Competences/Attributs/Perception",
+    "/Jeu/Regles/Competences/Attributs/Charisme",
+    "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New",
+    "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New",
+    "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
+  ],
+  "/Jeu/Campagne 2/Joueurs/Strauss": [
+    "/Jeu/Regles/Competences/Attributs/Force",
+    "/Jeu/Regles/Competences/Attributs/Dexterite",
+    "/Jeu/Regles/Competences/Attributs/Mental",
+    "/Jeu/Regles/Competences/Attributs/Perception",
+    "/Jeu/Regles/Competences/Attributs/Charisme",
+    "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New",
+    "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New",
+    "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
+  ],
+  "/Jeu/Campagne 2/Joueurs/Ronronov": [
+    "/Jeu/Regles/Competences/Attributs/Force",
+    "/Jeu/Regles/Competences/Attributs/Dexterite",
+    "/Jeu/Regles/Competences/Attributs/Mental",
+    "/Jeu/Regles/Competences/Attributs/Perception",
+    "/Jeu/Regles/Competences/Attributs/Charisme",
+    "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New",
+    "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New",
+    "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
+  ],
+  "/Jeu/Campagne 2/Joueurs/Urzok": [
+    "/Jeu/Regles/Competences/Attributs/Force",
+    "/Jeu/Regles/Competences/Attributs/Dexterite",
+    "/Jeu/Regles/Competences/Attributs/Mental",
+    "/Jeu/Regles/Competences/Attributs/Perception",
+    "/Jeu/Regles/Competences/Attributs/Charisme",
+    "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New",
+    "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New",
+    "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
   ],
   "/Jeu/Regles 2.0 WIP/Competences/Affinites": [],
   "/Jeu/Regles 2.0 WIP/Competences/Maisons": [],

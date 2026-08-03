@@ -352,12 +352,21 @@
   margin: 0 0 0.25em;
   font-size: 2em;
   font-weight: 700;
+  /* Unlike every other heading, this title lives outside .markdown-rendered
+     (see the headerBlock in pageexporter.ts) so it never inherited that
+     class's overflow-wrap/word-break fix — a long, unbroken note title
+     (e.g. a filename-derived title with no spaces) overflowed past the
+     viewport on mobile despite the fix applied everywhere else. */
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .md-header .description {
   color: var(--text-muted);
   margin: 0;
   font-size: 0.95em;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 /* ── Wiki hover-preview / inline-embed content ───────────────
