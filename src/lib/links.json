@@ -460,39 +460,13 @@
   "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles": [
     "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New"
   ],
-  "/Jeu/Regles 2.0 WIP/Races/Affinites": [],
-  "/Geographie/Anneau de Brume": [
-    "/Geographie/Ovliin/Ovliin"
-  ],
-  "/Geographie/Anneau de Feu": [
-    "/Geographie/Suraja/Suraja"
-  ],
-  "/Geographie/Anneau de Givre": [
-    "/Geographie/Ovliin/Ovliin"
-  ],
-  "/Geographie/Anneau des Tempetes": [
-    "/Geographie/Nirina/Nirina"
-  ],
-  "/Geographie/Anneau des Vents": [
-    "/Geographie/Kothula/Kothula"
-  ],
-  "/Geographie/Geographie": [],
-  "/Geographie/Kothula/Kothula": [],
-  "/Geographie/Nirina/Nirina": [],
-  "/Geographie/Ovliin/Ovliin": [],
-  "/Geographie/Suraja/Suraja": [],
   "/Geographie/WorldMap": [],
   "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New": [
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication",
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte",
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition"
   ],
-  "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication": [],
-  "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu": [],
-  "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte": [],
   "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements de Melees": [
     "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition"
   ],
@@ -500,40 +474,23 @@
     "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition"
   ],
   "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New": [
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication",
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte",
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition"
   ],
   "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition": [
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication",
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte",
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New"
   ],
   "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New": [
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication",
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte",
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu",
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition",
     "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles"
   ],
-  "/Jeu/Campagne 2/Joueurs/Ligolas": [
-    "/Jeu/Regles/Competences/Attributs/Force",
-    "/Jeu/Regles/Competences/Attributs/Dexterite",
-    "/Jeu/Regles/Competences/Attributs/Mental",
-    "/Jeu/Regles/Competences/Attributs/Perception",
-    "/Jeu/Regles/Competences/Attributs/Charisme",
-    "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New",
-    "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New",
-    "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
-    "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
-  ],
-  "/Jeu/Regles/Competences/Maisons": [],
-  "/Jeu/Sessions du Masque/Scenes/00. Template": [],
   "/Jeu/Regles 2.0 WIP/Competences/Affinites": [],
-  "/Jeu/Regles 2.0 WIP/Competences/Maisons": []
+  "/Jeu/Regles 2.0 WIP/Competences/Maisons": [],
+  "/Jeu/Regles 2.0 WIP/Generales": [],
+  "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel": []
 }

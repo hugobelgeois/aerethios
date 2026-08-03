@@ -122,7 +122,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 253.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -134,27 +134,27 @@
   },
   "active": "548494edba67712a",
   "lastOpenFiles": [
-    "src/routes/Jeu/Sessions du Masque/Scenes/00. Template/+page.ts",
-    "src/routes/Jeu/Sessions du Masque/Scenes/00. Template/+page.svelte",
-    "src/routes/Jeu/Sessions du Masque/Scenes/00. Template",
     "src/routes/Jeu/Regles/Competences/Maisons/+page.ts",
     "src/routes/Jeu/Regles/Competences/Maisons/+page.svelte",
     "src/routes/Jeu/Regles/Competences/Maisons",
     "src/routes/Jeu/Campagne 2/Joueurs/Ligolas/+page.ts",
     "src/routes/Jeu/Campagne 2/Joueurs/Ligolas/+page.svelte",
     "src/routes/Jeu/Campagne 2/Joueurs/Ligolas",
+    "static/Ville-du-chef.jpg",
+    "static/Orphelinat-d'Hazdaim.jpg",
+    "static/Mattias-du-Lion-Tuant.jpg",
+    "static/Colonel-Thierry-du-Lion-d'Argent.webp",
+    "static/Campement-de-Nix-et-Salomé.jpg",
+    "static/Campement-de-Nix-et-Salomé-Monstre.jpg",
+    "src/routes/Jeu/Sessions du Masque/Scenes/00. Template/+page.ts",
+    "src/routes/Jeu/Sessions du Masque/Scenes/00. Template/+page.svelte",
+    "src/routes/Jeu/Sessions du Masque/Scenes/00. Template",
+    "src/routes/Jeu/Regles 2.0 WIP/Competences/Maisons/+page.ts",
+    "src/routes/Jeu/Regles 2.0 WIP/Competences/Maisons/+page.svelte",
     "static/Colonel Thierry du Lion d'Argent.webp",
     "static/Campement de Nix et Salomé.jpg",
     "static/Campement de Nix et Salomé Monstre.jpg",
     "static/naga-sand.png",
-    "static/naga-adult.png",
-    "static/naga-warrior.png",
-    "static/grande-mère.png",
-    "static/geography.jpg",
-    "src/lib/links.json",
-    "src/lib/nameMap.json",
-    "build/zveindel.png",
-    "build/weapon-range.png",
     "node_modules/@sveltejs/adapter-static/README.md",
     "README.md"
   ]

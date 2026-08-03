@@ -70,10 +70,8 @@
 {#snippet rappel()}
 	<section>
 		<h3 id="rappel">{@html applyBase("Rappel")}</h3>
-	{@html renderMarkdown("\n| Durée | Interruption | Amélioration | Déconstruction | Consommation | Echec                                                                              |\n| :---: | :----------: | :----------: | :------------: | :----------: | :--------------------------------------------------------------------------------- |\n|  2h   |      V       |      X       |       X        |      -       | - +1 ingrédient inférieur<br>- Possibilité d'effet négatif ajouté à l'objet (DC 5) |\n\n")}
-	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication"} fragment={""} />
-	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte"} fragment={""} />
-	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu"} fragment={""} />
+	{@html renderMarkdown("\n| Durée | Interruption | Amélioration | Déconstruction | Consommation | Echec                                                                                    |\n| :---: | :----------: | :----------: | :------------: | :----------: | :--------------------------------------------------------------------------------------- |\n|  2h   |      V       |      X       |       X        |      -       | - +1 ingrédient inférieur<br>- Possibilité d'effet négatif ajouté à l'objet (`1d20 < 5`) |\n\n")}
+	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel"} fragment={""} />
 
 	</section>
 {/snippet}

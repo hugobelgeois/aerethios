@@ -100,12 +100,14 @@ a { text-decoration: none; color: inherit; }
   display: flex;
   flex-direction: column;
   flex: 1;
+  min-width: 0;
   overflow: hidden;
 }
 
 .view-content,
 .markdown-preview-view {
   flex: 1;
+  min-width: 0; /* a wide child (long word, table) must not grow this flex item past the viewport */
   overflow-y: auto;
   overflow-x: hidden;
 }

@@ -18,6 +18,16 @@
   max-width: var(--file-line-width, 700px);
   margin: 0 auto;
   padding: var(--size-4-8, 32px) var(--size-4-6, 24px) var(--size-4-16, 64px);
+  min-width: 0;
+}
+
+/* Long unbroken text (URLs, inline code, ...) must wrap instead of forcing
+   this column wider than the viewport — the ancestor flex chain clips
+   overflow rather than scrolling it, so unwrapped text just gets cut off
+   on narrow (mobile) screens instead of being readable. */
+.markdown-rendered {
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 /* Pages that opt into full-width mode (the standalone graph view, or a
@@ -209,9 +219,11 @@
 .markdown-rendered table {
   border-collapse: collapse;
   width: 100%;
+  max-width: 100%;
   margin: 1em 0;
   font-size: var(--table-font-size, inherit);
   overflow: auto;
+  -webkit-overflow-scrolling: touch;
   display: block;
 }
 
@@ -348,4 +360,14 @@
 .markdown-preview-view::-webkit-scrollbar-thumb {
   background: var(--scrollbar-thumb-bg, var(--background-modifier-border));
   border-radius: 3px;
+}
+
+/* ── Mobile ───────────────────────────────────────────────── */
+
+@media (max-width: 768px) {
+  /* Desktop's fixed side padding eats a much bigger share of a phone-width
+     screen — shrink it so note content gets its full width back. */
+  .markdown-preview-sizer {
+    padding: var(--size-4-6, 24px) var(--size-4-4, 16px) var(--size-4-12, 48px);
+  }
 }

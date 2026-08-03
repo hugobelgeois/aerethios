@@ -60,10 +60,8 @@
 {#snippet rappel()}
 	<section>
 		<h3 id="rappel">{@html applyBase("Rappel")}</h3>
-	{@html renderMarkdown("\n| Durée | Interruption | Amélioration | Déconstruction | Consommation | Echec                                                                              |\n| :---: | :----------: | :----------: | :------------: | :----------: | :--------------------------------------------------------------------------------- |\n|  1h   |      X       |      X       |       X        |  1 Crystal   | - +1 ingrédient inférieur<br>- Possibilité d'effet négatif ajouté au joueur (DC 5) |\n\n")}
-	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Fabrication"} fragment={""} />
-	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Recolte"} fragment={""} />
-	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Lieu"} fragment={""} />
+	{@html renderMarkdown("\n| Durée | Interruption | Amélioration | Déconstruction | Consommation | Echec                                                                                 |\n| :---: | :----------: | :----------: | :------------: | :----------: | :------------------------------------------------------------------------------------ |\n|  1h   |      X       |      X       |       X        |  1 Crystal   | Perte de l'objet de base<br>Possibilité d'effet négatif ajouté au joueur (`1d20 < 5`) |\n\n")}
+	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel"} fragment={""} />
 
 	</section>
 {/snippet}
@@ -82,7 +80,7 @@
 {#snippet enchanteur()}
 	<section>
 		<h3 id="enchanteur">{@html applyBase("Enchanteur")}</h3>
-	{@html renderMarkdown("> Enchante les équipements fabriquées par un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" data-wiki-fragment=\"\">Artisan</a> ainsi que certaines matières inorganiques pour leur conférer des capacités spéciales.\n> ~2po/h\n\n|                             | Peu Commun | Rare | Légendaire |\n| --------------------------- | :--------: | :--: | :--------: |\n| **Enchantement commun**     |    1-6     | 7-9  |     10     |\n| **Enchantement rare**       |    1-4     | 5-8  |    9-10    |\n| **Enchantement légendaire** |    1-2     | 3-6  |    7-10    |\n\nDes ingrédients plus rares augmentent les chances d'avoir de meilleurs enchantements.\nLa rareté de l'enchantement obtenu se détermine par **1d10**.\nL'enchantement précis se détermine par la recette utilisée par le joueur.\n")}
+	{@html renderMarkdown("> Enchante les équipements fabriquées par un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" data-wiki-fragment=\"\">Artisan</a> ainsi que certaines matières inorganiques pour leur conférer des capacités spéciales.\n> ~2po/h\n\n|                             | Peu Commun | Rare | Légendaire |\n| --------------------------- | :--------: | :--: | :--------: |\n| **Enchantement commun**     |    1-6     | 7-9  |     10     |\n| **Enchantement rare**       |    1-4     | 5-8  |    9-10    |\n| **Enchantement légendaire** |    1-2     | 3-6  |    7-10    |\n\nDes ingrédients plus rares augmentent les chances d'avoir de meilleurs enchantements.\nLa rareté de l'enchantement obtenu se détermine par `1d10`.\nL'enchantement précis se détermine par la recette utilisée par le joueur.\n")}
 
 	</section>
 {/snippet}
