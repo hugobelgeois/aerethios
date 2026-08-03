@@ -15,6 +15,16 @@
 }
 
 .markdown-preview-sizer {
+  /* Without an explicit width, a block box's width:auto is only "fill the
+     parent" in theory — a wide-enough descendant (e.g. a nowrap table
+     column) can still pull this box to that content's max-content width
+     as long as it's under `max-width`, since max-width only clamps a width
+     that's already trying to exceed IT, not one that's merely exceeding
+     the viewport. Confirmed by hand: pinning this to a fixed viewport
+     width made the overflow disappear on mobile. `width: 100%` makes it
+     actually fill the available column instead of sizing to content,
+     while `max-width` still caps it on desktop. */
+  width: 100%;
   max-width: var(--file-line-width, 700px);
   margin: 0 auto;
   padding: var(--size-4-8, 32px) var(--size-4-6, 24px) var(--size-4-16, 64px);
