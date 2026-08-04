@@ -159,7 +159,7 @@
 {#snippet utilisation()}
 	<section>
 		<h3 id="utilisation">{@html applyBase("Utilisation")}</h3>
-	{@html renderMarkdown("\n| Pour les joueurs                                   | Coût         |     | Coût |                           Pour le MJ |\n| -------------------------------------------------- | ------------ | :-: | ---: | -----------------------------------: |\n| Aider un allié (lui donne +1d6 à son prochain jet) | 1            |     |    1 | Activer des dangers environnementaux |\n| Compétences spéciales                              | ?            |     |    ? |    Compétences spéciales des ennemis |\n| Evite le comas et tombe à 5 HP                     | 3            |     |    1 |                  Ajouter des ennemis |\n| Interrompre le MJ                                  | 1 par joueur |     |    2 |                Interrompre un joueur |\n")}
+	{@html renderMarkdown("\n| Pour les joueurs                                   | Coût         |     | Coût |                           Pour le MJ |\n| -------------------------------------------------- | ------------ | :-: | ---: | -----------------------------------: |\n| Aider un allié (lui donne +1d6 à son prochain jet) | 1            |     |    1 | Activer des dangers environnementaux |\n| Compétences spéciales                              | ?            |     |    ? |    Compétences spéciales des ennemis |\n| Evite le comas et remonte à 5 HP                   | 3            |     |    1 |                  Ajouter des ennemis |\n| Interrompre le MJ                                  | 1 par joueur |     |    2 |                Interrompre un joueur |\n")}
 
 	</section>
 {/snippet}
