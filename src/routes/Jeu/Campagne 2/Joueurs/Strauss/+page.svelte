@@ -83,13 +83,13 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown(">Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste\n")}
+	{@html renderMarkdown(">Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste\r\n\r")}
 {/snippet}
 
 {#snippet attributs()}
 	<section>
 		<h2 id="attributs">{@html applyBase("Attributs")}</h2>
-	{@html renderMarkdown("> Niveau 1\n")}
+	{@html renderMarkdown("> Niveau 1\r\n\r")}
 	{@render combat()}
 	{@render magie()}
 	</section>
@@ -98,7 +98,7 @@
 {#snippet combat()}
 	<section>
 		<h3 id="combat">{@html applyBase("Combat")}</h3>
-	{@html renderMarkdown(">55 points à mettre au niveau 1 (min 7, max 14)\n>+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20\n\n| Force | Dextérité | Mental | Perception | Charisme |\n| :---: | :-------: | :----: | :--------: | :------: |\n|       |           |        |            |          |\n|       |           |        |            |          |\n")}
+	{@html renderMarkdown(">55 points à mettre au niveau 1 (min 7, max 14)\r\n>+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20\r\n\r\n| Force | Dextérité | Mental | Perception | Charisme |\r\n| :---: | :-------: | :----: | :--------: | :------: |\r\n|       |           |        |            |          |\r\n|       |           |        |            |          |\r\n\r")}
 
 	</section>
 {/snippet}
@@ -106,7 +106,7 @@
 {#snippet magie()}
 	<section>
 		<h3 id="magie">{@html applyBase("Magie")}</h3>
-	{@html renderMarkdown("> **Maîtrise** :\n> **Crystaux** :\n\n| Air | Eau | Roche | Feu | Foudre | Lumière | Ténèbres |\n| :-: | :-: | :---: | :-: | :----: | :-----: | :------: |\n|     |     |       |     |        |         |          |\n|     |     |       |     |        |         |          |\n")}
+	{@html renderMarkdown("> **Maîtrise** :\r\n> **Crystaux** :\r\n\r\n| Air | Eau | Roche | Feu | Foudre | Lumière | Ténèbres |\r\n| :-: | :-: | :---: | :-: | :----: | :-----: | :------: |\r\n|     |     |       |     |        |         |          |\r\n|     |     |       |     |        |         |          |\r\n\r")}
 
 	</section>
 {/snippet}
@@ -114,7 +114,7 @@
 {#snippet comptences()}
 	<section>
 		<h2 id="comptences">{@html applyBase("Compétences")}</h2>
-	{@html renderMarkdown("\n| **<a href=\"%%BASE%%/Jeu/Regles/Competences/Attributs/Force\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Competences/Attributs/Force\" data-wiki-fragment=\"\">Force</a>** | **<a href=\"%%BASE%%/Jeu/Regles/Competences/Attributs/Dexterite\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Competences/Attributs/Dexterite\" data-wiki-fragment=\"\">Dextérité</a>** | **<a href=\"%%BASE%%/Jeu/Regles/Competences/Attributs/Mental\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Competences/Attributs/Mental\" data-wiki-fragment=\"\">Mental</a>** | **<a href=\"%%BASE%%/Jeu/Regles/Competences/Attributs/Perception\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Competences/Attributs/Perception\" data-wiki-fragment=\"\">Perception</a>** | **<a href=\"%%BASE%%/Jeu/Regles/Competences/Attributs/Charisme\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Competences/Attributs/Charisme\" data-wiki-fragment=\"\">Charisme</a>** |\n| :-----------: | :---------------: | :------------: | :----------------: | :--------------: |\n|               |                   |                |                    |                  |\n")}
+	{@html renderMarkdown("\r\n| **<a href=\"%%BASE%%/Jeu/Regles/Competences/Attributs/Force\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Competences/Attributs/Force\" data-wiki-fragment=\"\">Force</a>** | **<a href=\"%%BASE%%/Jeu/Regles/Competences/Attributs/Dexterite\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Competences/Attributs/Dexterite\" data-wiki-fragment=\"\">Dextérité</a>** | **<a href=\"%%BASE%%/Jeu/Regles/Competences/Attributs/Mental\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Competences/Attributs/Mental\" data-wiki-fragment=\"\">Mental</a>** | **<a href=\"%%BASE%%/Jeu/Regles/Competences/Attributs/Perception\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Competences/Attributs/Perception\" data-wiki-fragment=\"\">Perception</a>** | **<a href=\"%%BASE%%/Jeu/Regles/Competences/Attributs/Charisme\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles/Competences/Attributs/Charisme\" data-wiki-fragment=\"\">Charisme</a>** |\r\n| :-----------: | :---------------: | :------------: | :----------------: | :--------------: |\r\n|               |                   |                |                    |                  |\r\n\r")}
 
 	</section>
 {/snippet}
@@ -131,7 +131,7 @@
 {#snippet armesDeMles__New_Armes_Distances__New()}
 	<section>
 		<h3 id="armes-de-mles---new--armes--distances---new">{@html applyBase("<a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New\" data-wiki-fragment=\"\">Armes de mêlées - New</a> | <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New\" data-wiki-fragment=\"\">Armes à distances - New</a>")}</h3>
-	{@html renderMarkdown("\n| Court | 1 Main | 2 Mains | Corde | Feu |\n| :---: | :----: | :-----: | :---: | --- |\n|       |        |         |       |     |\n|       |        |         |       |     |\n\n| Arme | Dégâts | Enchantements | Poids (kg) | Propriétés |\n| ---- | :----: | :-----------: | :--------: | :--------: |\n|      |        |               |            |            |\n")}
+	{@html renderMarkdown("\r\n| Court | 1 Main | 2 Mains | Corde | Feu |\r\n| :---: | :----: | :-----: | :---: | --- |\r\n|       |        |         |       |     |\r\n|       |        |         |       |     |\r\n\r\n| Arme | Dégâts | Enchantements | Poids (kg) | Propriétés |\r\n| ---- | :----: | :-----------: | :--------: | :--------: |\r\n|      |        |               |            |            |\r\n\r")}
 
 	</section>
 {/snippet}
@@ -139,7 +139,7 @@
 {#snippet armures__New()}
 	<section>
 		<h3 id="armures---new">{@html applyBase("<a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Combat/Armures - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Combat/Armures - New\" data-wiki-fragment=\"\">Armures - New</a>")}</h3>
-	{@html renderMarkdown("\n| Armure | AC  | DR  | Enchantement | Poids (kg) | Dégâts | Propriétés |\n| ------ | :-: | :-: | :----------: | :--------: | :----: | :--------: |\n|        |     |     |              |            |        |            |\n")}
+	{@html renderMarkdown("\r\n| Armure | AC  | DR  | Enchantement | Poids (kg) | Dégâts | Propriétés |\r\n| ------ | :-: | :-: | :----------: | :--------: | :----: | :--------: |\r\n|        |     |     |              |            |        |            |\r\n\r")}
 
 	</section>
 {/snippet}
@@ -147,7 +147,7 @@
 {#snippet apprentissages__New()}
 	<section>
 		<h2 id="apprentissages---new">{@html applyBase("<a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New\" data-wiki-fragment=\"\">Apprentissages - New</a>")}</h2>
-	{@html renderMarkdown("\n- \n")}
+	{@html renderMarkdown("\r\n- \r\n\r")}
 
 	</section>
 {/snippet}
@@ -155,7 +155,7 @@
 {#snippet inventaire()}
 	<section>
 		<h2 id="inventaire">{@html applyBase("Inventaire")}</h2>
-	{@html renderMarkdown("\n**Poids maximum** :\n- *Force > 10 : 40 + (Force Modificateur x 10)*\n- *Force < 10 : 40 + (Force Modificateur x 2)*\n\n| Qty | Nom     | Poids (kg) |\n| --- | ------- | ---------: |\n|     | Armes   |            |\n|     | Armures |            |\n")}
+	{@html renderMarkdown("\r\n**Poids maximum** :\r\n- *Force > 10 : 40 + (Force Modificateur x 10)*\r\n- *Force < 10 : 40 + (Force Modificateur x 2)*\r\n\r\n| Qty | Nom     | Poids (kg) |\r\n| --- | ------- | ---------: |\r\n|     | Armes   |            |\r\n|     | Armures |            |\r\n\r")}
 
 	</section>
 {/snippet}
@@ -163,7 +163,7 @@
 {#snippet notes()}
 	<section>
 		<h2 id="notes">{@html applyBase("Notes")}</h2>
-	{@html renderMarkdown("\nHumain d'Ovliin\nIssu d'une fratrie de 4 enfants, l'aînée est une femme, ensuite un grand-frère, Strauss et puis une petite sœur (le premier homme est l'héritier légitime)\nFort intraverti avec les inconnus, devient très à l'aise avec ses amis\nMa famille c'est les Silvermane, les crinières d'argent. Le symbole de la famille qui est sur mon armure est un pégase en argent.\n\nJ'ai été envoyé à Kothula parce que mon père en avait marre de ma timidité et que je devais embrasser mon statut plus fièrement parce que, même si je ne suis pas héritier, il attend de moi que je devienne une figure importante dans le monde, ce qui pèse sur mes épaules.\n\nIl va toujours se forcer pour les autres, il prend peu de décisions car on ne lui a jamais appris à avoir l'esprit d'un chef par peur qu'il se retourne contre son frère pour devenir l'héritier")}
+	{@html renderMarkdown("\r\nHumain d'Ovliin\r\nIssu d'une fratrie de 4 enfants, l'aînée est une femme, ensuite un grand-frère, Strauss et puis une petite sœur (le premier homme est l'héritier légitime)\r\nFort intraverti avec les inconnus, devient très à l'aise avec ses amis\r\nMa famille c'est les Silvermane, les crinières d'argent. Le symbole de la famille qui est sur mon armure est un pégase en argent.\r\n\r\nJ'ai été envoyé à Kothula parce que mon père en avait marre de ma timidité et que je devais embrasser mon statut plus fièrement parce que, même si je ne suis pas héritier, il attend de moi que je devienne une figure importante dans le monde, ce qui pèse sur mes épaules.\r\n\r\nIl va toujours se forcer pour les autres, il prend peu de décisions car on ne lui a jamais appris à avoir l'esprit d'un chef par peur qu'il se retourne contre son frère pour devenir l'héritier")}
 
 	</section>
 {/snippet}

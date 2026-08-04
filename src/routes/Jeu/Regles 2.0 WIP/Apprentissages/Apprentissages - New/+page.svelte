@@ -154,7 +154,9 @@
 {#snippet mcanique()}
 	<section>
 		<h3 id="mcanique">{@html applyBase("Mécanique")}</h3>
-	{@html renderMarkdown("> Jeter les dés pour valider un recette, ou l'améliorer.\n\nLorsqu'un joueur consacre une période de travail à la fabrication, s'il possède des ustensiles, il peut prendre du temps pour fabriquer des choses :\n`1d20 + Niveau du Métier`\n\nChaque fois qu'un joueur travail, il lance les dés et augmente sa progression (Crafting Progress = CP).\n\tLe joueur peut se faire aider par quelqu'un avec le même métier afin de gagner `(Niveau de métier du joueur qui aide / 2)` à son jet.\nLorsqu'il commence à travailler, les ressources sont consommées.\nUne fois que la CP a atteint la Difficulté de Fabrication, l'objet est créé.\n\nSi le jet de dé est inférieur au Taux d'Echec de l'ingrédient le plus rare, cela compte comme un échec.\nIl faut alors rajouter un ingrédient de 2 qualité inférieur à l'ingrédient le plus rare pour rattraper la recette et servir de catalyseur, ce qui augmente de nouveau la difficulté de fabrication.\n\nPour savoir la Difficulté de Fabrication d'un objet, il faut additionner la difficulté de chaque ingrédient utilisé.\n\n<span class=\"wiki-unresolved\">Rappel</span>\n\nL'expérience requise pour monter le niveau d'un Métier équivaut à son **niveau+1 \\* 10**.\n```Exemple\nForgeron niveau 3 nécessite 30xp pour passer niveau 4.\n```\n")}
+	{@html renderMarkdown("> Jeter les dés pour valider un recette, ou l'améliorer.\n\nLorsqu'un joueur consacre une période de travail à la fabrication, s'il possède des ustensiles, il peut prendre du temps pour fabriquer des choses :\n`1d20 + Niveau du Métier`\n\nChaque fois qu'un joueur travail, il lance les dés et augmente sa progression (Crafting Progress = CP).\n\tLe joueur peut se faire aider par quelqu'un avec le même métier afin de gagner `(Niveau de métier du joueur qui aide / 2)` à son jet.\nLorsqu'il commence à travailler, les ressources sont consommées.\nUne fois que la CP a atteint la Difficulté de Fabrication, l'objet est créé.\n\nSi le jet de dé est inférieur au Taux d'Echec de l'ingrédient le plus rare, cela compte comme un échec.\nIl faut alors rajouter un ingrédient de 2 qualité inférieur à l'ingrédient le plus rare pour rattraper la recette et servir de catalyseur, ce qui augmente de nouveau la difficulté de fabrication.\n\nPour savoir la Difficulté de Fabrication d'un objet, il faut additionner la difficulté de chaque ingrédient utilisé.\n\n")}
+	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel"} fragment={"Fabrication"} />
+	{@html renderMarkdown("\n\nL'expérience requise pour monter le niveau d'un Métier équivaut à son **niveau+1 \\* 10**.\n```Exemple\nForgeron niveau 3 nécessite 30xp pour passer niveau 4.\n```\n")}
 
 	</section>
 {/snippet}
@@ -162,7 +164,9 @@
 {#snippet ressources()}
 	<section>
 		<h3 id="ressources">{@html applyBase("Ressources")}</h3>
-	{@html renderMarkdown("\nLes ressources s'achètent, se récoltent dans la nature ou se récupèrent sur des créatures.\nOn considère qu'une unité pèse 0.5kg et qu'elle représente un ensemble de ressources similaires.\n\tExemple : Ressource de Troll (Peu Commun) -> Cela peut être du sang, des yeux, salive, os, ... selon les besoins du joueur.\n\nChaque jour de voyage, les joueurs peuvent récolter des matériaux pour leur catégorie de métier en lançant `1d100`.\n\tIls doivent préciser le genre de ressources qu'ils veulent récupérer (légumes, fruits, racines, insectes, minerais, ...).\n\n<span class=\"wiki-unresolved\">Rappel</span>\n\nPour ce qui est des créatures, elles possèdent chacune une liste qui représente les chances d'obtenir chaque rareté.\n")}
+	{@html renderMarkdown("\nLes ressources s'achètent, se récoltent dans la nature ou se récupèrent sur des créatures.\nOn considère qu'une unité pèse 0.5kg et qu'elle représente un ensemble de ressources similaires.\n\tExemple : Ressource de Troll (Peu Commun) -> Cela peut être du sang, des yeux, salive, os, ... selon les besoins du joueur.\n\nChaque jour de voyage, les joueurs peuvent récolter des matériaux pour leur catégorie de métier en lançant `1d100`.\n\tIls doivent préciser le genre de ressources qu'ils veulent récupérer (légumes, fruits, racines, insectes, minerais, ...).\n\n")}
+	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel"} fragment={"Récolte"} />
+	{@html renderMarkdown("\n\nPour ce qui est des créatures, elles possèdent chacune une liste qui représente les chances d'obtenir chaque rareté.\n")}
 
 	</section>
 {/snippet}
@@ -178,7 +182,8 @@
 {#snippet lieux()}
 	<section>
 		<h3 id="lieux">{@html applyBase("Lieux")}</h3>
-	{@html renderMarkdown("> Selon le lieu où la fabrication se fait, le résultat est modifié, et la rareté maximale des ingrédients pouvant être utilisés change.\n\n<span class=\"wiki-unresolved\">Rappel</span>\n")}
+	{@html renderMarkdown("> Selon le lieu où la fabrication se fait, le résultat est modifié, et la rareté maximale des ingrédients pouvant être utilisés change.\n\n")}
+	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel"} fragment={"Lieu"} />
 
 	</section>
 {/snippet}

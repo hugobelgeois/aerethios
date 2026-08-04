@@ -60,7 +60,8 @@
 {#snippet rappel()}
 	<section>
 		<h3 id="rappel">{@html applyBase("Rappel")}</h3>
-	{@html renderMarkdown("\n| Durée | Interruption | Amélioration | Déconstruction                                                                    | Consommation | Echec                     |\n| :---: | :----------: | :----------: | :-------------------------------------------------------------------------------- | :----------: | :------------------------ |\n|  4h   |      V       |      V       | Durée : 50% du temps de construction<br>**(6+1d2) \\* 10%** de matériaux récupérés |      -       | - +1 ingrédient inférieur |\n\n<span class=\"wiki-unresolved\">Rappel</span>\n")}
+	{@html renderMarkdown("\n| Durée | Interruption | Amélioration | Déconstruction                                                                    | Consommation | Echec                     |\n| :---: | :----------: | :----------: | :-------------------------------------------------------------------------------- | :----------: | :------------------------ |\n|  4h   |      V       |      V       | Durée : 50% du temps de construction<br>**(6+1d2) \\* 10%** de matériaux récupérés |      -       | - +1 ingrédient inférieur |\n\n")}
+	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel"} fragment={""} />
 
 	</section>
 {/snippet}

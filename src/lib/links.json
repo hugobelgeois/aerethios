@@ -380,12 +380,6 @@
   "/Notes/Arvens": [],
   "/Notes/Stats joueurs": [],
   "/Notes/Economie": [],
-  "/Notes/Archives/Gamesh_ Dieu Scintillant": [],
-  "/Notes/Archives/Imet_ Dieu Patient": [],
-  "/Notes/Archives/Kira_ Dieu Pourpre": [],
-  "/Notes/Archives/Aerel_ Grande Mere": [],
-  "/Notes/Archives/Radeon_ Dieu Dormant": [],
-  "/Notes/Archives/Obel_ Dieu Affame": [],
   "/Notes/Templis": [],
   "/Jeu/Sessions du Masque/Arc 1 - Kothula": [
     "/Jeu/Sessions du Masque/Arc 1 - Kothula"
@@ -417,6 +411,7 @@
     "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New"
   ],
   "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New": [
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition"
@@ -428,14 +423,17 @@
     "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition"
   ],
   "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New": [
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition"
   ],
   "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition": [
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New"
   ],
   "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New": [
+    "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition",
     "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles"
@@ -489,25 +487,13 @@
   "/Jeu/Regles 2.0 WIP/Competences/Maisons": [],
   "/Jeu/Regles 2.0 WIP/Generales": [],
   "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel": [],
-  "/Geographie/Anneau de Brume": [
-    "/Geographie/Ovliin/Ovliin"
+  "/Jeu/Regles 2.0 WIP/Competences/Attributs/Charisme - New": [
+    "/Jeu/Regles 2.0 WIP/Competences/Attributs/Charisme - New"
   ],
-  "/Geographie/Anneau de Feu": [
-    "/Geographie/Suraja/Suraja"
-  ],
-  "/Geographie/Anneau de Givre": [
-    "/Geographie/Ovliin/Ovliin"
-  ],
-  "/Geographie/Anneau des Tempetes": [
-    "/Geographie/Nirina/Nirina"
-  ],
-  "/Geographie/Anneau des Vents": [
-    "/Geographie/Kothula/Kothula"
-  ],
-  "/Geographie/Geographie": [],
-  "/Geographie/Nirina/Nirina": [],
-  "/Geographie/Ovliin/Ovliin": [],
-  "/Geographie/Suraja/Suraja": [],
+  "/Jeu/Regles 2.0 WIP/Competences/Attributs/Dexterite - New": [],
+  "/Jeu/Regles 2.0 WIP/Competences/Attributs/Force - New": [],
+  "/Jeu/Regles 2.0 WIP/Competences/Attributs/Mental - New": [],
+  "/Jeu/Regles 2.0 WIP/Competences/Attributs/Perception - New": [],
   "/Jeu/Campagne 2/Joueurs/Ligolas": [
     "/Jeu/Regles/Competences/Attributs/Force",
     "/Jeu/Regles/Competences/Attributs/Dexterite",
@@ -518,14 +504,5 @@
     "/Jeu/Regles 2.0 WIP/Combat/Armes a distances - New",
     "/Jeu/Regles 2.0 WIP/Combat/Armures - New",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New"
-  ],
-  "/Jeu/Sessions du Masque/Scenes/00. Template": [],
-  "/Geographie/Kothula/Kothula": [],
-  "/Jeu/Regles 2.0 WIP/Competences/Attributs/Charisme - New": [
-    "/Jeu/Regles 2.0 WIP/Competences/Attributs/Charisme - New"
-  ],
-  "/Jeu/Regles 2.0 WIP/Competences/Attributs/Dexterite - New": [],
-  "/Jeu/Regles 2.0 WIP/Competences/Attributs/Force - New": [],
-  "/Jeu/Regles 2.0 WIP/Competences/Attributs/Mental - New": [],
-  "/Jeu/Regles 2.0 WIP/Competences/Attributs/Perception - New": []
+  ]
 }
