@@ -54,7 +54,7 @@
 {#snippet rcolte()}
 	<section>
 		<h4 id="rcolte">{@html applyBase("Récolte")}</h4>
-	{@html renderMarkdown("\n|                         |  Rien  | Déchet  | Commun  | Peu Commun |  Rare   | Légendaire |\n| ----------------------- | :----: | :-----: | :-----: | :--------: | :-----: | :--------: |\n| **Chance Récolte**      | 1 - 10 | 11 - 30 | 31 - 60 |  61 - 85   | 86 - 96 |  97 - 100  |\n| **Quantité de Récolte** |   -    |  1d10   |   1d8   |    1d6     |   1d4   |    1d2     |\n| **Prix Moyen**          |   -    |  ~10pc  |  ~1pa   |   ~10pa    |  ~1po   |   ~10po    |\n")}
+	{@html renderMarkdown("\n|                         |  Rien  | Déchet  | Commun  | Peu Commun |  Rare   | Légendaire |\n| ----------------------- | :----: | :-----: | :-----: | :--------: | :-----: | :--------: |\n| **Chance Récolte**      | 1 - 10 | 11 - 30 | 31 - 60 |  61 - 85   | 86 - 96 |    97+     |\n| **Quantité de Récolte** |   -    |  1d10   |   1d8   |    1d6     |   1d4   |    1d2     |\n| **Prix Moyen**          |   -    |  ~10pc  |  ~1pa   |   ~10pa    |  ~1po   |   ~10po    |\n")}
 
 	</section>
 {/snippet}
