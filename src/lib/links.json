@@ -440,9 +440,7 @@
   "/Jeu/Regles 2.0 WIP/Competences/Maisons": [],
   "/Jeu/Regles 2.0 WIP/Generales": [],
   "/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel": [],
-  "/Jeu/Regles 2.0 WIP/Competences/Attributs/Charisme - New": [
-    "/Jeu/Regles 2.0 WIP/Competences/Attributs/Charisme - New"
-  ],
+  "/Jeu/Regles 2.0 WIP/Competences/Attributs/Charisme - New": [],
   "/Jeu/Regles 2.0 WIP/Competences/Attributs/Dexterite - New": [],
   "/Jeu/Regles 2.0 WIP/Competences/Attributs/Force - New": [],
   "/Jeu/Regles 2.0 WIP/Competences/Attributs/Mental - New": [],
@@ -504,5 +502,6 @@
     "/Jeu/Sessions du Masque/Joueurs/Hazdaim",
     "/Jeu/Sessions du Masque/Joueurs/Leoric",
     "/0_Private/Billy"
-  ]
+  ],
+  "/Jeu/Regles 2.0 WIP/Inventaire": []
 }

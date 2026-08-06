@@ -35,7 +35,6 @@
     <h1>Charisme - New</h1>
   </header>
   <div class="markdown-rendered">
-		{@render preamble()}
 		{@render principales()}
 		{@render secondaires()}
 		{@render finales()}
@@ -43,10 +42,6 @@
 </article>
 
 <LinkPreview />
-
-{#snippet preamble()}
-	{@html renderMarkdown("```skill\n<a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Competences/Attributs/Charisme - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Competences/Attributs/Charisme - New\" data-wiki-fragment=\"\">Charisme - New</a>\n```\n")}
-{/snippet}
 
 {#snippet principales()}
 	<section>
