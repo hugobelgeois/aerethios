@@ -134,8 +134,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cfec22c8b087b387",
+  "active": "548494edba67712a",
   "lastOpenFiles": [
+    "static/3-Atilal.png",
     "src/routes/Jeu/Sessions du Masque/Joueurs/00. Template/+page.svelte",
     "src/routes/Jeu/Sessions du Masque/Joueurs/00. Template/+page.ts",
     "src/routes/Jeu/Sessions du Masque/Joueurs/00. Template",
@@ -146,7 +147,6 @@
     "src/routes/Jeu/Regles 2.0 WIP/Competences/Attributs/Perception - New/+page.svelte",
     "src/routes/Jeu/Regles 2.0 WIP/Competences/Attributs/Mental - New/+page.ts",
     "src/routes/Jeu/Regles 2.0 WIP/Competences/Attributs/Mental - New/+page.svelte",
-    "src/routes/Jeu/Regles 2.0 WIP/Competences/Attributs/Dexterite - New/+page.ts",
     "static/Ville du chef.jpg",
     "static/Orphelinat d'Hazdaim.jpg",
     "static/Mattias du Lion Tuant.jpg",
