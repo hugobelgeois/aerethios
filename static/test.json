@@ -1,0 +1,73 @@
+{
+	"map": {
+		"version": 14,
+		"gridType": "square",
+		"cellSize": 48,
+		"layers": [
+			{
+				"id": "layer-msiznhw3-17",
+				"name": "Calque 1",
+				"visible": true,
+				"background": {
+					"path": "/3-Labs_2.png",
+					"offsetX": -1.1,
+					"offsetY": 0.2,
+					"scale": 1.985
+				},
+				"cellsByGridType": {
+					"square": {},
+					"hex-pointy": {},
+					"hex-flat": {}
+				},
+				"markers": [],
+				"wallPoints": [],
+				"wallSegments": []
+			}
+		],
+		"activeLayerId": "layer-msiznhw3-17",
+		"tokens": [],
+		"minZoom": 0.1,
+		"maxZoom": 1,
+		"fogEnabled": false,
+		"exploredCells": []
+	},
+	"notes": {},
+	"tokenStats": {},
+	"zoneTypes": [
+		{
+			"id": "plain",
+			"name": "Plaine",
+			"color": "#8bc34a"
+		},
+		{
+			"id": "forest",
+			"name": "Forêt",
+			"color": "#2e7d32"
+		},
+		{
+			"id": "water",
+			"name": "Eau",
+			"color": "#1976d2"
+		},
+		{
+			"id": "mountain",
+			"name": "Montagne",
+			"color": "#757575"
+		},
+		{
+			"id": "desert",
+			"name": "Désert",
+			"color": "#d4a017"
+		},
+		{
+			"id": "town",
+			"name": "Ville",
+			"color": "#ff9800"
+		},
+		{
+			"id": "danger",
+			"name": "Danger",
+			"color": "#c62828"
+		}
+	]
+}

@@ -45,7 +45,7 @@
 {#snippet contenant()}
 	<section>
 		<h2 id="contenant">{@html applyBase("Contenant")}</h2>
-	{@html renderMarkdown("> Augmente les PI disponibles.\n\n| Contenant             | PI utilisé                              | PI disponible |\n| --------------------- | --------------------------------------- | ------------- |\n| Sac                   | 1 - 3                                   | 5 - 20        |\n| Sac de petite monture | -<br>*Une monture n'a aucun PI de base* | 10 - 30       |\n| Sac de grande monture | -                                       | 20 - 50       |\n| Charette              | -<br>*Nécessite une monture de trait*   | 40 - 200      |\n| Coffre                | 3 - 10                                  | 10 - 50       |\n")}
+	{@html renderMarkdown("> Augmente les PI disponibles.\n> Un contenant ne peut pas contenir d'autre contenant (sauf précision).\n\n| Contenant             | PI utilisé                                    | PI disponible |\n| --------------------- | --------------------------------------------- | ------------- |\n| Sac                   | 1 - 3                                         | 5 - 20        |\n| Sac de petite monture | -<br>*Une monture n'a aucun PI de base*       | 10 - 30       |\n| Sac de grande monture | -                                             | 20 - 50       |\n| Charette              | -<br>*Nécessite une monture de trait*         | 40 - 200      |\n| Coffre                | 3 - 10<br>*Multiplié par 4 dans une charette* | 10 - 50       |\n")}
 
 	</section>
 {/snippet}

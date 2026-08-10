@@ -32,6 +32,11 @@
           "level": 3
       },
       {
+          "id": "3-ville-du-chef",
+          "text": "3. Ville du chef",
+          "level": 3
+      },
+      {
           "id": "joueurs",
           "text": "Joueurs",
           "level": 2
@@ -61,13 +66,13 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("> Résumé\n")}
+	{@html renderMarkdown("> Résumé\r\n\r")}
 {/snippet}
 
 {#snippet dtails()}
 	<section>
 		<h2 id="dtails">{@html applyBase("Détails")}</h2>
-	{@html renderMarkdown("\nLieu actuel : Nirina, Orphelinat\n\nObjectif :\n\nPnjs notables : Théon, Ygor (palefrenier), Maîtresse de maison\n")}
+	{@html renderMarkdown("\r\nLieu actuel : Nirina, Orphelinat\r\n\r\nObjectif :\r\n\r\nPnjs notables : Théon, Ygor (palefrenier), Maîtresse de maison\r\n\r")}
 
 	</section>
 {/snippet}
@@ -75,7 +80,7 @@
 {#snippet notes()}
 	<section>
 		<h2 id="notes">{@html applyBase("Notes")}</h2>
-	{@html renderMarkdown("\n|           |    Arek    |   Dara   | Haelrak  | Hazdaim | Léoric  |  Zveindel   |\n| --------- | :--------: | :------: | :------: | :-----: | :-----: | :---------: |\n| **AC**    |   8 (-3)   |    15    |    14    |   14    |    9    |     10      |\n| **DR**    |  36 (+30)  |    14    |    12    |   12    |   23    |     20      |\n| **DMG**   |   35-69    |  16-49   |   7-33   |  8-36   |  8-32   |      -      |\n| **Magie** | 9 (1d8 +5) | 9 (1d12) | 14 (1d8) | 9 (1d6) | 9 (1d8) | 14 (1d8 +2) |\n\n| Ennemi | AC  | DR  | HP  | Léger | Lourde | Magie |\n| ------ | :-: | :-: | :-: | :---: | :----: | :---: |\n|        |     |     |     |       |        |       |\n")}
+	{@html renderMarkdown("\r\n|           |    Arek    |   Dara   | Haelrak  | Hazdaim | Léoric  |  Zveindel   |\r\n| --------- | :--------: | :------: | :------: | :-----: | :-----: | :---------: |\r\n| **AC**    |   8 (-3)   |    15    |    14    |   14    |    9    |     10      |\r\n| **DR**    |  36 (+30)  |    14    |    12    |   12    |   23    |     20      |\r\n| **DMG**   |   35-69    |  16-49   |   7-33   |  8-36   |  8-32   |      -      |\r\n| **Magie** | 9 (1d8 +5) | 9 (1d12) | 14 (1d8) | 9 (1d6) | 9 (1d8) | 14 (1d8 +2) |\r\n\r\n| Ennemi | AC  | DR  | HP  | Léger | Lourde | Magie |\r\n| ------ | :-: | :-: | :-: | :---: | :----: | :---: |\r\n|        |     |     |     |       |        |       |\r\n\r")}
 
 	</section>
 {/snippet}
@@ -86,6 +91,7 @@
 
 	{@render _OrphelinatDhazdaim()}
 	{@render _CampementDeNixEtSalom()}
+	{@render _VilleDuChef()}
 	</section>
 {/snippet}
 
@@ -103,6 +109,14 @@
 		<h3 id="2-campement-de-nix-et-salom">{@html applyBase("2. Campement de Nix et Salomé")}</h3>
 	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/02. Campement de Nix et Salome"} fragment={"Description"} />
 	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/02. Campement de Nix et Salome"} fragment={"Actions des joueurs"} />
+
+	</section>
+{/snippet}
+
+{#snippet _VilleDuChef()}
+	<section>
+		<h3 id="3-ville-du-chef">{@html applyBase("3. Ville du chef")}</h3>
+	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/03. Ville du chef"} fragment={"Description"} />
 	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/03. Ville du chef"} fragment={"Actions des joueurs"} />
 
 	</section>
@@ -111,7 +125,7 @@
 {#snippet joueurs()}
 	<section>
 		<h2 id="joueurs">{@html applyBase("Joueurs")}</h2>
-	{@html renderMarkdown("\n- [x] Diego\n- [ ] Loïc\n- [ ] Lucas\n- [x] Michel\n- [ ] Nolan\n- [x] Thomas\n- [ ] William\n\n|         Précédent          |          Suivant          |\n| :------------------------: | :-----------------------: |\n| <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26\" data-wiki-fragment=\"\">Arc 4 - 22b - 06.03.26</a> | <a href=\"%%BASE%%/0_Private/Arc 4 - 24 - 05.06.26\" class=\"wiki-link internal-link\" data-wiki-href=\"/0_Private/Arc 4 - 24 - 05.06.26\" data-wiki-fragment=\"\">Arc 4 - 24 - 05.06.26</a> |")}
+	{@html renderMarkdown("\r\n- [x] Diego\r\n- [ ] Loïc\r\n- [ ] Lucas\r\n- [x] Michel\r\n- [ ] Nolan\r\n- [x] Thomas\r\n- [ ] William\r\n\r\n|         Précédent          |          Suivant          |\r\n| :------------------------: | :-----------------------: |\r\n| <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26\" data-wiki-fragment=\"\">Arc 4 - 22b - 06.03.26</a> | <a href=\"%%BASE%%/0_Private/Arc 4 - 24 - 05.06.26\" class=\"wiki-link internal-link\" data-wiki-href=\"/0_Private/Arc 4 - 24 - 05.06.26\" data-wiki-fragment=\"\">Arc 4 - 24 - 05.06.26</a> |")}
 
 	</section>
 {/snippet}

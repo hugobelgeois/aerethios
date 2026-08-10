@@ -88,9 +88,9 @@
     "/Jeu/Sessions du Masque/Joueurs/Arek",
     "/Jeu/Sessions du Masque/Joueurs/Dara",
     "/Jeu/Sessions du Masque/Joueurs/Haelrak",
-    "/Jeu/Sessions du Masque/Joueurs/Halfdan",
+    "/Jeu/Sessions du Masque/Joueurs/Old/Halfdan",
     "/Jeu/Sessions du Masque/Joueurs/Hazdaim",
-    "/Jeu/Sessions du Masque/Joueurs/Zveindel",
+    "/Jeu/Sessions du Masque/Joueurs/Old/Zveindel",
     "/0_Private/Billy"
   ],
   "/Jeu/Regles/Apprentissages/Alchimie/Alchimie": [
@@ -503,5 +503,6 @@
     "/Jeu/Sessions du Masque/Joueurs/Leoric",
     "/0_Private/Billy"
   ],
-  "/Jeu/Regles 2.0 WIP/Inventaire": []
+  "/Jeu/Regles 2.0 WIP/Inventaire": [],
+  "/Notes/tmp": []
 }
