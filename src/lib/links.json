@@ -31,10 +31,10 @@
     "/Jeu/Regles/Apprentissages/Apprentissages",
     "/Jeu/Sessions du Masque/Joueurs/Dara",
     "/Jeu/Sessions du Masque/Joueurs/Haelrak",
-    "/Jeu/Sessions du Masque/Joueurs/Halfdan",
+    "/Jeu/Sessions du Masque/Joueurs/Old/Halfdan",
     "/Jeu/Sessions du Masque/Joueurs/Hazdaim",
     "/Jeu/Sessions du Masque/Joueurs/Leoric",
-    "/Jeu/Sessions du Masque/Joueurs/Zveindel",
+    "/Jeu/Sessions du Masque/Joueurs/Old/Zveindel",
     "/0_Private/Billy"
   ],
   "/Jeu/Sessions du Masque/Joueurs/Haelrak": [
@@ -50,10 +50,10 @@
     "/Jeu/Regles/Apprentissages/Apprentissages",
     "/Jeu/Sessions du Masque/Joueurs/Arek",
     "/Jeu/Sessions du Masque/Joueurs/Dara",
-    "/Jeu/Sessions du Masque/Joueurs/Halfdan",
+    "/Jeu/Sessions du Masque/Joueurs/Old/Halfdan",
     "/Jeu/Sessions du Masque/Joueurs/Hazdaim",
     "/Jeu/Sessions du Masque/Joueurs/Leoric",
-    "/Jeu/Sessions du Masque/Joueurs/Zveindel",
+    "/Jeu/Sessions du Masque/Joueurs/Old/Zveindel",
     "/0_Private/Billy"
   ],
   "/Jeu/Sessions du Masque/Joueurs/Hazdaim": [
