@@ -154,7 +154,7 @@
 {#snippet apprentissage()}
 	<section>
 		<h2 id="apprentissage">{@html applyBase("Apprentissage")}</h2>
-	{@html renderMarkdown("> Tout le monde possède 1 magie en venant au monde, et peut en avoir jusqu'à 7.\n> `1d20 + Maîtrise Magique`\n\nL’amélioration de sa **magie** prend 1 jour par entrainement (jet de dé).\n\tSauf pour passer une magie de 0 à 1, auquel cas le joueur doit prendre 15 jours de leçons (30 pour apprendre le Feu).\n\n| Avec Tuteur                  |                              Résultat |\n| :--------------------------- | ------------------------------------: |\n| 1 réussite critique          |              2 réussites consécutives |\n| 3 réussites consécutives     |                             +2 points |\n| 3 réussites non consécutives |                              +1 point |\n| niveau actuel +1 PO/ leçon   |                                     - |\n\n| Niveau de la Magie | 0   | 1-3 | 4-6 | 7-9 | 10-11 | 12-13 | 14-15 | 16-17 | 18  | 19  |\n| ------------------ | --- | :-: | :-: | :-: | :---: | :---: | :---: | :---: | :-: | :-: |\n| **DC**             | 8   | 10  | 12  | 14  |  16   |  18   |  20   |  22   | 24  | 26  |\n\n```Exemple\nPour améliorer une magie de niveau 3, le jet doit être supérieur à 10 et le joueur doit payer 3po par jet.\n```\n")}
+	{@html renderMarkdown("> Tout le monde possède 1 magie en venant au monde, et peut en avoir jusqu'à 7.\n> `1d20 + Maîtrise Magique`\n\nL’amélioration de sa **magie** prend 1 jour par entrainement (jet de dé).\n\tSauf pour passer une magie de 0 à 1, auquel cas le joueur doit prendre 15 jours de leçons (30 pour apprendre le Feu).\n\n| Leçon                        |                 Résultat |\n| :--------------------------- | -----------------------: |\n| 1 réussite critique          | 2 réussites consécutives |\n| 3 réussites consécutives     |                +2 points |\n| 3 réussites non consécutives |                 +1 point |\n| niveau actuel +1 PO          |                        - |\n\n| Niveau de la Magie | 0   | 1-3 | 4-6 | 7-9 | 10-11 | 12-13 | 14-15 | 16-17 | 18  | 19  |\n| ------------------ | --- | :-: | :-: | :-: | :---: | :---: | :---: | :---: | :-: | :-: |\n| **DC**             | 8   | 10  | 12  | 14  |  16   |  18   |  20   |  22   | 24  | 27  |\n\n```Exemple\nPour améliorer une magie de niveau 3, le jet doit être supérieur à 10 et le joueur doit payer 3po par jet.\n```\n")}
 
 	</section>
 {/snippet}
@@ -162,7 +162,7 @@
 {#snippet matrise()}
 	<section>
 		<h2 id="matrise">{@html applyBase("Maîtrise")}</h2>
-	{@html renderMarkdown("> La maîtrise réduit le coût en crystaux d'un sort et permet d'en utiliser plus\n\nTous les niveaux impairs de maîtrise, le joueur peut utiliser 1 crystal en plus sans le consommer.\nTous les niveaux pairs de maîtrise, le joueur peut utiliser 1 crystal en plus par sort sans se blesser.\n")}
+	{@html renderMarkdown("> La maîtrise réduit le coût en crystaux d'un sort et permet d'en utiliser plus\n\nTous les niveaux pairs de maîtrise, le joueur peut utiliser 1 crystal en plus sans le consommer.\n")}
 	{@render amliorer()}
 	</section>
 {/snippet}

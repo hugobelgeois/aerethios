@@ -345,6 +345,7 @@
   "/Jeu/Regles 2.0 WIP/Combat/Armes de melees - New": [
     "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements de Melees",
     "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles",
+    "/Jeu/Regles 2.0 WIP/Combat/Misc/Affinites aux Degats",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New",
     "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition"
   ],
@@ -354,10 +355,7 @@
     "/Jeu/Regles/Statuts/Afflictions",
     "/Jeu/Regles/Statuts/Conditions"
   ],
-  "/Jeu/Regles 2.0 WIP/Combat/Armures - New": [
-    "/Jeu/Regles/Apprentissages/Artisanat/Enchanteur",
-    "/Jeu/Regles/Statuts/Proprietes"
-  ],
+  "/Jeu/Regles 2.0 WIP/Combat/Armures - New": [],
   "/Jeu/Regles 2.0 WIP/Combat/Combat - New": [],
   "/Jeu/Regles 2.0 WIP/Combat/Magie - New": [],
   "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles": [
@@ -504,5 +502,8 @@
     "/0_Private/Billy"
   ],
   "/Jeu/Regles 2.0 WIP/Inventaire": [],
-  "/Notes/tmp": []
+  "/Jeu/Regles 2.0 WIP/Combat/Misc/Affinites aux Degats": [],
+  "/Jeu/Regles 2.0 WIP/Repos": [],
+  "/Jeu/Regles 2.0 WIP/Tokens": [],
+  "/Notes/Degats": []
 }

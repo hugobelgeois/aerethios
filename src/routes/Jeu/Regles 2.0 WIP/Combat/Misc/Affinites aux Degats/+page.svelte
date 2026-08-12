@@ -11,12 +11,12 @@
 </script>
 
 <svelte:head>
-  <title>tmp</title>
+  <title>Affinités aux Dégâts</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>tmp</h1>
+    <h1>Affinités aux Dégâts</h1>
   </header>
   <div class="markdown-rendered">
 		{@render preamble()}
@@ -26,5 +26,5 @@
 <LinkPreview />
 
 {#snippet preamble()}
-
+	{@html renderMarkdown("Une entité encaisse différemment les attaques, soient-elles magiques ou physiques, selon leur type.\n\n- Vulnérable : Double les dégâts subits\n- Résistant : Réduit les dégâts de moitié\n- Immunisé : Ne prend aucun dégât\n- Absorbant : Transforme les dégâts subits en HP récupérés")}
 {/snippet}

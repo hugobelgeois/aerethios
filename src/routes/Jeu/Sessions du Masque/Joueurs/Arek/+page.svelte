@@ -83,7 +83,7 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("<img src=\"%%BASE%%/arek.png\" alt=\"arek.png\" width=\"300\" class=\"wiki-image\" />\n\n**Niveau** : 12\n\n|                                      Arvens                                      | Runild | Scienctes | Templis |\n| :------------------------------------------------------------------------------: | :----: | :-------: | :-----: |\n| <span class=\"wiki-unresolved\">Or</span> 3 |   -    |     -     |    2    |\n")}
+	{@html renderMarkdown("<img src=\"%%BASE%%/Arek.png\" alt=\"Arek.png\" width=\"300\" class=\"wiki-image\" />\n\n**Niveau** : 12\n\n|                                      Arvens                                      | Runild | Scienctes | Templis |\n| :------------------------------------------------------------------------------: | :----: | :-------: | :-----: |\n| <span class=\"wiki-unresolved\">Or</span> 3 |   -    |     -     |    2    |\n")}
 {/snippet}
 
 {#snippet attributs()}

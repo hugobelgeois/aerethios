@@ -53,8 +53,9 @@
   "/Jeu/Regles 2.0 WIP/Combat/Armures - New": "Armures - New",
   "/Jeu/Regles 2.0 WIP/Combat/Combat - New": "Combat - New",
   "/Jeu/Regles 2.0 WIP/Combat/Magie - New": "Magie - New",
-  "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements de Melees": "Enchantements de Mêlées",
+  "/Jeu/Regles 2.0 WIP/Combat/Misc/Affinites aux Degats": "Affinités aux Dégâts",
   "/Jeu/Regles 2.0 WIP/Combat/Misc": "Misc",
+  "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements de Melees": "Enchantements de Mêlées",
   "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements a Distance": "Enchantements à Distance",
   "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles": "Huiles",
   "/Jeu/Regles 2.0 WIP/Competences/Affinites": "Affinités",
@@ -68,6 +69,8 @@
   "/Jeu/Regles 2.0 WIP/Competences/Maisons": "Maisons",
   "/Jeu/Regles 2.0 WIP/Generales": "Générales",
   "/Jeu/Regles 2.0 WIP/Inventaire": "Inventaire",
+  "/Jeu/Regles 2.0 WIP/Repos": "Repos",
+  "/Jeu/Regles 2.0 WIP/Tokens": "Tokens",
   "/Jeu/Regles/Apprentissages/Alchimie/Alchimie": "Alchimie",
   "/Jeu/Regles/Apprentissages/Alchimie": "Alchimie",
   "/Jeu/Regles/Apprentissages": "Apprentissages",
@@ -155,8 +158,8 @@
   "/Jeu/Sessions du Masque/Scenes/03. Ville du chef": "03. Ville du chef",
   "/Notes/Arvens": "Arvens",
   "/Notes": "Notes",
+  "/Notes/Degats": "Dégâts",
   "/Notes/Economie": "Economie",
   "/Notes/Stats joueurs": "Stats joueurs",
-  "/Notes/Templis": "Templis",
-  "/Notes/tmp": "tmp"
+  "/Notes/Templis": "Templis"
 }

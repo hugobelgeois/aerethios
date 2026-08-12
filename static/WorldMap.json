@@ -1,7 +1,7 @@
 {
 	"map": {
 		"version": 14,
-		"gridType": "hex-flat",
+		"gridType": "square",
 		"cellSize": 48,
 		"layers": [
 			{
@@ -20,15 +20,57 @@
 					"hex-flat": {}
 				},
 				"markers": [],
-				"wallPoints": [],
-				"wallSegments": []
+				"wallPoints": [
+					{
+						"id": "wallpoint-msnddx6k-6",
+						"x": 2494.1531628991834,
+						"y": 4323.198815691918
+					},
+					{
+						"id": "wallpoint-msnddx6k-7",
+						"x": 2826.706917952408,
+						"y": 4323.198815691918
+					},
+					{
+						"id": "wallpoint-msnddx6k-8",
+						"x": 2826.706917952408,
+						"y": 4406.337254455224
+					},
+					{
+						"id": "wallpoint-msnddx6k-9",
+						"x": 2494.1531628991834,
+						"y": 4489.47569321853
+					}
+				],
+				"wallSegments": [
+					{
+						"id": "wallsegment-msnddx6k-10",
+						"aId": "wallpoint-msnddx6k-6",
+						"bId": "wallpoint-msnddx6k-7",
+						"blockerType": "opaque"
+					},
+					{
+						"id": "wallsegment-msnddx6k-11",
+						"aId": "wallpoint-msnddx6k-7",
+						"bId": "wallpoint-msnddx6k-8",
+						"blockerType": "opaque"
+					},
+					{
+						"id": "wallsegment-msnddx6k-13",
+						"aId": "wallpoint-msnddx6k-9",
+						"bId": "wallpoint-msnddx6k-6",
+						"blockerType": "opaque"
+					}
+				]
 			}
 		],
 		"activeLayerId": "layer-mrol10i8-3",
 		"tokens": [
 			{
 				"id": "token-mrvzxx8m-1",
-				"cellKey": "29,50",
+				"cellKey": "30,53",
+				"x": 447.25109008456457,
+				"y": 520.2853087078917,
 				"icon": "",
 				"templateId": "character",
 				"tabs": [
@@ -58,12 +100,53 @@
 				"visionRange": 0,
 				"visionRadius": 3,
 				"image": "/hazdaim.png",
-				"rotation": 283
+				"rotation": 120.96369224789854
+			},
+			{
+				"id": "token-msnddnp2-4",
+				"cellKey": "30,52",
+				"icon": "🧙",
+				"tabs": [
+					{
+						"id": "default-0",
+						"name": "Statistiques"
+					},
+					{
+						"id": "default-1",
+						"name": "Inventaire"
+					},
+					{
+						"id": "default-2",
+						"name": "Histoire"
+					}
+				],
+				"rotation": -162.89724740224113
+			},
+			{
+				"id": "token-msnddp5f-5",
+				"cellKey": "31,52",
+				"icon": "🧙",
+				"tabs": [
+					{
+						"id": "default-0",
+						"name": "Statistiques"
+					},
+					{
+						"id": "default-1",
+						"name": "Inventaire"
+					},
+					{
+						"id": "default-2",
+						"name": "Histoire"
+					}
+				],
+				"rotation": 123.68989939802435
 			}
 		],
 		"minZoom": 0.05,
 		"maxZoom": 1,
 		"fogEnabled": false,
+		"fogFrozen": false,
 		"exploredCells": [
 			"11,47",
 			"12,47",
@@ -889,7 +972,61 @@
 			"20,52",
 			"21,52",
 			"20,53",
-			"21,53"
+			"21,53",
+			"24,42",
+			"25,42",
+			"26,42",
+			"27,42",
+			"24,43",
+			"25,43",
+			"26,43",
+			"25,44",
+			"24,44",
+			"23,43",
+			"26,44",
+			"23,44",
+			"25,45",
+			"24,45",
+			"23,45",
+			"26,45",
+			"22,43",
+			"22,44",
+			"23,42",
+			"22,42",
+			"22,45",
+			"21,43",
+			"21,44",
+			"23,41",
+			"21,42",
+			"22,41",
+			"21,41",
+			"23,40",
+			"22,40",
+			"24,40",
+			"21,40",
+			"23,39",
+			"22,39",
+			"24,41",
+			"24,39",
+			"25,41",
+			"25,40",
+			"25,39",
+			"23,38",
+			"24,38",
+			"26,40",
+			"26,41",
+			"25,38",
+			"26,39",
+			"27,40",
+			"26,38",
+			"27,41",
+			"27,39",
+			"28,40",
+			"28,41",
+			"27,43",
+			"28,43",
+			"27,44",
+			"28,42"
 		]
 	},
 	"notes": {

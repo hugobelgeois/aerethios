@@ -55,11 +55,6 @@
           "id": "propulsion",
           "text": "Propulsion",
           "level": 3
-      },
-      {
-          "id": "styles---wip",
-          "text": "Styles - WIP",
-          "level": 2
       }
   ]);
 
@@ -80,7 +75,6 @@
 		{@render effetsCommuns()}
 		{@render effetsDesArmes_Corde()}
 		{@render effetsDesArmes_Feu()}
-		{@render styles__Wip()}
   </div>
 </article>
 
@@ -98,7 +92,7 @@
 {#snippet type()}
 	<section>
 		<h3 id="type">{@html applyBase("Type")}</h3>
-	{@html renderMarkdown("> Les armes à distances sont perforantes.\n\n| Catégorie    | Dé de Tir | Dégats | Ignore la DR | Matériaux |\n| ------------ | --------- | ------ | ------------ | --------: |\n| Arme à Corde | 2d8       | 6      | 20%          |         2 |\n| Arme à Feu   | 2d12      | 12     | 0%           |         4 |\n\nLes Armes à Corde sont silencieuses par défaut, contrairement aux Armes à Feu qui déclenchent le combat une fois utilisées.\n")}
+	{@html renderMarkdown("> Les armes à distances sont perforantes.\n\n|                  | Arme à Corde | Arme à Feu |\n| ---------------- | :----------: | :--------: |\n| **Dé de Tir**    |     2d8      |    2d12    |\n| **Dégats**       |      6       |     12     |\n| **Ignore la DR** |     20%      |     0%     |\n| **Matériaux**    |      2       |     4      |\n\nLes Armes à Corde sont silencieuses par défaut, contrairement aux Armes à Feu qui déclenchent le combat une fois utilisées.\n")}
 
 	</section>
 {/snippet}
@@ -164,15 +158,7 @@
 {#snippet propulsion()}
 	<section>
 		<h3 id="propulsion">{@html applyBase("Propulsion")}</h3>
-	{@html renderMarkdown("> Altère la technologie qui propulse les munitions, ce qui influe ses dégâts et ses propriétés.\n\n| Type         | Dégâts<br>(Multiplicateur) |  Prix | Propriétés                                                                                |\n| ------------ | :------------------------: | ----: | ----------------------------------------------------------------------------------------- |\n| Poudre noire |             1              | 50 pa | Bruyant et lumineux. Attire les ennemis proches (1km)                                     |\n| Air comprimé |             .5             |  2 po | Silencieux. Traverse plusieurs cibles en ligne droite.<br>Aucun incident possible.        |\n| Magnétique   |           1.5-2            |  5 po | Bruyant. Double la portée<br>2DMG dans la portée de base<br>1.5DMG dans la portée doublée |\n| Magique      |            .75             |  8 po | Consomme de la magie plutôt que des munitions                                             |\n")}
-
-	</section>
-{/snippet}
-
-{#snippet styles__Wip()}
-	<section>
-		<h2 id="styles---wip">{@html applyBase("Styles - WIP")}</h2>
-	{@html renderMarkdown("> En début de combat, le joueur peut lancer 1d10 + Maîtrise pour appliquer un seul style.\n> Si le jet réussit, l'effet est positif, sinon il est négatif.\n> Un style s'apprend et s'améliore auprès d'un Maître d'Arme.\n\n| **Jet >=**            |  6  |  9  | 13  | 17  |\n| --------------------- | :-: | :-: | :-: | :-: |\n| **Valeur de l'Effet** |  1  |  2  |  3  |  4  |\n\n| Style          | Effet                                           |\n| -------------- | ----------------------------------------------- |\n| Tireur d'élite | Ignore le couvert léger                         |\n| Embuscade      | Premier tir +X dégâts                           |\n| Suppression    | La cible perd son Action Bonus                  |\n| Perforant      | Ignore davantage de DR                          |\n| Mobile         | Tir sans malus après déplacement                |\n| Observateur    | Ignore le bonus de taille des petites créatures |")}
+	{@html renderMarkdown("> Altère la technologie qui propulse les munitions, ce qui influe ses dégâts et ses propriétés.\n\n| Type         | Dégâts<br>(Multiplicateur) |  Prix | Propriétés                                                                                |\n| ------------ | :------------------------: | ----: | ----------------------------------------------------------------------------------------- |\n| Poudre noire |             1              | 50 pa | Bruyant et lumineux. Attire les ennemis proches (1km)                                     |\n| Air comprimé |             .5             |  2 po | Silencieux. Traverse plusieurs cibles en ligne droite.<br>Aucun incident possible.        |\n| Magnétique   |           1.5-2            |  5 po | Bruyant. Double la portée<br>2DMG dans la portée de base<br>1.5DMG dans la portée doublée |\n| Magique      |            .75             |  8 po | Consomme de la magie plutôt que des munitions                                             |")}
 
 	</section>
 {/snippet}

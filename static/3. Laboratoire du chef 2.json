@@ -54,11 +54,11 @@
 				"visionRadius": 4,
 				"lightRadius": 4,
 				"lightRadiusLinkedToVision": true,
-				"rotation": -56.309932474020215
+				"rotation": -21.801484853916573
 			},
 			{
 				"id": "token-msjelkef-7613",
-				"cellKey": "25,-20",
+				"cellKey": "25,-19",
 				"icon": "🧙",
 				"templateId": "character",
 				"tabs": [
@@ -84,11 +84,11 @@
 				"visionRange": 6,
 				"visionRadius": 4,
 				"image": "/arek.png",
-				"rotation": -104.0363934642828
+				"rotation": -29.24885295846944
 			},
 			{
 				"id": "token-msjels5y-7614",
-				"cellKey": "24,-20",
+				"cellKey": "25,-20",
 				"icon": "🧙",
 				"templateId": "character",
 				"tabs": [
@@ -113,11 +113,11 @@
 				"category": "player",
 				"visionRadius": 4,
 				"image": "/hazdaim.png",
-				"rotation": -116.56519688703857
+				"rotation": -92.1210634620585
 			},
 			{
 				"id": "token-msjemn3o-7615",
-				"cellKey": "24,-19",
+				"cellKey": "24,-20",
 				"icon": "🧙",
 				"templateId": "character",
 				"tabs": [
@@ -143,7 +143,7 @@
 				"visionRange": 6,
 				"visionRadius": 4,
 				"image": "/dara.png",
-				"rotation": -106.69940464931011
+				"rotation": -45
 			}
 		],
 		"minZoom": 0.1,

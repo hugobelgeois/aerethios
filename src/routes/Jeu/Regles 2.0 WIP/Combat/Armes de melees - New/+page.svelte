@@ -12,13 +12,13 @@
           "level": 2
       },
       {
-          "id": "maniabilit",
-          "text": "Maniabilité",
+          "id": "type",
+          "text": "Type",
           "level": 3
       },
       {
-          "id": "type",
-          "text": "Type",
+          "id": "taille",
+          "text": "Taille",
           "level": 3
       },
       {
@@ -35,11 +35,6 @@
           "id": "magie",
           "text": "Magie",
           "level": 3
-      },
-      {
-          "id": "styles---wip",
-          "text": "Styles - WIP",
-          "level": 2
       }
   ]);
 
@@ -58,7 +53,6 @@
 		{@render catgories()}
 		{@render matriaux()}
 		{@render infusions()}
-		{@render styles__Wip()}
   </div>
 </article>
 
@@ -68,23 +62,23 @@
 	<section>
 		<h2 id="catgories">{@html applyBase("Catégories")}</h2>
 	{@html renderMarkdown("> Dé + Modificateur >= AC --> Dégâts aux HP en déduisant la DR.\n")}
-	{@render maniabilit()}
 	{@render type()}
-	</section>
-{/snippet}
-
-{#snippet maniabilit()}
-	<section>
-		<h3 id="maniabilit">{@html applyBase("Maniabilité")}</h3>
-	{@html renderMarkdown("\n| Catégorie | Dé   | Dégâts (Multiplicateur) |                                             Propriétés                                              | Matériaux |\n| --------- | ---- | :---------------------: | :-------------------------------------------------------------------------------------------------: | --------: |\n| Courte    | 2d10 |           .5            | Ambidextre (peut utiliser une deuxième fois son arme, principale ou secondaire, comme Action Bonus) |         1 |\n| 1 Main    | 2d8  |            1            |                                                  -                                                  |         2 |\n| 2 Mains   | 2d6  |           1.5           |                            Destructrice (Double la dégradation de la DR)                            |         3 |\n")}
-
+	{@render taille()}
 	</section>
 {/snippet}
 
 {#snippet type()}
 	<section>
 		<h3 id="type">{@html applyBase("Type")}</h3>
-	{@html renderMarkdown("> Modifie l'utilisation de l'arme.\n\n| Type       | Dégâts | Dégradation de DR                 | Ignorance de DR |\n| ---------- | ------ | --------------------------------- | --------------- |\n| Contondant | 12     | 2 vs Intermédiaire<br>4 vs Lourde | 0               |\n| Tranchant  | 8      | 1                                 | 2               |\n| Perforant  | 6      | 0                                 | 4               |\n\nSi une arme possède 2 types, sa dégradation et son ignorance de DR sont divisées par 2.\n")}
+	{@html renderMarkdown("> Modifie l'utilisation de l'arme.\n\n|            | Perforant | Tranchant | Contondant |\n| ---------- | :-------: | :-------: | :--------: |\n| **Dégâts** |     6     |     8     |     12     |\n\nSi une arme possède 2 types, sa dégradation et son ignorance de DR sont divisées par 2.\n")}
+
+	</section>
+{/snippet}
+
+{#snippet taille()}
+	<section>
+		<h3 id="taille">{@html applyBase("Taille")}</h3>
+	{@html renderMarkdown("> Modifie la façon d'utiliser l'arme.\n\n|                               |                          Court                           | 1 Main |                                 2 Mains                                 |\n| ----------------------------- | :------------------------------------------------------: | :----: | :---------------------------------------------------------------------: |\n| **Dé**                        |                           2d10                           |  2d8   |                                   2d6                                   |\n| **Dégâts<br>(Multiplicateur** |                            .5                            |   1    |                                   1.5                                   |\n| **Propriétés**                | Ambidextre<br>(Action Bonus : Deuxième attaque physique) |   -    | Anti-Blindage<br>(Retire le bouclier ennemi pendant le tour des alliés) |\n| **Matériaux**                 |                            1                             |   2    |                                    3                                    |\n")}
 
 	</section>
 {/snippet}
@@ -100,7 +94,7 @@
 {#snippet infusions()}
 	<section>
 		<h2 id="infusions">{@html applyBase("Infusions")}</h2>
-	{@html renderMarkdown("> Fait par un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Erudition#joaillier\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Erudition\" data-wiki-fragment=\"Joaillier\">Joaillier</a> pour déterminer leur dégâts (DMG).\n> Utilise 1 Gemme pour altérer la structure de l'arme, et donc son utilisation.\n> Les dégâts d'une arme ne peuvent pas être négatif.\n\n| Matériau                                                       | Dégâts  | Modificateur                                                        | Utilisation   |\n| -------------------------------------------------------------- | ------- | ------------------------------------------------------------------- | ------------- |\n| Gemme Brute                                                    | +2DMG   | ---                                                                 | Huiles        |\n| Gemme Puissante                                                | +3DMG+4 | ---<br>Désavantage                                                  | Huiles        |\n| Gemme d'Equilibre                                              | -DMG    | Dextérité\\|Force<br>*valeur max : Rareté de la gemme*               | Huiles        |\n| Gemme de Mélange                                               | -1.5DMG | Dextérité + Force<br>*valeur max : Rareté de la gemme*              | Huiles        |\n| Gemme de Balance                                               | -1.5DMG | Dextérité(Ranger)\\|Force(Monk)<br>*valeur max : Rareté de la gemme* | Huiles        |\n| Gemme Concentrée                                               | -DMG    | Mental                                                              | Huiles\\|Magie |\n| Gemme Réfléchissante                                           | -2DMG   | Charisme(\\*)                                                        | -             |\n| Gemme de Crystal<br>*Peu Commune*<br>1 Magie (Feu, Foudre, ..) | -2      | ---                                                                 | Magie         |\n| Gemme de Crystal<br>*Rare*<br>Croitiste ou Eletiste            | -6      | ---                                                                 | Magie         |\n| Gemme de Crystal<br>*Légendaire*<br>Universelle                | -10     | ---                                                                 | Magie         |\n\n")}
+	{@html renderMarkdown("> Fait par un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Erudition#joaillier\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Erudition\" data-wiki-fragment=\"Joaillier\">Joaillier</a> pour déterminer leur dégâts (DMG [1 - 4]).\n> Utilise 1 Gemme pour altérer la structure de l'arme, et donc son utilisation.\n> Les dégâts d'une arme ne peuvent pas être négatif.\n\n| Matériau                                                       | Dégâts  | Modificateur                                                            | Utilisation |\n| -------------------------------------------------------------- | ------- | ----------------------------------------------------------------------- | ----------- |\n| Gemme Brute                                                    | +2DMG   | ---                                                                     | ---         |\n| Gemme Puissante                                                | +3DMG+4 | ---<br>Désavantage                                                      | ---         |\n| Gemme d'Equilibre                                              | -DMG    | Dextérité\\|Force<br>*valeur max : Rareté de la gemme*                   | Huiles      |\n| Gemme de Mélange                                               | -1.5DMG | Dextérité + Force<br>*valeur max : 2 × Rareté de la gemme*              | Huiles      |\n| Gemme de Balance                                               | -1.5DMG | Dextérité(Ranger)\\|Force(Monk)<br>*valeur max : 2 × Rareté de la gemme* | Huiles      |\n| Gemme de Crystal<br>*Peu Commune*<br>1 Magie (Feu, Foudre, ..) | -2      | ---                                                                     | Magie       |\n| Gemme de Crystal<br>*Rare*<br>Croitiste ou Eletiste            | -6      | ---                                                                     | Magie       |\n| Gemme de Crystal<br>*Légendaire*<br>Universelle                | -10     | ---                                                                     | Magie       |\n\n")}
 	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements de Melees"} fragment={""} />
 	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles"} fragment={""} />
 	{@render magie()}
@@ -110,15 +104,8 @@
 {#snippet magie()}
 	<section>
 		<h3 id="magie">{@html applyBase("Magie")}</h3>
-	{@html renderMarkdown("> Permet d'imprégner l'arme de la magie concernée.\n\nConvertit les dégâts de l'arme en dégâts magiques, et les augmente de 4 par crystal dépensé.\nLes dégâts magiques sont réduits de moitié si la cible a une résistance à cette magie.\n\tIls sont doublés si la cible a une faiblesse à cette magie.\n")}
-
-	</section>
-{/snippet}
-
-{#snippet styles__Wip()}
-	<section>
-		<h2 id="styles---wip">{@html applyBase("Styles - WIP")}</h2>
-	{@html renderMarkdown("> En début de combat, le joueur peut lancer 1d10 + Maîtrise pour appliquer un seul style.\n> Si le jet réussit, l'effet est positif, sinon il est négatif.\n> Un style s'apprend et s'améliore auprès d'un Maître d'Arme.\n\n| **Jet >=**            |  6  |  9  | 13  | 17  |\n| --------------------- | :-: | :-: | :-: | :-: |\n| **Valeur de l'Effet** |  1  |  2  |  3  |  4  |\n\n| Style        | Effet                                                                                        | Arme                    |\n| ------------ | -------------------------------------------------------------------------------------------- | ----------------------- |\n| Offensif     | Dégâts                                                                                       | \\*                      |\n| Défensif     | DR                                                                                           | Contondant<br>Tranchant |\n| Briseur      | Dégâts DR                                                                                    | Contondant              |\n| Conservateur | Durée des huiles                                                                             | Tranchant               |\n| Contre       | Contre-attaque<br>si la cible fait **dé d'arme < 2 \\* Valeur ** et qu'elle ne passe pas l'AC | Courte                  |\n| Esquive      | AC                                                                                           | 1 Main                  |\n| Clash        | Désarme<br>si la cible fait **1d10 < Valeur + Force(Barbare)**                               | 2 Mains                 |")}
+	{@html renderMarkdown("> Permet d'imprégner l'arme de la magie concernée.\n\nConvertit les dégâts de l'arme en dégâts magiques, et les augmente de 1 par crystal dépensé.\n\nLa limite magique ne peut pas être dépassée lors de l'application de magie sur une arme.\n\nLes dégâts magiques peuvent être amplifiés ou réduits selon l'affinité aux dégâts de la cible avec cette magie :\n")}
+	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Combat/Misc/Affinites aux Degats"} fragment={""} />
 
 	</section>
 {/snippet}

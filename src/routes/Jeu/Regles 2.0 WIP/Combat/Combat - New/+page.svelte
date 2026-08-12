@@ -42,28 +42,18 @@
           "level": 4
       },
       {
-          "id": "ds-despoir-de-peur-et-tokens",
-          "text": "Dés d'Espoir, de Peur et Tokens",
-          "level": 2
-      },
-      {
-          "id": "utilisation",
-          "text": "Utilisation",
-          "level": 3
-      },
-      {
-          "id": "pendant-le-tour-dun-ennemi---wip",
-          "text": "Pendant le tour d'un ennemi - WIP",
-          "level": 2
-      },
-      {
           "id": "raction",
           "text": "Réaction",
-          "level": 3
+          "level": 4
       },
       {
           "id": "attaques-spciales",
           "text": "Attaques spéciales",
+          "level": 2
+      },
+      {
+          "id": "pendant-le-tour-des-ennemi---wip",
+          "text": "Pendant le tour des ennemi - WIP",
           "level": 2
       }
   ]);
@@ -81,9 +71,8 @@
   </header>
   <div class="markdown-rendered">
 		{@render pendantSonTour()}
-		{@render dsDespoirDePeurEtTokens()}
-		{@render pendantLeTourDunEnnemi__Wip()}
 		{@render attaquesSpciales()}
+		{@render pendantLeTourDesEnnemi__Wip()}
   </div>
 </article>
 
@@ -135,8 +124,9 @@
 {#snippet actionBonus()}
 	<section>
 		<h3 id="action-bonus">{@html applyBase("Action Bonus")}</h3>
-	{@html renderMarkdown("\n- Analyser\n- Utiliser un Token\n- Changer de posture (tant qu'aucune action n'a été prise)\n\t- Course (double les déplacements, empêche d'attaquer)\n\t- Esquive (augmente l'AC de 50%, désavantage aux dés de combat)\n\t- Discret (réduit les déplacements de moitié, perd l'attention des ennemis s'il sort de leur champs de vision)\n")}
+	{@html renderMarkdown("\n- Analyser\n- Réaction\n- Utiliser un Token\n- WIP - Changer de posture (tant qu'aucune action n'a été prise)\n\t- Course (double les déplacements, empêche d'attaquer)\n\t- Esquive (augmente l'AC de 50%, désavantage aux dés de combat)\n\t- Discret (réduit les déplacements de moitié, perd l'attention des ennemis s'il sort de leur champs de vision)\n")}
 	{@render analyser()}
+	{@render raction()}
 	</section>
 {/snippet}
 
@@ -148,34 +138,10 @@
 	</section>
 {/snippet}
 
-{#snippet dsDespoirDePeurEtTokens()}
-	<section>
-		<h2 id="ds-despoir-de-peur-et-tokens">{@html applyBase("Dés d'Espoir, de Peur et Tokens")}</h2>
-	{@html renderMarkdown("\nLes dés de combats sont toujours doubles (contrairement au dé d'Attributs -qui ne ciblent personne- et utilise 1 dé).\nParmi ces 2 dés, le joueur choisit un dé d'Espoir et un dé de Peur.\n\n- Si le dé d'Espoir est plus élevé que le dé de Peur, le joueur gagne 1 Token\n\t- A l'inverse, le Maître du Jeu gagne 1 Token\n- Si le joueur obtient le même nombre sur les 2 dés, il gagne 1 Token\n- Le maître du Jeu gagne 1 Token à chaque fois qu'un joueur fait un échec critique (même avec des dés d'Attributs)\n\nLes Tokens des joueurs sont conservés entre les sessions.\n\tCe n'est pas le cas pour les Tokens du Maître du Jeu qui recommence chaque session avec autant de Tokens qu'il y a de joueurs.\n")}
-	{@render utilisation()}
-	</section>
-{/snippet}
-
-{#snippet utilisation()}
-	<section>
-		<h3 id="utilisation">{@html applyBase("Utilisation")}</h3>
-	{@html renderMarkdown("\n| Pour les joueurs                                                            | Coût         |     | Coût |                           Pour le MJ |\n| --------------------------------------------------------------------------- | ------------ | :-: | ---: | -----------------------------------: |\n| Aider un allié (lui donne +1d6 à son prochain jet)                          | 1            |     |    1 | Activer des dangers environnementaux |\n| Compétences spéciales                                                       | ?            |     |    ? |    Compétences spéciales des ennemis |\n| Evite le comas et remonte à 5 HP                                            | 3            |     |    1 |                  Ajouter des ennemis |\n| Interrompre le MJ                                                           | 1 par joueur |     |    2 |                Interrompre un joueur |\n| Expliquer et mimer en détail une action<br>*(plutôt que de lancer les dés)* | 1            |     |      |                                      |\n")}
-
-	</section>
-{/snippet}
-
-{#snippet pendantLeTourDunEnnemi__Wip()}
-	<section>
-		<h2 id="pendant-le-tour-dun-ennemi---wip">{@html applyBase("Pendant le tour d'un ennemi - WIP")}</h2>
-	{@html renderMarkdown("\nAu début de son tour, l'ennemi prends en compte tous les effets qui lui sont appliqués.\nEnsuite il agit selon ses compétences.\n\nUne fois par tour, lorsqu'un ennemi agit contre un joueur, celui-ci peut utiliser une Réaction.\n")}
-	{@render raction()}
-	</section>
-{/snippet}
-
 {#snippet raction()}
 	<section>
-		<h3 id="raction">{@html applyBase("Réaction")}</h3>
-
+		<h4 id="raction">{@html applyBase("Réaction")}</h4>
+	{@html renderMarkdown("> Pendant le tour ennemi.\n\nCertaines compétences permettent de réagir assez vite aux actions ennemies.\n")}
 
 	</section>
 {/snippet}
@@ -183,7 +149,15 @@
 {#snippet attaquesSpciales()}
 	<section>
 		<h2 id="attaques-spciales">{@html applyBase("Attaques spéciales")}</h2>
-	{@html renderMarkdown("> Augmentent les dégâts (cumulable) de `1d10` et se jouent avec avantage.\n\n- Attaque dans le dos,\n- attaque surprise,\n- attaque d'opportunité.\n\nUne attaque critique ne touche pas forcément, mais ses dégâts sont toujours maximum.")}
+	{@html renderMarkdown("> Augmentent les dégâts de `1d10` et se jouent avec avantage.\n\n- Attaque dans le dos,\n- attaque surprise,\n- attaque d'opportunité.\n\nUne attaque critique ne touche pas forcément, mais ses dégâts sont toujours maximum.\n")}
+
+	</section>
+{/snippet}
+
+{#snippet pendantLeTourDesEnnemi__Wip()}
+	<section>
+		<h2 id="pendant-le-tour-des-ennemi---wip">{@html applyBase("Pendant le tour des ennemi - WIP")}</h2>
+	{@html renderMarkdown("\nAu début du tour des ennemis, le MJ prend en compte tous les effets qui leur sont appliqués.\nEnsuite il agit pour chaque ennemi.\n\nLorsqu'un ennemi s'en prend à lui, le joueur peut choisir (ou pas) de faire une seule chose s'il n'a encore rien fait :\n - utiliser sa Réaction s'il n'a pas utilisé son Action Bonus pendant son tour,\n - tourner son personnage (ex: pour éviter une attaque dans le dos),\n - échanger sa place avec un allié voisin (< 2m).\n\n```Exemple\nEnnemi 1 m'attaque mais je ne fais rien.\nEnnemi 2 m'attaque et je me retourne pour ne pas lui montrer mon dos.\nMaintenant je ne peux plus rien faire jusqu'à mon tour.\n```")}
 
 	</section>
 {/snippet}
