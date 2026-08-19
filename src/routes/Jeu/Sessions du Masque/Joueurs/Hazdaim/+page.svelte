@@ -88,7 +88,7 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("<img src=\"%%BASE%%/Hazdaim.png\" alt=\"Hazdaim.png\" width=\"300\" class=\"wiki-image\" />\n\n**Niveau** : 10\n\n|       Arvens        | Runild | Scienctes | Templis |\n| :-----------------: | :----: | :-------: | :-----: |\n| <span class=\"wiki-unresolved\">Or</span> 2 |   -    |     -     |    -    |\n")}
+	{@html renderMarkdown("<img src=\"%%BASE%%/hazdaim.png\" alt=\"hazdaim.png\" width=\"300\" class=\"wiki-image\" />\n\n**Niveau** : 10\n\n|       Arvens        | Runild | Scienctes | Templis |\n| :-----------------: | :----: | :-------: | :-----: |\n| <span class=\"wiki-unresolved\">Or</span> 2 |   -    |     -     |    -    |\n")}
 {/snippet}
 
 {#snippet attributs()}

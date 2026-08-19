@@ -1,7 +1,7 @@
 {
 	"map": {
 		"version": 14,
-		"gridType": "square",
+		"gridType": "hex-flat",
 		"cellSize": 48,
 		"layers": [
 			{

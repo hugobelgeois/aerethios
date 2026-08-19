@@ -7548,8 +7548,8 @@
 		"tokens": [
 			{
 				"id": "token-msiuip61-29",
-				"cellKey": "-33,-13",
-				"icon": "🧙",
+				"cellKey": "-31,-10",
+				"icon": "🛡️",
 				"templateId": "character",
 				"tabs": [
 					{
@@ -7579,7 +7579,7 @@
 			{
 				"id": "token-msiuiyc0-30",
 				"cellKey": "-31,-9",
-				"icon": "🧙",
+				"icon": "🗡️",
 				"templateId": "character",
 				"tabs": [
 					{
@@ -7609,7 +7609,7 @@
 			{
 				"id": "token-msiujgs9-31",
 				"cellKey": "-32,-9",
-				"icon": "🧙",
+				"icon": "🥷",
 				"templateId": "character",
 				"tabs": [
 					{
@@ -8238,6 +8238,7 @@
 		"minZoom": 0.1,
 		"maxZoom": 1,
 		"fogEnabled": false,
+		"fogFrozen": false,
 		"exploredCells": [
 			"-8,-22",
 			"-7,-22",
@@ -8632,7 +8633,7 @@
 			},
 			{
 				"field": "Token",
-				"value": "2/4"
+				"value": "3/4"
 			}
 		],
 		"token-msiujhpu-32": [
@@ -8654,7 +8655,7 @@
 			},
 			{
 				"field": "Token",
-				"value": "2/4"
+				"value": "4/4"
 			}
 		],
 		"token-msiw219v-1": [

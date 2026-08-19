@@ -298,7 +298,7 @@
     "/Notes/Archives/Imet_ Dieu Patient"
   ],
   "/Bestiaire/Planaires/Planaires": [
-    "/0_Private/Dieux"
+    "/Bestiaire/Planaires/Dieux/Dieux"
   ],
   "/Bestiaire/Terrestres/Humanoides/Calico": [],
   "/Bestiaire/Terrestres/Humanoides/Elfe": [],
@@ -505,5 +505,6 @@
   "/Jeu/Regles 2.0 WIP/Combat/Misc/Affinites aux Degats": [],
   "/Jeu/Regles 2.0 WIP/Repos": [],
   "/Jeu/Regles 2.0 WIP/Tokens": [],
-  "/Notes/Degats": []
+  "/Notes/Degats": [],
+  "/Jeu/Regles 2.0 WIP/Niveaux": []
 }

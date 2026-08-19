@@ -70,7 +70,7 @@
 {#snippet type()}
 	<section>
 		<h3 id="type">{@html applyBase("Type")}</h3>
-	{@html renderMarkdown("> Modifie l'utilisation de l'arme.\n\n|            | Perforant | Tranchant | Contondant |\n| ---------- | :-------: | :-------: | :--------: |\n| **Dégâts** |     6     |     8     |     12     |\n\nSi une arme possède 2 types, sa dégradation et son ignorance de DR sont divisées par 2.\n")}
+	{@html renderMarkdown("> Modifie l'utilisation de l'arme.\n\n|            | Perforant | Tranchant | Contondant |\n| ---------- | :-------: | :-------: | :--------: |\n| **Dégâts** |     6     |     8     |     12     |\n\nSi une arme possède 2 types, le type prioritaire détermine les dégâts.\n")}
 
 	</section>
 {/snippet}

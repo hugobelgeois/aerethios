@@ -62,7 +62,7 @@
 {#snippet surcharge()}
 	<section>
 		<h2 id="surcharge">{@html applyBase("Surcharge")}</h2>
-	{@html renderMarkdown("\nLa cible perd 1d4 crystaux et perd 4 HP par crystal perdu.\n\nSi les dégâts valent 16, elle doit utiliser une action pour se concentrer afin de réutiliser sa magie et régénérer ses crystaux.\n\nUne fois atteinte de Surcharge, la cible est immunisé pour le reste du combat.")}
+	{@html renderMarkdown("\nLa cible perd 1d4 crystaux et perd 4 HP par crystal perdu.\n\nUne fois atteinte de Surcharge, la cible est immunisé pour le reste du combat.")}
 
 	</section>
 {/snippet}

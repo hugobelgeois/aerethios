@@ -113,7 +113,7 @@
 
 {#snippet dieux()}
 	<section>
-		<h1 id="dieux">{@html applyBase("<a href=\"%%BASE%%/0_Private/Dieux\" class=\"wiki-link internal-link\" data-wiki-href=\"/0_Private/Dieux\" data-wiki-fragment=\"\">Dieux</a>")}</h1>
+		<h1 id="dieux">{@html applyBase("<a href=\"%%BASE%%/Bestiaire/Planaires/Dieux/Dieux\" class=\"wiki-link internal-link\" data-wiki-href=\"/Bestiaire/Planaires/Dieux/Dieux\" data-wiki-fragment=\"\">Dieux</a>")}</h1>
 
 
 	</section>

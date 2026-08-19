@@ -1,6 +1,6 @@
 {
 	"map": {
-		"version": 14,
+		"version": 15,
 		"gridType": "square",
 		"cellSize": 48,
 		"layers": [
@@ -27,123 +27,135 @@
 		"activeLayerId": "layer-msiubqbu-1",
 		"tokens": [
 			{
-				"id": "token-msjel993-7612",
-				"cellKey": "26,-20",
-				"icon": "🧙",
+				"id": "token-msssmo39-5",
+				"cellKey": "26,-16",
+				"icon": "🛡️",
 				"templateId": "character",
 				"tabs": [
 					{
 						"id": "default-0",
-						"name": "Statistiques"
+						"name": "Statistiques",
+						"link": "Jeu/Sessions du Masque/Joueurs/Arek.md#Attributs"
 					},
 					{
 						"id": "default-1",
-						"name": "Inventaire"
+						"name": "Equipement",
+						"link": "Jeu/Sessions du Masque/Joueurs/Arek.md#Equipement"
 					},
 					{
 						"id": "default-2",
-						"name": "Métier"
-					},
-					{
-						"id": "default-3",
-						"name": "Histoire"
+						"name": "Compétences",
+						"link": "Jeu/Sessions du Masque/Joueurs/Arek.md#Compétences"
 					}
 				],
-				"color": "#3587f3",
+				"color": "#fe4343",
 				"category": "player",
-				"visionRadius": 4,
-				"lightRadius": 4,
-				"lightRadiusLinkedToVision": true,
-				"rotation": -21.801484853916573
-			},
-			{
-				"id": "token-msjelkef-7613",
-				"cellKey": "25,-19",
-				"icon": "🧙",
-				"templateId": "character",
-				"tabs": [
-					{
-						"id": "default-0",
-						"name": "Statistiques"
-					},
-					{
-						"id": "default-1",
-						"name": "Inventaire"
-					},
-					{
-						"id": "default-2",
-						"name": "Métier"
-					},
-					{
-						"id": "default-3",
-						"name": "Histoire"
-					}
-				],
-				"color": "#e70d0d",
-				"category": "player",
-				"visionRange": 6,
+				"visionAngle": 135,
+				"visionRange": 10,
 				"visionRadius": 4,
 				"image": "/arek.png",
-				"rotation": -29.24885295846944
+				"rotation": 56.31004455913163
 			},
 			{
-				"id": "token-msjels5y-7614",
-				"cellKey": "25,-20",
-				"icon": "🧙",
+				"id": "token-msssmo39-6",
+				"cellKey": "27,-17",
+				"icon": "🗡️",
 				"templateId": "character",
 				"tabs": [
 					{
 						"id": "default-0",
-						"name": "Statistiques"
+						"name": "Statistiques",
+						"link": "Jeu/Sessions du Masque/Joueurs/Hazdaim.md#Attributs"
 					},
 					{
 						"id": "default-1",
-						"name": "Inventaire"
+						"name": "Equipements",
+						"link": "Jeu/Sessions du Masque/Joueurs/Hazdaim.md#Equipement"
 					},
 					{
 						"id": "default-2",
-						"name": "Métier"
-					},
-					{
-						"id": "default-3",
-						"name": "Histoire"
+						"name": "Compétences",
+						"link": "Jeu/Sessions du Masque/Joueurs/Hazdaim.md#Compétences"
 					}
 				],
-				"color": "#28b82b",
+				"color": "#5bb62b",
 				"category": "player",
+				"visionAngle": 135,
+				"visionRange": 10,
 				"visionRadius": 4,
+				"lightEnabled": true,
 				"image": "/hazdaim.png",
-				"rotation": -92.1210634620585
+				"rotation": 30.963692247896976
 			},
 			{
-				"id": "token-msjemn3o-7615",
-				"cellKey": "24,-20",
+				"id": "token-msssmo39-7",
+				"cellKey": "27,-16",
+				"icon": "🥷",
+				"templateId": "character",
+				"tabs": [
+					{
+						"id": "default-0",
+						"name": "Statistiques",
+						"link": "Jeu/Sessions du Masque/Joueurs/Dara.md#Attributs"
+					},
+					{
+						"id": "default-1",
+						"name": "Equipement",
+						"link": "Jeu/Sessions du Masque/Joueurs/Dara.md#Equipement"
+					},
+					{
+						"id": "tab-msiumvhn-33",
+						"name": "Invocations",
+						"link": "Jeu/Sessions du Masque/Joueurs/Dara.md#Invocations"
+					},
+					{
+						"id": "tab-msiuncr4-34",
+						"name": "Compétences",
+						"link": "Jeu/Sessions du Masque/Joueurs/Dara.md#Compétences"
+					}
+				],
+				"color": "#ffa238",
+				"category": "player",
+				"visionAngle": 135,
+				"visionRange": 10,
+				"visionRadius": 4,
+				"lightEnabled": false,
+				"image": "/dara.png",
+				"rotation": 270
+			},
+			{
+				"id": "token-msssmo39-8",
+				"cellKey": "28,-16",
 				"icon": "🧙",
 				"templateId": "character",
 				"tabs": [
 					{
 						"id": "default-0",
-						"name": "Statistiques"
+						"name": "Statistiques",
+						"link": "Jeu/Sessions du Masque/Joueurs/Léoric.md#Attributs"
 					},
 					{
 						"id": "default-1",
-						"name": "Inventaire"
+						"name": "Equipement",
+						"link": "Jeu/Sessions du Masque/Joueurs/Léoric.md#Equipement"
 					},
 					{
 						"id": "default-2",
-						"name": "Métier"
+						"name": "Compétences",
+						"link": "Jeu/Sessions du Masque/Joueurs/Léoric.md#Compétences"
 					},
 					{
-						"id": "default-3",
-						"name": "Histoire"
+						"id": "tab-msiupsy6-35",
+						"name": "Invocations",
+						"link": "Jeu/Sessions du Masque/Joueurs/Léoric.md#Invocations"
 					}
 				],
-				"color": "#f7ab08",
+				"color": "#4896c7",
 				"category": "player",
-				"visionRange": 6,
+				"visionAngle": 135,
+				"visionRange": 10,
 				"visionRadius": 4,
-				"image": "/dara.png",
-				"rotation": -45
+				"rotation": 9.46244035059625
 			}
 		],
 		"minZoom": 0.1,
@@ -1081,94 +1093,137 @@
 			"17,-18"
 		]
 	},
-	"notes": {},
+	"notes": {
+		"Jeu/Sessions du Masque/Joueurs/Arek.md#Attributs": {
+			"html": "<div class=\"markdown-rendered\"><h2 data-heading=\"Attributs\" dir=\"auto\">Attributs</h2>\n<h3 data-heading=\"Combat\" dir=\"auto\">Combat</h3>\n<blockquote dir=\"auto\">\n<p>55 points à mettre au niveau 1 (min 7, max 14)<br>\n+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20</p>\n</blockquote>\n<table>\n<thead>\n<tr>\n<th align=\"center\">Force</th>\n<th align=\"center\">Dextérité</th>\n<th align=\"center\">Mental</th>\n<th align=\"center\">Perception</th>\n<th align=\"center\">Charisme</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">19</td>\n<td align=\"center\">10</td>\n<td align=\"center\">18</td>\n<td align=\"center\">10</td>\n<td align=\"center\">8</td>\n</tr>\n<tr>\n<td align=\"center\">+4</td>\n<td align=\"center\">0</td>\n<td align=\"center\">+4</td>\n<td align=\"center\">0</td>\n<td align=\"center\">-1</td>\n</tr>\n</tbody>\n</table>\n<h3 data-heading=\"Magie\" dir=\"auto\">Magie</h3>\n<blockquote dir=\"auto\">\n<p><strong>Maîtrise</strong> : 1<br>\n<strong>Crystaux</strong> : 9</p>\n</blockquote>\n<table>\n<thead>\n<tr>\n<th align=\"center\">Air</th>\n<th align=\"center\">Eau</th>\n<th align=\"center\">Roche</th>\n<th align=\"center\">Feu</th>\n<th align=\"center\">Foudre</th>\n<th align=\"center\">Lumière</th>\n<th align=\"center\">Ténèbres</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n<td align=\"center\">7</td>\n<td align=\"center\">4</td>\n<td align=\"center\">-</td>\n<td align=\"center\">9</td>\n<td align=\"center\">-</td>\n</tr>\n<tr>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n<td align=\"center\">1d6</td>\n<td align=\"center\">1d4</td>\n<td align=\"center\">-</td>\n<td align=\"center\">1d8 +5</td>\n<td align=\"center\">-</td>\n</tr>\n</tbody>\n</table></div>"
+		},
+		"Jeu/Sessions du Masque/Joueurs/Arek.md#Equipement": {
+			"html": "<div class=\"markdown-rendered\"><h2 data-heading=\"Equipement\" dir=\"auto\">Equipement</h2>\n<h3 data-heading=\"[[Armes]]\" dir=\"auto\"><a data-href=\"Armes\" href=\"/Jeu/Regles/Combat/Armes/\" class=\"internal-link\" rel=\"noopener nofollow\">Armes</a></h3>\n<table>\n<thead>\n<tr>\n<th align=\"center\">Court</th>\n<th align=\"center\">1 Main</th>\n<th align=\"center\">2 Mains</th>\n<th align=\"center\">Haste</th>\n<th align=\"center\">Distance</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">7</td>\n<td align=\"center\">8</td>\n<td align=\"center\">0</td>\n<td align=\"center\">0</td>\n<td align=\"center\">0</td>\n</tr>\n<tr>\n<td align=\"center\">+3</td>\n<td align=\"center\">+4</td>\n<td align=\"center\">0</td>\n<td align=\"center\">0</td>\n<td align=\"center\">0</td>\n</tr>\n</tbody>\n</table>\n<table>\n<thead>\n<tr>\n<th>Arme</th>\n<th>Dégâts</th>\n<th align=\"center\">Poids (kg)</th>\n<th align=\"center\">Propriétés</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Hache<br>Orichalque<br>1 Main<br>(lourd)<br></td>\n<td>(1d8+8Force(Monk))<br>+36 +10Nirina<br>VS Démons<br>Ténèbres 4<br>= 41-48</td>\n<td align=\"center\">7.5</td>\n<td align=\"center\">Force &gt; 15</td>\n</tr>\n<tr>\n<td>Hache <br>Orichalque<br>1 Main<br>(lourd)</td>\n<td>(1d8+8Force(Monk))<br>+36 +2Nirina<br>VS Démons<br>Ténèbres 4<br>= 41-48</td>\n<td align=\"center\">7.5</td>\n<td align=\"center\">Force &gt; 15</td>\n</tr>\n<tr>\n<td>Epée<br>Palladium<br>1 Main<br>(lourd)</td>\n<td>(1d8+8Force(Monk))<br>+30 +3Nirina<br>VS Anges<br>Ténèbres 4<br>= 35-42</td>\n<td align=\"center\">6</td>\n<td align=\"center\">Force &gt; 15<br>Sang de dieu : <a data-tooltip-position=\"top\" aria-label=\"Propriétés &gt; Lacération\" data-href=\"Propriétés#Lacération\" href=\"/Jeu/Regles/Statuts/Proprietes/#lacration\" class=\"internal-link\" rel=\"noopener nofollow\">Lacération</a></td>\n</tr>\n</tbody>\n</table>\n<h3 data-heading=\"[[Armures]]\" dir=\"auto\"><a data-href=\"Armures\" href=\"/Jeu/Regles/Combat/Armures/\" class=\"internal-link\" rel=\"noopener nofollow\">Armures</a></h3>\n<table>\n<thead>\n<tr>\n<th>Armure</th>\n<th align=\"center\">AC</th>\n<th align=\"center\">DR</th>\n<th align=\"center\">Enchantement</th>\n<th align=\"center\">Poids (kg)</th>\n<th align=\"center\">Dégâts</th>\n<th align=\"center\">Propriétés</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Armure<br>Paladium<br>Enchant Nirina 6 + 3</td>\n<td align=\"center\">5</td>\n<td align=\"center\">35<br>+16(Impénétrable)<br>+ 6+3 Nirina<br>= 60</td>\n<td align=\"center\"></td>\n<td align=\"center\">36</td>\n<td align=\"center\">-</td>\n<td align=\"center\">Dextérité(Discrétion) impossible<br><br>Magies impossibles en combat</td>\n</tr>\n<tr>\n<td>Cape Fourrure</td>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n<td align=\"center\">Feu 5<br>Foudre 1</td>\n<td align=\"center\">2</td>\n<td align=\"center\">-</td>\n<td align=\"center\">Fusion = 1 crystal gratuit par action</td>\n</tr>\n<tr>\n<td>Bouclier d'Estoc</td>\n<td align=\"center\">-3</td>\n<td align=\"center\">30 (Orichalque 75%)<br>+4Nirina<br>= 34</td>\n<td align=\"center\">Foudre 5</td>\n<td align=\"center\">12</td>\n<td align=\"center\">1d4 +4</td>\n<td align=\"center\"><a data-tooltip-position=\"top\" aria-label=\"Propriétés &gt; Charge\" data-href=\"Propriétés#Charge\" href=\"/Jeu/Regles/Statuts/Proprietes/#charge\" class=\"internal-link\" rel=\"noopener nofollow\">Charge</a></td>\n</tr>\n<tr>\n<td>Armure<br>Os Gammoth</td>\n<td align=\"center\">8</td>\n<td align=\"center\">20(Os rare)<br>+16(Impénétrable)<br>= 36</td>\n<td align=\"center\">Glace 4</td>\n<td align=\"center\">18</td>\n<td align=\"center\">-</td>\n<td align=\"center\">Désavantage en Dextérité (Discrétion)<br><br> Désavantage en Magies en combat<br> <br> 1 invulnérabilité magique</td>\n</tr>\n</tbody>\n</table></div>"
+		},
+		"Jeu/Sessions du Masque/Joueurs/Arek.md#Compétences": {
+			"html": "<div class=\"markdown-rendered\"><h2 data-heading=\"Compétences\" dir=\"auto\">Compétences</h2>\n<table>\n<thead>\n<tr>\n<th align=\"center\"><strong><a data-href=\"Force\" href=\"/Jeu/Regles/Competences/Attributs/Force/\" class=\"internal-link\" rel=\"noopener nofollow\">Force</a></strong></th>\n<th align=\"center\"><strong><a data-href=\"Dextérité\" href=\"/Jeu/Regles/Competences/Attributs/Dexterite/\" class=\"internal-link\" rel=\"noopener nofollow\">Dextérité</a></strong></th>\n<th align=\"center\"><strong><a data-href=\"Mental\" href=\"/Jeu/Regles/Competences/Attributs/Mental/\" class=\"internal-link\" rel=\"noopener nofollow\">Mental</a></strong></th>\n<th align=\"center\"><strong><a data-href=\"Perception\" href=\"/Jeu/Regles/Competences/Attributs/Perception/\" class=\"internal-link\" rel=\"noopener nofollow\">Perception</a></strong></th>\n<th align=\"center\"><strong><a data-href=\"Charisme\" href=\"/Jeu/Regles/Competences/Attributs/Charisme/\" class=\"internal-link\" rel=\"noopener nofollow\">Charisme</a></strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">Athlétisme<br><em>- Mule</em><br><em>- Momentum</em></td>\n<td align=\"center\"></td>\n<td align=\"center\">Intelligence</td>\n<td align=\"center\"></td>\n<td align=\"center\">Meneur</td>\n</tr>\n<tr>\n<td align=\"center\">Barbare<br><em>- Bagarre</em></td>\n<td align=\"center\"></td>\n<td align=\"center\">Sagesse<br>- <del>Assidue</del><br><em>- Insensible</em></td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n</tr>\n<tr>\n<td align=\"center\">Paladin<br><em>- Impénétrable</em></td>\n<td align=\"center\"></td>\n<td align=\"center\">Volonté<br><em>- Résistance</em><br><em>- Imperturbable</em></td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n</tr>\n<tr>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n</tr>\n<tr>\n<td align=\"center\"><strong>Cafard</strong><br>+ -</td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n</tr>\n</tbody>\n</table></div>"
+		},
+		"Jeu/Sessions du Masque/Joueurs/Hazdaim.md#Attributs": {
+			"html": "<div class=\"markdown-rendered\"><h2 data-heading=\"Attributs\" dir=\"auto\">Attributs</h2>\n<h3 data-heading=\"Combat\" dir=\"auto\">Combat</h3>\n<blockquote dir=\"auto\">\n<p>55 points à mettre au niveau 1 (min 7, max 14)<br>\n+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20</p>\n</blockquote>\n<table>\n<thead>\n<tr>\n<th align=\"center\">Force</th>\n<th align=\"center\">Dextérité</th>\n<th align=\"center\">Mental</th>\n<th align=\"center\">Perception</th>\n<th align=\"center\">Charisme</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">10</td>\n<td align=\"center\">15</td>\n<td align=\"center\">10</td>\n<td align=\"center\">12</td>\n<td align=\"center\">15</td>\n</tr>\n<tr>\n<td align=\"center\">0</td>\n<td align=\"center\">+2</td>\n<td align=\"center\">0</td>\n<td align=\"center\">+1</td>\n<td align=\"center\">+2</td>\n</tr>\n</tbody>\n</table>\n<h3 data-heading=\"Magie\" dir=\"auto\">Magie</h3>\n<blockquote dir=\"auto\">\n<p><strong>Maîtrise</strong> : 1<br>\n<strong>Crystaux</strong> : 9</p>\n</blockquote>\n<table>\n<thead>\n<tr>\n<th align=\"center\">Air</th>\n<th align=\"center\">Eau</th>\n<th align=\"center\">Roche</th>\n<th align=\"center\">Feu</th>\n<th align=\"center\">Foudre</th>\n<th align=\"center\">Lumière</th>\n<th align=\"center\">Ténèbres</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">1</td>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n<td align=\"center\">8</td>\n<td align=\"center\">6</td>\n<td align=\"center\">1</td>\n</tr>\n<tr>\n<td align=\"center\">1d4</td>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n<td align=\"center\">1d6</td>\n<td align=\"center\">1d6</td>\n<td align=\"center\">1d4</td>\n</tr>\n</tbody>\n</table></div>"
+		},
+		"Jeu/Sessions du Masque/Joueurs/Hazdaim.md#Equipement": {
+			"html": "<div class=\"markdown-rendered\"><h2 data-heading=\"Equipement\" dir=\"auto\">Equipement</h2>\n<h3 data-heading=\"[[Armes]]\" dir=\"auto\"><a data-href=\"Armes\" href=\"/Jeu/Regles/Combat/Armes/\" class=\"internal-link\" rel=\"noopener nofollow\">Armes</a></h3>\n<table>\n<thead>\n<tr>\n<th align=\"center\">Court</th>\n<th align=\"center\">1 Main</th>\n<th align=\"center\">2 Mains</th>\n<th align=\"center\">Haste</th>\n<th align=\"center\">Distance</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">2</td>\n<td align=\"center\">8</td>\n<td align=\"center\">0</td>\n<td align=\"center\">0</td>\n<td align=\"center\">2 (1xp)</td>\n</tr>\n<tr>\n<td align=\"center\">+1</td>\n<td align=\"center\">+4</td>\n<td align=\"center\">0</td>\n<td align=\"center\">0</td>\n<td align=\"center\">+1</td>\n</tr>\n</tbody>\n</table>\n<table>\n<thead>\n<tr>\n<th>Arme</th>\n<th>Dégâts</th>\n<th align=\"center\">Poids (kg)</th>\n<th align=\"center\">Propriétés</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Lame Revers<br>Orichalque<br>1 Main<br>(léger)</td>\n<td>(3d8+4Dex(Ranger))<br>+12 +3Nirina<br>VS Démons<br>Ténèbres 3<br>= 22-43</td>\n<td align=\"center\">2.5</td>\n<td align=\"center\">-</td>\n</tr>\n<tr>\n<td>Lame Revers<br>Palladium<br>1 Main<br>(léger)</td>\n<td>(3d8+4Dex(Ranger))<br>+10 +6Nirina<br>VS Anges<br>Ténèbres 3<br>= 23-44</td>\n<td align=\"center\">2</td>\n<td align=\"center\">-</td>\n</tr>\n<tr>\n<td>Arbalète Sharah<br>Adamantite (Or)<br>Distance<br>(léger)</td>\n<td>(3d8+4Dex(Ranger))<br>+10<br>Crit 3<br>VS Mythiques<br>Air<br>= 15-36</td>\n<td align=\"center\">2</td>\n<td align=\"center\"><a data-tooltip-position=\"top\" aria-label=\"Propriétés &gt; Léger\" data-href=\"Propriétés#Léger\" href=\"/Jeu/Regles/Statuts/Proprietes/#lger\" class=\"internal-link\" rel=\"noopener nofollow\">Léger</a></td>\n</tr>\n<tr>\n<td>Lame Revers<br>Titane<br>1 Main</td>\n<td>2d8<br>+14<br>Crit 2<br>VS Invocations<br>= 16-30</td>\n<td align=\"center\">3</td>\n<td align=\"center\">-</td>\n</tr>\n<tr>\n<td>Lame Revers<br>Titane<br>1 Main</td>\n<td>2d8<br>+14<br>Crit 2<br>VS Invocations<br>= 16-30</td>\n<td align=\"center\">3</td>\n<td align=\"center\">-</td>\n</tr>\n</tbody>\n</table>\n<h3 data-heading=\"[[Armures]]\" dir=\"auto\"><a data-href=\"Armures\" href=\"/Jeu/Regles/Combat/Armures/\" class=\"internal-link\" rel=\"noopener nofollow\">Armures</a></h3>\n<table>\n<thead>\n<tr>\n<th>Armure</th>\n<th align=\"center\">AC</th>\n<th align=\"center\">DR</th>\n<th align=\"center\">Enchantement</th>\n<th align=\"center\">Poids (kg)</th>\n<th align=\"center\">Dégâts</th>\n<th align=\"center\">Propriétés</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Armure Cuir</td>\n<td align=\"center\">12<br>+2(Dex)<br>= 14</td>\n<td align=\"center\">9(peu commun)<br>+3(Impé) = 12</td>\n<td align=\"center\">Roche 2<br>Feu 2</td>\n<td align=\"center\">12</td>\n<td align=\"center\">-</td>\n<td align=\"center\">Résiste à <a data-tooltip-position=\"top\" aria-label=\"Conditions &gt; Poison\" data-href=\"Conditions#Poison\" href=\"/Jeu/Regles/Statuts/Conditions/#poison\" class=\"internal-link\" rel=\"noopener nofollow\">Poison</a></td>\n</tr>\n<tr>\n<td>Cape Fourrure</td>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n<td align=\"center\">Ténèbres 5</td>\n<td align=\"center\">1</td>\n<td align=\"center\">-</td>\n<td align=\"center\">Les sorts croitistes à 1 crystal ne le consomme pas</td>\n</tr>\n</tbody>\n</table></div>"
+		},
+		"Jeu/Sessions du Masque/Joueurs/Hazdaim.md#Compétences": {
+			"html": "<div class=\"markdown-rendered\"><h2 data-heading=\"Compétences\" dir=\"auto\">Compétences</h2>\n<table>\n<thead>\n<tr>\n<th align=\"center\"><strong><a data-href=\"Force\" href=\"/Jeu/Regles/Competences/Attributs/Force/\" class=\"internal-link\" rel=\"noopener nofollow\">Force</a></strong></th>\n<th align=\"center\"><strong><a data-href=\"Dextérité\" href=\"/Jeu/Regles/Competences/Attributs/Dexterite/\" class=\"internal-link\" rel=\"noopener nofollow\">Dextérité</a></strong></th>\n<th align=\"center\"><strong><a data-href=\"Mental\" href=\"/Jeu/Regles/Competences/Attributs/Mental/\" class=\"internal-link\" rel=\"noopener nofollow\">Mental</a></strong></th>\n<th align=\"center\"><strong><a data-href=\"Perception\" href=\"/Jeu/Regles/Competences/Attributs/Perception/\" class=\"internal-link\" rel=\"noopener nofollow\">Perception</a></strong></th>\n<th align=\"center\"><strong><a data-href=\"Charisme\" href=\"/Jeu/Regles/Competences/Attributs/Charisme/\" class=\"internal-link\" rel=\"noopener nofollow\">Charisme</a></strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">Athlétisme</td>\n<td align=\"center\">Acrobatie</td>\n<td align=\"center\"></td>\n<td align=\"center\">Chasseur</td>\n<td align=\"center\">Diplomate<br><em>- Encouragement</em></td>\n</tr>\n<tr>\n<td align=\"center\"></td>\n<td align=\"center\">Assassin</td>\n<td align=\"center\"></td>\n<td align=\"center\">Naturaliste<br><em>- Créatures</em></td>\n<td align=\"center\">Meneur</td>\n</tr>\n<tr>\n<td align=\"center\"></td>\n<td align=\"center\">Bretteur<br><em>- Ambidextre</em><br><em>- Parade</em></td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n<td align=\"center\">Tromperie<br><em>- Manipulation</em></td>\n</tr>\n<tr>\n<td align=\"center\"></td>\n<td align=\"center\"><strong>Sixième sens</strong><br>+ -</td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n<td align=\"center\"><strong>Epicentre</strong><br>+ -</td>\n</tr>\n</tbody>\n</table></div>"
+		},
+		"Jeu/Sessions du Masque/Joueurs/Dara.md#Attributs": {
+			"html": "<div class=\"markdown-rendered\"><h2 data-heading=\"Attributs\" dir=\"auto\">Attributs</h2>\n<h3 data-heading=\"Combat\" dir=\"auto\">Combat</h3>\n<blockquote dir=\"auto\">\n<p>55 points à mettre au niveau 1 (min 7, max 14)<br>\n+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20</p>\n</blockquote>\n<table>\n<thead>\n<tr>\n<th align=\"center\">Force</th>\n<th align=\"center\">Dextérité</th>\n<th align=\"center\">Mental</th>\n<th align=\"center\">Perception</th>\n<th align=\"center\">Charisme</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">6</td>\n<td align=\"center\">20</td>\n<td align=\"center\">14</td>\n<td align=\"center\">16</td>\n<td align=\"center\">7 (+1 wasabi)</td>\n</tr>\n<tr>\n<td align=\"center\">-2</td>\n<td align=\"center\">+5</td>\n<td align=\"center\">+2</td>\n<td align=\"center\">+3</td>\n<td align=\"center\">-1</td>\n</tr>\n</tbody>\n</table>\n<h3 data-heading=\"Magie\" dir=\"auto\">Magie</h3>\n<blockquote dir=\"auto\">\n<p><strong>Maîtrise</strong> : 1<br>\n<strong>Crystaux</strong> : 9</p>\n</blockquote>\n<table>\n<thead>\n<tr>\n<th align=\"center\">Air</th>\n<th align=\"center\">Eau</th>\n<th align=\"center\">Roche</th>\n<th align=\"center\">Feu</th>\n<th align=\"center\">Foudre</th>\n<th align=\"center\">Lumière</th>\n<th align=\"center\">Ténèbres</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">-</td>\n<td align=\"center\">6</td>\n<td align=\"center\">-</td>\n<td align=\"center\">4</td>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n<td align=\"center\">19</td>\n</tr>\n<tr>\n<td align=\"center\">-</td>\n<td align=\"center\">1d6</td>\n<td align=\"center\">-</td>\n<td align=\"center\">1d4</td>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n<td align=\"center\">1d12</td>\n</tr>\n</tbody>\n</table></div>"
+		},
+		"Jeu/Sessions du Masque/Joueurs/Dara.md#Equipement": {
+			"html": "<div class=\"markdown-rendered\"><h2 data-heading=\"Equipement\" dir=\"auto\">Equipement</h2>\n<h3 data-heading=\"[[Armes]]\" dir=\"auto\"><a data-href=\"Armes\" href=\"/Jeu/Regles/Combat/Armes/\" class=\"internal-link\" rel=\"noopener nofollow\">Armes</a></h3>\n<table>\n<thead>\n<tr>\n<th align=\"center\">Court</th>\n<th align=\"center\">1 Main</th>\n<th align=\"center\">2 Mains</th>\n<th align=\"center\">Haste</th>\n<th align=\"center\">Distance</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">2</td>\n<td align=\"center\">2</td>\n<td align=\"center\">8</td>\n<td align=\"center\">0</td>\n<td align=\"center\">0</td>\n</tr>\n<tr>\n<td align=\"center\">+1</td>\n<td align=\"center\">+1</td>\n<td align=\"center\">+4</td>\n<td align=\"center\">0</td>\n<td align=\"center\">0</td>\n</tr>\n</tbody>\n</table>\n<table>\n<thead>\n<tr>\n<th>Arme</th>\n<th>Dégâts</th>\n<th align=\"center\">Poids (kg)</th>\n<th align=\"center\">Propriétés</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Lame double<br>Orichalque (Argent)<br>2 Mains</td>\n<td>3d4<br>+36<br>Crit 2<br>VS Hybrides<br>= 39-48</td>\n<td align=\"center\">7.5</td>\n<td align=\"center\"><a data-tooltip-position=\"top\" aria-label=\"Propriétés &gt; Double\" data-href=\"Propriétés#Double\" href=\"/Jeu/Regles/Statuts/Proprietes/#double\" class=\"internal-link\" rel=\"noopener nofollow\">Double</a> T</td>\n</tr>\n<tr>\n<td>Dague<br>Orichalque<br>Court</td>\n<td>2d12<br>+12 +9Nirina<br>VS Démons<br>= 23-45</td>\n<td align=\"center\">2.5</td>\n<td align=\"center\"><a data-tooltip-position=\"top\" aria-label=\"Propriétés &gt; Jetable\" data-href=\"Propriétés#Jetable\" href=\"/Jeu/Regles/Statuts/Proprietes/#jetable\" class=\"internal-link\" rel=\"noopener nofollow\">Jetable</a><br><a data-tooltip-position=\"top\" aria-label=\"Propriétés &gt; Critique\" data-href=\"Propriétés#Critique\" href=\"/Jeu/Regles/Statuts/Proprietes/#critique\" class=\"internal-link\" rel=\"noopener nofollow\">Critique</a></td>\n</tr>\n<tr>\n<td>Épée droite<br>Adamantite (Sombronce)<br>2 Mains</td>\n<td>3d4<br>+30<br>Crit 2<br>VS Naturels<br>= 33-42</td>\n<td align=\"center\">6</td>\n<td align=\"center\">---</td>\n</tr>\n<tr>\n<td>Dague Sharah<br>Adamantite (Or)<br>Court<br>(léger)</td>\n<td>(3d12+10Dex(Assassin))<br>+10 +10Nirina<br>Crit 3<br>VS Mythiques <br>Air<br>= 33-66</td>\n<td align=\"center\">4</td>\n<td align=\"center\"><a data-tooltip-position=\"top\" aria-label=\"Propriétés &gt; Jetable\" data-href=\"Propriétés#Jetable\" href=\"/Jeu/Regles/Statuts/Proprietes/#jetable\" class=\"internal-link\" rel=\"noopener nofollow\">Jetable</a><br><a data-tooltip-position=\"top\" aria-label=\"Propriétés &gt; Critique\" data-href=\"Propriétés#Critique\" href=\"/Jeu/Regles/Statuts/Proprietes/#critique\" class=\"internal-link\" rel=\"noopener nofollow\">Critique</a></td>\n</tr>\n</tbody>\n</table>\n<h3 data-heading=\"[[Armures]]\" dir=\"auto\"><a data-href=\"Armures\" href=\"/Jeu/Regles/Combat/Armures/\" class=\"internal-link\" rel=\"noopener nofollow\">Armures</a></h3>\n<table>\n<thead>\n<tr>\n<th>Armure</th>\n<th align=\"center\">AC</th>\n<th align=\"center\">DR</th>\n<th align=\"center\">Enchantement</th>\n<th align=\"center\">Poids (kg)</th>\n<th align=\"center\">Dégâts</th>\n<th align=\"center\">Propriétés</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Armure<br>Cuir</td>\n<td align=\"center\">12<br>+3(Dex)<br>= 15</td>\n<td align=\"center\">9(peu commun) <br>+5(Impé)<br>= 14</td>\n<td align=\"center\">-</td>\n<td align=\"center\">12</td>\n<td align=\"center\">-</td>\n<td align=\"center\">Résiste à <a data-tooltip-position=\"top\" aria-label=\"Conditions &gt; Poison\" data-href=\"Conditions#Poison\" href=\"/Jeu/Regles/Statuts/Conditions/#poison\" class=\"internal-link\" rel=\"noopener nofollow\">Poison</a></td>\n</tr>\n<tr>\n<td>Cape en velour</td>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n<td align=\"center\">Feu 2<br>Foudre 2</td>\n<td align=\"center\">1</td>\n<td align=\"center\">-</td>\n<td align=\"center\">Les sorts solides à 1 crystal ne les consomme pas</td>\n</tr>\n<tr>\n<td>Cape de fourrure</td>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n<td align=\"center\">Glace 3<br>Liquide 1</td>\n<td align=\"center\">1</td>\n<td align=\"center\">-</td>\n<td align=\"center\">Les sorts croitistes à 1 crystal ne le consomme pas</td>\n</tr>\n<tr>\n<td>Cape de fourrure (tigre)</td>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n<td align=\"center\"></td>\n<td align=\"center\">1</td>\n<td align=\"center\">-</td>\n<td align=\"center\">Les sorts croitistes à 1 crystal ne le consomme pas</td>\n</tr>\n</tbody>\n</table></div>"
+		},
+		"Jeu/Sessions du Masque/Joueurs/Dara.md#Invocations": {
+			"html": "<div class=\"markdown-rendered\"><h2 data-heading=\"Invocations\" dir=\"auto\">Invocations</h2>\n<table>\n<thead>\n<tr>\n<th>Nom</th>\n<th align=\"center\">Coût</th>\n<th align=\"center\">AC</th>\n<th align=\"center\">DR</th>\n<th align=\"center\">HP</th>\n<th align=\"center\">Léger</th>\n<th align=\"center\">Lourd</th>\n<th align=\"center\">Magie</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Chevalier informé</td>\n<td align=\"center\">20</td>\n<td align=\"center\">9</td>\n<td align=\"center\">18</td>\n<td align=\"center\">25</td>\n<td align=\"center\">-</td>\n<td align=\"center\">3d4 + 21</td>\n<td align=\"center\"></td>\n</tr>\n<tr>\n<td>Goss Harag</td>\n<td align=\"center\">40</td>\n<td align=\"center\">6</td>\n<td align=\"center\">25</td>\n<td align=\"center\">50</td>\n<td align=\"center\">2d6 + 10</td>\n<td align=\"center\">3d8 + 18</td>\n<td align=\"center\">3d6 Glace</td>\n</tr>\n<tr>\n<td>Owlbear</td>\n<td align=\"center\">15</td>\n<td align=\"center\">20</td>\n<td align=\"center\">0</td>\n<td align=\"center\">10</td>\n<td align=\"center\">(3d6+12)</td>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n</tr>\n<tr>\n<td>Gammoth</td>\n<td align=\"center\">80</td>\n<td align=\"center\">2</td>\n<td align=\"center\">40</td>\n<td align=\"center\">120</td>\n<td align=\"center\">3d6 + 15</td>\n<td align=\"center\">4d10 + 25</td>\n<td align=\"center\">4d6 Glace (zone)</td>\n</tr>\n<tr>\n<td>Shara Ishvalda</td>\n<td align=\"center\">100</td>\n<td align=\"center\">5</td>\n<td align=\"center\">35</td>\n<td align=\"center\">110</td>\n<td align=\"center\">2d8 + 12</td>\n<td align=\"center\">5d8 + 30</td>\n<td align=\"center\">5d6 Roche<br>3d20 Air</td>\n</tr>\n<tr>\n<td>Gore Magala</td>\n<td align=\"center\">70</td>\n<td align=\"center\">12</td>\n<td align=\"center\">20</td>\n<td align=\"center\">75</td>\n<td align=\"center\">3d8 + 14</td>\n<td align=\"center\">4d8 + 20</td>\n<td align=\"center\">4d6 Ténèbres</td>\n</tr>\n<tr>\n<td><del>Lagiacrus (MDR)</del></td>\n<td align=\"center\"><del>75</del></td>\n<td align=\"center\"><del>10</del></td>\n<td align=\"center\"><del>22</del></td>\n<td align=\"center\"><del>85</del></td>\n<td align=\"center\"><del>3d6 + 14</del></td>\n<td align=\"center\"><del>4d8 + 22</del></td>\n<td align=\"center\"><del>4d6 Foudre</del></td>\n</tr>\n</tbody>\n</table></div>"
+		},
+		"Jeu/Sessions du Masque/Joueurs/Dara.md#Compétences": {
+			"html": "<div class=\"markdown-rendered\"><h2 data-heading=\"Compétences\" dir=\"auto\">Compétences</h2>\n<table>\n<thead>\n<tr>\n<th align=\"center\"><strong><a data-href=\"Force\" href=\"/Jeu/Regles/Competences/Attributs/Force/\" class=\"internal-link\" rel=\"noopener nofollow\">Force</a></strong></th>\n<th align=\"center\"><strong><a data-href=\"Dextérité\" href=\"/Jeu/Regles/Competences/Attributs/Dexterite/\" class=\"internal-link\" rel=\"noopener nofollow\">Dextérité</a></strong></th>\n<th align=\"center\"><strong><a data-href=\"Mental\" href=\"/Jeu/Regles/Competences/Attributs/Mental/\" class=\"internal-link\" rel=\"noopener nofollow\">Mental</a></strong></th>\n<th align=\"center\"><strong><a data-href=\"Perception\" href=\"/Jeu/Regles/Competences/Attributs/Perception/\" class=\"internal-link\" rel=\"noopener nofollow\">Perception</a></strong></th>\n<th align=\"center\"><strong><a data-href=\"Charisme\" href=\"/Jeu/Regles/Competences/Attributs/Charisme/\" class=\"internal-link\" rel=\"noopener nofollow\">Charisme</a></strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">Athlétisme</td>\n<td align=\"center\">Acrobatie<br><em>- Matrix</em></td>\n<td align=\"center\">Intelligence<br><em>- Efficacité</em></td>\n<td align=\"center\">Chasseur</td>\n<td align=\"center\">Trompeur</td>\n</tr>\n<tr>\n<td align=\"center\"></td>\n<td align=\"center\">Assassin<br><em>- Coup précis</em><br><em>- Rapide</em></td>\n<td align=\"center\">Volonté<br><em>- Résistance</em></td>\n<td align=\"center\">Spiritisme<br><em>- Exorciste</em><br><em>- Pactisant</em></td>\n<td align=\"center\"></td>\n</tr>\n<tr>\n<td align=\"center\"></td>\n<td align=\"center\">Bretteur<br><em>- Ambidextre</em></td>\n<td align=\"center\"></td>\n<td align=\"center\">Observateur<br><em>- Mentaliste</em></td>\n<td align=\"center\"></td>\n</tr>\n<tr>\n<td align=\"center\"></td>\n<td align=\"center\">Voleur<br><em>- Main légère</em></td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n</tr>\n<tr>\n<td align=\"center\"></td>\n<td align=\"center\"><strong>Sixième sens</strong><br>+</td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n</tr>\n</tbody>\n</table></div>"
+		},
+		"Jeu/Sessions du Masque/Joueurs/Léoric.md#Attributs": {
+			"html": "<div class=\"markdown-rendered\"><h2 data-heading=\"Attributs\" dir=\"auto\">Attributs</h2>\n<h3 data-heading=\"Combat\" dir=\"auto\">Combat</h3>\n<blockquote dir=\"auto\">\n<p>55 points à mettre au niveau 1 (min 7, max 14)<br>\n+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20</p>\n</blockquote>\n<table>\n<thead>\n<tr>\n<th align=\"center\">Force</th>\n<th align=\"center\">Dextérité</th>\n<th align=\"center\">Mental</th>\n<th align=\"center\">Perception</th>\n<th align=\"center\">Charisme</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">11</td>\n<td align=\"center\">11</td>\n<td align=\"center\">18</td>\n<td align=\"center\">11</td>\n<td align=\"center\">11</td>\n</tr>\n<tr>\n<td align=\"center\">0</td>\n<td align=\"center\">0</td>\n<td align=\"center\">0</td>\n<td align=\"center\">0</td>\n<td align=\"center\">0</td>\n</tr>\n</tbody>\n</table>\n<h3 data-heading=\"Magie\" dir=\"auto\">Magie</h3>\n<blockquote dir=\"auto\">\n<p><strong>Maîtrise</strong> : 2<br>\n<strong>Crystaux</strong> : 9</p>\n</blockquote>\n<table>\n<thead>\n<tr>\n<th align=\"center\">Air</th>\n<th align=\"center\">Eau</th>\n<th align=\"center\">Roche</th>\n<th align=\"center\">Feu</th>\n<th align=\"center\">Foudre</th>\n<th align=\"center\">Lumière</th>\n<th align=\"center\">Ténèbres</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n<td align=\"center\">5</td>\n<td align=\"center\">10</td>\n<td align=\"center\">5</td>\n<td align=\"center\">-</td>\n<td align=\"center\">9</td>\n</tr>\n<tr>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n<td align=\"center\">1d6</td>\n<td align=\"center\">1d8</td>\n<td align=\"center\">1d6</td>\n<td align=\"center\">-</td>\n<td align=\"center\">1d8</td>\n</tr>\n</tbody>\n</table></div>"
+		},
+		"Jeu/Sessions du Masque/Joueurs/Léoric.md#Equipement": {
+			"html": "<div class=\"markdown-rendered\"><h2 data-heading=\"Equipement\" dir=\"auto\">Equipement</h2>\n<h3 data-heading=\"[[Armes]]\" dir=\"auto\"><a data-href=\"Armes\" href=\"/Jeu/Regles/Combat/Armes/\" class=\"internal-link\" rel=\"noopener nofollow\">Armes</a></h3>\n<table>\n<thead>\n<tr>\n<th align=\"center\">Court</th>\n<th align=\"center\">1 Main</th>\n<th align=\"center\">2 Mains</th>\n<th align=\"center\">Haste</th>\n<th align=\"center\">Distance</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">7</td>\n<td align=\"center\">0</td>\n<td align=\"center\">0</td>\n<td align=\"center\">0</td>\n<td align=\"center\">0</td>\n</tr>\n<tr>\n<td align=\"center\">+3</td>\n<td align=\"center\">0</td>\n<td align=\"center\">0</td>\n<td align=\"center\">0</td>\n<td align=\"center\">0</td>\n</tr>\n</tbody>\n</table>\n<table>\n<thead>\n<tr>\n<th>Arme</th>\n<th>Dégâts</th>\n<th align=\"center\">Poids (kg)</th>\n<th align=\"center\">Propriétés</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>2 Poings<br>Titane<br>Court</td>\n<td>2d12<br>+7<br>VS Invocations<br>= 9-31</td>\n<td align=\"center\">2x1.5</td>\n<td align=\"center\"><a data-tooltip-position=\"top\" aria-label=\"Propriétés &gt; Léger\" data-href=\"Propriétés#Léger\" href=\"/Jeu/Regles/Statuts/Proprietes/#lger\" class=\"internal-link\" rel=\"noopener nofollow\">Léger</a></td>\n</tr>\n<tr>\n<td>2 Poings Gammoth<br>Os<br>Court</td>\n<td>2d12<br>+6<br>Glace<br>= 8-30</td>\n<td align=\"center\">2x0.75</td>\n<td align=\"center\"><a data-tooltip-position=\"top\" aria-label=\"Propriétés &gt; Léger\" data-href=\"Propriétés#Léger\" href=\"/Jeu/Regles/Statuts/Proprietes/#lger\" class=\"internal-link\" rel=\"noopener nofollow\">Léger</a></td>\n</tr>\n<tr>\n<td>2 Poings Sharah<br>Adamantite (Or)<br>Court<br>(lourd)</td>\n<td>(1d12+0Force(Monk))<br>+20 <br>Crit 1<br>VS Mythiques<br>Air<br>= 21-32</td>\n<td align=\"center\">2x4</td>\n<td align=\"center\"><a data-tooltip-position=\"top\" aria-label=\"Propriétés &gt; Léger\" data-href=\"Propriétés#Léger\" href=\"/Jeu/Regles/Statuts/Proprietes/#lger\" class=\"internal-link\" rel=\"noopener nofollow\">Léger</a></td>\n</tr>\n</tbody>\n</table>\n<h3 data-heading=\"[[Armures]]\" dir=\"auto\"><a data-href=\"Armures\" href=\"/Jeu/Regles/Combat/Armures/\" class=\"internal-link\" rel=\"noopener nofollow\">Armures</a></h3>\n<table>\n<thead>\n<tr>\n<th>Armure</th>\n<th align=\"center\">AC</th>\n<th align=\"center\">DR</th>\n<th align=\"center\">Enchantement</th>\n<th align=\"center\">Poids (kg)</th>\n<th align=\"center\">Dégâts</th>\n<th align=\"center\">Propriétés</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Armure Mailles<br>Fer</td>\n<td align=\"center\">13<br>+0(Dex)<br>= 13</td>\n<td align=\"center\">18<br>+5(Impé)<br>= 23</td>\n<td align=\"center\">-</td>\n<td align=\"center\">12</td>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n</tr>\n<tr>\n<td>Cape en fourrure</td>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n<td align=\"center\">Ténèbres 2<br>Foudre 1</td>\n<td align=\"center\">1</td>\n<td align=\"center\">-</td>\n<td align=\"center\">Les sorts élétistes à 1 crystal ne le consomme pas</td>\n</tr>\n</tbody>\n</table></div>"
+		},
+		"Jeu/Sessions du Masque/Joueurs/Léoric.md#Compétences": {
+			"html": "<div class=\"markdown-rendered\"><h2 data-heading=\"Compétences\" dir=\"auto\">Compétences</h2>\n<table>\n<thead>\n<tr>\n<th align=\"center\"><strong><a data-href=\"Force\" href=\"/Jeu/Regles/Competences/Attributs/Force/\" class=\"internal-link\" rel=\"noopener nofollow\">Force</a></strong></th>\n<th align=\"center\"><strong><a data-href=\"Dextérité\" href=\"/Jeu/Regles/Competences/Attributs/Dexterite/\" class=\"internal-link\" rel=\"noopener nofollow\">Dextérité</a></strong></th>\n<th align=\"center\"><strong><a data-href=\"Mental\" href=\"/Jeu/Regles/Competences/Attributs/Mental/\" class=\"internal-link\" rel=\"noopener nofollow\">Mental</a></strong></th>\n<th align=\"center\"><strong><a data-href=\"Perception\" href=\"/Jeu/Regles/Competences/Attributs/Perception/\" class=\"internal-link\" rel=\"noopener nofollow\">Perception</a></strong></th>\n<th align=\"center\"><strong><a data-href=\"Charisme\" href=\"/Jeu/Regles/Competences/Attributs/Charisme/\" class=\"internal-link\" rel=\"noopener nofollow\">Charisme</a></strong></th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n<td align=\"center\">Arcaniste<br>- Amplification</td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n</tr>\n<tr>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n<td align=\"center\">Intelligence<br>- Efficacité<br>- Redirection</td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n</tr>\n<tr>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n<td align=\"center\">Volonté<br>- Résistance</td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n</tr>\n</tbody>\n</table></div>"
+		},
+		"Jeu/Sessions du Masque/Joueurs/Léoric.md#Invocations": {
+			"html": "<div class=\"markdown-rendered\"><h2 data-heading=\"Invocations\" dir=\"auto\">Invocations</h2>\n<table>\n<thead>\n<tr>\n<th>Nom</th>\n<th align=\"center\">Coût</th>\n<th align=\"center\">AC</th>\n<th align=\"center\">DR</th>\n<th align=\"center\">HP</th>\n<th align=\"center\">Léger</th>\n<th align=\"center\">Lourd</th>\n<th align=\"center\">Magie</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><del>Bigard</del></td>\n<td align=\"center\"><del>-</del></td>\n<td align=\"center\"><del>20</del></td>\n<td align=\"center\"><del>2</del></td>\n<td align=\"center\"><del>50</del></td>\n<td align=\"center\"><del>2d8 + 12</del></td>\n<td align=\"center\"><del>-</del></td>\n<td align=\"center\"><del>20(1d10)</del></td>\n</tr>\n<tr>\n<td>Elémentaire lvl 1</td>\n<td align=\"center\">25</td>\n<td align=\"center\">12</td>\n<td align=\"center\">5</td>\n<td align=\"center\">30</td>\n<td align=\"center\">2d6 + 8</td>\n<td align=\"center\">3d6 + 12</td>\n<td align=\"center\">1d4 x 8<br>- 5 HP</td>\n</tr>\n<tr>\n<td>Elémentaire lvl 2</td>\n<td align=\"center\">50</td>\n<td align=\"center\">8</td>\n<td align=\"center\">15</td>\n<td align=\"center\">60</td>\n<td align=\"center\">3d6 + 12</td>\n<td align=\"center\">4d6 + 18</td>\n<td align=\"center\">1d4 x 10<br>- 10 HP</td>\n</tr>\n<tr>\n<td>Elémentaire lvl 3</td>\n<td align=\"center\">100</td>\n<td align=\"center\">4</td>\n<td align=\"center\">30</td>\n<td align=\"center\">120</td>\n<td align=\"center\">4d6 + 16</td>\n<td align=\"center\">5d8 + 25</td>\n<td align=\"center\">2d4 x 10<br>- 20 HP</td>\n</tr>\n</tbody>\n</table>\n<p dir=\"auto\">L'élémentaire n'a pas besoin de jet pour être invoqué dans un lieu safe.<br>\nOn part du principe que les dés de magie font le maximum à chaque fois, il faut consommer le nombre de crystaux pour atteindre la valeur souhaité.<br>\nA chaque réveil, après la régénération des crystaux, l'élémentaire consomme 1 crystal pour rester présent.<br>\n1 seul élémentaire invocable en même temps.</p></div>"
+		}
+	},
 	"tokenStats": {
-		"token-msjel993-7612": [
+		"token-msssmo39-5": [
 			{
 				"field": "HP",
-				"value": "—"
+				"value": "50 / 50"
 			},
 			{
 				"field": "MP",
-				"value": "—"
+				"value": "9 / 9"
 			},
 			{
 				"field": "AC",
-				"value": "—"
+				"value": "5 (-3 bouclier)"
 			},
 			{
 				"field": "DR",
-				"value": "—"
+				"value": "60 (+34 bouclier)"
 			},
 			{
 				"field": "Token",
-				"value": "—"
+				"value": "2/4"
 			}
 		],
-		"token-msjelkef-7613": [
+		"token-msssmo39-6": [
 			{
 				"field": "HP",
-				"value": "—"
+				"value": "50 / 50"
 			},
 			{
 				"field": "MP",
-				"value": "—"
+				"value": "9 / 9"
 			},
 			{
 				"field": "AC",
-				"value": "—"
+				"value": "14"
 			},
 			{
 				"field": "DR",
-				"value": "—"
+				"value": "12"
 			},
 			{
 				"field": "Token",
-				"value": "—"
+				"value": "2/4"
 			}
 		],
-		"token-msjels5y-7614": [
+		"token-msssmo39-7": [
 			{
 				"field": "HP",
-				"value": "—"
+				"value": "50 / 50"
 			},
 			{
 				"field": "MP",
-				"value": "—"
+				"value": "9/ 9"
 			},
 			{
 				"field": "AC",
-				"value": "—"
+				"value": "15"
 			},
 			{
 				"field": "DR",
-				"value": "—"
+				"value": "14"
 			},
 			{
 				"field": "Token",
-				"value": "—"
+				"value": "3/4"
 			}
 		],
-		"token-msjemn3o-7615": [
+		"token-msssmo39-8": [
 			{
 				"field": "HP",
-				"value": "—"
+				"value": "50 / 50"
 			},
 			{
 				"field": "MP",
-				"value": "—"
+				"value": "9 / 9"
 			},
 			{
 				"field": "AC",
-				"value": "—"
+				"value": "13"
 			},
 			{
 				"field": "DR",
-				"value": "—"
+				"value": "23"
 			},
 			{
 				"field": "Token",
-				"value": "—"
+				"value": "4/4"
 			}
 		]
 	},
