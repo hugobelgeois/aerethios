@@ -7,19 +7,29 @@
 
   tocHeadings.set([
       {
-          "id": "matriaux",
-          "text": "Matériaux",
+          "id": "armures",
+          "text": "Armures",
+          "level": 2
+      },
+      {
+          "id": "dfense",
+          "text": "Défense",
+          "level": 3
+      },
+      {
+          "id": "instabilit",
+          "text": "Instabilité",
+          "level": 3
+      },
+      {
+          "id": "catgories",
+          "text": "Catégories",
           "level": 2
       },
       {
           "id": "lgres",
           "text": "Légères",
           "level": 3
-      },
-      {
-          "id": "poids",
-          "text": "Poids",
-          "level": 4
       },
       {
           "id": "intermdiaires",
@@ -32,9 +42,14 @@
           "level": 3
       },
       {
+          "id": "raret",
+          "text": "Rareté",
+          "level": 3
+      },
+      {
           "id": "boucliers",
           "text": "Boucliers",
-          "level": 3
+          "level": 2
       }
   ]);
 
@@ -51,39 +66,58 @@
   </header>
   <div class="markdown-rendered">
 		{@render preamble()}
-		{@render matriaux()}
+		{@render armures()}
+		{@render catgories()}
+		{@render boucliers()}
   </div>
 </article>
 
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("> AC (Armor Class) = Mobilité d'esquive naturelle\n> DR (Damage Reduction) = Réduction des dégâts\n> Une armure nécessite 24 matériaux pour être forgée\n")}
+	{@html renderMarkdown("> - AC (Armor Class) = Difficulté à blesser le personnage.\n> AC = Défense + Modificateur\n")}
 {/snippet}
 
-{#snippet matriaux()}
+{#snippet armures()}
 	<section>
-		<h2 id="matriaux">{@html applyBase("Matériaux")}</h2>
-	{@html renderMarkdown("> AC = Dextérité - Matériaux.\n")}
+		<h2 id="armures">{@html applyBase("Armures")}</h2>
+	{@html renderMarkdown("> Une armure nécessite 24 matériaux pour être forgée.\n> Si plusieurs matériaux sont utilisés, il faut que leur ratio soit toujours égal (24, 12-12, 8-8-8, 6-6-6-6, ...). ??\n\n| Catégorie             | Léger   | Intermédiaire        | Lourd      |\n| --------------------- | ------- | -------------------- | ---------- |\n| Défense               | 8       | 10                   | 12         |\n| Modificateur d'AC     | Mental  | Dextérité(Acrobatie) | Force ?    |\n| Résistances           | Magique | Magique & Physique   | Physique   |\n| Coût (pa/ unité)      | 10      | 20 \\* rareté         | 4 ^ rareté |\n| Instabilité/ matériau | +1      | +1.5                 | +2         |\n")}
+	{@render dfense()}
+	{@render instabilit()}
+	</section>
+{/snippet}
+
+{#snippet dfense()}
+	<section>
+		<h3 id="dfense">{@html applyBase("Défense")}</h3>
+	{@html renderMarkdown("> La défense finale est la défense moyenne des matériaux utilisés.\n\n```Exemple\n1 léger + 1 lourd = (8 + 12)/2 = 10\n```\n")}
+
+	</section>
+{/snippet}
+
+{#snippet instabilit()}
+	<section>
+		<h3 id="instabilit">{@html applyBase("Instabilité")}</h3>
+	{@html renderMarkdown("> Stabilité de base est de -4.\n\nUne armure est stable tant qu'elle ne dépasse pas 0 (arrondi vers le bas), sinon elle devient instable.\nUne fois instable, le joueur doit lancer 1d6 (1d10 ?) à chaque fois qu'il se fait attaquer.\n\tSi le jet est inférieur à sa stabilité, l'armure se casse et n'offrira plus de résistance aux prochaines attaques.\n\n```Exemple\n- 2 légers + 1 intermédiaire → -0.5 → -1 (arrondi) (stable)\n- 3 intermédiaires → 0.5 → 0 (arrondi) (stable)\n- 3 lourds → 2 (instable)\n```\n")}
+
+	</section>
+{/snippet}
+
+{#snippet catgories()}
+	<section>
+		<h2 id="catgories">{@html applyBase("Catégories")}</h2>
+
 	{@render lgres()}
 	{@render intermdiaires()}
 	{@render lourdes()}
-	{@render boucliers()}
+	{@render raret()}
 	</section>
 {/snippet}
 
 {#snippet lgres()}
 	<section>
 		<h3 id="lgres">{@html applyBase("Légères")}</h3>
-	{@html renderMarkdown("> Résistant : Magies\n\n| Matériau    |  Prix | Résistance | Poids (kg) |\n| ----------- | ----: | :--------: | ---------: |\n| Coton       | 10 pa |    Air     |       0.25 |\n| Chanvre     | 10 pa |    Eau     |       0.25 |\n| Lin         | 10 pa |   Roche    |       0.25 |\n| Soie        | 10 pa |  Lumière   |       0.25 |\n| Suède/ Daim | 10 pa |  Ténèbres  |       0.25 |\n| Laine       | 10 pa |   Foudre   |       0.25 |\n| Fourrure    | 20 pa |    Feu     |        0.5 |")}
-	{@render poids()}
-	</section>
-{/snippet}
-
-{#snippet poids()}
-	<section>
-		<h4 id="poids">{@html applyBase("Poids")}</h4>
-	{@html renderMarkdown("\n| Poids     | AC  | DR  | Prix (Multiplicateur) |\n| --------- | --- | --- | --------------------: |\n| Normal    | 0   | 0   |                     1 |\n| Rembourré | -1  | 1   |                     2 |\n")}
+	{@html renderMarkdown("> Si armure entièrement légère :\n\n- Chanvre, Coton, Daim, Fourrure, Laine, Lin, Soie\n")}
 
 	</section>
 {/snippet}
@@ -91,7 +125,7 @@
 {#snippet intermdiaires()}
 	<section>
 		<h3 id="intermdiaires">{@html applyBase("Intermédiaires")}</h3>
-	{@html renderMarkdown("> Résistance : Contondant, Tranchant\n\n**Effets**\n    - Désavantage en Dextérité (Discrétion)\n    - Désavantage en Magies en combat\n\n>La rareté varie entre 1 et 5 (Déchet, Commun, Peu commun, Rare, Légendaire)\n\n| Matériau       | AC  |      DR      |          Prix | Force >= |              Propriétés              |   Poids (kg) |\n| -------------- | :-: | :----------: | ------------: | :------: | :----------------------------------: | -----------: |\n| Cuir (bouilli) | -2  |  1 * rareté  | 4 ^ rareté pa |   ---    |                 ---                  |          0.5 |\n| Écaille        | -2  |  1 * rareté  | 6 ^ rareté pc |   ---    | Résistance aux conditions des huiles |         0.75 |\n| Os             | -3  |  2 * rareté  | 8 ^ rareté pc |    12    |      1 invulnérabilité magique       |         0.75 |\n| Mailles        | -4  | 50% du métal |  50% du métal | métal -4 |                 ---                  | 50% du métal |\n")}
+	{@html renderMarkdown("> Si armure entièrement intermédiaire : Les dégâts subits par les huiles sont doublés.\n\n- Cuir, Ecaille, Os, Mailles\n")}
 
 	</section>
 {/snippet}
@@ -99,15 +133,23 @@
 {#snippet lourdes()}
 	<section>
 		<h3 id="lourdes">{@html applyBase("Lourdes")}</h3>
-	{@html renderMarkdown("> Résistant : Tranchant, Corde\n\n**Effets**\n    - Dextérité (Discrétion) impossible\n    - Magies impossibles en combat\n\n| Matériau   | AC  | DR  |  Prix | Force >= |                    Propriétés                    | Poids (kg) |\n| ---------- | :-: | :-: | ----: | :------: | :----------------------------------------------: | ---------: |\n| Fer        | -6  |  6  | 10 pa |    12    |                       ---                        |          1 |\n| Bronze     | -6  |  6  | 25 pa |    14    |                       ---                        |          1 |\n| Acier      | -6  |  6  | 50 pa |    14    |                       ---                        |          1 |\n| Titane     | -6  |  7  |  1 po |    14    |                       ---                        |        1.5 |\n| Mythril    | -5  |  8  |  5 po |    12    | Dextérité (Discrétion) possible avec désavantage |          1 |\n| Palladium  | -6  |  9  |  7 po |    16    | Magies (Croititiste) possibles avec désavantage  |        1.5 |\n| Adamantite | -6  |  9  |  7 po |    16    |   Magies (Élétiste) possibles avec désavantage   |        1.5 |\n| Orichalque | -8  | 10  | 10 po |    18    |                       ---                        |          2 |\n")}
+	{@html renderMarkdown("> Si armure entièrement lourde : Désavantage en Magies & Dextérité(Discrétion).\n\n- Fer, Bronze, Acier, Titane, Mythril, Palladium, Adamantite, Orichalque\n")}
+
+	</section>
+{/snippet}
+
+{#snippet raret()}
+	<section>
+		<h3 id="raret">{@html applyBase("Rareté")}</h3>
+	{@html renderMarkdown("> Offre des bonus supplémentaires si au moins 12 des matériaux ont la même rareté.\n> Seul la rareté la plus haute de l'armure offre son bonus.\n\n| Déchet | Commun | Peu Commun | Rare  | Légendaire    |\n| ------ | ------ | ---------- | ----- | ------------- |\n| -      |        | +1 AC      | +2 AC | +3 AC ou 1 PA |\n")}
 
 	</section>
 {/snippet}
 
 {#snippet boucliers()}
 	<section>
-		<h3 id="boucliers">{@html applyBase("Boucliers")}</h3>
-	{@html renderMarkdown("> Fonctionnent comme une deuxième barre de HP.\n> Une fois épuisée, le bouclier n'est plus utilisable.\n\n| Armure           | AC  | DR<br>(% du métal) | Matériaux | Force >= | Dégats |\n| ---------------- | :-: | :----------------: | :-------: | :------: | :----: |\n| Bocle            |  0  |        50%         |     2     |   ---    |  1d4   |\n| Bouclier         | -1  |        100%        |     4     |   ---    | 1d4 +2 |\n| Bouclier d'Estoc | -2  |        150%        |     6     |    14    | 1d4 +4 |\n| Pavois           | -4  |        200%        |     8     |    17    | 1d6 +4 |")}
+		<h2 id="boucliers">{@html applyBase("Boucliers")}</h2>
+	{@html renderMarkdown("\n| Armure   | Défense | Matériaux | Force >= | Stabilité |\n| -------- | ------- | :-------: | :------: | --------- |\n| Bocle    | 0       |     2     |   ---    | -1        |\n| Bouclier | -1      |     4     |    14    | -2        |\n| Pavois   | -3      |     8     |    17    | -4        |")}
 
 	</section>
 {/snippet}

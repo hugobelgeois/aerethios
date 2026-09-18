@@ -1,6 +1,6 @@
 {
 	"map": {
-		"version": 14,
+		"version": 16,
 		"gridType": "hex-flat",
 		"cellSize": 48,
 		"layers": [
@@ -143,6 +143,7 @@
 				"rotation": 123.68989939802435
 			}
 		],
+		"clocks": [],
 		"minZoom": 0.05,
 		"maxZoom": 1,
 		"fogEnabled": false,

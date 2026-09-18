@@ -5,7 +5,13 @@
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
-  tocHeadings.set([]);
+  tocHeadings.set([
+      {
+          "id": "dfense",
+          "text": "Défense",
+          "level": 3
+      }
+  ]);
 
   onDestroy(() => tocHeadings.set([]));
 </script>
@@ -19,12 +25,16 @@
     <h1>Affinités aux Dégâts</h1>
   </header>
   <div class="markdown-rendered">
-		{@render preamble()}
+		{@render dfense()}
   </div>
 </article>
 
 <LinkPreview />
 
-{#snippet preamble()}
-	{@html renderMarkdown("Une entité encaisse différemment les attaques, soient-elles magiques ou physiques, selon leur type.\n\n- Vulnérable : Double les dégâts subits\n- Résistant : Réduit les dégâts de moitié\n- Immunisé : Ne prend aucun dégât\n- Absorbant : Transforme les dégâts subits en HP récupérés")}
+{#snippet dfense()}
+	<section>
+		<h3 id="dfense">{@html applyBase("Défense")}</h3>
+	{@html renderMarkdown("> Amplifie ou réduit les dégâts selon le type d'attaque.\n\n| Défense    | Effet                                        |\n| ---------- | -------------------------------------------- |\n| Vulnérable | Double les dégâts subits                     |\n| Résistant  | Réduit les dégâts de moitié                  |\n| Immunisé   | Ne prend aucun dégâts                        |\n| Absorbant  | Transforme les dégâts subits en HP récupérés |")}
+
+	</section>
 {/snippet}
