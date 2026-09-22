@@ -12,11 +12,6 @@
           "level": 2
       },
       {
-          "id": "catalyseurs",
-          "text": "Catalyseurs",
-          "level": 2
-      },
-      {
           "id": "utilisation",
           "text": "Utilisation",
           "level": 2
@@ -55,16 +50,6 @@
           "id": "amliorer",
           "text": "Améliorer",
           "level": 3
-      },
-      {
-          "id": "matrise",
-          "text": "Maîtrise",
-          "level": 2
-      },
-      {
-          "id": "amliorer",
-          "text": "Améliorer",
-          "level": 3
       }
   ]);
 
@@ -81,11 +66,9 @@
   </header>
   <div class="markdown-rendered">
 		{@render crystaux()}
-		{@render catalyseurs()}
 		{@render utilisation()}
 		{@render types()}
 		{@render apprentissage()}
-		{@render matrise()}
   </div>
 </article>
 
@@ -94,15 +77,7 @@
 {#snippet crystaux()}
 	<section>
 		<h2 id="crystaux">{@html applyBase("Crystaux")}</h2>
-	{@html renderMarkdown("> Les crystaux ne sont pas exploitables tels quels, il faut d'abord les traiter.\n\n| Utilisation                                                   | Durée    | Effets                                                                                                                      | Effets secondaires                                                                                                                                                                                                                           | Prix/ unité |\n| ------------------------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------: |\n| Implanter<br>(Généralement à la place des phalanges distales) | ---      | - Augmente durablement la réserve de crystaux de 1<br>- Régénération des crystaux<br>- Cumulable                            | - Réduit la durée de vie de 4% par crystal<br>- Chance de perdre son membre : 1d20 + Mental(Volonté)\\|Force(Endurance) < crystaux totaux                                                                                                     |        5 po |\n| Bijoux                                                        | ---      | - Augmente la réserve de crystaux de 1<br>- Permet d'utiliser une magie non maîtrisée                                       | ---                                                                                                                                                                                                                                          |    10-50 po |\n| Manger                                                        | 1 jour   | - Augmente temporairement la réserve de crystaux de 5<br>- Permet d'utiliser 1 crystal en plus sans danger<br>- Cumulable   | - Désavantage                                                                                                                                                                                                                                |       50 pa |\n| Inhaler                                                       | 1 combat | - Augmente temporairement la réserve de crystaux de 10<br>- Permet d'utiliser 3 crystaux en plus sans danger<br>- Cumulable | - Diminue temporairement les HP de 20 (jusqu'au prochain long repos)                                                                                                                                                                         |       25 pa |\n| Injecter                                                      | 2 tours  | - Augmente temporairement la réserve de crystaux de 30<br>- Permet d'utiliser 5 crystaux en plus sans danger<br>- Cumulable | - Le joueur doit faire 1d20 + Mental(Volonté) >= Nombre d'injection \\* 12 avant chacune de ses actions pour rester conscient <br>- Diminue durablement les HP de 1d4<br>- Diminue temporairement les HP de 10 (jusqu'au prochain long repos) |       20 pa |\n")}
-
-	</section>
-{/snippet}
-
-{#snippet catalyseurs()}
-	<section>
-		<h2 id="catalyseurs">{@html applyBase("Catalyseurs")}</h2>
-	{@html renderMarkdown("> Les catalyseurs permettent de concentrer sa magie pour mieux viser.\n> Baguettes, Sceptres, Sceaux, Grimoires, ...\n\n| Relique | Modificateur                             |\n| ------- | ---------------------------------------- |\n| 1 Main  | Mental                                   |\n| 2 Mains | Mental(Arcaniste\\|Intelligence\\|Sagesse) |\n")}
+	{@html renderMarkdown("> Les crystaux ne sont pas exploitables tels quels, il faut d'abord les traiter.\n\n| Utilisation                                       | Durée                    | Effets                                                                                                                  | Effets secondaires                                                                                                                                                                                                                                   | Prix/ unité |\n| ------------------------------------------------- | ------------------------ | ----------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------: |\n| Implanter<br>(à la place des phalanges des mains) | ---                      | +1 crystal (cumulable)<br>Régénération des crystaux.                                                                    | Si 5 crystaux sur 1/2 main : Désavantage.<br>Si 10 crystaux sur 1/2 main : -1 dé d'armes.<br>Si sur 1 main : courtes et 1 main.<br>Si sur 2 mains : 2 mains.                                                                                         |        5 po |\n| Bijoux                                            | ---                      | Permet d'utiliser une magie non maîtrisée.                                                                              | ---                                                                                                                                                                                                                                                  |    10-50 po |\n| Manger                                            | 1 combat                 | +1 crystal \"gratuit\" par sort (cumulable).                                                                              | -2 aux jets de magie (cumulable).                                                                                                                                                                                                                    |       40 pa |\n| Inhaler                                           | 1 combat                 | +1 dégât par crystal (cumulable).                                                                                       | -2HP par crystal utilisé (cumulable).                                                                                                                                                                                                                |       80 pa |\n| Injecter                                          | Tant que le mental tient | Utiliser tous ses crystaux dans 1 attaque magique.<br>L'attaque continue à chaque tour sans consommer plus de crystaux. | +1 nécrose.<br>Chaque tour, le joueur lance `1d20 <= HP + Mental(Volonté)`.<br>Il retire le résultat du jet de ses HP.<br>S'il rate, son sort s'arrête et il tombe inconscient.<br>S'il n'a plus de HP, il peut continuer tant que son mental tient. |        2 po |\n")}
 
 	</section>
 {/snippet}
@@ -110,7 +85,7 @@
 {#snippet utilisation()}
 	<section>
 		<h2 id="utilisation">{@html applyBase("Utilisation")}</h2>
-	{@html renderMarkdown("> Un haut niveau dans une magie permet de jouer entre puissance et précision.\n\n| Magie Minimum |  1  |  2  |  4  |     6      |  8  |     10     | 12  |     14      |  16  |      18      |  20  |\n| ------------- | :-: | :-: | :-: | :--------: | :-: | :--------: | :-: | :---------: | :--: | :----------: | :--: |\n| Dés           | 1d4 | 1d6 | 2d4 | 1d4<br>1d6 | 2d6 | 1d6<br>1d8 | 2d8 | 1d8<br>1d10 | 2d10 | 1d10<br>1d12 | 2d12 |\n\nLa valeur de base des crystaux de base est de 3.\nLe joueur peut augmenter sa puissance magique (attaque ou effet) en réduisant ses dés.\n\tChaque réduction augmente la puissance de ses crystaux ainsi que le rayon d'action de la magie de 1.\n\nSi le sort cible plusieurs ennemis, les dégâts sont divisés par le nombre de cibles.\n\nPour une magie d'effet, le MJ donnera un DC en corrélation avec l'objectif magique du joueur.\nLe tableau ci-dessous peut servir d'exemple :\n\n| Difficulté | Trivial | Simple | Moyen | Difficile | Extrême | Légendaire |\n| ---------- | :-----: | :----: | :---: | :-------: | :-----: | :--------: |\n| DC         |    5    |   10   |  15   |    20     |   25    |     30     |\n\n```Exemple\nJ'ai 17 en magie (2d10). Je réduis mes dés jusque 1d4+1d6, ce qui augmente ma puissance de 5.\n\tAttaque Feu : 3+5 DMG/Crystal. Je dois passer outre la DR pour endommager les HP.\n\tEffet Ténèbres : 3+5 /Crystal. Le DC pour contrôller mentalement un humain est de 50 car il est très intelligent. Pour une souris c'est un DC 5.\n```\n")}
+	{@html renderMarkdown("> Dé + Modificateur >= AC → Dégâts aux HP\n\n|                 | 1 Main (précise) | 1 Main      | 2 Mains            | 2 Mains (puissantes) |\n| --------------- | ---------------- | ----------- | ------------------ | -------------------- |\n| Dés             | 2d8 + Magie      | 2d6 + Magie | 2d6 + Magie(max 5) | 2d4 + Magie(max 5)   |\n| Dégâts/ crystal | 2                | 3           | 2                  | 3                    |\n| Mètres/ crystal | -                | -           | +2                 | +4                   |\n\nLe joueur peut utiliser des crystaux pour augmenter les dégâts OU le diamètre du sort (1m par défaut).\nA chaque augmentation du diamètre, les dégâts sont divisés par 2.\n\nSi le sort cible plusieurs ennemis sans être un sort de zone, les dégâts sont divisés par le nombre de cibles.\n\nPour une magie d'effet, le MJ donnera un DC en corrélation avec l'objectif magique du joueur.\nLe tableau ci-dessous peut servir d'exemple :\n\n| Difficulté | Trivial | Simple | Moyen | Difficile | Extrême | Légendaire |\n| ---------- | :-----: | :----: | :---: | :-------: | :-----: | :--------: |\n| DC         |    5    |   10   |  15   |    20     |   25    |     30     |\n")}
 	{@render dangers()}
 	</section>
 {/snippet}
@@ -118,7 +93,7 @@
 {#snippet dangers()}
 	<section>
 		<h3 id="dangers">{@html applyBase("Dangers")}</h3>
-	{@html renderMarkdown("> La magie est mauvaise pour un corps non entraîné. Dépasser ses limites peut être dangereux.\n\nLa limite de crystaux par sort varie selon la race et la maîtrise.\nPour chaque crystal supplémentaire qui dépasse ce seuil, les HP du joueur subiront les dégâts de son attaque.\n\n```Exemple\nMa limite magique (Maîtrise + Bonus de race) est de 4 mais j'utilise 6 crystaux qui font chacun 3 dégâts --> HP - 3*(6-4) = 6\n```\n")}
+	{@html renderMarkdown("> La magie est mauvaise pour un corps non entraîné. Dépasser ses limites peut être dangereux.\n> `1d20 >= nombre de crystaux consommés`\n\nA la fin d'un combat, les joueurs lancent `1d20 >= nombre de crystaux consommés`.\nS'ils ratent, les tissus de leur main se dégrade et ils accumulent `1 nécrose`.\nUne fois à `5 nécroses`, les tissus ne peuvent plus être soignés et le joueur aura toujours un désavantage pour les armes qui utilisent cette/ces main(s).\n")}
 
 	</section>
 {/snippet}
@@ -126,7 +101,7 @@
 {#snippet types()}
 	<section>
 		<h2 id="types">{@html applyBase("Types")}</h2>
-	{@html renderMarkdown("> La liste des sorts est exhaustive. Parlez à votre MJ de vos idées d'utilisation et il les ajoutera s'il considère que cela fait sens avec la magie de base.\n\nLes types de magie ne sont pas limités à ces exemples, mais ce sont leurs utilisations les plus fréquentes.\n\n| Gazeux              | Liquide  | Solide     |  Feu   |         Foudre |                        Lumière |                      Ténèbres |\n| ------------------- | -------- | ---------- | :----: | -------------: | -----------------------------: | ----------------------------: |\n| Effets (HP, DR, AC) | Soins    | Dégâts     | Dégâts |         Dégâts | Dévoiler les entités planaires | Attirer les entités planaires |\n| Perception          | Mobilité | Protection |        |   Vitesse (AC) |            Buffs des Attributs |         Débuffs des Attributs |\n|                     |          | Terrain    |        | Immobilisation |                         Mental |                    Perception |\n|                     |          |            |        |                |                          Soins |                    Discrétion |\n")}
+	{@html renderMarkdown("> La liste des sorts est exhaustive. Parlez à votre MJ de vos idées d'utilisation et il les ajoutera s'il considère que cela fait sens avec la magie de base.\n\nLes types de magie ne sont pas limités à ces exemples, mais ce sont leurs utilisations les plus fréquentes.\n\n| Gazeux              | Liquide  | Solide                      |  Feu   |         Foudre |                        Lumière |                      Ténèbres |\n| ------------------- | -------- | --------------------------- | :----: | -------------: | -----------------------------: | ----------------------------: |\n| Effets (HP, DR, AC) | Soins    | Dégâts                      | Dégâts |         Dégâts | Dévoiler les entités planaires | Attirer les entités planaires |\n| Perception          | Mobilité | Protection (AC/ couverture) |        |   Vitesse (AC) |            Buffs des Attributs |         Débuffs des Attributs |\n|                     |          | Terrain                     |        | Immobilisation |                         Mental |                    Perception |\n|                     |          |                             |        |                |                          Soins |                    Discrétion |\n")}
 	{@render fusion()}
 	</section>
 {/snippet}
@@ -159,7 +134,7 @@
 {#snippet apprentissage()}
 	<section>
 		<h2 id="apprentissage">{@html applyBase("Apprentissage")}</h2>
-	{@html renderMarkdown("> Tout le monde possède 1 magie en venant au monde, et peut en avoir jusqu'à 7.\n> `1d20 + Maîtrise Magique`\n\nQuand le joueur monte d'un niveau, il gagne 0.5 points par magie qu'il possède (valeur finale arrondie vers le bas).\nIl peut uniquement placer ses points dans la moitié des magies les plus faibles qu'il possède (arrondies vers le bas).\n```Exemple\nJ'ai 5 magies de niveaux différents (1, 4, 10, 12, 18).\nJe ne peux améliorer que celles de niveaux inférieurs (1, 4).\n```\n")}
+	{@html renderMarkdown("> Tout le monde possède 1 magie en venant au monde, et peut en avoir jusqu'à 7.\n> `1d20 + Mental(Arcane|Intelligence|Sagesse)`\n\nQuand le joueur monte d'un niveau, il gagne 0.5 points par magie qu'il possède (valeur finale arrondie vers le bas).\nIl peut uniquement placer ses points dans la moitié des magies les plus faibles qu'il possède (arrondies vers le bas).\n```Exemple\nJ'ai 5 magies de niveaux différents (1, 4, 10, 12, 18).\nJe ne peux améliorer que celles de niveaux inférieurs (1, 4).\n```\n")}
 	{@render amliorer()}
 	</section>
 {/snippet}
@@ -167,23 +142,7 @@
 {#snippet amliorer()}
 	<section>
 		<h3 id="amliorer">{@html applyBase("Améliorer")}</h3>
-	{@html renderMarkdown("\nL’amélioration de sa **magie** prend 1 jour par entrainement (jet de dé).\n\tSauf pour passer une magie de 0 à 1, auquel cas le joueur doit prendre 15 jours de leçons (30 pour apprendre le Feu).\n\nPour débloquer une nouvelle magie, le joueur ne doit pas avoir de magie en dessous du niveau 5.\n\n| Leçon                        |                 Résultat |\n| :--------------------------- | -----------------------: |\n| 1 réussite critique          | 2 réussites consécutives |\n| 3 réussites consécutives     |                +2 points |\n| 3 réussites non consécutives |                 +1 point |\n| niveau actuel +1 PO          |                        - |\n\n| Niveau de la Magie | 0   | 1-3 | 4-6 | 7-9 | 10-11 | 12-13 | 14-15 | 16-17 | 18  | 19  |\n| ------------------ | --- | :-: | :-: | :-: | :---: | :---: | :---: | :---: | :-: | :-: |\n| **DC**             | 8   | 10  | 12  | 14  |  16   |  18   |  20   |  22   | 24  | 27  |\n\n```Exemple\nPour améliorer une magie de niveau 3, le jet doit être supérieur à 10 et le joueur doit payer 3po par jet.\n```\n")}
-
-	</section>
-{/snippet}
-
-{#snippet matrise()}
-	<section>
-		<h2 id="matrise">{@html applyBase("Maîtrise")}</h2>
-	{@html renderMarkdown("> La maîtrise réduit le coût en crystaux d'un sort et permet d'en utiliser plus\n\nTous les niveaux pairs de maîtrise, le joueur peut utiliser 1 crystal en plus sans le consommer.\n")}
-	{@render amliorer_2()}
-	</section>
-{/snippet}
-
-{#snippet amliorer_2()}
-	<section>
-		<h3 id="amliorer">{@html applyBase("Améliorer")}</h3>
-	{@html renderMarkdown("\nLa maîtrise de magie s'améliore d'elle même lorsque le joueur atteint ces paliers :\n\n| Niveau de Maîtrise          |  1  | 2   | 3   | 4   | 5   | 6   | 7   | 8   | 9   | 10  |\n| :-------------------------- | :-: | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| **Niveau total des magies** | 14  | 28  | 42  | 56  | 70  | 84  | 98  | 112 | 126 | 140 |")}
+	{@html renderMarkdown("\nL’amélioration de sa magie prend 1 jour par entrainement (jet de dé).\n\tSauf pour passer une magie de 0 à 1, auquel cas le joueur doit prendre 15 jours de leçons (30 pour apprendre le Feu).\n\nPour débloquer une nouvelle magie, le joueur ne doit pas avoir de magie en dessous du niveau 5.\n\n| Leçon                        |                 Résultat |\n| :--------------------------- | -----------------------: |\n| 1 réussite critique          | 2 réussites consécutives |\n| 3 réussites consécutives     |                +2 points |\n| 3 réussites non consécutives |                 +1 point |\n| niveau actuel +1 PO          |                        - |\n\n| Niveau de la Magie | 0   |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |\n| ------------------ | --- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |\n| **DC**             | 8   | 10  | 12  | 14  | 16  | 18  | 20  | 22  | 24  | 27  |\n\n```Exemple\nPour améliorer une magie de niveau 3, le jet doit être supérieur à 14 et le joueur doit payer 3po par jet.\n```")}
 
 	</section>
 {/snippet}

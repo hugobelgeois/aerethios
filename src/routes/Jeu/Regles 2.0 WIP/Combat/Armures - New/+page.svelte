@@ -27,18 +27,13 @@
           "level": 2
       },
       {
-          "id": "lgres",
-          "text": "Légères",
+          "id": "lgre",
+          "text": "Légère",
           "level": 3
       },
       {
-          "id": "intermdiaires",
-          "text": "Intermédiaires",
-          "level": 3
-      },
-      {
-          "id": "lourdes",
-          "text": "Lourdes",
+          "id": "lourde",
+          "text": "Lourde",
           "level": 3
       },
       {
@@ -75,13 +70,13 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("> - AC (Armor Class) = Difficulté à blesser le personnage.\n> AC = Défense + Modificateur\n")}
+	{@html renderMarkdown("> AC (Armor Class) = Difficulté à blesser le personnage.\n")}
 {/snippet}
 
 {#snippet armures()}
 	<section>
 		<h2 id="armures">{@html applyBase("Armures")}</h2>
-	{@html renderMarkdown("> Une armure nécessite 24 matériaux pour être forgée.\n> Si plusieurs matériaux sont utilisés, il faut que leur ratio soit toujours égal (24, 12-12, 8-8-8, 6-6-6-6, ...). ??\n\n| Catégorie             | Léger   | Intermédiaire        | Lourd      |\n| --------------------- | ------- | -------------------- | ---------- |\n| Défense               | 8       | 10                   | 12         |\n| Modificateur d'AC     | Mental  | Dextérité(Acrobatie) | Force ?    |\n| Résistances           | Magique | Magique & Physique   | Physique   |\n| Coût (pa/ unité)      | 10      | 20 \\* rareté         | 4 ^ rareté |\n| Instabilité/ matériau | +1      | +1.5                 | +2         |\n")}
+	{@html renderMarkdown("> Une armure nécessite 24 matériaux pour être forgée.\n> Si différents types de matériaux sont utilisés, il faut que leur quantité soit toujours proportionnelle (24, 12-12, 8-8-8, 6-6-6-6, ...).\n\n| Catégorie           | Légère                   | Lourde      |\n| ------------------- | ------------------------ | ----------- |\n| AC                  | 5 + Dextérité(Acrobatie) | 10 + Force  |\n| Modificateur max    | 2 \\* rareté              | 1 \\* rareté |\n| Résistances         | Magique                  | Physique    |\n| Coût (pa/ unité)    | 20 \\* rareté             | 4 ^ rareté  |\n| Stabilité/ matériau | -1                       | -1.5        |\n")}
 	{@render dfense()}
 	{@render instabilit()}
 	</section>
@@ -90,7 +85,7 @@
 {#snippet dfense()}
 	<section>
 		<h3 id="dfense">{@html applyBase("Défense")}</h3>
-	{@html renderMarkdown("> La défense finale est la défense moyenne des matériaux utilisés.\n\n```Exemple\n1 léger + 1 lourd = (8 + 12)/2 = 10\n```\n")}
+	{@html renderMarkdown("> La défense finale est la défense moyenne des matériaux utilisés.\n\n```Exemple\n1 légère + 1 lourde = (8 + 12)/2 = 10\n```\n")}
 
 	</section>
 {/snippet}
@@ -98,7 +93,7 @@
 {#snippet instabilit()}
 	<section>
 		<h3 id="instabilit">{@html applyBase("Instabilité")}</h3>
-	{@html renderMarkdown("> Stabilité de base est de -4.\n\nUne armure est stable tant qu'elle ne dépasse pas 0 (arrondi vers le bas), sinon elle devient instable.\nUne fois instable, le joueur doit lancer 1d6 (1d10 ?) à chaque fois qu'il se fait attaquer.\n\tSi le jet est inférieur à sa stabilité, l'armure se casse et n'offrira plus de résistance aux prochaines attaques.\n\n```Exemple\n- 2 légers + 1 intermédiaire → -0.5 → -1 (arrondi) (stable)\n- 3 intermédiaires → 0.5 → 0 (arrondi) (stable)\n- 3 lourds → 2 (instable)\n```\n")}
+	{@html renderMarkdown("> Stabilité de base est de 3.\n\nUne armure est stable tant qu'elle ne dépasse pas 0, sinon elle devient instable.\nUne fois instable, si `jet ennemi >= AC du joueur + (4 * Stabilité)`, l'armure se casse et n'offrira plus de résistance aux prochaines attaques.\n```Exemple\n- 3 légères            → 0 (stable)\n- 2 légères + 1 lourde → -0.5 (instable) → AC + (4 * -0.5)\n- 3 lourdes            → -1.5 (instable) → AC + (4 * -1.5)\n```\n")}
 
 	</section>
 {/snippet}
@@ -107,32 +102,23 @@
 	<section>
 		<h2 id="catgories">{@html applyBase("Catégories")}</h2>
 
-	{@render lgres()}
-	{@render intermdiaires()}
-	{@render lourdes()}
+	{@render lgre()}
+	{@render lourde()}
 	{@render raret()}
 	</section>
 {/snippet}
 
-{#snippet lgres()}
+{#snippet lgre()}
 	<section>
-		<h3 id="lgres">{@html applyBase("Légères")}</h3>
-	{@html renderMarkdown("> Si armure entièrement légère :\n\n- Chanvre, Coton, Daim, Fourrure, Laine, Lin, Soie\n")}
+		<h3 id="lgre">{@html applyBase("Légère")}</h3>
+	{@html renderMarkdown("> Si armure entièrement légère : ? Les dégâts subits par les huiles sont doublés ?\n\n- Cuir, Ecaille, Os, Mailles\n")}
 
 	</section>
 {/snippet}
 
-{#snippet intermdiaires()}
+{#snippet lourde()}
 	<section>
-		<h3 id="intermdiaires">{@html applyBase("Intermédiaires")}</h3>
-	{@html renderMarkdown("> Si armure entièrement intermédiaire : Les dégâts subits par les huiles sont doublés.\n\n- Cuir, Ecaille, Os, Mailles\n")}
-
-	</section>
-{/snippet}
-
-{#snippet lourdes()}
-	<section>
-		<h3 id="lourdes">{@html applyBase("Lourdes")}</h3>
+		<h3 id="lourde">{@html applyBase("Lourde")}</h3>
 	{@html renderMarkdown("> Si armure entièrement lourde : Désavantage en Magies & Dextérité(Discrétion).\n\n- Fer, Bronze, Acier, Titane, Mythril, Palladium, Adamantite, Orichalque\n")}
 
 	</section>
@@ -141,7 +127,7 @@
 {#snippet raret()}
 	<section>
 		<h3 id="raret">{@html applyBase("Rareté")}</h3>
-	{@html renderMarkdown("> Offre des bonus supplémentaires si au moins 12 des matériaux ont la même rareté.\n> Seul la rareté la plus haute de l'armure offre son bonus.\n\n| Déchet | Commun | Peu Commun | Rare  | Légendaire    |\n| ------ | ------ | ---------- | ----- | ------------- |\n| -      |        | +1 AC      | +2 AC | +3 AC ou 1 PA |\n")}
+	{@html renderMarkdown("> Offre des bonus supplémentaires si tous les matériaux ont la même rareté, peu importe leur catégorie.\n\n| Rareté        | Déchet | Commun | Peu Commun | Rare  | Légendaire        |\n| ------------- | ------ | ------ | ---------- | ----- | ----------------- |\n| **Bonus**     | -1 AC  | -      | +1 AC      | +2 AC | +3 AC (ou 1 PA ?) |\n| **Prérequis** | -      | 1      | 2          | 3     | 4                 |\n\nLe prérequis est la valeur minimum que le modificateur lié à la catégorie doit avoir pour pouvoir porter cette armure.\nSi l'armure possède des matériaux légers et lourds, elle doit satisfaire le prérequis pour chaque modificateur.\n")}
 
 	</section>
 {/snippet}
@@ -149,7 +135,7 @@
 {#snippet boucliers()}
 	<section>
 		<h2 id="boucliers">{@html applyBase("Boucliers")}</h2>
-	{@html renderMarkdown("\n| Armure   | Défense | Matériaux | Force >= | Stabilité |\n| -------- | ------- | :-------: | :------: | --------- |\n| Bocle    | 0       |     2     |   ---    | -1        |\n| Bouclier | -1      |     4     |    14    | -2        |\n| Pavois   | -3      |     8     |    17    | -4        |")}
+	{@html renderMarkdown("\n| Armure   | AC  | Matériaux | Force >= | Stabilité |\n| -------- | --- | :-------: | :------: | --------- |\n| Bocle    | 0   |     2     |   ---    | 0         |\n| Bouclier | -1  |     4     |    14    | 1         |\n| Pavois   | -3  |     8     |    17    | 2         |")}
 
 	</section>
 {/snippet}

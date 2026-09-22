@@ -59,6 +59,7 @@
   "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements de Melees": "Enchantements de Mêlées",
   "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements a Distance": "Enchantements à Distance",
   "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles": "Huiles",
+  "/Jeu/Regles 2.0 WIP/Combat/Misc/Magies": "Magies",
   "/Jeu/Regles 2.0 WIP/Competences/Affinites": "Affinités",
   "/Jeu/Regles 2.0 WIP/Competences": "Compétences",
   "/Jeu/Regles 2.0 WIP/Competences/Attributs/Charisme - New": "Charisme - New",
@@ -163,6 +164,7 @@
   "/Notes": "Notes",
   "/Notes/Degats": "Dégâts",
   "/Notes/Economie": "Economie",
+  "/Notes/Scienctes": "Scienctes",
   "/Notes/Stats joueurs": "Stats joueurs",
   "/Notes/Templis": "Templis"
 }
