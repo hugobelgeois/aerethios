@@ -12,11 +12,6 @@
           "level": 2
       },
       {
-          "id": "dfense",
-          "text": "Défense",
-          "level": 3
-      },
-      {
           "id": "instabilit",
           "text": "Instabilité",
           "level": 3
@@ -76,17 +71,8 @@
 {#snippet armures()}
 	<section>
 		<h2 id="armures">{@html applyBase("Armures")}</h2>
-	{@html renderMarkdown("> Une armure nécessite 24 matériaux pour être forgée.\n> Si différents types de matériaux sont utilisés, il faut que leur quantité soit toujours proportionnelle (24, 12-12, 8-8-8, 6-6-6-6, ...).\n\n| Catégorie           | Légère                   | Lourde      |\n| ------------------- | ------------------------ | ----------- |\n| AC                  | 5 + Dextérité(Acrobatie) | 10 + Force  |\n| Modificateur max    | 2 \\* rareté              | 1 \\* rareté |\n| Résistances         | Magique                  | Physique    |\n| Coût (pa/ unité)    | 20 \\* rareté             | 4 ^ rareté  |\n| Stabilité/ matériau | -1                       | -1.5        |\n")}
-	{@render dfense()}
+	{@html renderMarkdown("> Une armure nécessite 24 matériaux pour être forgée.\n> Si différents types de matériaux sont utilisés, il faut que leur quantité soit toujours proportionnelle (24, 12-12, 8-8-8, 6-6-6-6, ...).\n\n| Catégorie           | Légère                   | Lourde      |\n| ------------------- | ------------------------ | ----------- |\n| AC                  | 5 + Dextérité(Acrobatie) | 10 + Force  |\n| Modificateur max    | 2 \\* rareté              | 1 \\* rareté |\n| Résistances         | Magique                  | Physique    |\n| Coût (pa/ unité)    | 20 \\* rareté             | 4 ^ rareté  |\n| Stabilité/ matériau | -1                       | -1.5        |\n\nL'AC pour les armures composées de multiples matériaux est l'AC moyen des catégories et de leur modificateur utilisés.\n")}
 	{@render instabilit()}
-	</section>
-{/snippet}
-
-{#snippet dfense()}
-	<section>
-		<h3 id="dfense">{@html applyBase("Défense")}</h3>
-	{@html renderMarkdown("> La défense finale est la défense moyenne des matériaux utilisés.\n\n```Exemple\n1 légère + 1 lourde = (8 + 12)/2 = 10\n```\n")}
-
 	</section>
 {/snippet}
 

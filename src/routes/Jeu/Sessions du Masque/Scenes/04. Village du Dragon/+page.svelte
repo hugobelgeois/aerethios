@@ -87,7 +87,7 @@
 {#snippet rencontres()}
 	<section>
 		<h3 id="rencontres">{@html applyBase("Rencontres")}</h3>
-	{@html renderMarkdown("\n|     Nom      | Rôle               |  Race  | Sexe | Age |                  Personnalité                   |   Accent   | Equipement |\n| :----------: | ------------------ | :----: | :--: | :-: | :---------------------------------------------: | :--------: | :--------: |\n| Numa / Nomos | Gérant de la ville | Dragon |  -   |  -  | Calme, Réfléchi, appelle les gens par leur race | Voix grave |     -      |\n")}
+	{@html renderMarkdown("\n|   Nom   | Rôle                |  Race  | Sexe  | Age |                  Personnalité                   |   Accent   | Equipement |\n| :-----: | ------------------- | :----: | :---: | :-: | :---------------------------------------------: | :--------: | :--------: |\n|  Numa   | Gérant de la ville  | Dragon |   -   |  -  | Calme, Réfléchi, appelle les gens par leur race | Voix grave |     -      |\n|    X    | Pactisant avec Numa | Humain | Femme |     |                      Morte                      |     -      |            |\n| Zaledra |                     |        |       |     |                                                 |            |            |\n")}
 
 	</section>
 {/snippet}
