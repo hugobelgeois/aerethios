@@ -50,7 +50,6 @@
     <h1>Érudition</h1>
   </header>
   <div class="markdown-rendered">
-		{@render preamble()}
 		{@render rappel()}
 		{@render spcialisations()}
   </div>
@@ -58,14 +57,10 @@
 
 <LinkPreview />
 
-{#snippet preamble()}
-	{@html renderMarkdown("---\r\ntags:\r\n  - Règles\r\n---\r")}
-{/snippet}
-
 {#snippet rappel()}
 	<section>
 		<h3 id="rappel">{@html applyBase("Rappel")}</h3>
-	{@html renderMarkdown("\r\n| Durée | Interruption | Amélioration | Déconstruction | Consommation | Echec                                                                                 |\r\n| :---: | :----------: | :----------: | :------------: | :----------: | :------------------------------------------------------------------------------------ |\r\n|  1h   |     Non      |     Non      |      Non       |  1 Crystal   | Perte de l'objet de base<br>Possibilité d'effet négatif ajouté au joueur (`1d20 < 5`) |\r\n\r\n")}
+	{@html renderMarkdown("\n| Durée | Interruption | Amélioration | Déconstruction | Consommation | Echec                                                                                 |\n| :---: | :----------: | :----------: | :------------: | :----------: | :------------------------------------------------------------------------------------ |\n|  1h   |     Non      |     Non      |      Non       |  1 Crystal   | Perte de l'objet de base<br>Possibilité d'effet négatif ajouté au joueur (`1d20 < 5`) |\n\n")}
 	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel"} fragment={""} />
 
 	</section>
@@ -85,7 +80,7 @@
 {#snippet enchanteur()}
 	<section>
 		<h3 id="enchanteur">{@html applyBase("Enchanteur")}</h3>
-	{@html renderMarkdown("> Enchante les équipements fabriquées par un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" data-wiki-fragment=\"\">Artisan</a> ainsi que certaines matières inorganiques pour leur conférer des capacités spéciales.\r\n> ~2po/h\r\n\r\n|                             | Peu Commun | Rare | Légendaire |\r\n| --------------------------- | :--------: | :--: | :--------: |\r\n| **Enchantement peu commun** |    1-6     | 7-9  |     10     |\r\n| **Enchantement rare**       |    1-4     | 5-8  |    9-10    |\r\n| **Enchantement légendaire** |    1-2     | 3-6  |    7-10    |\r\n\r\nDes ingrédients plus rares augmentent les chances d'avoir de meilleurs enchantements.\r\nLa rareté de l'enchantement obtenu se détermine par `1d10`.\r\nL'enchantement précis se détermine par la recette utilisée par le joueur.\r\n\r")}
+	{@html renderMarkdown("> Enchante les équipements fabriquées par un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" data-wiki-fragment=\"\">Artisan</a> ainsi que certaines matières inorganiques pour leur conférer des capacités spéciales.\n> ~2po/h\n\n| Ingrédients    | Simple | Avancé | Incroyable |\n| -------------- | :----: | :----: | :--------: |\n| **Peu Commun** |  1-6   |  7-10  |     -      |\n| **Rare**       |  1-4   |  5-9   |     10     |\n| **Légendaire** |  1-2   |  3-8   |    9-10    |\n\nDes ingrédients plus rares augmentent les chances d'avoir de meilleurs enchantements.\nLa rareté de l'enchantement obtenu se détermine par `1d10`.\nL'enchantement précis se détermine par la recette utilisée par le joueur.\n")}
 
 	</section>
 {/snippet}
@@ -93,7 +88,7 @@
 {#snippet invocateur()}
 	<section>
 		<h3 id="invocateur">{@html applyBase("Invocateur")}</h3>
-	{@html renderMarkdown("> Insuffle de la vie et de la puissance dans un élémentaire inerte créé par un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" data-wiki-fragment=\"\">Alchimiste</a>.\r\n> ~1po/h\r\n\r\n| Peu Commun | Rare | Légendaire |\r\n| :--------: | :--: | :--------: |\r\n|     x1     |  x2  |     x3     |\r\nLa puissance de l'élémentaire varie selon la rareté des ingrédients.\r\n\r")}
+	{@html renderMarkdown("> Insuffle de la vie et de la puissance dans un élémentaire inerte créé par un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" data-wiki-fragment=\"\">Alchimiste</a>.\n> ~1po/h\n\n| Peu Commun | Rare | Légendaire |\n| :--------: | :--: | :--------: |\n|     x1     |  x2  |     x3     |\nLa puissance de l'élémentaire varie selon la rareté des ingrédients.\n")}
 
 	</section>
 {/snippet}
@@ -101,7 +96,7 @@
 {#snippet joaillier()}
 	<section>
 		<h3 id="joaillier">{@html applyBase("Joaillier")}</h3>
-	{@html renderMarkdown("> Infuse des gemmes dans les armes pour modifier leur comportement.\r\n> ~50pa/h\r\n\r\n| Peu Commun | Rare | Légendaire |\r\n| :--------: | :--: | :--------: |\r\n|     1      |  2   |     4      |\r\n\r\nLa modification de dégâts de l'arme varie selon la rareté de l'ingrédient.\r\n\r")}
+	{@html renderMarkdown("> Infuse des gemmes dans les armes pour modifier leur comportement.\n> ~50pa/h\n\n| Peu Commun | Rare | Légendaire |\n| :--------: | :--: | :--------: |\n|     1      |  2   |     4      |\n\nLa modification de dégâts de l'arme varie selon la rareté de l'ingrédient.\n")}
 
 	</section>
 {/snippet}
@@ -109,7 +104,7 @@
 {#snippet runniste__Wip()}
 	<section>
 		<h3 id="runniste---wip">{@html applyBase("Runniste - WIP")}</h3>
-	{@html renderMarkdown("> Schématise la magie sous forme de gravure, peinture et autre pour la préparer à l'avance et la déclencher à distance.\r\n> ~50pa/h")}
+	{@html renderMarkdown("> Schématise la magie sous forme de gravure, peinture et autre pour la préparer à l'avance et la déclencher à distance.\n> ~50pa/h")}
 
 	</section>
 {/snippet}

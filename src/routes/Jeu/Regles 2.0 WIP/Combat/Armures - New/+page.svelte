@@ -113,7 +113,7 @@
 {#snippet raret()}
 	<section>
 		<h3 id="raret">{@html applyBase("Rareté")}</h3>
-	{@html renderMarkdown("> Offre des bonus supplémentaires si tous les matériaux ont la même rareté, peu importe leur catégorie.\n\n| Rareté        | Déchet | Commun | Peu Commun | Rare  | Légendaire        |\n| ------------- | ------ | ------ | ---------- | ----- | ----------------- |\n| **Bonus**     | -1 AC  | -      | +1 AC      | +2 AC | +3 AC (ou 1 PA ?) |\n| **Prérequis** | -      | 1      | 2          | 3     | 4                 |\n\nLe prérequis est la valeur minimum que le modificateur lié à la catégorie doit avoir pour pouvoir porter cette armure.\nSi l'armure possède des matériaux légers et lourds, elle doit satisfaire le prérequis pour chaque modificateur.\n")}
+	{@html renderMarkdown("> Offre des bonus supplémentaires si tous les matériaux ont la même rareté, peu importe leur catégorie.\n\n|                  | Déchet | Commun | Peu Commun | Rare  | Légendaire |\n| ---------------- | ------ | ------ | ---------- | ----- | ---------- |\n| **Bonus**        | -1 AC  | -      | +1 AC      | +2 AC | +3 AC      |\n| **Prérequis**    | -      | 1      | 2          | 3     | 4          |\n\nLe prérequis est la valeur minimum que le modificateur lié à la catégorie doit avoir pour pouvoir porter cette armure.\nSi l'armure possède des matériaux légers et lourds, elle doit satisfaire le prérequis pour chaque modificateur.\n")}
 
 	</section>
 {/snippet}
