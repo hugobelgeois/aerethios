@@ -7,6 +7,11 @@
 
   tocHeadings.set([
       {
+          "id": "catgories",
+          "text": "Catégories",
+          "level": 2
+      },
+      {
           "id": "type",
           "text": "Type",
           "level": 3
@@ -40,9 +45,7 @@
     <h1>Armes de mêlées - New</h1>
   </header>
   <div class="markdown-rendered">
-		{@render preamble()}
-		{@render type()}
-		{@render taille()}
+		{@render catgories()}
 		{@render matriaux()}
 		{@render infusions()}
   </div>
@@ -50,8 +53,13 @@
 
 <LinkPreview />
 
-{#snippet preamble()}
-	{@html renderMarkdown("**## Catégories\n> Dé + Modificateur >= AC → Dégâts aux HP\n")}
+{#snippet catgories()}
+	<section>
+		<h2 id="catgories">{@html applyBase("Catégories")}</h2>
+	{@html renderMarkdown("> Dé + Modificateur >= AC → Dégâts aux HP\n")}
+	{@render type()}
+	{@render taille()}
+	</section>
 {/snippet}
 
 {#snippet type()}
@@ -65,7 +73,7 @@
 {#snippet taille()}
 	<section>
 		<h3 id="taille">{@html applyBase("Taille")}</h3>
-	{@html renderMarkdown("> Modifie le maniement de l'arme.\n\n|                |                              Court                              |        1 Main        |                                 2 Mains                                 |\n| -------------- | :-------------------------------------------------------------: | :------------------: | :---------------------------------------------------------------------: |\n| **Dé**         |                              2d10                               | 2d8 (+ Modificateur) |                    2d6 (+ Modificateur(Compétence))                     |\n| **Dégâts**     |                                8                                |          12          |                                   16                                    |\n| **Propriétés** | Critique<br>(Les attaques surprises sont une réussite critique) |          -           | Anti-Blindage<br>(Retire le bouclier ennemi pendant le tour des alliés) |\n| **Matériaux**  |                                1                                |          2           |                                    3                                    |\n")}
+	{@html renderMarkdown("> Modifie le maniement de l'arme.\n\n|                |                            Court                             |        1 Main        |                                 2 Mains                                 |\n| -------------- | :----------------------------------------------------------: | :------------------: | :---------------------------------------------------------------------: |\n| **Dé**         |                             2d10                             | 2d8 (+ Modificateur) |                    2d6 (+ Modificateur(Compétence))                     |\n| **Dégâts**     |                              8                               |          12          |                                   16                                    |\n| **Propriétés** | Surprise<br>(Les attaques surprises font les dégâts maximum) |          -           | Anti-Blindage<br>(Retire le bouclier ennemi pendant le tour des alliés) |\n| **Matériaux**  |                              1                               |          2           |                                    3                                    |\n")}
 
 	</section>
 {/snippet}

@@ -136,18 +136,15 @@
   ],
   "/Jeu/Regles 2.0 WIP/Combat/Armures - New": [],
   "/Jeu/Regles 2.0 WIP/Combat/Combat - New": [],
-  "/Jeu/Regles 2.0 WIP/Combat/Idea": [],
   "/Jeu/Regles 2.0 WIP/Combat/Magie - New": [],
   "/Jeu/Regles 2.0 WIP/Combat/Misc/Affinites aux Degats": [],
   "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles": [
     "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New"
   ],
-  "/Jeu/Regles 2.0 WIP/Competences/Affinites": [],
   "/Jeu/Regles 2.0 WIP/Competences/Attributs/Charisme - New": [],
   "/Jeu/Regles 2.0 WIP/Competences/Attributs/Dexterite - New": [],
   "/Jeu/Regles 2.0 WIP/Competences/Attributs/Force - New": [],
   "/Jeu/Regles 2.0 WIP/Competences/Attributs/Mental - New": [],
-  "/Jeu/Regles 2.0 WIP/Competences/Attributs/Perception - New": [],
   "/Jeu/Regles 2.0 WIP/Competences/Maisons": [],
   "/Jeu/Regles 2.0 WIP/Generales": [],
   "/Jeu/Regles 2.0 WIP/Inventaire": [],
@@ -505,5 +502,8 @@
   "/Notes/Scienctes": [],
   "/Jeu/Regles 2.0 WIP/Combat/Misc/Enchantements": [
     "/Jeu/Regles 2.0 WIP/Apprentissages/Erudition"
-  ]
+  ],
+  "/Jeu/Regles 2.0 WIP/Ideas/Affinites": [],
+  "/Jeu/Regles 2.0 WIP/Ideas/Perception - New": [],
+  "/Jeu/Regles 2.0 WIP/Ideas/Points dAction": []
 }
