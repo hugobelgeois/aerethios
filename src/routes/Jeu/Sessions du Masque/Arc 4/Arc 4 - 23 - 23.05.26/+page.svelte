@@ -32,8 +32,13 @@
           "level": 3
       },
       {
-          "id": "3-ville-du-chef",
-          "text": "3. Ville du chef",
+          "id": "3-village-du-chef",
+          "text": "3. Village du chef",
+          "level": 3
+      },
+      {
+          "id": "4-ville-du-dragon",
+          "text": "4. Ville du Dragon",
           "level": 3
       },
       {
@@ -91,7 +96,8 @@
 
 	{@render _OrphelinatDhazdaim()}
 	{@render _CampementDeNixEtSalom()}
-	{@render _VilleDuChef()}
+	{@render _VillageDuChef()}
+	{@render _VilleDuDragon()}
 	</section>
 {/snippet}
 
@@ -113,11 +119,20 @@
 	</section>
 {/snippet}
 
-{#snippet _VilleDuChef()}
+{#snippet _VillageDuChef()}
 	<section>
-		<h3 id="3-ville-du-chef">{@html applyBase("3. Ville du chef")}</h3>
+		<h3 id="3-village-du-chef">{@html applyBase("3. Village du chef")}</h3>
 	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/03. Village du chef"} fragment={"Description"} />
 	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/03. Village du chef"} fragment={"Actions des joueurs"} />
+
+	</section>
+{/snippet}
+
+{#snippet _VilleDuDragon()}
+	<section>
+		<h3 id="4-ville-du-dragon">{@html applyBase("4. Ville du Dragon")}</h3>
+	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/04. Ville du Dragon"} fragment={"Description"} />
+	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/04. Ville du Dragon"} fragment={"Actions des joueurs"} />
 
 	</section>
 {/snippet}

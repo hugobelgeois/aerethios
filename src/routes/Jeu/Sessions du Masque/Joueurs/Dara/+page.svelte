@@ -89,7 +89,7 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("<img src=\"%%BASE%%/Dara.png\" alt=\"Dara.png\" width=\"300\" class=\"wiki-image\" />\n\n**Niveau** : 10\n\n|                                      Arvens                                      |          Runild          | Scienctes | Templis |\n| :------------------------------------------------------------------------------: | :----------------------: | :-------: | :-----: |\n| <span class=\"wiki-unresolved\">Or</span> 2 | <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Competences/Maisons#100-po\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Competences/Maisons\" data-wiki-fragment=\"100%20po%5C\">Riche</a> |     -     |    -    |\n")}
+	{@html renderMarkdown("<img src=\"%%BASE%%/dara.png\" alt=\"dara.png\" width=\"300\" class=\"wiki-image\" />\n\n**Niveau** : 11\n\n|                                      Arvens                                      |          Runild          | Scienctes | Templis |\n| :------------------------------------------------------------------------------: | :----------------------: | :-------: | :-----: |\n| <span class=\"wiki-unresolved\">Or</span> 2 | <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Competences/Maisons#100-po\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Competences/Maisons\" data-wiki-fragment=\"100%20po%5C\">Riche</a> |     -     |    -    |\n")}
 {/snippet}
 
 {#snippet attributs()}
@@ -104,7 +104,7 @@
 {#snippet combat()}
 	<section>
 		<h3 id="combat">{@html applyBase("Combat")}</h3>
-	{@html renderMarkdown(">55 points à mettre au niveau 1 (min 7, max 14)\n>+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20\n\n| Force | Dextérité | Mental | Perception |   Charisme    |\n| :---: | :-------: | :----: | :--------: | :-----------: |\n|   6   |    20     |   14   |     16     | 7 (+1 wasabi) |\n|  -2   |    +5     |   +2   |     +3     |      -1       |\n")}
+	{@html renderMarkdown(">55 points à mettre au niveau 1 (min 7, max 14)\n>+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20\n\n| Force | Dextérité | Mental | Perception |   Charisme    |\n| :---: | :-------: | :----: | :--------: | :-----------: |\n|   6   |  16 (20)  |   14   |     16     | 7 (+1 wasabi) |\n|  -2   |  +3 (+5)  |   +2   |     +3     |      -1       |\n")}
 
 	</section>
 {/snippet}

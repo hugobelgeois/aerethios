@@ -83,7 +83,7 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("<img src=\"%%BASE%%/Arek.png\" alt=\"Arek.png\" width=\"300\" class=\"wiki-image\" />\n\n**Niveau** : 12\n\n|                                      Arvens                                      | Runild | Scienctes | Templis |\n| :------------------------------------------------------------------------------: | :----: | :-------: | :-----: |\n| <span class=\"wiki-unresolved\">Or</span> 3 |   -    |     -     |    2    |\n")}
+	{@html renderMarkdown("<img src=\"%%BASE%%/arek.png\" alt=\"arek.png\" width=\"300\" class=\"wiki-image\" />\n\n**Niveau** : 13\n\n|                                      Arvens                                      | Runild | Scienctes | Templis |\n| :------------------------------------------------------------------------------: | :----: | :-------: | :-----: |\n| <span class=\"wiki-unresolved\">Or</span> 3 |   -    |     -     |    2    |\n")}
 {/snippet}
 
 {#snippet attributs()}
@@ -98,7 +98,7 @@
 {#snippet combat()}
 	<section>
 		<h3 id="combat">{@html applyBase("Combat")}</h3>
-	{@html renderMarkdown(">55 points à mettre au niveau 1 (min 7, max 14)\n>+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20\n\n| Force | Dextérité | Mental | Perception | Charisme |\n| :---: | :-------: | :----: | :--------: | :------: |\n|  19   |    10     |   18   |     10     |    8     |\n|  +4   |     0     |   +4   |     0      |    -1    |\n")}
+	{@html renderMarkdown(">55 points à mettre au niveau 1 (min 7, max 14)\n>+1 points par niveau sauf les niveaux 1, 5, 10, 15 et 20\n\n| Force | Dextérité | Mental | Perception | Charisme |\n| :---: | :-------: | :----: | :--------: | :------: |\n|  20   |  8 (10)   |   18   |     10     |    8     |\n|  +5   |  -1 (0)   |   +4   |     0      |    -1    |\n")}
 
 	</section>
 {/snippet}
