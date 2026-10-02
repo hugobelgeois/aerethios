@@ -42,12 +42,12 @@
 </script>
 
 <svelte:head>
-  <title>04. Village du Dragon</title>
+  <title>05. Antre de Bayle</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>04. Village du Dragon</h1>
+    <h1>05. Antre de Bayle</h1>
   </header>
   <div class="markdown-rendered">
 		{@render description()}
@@ -70,7 +70,7 @@
 {#snippet dtails()}
 	<section>
 		<h2 id="dtails">{@html applyBase("Détails")}</h2>
-	{@html renderMarkdown("\n| Lieu          | Météo | Heure | Musique |\n| ------------- | ----- | ----- | ------- |\n| Nirina, Fruss |       |       |         |")}
+	{@html renderMarkdown("\n| Lieu | Météo | Heure | Musique |\n| ---- | ----- | ----- | ------- |\n|      |       |       |         |")}
 	{@render maps()}
 	{@render rencontres()}
 	</section>
@@ -87,7 +87,7 @@
 {#snippet rencontres()}
 	<section>
 		<h3 id="rencontres">{@html applyBase("Rencontres")}</h3>
-	{@html renderMarkdown("\n|   Nom   | Rôle                |  Race  | Sexe  | Age |                  Personnalité                   |   Accent   | Equipement |\n| :-----: | ------------------- | :----: | :---: | :-: | :---------------------------------------------: | :--------: | :--------: |\n|  Numa   | Gérant de la ville  | Dragon |   -   |  -  | Calme, Réfléchi, appelle les gens par leur race | Voix grave |     -      |\n|    X    | Pactisant avec Numa | Humain | Femme |     |                      Morte                      |     -      |            |\n| Zaledra |                     |        |       |     |                                                 |            |            |\n")}
+	{@html renderMarkdown("\n|   Nom   | Rôle                              |  Race  | Sexe  | Age |      Personnalité      | Accent |       Equipement        |\n| :-----: | --------------------------------- | :----: | :---: | :-: | :--------------------: | :----: | :---------------------: |\n|  Bayle  | Ennemi de Placidusax et Fortissax | Dragon |       |  -  | Agressif, ne parle pas |   -    |  <span class=\"wiki-unresolved\">5-Bayle.jpg\\</span>  |\n|  Havel  | Pactisant avec Placidusax         | Humain |   -   |  -  |          Mort          |   -    |    <img src=\"%%BASE%%/5-Havel.jpg\" alt=\"5-Havel.jpg\" class=\"wiki-image\" />     |\n| Zaledra | Investisseur du projet Masque     | Humain | Homme | 50  |                        |        | <span class=\"wiki-unresolved\">5-Zaledra.jpg\\</span> |\n")}
 
 	</section>
 {/snippet}
@@ -95,7 +95,7 @@
 {#snippet intrigues()}
 	<section>
 		<h2 id="intrigues">{@html applyBase("Intrigues")}</h2>
-	{@html renderMarkdown("> Evénements et leur conclusion sans l'intervention des joueurs\n\n- Le dragon a pris le contrôle de la ville, mais c'est un bon gérant\n  - Tel un roi, il taxe le peuple en échange de sa protection, mais il ne réclame pas les récoltes, juste une taxe sur les revenus\n  - Le peuple vit mieux depuis et est plus motivé à travailler\n\tSi les joueurs ne font rien, le peuple continue d'être heureux\n\tSinon, il part combattre le masque et la ville tombe doucement dans le chaos\n\n-\n")}
+	{@html renderMarkdown("> Evénements et leur conclusion sans l'intervention des joueurs\n\n-\n")}
 
 	</section>
 {/snippet}

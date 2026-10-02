@@ -77,7 +77,7 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("<img src=\"%%BASE%%/zveindel.png\" alt=\"zveindel.png\" width=\"300\" class=\"wiki-image\" />\n\n**Niveau** : 10\n\n|           Arvens            | Runild |             Scienctes              | Templis |\n| :-------------------------: | :----: | :--------------------------------: | :-----: |\n| <span class=\"wiki-unresolved\">Argent</span> 2 |   -    | <span class=\"wiki-unresolved\">Archimage</span> |    -    |\n")}
+	{@html renderMarkdown("<img src=\"%%BASE%%/Zveindel.png\" alt=\"Zveindel.png\" width=\"300\" class=\"wiki-image\" />\n\n**Niveau** : 10\n\n|           Arvens            | Runild |             Scienctes              | Templis |\n| :-------------------------: | :----: | :--------------------------------: | :-----: |\n| <span class=\"wiki-unresolved\">Argent</span> 2 |   -    | <a href=\"%%BASE%%/Notes/Scienctes#archimage\" class=\"wiki-link internal-link\" data-wiki-href=\"/Notes/Scienctes\" data-wiki-fragment=\"Archimage%5C\">Archimage</a> |    -    |\n")}
 {/snippet}
 
 {#snippet attributs()}

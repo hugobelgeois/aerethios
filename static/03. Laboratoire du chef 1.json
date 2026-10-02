@@ -1,6 +1,6 @@
 {
 	"map": {
-		"version": 23,
+		"version": 14,
 		"gridType": "square",
 		"cellSize": 48,
 		"layers": [
@@ -118,7 +118,6 @@
 				"visionAngle": 135,
 				"visionRange": 10,
 				"visionRadius": 4,
-				"lightEnabled": false,
 				"image": "/dara.png",
 				"rotation": 90
 			},
@@ -138,14 +137,30 @@
 					}
 				],
 				"rotation": 127
+			},
+			{
+				"id": "token-mtn0pcrh-1143",
+				"cellKey": "-31,-8",
+				"icon": "",
+				"tabs": [
+					{
+						"id": "default-0",
+						"name": "Statistiques"
+					},
+					{
+						"id": "default-1",
+						"name": "Inventaire"
+					},
+					{
+						"id": "default-2",
+						"name": "Histoire"
+					}
+				]
 			}
 		],
-		"tokenGroups": [],
-		"clocks": [],
 		"minZoom": 0.1,
 		"maxZoom": 1,
 		"fogEnabled": true,
-		"fogFrozen": true,
 		"exploredCells": [
 			"-8,-22",
 			"-7,-22",
@@ -430,12 +445,7 @@
 			"-26,-5",
 			"-24,-5",
 			"-26,-4"
-		],
-		"exploredCellsByGridType": {
-			"square": [],
-			"hex-pointy": [],
-			"hex-flat": []
-		}
+		]
 	},
 	"notes": {
 		"Jeu/Sessions du Masque/Joueurs/Arek.md#Attributs": {
@@ -591,6 +601,5 @@
 			"name": "Danger",
 			"color": "#c62828"
 		}
-	],
-	"fogSoftening": 6
+	]
 }

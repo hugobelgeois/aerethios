@@ -337,7 +337,7 @@
   "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 23 - 23.05.26": [
     "/Jeu/Sessions du Masque/Scenes/01. Orphelinat dHazdaim",
     "/Jeu/Sessions du Masque/Scenes/02. Campement de Nix et Salome",
-    "/Jeu/Sessions du Masque/Scenes/03. Ville du chef",
+    "/Jeu/Sessions du Masque/Scenes/03. Village du chef",
     "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26"
   ],
   "/Jeu/Sessions du Masque/Arc 4/Arc 4": [
@@ -474,6 +474,7 @@
     "/0_Private/Billy"
   ],
   "/Jeu/Sessions du Masque/Joueurs/Old/Zveindel": [
+    "/Notes/Scienctes",
     "/Jeu/Regles/Competences/Attributs/Force",
     "/Jeu/Regles/Competences/Attributs/Dexterite",
     "/Jeu/Regles/Competences/Attributs/Mental",
@@ -491,10 +492,7 @@
   ],
   "/Jeu/Sessions du Masque/Scenes/01. Orphelinat dHazdaim": [],
   "/Jeu/Sessions du Masque/Scenes/02. Campement de Nix et Salome": [],
-  "/Jeu/Sessions du Masque/Scenes/03. Ville du chef": [],
-  "/Jeu/Sessions du Masque/Scenes/04. Village du Dragon": [],
   "/Notes/Arvens": [],
-  "/Notes/Degats": [],
   "/Notes/Economie": [],
   "/Notes/Stats joueurs": [],
   "/Notes/Templis": [],
@@ -505,5 +503,8 @@
   ],
   "/Jeu/Regles 2.0 WIP/Ideas/Affinites": [],
   "/Jeu/Regles 2.0 WIP/Ideas/Perception - New": [],
-  "/Jeu/Regles 2.0 WIP/Ideas/Points dAction": []
+  "/Jeu/Regles 2.0 WIP/Ideas/Points dAction": [],
+  "/Jeu/Sessions du Masque/Scenes/03. Village du chef": [],
+  "/Jeu/Sessions du Masque/Scenes/04. Ville du Dragon": [],
+  "/Jeu/Sessions du Masque/Scenes/05. Antre de Bayle": []
 }

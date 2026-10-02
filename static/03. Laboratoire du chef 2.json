@@ -1,6 +1,6 @@
 {
 	"map": {
-		"version": 23,
+		"version": 14,
 		"gridType": "square",
 		"cellSize": 48,
 		"layers": [
@@ -26,6 +26,26 @@
 		],
 		"activeLayerId": "layer-msiubqbu-1",
 		"tokens": [
+			{
+				"id": "token-msn7cf54-1",
+				"cellKey": "24,-22",
+				"icon": "",
+				"tabs": [
+					{
+						"id": "default-0",
+						"name": "Statistiques"
+					},
+					{
+						"id": "default-1",
+						"name": "Inventaire"
+					},
+					{
+						"id": "default-2",
+						"name": "Histoire"
+					}
+				],
+				"rotation": 180
+			},
 			{
 				"id": "token-msssmo39-5",
 				"cellKey": "28,-18",
@@ -122,6 +142,123 @@
 				"rotation": 270
 			},
 			{
+				"id": "token-mtmsf9jp-40",
+				"cellKey": "20,-17",
+				"icon": "",
+				"tabs": [
+					{
+						"id": "default-0",
+						"name": "Statistiques"
+					},
+					{
+						"id": "default-1",
+						"name": "Inventaire"
+					},
+					{
+						"id": "default-2",
+						"name": "Histoire"
+					}
+				]
+			},
+			{
+				"id": "token-mtmsfkbi-44",
+				"cellKey": "34,-24",
+				"icon": "",
+				"tabs": [
+					{
+						"id": "default-0",
+						"name": "Statistiques"
+					},
+					{
+						"id": "default-1",
+						"name": "Inventaire"
+					},
+					{
+						"id": "default-2",
+						"name": "Histoire"
+					}
+				]
+			},
+			{
+				"id": "token-mtmsfp7a-46",
+				"cellKey": "20,-20",
+				"icon": "",
+				"tabs": [
+					{
+						"id": "default-0",
+						"name": "Statistiques"
+					},
+					{
+						"id": "default-1",
+						"name": "Inventaire"
+					},
+					{
+						"id": "default-2",
+						"name": "Histoire"
+					}
+				]
+			},
+			{
+				"id": "token-mtmtlvpy-48",
+				"cellKey": "30,-22",
+				"icon": "",
+				"tabs": [
+					{
+						"id": "default-0",
+						"name": "Statistiques"
+					},
+					{
+						"id": "default-1",
+						"name": "Inventaire"
+					},
+					{
+						"id": "default-2",
+						"name": "Histoire"
+					}
+				],
+				"rotation": 180
+			},
+			{
+				"id": "token-mtmtlz35-49",
+				"cellKey": "30,-16",
+				"icon": "",
+				"tabs": [
+					{
+						"id": "default-0",
+						"name": "Statistiques"
+					},
+					{
+						"id": "default-1",
+						"name": "Inventaire"
+					},
+					{
+						"id": "default-2",
+						"name": "Histoire"
+					}
+				],
+				"rotation": 180
+			},
+			{
+				"id": "token-mtmtm17s-50",
+				"cellKey": "24,-16",
+				"icon": "",
+				"tabs": [
+					{
+						"id": "default-0",
+						"name": "Statistiques"
+					},
+					{
+						"id": "default-1",
+						"name": "Inventaire"
+					},
+					{
+						"id": "default-2",
+						"name": "Histoire"
+					}
+				],
+				"rotation": 180
+			},
+			{
 				"id": "token-mtmtmyas-51",
 				"cellKey": "27,-19",
 				"icon": "🧝",
@@ -143,12 +280,9 @@
 				"rotation": 329.2880000004915
 			}
 		],
-		"tokenGroups": [],
-		"clocks": [],
 		"minZoom": 0.1,
 		"maxZoom": 1,
 		"fogEnabled": true,
-		"fogFrozen": true,
 		"exploredCells": [
 			"-25,-2",
 			"-26,-2",
@@ -1087,12 +1221,7 @@
 			"28,-11",
 			"17,-17",
 			"17,-15"
-		],
-		"exploredCellsByGridType": {
-			"square": [],
-			"hex-pointy": [],
-			"hex-flat": []
-		}
+		]
 	},
 	"notes": {
 		"Jeu/Sessions du Masque/Joueurs/Arek.md#Attributs": {
@@ -1230,6 +1359,5 @@
 			"name": "Danger",
 			"color": "#c62828"
 		}
-	],
-	"fogSoftening": 6
+	]
 }

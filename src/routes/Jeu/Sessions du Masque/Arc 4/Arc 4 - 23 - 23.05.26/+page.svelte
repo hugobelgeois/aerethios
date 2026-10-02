@@ -116,8 +116,8 @@
 {#snippet _VilleDuChef()}
 	<section>
 		<h3 id="3-ville-du-chef">{@html applyBase("3. Ville du chef")}</h3>
-	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/03. Ville du chef"} fragment={"Description"} />
-	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/03. Ville du chef"} fragment={"Actions des joueurs"} />
+	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/03. Village du chef"} fragment={"Description"} />
+	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/03. Village du chef"} fragment={"Actions des joueurs"} />
 
 	</section>
 {/snippet}

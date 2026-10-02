@@ -1,6 +1,6 @@
 {
 	"map": {
-		"version": 16,
+		"version": 23,
 		"gridType": "hex-flat",
 		"cellSize": 48,
 		"layers": [
@@ -20,48 +20,8 @@
 					"hex-flat": {}
 				},
 				"markers": [],
-				"wallPoints": [
-					{
-						"id": "wallpoint-msnddx6k-6",
-						"x": 2494.1531628991834,
-						"y": 4323.198815691918
-					},
-					{
-						"id": "wallpoint-msnddx6k-7",
-						"x": 2826.706917952408,
-						"y": 4323.198815691918
-					},
-					{
-						"id": "wallpoint-msnddx6k-8",
-						"x": 2826.706917952408,
-						"y": 4406.337254455224
-					},
-					{
-						"id": "wallpoint-msnddx6k-9",
-						"x": 2494.1531628991834,
-						"y": 4489.47569321853
-					}
-				],
-				"wallSegments": [
-					{
-						"id": "wallsegment-msnddx6k-10",
-						"aId": "wallpoint-msnddx6k-6",
-						"bId": "wallpoint-msnddx6k-7",
-						"blockerType": "opaque"
-					},
-					{
-						"id": "wallsegment-msnddx6k-11",
-						"aId": "wallpoint-msnddx6k-7",
-						"bId": "wallpoint-msnddx6k-8",
-						"blockerType": "opaque"
-					},
-					{
-						"id": "wallsegment-msnddx6k-13",
-						"aId": "wallpoint-msnddx6k-9",
-						"bId": "wallpoint-msnddx6k-6",
-						"blockerType": "opaque"
-					}
-				]
+				"wallPoints": [],
+				"wallSegments": []
 			}
 		],
 		"activeLayerId": "layer-mrol10i8-3",
@@ -143,6 +103,7 @@
 				"rotation": 123.68989939802435
 			}
 		],
+		"tokenGroups": [],
 		"clocks": [],
 		"minZoom": 0.05,
 		"maxZoom": 1,
@@ -1028,7 +989,12 @@
 			"28,43",
 			"27,44",
 			"28,42"
-		]
+		],
+		"exploredCellsByGridType": {
+			"square": [],
+			"hex-pointy": [],
+			"hex-flat": []
+		}
 	},
 	"notes": {
 		"Jeu/Sessions du Masque/Joueurs/Hazdaim.md#Attributs": {
@@ -1101,5 +1067,6 @@
 			"name": "Danger",
 			"color": "#c62828"
 		}
-	]
+	],
+	"fogSoftening": 6
 }
