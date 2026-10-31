@@ -89,7 +89,7 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown(">Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste\n\n**Niveau** : 12\n\n|       Arvens        | Runild |        Scienctes         | Templis |\n| :-----------------: | :----: | :----------------------: | :-----: |\n| <span class=\"wiki-unresolved\">Or</span> 1 |   -    | <a href=\"%%BASE%%/Notes/Scienctes#mage\" class=\"wiki-link internal-link\" data-wiki-href=\"/Notes/Scienctes\" data-wiki-fragment=\"Mage%5C\">Mage</a> |    -    |\n")}
+	{@html renderMarkdown("```statblock\nlayout: Basic 5e Layout\n\nname: Léoric\nhp: 50\nmp: 9\ncreature: Acolyte\nstats: [1,2,3,4,5,6,7]\nskillsaves:\n  - \n```\n\n>Si vous voulez une image, envoyez-la moi et je la transforme pour avoir un style graphique similaire au reste\n\n**Niveau** : 12\n\n|       Arvens        | Runild |        Scienctes         | Templis |\n| :-----------------: | :----: | :----------------------: | :-----: |\n| <span class=\"wiki-unresolved\">Or</span> 1 |   -    | <a href=\"%%BASE%%/Notes/Scienctes#mage\" class=\"wiki-link internal-link\" data-wiki-href=\"/Notes/Scienctes\" data-wiki-fragment=\"Mage%5C\">Mage</a> |    -    |\n")}
 {/snippet}
 
 {#snippet attributs()}

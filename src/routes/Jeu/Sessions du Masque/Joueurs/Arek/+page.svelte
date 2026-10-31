@@ -83,7 +83,7 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("<img src=\"%%BASE%%/Arek.png\" alt=\"Arek.png\" width=\"300\" class=\"wiki-image\" />\n\n**Niveau** : 13\n\n|                                      Arvens                                      | Runild | Scienctes | Templis |\n| :------------------------------------------------------------------------------: | :----: | :-------: | :-----: |\n| <span class=\"wiki-unresolved\">Or</span> 3 |   -    |     -     |    2    |\n")}
+	{@html renderMarkdown("```statblock\nlayout: Basic 5e Layout\n\nname: Arek\nhp: 50\nmp: 9\ncreature: Acolyte\nstats: [1,2,3,4,5,6,7]\nmagic: [0,0,1d6,1d4,0,1d8+5,0]\n```\n\n<img src=\"%%BASE%%/Arek.png\" alt=\"Arek.png\" width=\"300\" class=\"wiki-image\" />\n\n**Niveau** : 13\n\n|                                      Arvens                                      | Runild | Scienctes | Templis |\n| :------------------------------------------------------------------------------: | :----: | :-------: | :-----: |\n| <span class=\"wiki-unresolved\">Or</span> 3 |   -    |     -     |    2    |\n")}
 {/snippet}
 
 {#snippet attributs()}

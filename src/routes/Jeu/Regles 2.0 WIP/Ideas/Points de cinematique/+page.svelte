@@ -11,10 +11,13 @@
 </script>
 
 <svelte:head>
-  <title>WorldMap</title>
+  <title>Points de cinématique</title>
 </svelte:head>
 
 <article class="md-page">
+  <header class="md-header">
+    <h1>Points de cinématique</h1>
+  </header>
   <div class="markdown-rendered">
 		{@render preamble()}
   </div>
@@ -23,5 +26,5 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("```map\nWorldMap.map\n```\n")}
+	{@html renderMarkdown("Le joueur peut utiliser ce point pour décrire son action qui touche\nSelon la description, le mj détermine le dé de dégâts et les effets")}
 {/snippet}

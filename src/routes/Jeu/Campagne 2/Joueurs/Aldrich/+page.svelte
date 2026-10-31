@@ -55,6 +55,16 @@
           "id": "notes",
           "text": "Notes",
           "level": 2
+      },
+      {
+          "id": "histoire",
+          "text": "Histoire",
+          "level": 3
+      },
+      {
+          "id": "tape-0--inspiration",
+          "text": "Étape 0 : Inspiration",
+          "level": 3
       }
   ]);
 
@@ -122,7 +132,7 @@
 {#snippet equipement()}
 	<section>
 		<h2 id="equipement">{@html applyBase("Equipement")}</h2>
-
+	{@html renderMarkdown("\nEnchantement Vampirisme pour se soigner en tapant ?\nou un outil qui peut récupérer du sang dans certaines conditions\nOu un sort pour pomper le sang/ Eau+ténèbres pour fabriquer son sang\n")}
 	{@render armesDeMle_Armes_Distance()}
 	{@render armures__New()}
 	</section>
@@ -147,7 +157,7 @@
 {#snippet apprentissages__New()}
 	<section>
 		<h2 id="apprentissages---new">{@html applyBase("<a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New\" data-wiki-fragment=\"\">Apprentissages - New</a>")}</h2>
-	{@html renderMarkdown("\n- \n")}
+	{@html renderMarkdown("\n-\n")}
 
 	</section>
 {/snippet}
@@ -163,7 +173,24 @@
 {#snippet notes()}
 	<section>
 		<h2 id="notes">{@html applyBase("Notes")}</h2>
-	{@html renderMarkdown("\nNain de Kothula\nVampire, qui s'essaie à la magie de l'eau pour maîtriser le sang et faire comme ses pairs supérieurs\nIl fait des recherches (pour retirer les malus du vampire ?) et serait également ingénieur\nIl connait Loïc, chez qui il va régulièrement demander un verre de sang")}
+	{@html renderMarkdown("\nObjectif court terme :\n- Maîtriser la magie\nObjectifs Long terme :\n- Abattre Zaledra à qui il doit sa maladie et sa dette\n- Soigner/ Atténuer la maladie vampirique à l'aide de la magie/ de mécanismes\n\t- Trouver le vampire qui aurait contré sa maladie pour en savoir plus\n")}
+	{@render histoire()}
+	{@render tape_0_Inspiration()}
+	</section>
+{/snippet}
+
+{#snippet histoire()}
+	<section>
+		<h3 id="histoire">{@html applyBase("Histoire")}</h3>
+	{@html renderMarkdown("\nNain solitaire de Kothula de 113 ans\nEst devenu vampire pour pouvoir rembourser une dette sur le très long terme auprès de Zaledra\nS'adonne aux recherches sur cette maladie pour atténuer ses effets/ la soigner\nIl fabrique des machines (dont il est fier) qui analysent et filtrent le sang sans tuer, mais commence à atteindre les limites et doit se pencher sur la magie pour aller plus loin\nProfite de sa faiblesse de nain face à la lumière pour cacher sa maladie sous une armure\nSa maladie l'a rendu solitaire pour éviter les dérapages, et il est ainsi devenu discret et ne parle pas sans raison\nHonte d'être un vampire et méfiance envers eux\nIl ment pour ne pas qu'on le sache, ni qu'on sache qu'il a consommé des vivants avant de maitriser sa maladie\nIl est connu localement et répare les objets des villageois par moment\nIl connait Loïc, chez qui il va régulièrement demander un verre de sang\n\nConnaissances :\n+++Vampire (lore, relation magique(eau + ténèbres = sang), fonctionnement, ...)\n++Artificier/ Ingénieur (pratique & théorique)\n+Architecte (théorique)\n+Nain\n\nJustifier qu'il soit lvl 0/1\nIl est resté dans les études longtemps, stagne et pense que voyager pourrait aider à débloquer des choses + Apprendre la magie\nAccompagnera les joueurs s'ils ont un objectif commun et qu'ils le convainquent\n")}
+
+	</section>
+{/snippet}
+
+{#snippet tape_0_Inspiration()}
+	<section>
+		<h3 id="tape-0--inspiration">{@html applyBase("Étape 0 : Inspiration")}</h3>
+	{@html renderMarkdown("- Quel personnage existant de n'importe quel média t'inspire\n- Quel musique d'ambiance (sans/ peu de paroles) représente ton personnage\n- Quel est LE trait de caractère qui peut représenter à lui seul ton personnage (un extrême peut faciliter le RP)\n\t- Ex : une voix, un accent, une émotion, ...")}
 
 	</section>
 {/snippet}

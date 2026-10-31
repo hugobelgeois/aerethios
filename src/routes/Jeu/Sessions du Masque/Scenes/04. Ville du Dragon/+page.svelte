@@ -79,7 +79,7 @@
 {#snippet musiques()}
 	<section>
 		<h3 id="musiques">{@html applyBase("Musiques")}</h3>
-	{@html renderMarkdown("\n| Lieu                 | Musique                                                               |\n| -------------------- | --------------------------------------------------------------------- |\n| Fruss                | [Majula OST](https://www.youtube.com/watch?v=5i_enopHsqg)             |\n| Hallucination masque | [Deep in the Mechanicum](https://www.youtube.com/watch?v=wQcp375CzZU) |\n")}
+	{@html renderMarkdown("\n| Lieu                 | Musique                                                               |\n| -------------------- | --------------------------------------------------------------------- |\n| Fruss                | [Majula OST](https://www.youtube.com/watch?v=5i_enopHsqg)             |\n| Hallucination masque | [Deep in the Mechanicum](https://www.youtube.com/watch?v=wQcp375CzZU) |\n| Fortissax            |                                                                       |\n")}
 
 	</section>
 {/snippet}
@@ -87,7 +87,7 @@
 {#snippet rencontres()}
 	<section>
 		<h3 id="rencontres">{@html applyBase("Rencontres")}</h3>
-	{@html renderMarkdown("\n|    Nom    | Rôle                                                                          |  Race  | Sexe | Age |                  Personnalité                   |   Accent   |        Equipement         |\n| :-------: | ----------------------------------------------------------------------------- | :----: | :--: | :-: | :---------------------------------------------: | :--------: | :-----------------------: |\n| Fortissax | Gérant de la ville<br>Attaquant potentiel contre le Masque<br>Sa souveraineté | Dragon |  -   |  -  | Calme, Réfléchi, appelle les gens par leur race | Voix grave | <span class=\"wiki-unresolved\">4-Fortissax.jpg\\</span> |\n")}
+	{@html renderMarkdown("\n|    Nom    | Rôle                                                                          |   Race   | Sexe | Age |                  Personnalité                   |   Accent   |                   Equipement                    |\n| :-------: | ----------------------------------------------------------------------------- | :------: | :--: | :-: | :---------------------------------------------: | :--------: | :---------------------------------------------: |\n|     -     | Boss                                                                          | Illusion |      |     |                                                 |            | <img src=\"%%BASE%%/4-Boss-des-Illusions.png\" alt=\"4-Boss-des-Illusions.png\" class=\"wiki-image\" /> |\n| Fortissax | Gérant de la ville<br>Attaquant potentiel contre le Masque<br>Sa souveraineté |  Dragon  |  -   |  -  | Calme, Réfléchi, appelle les gens par leur race | Voix grave |            <span class=\"wiki-unresolved\">4-Fortissax.jpg\\</span>            |\n")}
 
 	</section>
 {/snippet}

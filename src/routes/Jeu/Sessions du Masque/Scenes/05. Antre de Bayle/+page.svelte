@@ -79,7 +79,7 @@
 {#snippet maps()}
 	<section>
 		<h3 id="maps">{@html applyBase("Maps")}</h3>
-
+	{@html renderMarkdown("<img src=\"%%BASE%%/omer-tunc-2-copy.jpg\" alt=\"omer-tunc-2-copy.jpg\" width=\"400\" class=\"wiki-image\" />")}
 
 	</section>
 {/snippet}
@@ -95,7 +95,7 @@
 {#snippet intrigues()}
 	<section>
 		<h2 id="intrigues">{@html applyBase("Intrigues")}</h2>
-	{@html renderMarkdown("> Evénements et leur conclusion sans l'intervention des joueurs\n\n-\n")}
+	{@html renderMarkdown("> Evénements et leur conclusion sans l'intervention des joueurs\n\n- Ils doivent trouver l'entrée de la montagne pour atteindre Bayle\n\n- Des troupes de soldats morts errent et doivent être contrôlés pour espérer vaincre Bayle\n\t- Ils errent, controlés par des champignons parasytes\n- Un arbre couvert de champignons qui ont pris la forme de femmes géantes pour attirer les aventuriers\n\t- L'énergie dans la sève liquide de l'arbre repousse les esprits, mais ça ne dure pas énternellement\n\n- Léoric : Bigard lui propose de se faire exploser magiquement sur le masque pour l'affaiblir, mais Léoric perdra sa magie\n- Hazdaim : Radeon lui propose son pouvoir contre le masque en échange du contrôle sur son corps pour une action\n- Arek : Le masque propose la liberté de son emprise en échange de tuer son hôte\n- Dara : Zaledra propose de rendre les doigts si Dara lui donne sa toile, et il en fera son associé principal")}
 
 	</section>
 {/snippet}

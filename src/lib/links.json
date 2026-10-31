@@ -41,7 +41,6 @@
     "/Bestiaire/Terrestres/Naturels/Naturels",
     "/Bestiaire/Terrestres/Plantes/Plantes"
   ],
-  "/Geographie/WorldMap": [],
   "/Jeu/Campagne 2/Joueurs/Aldrich": [
     "/Jeu/Regles/Competences/Attributs/Force",
     "/Jeu/Regles/Competences/Attributs/Dexterite",
@@ -136,7 +135,9 @@
   ],
   "/Jeu/Regles 2.0 WIP/Combat/Armures - New": [],
   "/Jeu/Regles 2.0 WIP/Combat/Combat - New": [],
-  "/Jeu/Regles 2.0 WIP/Combat/Magie - New": [],
+  "/Jeu/Regles 2.0 WIP/Combat/Magie - New": [
+    "/Jeu/Regles 2.0 WIP/Combat/Magies/Magie - Types"
+  ],
   "/Jeu/Regles 2.0 WIP/Combat/Misc/Affinites aux Degats": [],
   "/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles": [
     "/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New"
@@ -507,5 +508,7 @@
   "/Jeu/Regles 2.0 WIP/Ideas/Points dAction": [],
   "/Jeu/Sessions du Masque/Scenes/03. Village du chef": [],
   "/Jeu/Sessions du Masque/Scenes/04. Ville du Dragon": [],
-  "/Jeu/Sessions du Masque/Scenes/05. Antre de Bayle": []
+  "/Jeu/Sessions du Masque/Scenes/05. Antre de Bayle": [],
+  "/Jeu/Regles 2.0 WIP/Combat/Magies/Magie - Types": [],
+  "/Jeu/Regles 2.0 WIP/Ideas/Points de cinematique": []
 }

@@ -55,6 +55,31 @@
           "id": "notes",
           "text": "Notes",
           "level": 2
+      },
+      {
+          "id": "tape-0--inspiration",
+          "text": "Étape 0 : Inspiration",
+          "level": 3
+      },
+      {
+          "id": "tape-1--identit",
+          "text": "Étape 1 : Identité",
+          "level": 3
+      },
+      {
+          "id": "tape-2--relations",
+          "text": "Étape 2 : Relations",
+          "level": 3
+      },
+      {
+          "id": "tape-3--monde",
+          "text": "Étape 3 : Monde",
+          "level": 3
+      },
+      {
+          "id": "tape-4--intrigues",
+          "text": "Étape 4 : Intrigues",
+          "level": 3
       }
   ]);
 
@@ -147,7 +172,7 @@
 {#snippet apprentissages__New()}
 	<section>
 		<h2 id="apprentissages---new">{@html applyBase("<a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New\" data-wiki-fragment=\"\">Apprentissages - New</a>")}</h2>
-	{@html renderMarkdown("\n- \n")}
+	{@html renderMarkdown("\n-\n")}
 
 	</section>
 {/snippet}
@@ -163,7 +188,51 @@
 {#snippet notes()}
 	<section>
 		<h2 id="notes">{@html applyBase("Notes")}</h2>
-	{@html renderMarkdown("\nOrc (ascendant loup-mousse) de Kothula\nEst parti dans une forêt pour faire des recherches sur les ingrédients alchimiques qui recouvraient son parent animal\nIl était au croisement de plusieurs villages qu'il aidait en leur vendant des remèdes\nLa forêt a fini par prendre feu, et il est parti pour d'autres aventures ?")}
+	{@html renderMarkdown("\nOrc (ascendant loup-mousse) de Kothula\nEst parti dans une forêt pour faire des recherches sur les ingrédients alchimiques qui recouvraient son parent animal\nIl était au croisement de plusieurs villages qu'il aidait en leur vendant des remèdes\nLa forêt a fini par prendre feu, et il est parti pour d'autres aventures ?\n")}
+	{@render tape_0_Inspiration()}
+	{@render tape_1_Identit()}
+	{@render tape_2_Relations()}
+	{@render tape_3_Monde()}
+	{@render tape_4_Intrigues()}
+	</section>
+{/snippet}
+
+{#snippet tape_0_Inspiration()}
+	<section>
+		<h3 id="tape-0--inspiration">{@html applyBase("Étape 0 : Inspiration")}</h3>
+	{@html renderMarkdown("- Quel personnage existant de n'importe quel média t'inspire\n- Quel musique d'ambiance (sans/ peu de paroles) représente ton personnage\n- Quel est LE trait de caractère qui peut représenter à lui seul ton personnage (un extrême peut faciliter le RP)\n\t- Ex : une voix, un accent, une émotion, ...\n")}
+
+	</section>
+{/snippet}
+
+{#snippet tape_1_Identit()}
+	<section>
+		<h3 id="tape-1--identit">{@html applyBase("Étape 1 : Identité")}</h3>
+	{@html renderMarkdown("- D'où viens-tu (Kothula, Ovliin, Nirina, Suraja)\n\t- Si c'est ailleurs que Kothula, pourquoi as-tu voyagé jusque là (fuite, voyage, immigration, aventures, ..)\n- Quel âge as-tu\n\t- As-tu fait des études ou as-tu directement travaillé (<a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Apprentissages - New\" data-wiki-fragment=\"\">voir les métiers</a>)\n- Quel est ton statut social (économies & réputation locale)\n- Quel sont tes objectifs actuels (court et long terme)\n\t- Quelle est ta plus grande fierté\n\t- Quelle est ta plus grande honte\n- Que refuses-tu de faire\n\t- Quelle sont tes phobies\n- Quel est ton plus grand mensonge\n")}
+
+	</section>
+{/snippet}
+
+{#snippet tape_2_Relations()}
+	<section>
+		<h3 id="tape-2--relations">{@html applyBase("Étape 2 : Relations")}</h3>
+	{@html renderMarkdown("- As tu des proches (parents, partenaire, enfants, amis, ..)\n\t- Leur statut (vivant, quel continent/ville, actif dans la société, métier, ..)\n\t- Sous quelle occasion pourrait-on les croiser\n\t- Est-ce qu'ils te manquent et inversement\n- À qui dois-tu une dette\n- Quel personnage que tu as rencontré/ entendu parler t'a marqué et pour quelle raison\n- As-tu fait des promesses, possèdes-tu des objets qui sont précieux pour quelqu'un d'autre\n")}
+
+	</section>
+{/snippet}
+
+{#snippet tape_3_Monde()}
+	<section>
+		<h3 id="tape-3--monde">{@html applyBase("Étape 3 : Monde")}</h3>
+	{@html renderMarkdown("- Quel lieu de ton enfance existe encore\n- Quel lieu a disparu/ été grandement modifié\n\t- Par quoi, pour quelle raison\n- Dans quel groupe/ organisation as-tu travaillé/ étudié\n\t- A-t'il eu des conflits avec un autre groupe\n- A quel événement incroyable du monde as-tu assisté (procession d'un Doigt, bénédiction d'un dieu, destruction/ édification d'un bâtiment historique, ..)\n\t- Comment cela t'a-t-il impacté\n")}
+
+	</section>
+{/snippet}
+
+{#snippet tape_4_Intrigues()}
+	<section>
+		<h3 id="tape-4--intrigues">{@html applyBase("Étape 4 : Intrigues")}</h3>
+	{@html renderMarkdown("- Quel secret connais-tu ?\n\t- Qui voudrait t'empêcher de le révéler\n\t- Que risques-tu si la vérité éclate\n- Quelle rumeur as-tu entendu\n")}
 
 	</section>
 {/snippet}

@@ -88,7 +88,7 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("<img src=\"%%BASE%%/Hazdaim.png\" alt=\"Hazdaim.png\" width=\"300\" class=\"wiki-image\" />\n\n**Niveau** : 10\n\n|       Arvens        | Runild | Scienctes | Templis |\n| :-----------------: | :----: | :-------: | :-----: |\n| <span class=\"wiki-unresolved\">Or</span> 2 |   -    |     -     |    -    |\n")}
+	{@html renderMarkdown("```statblock\nlayout: Basic 5e Layout\n\nname: Hazdaim\nhp: 50\nmp: 9\ncreature: Acolyte\nstats: [1,2,3,4,5,6,7]\nskillsaves:\n  - \n```\n\n<img src=\"%%BASE%%/Hazdaim.png\" alt=\"Hazdaim.png\" width=\"300\" class=\"wiki-image\" />\n\n**Niveau** : 10\n\n|       Arvens        | Runild | Scienctes | Templis |\n| :-----------------: | :----: | :-------: | :-----: |\n| <span class=\"wiki-unresolved\">Or</span> 2 |   -    |     -     |    -    |\n")}
 {/snippet}
 
 {#snippet attributs()}

@@ -173,7 +173,7 @@
 {#snippet notes()}
 	<section>
 		<h2 id="notes">{@html applyBase("Notes")}</h2>
-	{@html renderMarkdown("\nElfe de Kothula, enfant du Dieu Dormant.\nMémoire perdue depuis un accident om on a dû lui recoudre la jambe avec un bijoux magique (~collier).\nObsession sur les bijoux pour comprendre comment on l'a soignée et comment elle peut aider d'autres personnes ayant le même mal.\n")}
+	{@html renderMarkdown("\nElfe de Kothula, enfant du Dieu Dormant.\nMémoire perdue depuis un accident om on a dû lui recoudre la jambe avec un bijoux magique (~collier).\nObsession sur les bijoux pour comprendre comment on l'a soignée et comment elle peut aider d'autres personnes ayant le même mal.\n\n[Alas Veritas - Alan Sivestri](https://open.spotify.com/track/20iP6vxSoQRgq00W2hHKn9?si=1eae4a03129b4a72)\n")}
 	{@render maisonGuildesEtOrganisations()}
 	{@render relations()}
 	</section>
