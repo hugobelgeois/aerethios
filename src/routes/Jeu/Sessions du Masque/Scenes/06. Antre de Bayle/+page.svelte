@@ -42,12 +42,12 @@
 </script>
 
 <svelte:head>
-  <title>06.</title>
+  <title>06. Antre de Bayle</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>06.</h1>
+    <h1>06. Antre de Bayle</h1>
   </header>
   <div class="markdown-rendered">
 		{@render description()}
@@ -87,7 +87,7 @@
 {#snippet rencontres()}
 	<section>
 		<h3 id="rencontres">{@html applyBase("Rencontres")}</h3>
-	{@html renderMarkdown("\n|   Nom   | Rôle                          |  Race  | Sexe  | Age | Personnalité | Accent |       Equipement        |\n| :-----: | ----------------------------- | :----: | :---: | :-: | :----------: | :----: | :---------------------: |\n| Zaledra | Investisseur du projet Masque | Humain | Homme | 50  |              |        | <span class=\"wiki-unresolved\">5-Zaledra.jpg\\</span> |\n")}
+	{@html renderMarkdown("\n|   Nom   | Rôle                              |  Race  | Sexe  | Age |      Personnalité      | Accent |       Equipement        |\n| :-----: | --------------------------------- | :----: | :---: | :-: | :--------------------: | :----: | :---------------------: |\n|  Bayle  | Ennemi de Placidusax et Fortissax | Dragon |       |  -  | Agressif, ne parle pas |   -    |  <span class=\"wiki-unresolved\">6-Bayle.jpg\\</span>  |\n")}
 
 	</section>
 {/snippet}

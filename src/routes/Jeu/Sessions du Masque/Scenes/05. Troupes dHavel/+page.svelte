@@ -72,12 +72,12 @@
 </script>
 
 <svelte:head>
-  <title>05. Antre de Bayle</title>
+  <title>05. Troupes d'Havel</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>05. Antre de Bayle</h1>
+    <h1>05. Troupes d'Havel</h1>
   </header>
   <div class="markdown-rendered">
 		{@render description()}
@@ -117,7 +117,7 @@
 {#snippet rencontres()}
 	<section>
 		<h3 id="rencontres">{@html applyBase("Rencontres")}</h3>
-	{@html renderMarkdown("\n|  Nom  | Rôle                              |  Race  | Sexe | Age |      Personnalité      | Accent |      Equipement       |\n| :---: | --------------------------------- | :----: | :--: | :-: | :--------------------: | :----: | :-------------------: |\n| Bayle | Ennemi de Placidusax et Fortissax | Dragon |      |  -  | Agressif, ne parle pas |   -    | <span class=\"wiki-unresolved\">5-Bayle.jpg\\</span> |\n")}
+
 	{@render havel()}
 	{@render soldat()}
 	</section>
@@ -169,7 +169,7 @@
 {#snippet spectre()}
 	<section>
 		<h3 id="spectre">{@html applyBase("Spectre")}</h3>
-	{@html renderMarkdown("- A tué la majorité des soldats, qui se relèvent constamment grâce aux champignons\n\t- Elle est attirée par le mouvement\n<img src=\"%%BASE%%/5-Spectre.jpg\" alt=\"5-Spectre.jpg\" width=\"400\" class=\"wiki-image\" />\n")}
+	{@html renderMarkdown("- A tué la majorité des soldats, qui se relèvent constamment grâce aux champignons\n\t- Attirée par le mouvement\n\t- Eteint les torches proches\n\t- Repoussé par la lumière magique\n<img src=\"%%BASE%%/5-Spectre.jpg\" alt=\"5-Spectre.jpg\" width=\"400\" class=\"wiki-image\" />\n")}
 
 	</section>
 {/snippet}
