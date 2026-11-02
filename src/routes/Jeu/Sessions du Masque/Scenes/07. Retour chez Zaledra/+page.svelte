@@ -62,7 +62,7 @@
 {#snippet description()}
 	<section>
 		<h2 id="description">{@html applyBase("Description")}</h2>
-	{@html renderMarkdown("> Description à lire aux joueurs en entrant dans cette scène.\n\n\t...\n")}
+	{@html renderMarkdown("> Description à lire aux joueurs en entrant dans cette scène.\r\n\r\n\t...\r\n\r")}
 
 	</section>
 {/snippet}
@@ -70,7 +70,7 @@
 {#snippet dtails()}
 	<section>
 		<h2 id="dtails">{@html applyBase("Détails")}</h2>
-	{@html renderMarkdown("\n| Lieu | Météo | Heure | Musique |\n| ---- | ----- | ----- | ------- |\n|      |       |       |         |")}
+	{@html renderMarkdown("\r\n| Lieu | Météo | Heure | Musique |\r\n| ---- | ----- | ----- | ------- |\r\n|      |       |       |         |\r")}
 	{@render maps()}
 	{@render rencontres()}
 	</section>
@@ -87,7 +87,7 @@
 {#snippet rencontres()}
 	<section>
 		<h3 id="rencontres">{@html applyBase("Rencontres")}</h3>
-	{@html renderMarkdown("\n|   Nom   | Rôle                              |  Race  | Sexe  | Age |      Personnalité      | Accent |       Equipement        |\n| :-----: | --------------------------------- | :----: | :---: | :-: | :--------------------: | :----: | :---------------------: |\n| Zaledra | Investisseur du projet Masque     | Humain | Homme | 50  |                        |        | <span class=\"wiki-unresolved\">7-Zaledra.jpg\\</span> |\n")}
+	{@html renderMarkdown("\r\n|   Nom   | Rôle                              |  Race  | Sexe  | Age |      Personnalité      | Accent |       Equipement        |\r\n| :-----: | --------------------------------- | :----: | :---: | :-: | :--------------------: | :----: | :---------------------: |\r\n| Zaledra | Investisseur du projet Masque     | Humain | Homme | 50  |                        |        | <span class=\"wiki-unresolved\">7-Zaledra.jpg\\</span> |\r\n\r")}
 
 	</section>
 {/snippet}
@@ -95,7 +95,7 @@
 {#snippet intrigues()}
 	<section>
 		<h2 id="intrigues">{@html applyBase("Intrigues")}</h2>
-	{@html renderMarkdown("> Evénements et leur conclusion sans l'intervention des joueurs\n\n-\n")}
+	{@html renderMarkdown("> Evénements et leur conclusion sans l'intervention des joueurs\r\n\r\n-\r\n\r")}
 
 	</section>
 {/snippet}
@@ -103,7 +103,7 @@
 {#snippet actionsDesJoueurs()}
 	<section>
 		<h2 id="actions-des-joueurs">{@html applyBase("Actions des joueurs")}</h2>
-	{@html renderMarkdown("\n-")}
+	{@html renderMarkdown("\r\n-")}
 
 	</section>
 {/snippet}

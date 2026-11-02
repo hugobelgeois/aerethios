@@ -145,7 +145,7 @@
 {#snippet propulsion()}
 	<section>
 		<h3 id="propulsion">{@html applyBase("Propulsion")}</h3>
-	{@html renderMarkdown("> Altère la technologie qui propulse les munitions, ce qui influe ses dégâts et ses propriétés.\n\n| Type         | Dégâts |  Prix | Propriétés                                                |\n| ------------ | :----: | ----: | --------------------------------------------------------- |\n| Poudre noire |  x 1   |     - | -                                                         |\n| Air comprimé | x 0.5  |  2 po | Transperce les cibles en ligne droite<br>Silencieux       |\n| Magique      |  x 1   |  8 po | Consomme de la magie plutôt que des munitions             |\n| Magnétique   |  x 2   | 20 po | Perds (100/distance max)% de dégâts par mètre de distance |")}
+	{@html renderMarkdown("> Altère la technologie qui propulse les munitions, ce qui influe ses dégâts et ses propriétés.\n\n| Type         | Dégâts |  Prix | Propriétés                                                |\n| ------------ | :----: | ----: | --------------------------------------------------------- |\n| Poudre noire |  x 1   |     - | -                                                         |\n| Air comprimé | x 0.5  |  2 po | Transperce les cibles en ligne droite<br>Silencieux       |\n| Magique      |  x 1   |  8 po | ??                                                        |\n| Magnétique   |  x 2   | 20 po | Perds (100/distance max)% de dégâts par mètre de distance |")}
 
 	</section>
 {/snippet}

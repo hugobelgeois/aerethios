@@ -26,5 +26,5 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("- Les règles spécifiques prennent le dessus sur les règles générales\n- Un jet de dé doit toujours être supérieur ou égal à la valeur attendue pour réussir\n- Les valeurs sont toujours arrondies vers le bas\n- Ordre des opérateurs : `Addition → Soustraction → Multiplication → Division`\n- Ordre des dés : `d4 → d6 → d8 → d10 → d12`\n- Ordre des résistances : `Faiblesse → Rien → Résistance → Immunité → Absorption`")}
+	{@html renderMarkdown("- Les règles spécifiques prennent le dessus sur les règles générales\r\n- Un jet de dé doit toujours être supérieur ou égal à la valeur attendue pour réussir\r\n- Les valeurs sont toujours arrondies vers le bas\r\n- Ordre des opérateurs : `Addition → Soustraction → Multiplication → Division`\r\n- Ordre des dés : `d4 → d6 → d8 → d10 → d12`\r\n- Ordre des résistances : `Faiblesse → Rien → Résistance → Immunité → Absorption`")}
 {/snippet}

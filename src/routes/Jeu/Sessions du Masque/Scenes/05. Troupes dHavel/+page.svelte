@@ -57,6 +57,11 @@
           "level": 3
       },
       {
+          "id": "nid",
+          "text": "Nid",
+          "level": 4
+      },
+      {
           "id": "next",
           "text": "Next",
           "level": 3
@@ -142,7 +147,7 @@
 {#snippet intrigues()}
 	<section>
 		<h2 id="intrigues">{@html applyBase("Intrigues")}</h2>
-	{@html renderMarkdown("> Evénements et leur conclusion sans l'intervention des joueurs\n\n- Ils doivent trouver l'entrée de la montagne pour atteindre Bayle\n\t- 1 tour : Le spectre se déplace\n\t- 2 tours : Les soldats se relèvent\n\t- 1 tour : Les joueurs se déplacent ou détectent les présences champignons\n")}
+	{@html renderMarkdown("> Evénements et leur conclusion sans l'intervention des joueurs\n\n- Ils doivent trouver l'entrée de la montagne pour atteindre Bayle\n\t- 1 tour : Le spectre se déplace\n\t- 6 tours : Les soldats se relèvent\n\t- 1 tour : Les joueurs se déplacent ou détectent les présences champignons\n")}
 	{@render arbre()}
 	{@render campement()}
 	{@render spectre()}
@@ -153,7 +158,7 @@
 {#snippet arbre()}
 	<section>
 		<h3 id="arbre">{@html applyBase("Arbre")}</h3>
-	{@html renderMarkdown("- Boire l'eau permet de se connecter au réseau de champignon et détecter les masses\n\t- Cela informe également les autres champignons de votre présence\n<img src=\"%%BASE%%/5-Tree.jpg\" alt=\"5-Tree.jpg\" width=\"400\" class=\"wiki-image\" />\n")}
+	{@html renderMarkdown("- Boire l'eau permet de se connecter au réseau de champignons et détecter les masses\n<img src=\"%%BASE%%/5-Tree.jpg\" alt=\"5-Tree.jpg\" width=\"400\" class=\"wiki-image\" />\n")}
 
 	</section>
 {/snippet}
@@ -161,7 +166,7 @@
 {#snippet campement()}
 	<section>
 		<h3 id="campement">{@html applyBase("Campement")}</h3>
-	{@html renderMarkdown("- Camp de cadavres où les soldats ont été réanimés par les champignons\n\t- Il n'y en a pas beaucoup, et ils ne sont pas agressifs si au moins un des joueurs a bu l'eau de l'arbre\n- Il y a une lettre qui explique que les éclaireurs ont trouvé l'entré, mais qu'une créature rôde et qu'ils doivent minimiser les pertes pour réussir la mission\n")}
+	{@html renderMarkdown("- Camp de cadavres où les soldats ont été réanimés par les champignons\n\t- Il n'y en a pas beaucoup, et ils ne sont pas agressifs\n- Il y a une lettre qui explique que les éclaireurs ont trouvé l'entré, mais qu'une créature rôde et qu'ils doivent minimiser les pertes pour réussir la mission\n")}
 
 	</section>
 {/snippet}
@@ -170,6 +175,14 @@
 	<section>
 		<h3 id="spectre">{@html applyBase("Spectre")}</h3>
 	{@html renderMarkdown("- A tué la majorité des soldats, qui se relèvent constamment grâce aux champignons\n\t- Attirée par le mouvement\n\t- Eteint les torches proches\n\t- Repoussé par la lumière magique\n<img src=\"%%BASE%%/5-Spectre.jpg\" alt=\"5-Spectre.jpg\" width=\"400\" class=\"wiki-image\" />\n")}
+	{@render nid()}
+	</section>
+{/snippet}
+
+{#snippet nid()}
+	<section>
+		<h4 id="nid">{@html applyBase("Nid")}</h4>
+
 
 	</section>
 {/snippet}

@@ -26,5 +26,5 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("Le joueur peut utiliser ce point pour décrire son action qui touche\nSelon la description, le mj détermine le dé de dégâts et les effets")}
+	{@html renderMarkdown("Le joueur peut utiliser ce point pour décrire son action qui touche\r\nSelon la description, le mj détermine le dé de dégâts et les effets")}
 {/snippet}
