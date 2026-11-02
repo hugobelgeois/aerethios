@@ -136,6 +136,7 @@
   },
   "active": "548494edba67712a",
   "lastOpenFiles": [
+    "src/lib/EmbedBlock.svelte",
     "static/nain-mech.png",
     "static/naga-water.png",
     "static/naga-warrior.png",
@@ -149,7 +150,6 @@
     "src/routes/Notes/statblock/+page.ts",
     "src/routes/Notes/statblock/+page.svelte",
     "src/routes/Notes/statblock",
-    "static/5-Zaledra.jpg",
     "src/routes/Jeu/Sessions du Masque/Scenes/07. Retour chez Zaledra/+page.ts",
     "src/routes/Jeu/Sessions du Masque/Scenes/07. Retour chez Zaledra/+page.svelte",
     "src/routes/Jeu/Sessions du Masque/Scenes/07. Retour chez Zaledra",

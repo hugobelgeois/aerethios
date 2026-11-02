@@ -15,11 +15,11 @@ svelte-lib
 ---- +page.svelte
 --lib
 ---- Body.svelte
----- Embedblock.svelte
+---- EmbedBlock.svelte
 ---- FileTree.svelte
 ---- Graph.svelte
 ---- LeftSidebar.svelte
----- Linkpreview.svelte
+---- LinkPreview.svelte
 ---- linkGraph.ts
 ---- markdownRenderer.ts
 ---- RightSidebar.svelte
