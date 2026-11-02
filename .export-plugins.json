@@ -1,0 +1,567 @@
+{
+  "signatures": {
+    "obsidian-5e-statblocks": "1793631299662.504:1793634338173:1793631299669.1711"
+  },
+  "pages": {
+    "Bestiaire/Bestiaire.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Bestiaire/Planaires/Dieux/Dieux.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Bestiaire/Planaires/Planaires.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Bestiaire/Terrestres/Humanoïdes/Calico.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Bestiaire/Terrestres/Humanoïdes/Elfe.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Bestiaire/Terrestres/Humanoïdes/Humain.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Bestiaire/Terrestres/Humanoïdes/Humanoïdes.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Bestiaire/Terrestres/Humanoïdes/Nain.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Bestiaire/Terrestres/Humanoïdes/Orc.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Bestiaire/Terrestres/Hybrides/Hybrides.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Bestiaire/Terrestres/Hybrides/Naga.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Bestiaire/Terrestres/Hybrides/Vampire.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Bestiaire/Terrestres/Magiques/Magiques.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Bestiaire/Terrestres/Mythiques/Mythiques.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Bestiaire/Terrestres/Naturels/Naturels.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Bestiaire/Terrestres/Plantes/Plantes.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Bestiaire/Terrestres/Terrestres.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Campagne 2/Joueurs/Aldrich.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Campagne 2/Joueurs/Ligolas.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Campagne 2/Joueurs/Ronronov.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Campagne 2/Joueurs/Strauss.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Campagne 2/Joueurs/Urzok.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Campagne 2/Scenes/00a. 13-06-26.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Campagne 2/Scenes/00b. xx-xx-26.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Apprentissages/Apprentissages - New.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Apprentissages/Artisanat - New.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Apprentissages/Misc/Rappel.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Apprentissages/Érudition.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Combat/Armes de mêlées - New.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Combat/Armes à distances - New.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Combat/Armures - New.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Combat/Combat - New.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Combat/Magie - New.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Combat/Magies/Magie - Types.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Combat/Misc/Affinités aux Dégâts.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Combat/Misc/Enchantements.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Combat/Misc/Huiles.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Combat/Misc/Magies.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Compétences/Attributs/Charisme - New.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Compétences/Attributs/Dextérité - New.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Compétences/Attributs/Force - New.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Compétences/Attributs/Mental - New.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Compétences/Maisons.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Générales.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Ideas/Affinités.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Ideas/Perception - New.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Ideas/Points d'Action.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Ideas/Points de cinématique.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Inventaire.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Niveaux.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Repos.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles 2.0 WIP/Tokens.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Apprentissages/Alchimie/Alchimie.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Apprentissages/Alchimie/Cuisinier.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Apprentissages/Alchimie/Invocateur.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Apprentissages/Alchimie/Potionniste.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Apprentissages/Apprentissages.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Apprentissages/Artisanat/Artisanat.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Apprentissages/Artisanat/Forgeron.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Apprentissages/Maîtrises.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Bénédictions.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Combat/Armes.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Combat/Armures.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Combat/Combat.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Combat/Magie.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Compétences/Attributs/Charisme.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Compétences/Attributs/Dextérité.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Compétences/Attributs/Force.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Compétences/Attributs/Mental.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Compétences/Attributs/Perception.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Mini-Jeux/Alcoolique.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Mini-Jeux/Bagarre.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Mini-Jeux/Chasseur de prime.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Mini-Jeux/Commerçant.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Mini-Jeux/Propriétaire.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Mini-Jeux/Recherche Alchimique.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Statuts/Afflictions.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Statuts/Conditions.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Règles/Statuts/Propriétés.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 1 - Kothula.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 2 - Ovliin.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 2/Arc 2 - 05 - 27.04.25.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 2/Arc 2 - 06 - 18.05.25.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 2/Arc 2 - 07 - 21.05.25.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 2/Arc 2 - 08 - 30.05.25.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 2/Arc 2 - 09 - 13.06.25.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 05.08.25 Loic.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 06.07.25 Diego.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 07.07.25 Thomas.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 11.07.25 + 08.08.25 Michel.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 3/Arc 3 - 11 - 14.08.25.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 3/Arc 3 - 12 - 19.09.25.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 3/Arc 3 - 13 - 29.08.25.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 3/Arc 3 - 14 - 11.10.25.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 3/Arc 3 - 15 - 14.11.25.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 3/Arc 3 - 16 - 28.11.25.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 3/Arc 3.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 4/Arc 4 - 21 - 20.02.26.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 4/Arc 4 - 22 - 03.04.26.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 4/Arc 4 - 23 - 23.05.26.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Arc 4/Arc 4.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Joueurs/Arek.md": {
+      "plugins": [
+        "obsidian-5e-statblocks"
+      ],
+      "assets": [
+        "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Arek_1793397272678_hh42cw.webp"
+      ]
+    },
+    "Jeu/Sessions du Masque/Joueurs/Dara.md": {
+      "plugins": [
+        "obsidian-5e-statblocks"
+      ],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Joueurs/Haelrak.md": {
+      "plugins": [
+        "obsidian-5e-statblocks"
+      ],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Joueurs/Hazdaim.md": {
+      "plugins": [
+        "obsidian-5e-statblocks"
+      ],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Joueurs/Léoric.md": {
+      "plugins": [
+        "obsidian-5e-statblocks"
+      ],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Joueurs/Old/Cira.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Scenes/01. Orphelinat d'Hazdaim.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Scenes/02. Campement de Nix et Salomé.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Scenes/03. Village du chef.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Scenes/04. Ville du Dragon.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Scenes/05. Troupes d'Havel.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Scenes/06. Antre de Bayle.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Jeu/Sessions du Masque/Scenes/07. Retour chez Zaledra.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Notes/Arvens.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Notes/Economie.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Notes/Scienctes.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Notes/Stats joueurs.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Notes/Templis.md": {
+      "plugins": [],
+      "assets": []
+    },
+    "Notes/statblock.md": {
+      "plugins": [
+        "obsidian-5e-statblocks"
+      ],
+      "assets": [
+        "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Arek_1793397272678_hh42cw.webp"
+      ]
+    }
+  },
+  "runtimeCss": {
+    "obsidian-5e-statblocks": {
+      "svelte-1unaafm": ".statblock.svelte-1unaafm { --active-primary-color: var(--statblock-primary-color); --active-rule-color: var(--statblock-rule-color); --active-background-color: var(--statblock-background-color); --active-bar-color: var(--statblock-bar-color); --active-bar-border-size: var(--statblock-bar-border-size); --active-bar-border-color: var(--statblock-bar-border-color); --active-image-width: var(--statblock-image-width); --active-image-height: var(--statblock-image-height); --active-image-border-size: var(--statblock-image-border-size); --active-image-border-color: var(\n            --statblock-image-border-color,\n            --active-primary-color\n        ); --active-border-size: var(--statblock-border-size); --active-border-color: var(--statblock-border-color); --active-box-shadow-color: var(--statblock-box-shadow-color); --active-box-shadow-x-offset: var(--statblock-box-shadow-x-offset); --active-box-shadow-y-offset: var(--statblock-box-shadow-y-offset); --active-box-shadow-blur: var(--statblock-box-shadow-blur); --active-font-color: var(\n            --statblock-font-color,\n            --active-primary-color\n        ); --active-font-weight: var(--statblock-font-weight); --active-content-font: var(--statblock-content-font); --active-content-font-size: var(--statblock-content-font-size); --active-heading-font: var(--statblock-heading-font); --active-heading-font-color: var(--statblock-heading-font-color); --active-heading-font-size: var(--statblock-heading-font-size); --active-heading-font-variant: var(--statblock-heading-font-variant); --active-heading-font-weight: var(--statblock-heading-font-weight); --active-heading-line-height: var(--statblock-heading-line-height); --active-property-line-height: var(--statblock-property-line-height); --active-property-font: var(--statblock-property-font); --active-property-font-color: var(--statblock-property-font-color); --active-property-font-variant: var(--statblock-property-font-variant); --active-property-font-size: var(--statblock-property-font-size); --active-property-font-weight: var(--statblock-property-font-weight); --active-property-name-font: var(--statblock-property-name-font); --active-property-name-font-color: var(\n            --statblock-property-name-font-color\n        ); --active-property-name-font-variant: var(\n            --statblock-property-name-font-variant\n        ); --active-property-name-font-size: var(\n            --statblock-property-name-font-size\n        ); --active-property-name-font-weight: var(\n            --statblock-property-name-font-weight\n        ); --active-section-heading-border-size: var(\n            --statblock-section-heading-border-size\n        ); --active-section-heading-border-color: var(\n            --statblock-section-heading-border-color\n        ); --active-section-heading-font: var(--statblock-section-heading-font); --active-section-heading-font-color: var(\n            --statblock-section-heading-font-color\n        ); --active-section-heading-font-size: var(\n            --statblock-section-heading-font-size\n        ); --active-section-heading-font-variant: var(\n            --statblock-section-heading-font-variant\n        ); --active-section-heading-font-weight: var(\n            --statblock-section-heading-font-weight\n        ); --active-saves-line-height: var(--statblock-saves-line-height); --active-spells-font-style: var(--statblock-spells-font-style); --active-subheading-font: var(--statblock-subheading-font); --active-subheading-font-color: var(--statblock-subheading-font-color); --active-subheading-font-size: var(--statblock-subheading-font-size); --active-subheading-font-style: var(--statblock-subheading-font-style); --active-subheading-font-weight: var(\n            --statblock-subheading-font-weight\n        ); --active-table-header-font-weight: var(\n            --statblock-table-header-font-weight\n        ); --active-traits-font: var(--statblock-traits-font); --active-traits-font-color: var(--statblock-traits-font-color); --active-traits-font-size: var(--statblock-traits-font-size); --active-traits-font-weight: var(--statblock-traits-font-weight); --active-traits-font-style: var(--statblock-traits-font-style); --active-traits-name-font: var(--statblock-traits-name-font); --active-traits-name-font-color: var(\n            --statblock-traits-name-font-color\n        ); --active-traits-name-font-size: var(--statblock-traits-name-font-size); --active-traits-name-font-weight: var(\n            --statblock-traits-name-font-weight\n        ); --active-traits-name-font-style: var(\n            --statblock-traits-name-font-style\n        ); --active-link-style: var(--statblock-link-style); }\n.statblock.svelte-1unaafm a { font-style: var(--statblock-link-style); }\n.container.svelte-1unaafm { display: flex; position: relative; width: 100%; margin: 0.25rem 0px; }\n.statblock.svelte-1unaafm { margin: 0px auto; position: relative; }\n.icons.svelte-1unaafm { position: absolute; left: var(--size-2-2); }",
+      "svelte-zyyfbl": ".bar.svelte-zyyfbl { height: 5px; background: var(--active-bar-color); border: var(--active-bar-border-size) solid\n            var(--active-bar-border-color); z-index: 1; width: auto; }",
+      "svelte-420xq": ".statblock-content.svelte-420xq { font-family: var(--active-content-font); font-size: var(--active-content-font-size); color: var(--active-font-color); background-color: var(--active-background-color); padding: 0.5em; border: var(--active-border-size) var(--active-border-color) solid; box-shadow: var(--active-box-shadow-x-offset)\n            var(--active-box-shadow-y-offset) var(--active-box-shadow-blur)\n            var(--active-box-shadow-color); margin-left: 2px; margin-right: 2px; display: flex; gap: 1rem; }\n.statblock-content.svelte-420xq > .column { width: var(--statblock-column-width); }\n@media screen and (max-width: 400px) {\n  .statblock-content.svelte-420xq > .column { width: 75vw; }\n}",
+      "svelte-14k5qsm": ".flex-container.svelte-14k5qsm { display: flex; justify-content: space-between; align-items: center; }\n.heading.svelte-14k5qsm { font-family: var(--active-heading-font); color: var(--active-heading-font-color); font-weight: var(--active-heading-font-weight); font-variant: var(--active-heading-font-variant); font-size: var(--active-heading-font-size); line-height: var(--active-heading-line-height); margin: 0px; letter-spacing: 1px; display: flex; justify-content: space-between; align-items: center; }",
+      "svelte-1lnliuc": ".inline.svelte-1lnliuc { display: inline; }",
+      "svelte-q1pj66": ".image.svelte-q1pj66 { width: var(--active-image-width); height: var(--active-image-height); }\n.image.pointer.svelte-q1pj66 { cursor: pointer; }\nimg.svelte-q1pj66 { object-fit: cover; width: 100%; height: 100%; border-radius: 100%; border: var(--active-image-border-size) solid\n            var(--active-image-border-color); object-position: center center; }",
+      "svelte-k72li0": ".tapered-rule.svelte-k72li0 { width: auto; margin: 0.5em 0px; height: 5px; background: -webkit-linear-gradient(\n            0deg,\n            var(--active-rule-color) 0%,\n            var(--active-rule-color) 50%,\n            var(--active-background-color) 95%,\n            var(--active-background-color) 100%\n        ); clip-path: polygon(0px 0px, 0px 100%, 95% 50%); }",
+      "svelte-1rketb6": ".line.svelte-1rketb6 { line-height: var(--active-property-line-height); display: block; font-family: var(--active-property-font); color: var(--active-property-font-color); font-variant: var(--active-property-font-variant); font-size: var(--active-property-font-size); font-weight: var(--active-property-font-weight); }\n.property-name.svelte-1rketb6 { margin: 0px 0.25em 0px 0px; display: inline; font-family: var(--active-property-name-font); color: var(--active-property-name-font-color); font-variant: var(--active-property-name-font-variant); font-size: var(--active-property-name-font-size); font-weight: var(--active-property-name-font-weight); }",
+      "svelte-1c3hzq4": ".statblock-markdown.svelte-1c3hzq4 { display: inline; }\n.statblock-markdown.svelte-1c3hzq4 p { display: inline; }\n.statblock-markdown.svelte-1c3hzq4 p ~ p { display: inline-block; }",
+      "svelte-1jjvt5k": ".statblock-table-header.svelte-1jjvt5k { font-weight: var(--active-table-header-font-weight); }\n.statblock-table.svelte-1jjvt5k { display: flex; justify-content: space-evenly; align-items: center; flex-wrap: wrap; }\n.table-item.svelte-1jjvt5k { display: flex; justify-content: center; align-items: center; flex-flow: column; }\n.calculated-modifier.svelte-1jjvt5k::before { content: \"(\"; }\n.calculated-modifier.svelte-1jjvt5k::after { content: \")\"; }",
+      "svelte-1674zvq": "details.svelte-1674zvq > summary.svelte-1674zvq.svelte-1674zvq.svelte-1674zvq { outline: none; min-height: 1rem; border-top-left-radius: 0.1rem; border-top-right-radius: 0.1rem; cursor: pointer; position: relative; margin-bottom: 1rem; display: block !important; list-style: none !important; }\ndetails.svelte-1674zvq > summary.svelte-1674zvq.svelte-1674zvq.svelte-1674zvq::-webkit-details-marker, details.svelte-1674zvq > summary.svelte-1674zvq.svelte-1674zvq.svelte-1674zvq::marker { display: none !important; }\ndetails.svelte-1674zvq > summary.svelte-1674zvq > .collapser.svelte-1674zvq.svelte-1674zvq { position: absolute; top: 50%; right: 8px; transform: translateY(-50%); content: \"\"; }\ndetails.svelte-1674zvq > summary.svelte-1674zvq > .collapser.svelte-1674zvq > .handle.svelte-1674zvq { transform: rotate(0deg); transition: transform 0.25s; background-color: currentcolor; mask-repeat: no-repeat; mask-size: contain; mask-image: url(\"data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z'/></svg>\"); width: 20px; height: 20px; }\ndetails[open].svelte-1674zvq > summary.svelte-1674zvq > .collapser.svelte-1674zvq > .handle.svelte-1674zvq { transform: rotate(90deg); }",
+      "svelte-1ascaxr": ".section-header.svelte-1ascaxr { border-bottom: var(--active-section-heading-border-size) solid\n            var(--active-section-heading-border-color); color: var(--active-section-heading-font-color); font-size: var(--active-section-heading-font-size); font-variant: var(--active-section-heading-font-variant); font-weight: var(--active-section-heading-font-weight); font-family: var(--active-section-heading-font); letter-spacing: 1px; margin: 0px 0px 0.3em; break-inside: avoid-column; break-after: avoid-column; }",
+      "svelte-1d2gp4n": ".trait.svelte-1d2gp4n { font-family: var(--active-traits-font); color: var(--active-traits-font-color); font-size: var(--active-traits-font-size); font-weight: var(--active-traits-font-weight); font-style: var(--active-traits-font-style); }\n.trait-name.svelte-1d2gp4n { font-family: var(--active-traits-name-font); color: var(--active-traits-name-font-color); font-size: var(--active-traits-name-font-size); font-weight: var(--active-traits-name-font-weight); font-style: var(--active-traits-name-font-style); }\n.property-name.svelte-1d2gp4n { margin: 0px 0.25em 0px 0px; display: inline; }\n.statblock-nested-traits.svelte-1d2gp4n { margin-left: 1rem; }",
+      "svelte-1fyuyh": ".subheading.svelte-1fyuyh { font-weight: var(--active-subheading-font-weight); font-style: var(--active-subheading-font-style); font-size: var(--active-subheading-font-size); font-family: var(--active-subheading-font-family); color: var(--active-subheading-font-color); margin: 0px; }",
+      "svelte-1vwmbsx": ".line.svelte-1vwmbsx.svelte-1vwmbsx { line-height: var(--active-saves-line-height); display: block; color: var(--active-font-color); }\n.property-name.svelte-1vwmbsx.svelte-1vwmbsx { color: var(--active-property-name-font-color); margin: 0px 0.25em 0px 0px; display: inline; font-weight: bold; }\n.property-text.svelte-1vwmbsx.svelte-1vwmbsx { display: inline; margin: 0px; }\n.save-entry.svelte-1vwmbsx.svelte-1vwmbsx, .save-name.svelte-1vwmbsx.svelte-1vwmbsx, .save-value.svelte-1vwmbsx.svelte-1vwmbsx { display: inline; }\n.save-entry.svelte-1vwmbsx:not(:last-child) .save-value.svelte-1vwmbsx::after { content: \", \"; }",
+      "svelte-1suaf4g": "ul.spell-item.svelte-1suaf4g { margin: 0px; }\nul.spell-item.first.svelte-1suaf4g { margin-top: revert; }\nul.spell-item.last.svelte-1suaf4g { margin-bottom: revert; }\n.spells.svelte-1suaf4g { font-style: italic; }"
+    }
+  }
+}
