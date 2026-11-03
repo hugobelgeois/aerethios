@@ -2,7 +2,7 @@
  * Shared logic for fetching a prerendered SvelteKit route and extracting
  * either the whole `.markdown-rendered` content or just a single heading's
  * section from it. Used by both LinkPreview.svelte (hover panel) and
- * EmbedBlock.svelte (inline embeds) — previously duplicated in both files.
+ * EmbedBlock.svelte (inline embeds).
  */
 import { base } from "$app/paths";
 
@@ -11,16 +11,6 @@ function slugify(text: string): string {
 		.toLowerCase()
 		.replace(/\s+/g, "-")
 		.replace(/[^\w-]/g, "");
-}
-
-/** Rewrite root-relative image URLs to absolute ones (safe to reuse HTML from another page). */
-function absolutizeImages(root: Element): void {
-	root.querySelectorAll<HTMLImageElement>("img").forEach((img) => {
-		const src = img.getAttribute("src");
-		if (src && src.startsWith("/")) {
-			img.setAttribute("src", window.location.origin + src);
-		}
-	});
 }
 
 /**
@@ -35,7 +25,6 @@ function extractFragment(content: Element, fragment: string): string | null {
 
 	const heading =
 		content.querySelector(`#${CSS.escape(slug)}`) ??
-		content.querySelector(`[id="${slug}"]`) ??
 		[...content.querySelectorAll("h1,h2,h3,h4,h5,h6")].find(
 			(el) =>
 				el.id.toLowerCase() === slug.toLowerCase() ||
@@ -79,8 +68,6 @@ export async function fetchWikiHtml(
 	const content =
 		doc.querySelector(".markdown-rendered") ?? doc.querySelector("article");
 	if (!content) throw new Error("selector not found");
-
-	absolutizeImages(content);
 
 	if (fragment) {
 		const narrowed = extractFragment(content, fragment);

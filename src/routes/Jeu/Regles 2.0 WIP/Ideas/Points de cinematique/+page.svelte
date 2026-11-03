@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -11,12 +11,12 @@
 </script>
 
 <svelte:head>
-  <title>Points de cinématique</title>
+  <title>{"Points de cinématique"}</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>Points de cinématique</h1>
+    <h1>{"Points de cinématique"}</h1>
   </header>
   <div class="markdown-rendered">
 		{@render preamble()}
@@ -26,5 +26,5 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("Le joueur peut utiliser ce point pour décrire son action qui touche\r\nSelon la description, le mj détermine le dé de dégâts et les effets")}
+	{@html "<p>Le joueur peut utiliser ce point pour décrire son action qui touche<br>\nSelon la description, le mj détermine le dé de dégâts et les effets</p>"}
 {/snippet}

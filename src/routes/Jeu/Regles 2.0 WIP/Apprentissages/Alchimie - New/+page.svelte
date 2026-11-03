@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -52,12 +52,12 @@
 </script>
 
 <svelte:head>
-  <title>Alchimie - New</title>
+  <title>{"Alchimie - New"}</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>Alchimie - New</h1>
+    <h1>{"Alchimie - New"}</h1>
   </header>
   <div class="markdown-rendered">
 		{@render rappel()}
@@ -69,8 +69,8 @@
 
 {#snippet rappel()}
 	<section>
-		<h3 id="rappel">{@html applyBase("Rappel")}</h3>
-	{@html renderMarkdown("\n| Durée | Interruption | Amélioration | Déconstruction | Consommation | Echec                                                                                    |\n| :---: | :----------: | :----------: | :------------: | :----------: | :--------------------------------------------------------------------------------------- |\n|  2h   |     Oui      |     Non      |      Non       |      -       | - +1 ingrédient inférieur<br>- Possibilité d'effet négatif ajouté à l'objet (`1d20 < 5`) |\n\n")}
+		<h3 id="rappel">{@html "Rappel"}</h3>
+	{@html "<div class=\"table-scroll\"><table><thead><tr><th>Durée</th><th>Interruption</th><th>Amélioration</th><th>Déconstruction</th><th>Consommation</th><th>Echec</th></tr></thead><tbody><tr><td>2h</td><td>Oui</td><td>Non</td><td>Non</td><td>-</td><td>- +1 ingrédient inférieur<br>- Possibilité d'effet négatif ajouté à l'objet (<code>1d20 < 5</code>)</td></tr></tbody></table></div>"}
 	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel"} fragment={""} />
 
 	</section>
@@ -78,7 +78,7 @@
 
 {#snippet spcialisations()}
 	<section>
-		<h2 id="spcialisations">{@html applyBase("Spécialisations")}</h2>
+		<h2 id="spcialisations">{@html "Spécialisations"}</h2>
 
 	{@render bijoutier()}
 	{@render cuisinier()}
@@ -89,32 +89,32 @@
 
 {#snippet bijoutier()}
 	<section>
-		<h3 id="bijoutier">{@html applyBase("Bijoutier")}</h3>
-	{@html renderMarkdown("> Améliore les bijoux d'un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" data-wiki-fragment=\"\">Artisan</a> pour qu'ils émettent des magies que l'on ne maîtrise pas.\n> ~20pa/h\n\n| Commun | Peu Commun | Rare | Légendaire |\n| :----: | :--------: | :--: | :--------: |\n|  1d4   |    1d6     | 2d4  |    2d6     |\n\nAjoute une/des maîtrise.s magique.s selon le type d'ingrédient (à décider avec le Maître du Jeu).\nLa puissance de chaque magie dépend de la rareté de l'ingrédient qui lui est lié.\n\n```Exemple\nJ'ai un coeur de magma légendaire et une algue commune, ma bague fait 2d6 de Feu et 1d4 d'Eau.\n```\n")}
+		<h3 id="bijoutier">{@html "Bijoutier"}</h3>
+	{@html applyBase("<blockquote>Améliore les bijoux d'un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" data-wiki-fragment=\"\">Artisan</a> pour qu'ils émettent des magies que l'on ne maîtrise pas.<br>~20pa/h</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th>Commun</th><th>Peu Commun</th><th>Rare</th><th>Légendaire</th></tr></thead><tbody><tr><td>1d4</td><td>1d6</td><td>2d4</td><td>2d6</td></tr></tbody></table></div>\n<p>Ajoute une/des maîtrise.s magique.s selon le type d'ingrédient (à décider avec le Maître du Jeu).<br>\nLa puissance de chaque magie dépend de la rareté de l'ingrédient qui lui est lié.</p>\n<pre><code class=\"language-Exemple\">J'ai un coeur de magma légendaire et une algue commune, ma bague fait 2d6 de Feu et 1d4 d'Eau.</code></pre>")}
 
 	</section>
 {/snippet}
 
 {#snippet cuisinier()}
 	<section>
-		<h3 id="cuisinier">{@html applyBase("Cuisinier")}</h3>
-	{@html renderMarkdown("> Augmente les attributs pour 1 jour selon l'ingrédient le plus rare de la recette.\n> Le bonus s'applique à un attribut pour chaque ingrédient de rareté différente.\n> ~20pc/h\n\n| Commun | Peu Commun | Rare | Légendaire |\n| :----: | :--------: | :--: | :--------: |\n|   1    |     2      |  3   |     4      |\n\n```Exemple\nJ'ai 2 ingrédients (1 commun, 1 rare), j'ai 3 points bonus à répartir dans 2 attributs.\n```\n")}
+		<h3 id="cuisinier">{@html "Cuisinier"}</h3>
+	{@html "<blockquote>Augmente les attributs pour 1 jour selon l'ingrédient le plus rare de la recette.<br>Le bonus s'applique à un attribut pour chaque ingrédient de rareté différente.<br>~20pc/h</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th>Commun</th><th>Peu Commun</th><th>Rare</th><th>Légendaire</th></tr></thead><tbody><tr><td>1</td><td>2</td><td>3</td><td>4</td></tr></tbody></table></div>\n<pre><code class=\"language-Exemple\">J'ai 2 ingrédients (1 commun, 1 rare), j'ai 3 points bonus à répartir dans 2 attributs.</code></pre>"}
 
 	</section>
 {/snippet}
 
 {#snippet invocateur()}
 	<section>
-		<h3 id="invocateur">{@html applyBase("Invocateur")}</h3>
-	{@html renderMarkdown("> Créé un élémentaire inerte qui prendra vie et puissance grâce à un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Erudition\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Erudition\" data-wiki-fragment=\"\">Érudit</a>.\n> ~50pa/h\n\n| Commun | Peu Commun | Rare | Légendaire |\n| :----: | :--------: | :--: | :--------: |\n|  +12h  |    +1j     | +3j  |    +7j     |\n\nLa durée de vie de l'invocation dépend de la somme de la durée des ingrédients.\n")}
+		<h3 id="invocateur">{@html "Invocateur"}</h3>
+	{@html applyBase("<blockquote>Créé un élémentaire inerte qui prendra vie et puissance grâce à un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Erudition\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Erudition\" data-wiki-fragment=\"\">Érudit</a>.<br>~50pa/h</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th>Commun</th><th>Peu Commun</th><th>Rare</th><th>Légendaire</th></tr></thead><tbody><tr><td>+12h</td><td>+1j</td><td>+3j</td><td>+7j</td></tr></tbody></table></div>\n<p>La durée de vie de l'invocation dépend de la somme de la durée des ingrédients.</p>")}
 
 	</section>
 {/snippet}
 
 {#snippet potionniste()}
 	<section>
-		<h3 id="potionniste">{@html applyBase("Potionniste")}</h3>
-	{@html renderMarkdown("> Fabrique des liquides consommables (potions) ou applicables (huiles) pour altérer le monde.\n> ~10pa/h\n")}
+		<h3 id="potionniste">{@html "Potionniste"}</h3>
+	{@html "<blockquote>Fabrique des liquides consommables (potions) ou applicables (huiles) pour altérer le monde.<br>~10pa/h</blockquote>"}
 	{@render potions()}
 	{@render huiles()}
 	</section>
@@ -122,16 +122,16 @@
 
 {#snippet potions()}
 	<section>
-		<h4 id="potions">{@html applyBase("Potions")}</h4>
-	{@html renderMarkdown("> Débloque une affinité ou une compétence.\n> Durée : 1 jour\n\n|              |  Commun  |      Peu Commun       |         Rare          |    Légendaire     |\n| ------------ | :------: | :-------------------: | :-------------------: | :---------------: |\n| Débloque     | Affinité | Compétence Secondaire | Compétence Principale | Compétence Finale |\n| Intoxication |    +1    |          +2           |          +4           |        +6         |\nLe seuil maximal tolérable pour un humain est 5.\n\tAu delà, le joueur perd chaque jour **2d6HP** par point d'intoxication supplémentaire.\nDormir réduit l’intoxication de 3.\n\nLes potions peuvent également avoir d'autres effets plus précis, tels que rendre des HP par exemple.\n\tDécrivez vos intentions dans votre recette et discutez-en avec votre MJ.\n")}
+		<h4 id="potions">{@html "Potions"}</h4>
+	{@html "<blockquote>Débloque une affinité ou une compétence.<br>Durée : 1 jour</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th></th><th>Commun</th><th>Peu Commun</th><th>Rare</th><th>Légendaire</th></tr></thead><tbody><tr><td>Débloque</td><td>Affinité</td><td>Compétence Secondaire</td><td>Compétence Principale</td><td>Compétence Finale</td></tr><tr><td>Intoxication</td><td>+1</td><td>+2</td><td>+4</td><td>+6</td></tr></tbody></table></div>\n<p>Le seuil maximal tolérable pour un humain est 5.<br>\n\tAu delà, le joueur perd chaque jour <strong>2d6HP</strong> par point d'intoxication supplémentaire.<br>\nDormir réduit l’intoxication de 3.</p>\n<p>Les potions peuvent également avoir d'autres effets plus précis, tels que rendre des HP par exemple.<br>\n\tDécrivez vos intentions dans votre recette et discutez-en avec votre MJ.</p>"}
 
 	</section>
 {/snippet}
 
 {#snippet huiles()}
 	<section>
-		<h4 id="huiles">{@html applyBase("Huiles")}</h4>
-	{@html renderMarkdown("> Applique des <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles\" data-wiki-fragment=\"\">Effets</a> sur une arme dont la fréquence de déclenchement varient selon la rareté de l'ingrédient le plus rare.\n> La puissance est équivalente au nombre d'ingrédient de rareté différente.\n> Durée : 1 combat\n\n|  Commun  | Peu Commun |                 Rare                  |               Légendaire                |\n| :------: | :--------: | :-----------------------------------: | :-------------------------------------: |\n| par tour | par action | par tour<br>+ Cumulable à chaque coup | par action<br>+ Cumulable à chaque coup |\n\n```Exemple\nJ'ai 2 ingrédients (1 peu commun, 1 rare), à chaque fois que je touche l'ennemi (cumulable), les dégâts qu'il prend à chaque tour sont augmentés de 2.\n```\n\nEn plus des ingrédients et du résultat, le joueur doit indiquer le remède sur sa recette, qui s'utilise comme une Action Bonus.\n\nLes huiles ne font pas uniquement des dégâts, elles peuvent donner des malus différents (à valider auprès du Maître du Jeu).\nExemple :\n\n| Afflictions    | Effet                 | Remède      |\n| -------------- | --------------------- | ----------- |\n| Nausée         | -2 à son dé d'attaque | Vomir       |\n| Discombobulate | Dé d'attaque / 2      | Repos Court |")}
+		<h4 id="huiles">{@html "Huiles"}</h4>
+	{@html applyBase("<blockquote>Applique des <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles\" data-wiki-fragment=\"\">Effets</a> sur une arme dont la fréquence de déclenchement varient selon la rareté de l'ingrédient le plus rare.<br>La puissance est équivalente au nombre d'ingrédient de rareté différente.<br>Durée : 1 combat</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th>Commun</th><th>Peu Commun</th><th>Rare</th><th>Légendaire</th></tr></thead><tbody><tr><td>par tour</td><td>par action</td><td>par tour<br>+ Cumulable à chaque coup</td><td>par action<br>+ Cumulable à chaque coup</td></tr></tbody></table></div>\n<pre><code class=\"language-Exemple\">J'ai 2 ingrédients (1 peu commun, 1 rare), à chaque fois que je touche l'ennemi (cumulable), les dégâts qu'il prend à chaque tour sont augmentés de 2.</code></pre>\n<p>En plus des ingrédients et du résultat, le joueur doit indiquer le remède sur sa recette, qui s'utilise comme une Action Bonus.</p>\n<p>Les huiles ne font pas uniquement des dégâts, elles peuvent donner des malus différents (à valider auprès du Maître du Jeu).<br>\nExemple :</p>\n<div class=\"table-scroll\"><table><thead><tr><th>Afflictions</th><th>Effet</th><th>Remède</th></tr></thead><tbody><tr><td>Nausée</td><td>-2 à son dé d'attaque</td><td>Vomir</td></tr><tr><td>Discombobulate</td><td>Dé d'attaque / 2</td><td>Repos Court</td></tr></tbody></table></div>")}
 
 	</section>
 {/snippet}

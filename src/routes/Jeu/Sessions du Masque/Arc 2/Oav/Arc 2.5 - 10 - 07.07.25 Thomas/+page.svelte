@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -32,12 +32,12 @@
 </script>
 
 <svelte:head>
-  <title>Arc 2.5 - 10 - 07.07.25 Thomas</title>
+  <title>{"Arc 2.5 - 10 - 07.07.25 Thomas"}</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>Arc 2.5 - 10 - 07.07.25 Thomas</h1>
+    <h1>{"Arc 2.5 - 10 - 07.07.25 Thomas"}</h1>
   </header>
   <div class="markdown-rendered">
 		{@render preamble()}
@@ -51,20 +51,20 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("> Résumé\n")}
+	{@html "<blockquote>Résumé</blockquote>"}
 {/snippet}
 
 {#snippet dtails()}
 	<section>
-		<h2 id="dtails">{@html applyBase("Détails")}</h2>
-	{@html renderMarkdown("\nLieu actuel : Nirina, Galmag + Pulmius\n\nObjectif :\n\nPnjs notables : <span class=\"wiki-unresolved\">Theon</span>, Grogon, la grosse Berta\n")}
+		<h2 id="dtails">{@html "Détails"}</h2>
+	{@html "<p>Lieu actuel : Nirina, Galmag + Pulmius</p>\n<p>Objectif :</p>\n<p>Pnjs notables : <span class=\"wiki-unresolved\">Theon</span>, Grogon, la grosse Berta</p>"}
 
 	</section>
 {/snippet}
 
 {#snippet scnario()}
 	<section>
-		<h2 id="scnario">{@html applyBase("Scénario")}</h2>
+		<h2 id="scnario">{@html "Scénario"}</h2>
 
 
 	</section>
@@ -72,16 +72,16 @@
 
 {#snippet notes()}
 	<section>
-		<h2 id="notes">{@html applyBase("Notes")}</h2>
-	{@html renderMarkdown("\n> Vie à Galmag avec son \"frère\" <span class=\"wiki-unresolved\">Theon</span>\n> Le rat de la grosse Berta\n> Assassinat de son maître/propriétaire Grogon\n>\n> Fuite pour Pulmius\n> Apprentissage de l'alchimie pendant 2 ans\n>\n> Emprunt bancaire pour rembourser le médicament de <span class=\"wiki-unresolved\">Theon</span> et éviter sa mort\n> <span class=\"wiki-unresolved\">Theon</span> rejoint les Templis pour aider les autres (ouvrir son orphelinat ambulant?) et part en pèlerinage\n>\n> Il fait des quêtes pour monter rang Argent en attendant ses 19 ans\n> Il prend le bateau pour Kothula afin de retrouver sa vie du jdr\n\nRésultat :\n- Rang Arvens Argent 2\n- Survie de <span class=\"wiki-unresolved\">Theon</span>\n- Alchimie\n- Nouvelle magie d'air\n- Nouveaux styles de combat :\n  - Trancher les magies\n")}
+		<h2 id="notes">{@html "Notes"}</h2>
+	{@html "<blockquote>Vie à Galmag avec son \"frère\" <span class=\"wiki-unresolved\">Theon</span><br>Le rat de la grosse Berta<br>Assassinat de son maître/propriétaire Grogon<br><br>Fuite pour Pulmius<br>Apprentissage de l'alchimie pendant 2 ans<br><br>Emprunt bancaire pour rembourser le médicament de <span class=\"wiki-unresolved\">Theon</span> et éviter sa mort<br><span class=\"wiki-unresolved\">Theon</span> rejoint les Templis pour aider les autres (ouvrir son orphelinat ambulant?) et part en pèlerinage<br><br>Il fait des quêtes pour monter rang Argent en attendant ses 19 ans<br>Il prend le bateau pour Kothula afin de retrouver sa vie du jdr</blockquote>\n<p>Résultat :</p>\n<ul><li>Rang Arvens Argent 2</li><li>Survie de <span class=\"wiki-unresolved\">Theon</span></li><li>Alchimie</li><li>Nouvelle magie d'air</li><li>Nouveaux styles de combat :</li><li>Trancher les magies</li></ul>"}
 
 	</section>
 {/snippet}
 
 {#snippet joueurs()}
 	<section>
-		<h2 id="joueurs">{@html applyBase("Joueurs")}</h2>
-	{@html renderMarkdown("\n- [ ] Diego\n- [ ] Loïc\n- [ ] Michel\n- [x] Thomas\n- [ ] William\n\n|         Précédent         |  Suivant  |\n| :-----------------------: | :-------: |\n| <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25\" data-wiki-fragment=\"\">Arc 2 - 09b - 27.06.25</a> | <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 3/Arc 3\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3\" data-wiki-fragment=\"\">Arc 3</a> |")}
+		<h2 id="joueurs">{@html "Joueurs"}</h2>
+	{@html applyBase("<ul><li><input type=\"checkbox\" disabled> Diego</li><li><input type=\"checkbox\" disabled> Loïc</li><li><input type=\"checkbox\" disabled> Michel</li><li><input type=\"checkbox\" disabled checked> Thomas</li><li><input type=\"checkbox\" disabled> William</li></ul>\n<div class=\"table-scroll\"><table><thead><tr><th>Précédent</th><th>Suivant</th></tr></thead><tbody><tr><td><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25\" data-wiki-fragment=\"\">Arc 2 - 09b - 27.06.25</a></td><td><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 3/Arc 3\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3\" data-wiki-fragment=\"\">Arc 3</a></td></tr></tbody></table></div>")}
 
 	</section>
 {/snippet}

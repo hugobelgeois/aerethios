@@ -2,7 +2,6 @@ src
 -- constants.ts
 -- main.ts
 -- pageexporter.ts
--- pluginIntegrations.ts
 -- scaffold.ts
 -- settings.ts
 svelte-lib
@@ -22,7 +21,7 @@ svelte-lib
 ---- LeftSidebar.svelte
 ---- LinkPreview.svelte
 ---- linkGraph.ts
----- markdownRenderer.ts
+---- basePath.ts
 ---- RightSidebar.svelte
 ---- siteTree.ts
 ---- stores.ts

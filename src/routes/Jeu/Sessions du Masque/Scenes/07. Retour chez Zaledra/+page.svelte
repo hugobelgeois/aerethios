@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -42,12 +42,12 @@
 </script>
 
 <svelte:head>
-  <title>07. Retour chez Zaledra</title>
+  <title>{"07. Retour chez Zaledra"}</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>07. Retour chez Zaledra</h1>
+    <h1>{"07. Retour chez Zaledra"}</h1>
   </header>
   <div class="markdown-rendered">
 		{@render description()}
@@ -61,16 +61,16 @@
 
 {#snippet description()}
 	<section>
-		<h2 id="description">{@html applyBase("Description")}</h2>
-	{@html renderMarkdown("> Description à lire aux joueurs en entrant dans cette scène.\r\n\r\n\t...\r\n\r")}
+		<h2 id="description">{@html "Description"}</h2>
+	{@html "<blockquote>Description à lire aux joueurs en entrant dans cette scène.</blockquote>\n<p>\t...</p>"}
 
 	</section>
 {/snippet}
 
 {#snippet dtails()}
 	<section>
-		<h2 id="dtails">{@html applyBase("Détails")}</h2>
-	{@html renderMarkdown("\r\n| Lieu | Météo | Heure | Musique |\r\n| ---- | ----- | ----- | ------- |\r\n|      |       |       |         |\r")}
+		<h2 id="dtails">{@html "Détails"}</h2>
+	{@html "<div class=\"table-scroll\"><table><thead><tr><th>Lieu</th><th>Météo</th><th>Heure</th><th>Musique</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td></tr></tbody></table></div>"}
 	{@render maps()}
 	{@render rencontres()}
 	</section>
@@ -78,7 +78,7 @@
 
 {#snippet maps()}
 	<section>
-		<h3 id="maps">{@html applyBase("Maps")}</h3>
+		<h3 id="maps">{@html "Maps"}</h3>
 
 
 	</section>
@@ -86,24 +86,24 @@
 
 {#snippet rencontres()}
 	<section>
-		<h3 id="rencontres">{@html applyBase("Rencontres")}</h3>
-	{@html renderMarkdown("\r\n|   Nom   | Rôle                              |  Race  | Sexe  | Age |      Personnalité      | Accent |       Equipement        |\r\n| :-----: | --------------------------------- | :----: | :---: | :-: | :--------------------: | :----: | :---------------------: |\r\n| Zaledra | Investisseur du projet Masque     | Humain | Homme | 50  |                        |        | <span class=\"wiki-unresolved\">7-Zaledra.jpg\\</span> |\r\n\r")}
+		<h3 id="rencontres">{@html "Rencontres"}</h3>
+	{@html "<div class=\"table-scroll\"><table><thead><tr><th>Nom</th><th>Rôle</th><th>Race</th><th>Sexe</th><th>Age</th><th>Personnalité</th><th>Accent</th><th>Equipement</th></tr></thead><tbody><tr><td>Zaledra</td><td>Investisseur du projet Masque</td><td>Humain</td><td>Homme</td><td>50</td><td></td><td></td><td><span class=\"wiki-unresolved\">7-Zaledra.jpg\\</span></td></tr></tbody></table></div>"}
 
 	</section>
 {/snippet}
 
 {#snippet intrigues()}
 	<section>
-		<h2 id="intrigues">{@html applyBase("Intrigues")}</h2>
-	{@html renderMarkdown("> Evénements et leur conclusion sans l'intervention des joueurs\r\n\r\n-\r\n\r")}
+		<h2 id="intrigues">{@html "Intrigues"}</h2>
+	{@html "<blockquote>Evénements et leur conclusion sans l'intervention des joueurs</blockquote>\n<p>-</p>"}
 
 	</section>
 {/snippet}
 
 {#snippet actionsDesJoueurs()}
 	<section>
-		<h2 id="actions-des-joueurs">{@html applyBase("Actions des joueurs")}</h2>
-	{@html renderMarkdown("\r\n-")}
+		<h2 id="actions-des-joueurs">{@html "Actions des joueurs"}</h2>
+	{@html "<p>-</p>"}
 
 	</section>
 {/snippet}

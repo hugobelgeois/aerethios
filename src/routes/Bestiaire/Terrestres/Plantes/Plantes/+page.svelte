@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -27,12 +27,12 @@
 </script>
 
 <svelte:head>
-  <title>Plantes</title>
+  <title>{"Plantes"}</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>Plantes</h1>
+    <h1>{"Plantes"}</h1>
   </header>
   <div class="markdown-rendered">
 		{@render preamble()}
@@ -45,28 +45,28 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("Définit les créatures dont le sang est remplacé par de la sève (entre autre) et qui ne possèdent pas d'organes.\n")}
+	{@html "<p>Définit les créatures dont le sang est remplacé par de la sève (entre autre) et qui ne possèdent pas d'organes.</p>"}
 {/snippet}
 
 {#snippet fixes()}
 	<section>
-		<h1 id="fixes">{@html applyBase("Fixées")}</h1>
-	{@html renderMarkdown("\nagissent lentement, ex. carnivores, lianes constricteurs\n")}
+		<h1 id="fixes">{@html "Fixées"}</h1>
+	{@html "<p>agissent lentement, ex. carnivores, lianes constricteurs</p>"}
 
 	</section>
 {/snippet}
 
 {#snippet animes()}
 	<section>
-		<h1 id="animes">{@html applyBase("Animées")}</h1>
-	{@html renderMarkdown("\nformes animales ou humanoïdes, ex. homme-champignon, dryades\n")}
+		<h1 id="animes">{@html "Animées"}</h1>
+	{@html "<p>formes animales ou humanoïdes, ex. homme-champignon, dryades</p>"}
 
 	</section>
 {/snippet}
 
 {#snippet parasites()}
 	<section>
-		<h1 id="parasites">{@html applyBase("Parasites")}</h1>
+		<h1 id="parasites">{@html "Parasites"}</h1>
 
 
 	</section>

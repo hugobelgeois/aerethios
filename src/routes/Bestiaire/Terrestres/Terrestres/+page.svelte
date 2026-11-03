@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -42,12 +42,12 @@
 </script>
 
 <svelte:head>
-  <title>Terrestres</title>
+  <title>{"Terrestres"}</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>Terrestres</h1>
+    <h1>{"Terrestres"}</h1>
   </header>
   <div class="markdown-rendered">
 		{@render humanodes()}

@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -11,12 +11,12 @@
 </script>
 
 <svelte:head>
-  <title>Générales</title>
+  <title>{"Générales"}</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>Générales</h1>
+    <h1>{"Générales"}</h1>
   </header>
   <div class="markdown-rendered">
 		{@render preamble()}
@@ -26,5 +26,5 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("- Les règles spécifiques prennent le dessus sur les règles générales\r\n- Un jet de dé doit toujours être supérieur ou égal à la valeur attendue pour réussir\r\n- Les valeurs sont toujours arrondies vers le bas\r\n- Ordre des opérateurs : `Addition → Soustraction → Multiplication → Division`\r\n- Ordre des dés : `d4 → d6 → d8 → d10 → d12`\r\n- Ordre des résistances : `Faiblesse → Rien → Résistance → Immunité → Absorption`")}
+	{@html "<ul><li>Les règles spécifiques prennent le dessus sur les règles générales</li><li>Un jet de dé doit toujours être supérieur ou égal à la valeur attendue pour réussir</li><li>Les valeurs sont toujours arrondies vers le bas</li><li>Ordre des opérateurs : <code>Addition → Soustraction → Multiplication → Division</code></li><li>Ordre des dés : <code>d4 → d6 → d8 → d10 → d12</code></li><li>Ordre des résistances : <code>Faiblesse → Rien → Résistance → Immunité → Absorption</code></li></ul>"}
 {/snippet}

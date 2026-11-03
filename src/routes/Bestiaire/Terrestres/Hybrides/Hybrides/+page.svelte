@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -37,12 +37,12 @@
 </script>
 
 <svelte:head>
-  <title>Hybrides</title>
+  <title>{"Hybrides"}</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>Hybrides</h1>
+    <h1>{"Hybrides"}</h1>
   </header>
   <div class="markdown-rendered">
 		{@render preamble()}
@@ -57,28 +57,28 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown(">Définit les créatures ayant des origines venant d'au moins 2 espèces différentes.\n")}
+	{@html "<blockquote>Définit les créatures ayant des origines venant d'au moins 2 espèces différentes.</blockquote>"}
 {/snippet}
 
 {#snippet mutations_Maladies()}
 	<section>
-		<h1 id="mutations--maladies">{@html applyBase("<span class=\"wiki-unresolved\">Mutations</span> / Maladies")}</h1>
-	{@html renderMarkdown("\n- <a href=\"%%BASE%%/Bestiaire/Terrestres/Hybrides/Vampire\" class=\"wiki-link internal-link\" data-wiki-href=\"/Bestiaire/Terrestres/Hybrides/Vampire\" data-wiki-fragment=\"\">Vampire</a>\n")}
+		<h1 id="mutations--maladies">{@html "<span class=\"wiki-unresolved\">Mutations</span> / Maladies"}</h1>
+	{@html applyBase("<ul><li><a href=\"%%BASE%%/Bestiaire/Terrestres/Hybrides/Vampire\" class=\"wiki-link internal-link\" data-wiki-href=\"/Bestiaire/Terrestres/Hybrides/Vampire\" data-wiki-fragment=\"\">Vampire</a></li></ul>")}
 
 	</section>
 {/snippet}
 
 {#snippet evolutifs()}
 	<section>
-		<h1 id="evolutifs">{@html applyBase("<span class=\"wiki-unresolved\">Evolutifs</span>")}</h1>
-	{@html renderMarkdown("\n- <a href=\"%%BASE%%/Bestiaire/Terrestres/Hybrides/Naga\" class=\"wiki-link internal-link\" data-wiki-href=\"/Bestiaire/Terrestres/Hybrides/Naga\" data-wiki-fragment=\"\">Naga</a>\n")}
+		<h1 id="evolutifs">{@html "<span class=\"wiki-unresolved\">Evolutifs</span>"}</h1>
+	{@html applyBase("<ul><li><a href=\"%%BASE%%/Bestiaire/Terrestres/Hybrides/Naga\" class=\"wiki-link internal-link\" data-wiki-href=\"/Bestiaire/Terrestres/Hybrides/Naga\" data-wiki-fragment=\"\">Naga</a></li></ul>")}
 
 	</section>
 {/snippet}
 
 {#snippet symbiotiques()}
 	<section>
-		<h1 id="symbiotiques">{@html applyBase("<span class=\"wiki-unresolved\">Symbiotiques</span>")}</h1>
+		<h1 id="symbiotiques">{@html "<span class=\"wiki-unresolved\">Symbiotiques</span>"}</h1>
 
 
 	</section>
@@ -86,7 +86,7 @@
 
 {#snippet hommesBtes()}
 	<section>
-		<h1 id="hommes-btes">{@html applyBase("<span class=\"wiki-unresolved\">Hommes-bêtes</span>")}</h1>
+		<h1 id="hommes-btes">{@html "<span class=\"wiki-unresolved\">Hommes-bêtes</span>"}</h1>
 
 
 	</section>
@@ -94,7 +94,7 @@
 
 {#snippet chimres()}
 	<section>
-		<h1 id="chimres">{@html applyBase("<span class=\"wiki-unresolved\">Chimères</span>")}</h1>
+		<h1 id="chimres">{@html "<span class=\"wiki-unresolved\">Chimères</span>"}</h1>
 
 
 	</section>

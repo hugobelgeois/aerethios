@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -47,12 +47,12 @@
 </script>
 
 <svelte:head>
-  <title>Armures - New</title>
+  <title>{"Armures - New"}</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>Armures - New</h1>
+    <h1>{"Armures - New"}</h1>
   </header>
   <div class="markdown-rendered">
 		{@render preamble()}
@@ -65,28 +65,28 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("> AC (Armor Class) = Difficulté à blesser le personnage.\n")}
+	{@html "<blockquote>AC (Armor Class) = Difficulté à blesser le personnage.</blockquote>"}
 {/snippet}
 
 {#snippet armures()}
 	<section>
-		<h2 id="armures">{@html applyBase("Armures")}</h2>
-	{@html renderMarkdown("> Une armure nécessite 24 matériaux pour être forgée.\n> Si différents types de matériaux sont utilisés, il faut que leur quantité soit toujours proportionnelle (24, 12-12, 8-8-8, 6-6-6-6, ...).\n\n| Catégorie           | Légère                   | Lourde      |\n| ------------------- | ------------------------ | ----------- |\n| AC                  | 5 + Dextérité(Acrobatie) | 10 + Force  |\n| Modificateur max    | 2 \\* rareté              | 1 \\* rareté |\n| Résistances         | Magique                  | Physique    |\n| Coût (pa/ unité)    | 20 \\* rareté             | 4 ^ rareté  |\n| Stabilité/ matériau | -1                       | -1.5        |\n\nL'AC pour les armures composées de multiples matériaux est l'AC moyen des catégories et de leur modificateur utilisés.\n")}
+		<h2 id="armures">{@html "Armures"}</h2>
+	{@html "<blockquote>Une armure nécessite 24 matériaux pour être forgée.<br>Si différents types de matériaux sont utilisés, il faut que leur quantité soit toujours proportionnelle (24, 12-12, 8-8-8, 6-6-6-6, ...).</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th>Catégorie</th><th>Légère</th><th>Lourde</th></tr></thead><tbody><tr><td>AC</td><td>5 + Dextérité(Acrobatie)</td><td>10 + Force</td></tr><tr><td>Modificateur max</td><td>2 \\* rareté</td><td>1 \\* rareté</td></tr><tr><td>Résistances</td><td>Magique</td><td>Physique</td></tr><tr><td>Coût (pa/ unité)</td><td>20 \\* rareté</td><td>4 ^ rareté</td></tr><tr><td>Stabilité/ matériau</td><td>-1</td><td>-1.5</td></tr></tbody></table></div>\n<p>L'AC pour les armures composées de multiples matériaux est l'AC moyen des catégories et de leur modificateur utilisés.</p>"}
 	{@render instabilit()}
 	</section>
 {/snippet}
 
 {#snippet instabilit()}
 	<section>
-		<h3 id="instabilit">{@html applyBase("Instabilité")}</h3>
-	{@html renderMarkdown("> Stabilité de base est de 3.\n\nUne armure est stable tant qu'elle ne dépasse pas 0, sinon elle devient instable.\nUne fois instable, si `jet ennemi >= AC du joueur + (4 * Stabilité)`, l'armure se casse et n'offrira plus de résistance aux prochaines attaques.\n```Exemple\n- 3 légères            → 0 (stable)\n- 2 légères + 1 lourde → -0.5 (instable) → AC + (4 * -0.5)\n- 3 lourdes            → -1.5 (instable) → AC + (4 * -1.5)\n```\n")}
+		<h3 id="instabilit">{@html "Instabilité"}</h3>
+	{@html "<blockquote>Stabilité de base est de 3.</blockquote>\n<p>Une armure est stable tant qu'elle ne dépasse pas 0, sinon elle devient instable.<br>\nUne fois instable, si <code>jet ennemi >= AC du joueur + (4 * Stabilité)</code>, l'armure se casse et n'offrira plus de résistance aux prochaines attaques.</p>\n<pre><code class=\"language-Exemple\">- 3 légères            → 0 (stable)\n- 2 légères + 1 lourde → -0.5 (instable) → AC + (4 * -0.5)\n- 3 lourdes            → -1.5 (instable) → AC + (4 * -1.5)</code></pre>"}
 
 	</section>
 {/snippet}
 
 {#snippet catgories()}
 	<section>
-		<h2 id="catgories">{@html applyBase("Catégories")}</h2>
+		<h2 id="catgories">{@html "Catégories"}</h2>
 
 	{@render lgre()}
 	{@render lourde()}
@@ -96,32 +96,32 @@
 
 {#snippet lgre()}
 	<section>
-		<h3 id="lgre">{@html applyBase("Légère")}</h3>
-	{@html renderMarkdown("> Si armure entièrement légère : ? Les dégâts subits par les huiles sont doublés ?\n\n- Cuir, Ecaille, Os, Mailles\n")}
+		<h3 id="lgre">{@html "Légère"}</h3>
+	{@html "<blockquote>Si armure entièrement légère : ? Les dégâts subits par les huiles sont doublés ?</blockquote>\n<ul><li>Cuir, Ecaille, Os, Mailles</li></ul>"}
 
 	</section>
 {/snippet}
 
 {#snippet lourde()}
 	<section>
-		<h3 id="lourde">{@html applyBase("Lourde")}</h3>
-	{@html renderMarkdown("> Si armure entièrement lourde : Désavantage en Magies & Dextérité(Discrétion).\n\n- Fer, Bronze, Acier, Titane, Mythril, Palladium, Adamantite, Orichalque\n")}
+		<h3 id="lourde">{@html "Lourde"}</h3>
+	{@html "<blockquote>Si armure entièrement lourde : Désavantage en Magies & Dextérité(Discrétion).</blockquote>\n<ul><li>Fer, Bronze, Acier, Titane, Mythril, Palladium, Adamantite, Orichalque</li></ul>"}
 
 	</section>
 {/snippet}
 
 {#snippet raret()}
 	<section>
-		<h3 id="raret">{@html applyBase("Rareté")}</h3>
-	{@html renderMarkdown("> Offre des bonus supplémentaires si tous les matériaux ont la même rareté, peu importe leur catégorie.\n\n|                  | Déchet | Commun | Peu Commun | Rare  | Légendaire |\n| ---------------- | ------ | ------ | ---------- | ----- | ---------- |\n| **Bonus**        | -1 AC  | -      | +1 AC      | +2 AC | +3 AC      |\n| **Prérequis**    | -      | 1      | 2          | 3     | 4          |\n\nLe prérequis est la valeur minimum que le modificateur lié à la catégorie doit avoir pour pouvoir porter cette armure.\nSi l'armure possède des matériaux légers et lourds, elle doit satisfaire le prérequis pour chaque modificateur.\n")}
+		<h3 id="raret">{@html "Rareté"}</h3>
+	{@html "<blockquote>Offre des bonus supplémentaires si tous les matériaux ont la même rareté, peu importe leur catégorie.</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th></th><th>Déchet</th><th>Commun</th><th>Peu Commun</th><th>Rare</th><th>Légendaire</th></tr></thead><tbody><tr><td><strong>Bonus</strong></td><td>-1 AC</td><td>-</td><td>+1 AC</td><td>+2 AC</td><td>+3 AC</td></tr><tr><td><strong>Prérequis</strong></td><td>-</td><td>1</td><td>2</td><td>3</td><td>4</td></tr></tbody></table></div>\n<p>Le prérequis est la valeur minimum que le modificateur lié à la catégorie doit avoir pour pouvoir porter cette armure.<br>\nSi l'armure possède des matériaux légers et lourds, elle doit satisfaire le prérequis pour chaque modificateur.</p>"}
 
 	</section>
 {/snippet}
 
 {#snippet boucliers()}
 	<section>
-		<h2 id="boucliers">{@html applyBase("Boucliers")}</h2>
-	{@html renderMarkdown("\n| Armure   | AC  | Matériaux | Force >= | Stabilité |\n| -------- | --- | :-------: | :------: | --------- |\n| Bocle    | 0   |     2     |   ---    | 0         |\n| Bouclier | -1  |     4     |    14    | 1         |\n| Pavois   | -3  |     8     |    17    | 2         |")}
+		<h2 id="boucliers">{@html "Boucliers"}</h2>
+	{@html "<div class=\"table-scroll\"><table><thead><tr><th>Armure</th><th>AC</th><th>Matériaux</th><th>Force >=</th><th>Stabilité</th></tr></thead><tbody><tr><td>Bocle</td><td>0</td><td>2</td><td>---</td><td>0</td></tr><tr><td>Bouclier</td><td>-1</td><td>4</td><td>14</td><td>1</td></tr><tr><td>Pavois</td><td>-3</td><td>8</td><td>17</td><td>2</td></tr></tbody></table></div>"}
 
 	</section>
 {/snippet}

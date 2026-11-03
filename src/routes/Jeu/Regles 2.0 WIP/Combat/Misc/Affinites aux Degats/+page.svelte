@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -17,12 +17,12 @@
 </script>
 
 <svelte:head>
-  <title>Affinités aux Dégâts</title>
+  <title>{"Affinités aux Dégâts"}</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>Affinités aux Dégâts</h1>
+    <h1>{"Affinités aux Dégâts"}</h1>
   </header>
   <div class="markdown-rendered">
 		{@render dfense()}
@@ -33,8 +33,8 @@
 
 {#snippet dfense()}
 	<section>
-		<h3 id="dfense">{@html applyBase("Défense")}</h3>
-	{@html renderMarkdown("> Amplifie ou réduit les dégâts selon le type d'attaque.\n\n| Défense    | Effet                                        |\n| ---------- | -------------------------------------------- |\n| Vulnérable | Double les dégâts subits                     |\n| Résistant  | Réduit les dégâts de moitié                  |\n| Immunisé   | Ne prend aucun dégâts                        |\n| Absorbant  | Transforme les dégâts subits en HP récupérés |")}
+		<h3 id="dfense">{@html "Défense"}</h3>
+	{@html "<blockquote>Amplifie ou réduit les dégâts selon le type d'attaque.</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th>Défense</th><th>Effet</th></tr></thead><tbody><tr><td>Vulnérable</td><td>Double les dégâts subits</td></tr><tr><td>Résistant</td><td>Réduit les dégâts de moitié</td></tr><tr><td>Immunisé</td><td>Ne prend aucun dégâts</td></tr><tr><td>Absorbant</td><td>Transforme les dégâts subits en HP récupérés</td></tr></tbody></table></div>"}
 
 	</section>
 {/snippet}

@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { browser } from "$app/environment";
 	import { onMount } from "svelte";
 	import { fetchWikiHtml } from "$lib/wikiFetch";
 
@@ -15,7 +14,6 @@
 	let error = $state(false);
 
 	onMount(async () => {
-		if (!browser) return;
 		try {
 			html = await fetchWikiHtml(route, fragment);
 		} catch {

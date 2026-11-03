@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -37,12 +37,12 @@
 </script>
 
 <svelte:head>
-  <title>Humanoïdes</title>
+  <title>{"Humanoïdes"}</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>Humanoïdes</h1>
+    <h1>{"Humanoïdes"}</h1>
   </header>
   <div class="markdown-rendered">
 		{@render preamble()}
@@ -57,7 +57,7 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown(">Définit les entités se tenant debout dotées d'une intelligence sociale inter-espèce\n")}
+	{@html "<blockquote>Définit les entités se tenant debout dotées d'une intelligence sociale inter-espèce</blockquote>"}
 {/snippet}
 
 {#snippet humain()}

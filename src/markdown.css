@@ -79,7 +79,7 @@
 /* ── Tables ──────────────────────────────────────────────── */
 
 /* The actual scroll container — emitted by renderTable() in
-   markdownRenderer.ts wrapping every <table>. A bare <table
+   src/markdownRenderer.ts (plugin side) wrapping every <table>. A bare <table
    style="overflow:auto"> only scrolls once its content truly can't shrink
    any further, which for ordinarily-wrappable text never happens: the
    browser just wraps/shrinks every column down to fit instead, however
@@ -122,29 +122,7 @@
   display: contents; /* sections are structural only, no visual box */
 }
 
-/* ── Embeds ──────────────────────────────────────────────── */
-
-.wiki-embed-block {
-  border-left: 3px solid var(--interactive-accent);
-  background: var(--background-secondary);
-  border-radius: 0 6px 6px 0;
-  padding: 0.75rem 1rem;
-  margin: 1rem 0;
-}
-
-.wiki-embed-content {
-  font-size: 0.9em;
-  pointer-events: none;
-  user-select: none;
-}
-
-.wiki-embed-content h1:first-child,
-.wiki-embed-content h2:first-child,
-.wiki-embed-content h3:first-child { margin-top: 0; }
-
-/* ── Page header (md-page wrapper) ──────────────────────────*/
-
-.md-page {}
+/* ── Page header ─────────────────────────────────────────── */
 
 .md-header {
   margin-bottom: 2em;

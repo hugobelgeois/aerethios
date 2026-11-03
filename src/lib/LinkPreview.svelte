@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { browser } from "$app/environment";
-	import { onDestroy, onMount } from "svelte";
+	import { onMount } from "svelte";
+	import Icon from "$lib/Icon.svelte";
 	import { fetchWikiHtml } from "$lib/wikiFetch";
 
 	let visible = $state(false);
@@ -17,12 +17,11 @@
 	const cache = new Map<string, string>();
 	let showTimer: ReturnType<typeof setTimeout> | null = null;
 	let hideTimer: ReturnType<typeof setTimeout> | null = null;
-	let panelEl: HTMLElement;
+	let panelEl: HTMLElement | undefined = $state();
 
 	// ── Fetch (with per-panel cache on top of the shared fetch helper) ──────
 
 	async function loadPreview(route: string, fragment: string): Promise<string> {
-		if (!browser) throw new Error("SSR");
 		const cacheKey = route + (fragment ? "#" + fragment : "");
 		if (cache.has(cacheKey)) return cache.get(cacheKey)!;
 		const result = await fetchWikiHtml(route, fragment);
@@ -32,11 +31,17 @@
 
 	// ── Hover ──────────────────────────────────────────────────────────────
 
+	const WIKI_LINK = "a[data-wiki-href]";
+
+	function scheduleHide() {
+		hideTimer = setTimeout(() => {
+			visible = false;
+		}, 300);
+	}
+
 	function onMouseOver(e: MouseEvent) {
 		if (pinned) return;
-		const link = (e.target as HTMLElement).closest<HTMLElement>(
-			"a[data-wiki-href]",
-		);
+		const link = (e.target as HTMLElement).closest<HTMLElement>(WIKI_LINK);
 		if (!link) return;
 
 		clearTimeout(hideTimer ?? undefined);
@@ -65,16 +70,11 @@
 		const related = e.relatedTarget as HTMLElement | null;
 		if (related && panelEl?.contains(related)) return;
 
-		// Don't hide if the mouse is still over the link
-		const link = (e.target as HTMLElement).closest<HTMLElement>(
-			"a[data-wiki-href]",
-		);
-		if (!link) return;
+		// Only leaving a wiki link hides the panel
+		if (!(e.target as HTMLElement).closest(WIKI_LINK)) return;
 
 		clearTimeout(showTimer ?? undefined);
-		hideTimer = setTimeout(() => {
-			visible = false;
-		}, 300);
+		scheduleHide();
 	}
 
 	function onPanelMouseOut(e: MouseEvent) {
@@ -83,11 +83,9 @@
 		// Don't hide if moving to the link or staying inside the panel
 		const related = e.relatedTarget as HTMLElement | null;
 		if (related && panelEl?.contains(related)) return;
-		if (related?.closest("a[data-wiki-href]")) return;
+		if (related?.closest(WIKI_LINK)) return;
 
-		hideTimer = setTimeout(() => {
-			visible = false;
-		}, 300);
+		scheduleHide();
 	}
 
 	function onPanelMouseOver() {
@@ -150,16 +148,14 @@
 		document.addEventListener("mouseout", onMouseOut);
 		window.addEventListener("mousemove", onWindowMouseMove);
 		window.addEventListener("mouseup", onWindowMouseUp);
-	});
-
-	onDestroy(() => {
-		if (!browser) return;
-		document.removeEventListener("mouseover", onMouseOver);
-		document.removeEventListener("mouseout", onMouseOut);
-		window.removeEventListener("mousemove", onWindowMouseMove);
-		window.removeEventListener("mouseup", onWindowMouseUp);
-		clearTimeout(showTimer ?? undefined);
-		clearTimeout(hideTimer ?? undefined);
+		return () => {
+			document.removeEventListener("mouseover", onMouseOver);
+			document.removeEventListener("mouseout", onMouseOut);
+			window.removeEventListener("mousemove", onWindowMouseMove);
+			window.removeEventListener("mouseup", onWindowMouseUp);
+			clearTimeout(showTimer ?? undefined);
+			clearTimeout(hideTimer ?? undefined);
+		};
 	});
 </script>
 
@@ -171,8 +167,8 @@
 		class:is-dragging={isDragging}
 		style="left:{x}px; top:{y}px;"
 		bind:this={panelEl}
-		onmouseover={onPanelMouseOver}
-		onmouseout={onPanelMouseOut}
+		onmouseenter={onPanelMouseOver}
+		onmouseleave={onPanelMouseOut}
 		onmousedown={onPanelMouseDown}
 	>
 		<div class="wiki-preview-toolbar">
@@ -182,41 +178,21 @@
 				title={pinned ? "Unpin" : "Pin panel"}
 				onclick={togglePin}
 			>
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					width="14"
-					height="14"
-					viewBox="0 0 24 24"
-					fill={pinned ? "currentColor" : "none"}
-					stroke="currentColor"
-					stroke-width="2"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-				>
+				<Icon size={14} fill={pinned ? "currentColor" : "none"} class="">
 					<line x1="12" y1="17" x2="12" y2="22" /><path
 						d="M5 17h14v-1.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V6h1a2 2 0 0 0 0-4H8a2 2 0 0 0 0 4h1v4.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24Z"
 					/>
-				</svg>
+				</Icon>
 			</button>
 			<button class="wiki-preview-btn" title="Close" onclick={closePanel}>
-				<svg
-					xmlns="http://www.w3.org/2000/svg"
-					width="14"
-					height="14"
-					viewBox="0 0 24 24"
-					fill="none"
-					stroke="currentColor"
-					stroke-width="2"
-					stroke-linecap="round"
-					stroke-linejoin="round"
-				>
+				<Icon size={14} class="">
 					<line x1="18" y1="6" x2="6" y2="18" /><line
 						x1="6"
 						y1="6"
 						x2="18"
 						y2="18"
 					/>
-				</svg>
+				</Icon>
 			</button>
 		</div>
 

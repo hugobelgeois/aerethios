@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -42,12 +42,12 @@
 </script>
 
 <svelte:head>
-  <title>Érudition</title>
+  <title>{"Érudition"}</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>Érudition</h1>
+    <h1>{"Érudition"}</h1>
   </header>
   <div class="markdown-rendered">
 		{@render rappel()}
@@ -59,8 +59,8 @@
 
 {#snippet rappel()}
 	<section>
-		<h3 id="rappel">{@html applyBase("Rappel")}</h3>
-	{@html renderMarkdown("\n| Durée | Interruption | Amélioration | Déconstruction | Consommation | Echec                                                                                 |\n| :---: | :----------: | :----------: | :------------: | :----------: | :------------------------------------------------------------------------------------ |\n|  1h   |     Non      |     Non      |      Non       |  1 Crystal   | Perte de l'objet de base<br>Possibilité d'effet négatif ajouté au joueur (`1d20 < 5`) |\n\n")}
+		<h3 id="rappel">{@html "Rappel"}</h3>
+	{@html "<div class=\"table-scroll\"><table><thead><tr><th>Durée</th><th>Interruption</th><th>Amélioration</th><th>Déconstruction</th><th>Consommation</th><th>Echec</th></tr></thead><tbody><tr><td>1h</td><td>Non</td><td>Non</td><td>Non</td><td>1 Crystal</td><td>Perte de l'objet de base<br>Possibilité d'effet négatif ajouté au joueur (<code>1d20 < 5</code>)</td></tr></tbody></table></div>"}
 	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Apprentissages/Misc/Rappel"} fragment={""} />
 
 	</section>
@@ -68,7 +68,7 @@
 
 {#snippet spcialisations()}
 	<section>
-		<h2 id="spcialisations">{@html applyBase("Spécialisations")}</h2>
+		<h2 id="spcialisations">{@html "Spécialisations"}</h2>
 
 	{@render enchanteur()}
 	{@render invocateur()}
@@ -79,32 +79,32 @@
 
 {#snippet enchanteur()}
 	<section>
-		<h3 id="enchanteur">{@html applyBase("Enchanteur")}</h3>
-	{@html renderMarkdown("> Enchante les équipements fabriquées par un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" data-wiki-fragment=\"\">Artisan</a> ainsi que certaines matières inorganiques pour leur conférer des capacités spéciales.\n> ~2po/h\n\n| Ingrédients    | Simple | Avancé | Incroyable |\n| -------------- | :----: | :----: | :--------: |\n| **Peu Commun** |  1-6   |  7-10  |     -      |\n| **Rare**       |  1-4   |  5-9   |     10     |\n| **Légendaire** |  1-2   |  3-8   |    9-10    |\n\nDes ingrédients plus rares augmentent les chances d'avoir de meilleurs enchantements.\nLa rareté de l'enchantement obtenu se détermine par `1d10`.\nL'enchantement précis se détermine par la recette utilisée par le joueur.\n")}
+		<h3 id="enchanteur">{@html "Enchanteur"}</h3>
+	{@html applyBase("<blockquote>Enchante les équipements fabriquées par un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Artisanat - New\" data-wiki-fragment=\"\">Artisan</a> ainsi que certaines matières inorganiques pour leur conférer des capacités spéciales.<br>~2po/h</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th>Ingrédients</th><th>Simple</th><th>Avancé</th><th>Incroyable</th></tr></thead><tbody><tr><td><strong>Peu Commun</strong></td><td>1-6</td><td>7-10</td><td>-</td></tr><tr><td><strong>Rare</strong></td><td>1-4</td><td>5-9</td><td>10</td></tr><tr><td><strong>Légendaire</strong></td><td>1-2</td><td>3-8</td><td>9-10</td></tr></tbody></table></div>\n<p>Des ingrédients plus rares augmentent les chances d'avoir de meilleurs enchantements.<br>\nLa rareté de l'enchantement obtenu se détermine par <code>1d10</code>.<br>\nL'enchantement précis se détermine par la recette utilisée par le joueur.</p>")}
 
 	</section>
 {/snippet}
 
 {#snippet invocateur()}
 	<section>
-		<h3 id="invocateur">{@html applyBase("Invocateur")}</h3>
-	{@html renderMarkdown("> Insuffle de la vie et de la puissance dans un élémentaire inerte créé par un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" data-wiki-fragment=\"\">Alchimiste</a>.\n> ~1po/h\n\n| Peu Commun | Rare | Légendaire |\n| :--------: | :--: | :--------: |\n|     x1     |  x2  |     x3     |\nLa puissance de l'élémentaire varie selon la rareté des ingrédients.\n")}
+		<h3 id="invocateur">{@html "Invocateur"}</h3>
+	{@html applyBase("<blockquote>Insuffle de la vie et de la puissance dans un élémentaire inerte créé par un <a href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" data-wiki-fragment=\"\">Alchimiste</a>.<br>~1po/h</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th>Peu Commun</th><th>Rare</th><th>Légendaire</th></tr></thead><tbody><tr><td>x1</td><td>x2</td><td>x3</td></tr></tbody></table></div>\n<p>La puissance de l'élémentaire varie selon la rareté des ingrédients.</p>")}
 
 	</section>
 {/snippet}
 
 {#snippet joaillier()}
 	<section>
-		<h3 id="joaillier">{@html applyBase("Joaillier")}</h3>
-	{@html renderMarkdown("> Infuse des gemmes dans les armes pour modifier leur comportement.\n> ~50pa/h\n\n| Peu Commun | Rare | Légendaire |\n| :--------: | :--: | :--------: |\n|     1      |  2   |     4      |\n\nLa modification de dégâts de l'arme varie selon la rareté de l'ingrédient.\n")}
+		<h3 id="joaillier">{@html "Joaillier"}</h3>
+	{@html "<blockquote>Infuse des gemmes dans les armes pour modifier leur comportement.<br>~50pa/h</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th>Peu Commun</th><th>Rare</th><th>Légendaire</th></tr></thead><tbody><tr><td>1</td><td>2</td><td>4</td></tr></tbody></table></div>\n<p>La modification de dégâts de l'arme varie selon la rareté de l'ingrédient.</p>"}
 
 	</section>
 {/snippet}
 
 {#snippet runniste__Wip()}
 	<section>
-		<h3 id="runniste---wip">{@html applyBase("Runniste - WIP")}</h3>
-	{@html renderMarkdown("> Schématise la magie sous forme de gravure, peinture et autre pour la préparer à l'avance et la déclencher à distance.\n> ~50pa/h")}
+		<h3 id="runniste---wip">{@html "Runniste - WIP"}</h3>
+	{@html "<blockquote>Schématise la magie sous forme de gravure, peinture et autre pour la préparer à l'avance et la déclencher à distance.<br>~50pa/h</blockquote>"}
 
 	</section>
 {/snippet}

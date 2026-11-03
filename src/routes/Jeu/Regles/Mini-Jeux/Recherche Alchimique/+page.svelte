@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -32,12 +32,12 @@
 </script>
 
 <svelte:head>
-  <title>Recherche Alchimique</title>
+  <title>{"Recherche Alchimique"}</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>Recherche Alchimique</h1>
+    <h1>{"Recherche Alchimique"}</h1>
   </header>
   <div class="markdown-rendered">
 		{@render preamble()}
@@ -51,37 +51,37 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("> Ce <span class=\"wiki-unresolved\">Mini-Jeux</span> permet aux joueurs de fabriquer des potions ou des invocations afin d'avoir de nouvelles recettes à fabriquer plus rapidement dans le futur.\n> WIP\n")}
+	{@html "<blockquote>Ce <span class=\"wiki-unresolved\">Mini-Jeux</span> permet aux joueurs de fabriquer des potions ou des invocations afin d'avoir de nouvelles recettes à fabriquer plus rapidement dans le futur.<br>WIP</blockquote>"}
 {/snippet}
 
 {#snippet slectionDesIngrdients()}
 	<section>
-		<h2 id="slection-des-ingrdients">{@html applyBase("Sélection des ingrédients")}</h2>
-	{@html renderMarkdown("\nLorsqu’on expérimente, la qualité des ingrédients influe sur la facilité d’en tirer le plein potentiel, mais aussi sur le risque de les perdre.\n\n**Modificateurs de difficulté :**\n\n| Déchet | Commun | Peu Commun | Rare | Légendaire |\n| ------ | ------ | ---------- | ---- | ---------- |\n| +10    | +8     | +6         | +4   | +2         |\n")}
+		<h2 id="slection-des-ingrdients">{@html "Sélection des ingrédients"}</h2>
+	{@html "<p>Lorsqu’on expérimente, la qualité des ingrédients influe sur la facilité d’en tirer le plein potentiel, mais aussi sur le risque de les perdre.</p>\n<p><strong>Modificateurs de difficulté :</strong></p>\n<div class=\"table-scroll\"><table><thead><tr><th>Déchet</th><th>Commun</th><th>Peu Commun</th><th>Rare</th><th>Légendaire</th></tr></thead><tbody><tr><td>+10</td><td>+8</td><td>+6</td><td>+4</td><td>+2</td></tr></tbody></table></div>"}
 
 	</section>
 {/snippet}
 
 {#snippet spcialInvocateur()}
 	<section>
-		<h2 id="spcial-invocateur">{@html applyBase("Spécial Invocateur")}</h2>
-	{@html renderMarkdown("\nLes conditions extérieures modifient les chances de succès.\nChaque paramètre qui diffère d’un point de la condition optimale ajoute **+1** à la difficulté.\nLes conditions optimales sont décidées par le MJ à l’avance.\n\n|Facteur|Exemples de conditions possibles|\n|---|---|\n|Heure|00h – 06h – 12h – 18h – 00h|\n|Température|Froid – Normal – Chaud|\n|Météo|Fortes chutes – Légères chutes – Couvert – Dégagé|\n|État physique|Fatigué – Normal – Revigoré|\n\n> Exemple : si l’heure optimale est 00h mais que l’expérience a lieu à 12h, le joueur ajoute +2 à la difficulté.\n\n---\n")}
+		<h2 id="spcial-invocateur">{@html "Spécial Invocateur"}</h2>
+	{@html "<p>Les conditions extérieures modifient les chances de succès.<br>\nChaque paramètre qui diffère d’un point de la condition optimale ajoute <strong>+1</strong> à la difficulté.<br>\nLes conditions optimales sont décidées par le MJ à l’avance.</p>\n<div class=\"table-scroll\"><table><thead><tr><th>Facteur</th><th>Exemples de conditions possibles</th></tr></thead><tbody><tr><td>Heure</td><td>00h – 06h – 12h – 18h – 00h</td></tr><tr><td>Température</td><td>Froid – Normal – Chaud</td></tr><tr><td>Météo</td><td>Fortes chutes – Légères chutes – Couvert – Dégagé</td></tr><tr><td>État physique</td><td>Fatigué – Normal – Revigoré</td></tr></tbody></table></div>\n<blockquote>Exemple : si l’heure optimale est 00h mais que l’expérience a lieu à 12h, le joueur ajoute +2 à la difficulté.</blockquote>\n<hr>"}
 
 	</section>
 {/snippet}
 
 {#snippet modificateursSupplmentaires()}
 	<section>
-		<h2 id="modificateurs-supplmentaires">{@html applyBase("Modificateurs supplémentaires")}</h2>
-	{@html renderMarkdown("\n- Hors laboratoire stérile : **+3** difficulté\n\n- En présence d’une source magique instable : **+2**\n\n- Avec assistance d’un autre alchimiste : **–1 par niveau de compétence du partenaire** (max –3)\n\n---\n")}
+		<h2 id="modificateurs-supplmentaires">{@html "Modificateurs supplémentaires"}</h2>
+	{@html "<ul><li>Hors laboratoire stérile : <strong>+3</strong> difficulté</li></ul>\n<ul><li>En présence d’une source magique instable : <strong>+2</strong></li></ul>\n<ul><li>Avec assistance d’un autre alchimiste : <strong>–1 par niveau de compétence du partenaire</strong> (max –3)</li></ul>\n<hr>"}
 
 	</section>
 {/snippet}
 
 {#snippet rsolution()}
 	<section>
-		<h2 id="rsolution">{@html applyBase("Résolution")}</h2>
-	{@html renderMarkdown("\nLe joueur lance :\n**1D20 + Mental + Concentration**\ncontre la **difficulté finale** calculée à partir des modificateurs ci-dessus.\n\n**Résultats possibles :**\n\n- **Réussite critique (20 naturel)** : découverte complète, ingrédient préservé.\n\n- **Réussite (≥ difficulté)** : résultat stable, ingrédient consommé.\n\n- **Échec (< difficulté)** : échec partiel, ingrédient perdu.\n\n- **Échec critique (1 naturel)** : explosion, intoxication ou invocation instable (décidé par le MJ).")}
+		<h2 id="rsolution">{@html "Résolution"}</h2>
+	{@html "<p>Le joueur lance :<br>\n<strong>1D20 + Mental + Concentration</strong><br>\ncontre la <strong>difficulté finale</strong> calculée à partir des modificateurs ci-dessus.</p>\n<p><strong>Résultats possibles :</strong></p>\n<ul><li><strong>Réussite critique (20 naturel)</strong> : découverte complète, ingrédient préservé.</li></ul>\n<ul><li><strong>Réussite (≥ difficulté)</strong> : résultat stable, ingrédient consommé.</li></ul>\n<ul><li><strong>Échec (< difficulté)</strong> : échec partiel, ingrédient perdu.</li></ul>\n<ul><li><strong>Échec critique (1 naturel)</strong> : explosion, intoxication ou invocation instable (décidé par le MJ).</li></ul>"}
 
 	</section>
 {/snippet}

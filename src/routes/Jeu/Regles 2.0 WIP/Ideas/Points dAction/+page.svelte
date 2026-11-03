@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -37,12 +37,12 @@
 </script>
 
 <svelte:head>
-  <title>Points d'Action</title>
+  <title>{"Points d'Action"}</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>Points d'Action</h1>
+    <h1>{"Points d'Action"}</h1>
   </header>
   <div class="markdown-rendered">
 		{@render actions()}
@@ -53,8 +53,8 @@
 
 {#snippet actions()}
 	<section>
-		<h1 id="actions">{@html applyBase("Actions")}</h1>
-	{@html renderMarkdown("\r\nLes joueurs possèdent des Points d'Action (PA).\r\n> PA = 3 par défaut\r\n> +1 tous les 5 niveaux ? (5, 10, 15, 20) -> Max 7\r\n\r\nLes PA s'utilisent pendant le tour du joueur (Mouvement, Action, Action Bonus), mais également pendant le tour des ennemis (Réaction).\r\nIls se remplissent à chaque début de tour du joueur.\r\nTout coûte 1 PA de base sauf précision.\r\nPasser son tour à se concentrer permet d'avoir 1PA bonus au tour suivant\r\n\r")}
+		<h1 id="actions">{@html "Actions"}</h1>
+	{@html "<p>Les joueurs possèdent des Points d'Action (PA).</p>\n<blockquote>PA = 3 par défaut<br>+1 tous les 5 niveaux ? (5, 10, 15, 20) -> Max 7</blockquote>\n<p>Les PA s'utilisent pendant le tour du joueur (Mouvement, Action, Action Bonus), mais également pendant le tour des ennemis (Réaction).<br>\nIls se remplissent à chaque début de tour du joueur.<br>\nTout coûte 1 PA de base sauf précision.<br>\nPasser son tour à se concentrer permet d'avoir 1PA bonus au tour suivant</p>"}
 	{@render mouvement()}
 	{@render action()}
 	{@render actionBonus()}
@@ -64,32 +64,32 @@
 
 {#snippet mouvement()}
 	<section>
-		<h2 id="mouvement">{@html applyBase("Mouvement")}</h2>
-	{@html renderMarkdown("\r\nPeu importe la distance (en restant dans les limites de déplacement), le déplacement coûte 1PA.\r\n\r")}
+		<h2 id="mouvement">{@html "Mouvement"}</h2>
+	{@html "<p>Peu importe la distance (en restant dans les limites de déplacement), le déplacement coûte 1PA.</p>"}
 
 	</section>
 {/snippet}
 
 {#snippet action()}
 	<section>
-		<h2 id="action">{@html applyBase("Action")}</h2>
-	{@html renderMarkdown("\r\nLes attaques physiques coûtent 1 PA.\r\nPeu importe le nombre de crystaux utilisés, les attaques magiques coûtent 1 PA.\r\n\r")}
+		<h2 id="action">{@html "Action"}</h2>
+	{@html "<p>Les attaques physiques coûtent 1 PA.<br>\nPeu importe le nombre de crystaux utilisés, les attaques magiques coûtent 1 PA.</p>"}
 
 	</section>
 {/snippet}
 
 {#snippet actionBonus()}
 	<section>
-		<h2 id="action-bonus">{@html applyBase("Action Bonus")}</h2>
-	{@html renderMarkdown("\r\nLe joueur ne peut plus faire d'Actions normales une fois qu'une Action Bonus a été faite.\r\n\r")}
+		<h2 id="action-bonus">{@html "Action Bonus"}</h2>
+	{@html "<p>Le joueur ne peut plus faire d'Actions normales une fois qu'une Action Bonus a été faite.</p>"}
 
 	</section>
 {/snippet}
 
 {#snippet raction()}
 	<section>
-		<h2 id="raction">{@html applyBase("Réaction")}</h2>
-	{@html renderMarkdown("\r\nEsquiver : Pour chaque PA qu'il n'a pas dépensé, le joueur peut ajouter son modificateur de Dextérité à la mobilité de son armure afin d'avoir son Esquive.\r\nS'il a 3 PA non dépensé et qu'une attaque contre lui ne requiert que 2PA pour que son esquive soit supérieure à l'attaque, il peut en consommer seulement 2\r\n")}
+		<h2 id="raction">{@html "Réaction"}</h2>
+	{@html "<p>Esquiver : Pour chaque PA qu'il n'a pas dépensé, le joueur peut ajouter son modificateur de Dextérité à la mobilité de son armure afin d'avoir son Esquive.<br>\nS'il a 3 PA non dépensé et qu'une attaque contre lui ne requiert que 2PA pour que son esquive soit supérieure à l'attaque, il peut en consommer seulement 2</p>"}
 
 	</section>
 {/snippet}

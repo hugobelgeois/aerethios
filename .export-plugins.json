@@ -1,6 +1,6 @@
 {
   "signatures": {
-    "obsidian-5e-statblocks": "1793631299662.504:1793634338173:1793631299669.1711"
+    "obsidian-5e-statblocks": "1793631299662.504:1793712887790:1793631299669.1711"
   },
   "pages": {
     "Bestiaire/Bestiaire.md": {
@@ -563,5 +563,6 @@
       "svelte-1vwmbsx": ".line.svelte-1vwmbsx.svelte-1vwmbsx { line-height: var(--active-saves-line-height); display: block; color: var(--active-font-color); }\n.property-name.svelte-1vwmbsx.svelte-1vwmbsx { color: var(--active-property-name-font-color); margin: 0px 0.25em 0px 0px; display: inline; font-weight: bold; }\n.property-text.svelte-1vwmbsx.svelte-1vwmbsx { display: inline; margin: 0px; }\n.save-entry.svelte-1vwmbsx.svelte-1vwmbsx, .save-name.svelte-1vwmbsx.svelte-1vwmbsx, .save-value.svelte-1vwmbsx.svelte-1vwmbsx { display: inline; }\n.save-entry.svelte-1vwmbsx:not(:last-child) .save-value.svelte-1vwmbsx::after { content: \", \"; }",
       "svelte-1suaf4g": "ul.spell-item.svelte-1suaf4g { margin: 0px; }\nul.spell-item.first.svelte-1suaf4g { margin-top: revert; }\nul.spell-item.last.svelte-1suaf4g { margin-bottom: revert; }\n.spells.svelte-1suaf4g { font-style: italic; }"
     }
-  }
+  },
+  "pageFormat": 2
 }

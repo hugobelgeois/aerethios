@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -27,12 +27,12 @@
 </script>
 
 <svelte:head>
-  <title>00a. 13-06-26</title>
+  <title>{"00a. 13-06-26"}</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>00a. 13-06-26</h1>
+    <h1>{"00a. 13-06-26"}</h1>
   </header>
   <div class="markdown-rendered">
 		{@render preamble()}
@@ -45,29 +45,29 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("> Discussion autour du JDR en général pour comprendre l'expérience globale que tout le monde souhaite.\n")}
+	{@html "<blockquote>Discussion autour du JDR en général pour comprendre l'expérience globale que tout le monde souhaite.</blockquote>"}
 {/snippet}
 
 {#snippet rglesHrp()}
 	<section>
-		<h2 id="rgles-hrp">{@html applyBase("Règles HRP")}</h2>
-	{@html renderMarkdown("- Que fait-on d'un personnage lorsque son joueur est absent ?\n\t- Minimum 2 joueurs pour avancer, on trouve un prétexte RP\n\t\t- Caravane\n- Gsm pendant le jeu ?\n\t- On fait confiance et les joueurs se mettent en Do Not Disturb\n- Joueurs invités en one-shot ?\n\t- Pourquoi pas\n- Blagues hors RP/ références de memes et autres ?\n\t- On peut tenter une session fulle sérieux, mais il faudra sûrement faire des pauses mentales par moment\n\t- Sérieux = 0 & Fun = 10 -> Les attentes sont 3-4\n- Qui prend des notes ? (elles seront retranscrites sur Obsidian pour tout le monde après)\n\t- Diego ?\n- Qui gère les ressources du groupe (matériaux, richesses, nourriture, ..) ?\n- Qui est cartographe ?\n- Malus de groupe ou malus ciblé ?\n\t- Epée de Damocles sur le joueur, et le MJ choisir à quel moment de la session il lui met son désavantage\n")}
+		<h2 id="rgles-hrp">{@html "Règles HRP"}</h2>
+	{@html "<ul><li>Que fait-on d'un personnage lorsque son joueur est absent ?</li><li>Minimum 2 joueurs pour avancer, on trouve un prétexte RP</li><li>Caravane</li><li>Gsm pendant le jeu ?</li><li>On fait confiance et les joueurs se mettent en Do Not Disturb</li><li>Joueurs invités en one-shot ?</li><li>Pourquoi pas</li><li>Blagues hors RP/ références de memes et autres ?</li><li>On peut tenter une session fulle sérieux, mais il faudra sûrement faire des pauses mentales par moment</li><li>Sérieux = 0 & Fun = 10 -> Les attentes sont 3-4</li><li>Qui prend des notes ? (elles seront retranscrites sur Obsidian pour tout le monde après)</li><li>Diego ?</li><li>Qui gère les ressources du groupe (matériaux, richesses, nourriture, ..) ?</li><li>Qui est cartographe ?</li><li>Malus de groupe ou malus ciblé ?</li><li>Epée de Damocles sur le joueur, et le MJ choisir à quel moment de la session il lui met son désavantage</li></ul>"}
 
 	</section>
 {/snippet}
 
 {#snippet pointsDinspiration__RelancerUnDDeSonChoix()}
 	<section>
-		<h2 id="points-dinspiration---relancer-un-d-de-son-choix">{@html applyBase("Points d'inspiration -> Relancer un dé de son choix")}</h2>
-	{@html renderMarkdown("> Seulement pour des actions RP, sinon ça va forcer à sucer le mj\n> Seul le mj doit être au courant pour ne pas que les joueurs agissent d'une façon spécifique à en avoir\n- interaction forte,\n- résolution créative,\n- sacrifice cohérent,\n- développement de relation,\n- prise de risque,\n\n- Le groupe entier gagne quelque chose si :\n    - objectif de session atteint,\n    - excellent RP collectif.\n")}
+		<h2 id="points-dinspiration---relancer-un-d-de-son-choix">{@html "Points d'inspiration -> Relancer un dé de son choix"}</h2>
+	{@html "<blockquote>Seulement pour des actions RP, sinon ça va forcer à sucer le mj<br>Seul le mj doit être au courant pour ne pas que les joueurs agissent d'une façon spécifique à en avoir</blockquote>\n<ul><li>interaction forte,</li><li>résolution créative,</li><li>sacrifice cohérent,</li><li>développement de relation,</li><li>prise de risque,</li></ul>\n<ul><li>Le groupe entier gagne quelque chose si :</li><li>objectif de session atteint,</li><li>excellent RP collectif.</li></ul>"}
 
 	</section>
 {/snippet}
 
 {#snippet prparationDuMonde()}
 	<section>
-		<h2 id="prparation-du-monde">{@html applyBase("Préparation du monde")}</h2>
-	{@html renderMarkdown("- Meilleur souvenir de JDR ?\n\tDiego : Challenge (arène sans arme ni magie), être privé de ses affaires et devoir se débrouiller\n\tLoïc : Ambiance Horreur super immersive\n\tMichel : Voir Diego se voler tout seul + Session solo, connaître des pnjs\n\tThomas : Interaction avec PJ/PNJ qui développent les relations\n- Qu'est-ce que vous avez envie de réaliser dans cette campagne ?\n- Heoric/ Light/ Dark Fantasy ?\n\t- Ca dépend de la région, aucune envie particulière\n- Politique/ Philosophie/ Religions/ Guerres/ Gestion des villes/ Commerce/ Travaux de l'ombre/ ... ?\n\t- Guerre car ça touche à tout (politique, commerce, voyages et quêtes, rencontres, ..)\n- Difficulté ? (Est-ce que vous êtes des humains qui peuvent mourir en 1 coup ou on reste dans le côté fantasy)\n- Complexité ? (Règles de combat, armure et armes, mini-jeux d'apprentissage, ..)\n- Combat stratégique et lent ou rapide et chaotique ?\n\t- D,L,M : Combat avec des règles strictes ou chacun peut agir sans poser des questions au MJ\n\t- T : Combat sans trop de calculs pour rester scénaristique\n- Combat et mini-jeux via gsm pour automatiser les règles ?\n\t- Peut être pratique mais ça risque de briser le côté social -> Il vaut mieux que le système ne soit pas complexe au point de nécessiter un gsm\n- Quel continent vous intéresse pour débuter l'histoire ?\n\t- Kothula\n- Ils commenceront lvl 1, donc ils n'auront probablement pas de magie")}
+		<h2 id="prparation-du-monde">{@html "Préparation du monde"}</h2>
+	{@html "<ul><li>Meilleur souvenir de JDR ?</li></ul>\n<p>\tDiego : Challenge (arène sans arme ni magie), être privé de ses affaires et devoir se débrouiller<br>\n\tLoïc : Ambiance Horreur super immersive<br>\n\tMichel : Voir Diego se voler tout seul + Session solo, connaître des pnjs<br>\n\tThomas : Interaction avec PJ/PNJ qui développent les relations</p>\n<ul><li>Qu'est-ce que vous avez envie de réaliser dans cette campagne ?</li><li>Heoric/ Light/ Dark Fantasy ?</li><li>Ca dépend de la région, aucune envie particulière</li><li>Politique/ Philosophie/ Religions/ Guerres/ Gestion des villes/ Commerce/ Travaux de l'ombre/ ... ?</li><li>Guerre car ça touche à tout (politique, commerce, voyages et quêtes, rencontres, ..)</li><li>Difficulté ? (Est-ce que vous êtes des humains qui peuvent mourir en 1 coup ou on reste dans le côté fantasy)</li><li>Complexité ? (Règles de combat, armure et armes, mini-jeux d'apprentissage, ..)</li><li>Combat stratégique et lent ou rapide et chaotique ?</li><li>D,L,M : Combat avec des règles strictes ou chacun peut agir sans poser des questions au MJ</li><li>T : Combat sans trop de calculs pour rester scénaristique</li><li>Combat et mini-jeux via gsm pour automatiser les règles ?</li><li>Peut être pratique mais ça risque de briser le côté social -> Il vaut mieux que le système ne soit pas complexe au point de nécessiter un gsm</li><li>Quel continent vous intéresse pour débuter l'histoire ?</li><li>Kothula</li><li>Ils commenceront lvl 1, donc ils n'auront probablement pas de magie</li></ul>"}
 
 	</section>
 {/snippet}

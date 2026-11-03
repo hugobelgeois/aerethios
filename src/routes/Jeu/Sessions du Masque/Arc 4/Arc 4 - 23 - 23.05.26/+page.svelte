@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onDestroy } from "svelte";
   import { tocHeadings } from "$lib/stores";
-  import { applyBase, renderMarkdown } from "$lib/markdownRenderer";
+  import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
   import EmbedBlock from "$lib/EmbedBlock.svelte";
 
@@ -52,12 +52,12 @@
 </script>
 
 <svelte:head>
-  <title>Arc 4 - 23 - 23.05.26</title>
+  <title>{"Arc 4 - 23 - 23.05.26"}</title>
 </svelte:head>
 
 <article class="md-page">
   <header class="md-header">
-    <h1>Arc 4 - 23 - 23.05.26</h1>
+    <h1>{"Arc 4 - 23 - 23.05.26"}</h1>
   </header>
   <div class="markdown-rendered">
 		{@render preamble()}
@@ -71,28 +71,28 @@
 <LinkPreview />
 
 {#snippet preamble()}
-	{@html renderMarkdown("> Résumé\n")}
+	{@html "<blockquote>Résumé</blockquote>"}
 {/snippet}
 
 {#snippet dtails()}
 	<section>
-		<h2 id="dtails">{@html applyBase("Détails")}</h2>
-	{@html renderMarkdown("\nLieu actuel : Nirina, Orphelinat\n\nObjectif :\n\nPnjs notables : Théon, Ygor (palefrenier), Maîtresse de maison\n")}
+		<h2 id="dtails">{@html "Détails"}</h2>
+	{@html "<p>Lieu actuel : Nirina, Orphelinat</p>\n<p>Objectif :</p>\n<p>Pnjs notables : Théon, Ygor (palefrenier), Maîtresse de maison</p>"}
 
 	</section>
 {/snippet}
 
 {#snippet notes()}
 	<section>
-		<h2 id="notes">{@html applyBase("Notes")}</h2>
-	{@html renderMarkdown("\n|           |    Arek    |   Dara   | Haelrak  | Hazdaim | Léoric  |\n| --------- | :--------: | :------: | :------: | :-----: | :-----: |\n| **AC**    |   8 (-3)   |    15    |    14    |   14    |    9    |\n| **DR**    |  36 (+30)  |    14    |    12    |   12    |   23    |\n| **DMG**   |   35-69    |  16-49   |   7-33   |  8-36   |  8-32   |\n| **Magie** | 9 (1d8 +5) | 9 (1d12) | 14 (1d8) | 9 (1d6) | 9 (1d8) |\n\n| Ennemi | AC  | DR  | HP  | Léger | Lourde | Magie |\n| ------ | :-: | :-: | :-: | :---: | :----: | :---: |\n|        |     |     |     |       |        |       |\n")}
+		<h2 id="notes">{@html "Notes"}</h2>
+	{@html "<div class=\"table-scroll\"><table><thead><tr><th></th><th>Arek</th><th>Dara</th><th>Haelrak</th><th>Hazdaim</th><th>Léoric</th></tr></thead><tbody><tr><td><strong>AC</strong></td><td>8 (-3)</td><td>15</td><td>14</td><td>14</td><td>9</td></tr><tr><td><strong>DR</strong></td><td>36 (+30)</td><td>14</td><td>12</td><td>12</td><td>23</td></tr><tr><td><strong>DMG</strong></td><td>35-69</td><td>16-49</td><td>7-33</td><td>8-36</td><td>8-32</td></tr><tr><td><strong>Magie</strong></td><td>9 (1d8 +5)</td><td>9 (1d12)</td><td>14 (1d8)</td><td>9 (1d6)</td><td>9 (1d8)</td></tr></tbody></table></div>\n<div class=\"table-scroll\"><table><thead><tr><th>Ennemi</th><th>AC</th><th>DR</th><th>HP</th><th>Léger</th><th>Lourde</th><th>Magie</th></tr></thead><tbody><tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></tbody></table></div>"}
 
 	</section>
 {/snippet}
 
 {#snippet scnario()}
 	<section>
-		<h2 id="scnario">{@html applyBase("Scénario")}</h2>
+		<h2 id="scnario">{@html "Scénario"}</h2>
 
 	{@render _OrphelinatDhazdaim()}
 	{@render _CampementDeNixEtSalom()}
@@ -103,7 +103,7 @@
 
 {#snippet _OrphelinatDhazdaim()}
 	<section>
-		<h3 id="1-orphelinat-dhazdaim">{@html applyBase("1. Orphelinat d'Hazdaim")}</h3>
+		<h3 id="1-orphelinat-dhazdaim">{@html "1. Orphelinat d'Hazdaim"}</h3>
 	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/01. Orphelinat dHazdaim"} fragment={"Description"} />
 	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/01. Orphelinat dHazdaim"} fragment={"Actions des joueurs"} />
 
@@ -112,7 +112,7 @@
 
 {#snippet _CampementDeNixEtSalom()}
 	<section>
-		<h3 id="2-campement-de-nix-et-salom">{@html applyBase("2. Campement de Nix et Salomé")}</h3>
+		<h3 id="2-campement-de-nix-et-salom">{@html "2. Campement de Nix et Salomé"}</h3>
 	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/02. Campement de Nix et Salome"} fragment={"Description"} />
 	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/02. Campement de Nix et Salome"} fragment={"Actions des joueurs"} />
 
@@ -121,7 +121,7 @@
 
 {#snippet _VillageDuChef()}
 	<section>
-		<h3 id="3-village-du-chef">{@html applyBase("3. Village du chef")}</h3>
+		<h3 id="3-village-du-chef">{@html "3. Village du chef"}</h3>
 	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/03. Village du chef"} fragment={"Description"} />
 	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/03. Village du chef"} fragment={"Actions des joueurs"} />
 
@@ -130,7 +130,7 @@
 
 {#snippet _VilleDuDragon()}
 	<section>
-		<h3 id="4-ville-du-dragon">{@html applyBase("4. Ville du Dragon")}</h3>
+		<h3 id="4-ville-du-dragon">{@html "4. Ville du Dragon"}</h3>
 	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/04. Ville du Dragon"} fragment={"Description"} />
 	<EmbedBlock route={"/Jeu/Sessions du Masque/Scenes/04. Ville du Dragon"} fragment={"Actions des joueurs"} />
 
@@ -139,8 +139,8 @@
 
 {#snippet joueurs()}
 	<section>
-		<h2 id="joueurs">{@html applyBase("Joueurs")}</h2>
-	{@html renderMarkdown("\n- [x] Diego\n- [ ] Loïc\n- [x] Michel\n- [ ] Nolan\n- [x] Thomas\n\n|         Précédent          |          Suivant          |\n| :------------------------: | :-----------------------: |\n| <a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26\" data-wiki-fragment=\"\">Arc 4 - 22b - 06.03.26</a> | <span class=\"wiki-unresolved\">Arc 4 - 24 - 05.06.26</span> |")}
+		<h2 id="joueurs">{@html "Joueurs"}</h2>
+	{@html applyBase("<ul><li><input type=\"checkbox\" disabled checked> Diego</li><li><input type=\"checkbox\" disabled> Loïc</li><li><input type=\"checkbox\" disabled checked> Michel</li><li><input type=\"checkbox\" disabled> Nolan</li><li><input type=\"checkbox\" disabled checked> Thomas</li></ul>\n<div class=\"table-scroll\"><table><thead><tr><th>Précédent</th><th>Suivant</th></tr></thead><tbody><tr><td><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26\" data-wiki-fragment=\"\">Arc 4 - 22b - 06.03.26</a></td><td><span class=\"wiki-unresolved\">Arc 4 - 24 - 05.06.26</span></td></tr></tbody></table></div>")}
 
 	</section>
 {/snippet}
