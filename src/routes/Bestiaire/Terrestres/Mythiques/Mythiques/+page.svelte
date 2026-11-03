@@ -3,17 +3,16 @@
   import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
-  import EmbedBlock from "$lib/EmbedBlock.svelte";
 
   tocHeadings.set([
       {
           "id": "ange",
-          "text": "Ange",
+          "text": "[[Ange]]",
           "level": 1
       },
       {
           "id": "dmon",
-          "text": "Démon",
+          "text": "[[Démon]]",
           "level": 1
       }
   ]);
@@ -23,6 +22,12 @@
 
 <svelte:head>
   <title>{"Mythiques"}</title>
+  <meta name="description" content={"Définit les entités dont les pouvoirs peuvent côtoyer celui des dieux. issus des dieux ou de la Fracture Ange Démon"} />
+  <meta property="og:type" content={"article"} />
+  <meta property="og:title" content={"Mythiques"} />
+  <meta property="og:description" content={"Définit les entités dont les pouvoirs peuvent côtoyer celui des dieux. issus des dieux ou de la Fracture Ange Démon"} />
+  <meta property="og:site_name" content={"Aerethios"} />
+  <meta name="twitter:card" content={"summary"} />
 </svelte:head>
 
 <article class="md-page">
@@ -30,30 +35,8 @@
     <h1>{"Mythiques"}</h1>
   </header>
   <div class="markdown-rendered">
-		{@render preamble()}
-		{@render ange()}
-		{@render dmon()}
+    {@html "<p dir=\"auto\">Définit les entités dont les pouvoirs peuvent côtoyer celui des dieux.<br>\nissus des dieux ou de la Fracture</p>\n<h1 data-heading=\"[[Ange]]\" dir=\"auto\" id=\"ange\">Ange</h1>\n<h1 data-heading=\"[[Démon]]\" dir=\"auto\" id=\"dmon\">Démon</h1>"}
   </div>
 </article>
 
 <LinkPreview />
-
-{#snippet preamble()}
-	{@html "<p>Définit les entités dont les pouvoirs peuvent côtoyer celui des dieux.<br>\nissus des dieux ou de la Fracture</p>"}
-{/snippet}
-
-{#snippet ange()}
-	<section>
-		<h1 id="ange">{@html "<span class=\"wiki-unresolved\">Ange</span>"}</h1>
-
-
-	</section>
-{/snippet}
-
-{#snippet dmon()}
-	<section>
-		<h1 id="dmon">{@html "<span class=\"wiki-unresolved\">Démon</span>"}</h1>
-
-
-	</section>
-{/snippet}

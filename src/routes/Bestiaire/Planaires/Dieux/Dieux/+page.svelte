@@ -3,37 +3,36 @@
   import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
-  import EmbedBlock from "$lib/EmbedBlock.svelte";
 
   tocHeadings.set([
       {
           "id": "gamesh-dieu-scintillant",
-          "text": "Gamesh, Dieu Scintillant",
+          "text": "[[Gamesh, Dieu Scintillant]]",
           "level": 2
       },
       {
           "id": "aerel-grande-mre",
-          "text": "Aerel, Grande Mère",
+          "text": "[[Aerel, Grande Mère]]",
           "level": 2
       },
       {
           "id": "radeon-dieu-dormant",
-          "text": "Radeon, Dieu Dormant",
+          "text": "[[Radeon, Dieu Dormant]]",
           "level": 2
       },
       {
           "id": "obel-dieu-affam",
-          "text": "Obel, Dieu Affamé",
+          "text": "[[Obel, Dieu Affamé]]",
           "level": 2
       },
       {
           "id": "kira-dieu-pourpre",
-          "text": "Kira, Dieu Pourpre",
+          "text": "[[Kira, Dieu Pourpre]]",
           "level": 2
       },
       {
           "id": "imet-dieu-patient",
-          "text": "Imet, Dieu Patient",
+          "text": "[[Imet, Dieu Patient]]",
           "level": 2
       }
   ]);
@@ -43,6 +42,12 @@
 
 <svelte:head>
   <title>{"Dieux"}</title>
+  <meta name="description" content={"Gamesh, Dieu Scintillant Dieu de la possession et du partage. Aerel, Grande Mère Déesse de la fertilité et du plaisir. Radeon, Dieu Dormant Dieu des rêves et des ambitions. Obel, Dieu Affamé Dieu…"} />
+  <meta property="og:type" content={"article"} />
+  <meta property="og:title" content={"Dieux"} />
+  <meta property="og:description" content={"Gamesh, Dieu Scintillant Dieu de la possession et du partage. Aerel, Grande Mère Déesse de la fertilité et du plaisir. Radeon, Dieu Dormant Dieu des rêves et des ambitions. Obel, Dieu Affamé Dieu…"} />
+  <meta property="og:site_name" content={"Aerethios"} />
+  <meta name="twitter:card" content={"summary"} />
 </svelte:head>
 
 <article class="md-page">
@@ -50,61 +55,8 @@
     <h1>{"Dieux"}</h1>
   </header>
   <div class="markdown-rendered">
-		{@render gameshDieuScintillant()}
-		{@render aerelGrandeMre()}
-		{@render radeonDieuDormant()}
-		{@render obelDieuAffam()}
-		{@render kiraDieuPourpre()}
-		{@render imetDieuPatient()}
+    {@html applyBase("<h2 data-heading=\"[[Gamesh, Dieu Scintillant]]\" dir=\"auto\" id=\"gamesh-dieu-scintillant\">Gamesh, Dieu Scintillant</h2>\n<p dir=\"auto\">Dieu de la possession et du partage.<br>\n<span alt=\"dieu-scintillant.png\" src=\"dieu-scintillant.png\" class=\"internal-embed media-embed image-embed is-loaded\"><img alt=\"dieu-scintillant.png\" src=\"%%BASE%%/Images/dieu-scintillant.png\"></span></p>\n<h2 data-heading=\"[[Aerel, Grande Mère]]\" dir=\"auto\" id=\"aerel-grande-mre\">Aerel, Grande Mère</h2>\n<p dir=\"auto\">Déesse de la fertilité et du plaisir.<br>\n<span alt=\"grande-mère.png\" src=\"grande-mère.png\" class=\"internal-embed media-embed image-embed is-loaded\"><img alt=\"grande-mère.png\" src=\"%%BASE%%/Images/grande-m%C3%A8re.png\"></span></p>\n<h2 data-heading=\"[[Radeon, Dieu Dormant]]\" dir=\"auto\" id=\"radeon-dieu-dormant\">Radeon, Dieu Dormant</h2>\n<p dir=\"auto\">Dieu des rêves et des ambitions.<br>\n<span alt=\"dieu-dormant.png\" src=\"dieu-dormant.png\" class=\"internal-embed media-embed image-embed is-loaded\"><img alt=\"dieu-dormant.png\" src=\"%%BASE%%/Images/dieu-dormant.png\"></span><br>\n<span alt=\"dieu-dormant-2.png\" src=\"dieu-dormant-2.png\" class=\"internal-embed media-embed image-embed is-loaded\"><img alt=\"dieu-dormant-2.png\" src=\"%%BASE%%/Images/dieu-dormant-2.png\"></span></p>\n<h2 data-heading=\"[[Obel, Dieu Affamé]]\" dir=\"auto\" id=\"obel-dieu-affam\">Obel, Dieu Affamé</h2>\n<p dir=\"auto\">Dieu d'élévation et de grandeur</p>\n<h2 data-heading=\"[[Kira, Dieu Pourpre]]\" dir=\"auto\" id=\"kira-dieu-pourpre\">Kira, Dieu Pourpre</h2>\n<p dir=\"auto\">Dieu de la guerre et de l'amour.<br>\n<span alt=\"dieu-pourpre.png\" src=\"dieu-pourpre.png\" class=\"internal-embed media-embed image-embed is-loaded\"><img alt=\"dieu-pourpre.png\" src=\"%%BASE%%/Images/dieu-pourpre.png\"></span></p>\n<h2 data-heading=\"[[Imet, Dieu Patient]]\" dir=\"auto\" id=\"imet-dieu-patient\">Imet, Dieu Patient</h2>\n<p dir=\"auto\">Dieu de la vie et de la mort.</p>")}
   </div>
 </article>
 
 <LinkPreview />
-
-{#snippet gameshDieuScintillant()}
-	<section>
-		<h2 id="gamesh-dieu-scintillant">{@html applyBase("<a href=\"%%BASE%%/Notes/Archives/Gamesh_ Dieu Scintillant\" class=\"wiki-link internal-link\" data-wiki-href=\"/Notes/Archives/Gamesh_ Dieu Scintillant\" data-wiki-fragment=\"\">Gamesh, Dieu Scintillant</a>")}</h2>
-	{@html applyBase("<p>Dieu de la possession et du partage.<br>\n<img src=\"%%BASE%%/dieu-scintillant.png\" alt=\"dieu-scintillant.png\" class=\"wiki-image\" /></p>")}
-
-	</section>
-{/snippet}
-
-{#snippet aerelGrandeMre()}
-	<section>
-		<h2 id="aerel-grande-mre">{@html applyBase("<a href=\"%%BASE%%/Notes/Archives/Aerel_ Grande Mere\" class=\"wiki-link internal-link\" data-wiki-href=\"/Notes/Archives/Aerel_ Grande Mere\" data-wiki-fragment=\"\">Aerel, Grande Mère</a>")}</h2>
-	{@html applyBase("<p>Déesse de la fertilité et du plaisir.<br>\n<img src=\"%%BASE%%/grande-m%C3%A8re.png\" alt=\"grande-mère.png\" class=\"wiki-image\" /></p>")}
-
-	</section>
-{/snippet}
-
-{#snippet radeonDieuDormant()}
-	<section>
-		<h2 id="radeon-dieu-dormant">{@html applyBase("<a href=\"%%BASE%%/Notes/Archives/Radeon_ Dieu Dormant\" class=\"wiki-link internal-link\" data-wiki-href=\"/Notes/Archives/Radeon_ Dieu Dormant\" data-wiki-fragment=\"\">Radeon, Dieu Dormant</a>")}</h2>
-	{@html applyBase("<p>Dieu des rêves et des ambitions.<br>\n<img src=\"%%BASE%%/dieu-dormant.png\" alt=\"dieu-dormant.png\" class=\"wiki-image\" /><br>\n<img src=\"%%BASE%%/dieu-dormant-2.png\" alt=\"dieu-dormant-2.png\" class=\"wiki-image\" /></p>")}
-
-	</section>
-{/snippet}
-
-{#snippet obelDieuAffam()}
-	<section>
-		<h2 id="obel-dieu-affam">{@html applyBase("<a href=\"%%BASE%%/Notes/Archives/Obel_ Dieu Affame\" class=\"wiki-link internal-link\" data-wiki-href=\"/Notes/Archives/Obel_ Dieu Affame\" data-wiki-fragment=\"\">Obel, Dieu Affamé</a>")}</h2>
-	{@html "<p>Dieu d'élévation et de grandeur</p>"}
-
-	</section>
-{/snippet}
-
-{#snippet kiraDieuPourpre()}
-	<section>
-		<h2 id="kira-dieu-pourpre">{@html applyBase("<a href=\"%%BASE%%/Notes/Archives/Kira_ Dieu Pourpre\" class=\"wiki-link internal-link\" data-wiki-href=\"/Notes/Archives/Kira_ Dieu Pourpre\" data-wiki-fragment=\"\">Kira, Dieu Pourpre</a>")}</h2>
-	{@html applyBase("<p>Dieu de la guerre et de l'amour.<br>\n<img src=\"%%BASE%%/dieu-pourpre.png\" alt=\"dieu-pourpre.png\" class=\"wiki-image\" /></p>")}
-
-	</section>
-{/snippet}
-
-{#snippet imetDieuPatient()}
-	<section>
-		<h2 id="imet-dieu-patient">{@html applyBase("<a href=\"%%BASE%%/Notes/Archives/Imet_ Dieu Patient\" class=\"wiki-link internal-link\" data-wiki-href=\"/Notes/Archives/Imet_ Dieu Patient\" data-wiki-fragment=\"\">Imet, Dieu Patient</a>")}</h2>
-	{@html "<p>Dieu de la vie et de la mort.</p>"}
-
-	</section>
-{/snippet}

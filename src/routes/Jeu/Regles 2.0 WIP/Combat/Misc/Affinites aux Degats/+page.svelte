@@ -3,7 +3,6 @@
   import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
-  import EmbedBlock from "$lib/EmbedBlock.svelte";
 
   tocHeadings.set([
       {
@@ -18,6 +17,12 @@
 
 <svelte:head>
   <title>{"Affinités aux Dégâts"}</title>
+  <meta name="description" content={"Défense Amplifie ou réduit les dégâts selon le type d'attaque. Défense Effet Vulnérable Double les dégâts subits Résistant Réduit les dégâts de moitié Immunisé Ne prend aucun dégâts Absorbant…"} />
+  <meta property="og:type" content={"article"} />
+  <meta property="og:title" content={"Affinités aux Dégâts"} />
+  <meta property="og:description" content={"Défense Amplifie ou réduit les dégâts selon le type d'attaque. Défense Effet Vulnérable Double les dégâts subits Résistant Réduit les dégâts de moitié Immunisé Ne prend aucun dégâts Absorbant…"} />
+  <meta property="og:site_name" content={"Aerethios"} />
+  <meta name="twitter:card" content={"summary"} />
 </svelte:head>
 
 <article class="md-page">
@@ -25,16 +30,8 @@
     <h1>{"Affinités aux Dégâts"}</h1>
   </header>
   <div class="markdown-rendered">
-		{@render dfense()}
+    {@html "<h3 data-heading=\"Défense\" dir=\"auto\" id=\"dfense\">Défense</h3>\n<blockquote dir=\"auto\">\n<p>Amplifie ou réduit les dégâts selon le type d'attaque.</p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th>Défense</th>\n<th>Effet</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Vulnérable</td>\n<td>Double les dégâts subits</td>\n</tr>\n<tr>\n<td>Résistant</td>\n<td>Réduit les dégâts de moitié</td>\n</tr>\n<tr>\n<td>Immunisé</td>\n<td>Ne prend aucun dégâts</td>\n</tr>\n<tr>\n<td>Absorbant</td>\n<td>Transforme les dégâts subits en HP récupérés</td>\n</tr>\n</tbody>\n</table></div>"}
   </div>
 </article>
 
 <LinkPreview />
-
-{#snippet dfense()}
-	<section>
-		<h3 id="dfense">{@html "Défense"}</h3>
-	{@html "<blockquote>Amplifie ou réduit les dégâts selon le type d'attaque.</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th>Défense</th><th>Effet</th></tr></thead><tbody><tr><td>Vulnérable</td><td>Double les dégâts subits</td></tr><tr><td>Résistant</td><td>Réduit les dégâts de moitié</td></tr><tr><td>Immunisé</td><td>Ne prend aucun dégâts</td></tr><tr><td>Absorbant</td><td>Transforme les dégâts subits en HP récupérés</td></tr></tbody></table></div>"}
-
-	</section>
-{/snippet}

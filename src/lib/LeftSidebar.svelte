@@ -2,6 +2,7 @@
 	import { page } from "$app/stores";
 	import FileTree from "$lib/FileTree.svelte";
 	import { toRoutePath } from "$lib/routePath";
+	import SearchResults from "$lib/SearchResults.svelte";
 	import SidebarShell from "$lib/SidebarShell.svelte";
 
 	interface Props {
@@ -38,6 +39,7 @@
 	>
 		<div class="nav-files-container node-insert-event">
 			<FileTree {query} {currentPath} />
+			<SearchResults {query} />
 		</div>
 	</div>
 </SidebarShell>

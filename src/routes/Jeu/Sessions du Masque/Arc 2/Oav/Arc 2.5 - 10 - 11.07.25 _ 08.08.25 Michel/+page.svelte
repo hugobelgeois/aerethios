@@ -3,7 +3,6 @@
   import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
-  import EmbedBlock from "$lib/EmbedBlock.svelte";
 
   tocHeadings.set([
       {
@@ -33,6 +32,12 @@
 
 <svelte:head>
   <title>{"Arc 2.5 - 10 - 11.07.25 + 08.08.25 Michel"}</title>
+  <meta name="description" content={"Résumé Détails Lieu actuel : Nirina, à droite de Galmag, au bord du plateau Objectif : Pnjs notables : Loukas, Calista, Nyx, Chlorys, Eryndor Scénario Notes Massacre de son village et son enlèvement,…"} />
+  <meta property="og:type" content={"article"} />
+  <meta property="og:title" content={"Arc 2.5 - 10 - 11.07.25 + 08.08.25 Michel"} />
+  <meta property="og:description" content={"Résumé Détails Lieu actuel : Nirina, à droite de Galmag, au bord du plateau Objectif : Pnjs notables : Loukas, Calista, Nyx, Chlorys, Eryndor Scénario Notes Massacre de son village et son enlèvement,…"} />
+  <meta property="og:site_name" content={"Aerethios"} />
+  <meta name="twitter:card" content={"summary"} />
 </svelte:head>
 
 <article class="md-page">
@@ -40,48 +45,8 @@
     <h1>{"Arc 2.5 - 10 - 11.07.25 + 08.08.25 Michel"}</h1>
   </header>
   <div class="markdown-rendered">
-		{@render preamble()}
-		{@render dtails()}
-		{@render scnario()}
-		{@render notes()}
-		{@render joueurs()}
+    {@html applyBase("<blockquote dir=\"auto\">\n<p>Résumé</p>\n</blockquote>\n<h2 data-heading=\"Détails\" dir=\"auto\" id=\"dtails\">Détails</h2>\n<p dir=\"auto\">Lieu actuel : Nirina, à droite de Galmag, au bord du plateau</p>\n<p dir=\"auto\">Objectif :</p>\n<p dir=\"auto\">Pnjs notables : Loukas, Calista, Nyx, Chlorys, Eryndor</p>\n<h2 data-heading=\"Scénario\" dir=\"auto\" id=\"scnario\">Scénario</h2>\n<h2 data-heading=\"Notes\" dir=\"auto\" id=\"notes\">Notes</h2>\n<blockquote dir=\"auto\">\n<p><del>Massacre de son village et son enlèvement, au nom du Dieu Avoir (possession &amp; partage)</del><br>\n<em>Colonisation de son village, et échange de mains d'oeuvres contre une alliance commerciale avec les croyants du Dieu Avoir<br>\nSon père et lui sont emmenés</em></p>\n<p>Il est emmené dans une ville sans sa famille<br>\nPremier aperçu, on le traite correctement, il est nourri, logé et éduqué -&gt; On partage avec lui/ On lui offre des choses<br>\n<del>Mais en échange, il est la possession des Niriniens/ On lui vole ce qui fait son identité (viol, battu, ..)</del><br>\n<em>Vu qu'il est déjà avancé pour son âge (alchimie et tentative d'assassiner le bateau qui les a amenés), on le traite correctement pour son potentiel</em><br>\n.<br>\n*Il se rend compte qu'il y a une différence de traitement entre les \"esclaves\" et on lui proposera des choix</p>\n<ul>\n<li dir=\"auto\">Il continuera son apprentissage avec les Niriniens pour devenir le bras du Dieu Avoir</li>\n<li dir=\"auto\">Il sera formé de ses 10 à 18ans et fera partie d'une escouade spéciale (genre Space Marine) : Loukas, Calista, Nyx, Chlorys</li>\n<li dir=\"auto\">Il dera ensuite un sabotage de l'intérieur et se soulèvera avec les esclaves</li>\n<li dir=\"auto\">Il devient le visage de la révolution religieuse*</li>\n<li dir=\"auto\">~~Tuer le Doigt Eryndor qui passait par là et fuir vers Galmag</li>\n<li dir=\"auto\">Vie de criminel pire qu'on la connait~~</li>\n</ul>\n<p><em>Il a une relation forte avec Chlorys et Nyx<br>\nIl restera avec Chlorys encore 2-3 ans avant qu'elle s'élance seule vers l'aventure<br>\nNyx continuera d'aider le peuple en pétant des gueules</em></p>\n</blockquote>\n<p dir=\"auto\">Résultat :</p>\n<ul>\n<li dir=\"auto\">Nouvelle magie de Lumière</li>\n<li dir=\"auto\">Nouveaux styles de combat :\n<ul>\n<li dir=\"auto\">Muraille impénétrable</li>\n<li dir=\"auto\">Poings d'acier</li>\n</ul>\n</li>\n<li dir=\"auto\">Lire &amp; Ecrire</li>\n<li dir=\"auto\">Alchimie 3 (4?)</li>\n<li dir=\"auto\">Culture augmentée</li>\n<li dir=\"auto\">Toile céleste de Lumière</li>\n<li dir=\"auto\">Maîtrise d'arme +1</li>\n<li dir=\"auto\">Combat aux poings +2</li>\n<li dir=\"auto\">Plus un criminel, mais réputation de leader de révolution à travers les continents</li>\n<li dir=\"auto\">Relation avec Nyx et Chlorys</li>\n<li dir=\"auto\">Surveillé par les Doigts</li>\n</ul>\n<h2 data-heading=\"Joueurs\" dir=\"auto\" id=\"joueurs\">Joueurs</h2>\n<ul class=\"contains-task-list\">\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Diego</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Loïc</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Michel</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Thomas</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">William</li>\n</ul>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th align=\"center\">Précédent</th>\n<th align=\"center\">Suivant</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25\" data-wiki-fragment=\"\">Arc 2 - 09b - 27.06.25</a></td>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 3/Arc 3\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3\" data-wiki-fragment=\"\">Arc 3</a></td>\n</tr>\n</tbody>\n</table></div>")}
   </div>
 </article>
 
 <LinkPreview />
-
-{#snippet preamble()}
-	{@html "<blockquote>Résumé</blockquote>"}
-{/snippet}
-
-{#snippet dtails()}
-	<section>
-		<h2 id="dtails">{@html "Détails"}</h2>
-	{@html "<p>Lieu actuel : Nirina, à droite de Galmag, au bord du plateau</p>\n<p>Objectif :</p>\n<p>Pnjs notables : <span class=\"wiki-unresolved\">Loukas</span>, <span class=\"wiki-unresolved\">Calista</span>, <span class=\"wiki-unresolved\">Nyx</span>, <span class=\"wiki-unresolved\">Chlorys</span>, Eryndor</p>"}
-
-	</section>
-{/snippet}
-
-{#snippet scnario()}
-	<section>
-		<h2 id="scnario">{@html "Scénario"}</h2>
-
-
-	</section>
-{/snippet}
-
-{#snippet notes()}
-	<section>
-		<h2 id="notes">{@html "Notes"}</h2>
-	{@html "<blockquote><del>Massacre de son village et son enlèvement, au nom du Dieu Avoir (possession & partage)</del><br>*Colonisation de son village, et échange de mains d'oeuvres contre une alliance commerciale avec les croyants du Dieu Avoir<br>Son père et lui sont emmenés*<br><br>Il est emmené dans une ville sans sa famille<br>Premier aperçu, on le traite correctement, il est nourri, logé et éduqué -> On partage avec lui/ On lui offre des choses<br><del>Mais en échange, il est la possession des Niriniens/ On lui vole ce qui fait son identité (viol, battu, ..)</del><br><em>Vu qu'il est déjà avancé pour son âge (alchimie et tentative d'assassiner le bateau qui les a amenés), on le traite correctement pour son potentiel</em><br>.<br>*Il se rend compte qu'il y a une différence de traitement entre les \"esclaves\" et on lui proposera des choix<br>- Il continuera son apprentissage avec les Niriniens pour devenir le bras du Dieu Avoir<br>- Il sera formé de ses 10 à 18ans et fera partie d'une escouade spéciale (genre Space Marine) : <span class=\"wiki-unresolved\">Loukas</span>, <span class=\"wiki-unresolved\">Calista</span>, <span class=\"wiki-unresolved\">Nyx</span>, <span class=\"wiki-unresolved\">Chlorys</span><br>- Il dera ensuite un sabotage de l'intérieur et se soulèvera avec les esclaves<br>- Il devient le visage de la révolution religieuse*<br>- ~~Tuer le Doigt Eryndor qui passait par là et fuir vers Galmag<br>- Vie de criminel pire qu'on la connait~~<br><br>*Il a une relation forte avec <span class=\"wiki-unresolved\">Chlorys</span> et <span class=\"wiki-unresolved\">Nyx</span><br>Il restera avec <span class=\"wiki-unresolved\">Chlorys</span> encore 2-3 ans avant qu'elle s'élance seule vers l'aventure<br><span class=\"wiki-unresolved\">Nyx</span> continuera d'aider le peuple en pétant des gueules*</blockquote>\n<p>Résultat :</p>\n<ul><li>Nouvelle magie de Lumière</li><li>Nouveaux styles de combat :</li><li>Muraille impénétrable</li><li>Poings d'acier</li><li>Lire & Ecrire</li><li>Alchimie 3 (4?)</li><li>Culture augmentée</li><li>Toile céleste de Lumière</li><li>Maîtrise d'arme +1</li><li>Combat aux poings +2</li><li>Plus un criminel, mais réputation de leader de révolution à travers les continents</li><li>Relation avec <span class=\"wiki-unresolved\">Nyx</span> et <span class=\"wiki-unresolved\">Chlorys</span></li><li>Surveillé par les Doigts</li></ul>"}
-
-	</section>
-{/snippet}
-
-{#snippet joueurs()}
-	<section>
-		<h2 id="joueurs">{@html "Joueurs"}</h2>
-	{@html applyBase("<ul><li><input type=\"checkbox\" disabled> Diego</li><li><input type=\"checkbox\" disabled> Loïc</li><li><input type=\"checkbox\" disabled checked> Michel</li><li><input type=\"checkbox\" disabled> Thomas</li><li><input type=\"checkbox\" disabled> William</li></ul>\n<div class=\"table-scroll\"><table><thead><tr><th>Précédent</th><th>Suivant</th></tr></thead><tbody><tr><td><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25\" data-wiki-fragment=\"\">Arc 2 - 09b - 27.06.25</a></td><td><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 3/Arc 3\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3\" data-wiki-fragment=\"\">Arc 3</a></td></tr></tbody></table></div>")}
-
-	</section>
-{/snippet}

@@ -3,7 +3,6 @@
   import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
-  import EmbedBlock from "$lib/EmbedBlock.svelte";
 
   tocHeadings.set([
       {
@@ -23,6 +22,12 @@
 
 <svelte:head>
   <title>{"Arc 4"}</title>
+  <meta name="description" content={"Détails Lieu actuel : Nirina Objectif.s : Enquêter sur le culte du masque et leurs armes pour le maîtriser, Abattre le Magala Pnjs notables : Syrithia, Boss final : Sessions Arc 4 - 18 - 02.01.26 Arc…"} />
+  <meta property="og:type" content={"article"} />
+  <meta property="og:title" content={"Arc 4"} />
+  <meta property="og:description" content={"Détails Lieu actuel : Nirina Objectif.s : Enquêter sur le culte du masque et leurs armes pour le maîtriser, Abattre le Magala Pnjs notables : Syrithia, Boss final : Sessions Arc 4 - 18 - 02.01.26 Arc…"} />
+  <meta property="og:site_name" content={"Aerethios"} />
+  <meta name="twitter:card" content={"summary"} />
 </svelte:head>
 
 <article class="md-page">
@@ -30,25 +35,8 @@
     <h1>{"Arc 4"}</h1>
   </header>
   <div class="markdown-rendered">
-		{@render dtails()}
-		{@render sessions()}
+    {@html applyBase("<h2 data-heading=\"Détails\" dir=\"auto\" id=\"dtails\">Détails</h2>\n<p dir=\"auto\">Lieu actuel : Nirina</p>\n<p dir=\"auto\">Objectif.s : Enquêter sur le culte du masque et leurs armes pour le maîtriser, Abattre le Magala</p>\n<p dir=\"auto\">Pnjs notables : Syrithia,</p>\n<p dir=\"auto\">Boss final : </p>\n<h2 data-heading=\"Sessions\" dir=\"auto\" id=\"sessions\">Sessions</h2>\n<p dir=\"auto\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26\" data-wiki-fragment=\"\">Arc 4 - 18 - 02.01.26</a></p>\n<p dir=\"auto\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26\" data-wiki-fragment=\"\">Arc 4 - 19 - 23.01.26</a></p>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th align=\"center\">Précédent</th>\n<th align=\"center\">Suivant</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 3/Arc 3\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3\" data-wiki-fragment=\"\">Arc 3</a></td>\n<td align=\"center\">Arc 5</td>\n</tr>\n</tbody>\n</table></div>")}
   </div>
 </article>
 
 <LinkPreview />
-
-{#snippet dtails()}
-	<section>
-		<h2 id="dtails">{@html "Détails"}</h2>
-	{@html applyBase("<p>Lieu actuel : <a href=\"%%BASE%%/Geographie/Nirina/Nirina\" class=\"wiki-link internal-link\" data-wiki-href=\"/Geographie/Nirina/Nirina\" data-wiki-fragment=\"\">Nirina</a></p>\n<p>Objectif.s : Enquêter sur le culte du masque et leurs armes pour le maîtriser, Abattre le Magala</p>\n<p>Pnjs notables : <span class=\"wiki-unresolved\">Syrithia</span>,</p>\n<p>Boss final : </p>")}
-
-	</section>
-{/snippet}
-
-{#snippet sessions()}
-	<section>
-		<h2 id="sessions">{@html "Sessions"}</h2>
-	{@html applyBase("<p><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26\" data-wiki-fragment=\"\">Arc 4 - 18 - 02.01.26</a></p>\n<p><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26\" data-wiki-fragment=\"\">Arc 4 - 19 - 23.01.26</a></p>\n<div class=\"table-scroll\"><table><thead><tr><th>Précédent</th><th>Suivant</th></tr></thead><tbody><tr><td><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 3/Arc 3\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3\" data-wiki-fragment=\"\">Arc 3</a></td><td><span class=\"wiki-unresolved\">Arc 5</span></td></tr></tbody></table></div>")}
-
-	</section>
-{/snippet}

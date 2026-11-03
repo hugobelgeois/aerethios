@@ -3,7 +3,6 @@
   import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
-  import EmbedBlock from "$lib/EmbedBlock.svelte";
 
   tocHeadings.set([]);
 
@@ -12,6 +11,12 @@
 
 <svelte:head>
   <title>{"Générales"}</title>
+  <meta name="description" content={"Les règles spécifiques prennent le dessus sur les règles générales Un jet de dé doit toujours être supérieur ou égal à la valeur attendue pour réussir Les valeurs sont toujours arrondies vers le bas…"} />
+  <meta property="og:type" content={"article"} />
+  <meta property="og:title" content={"Générales"} />
+  <meta property="og:description" content={"Les règles spécifiques prennent le dessus sur les règles générales Un jet de dé doit toujours être supérieur ou égal à la valeur attendue pour réussir Les valeurs sont toujours arrondies vers le bas…"} />
+  <meta property="og:site_name" content={"Aerethios"} />
+  <meta name="twitter:card" content={"summary"} />
 </svelte:head>
 
 <article class="md-page">
@@ -19,12 +24,8 @@
     <h1>{"Générales"}</h1>
   </header>
   <div class="markdown-rendered">
-		{@render preamble()}
+    {@html "<ul>\n<li dir=\"auto\">Les règles spécifiques prennent le dessus sur les règles générales</li>\n<li dir=\"auto\">Un jet de dé doit toujours être supérieur ou égal à la valeur attendue pour réussir</li>\n<li dir=\"auto\">Les valeurs sont toujours arrondies vers le bas</li>\n<li dir=\"auto\">Ordre des opérateurs : <code>Addition → Soustraction → Multiplication → Division</code></li>\n<li dir=\"auto\">Ordre des dés : <code>d4 → d6 → d8 → d10 → d12</code></li>\n<li dir=\"auto\">Ordre des résistances : <code>Faiblesse → Rien → Résistance → Immunité → Absorption</code></li>\n</ul>"}
   </div>
 </article>
 
 <LinkPreview />
-
-{#snippet preamble()}
-	{@html "<ul><li>Les règles spécifiques prennent le dessus sur les règles générales</li><li>Un jet de dé doit toujours être supérieur ou égal à la valeur attendue pour réussir</li><li>Les valeurs sont toujours arrondies vers le bas</li><li>Ordre des opérateurs : <code>Addition → Soustraction → Multiplication → Division</code></li><li>Ordre des dés : <code>d4 → d6 → d8 → d10 → d12</code></li><li>Ordre des résistances : <code>Faiblesse → Rien → Résistance → Immunité → Absorption</code></li></ul>"}
-{/snippet}

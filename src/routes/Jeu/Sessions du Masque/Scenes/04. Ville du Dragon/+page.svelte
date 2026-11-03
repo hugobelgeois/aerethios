@@ -3,7 +3,6 @@
   import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
-  import EmbedBlock from "$lib/EmbedBlock.svelte";
 
   tocHeadings.set([
       {
@@ -35,6 +34,11 @@
           "id": "actions-des-joueurs",
           "text": "Actions des joueurs",
           "level": 2
+      },
+      {
+          "id": "01-11-2026",
+          "text": "**01-11-2026**",
+          "level": 2
       }
   ]);
 
@@ -43,6 +47,12 @@
 
 <svelte:head>
   <title>{"04. Ville du Dragon"}</title>
+  <meta name="description" content={"Description Description à lire aux joueurs en entrant dans cette scène. Vous arrivez en fin de journée. Une brise fraiche et légèrement humide vient vous caresser le visage. Vous sentez le sel se…"} />
+  <meta property="og:type" content={"article"} />
+  <meta property="og:title" content={"04. Ville du Dragon"} />
+  <meta property="og:description" content={"Description Description à lire aux joueurs en entrant dans cette scène. Vous arrivez en fin de journée. Une brise fraiche et légèrement humide vient vous caresser le visage. Vous sentez le sel se…"} />
+  <meta property="og:site_name" content={"Aerethios"} />
+  <meta name="twitter:card" content={"summary"} />
 </svelte:head>
 
 <article class="md-page">
@@ -50,60 +60,8 @@
     <h1>{"04. Ville du Dragon"}</h1>
   </header>
   <div class="markdown-rendered">
-		{@render description()}
-		{@render dtails()}
-		{@render intrigues()}
-		{@render actionsDesJoueurs()}
+    {@html applyBase("<h2 data-heading=\"Description\" dir=\"auto\" id=\"description\">Description</h2>\n<blockquote dir=\"auto\">\n<p>Description à lire aux joueurs en entrant dans cette scène.</p>\n</blockquote>\n<pre><code>Vous arrivez en fin de journée.\nUne brise fraiche et légèrement humide vient vous caresser le visage.\nVous sentez le sel se solidifier sur votre peau et s'effriter contre vos vêtements.\nLes lumières s'allument doucement, comme pour préparer votre arrivée.\nVous regardez les derniers rayons du soleil dorer les murs blans avant d'entrer dans la ville de Fruss.\n</code></pre>\n<p dir=\"auto\"><span width=\"1200\" alt=\"4-Ville-du-Dragon.jpg\" src=\"4-Ville-du-Dragon.jpg\" class=\"internal-embed media-embed image-embed is-loaded\"><img alt=\"4-Ville-du-Dragon.jpg\" width=\"1200\" src=\"%%BASE%%/Jeu/Sessions%20du%20Masque/Scenes/Images/4-Ville-du-Dragon.jpg\"></span></p>\n<h2 data-heading=\"Détails\" dir=\"auto\" id=\"dtails\">Détails</h2>\n<h3 data-heading=\"Musiques\" dir=\"auto\" id=\"musiques\">Musiques</h3>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th>Lieu</th>\n<th>Musique</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Fruss</td>\n<td><a data-tooltip-position=\"top\" aria-label=\"https://www.youtube.com/watch?v=5i_enopHsqg\" rel=\"noopener nofollow\" class=\"external-link\" href=\"https://www.youtube.com/watch?v=5i_enopHsqg\" target=\"_blank\">Majula OST</a></td>\n</tr>\n<tr>\n<td>Hallucination masque</td>\n<td><a data-tooltip-position=\"top\" aria-label=\"https://www.youtube.com/watch?v=wQcp375CzZU\" rel=\"noopener nofollow\" class=\"external-link\" href=\"https://www.youtube.com/watch?v=wQcp375CzZU\" target=\"_blank\">Deep in the Mechanicum</a></td>\n</tr>\n<tr>\n<td>Fortissax</td>\n<td></td>\n</tr>\n</tbody>\n</table></div>\n<h3 data-heading=\"Rencontres\" dir=\"auto\" id=\"rencontres\">Rencontres</h3>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th align=\"center\">Nom</th>\n<th>Rôle</th>\n<th align=\"center\">Race</th>\n<th align=\"center\">Sexe</th>\n<th align=\"center\">Age</th>\n<th align=\"center\">Personnalité</th>\n<th align=\"center\">Accent</th>\n<th align=\"center\">Equipement</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">-</td>\n<td>Boss</td>\n<td align=\"center\">Illusion</td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n<td align=\"center\"></td>\n<td align=\"center\"><span alt=\"4-Boss-des-Illusions.png\" src=\"4-Boss-des-Illusions.png\" class=\"internal-embed media-embed image-embed is-loaded\"><img alt=\"4-Boss-des-Illusions.png\" src=\"%%BASE%%/Jeu/Sessions%20du%20Masque/Scenes/Images/4-Boss-des-Illusions.png\"></span></td>\n</tr>\n<tr>\n<td align=\"center\">Fortissax</td>\n<td>Gérant de la ville<br>Attaquant potentiel contre le Masque<br>Sa souveraineté</td>\n<td align=\"center\">Dragon</td>\n<td align=\"center\">-</td>\n<td align=\"center\">-</td>\n<td align=\"center\">Calme, Réfléchi, appelle les gens par leur race</td>\n<td align=\"center\">Voix grave</td>\n<td align=\"center\"><span width=\"400\" alt=\"4-Fortissax.jpg\" src=\"4-Fortissax.jpg\" class=\"internal-embed media-embed image-embed is-loaded\"><img alt=\"4-Fortissax.jpg\" width=\"400\" src=\"%%BASE%%/Jeu/Sessions%20du%20Masque/Scenes/Images/4-Fortissax.jpg\"></span></td>\n</tr>\n</tbody>\n</table></div>\n<h2 data-heading=\"Intrigues\" dir=\"auto\" id=\"intrigues\">Intrigues</h2>\n<blockquote dir=\"auto\">\n<p>Evénements et leur conclusion sans l'intervention des joueurs</p>\n</blockquote>\n<ul>\n<li dir=\"auto\">\n<p>Il faut une permission pour pouvoir s'entretenir avec Sa Souveraineté</p>\n</li>\n<li dir=\"auto\">\n<p>Trouver qui peut la fournir<br>\nS'il ne la trouve pas assez vite, le masque leur lance une hallucination dans la ville</p>\n</li>\n<li dir=\"auto\">\n<p>Une créature dangereuse du masque se trouve dans la ville, ils doivent lui échapper</p>\n</li>\n<li dir=\"auto\">\n<p>Des ennemis sont sur leur chemin, des encapuchonnés sans visage (<code>Mental(Volonté)</code> pour esquiver les attaques)<br>\nS'ils ne fuient pas assez vite, la créature les rattrape, et ils doivent survivre 5 tours avant que Fortissax n'arrive<br>\nSinon Fortissax arrive \"Vous perturbez mon peuple\"<br>\n<code>Les joueurs doivent chacun décrire la créature</code></p>\n</li>\n<li dir=\"auto\">\n<p>Le dragon a pris le contrôle de la ville, mais c'est un bon gérant</p>\n<ul>\n<li dir=\"auto\">Tel un roi, il taxe le peuple en échange de sa protection, mais il ne réclame pas les récoltes, juste une taxe sur les revenus</li>\n<li dir=\"auto\">Le peuple vit mieux depuis et est plus motivé à travailler<br>\nSi les joueurs ne font rien, le peuple continue d'être heureux<br>\nSinon, il part combattre le masque et la ville tombe doucement dans le chaos</li>\n</ul>\n</li>\n<li dir=\"auto\">\n<p>Havel avait promis de tuer Bayle, l'ennemi de Fortissax, qui l'avait gravement blessé et détruit sa fortune</p>\n</li>\n<li dir=\"auto\">\n<p>Il est sûrement mort contre lui en essayant de faire sa part du marché</p>\n</li>\n<li dir=\"auto\">\n<p>Havel a bien été tué, mais par Zaledra, et il l'a relevé, mais sa volonté et son pacte sont plus forts et il attend devant l'antre de Bayle pour l'abattre<br>\nSi les joueurs ne font rien, Fortissax ne viendra pas aider</p>\n</li>\n</ul>\n<h2 data-heading=\"Actions des joueurs\" dir=\"auto\" id=\"actions-des-joueurs\">Actions des joueurs</h2>\n<p dir=\"auto\"><strong>02-10-2026</strong></p>\n<ul>\n<li dir=\"auto\">Ils arrivent dans la ville et se renseignent pour savoir où trouver Fortissax</li>\n<li dir=\"auto\">Ils doivent se rendre à la préfecture pour obtenir les droits de lui parler, ce qui peut prendre du temps</li>\n<li dir=\"auto\">Ils s'y rendent de nuit et font des faux pour pouvoir passer<br>\nIl y a une odeur de lessive, ce qui dégoûte Dara qui n'aime pas se laver</li>\n<li dir=\"auto\">En sortant du bâtiment, ils ressentent une étrange sensation et se font attaquer par des ennemis capuchonnés, dont le visage n'est que ténèbres, qui réduisent leurs attributs</li>\n<li dir=\"auto\">Ils fuient pour rejoindre le port et s'éloigner de l'énorme entité planaire qui s'approche d'eux</li>\n<li dir=\"auto\">Dara invoque son Gammoth afin de fuir plus vite, mais la créature dotées de nombreuses mains et couvertes d'un drap cachant le corps les rattrape\n<ul>\n<li dir=\"auto\">Pendant la course poursuite, ils arrivent à faire 713 dégâts, qui sont répartis sur les capuchonnés, ce qui tue les 61 petites créatures, ne laissant que 103 dégâts atteindre les mains</li>\n</ul>\n</li>\n<li dir=\"auto\">Ils arrivent ensuite à faire 372 dégâts avant que la créature ne les balaie\n<ul>\n<li dir=\"auto\">60 dégâts pour Léoric, 51 pour Dara et 36 pour Haelrak</li>\n</ul>\n</li>\n<li dir=\"auto\">Arek lance une potion de soin sur Léoric et une d'explosion sur les mains, infligeant 150 dégâts supplémentaires</li>\n<li dir=\"auto\">Alors que la créature commence à muter, le dragon Fortissax arrive pour l'achever</li>\n<li dir=\"auto\">Il prend les aventuriers pour les emmener dans ses quartiers afin de les confronter à ce qu'ils ont fait\n<ul>\n<li dir=\"auto\">En survolant la ville, le voile se dissipe sous le rire du masque, et le groupe se rend compte qu'ils hallucinaient et ont ravagé la ville et ses habitants en combattant les créatures</li>\n</ul>\n</li>\n</ul>\n<h2 data-heading=\"**01-11-2026**\" dir=\"auto\" id=\"01-11-2026\"><strong>01-11-2026</strong></h2>")}
   </div>
 </article>
 
 <LinkPreview />
-
-{#snippet description()}
-	<section>
-		<h2 id="description">{@html "Description"}</h2>
-	{@html applyBase("<blockquote>Description à lire aux joueurs en entrant dans cette scène.</blockquote>\n<p>\tVous arrivez en fin de journée.<br>\n\tUne brise fraiche et légèrement humide vient vous caresser le visage.<br>\n\tVous sentez le sel se solidifier sur votre peau et s'effriter contre vos vêtements.<br>\n\tLes lumières s'allument doucement, comme pour préparer votre arrivée.<br>\n\tVous regardez les derniers rayons du soleil dorer les murs blans avant d'entrer dans la ville de Fruss.</p>\n<img src=\"%%BASE%%/4-Ville-du-Dragon.jpg\" alt=\"4-Ville-du-Dragon.jpg\" width=\"1200\" class=\"wiki-image\" />")}
-
-	</section>
-{/snippet}
-
-{#snippet dtails()}
-	<section>
-		<h2 id="dtails">{@html "Détails"}</h2>
-
-	{@render musiques()}
-	{@render rencontres()}
-	</section>
-{/snippet}
-
-{#snippet musiques()}
-	<section>
-		<h3 id="musiques">{@html "Musiques"}</h3>
-	{@html "<div class=\"table-scroll\"><table><thead><tr><th>Lieu</th><th>Musique</th></tr></thead><tbody><tr><td>Fruss</td><td><a href=\"https://www.youtube.com/watch?v=5i_enopHsqg\">Majula OST</a></td></tr><tr><td>Hallucination masque</td><td><a href=\"https://www.youtube.com/watch?v=wQcp375CzZU\">Deep in the Mechanicum</a></td></tr><tr><td>Fortissax</td><td></td></tr></tbody></table></div>"}
-
-	</section>
-{/snippet}
-
-{#snippet rencontres()}
-	<section>
-		<h3 id="rencontres">{@html "Rencontres"}</h3>
-	{@html applyBase("<div class=\"table-scroll\"><table><thead><tr><th>Nom</th><th>Rôle</th><th>Race</th><th>Sexe</th><th>Age</th><th>Personnalité</th><th>Accent</th><th>Equipement</th></tr></thead><tbody><tr><td>-</td><td>Boss</td><td>Illusion</td><td></td><td></td><td></td><td></td><td><img src=\"%%BASE%%/4-Boss-des-Illusions.png\" alt=\"4-Boss-des-Illusions.png\" class=\"wiki-image\" /></td></tr><tr><td>Fortissax</td><td>Gérant de la ville<br>Attaquant potentiel contre le Masque<br>Sa souveraineté</td><td>Dragon</td><td>-</td><td>-</td><td>Calme, Réfléchi, appelle les gens par leur race</td><td>Voix grave</td><td><span class=\"wiki-unresolved\">4-Fortissax.jpg\\</span></td></tr></tbody></table></div>")}
-
-	</section>
-{/snippet}
-
-{#snippet intrigues()}
-	<section>
-		<h2 id="intrigues">{@html "Intrigues"}</h2>
-	{@html "<blockquote>Evénements et leur conclusion sans l'intervention des joueurs</blockquote>\n<ul><li>Il faut une permission pour pouvoir s'entretenir avec Sa Souveraineté</li><li>Trouver qui peut la fournir</li></ul>\n<p>\tS'il ne la trouve pas assez vite, le masque leur lance une hallucination dans la ville</p>\n<ul><li>Une créature dangereuse du masque se trouve dans la ville, ils doivent lui échapper</li><li>Des ennemis sont sur leur chemin, des encapuchonnés sans visage (<code>Mental(Volonté)</code> pour esquiver les attaques)</li></ul>\n<p>\tS'ils ne fuient pas assez vite, la créature les rattrape, et ils doivent survivre 5 tours avant que Fortissax n'arrive<br>\n\tSinon Fortissax arrive \"Vous perturbez mon peuple\"<br>\n\t<code>Les joueurs doivent chacun décrire la créature</code></p>\n<ul><li>Le dragon a pris le contrôle de la ville, mais c'est un bon gérant</li><li>Tel un roi, il taxe le peuple en échange de sa protection, mais il ne réclame pas les récoltes, juste une taxe sur les revenus</li><li>Le peuple vit mieux depuis et est plus motivé à travailler</li></ul>\n<p>\tSi les joueurs ne font rien, le peuple continue d'être heureux<br>\n\tSinon, il part combattre le masque et la ville tombe doucement dans le chaos</p>\n<ul><li>Havel avait promis de tuer Bayle, l'ennemi de Fortissax, qui l'avait gravement blessé et détruit sa fortune</li><li>Il est sûrement mort contre lui en essayant de faire sa part du marché</li><li>Havel a bien été tué, mais par Zaledra, et il l'a relevé, mais sa volonté et son pacte sont plus forts et il attend devant l'antre de Bayle pour l'abattre</li></ul>\n<p>\tSi les joueurs ne font rien, Fortissax ne viendra pas aider</p>"}
-
-	</section>
-{/snippet}
-
-{#snippet actionsDesJoueurs()}
-	<section>
-		<h2 id="actions-des-joueurs">{@html "Actions des joueurs"}</h2>
-	{@html "<p><strong>02-10-2026</strong></p>\n<ul><li>Ils arrivent dans la ville et se renseignent pour savoir où trouver Fortissax</li><li>Ils doivent se rendre à la préfecture pour obtenir les droits de lui parler, ce qui peut prendre du temps</li><li>Ils s'y rendent de nuit et font des faux pour pouvoir passer</li></ul>\n<p>\tIl y a une odeur de lessive, ce qui dégoûte Dara qui n'aime pas se laver</p>\n<ul><li>En sortant du bâtiment, ils ressentent une étrange sensation et se font attaquer par des ennemis capuchonnés, dont le visage n'est que ténèbres, qui réduisent leurs attributs</li><li>Ils fuient pour rejoindre le port et s'éloigner de l'énorme entité planaire qui s'approche d'eux</li><li>Dara invoque son Gammoth afin de fuir plus vite, mais la créature dotées de nombreuses mains et couvertes d'un drap cachant le corps les rattrape</li><li>Pendant la course poursuite, ils arrivent à faire 713 dégâts, qui sont répartis sur les capuchonnés, ce qui tue les 61 petites créatures, ne laissant que 103 dégâts atteindre les mains</li><li>Ils arrivent ensuite à faire 372 dégâts avant que la créature ne les balaie</li><li>60 dégâts pour Léoric, 51 pour Dara et 36 pour Haelrak</li><li>Arek lance une potion de soin sur Léoric et une d'explosion sur les mains, infligeant 150 dégâts supplémentaires</li><li>Alors que la créature commence à muter, le dragon Fortissax arrive pour l'achever</li><li>Il prend les aventuriers pour les emmener dans ses quartiers afin de les confronter à ce qu'ils ont fait</li><li>En survolant la ville, le voile se dissipe sous le rire du masque, et le groupe se rend compte qu'ils hallucinaient et ont ravagé la ville et ses habitants en combattant les créatures</li></ul>\n<p><strong>01-11-2026</strong><br>\n-</p>"}
-
-	</section>
-{/snippet}

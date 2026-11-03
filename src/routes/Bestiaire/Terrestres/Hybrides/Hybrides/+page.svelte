@@ -3,32 +3,31 @@
   import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
-  import EmbedBlock from "$lib/EmbedBlock.svelte";
 
   tocHeadings.set([
       {
           "id": "mutations--maladies",
-          "text": "Mutations / Maladies",
+          "text": "[[Mutations]] / Maladies",
           "level": 1
       },
       {
           "id": "evolutifs",
-          "text": "Evolutifs",
+          "text": "[[Evolutifs]]",
           "level": 1
       },
       {
           "id": "symbiotiques",
-          "text": "Symbiotiques",
+          "text": "[[Symbiotiques]]",
           "level": 1
       },
       {
           "id": "hommes-btes",
-          "text": "Hommes-bêtes",
+          "text": "[[Hommes-bêtes]]",
           "level": 1
       },
       {
           "id": "chimres",
-          "text": "Chimères",
+          "text": "[[Chimères]]",
           "level": 1
       }
   ]);
@@ -38,6 +37,12 @@
 
 <svelte:head>
   <title>{"Hybrides"}</title>
+  <meta name="description" content={"Définit les créatures ayant des origines venant d'au moins 2 espèces différentes. Mutations / Maladies Vampire Evolutifs Naga Symbiotiques Hommes-bêtes Chimères"} />
+  <meta property="og:type" content={"article"} />
+  <meta property="og:title" content={"Hybrides"} />
+  <meta property="og:description" content={"Définit les créatures ayant des origines venant d'au moins 2 espèces différentes. Mutations / Maladies Vampire Evolutifs Naga Symbiotiques Hommes-bêtes Chimères"} />
+  <meta property="og:site_name" content={"Aerethios"} />
+  <meta name="twitter:card" content={"summary"} />
 </svelte:head>
 
 <article class="md-page">
@@ -45,57 +50,8 @@
     <h1>{"Hybrides"}</h1>
   </header>
   <div class="markdown-rendered">
-		{@render preamble()}
-		{@render mutations_Maladies()}
-		{@render evolutifs()}
-		{@render symbiotiques()}
-		{@render hommesBtes()}
-		{@render chimres()}
+    {@html applyBase("<blockquote dir=\"auto\">\n<p>Définit les créatures ayant des origines venant d'au moins 2 espèces différentes.</p>\n</blockquote>\n<h1 data-heading=\"[[Mutations]] / Maladies\" dir=\"auto\" id=\"mutations--maladies\">Mutations / Maladies</h1>\n<ul>\n<li dir=\"auto\"><a href=\"%%BASE%%/Bestiaire/Terrestres/Hybrides/Vampire\" class=\"internal-link\" data-wiki-href=\"/Bestiaire/Terrestres/Hybrides/Vampire\" data-wiki-fragment=\"\">Vampire</a></li>\n</ul>\n<h1 data-heading=\"[[Evolutifs]]\" dir=\"auto\" id=\"evolutifs\">Evolutifs</h1>\n<ul>\n<li dir=\"auto\"><a href=\"%%BASE%%/Bestiaire/Terrestres/Hybrides/Naga\" class=\"internal-link\" data-wiki-href=\"/Bestiaire/Terrestres/Hybrides/Naga\" data-wiki-fragment=\"\">Naga</a></li>\n</ul>\n<h1 data-heading=\"[[Symbiotiques]]\" dir=\"auto\" id=\"symbiotiques\">Symbiotiques</h1>\n<h1 data-heading=\"[[Hommes-bêtes]]\" dir=\"auto\" id=\"hommes-btes\">Hommes-bêtes</h1>\n<h1 data-heading=\"[[Chimères]]\" dir=\"auto\" id=\"chimres\">Chimères</h1>")}
   </div>
 </article>
 
 <LinkPreview />
-
-{#snippet preamble()}
-	{@html "<blockquote>Définit les créatures ayant des origines venant d'au moins 2 espèces différentes.</blockquote>"}
-{/snippet}
-
-{#snippet mutations_Maladies()}
-	<section>
-		<h1 id="mutations--maladies">{@html "<span class=\"wiki-unresolved\">Mutations</span> / Maladies"}</h1>
-	{@html applyBase("<ul><li><a href=\"%%BASE%%/Bestiaire/Terrestres/Hybrides/Vampire\" class=\"wiki-link internal-link\" data-wiki-href=\"/Bestiaire/Terrestres/Hybrides/Vampire\" data-wiki-fragment=\"\">Vampire</a></li></ul>")}
-
-	</section>
-{/snippet}
-
-{#snippet evolutifs()}
-	<section>
-		<h1 id="evolutifs">{@html "<span class=\"wiki-unresolved\">Evolutifs</span>"}</h1>
-	{@html applyBase("<ul><li><a href=\"%%BASE%%/Bestiaire/Terrestres/Hybrides/Naga\" class=\"wiki-link internal-link\" data-wiki-href=\"/Bestiaire/Terrestres/Hybrides/Naga\" data-wiki-fragment=\"\">Naga</a></li></ul>")}
-
-	</section>
-{/snippet}
-
-{#snippet symbiotiques()}
-	<section>
-		<h1 id="symbiotiques">{@html "<span class=\"wiki-unresolved\">Symbiotiques</span>"}</h1>
-
-
-	</section>
-{/snippet}
-
-{#snippet hommesBtes()}
-	<section>
-		<h1 id="hommes-btes">{@html "<span class=\"wiki-unresolved\">Hommes-bêtes</span>"}</h1>
-
-
-	</section>
-{/snippet}
-
-{#snippet chimres()}
-	<section>
-		<h1 id="chimres">{@html "<span class=\"wiki-unresolved\">Chimères</span>"}</h1>
-
-
-	</section>
-{/snippet}

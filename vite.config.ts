@@ -27,7 +27,7 @@ export default defineConfig({
 			// the slash the way a real web server would, so a relative link
 			// on that page resolves one directory too high and drops the
 			// "/<repo>" prefix entirely — absolute paths sidestep that.
-			paths: { base: process.env.BASE_PATH ?? "", relative: false },
+			paths: { base: ((globalThis as { process?: { env: Record<string, string | undefined> } }).process?.env.BASE_PATH ?? "") as "" | `/${string}`, relative: false },
 
 			// A vault this size will always have a few dead wikilinks or
 			// missing embeds — don't let one broken link abort the entire

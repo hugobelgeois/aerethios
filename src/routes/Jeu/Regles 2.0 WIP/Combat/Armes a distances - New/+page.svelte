@@ -3,7 +3,6 @@
   import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
-  import EmbedBlock from "$lib/EmbedBlock.svelte";
 
   tocHeadings.set([
       {
@@ -58,6 +57,12 @@
 
 <svelte:head>
   <title>{"Armes à distances - New"}</title>
+  <meta name="description" content={"Base Dé + Modificateur >= DC → Dégâts aux HP DC = AC + Couvert. Arme à Corde Arme à Feu Dégats x 1 x 1.5 Silencieux Oui Non Une arme silencieuse ne déclenche pas le combat si la cible est tuée en 1…"} />
+  <meta property="og:type" content={"article"} />
+  <meta property="og:title" content={"Armes à distances - New"} />
+  <meta property="og:description" content={"Base Dé + Modificateur >= DC → Dégâts aux HP DC = AC + Couvert. Arme à Corde Arme à Feu Dégats x 1 x 1.5 Silencieux Oui Non Une arme silencieuse ne déclenche pas le combat si la cible est tuée en 1…"} />
+  <meta property="og:site_name" content={"Aerethios"} />
+  <meta name="twitter:card" content={"summary"} />
 </svelte:head>
 
 <article class="md-page">
@@ -65,87 +70,8 @@
     <h1>{"Armes à distances - New"}</h1>
   </header>
   <div class="markdown-rendered">
-		{@render base()}
-		{@render communs()}
-		{@render armes_Corde()}
-		{@render armes_Feu()}
+    {@html applyBase("<h2 data-heading=\"Base\" dir=\"auto\" id=\"base\">Base</h2>\n<blockquote dir=\"auto\">\n<p>Dé + Modificateur &gt;= DC → Dégâts aux HP<br>\nDC = AC + Couvert.</p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th></th>\n<th align=\"center\">Arme à Corde</th>\n<th align=\"center\">Arme à Feu</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Dégats</strong></td>\n<td align=\"center\">x 1</td>\n<td align=\"center\">x 1.5</td>\n</tr>\n<tr>\n<td><strong>Silencieux</strong></td>\n<td align=\"center\">Oui</td>\n<td align=\"center\">Non</td>\n</tr>\n</tbody>\n</table></div>\n<p dir=\"auto\">Une arme silencieuse ne déclenche pas le combat si la cible est tuée en 1 coup et si personne ne la voit mourir.</p>\n<blockquote dir=\"auto\">\n<p>Les armes à distances sont perforantes.</p>\n</blockquote>\n<h3 data-heading=\"Taille\" dir=\"auto\" id=\"taille\">Taille</h3>\n<blockquote dir=\"auto\">\n<p>Modifie la façon d'utiliser l'arme.</p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th></th>\n<th align=\"center\">Petit/ Léger</th>\n<th align=\"center\">Normal</th>\n<th align=\"center\">Grand/ Lourd</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Dés</strong></td>\n<td align=\"center\">2d10</td>\n<td align=\"center\">2d8</td>\n<td align=\"center\">2d6</td>\n</tr>\n<tr>\n<td><strong>Dégâts</strong></td>\n<td align=\"center\">4</td>\n<td align=\"center\">8</td>\n<td align=\"center\">12</td>\n</tr>\n<tr>\n<td><strong>Modificateur</strong></td>\n<td align=\"center\">Perception(Cowboy)</td>\n<td align=\"center\">Perception(Chasseur)</td>\n<td align=\"center\">Perception(Canonier)</td>\n</tr>\n<tr>\n<td><strong>Rechargement</strong></td>\n<td align=\"center\">-</td>\n<td align=\"center\">1 Action Bonus</td>\n<td align=\"center\">1 Action</td>\n</tr>\n<tr>\n<td><strong>Distance Maximale</strong></td>\n<td align=\"center\">10m</td>\n<td align=\"center\">20m</td>\n<td align=\"center\">40m</td>\n</tr>\n<tr>\n<td><strong>Maniabilité</strong></td>\n<td align=\"center\">2 Mains (Corde)<br>1 Main (Feu)</td>\n<td align=\"center\">2 Mains</td>\n<td align=\"center\">2 Mains</td>\n</tr>\n<tr>\n<td><strong>Matériaux</strong></td>\n<td align=\"center\">1</td>\n<td align=\"center\">2</td>\n<td align=\"center\">4</td>\n</tr>\n<tr>\n<td>Arme à Corde (exemples)</td>\n<td align=\"center\">Arc</td>\n<td align=\"center\">Arbalète</td>\n<td align=\"center\">Baliste</td>\n</tr>\n<tr>\n<td>Arme à Feu (exemples)</td>\n<td align=\"center\">Pistolet</td>\n<td align=\"center\">Fusil</td>\n<td align=\"center\">Canon</td>\n</tr>\n</tbody>\n</table></div>\n<p dir=\"auto\">Si le joueur tire au delà de la distance maximale, la DC augmente de 8.</p>\n<h2 data-heading=\"Communs\" dir=\"auto\" id=\"communs\">Communs</h2>\n<h3 data-heading=\"Couvert\" dir=\"auto\" id=\"couvert\">Couvert</h3>\n<blockquote dir=\"auto\">\n<p>Les obstacles entre la cible et le tireur altèrent la DC.</p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th></th>\n<th>0%</th>\n<th>50%</th>\n<th>100%</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>DC</strong></td>\n<td>-</td>\n<td>+5</td>\n<td>Impossible</td>\n</tr>\n</tbody>\n</table></div>\n<h3 data-heading=\"Munitions\" dir=\"auto\" id=\"munitions\">Munitions</h3>\n<blockquote dir=\"auto\">\n<p>Le nombre de munition est considéré comme suffisant pour 1 expédition.</p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th></th>\n<th align=\"center\">Petit/ Léger</th>\n<th align=\"center\">Normal</th>\n<th align=\"center\">Grand/ Lourd</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Prix/ Expédition</strong></td>\n<td align=\"center\">20pc</td>\n<td align=\"center\">40pc</td>\n<td align=\"center\">80pc</td>\n</tr>\n</tbody>\n</table></div>\n<h2 data-heading=\"Armes à Corde\" dir=\"auto\" id=\"armes--corde\">Armes à Corde</h2>\n<blockquote dir=\"auto\">\n<p>Permet d'accrocher une fiole ou un crystal au bout de l'Arme à Corde afin d'imbiber chaque munition tirée.</p>\n</blockquote>\n<p dir=\"auto\"><span alt=\"Huiles\" src=\"Huiles\" class=\"internal-embed markdown-embed inline-embed is-loaded\"><div class=\"embed-title markdown-embed-title\">Huiles</div><div class=\"markdown-embed-content\"><div class=\"markdown-preview-view markdown-rendered show-indentation-guide\"><h3 data-heading=\"Huiles\" dir=\"auto\">Huiles</h3>\n<blockquote dir=\"auto\">\n<p>Fait par un <a data-tooltip-position=\"top\" aria-label=\"Alchimie - New &gt; Huiles\" href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New#huiles\" class=\"internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" data-wiki-fragment=\"Huiles\">Potionniste</a> pour déterminer les dégâts (DMG arrondi vers le bas).</p>\n</blockquote>\n<p dir=\"auto\">Ajoute temporairement l'effet d'1 huile à l'arme (dure 1 combat et n'est pas cumulable).</p>\n<p dir=\"auto\">Les huiles ne s'appliquent que sur les armes Tranchantes, Perforantes et à Corde.</p></div></div></span></p>\n<p dir=\"auto\"><span alt=\"Magies\" src=\"Magies\" class=\"internal-embed markdown-embed inline-embed is-loaded\"><div class=\"embed-title markdown-embed-title\">Magies</div><div class=\"markdown-embed-content\"><div class=\"markdown-preview-view markdown-rendered show-indentation-guide\"><h3 data-heading=\"Magies\" dir=\"auto\">Magies</h3>\n<blockquote dir=\"auto\">\n<p>Permet d'imprégner l'arme de sa magie (coûte 1 crystal).</p>\n</blockquote>\n<p dir=\"auto\">Ajoute temporairement le type d'une magie aux types de dégâts de l'arme (dure 1 combat et n'est pas cumulable)</p></div></div></span></p>\n<h2 data-heading=\"Armes à Feu\" dir=\"auto\" id=\"armes--feu\">Armes à Feu</h2>\n<h3 data-heading=\"Magasine\" dir=\"auto\" id=\"magasine\">Magasine</h3>\n<blockquote dir=\"auto\">\n<p>Change le nombre de munitions qui peuvent être utilisées avant de devoir recharger.</p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th>Type</th>\n<th align=\"center\">Dégâts</th>\n<th align=\"right\">Prix</th>\n<th>Propriétés</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Aucun</td>\n<td align=\"center\">-</td>\n<td align=\"right\">-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Double coup</td>\n<td align=\"center\">-2</td>\n<td align=\"right\">2 po</td>\n<td>Permet de tirer 2 munitions avant de recharger</td>\n</tr>\n<tr>\n<td>Petit magasine</td>\n<td align=\"center\">-4</td>\n<td align=\"right\">4 po</td>\n<td>Réduit le rechargement de 1<br><em>Action -&gt; Action Bonus -&gt; Rien</em></td>\n</tr>\n<tr>\n<td>Grand magasine</td>\n<td align=\"center\">-8</td>\n<td align=\"right\">8 po</td>\n<td>Supprime le rechargement</td>\n</tr>\n</tbody>\n</table></div>\n<h3 data-heading=\"Propulsion\" dir=\"auto\" id=\"propulsion\">Propulsion</h3>\n<blockquote dir=\"auto\">\n<p>Altère la technologie qui propulse les munitions, ce qui influe ses dégâts et ses propriétés.</p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th>Type</th>\n<th align=\"center\">Dégâts</th>\n<th align=\"right\">Prix</th>\n<th>Propriétés</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Poudre noire</td>\n<td align=\"center\">x 1</td>\n<td align=\"right\">-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Air comprimé</td>\n<td align=\"center\">x 0.5</td>\n<td align=\"right\">2 po</td>\n<td>Transperce les cibles en ligne droite<br>Silencieux</td>\n</tr>\n<tr>\n<td>Magique</td>\n<td align=\"center\">x 1</td>\n<td align=\"right\">8 po</td>\n<td>??</td>\n</tr>\n<tr>\n<td>Magnétique</td>\n<td align=\"center\">x 2</td>\n<td align=\"right\">20 po</td>\n<td>Perds (100/distance max)% de dégâts par mètre de distance</td>\n</tr>\n</tbody>\n</table></div>")}
   </div>
 </article>
 
 <LinkPreview />
-
-{#snippet base()}
-	<section>
-		<h2 id="base">{@html "Base"}</h2>
-	{@html "<blockquote>Dé + Modificateur >= DC → Dégâts aux HP<br>DC = AC + Couvert.</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th></th><th>Arme à Corde</th><th>Arme à Feu</th></tr></thead><tbody><tr><td><strong>Dégats</strong></td><td>x 1</td><td>x 1.5</td></tr><tr><td><strong>Silencieux</strong></td><td>Oui</td><td>Non</td></tr></tbody></table></div>\n<p>Une arme silencieuse ne déclenche pas le combat si la cible est tuée en 1 coup et si personne ne la voit mourir.</p>\n<blockquote>Les armes à distances sont perforantes.</blockquote>"}
-	{@render taille()}
-	</section>
-{/snippet}
-
-{#snippet taille()}
-	<section>
-		<h3 id="taille">{@html "Taille"}</h3>
-	{@html "<blockquote>Modifie la façon d'utiliser l'arme.</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th></th><th>Petit/ Léger</th><th>Normal</th><th>Grand/ Lourd</th></tr></thead><tbody><tr><td><strong>Dés</strong></td><td>2d10</td><td>2d8</td><td>2d6</td></tr><tr><td><strong>Dégâts</strong></td><td>4</td><td>8</td><td>12</td></tr><tr><td><strong>Modificateur</strong></td><td>Perception(Cowboy)</td><td>Perception(Chasseur)</td><td>Perception(Canonier)</td></tr><tr><td><strong>Rechargement</strong></td><td>-</td><td>1 Action Bonus</td><td>1 Action</td></tr><tr><td><strong>Distance Maximale</strong></td><td>10m</td><td>20m</td><td>40m</td></tr><tr><td><strong>Maniabilité</strong></td><td>2 Mains (Corde)<br>1 Main (Feu)</td><td>2 Mains</td><td>2 Mains</td></tr><tr><td><strong>Matériaux</strong></td><td>1</td><td>2</td><td>4</td></tr><tr><td>Arme à Corde (exemples)</td><td>Arc</td><td>Arbalète</td><td>Baliste</td></tr><tr><td>Arme à Feu (exemples)</td><td>Pistolet</td><td>Fusil</td><td>Canon</td></tr></tbody></table></div>\n<p>Si le joueur tire au delà de la distance maximale, la DC augmente de 8.</p>"}
-
-	</section>
-{/snippet}
-
-{#snippet communs()}
-	<section>
-		<h2 id="communs">{@html "Communs"}</h2>
-
-	{@render couvert()}
-	{@render munitions()}
-	</section>
-{/snippet}
-
-{#snippet couvert()}
-	<section>
-		<h3 id="couvert">{@html "Couvert"}</h3>
-	{@html "<blockquote>Les obstacles entre la cible et le tireur altèrent la DC.</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th></th><th>0%</th><th>50%</th><th>100%</th></tr></thead><tbody><tr><td><strong>DC</strong></td><td>-</td><td>+5</td><td>Impossible</td></tr></tbody></table></div>"}
-
-	</section>
-{/snippet}
-
-{#snippet munitions()}
-	<section>
-		<h3 id="munitions">{@html "Munitions"}</h3>
-	{@html "<blockquote>Le nombre de munition est considéré comme suffisant pour 1 expédition.</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th></th><th>Petit/ Léger</th><th>Normal</th><th>Grand/ Lourd</th></tr></thead><tbody><tr><td><strong>Prix/ Expédition</strong></td><td>20pc</td><td>40pc</td><td>80pc</td></tr></tbody></table></div>"}
-
-	</section>
-{/snippet}
-
-{#snippet armes_Corde()}
-	<section>
-		<h2 id="armes--corde">{@html "Armes à Corde"}</h2>
-	{@html "<blockquote>Permet d'accrocher une fiole ou un crystal au bout de l'Arme à Corde afin d'imbiber chaque munition tirée.</blockquote>"}
-	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Combat/Misc/Huiles"} fragment={""} />
-	<EmbedBlock route={"/Jeu/Regles 2.0 WIP/Combat/Misc/Magies"} fragment={""} />
-
-	</section>
-{/snippet}
-
-{#snippet armes_Feu()}
-	<section>
-		<h2 id="armes--feu">{@html "Armes à Feu"}</h2>
-
-	{@render magasine()}
-	{@render propulsion()}
-	</section>
-{/snippet}
-
-{#snippet magasine()}
-	<section>
-		<h3 id="magasine">{@html "Magasine"}</h3>
-	{@html "<blockquote>Change le nombre de munitions qui peuvent être utilisées avant de devoir recharger.</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th>Type</th><th>Dégâts</th><th>Prix</th><th>Propriétés</th></tr></thead><tbody><tr><td>Aucun</td><td>-</td><td>-</td><td>-</td></tr><tr><td>Double coup</td><td>-2</td><td>2 po</td><td>Permet de tirer 2 munitions avant de recharger</td></tr><tr><td>Petit magasine</td><td>-4</td><td>4 po</td><td>Réduit le rechargement de 1<br><em>Action -> Action Bonus -> Rien</em></td></tr><tr><td>Grand magasine</td><td>-8</td><td>8 po</td><td>Supprime le rechargement</td></tr></tbody></table></div>"}
-
-	</section>
-{/snippet}
-
-{#snippet propulsion()}
-	<section>
-		<h3 id="propulsion">{@html "Propulsion"}</h3>
-	{@html "<blockquote>Altère la technologie qui propulse les munitions, ce qui influe ses dégâts et ses propriétés.</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th>Type</th><th>Dégâts</th><th>Prix</th><th>Propriétés</th></tr></thead><tbody><tr><td>Poudre noire</td><td>x 1</td><td>-</td><td>-</td></tr><tr><td>Air comprimé</td><td>x 0.5</td><td>2 po</td><td>Transperce les cibles en ligne droite<br>Silencieux</td></tr><tr><td>Magique</td><td>x 1</td><td>8 po</td><td>??</td></tr><tr><td>Magnétique</td><td>x 2</td><td>20 po</td><td>Perds (100/distance max)% de dégâts par mètre de distance</td></tr></tbody></table></div>"}
-
-	</section>
-{/snippet}

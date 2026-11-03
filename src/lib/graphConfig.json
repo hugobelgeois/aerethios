@@ -1,3 +1,9 @@
 {
-  "animationType": "random"
+  "animationType": "random",
+  "forces": {
+    "centerStrength": 0.09090909090909093,
+    "repelStrength": 1000,
+    "linkStrength": 1,
+    "linkDistance": 250
+  }
 }

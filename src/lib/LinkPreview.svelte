@@ -305,8 +305,8 @@
 		mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
 	}
 
-	/* First-heading/image treatment for .wiki-preview-content is shared
-	   with .wiki-embed-content in markdown.css. */
+	/* First-heading/image treatment for .wiki-preview-content lives in
+	   markdown.css — {@html} content is out of reach of scoped styles. */
 
 	.wiki-preview-status {
 		color: var(--text-muted);

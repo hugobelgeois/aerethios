@@ -6,8 +6,10 @@
 	import {
 		ANIMATION_INTERVAL_SECONDS,
 		ANIMATION_TYPE,
+		GRAPH_FORCES,
 		NODE_COLORS,
 	} from "$lib/exportData";
+	import { DRAG_ALPHA, ForceSimulation, seedPositions } from "$lib/graphPhysics";
 	import type { GNode } from "$lib/graphTypes";
 	import { getLinkEdges } from "$lib/linkGraph";
 	import { toRoutePath } from "$lib/routePath";
@@ -86,16 +88,13 @@
 
 	// ── Graph data (structure is static — built once) ───────────────────────
 
-	/** Logical simulation space; each view maps this to its own pixel size. */
-	const SIM_SIZE = 320;
-
 	const files = flattenTree(siteTree);
 
 	const nodes: GNode[] = files.map((f) => ({
 		id: f.path,
 		label: f.name,
-		x: Math.random() * SIM_SIZE,
-		y: Math.random() * SIM_SIZE,
+		x: 0, // placed by seedPositions() below
+		y: 0,
 		vx: 0,
 		vy: 0,
 		fx: null,
@@ -222,221 +221,19 @@
 		n.dimAlpha += (target - n.dimAlpha) * k;
 	}
 
-	// ── Physics (continuous, animated — settles instead of blocking once) ──
+	// ── Physics ──────────────────────────────────────────────────────────────
+	// Obsidian's own graph simulation, with the force settings from the
+	// vault's graph view — see lib/graphPhysics.ts.
 
-	let alpha = 1;
-	/** Multiplicative decay: settling slows down gradually instead of
-	 * stopping abruptly after a fixed time — it keeps going for as long as
-	 * there's meaningful motion left (3). */
-	const ALPHA_DECAY_RATE = 0.985;
-	const ALPHA_MIN = 0.005;
-	const REPULSION = 2600;
-	const REST_LENGTH = 46;
-	const SPRING = 0.05;
-	/** Never let two nodes get closer than this for repulsion-force purposes
-	 * — without it, repulsion (∝ 1/dist²) blows up as dist→0 and a dragged
-	 * node can fling its neighbors across the screen in a single frame. */
-	const MIN_DIST = 12;
-	/** Hard minimum on-screen separation between any two nodes (2) — unlike
-	 * MIN_DIST above (which only softens the repulsion force), this is a
-	 * real position constraint, enforced every frame regardless of alpha,
-	 * so nodes never end up overlapping even once the layout has settled. */
-	const MIN_SEPARATION = 18;
-	/** Hard cap on how far a node can move in one frame, regardless of how
-	 * large the accumulated force was. */
-	const MAX_SPEED = 6;
-	/** Nodes settle inside this radius (4); dragging one out is fine, but it
-	 * springs back in once released. */
-	const BOUNDARY_R = SIM_SIZE * 0.42;
-	const BOUNDARY_PULL = 0.05;
-
-	/** Once true, step()/enforceSeparation() stop running until something
-	 * disturbs the layout again (reheat(), a drag) — they're O(n²) per frame,
-	 * for no visible change once everything has come to rest. */
-	let settled = false;
-	/** Largest per-frame displacement (sim units) still counted as motion. */
-	const SETTLE_SPEED = 0.01;
-	/** Frames spent at ALPHA_MIN — settles anyway after SETTLE_MAX_FLOOR_FRAMES
-	 * (~5s), in case some tiny oscillation never fully dies out. */
-	let floorFrames = 0;
-	const SETTLE_MAX_FLOOR_FRAMES = 300;
-
-	function reheat() {
-		alpha = 1;
-		settled = false;
-		floorFrames = 0;
-		wake();
-	}
-
-	/** Runs one physics frame; returns the largest node displacement. */
-	function step(): number {
-		const cx = SIM_SIZE / 2;
-		const cy = SIM_SIZE / 2;
-
-		for (let i = 0; i < nodes.length; i++) {
-			for (let j = i + 1; j < nodes.length; j++) {
-				const a = nodes[i];
-				const b = nodes[j];
-				const dx = b.x - a.x;
-				const dy = b.y - a.y;
-				const dist = Math.max(Math.sqrt(dx * dx + dy * dy), MIN_DIST);
-				const force = (REPULSION * alpha) / (dist * dist);
-				const fx = (force * dx) / dist;
-				const fy = (force * dy) / dist;
-				if (a.fx === null) {
-					a.vx -= fx;
-					a.vy -= fy;
-				}
-				if (b.fx === null) {
-					b.vx += fx;
-					b.vy += fy;
-				}
-			}
-		}
-
-		for (const l of links) {
-			const s = nodeIndex.get(l.source);
-			const t = nodeIndex.get(l.target);
-			if (!s || !t) continue;
-			const dx = t.x - s.x;
-			const dy = t.y - s.y;
-			const dist = Math.sqrt(dx * dx + dy * dy) || 1;
-			const force = (dist - REST_LENGTH) * SPRING * alpha;
-			const fx = (force * dx) / dist;
-			const fy = (force * dy) / dist;
-			if (s.fx === null) {
-				s.vx += fx;
-				s.vy += fy;
-			}
-			if (t.fx === null) {
-				t.vx -= fx;
-				t.vy -= fy;
-			}
-		}
-
-		// (1): the current note and its direct neighbors get an extra pull
-		// toward the center, on top of the degree-based one below, so they
-		// stay as close to the middle as possible regardless of how many
-		// links they otherwise have.
-		const focusIds = currentNeighbors;
-		let maxMove = 0;
-
-		for (const n of nodes) {
-			if (n.fx !== null && n.fy !== null) {
-				n.x = n.fx;
-				n.y = n.fy;
-				n.vx = 0;
-				n.vy = 0;
-				continue;
-			}
-
-			// (4): the more a note is linked, the more strongly it's pulled
-			// toward the center — so well-connected hubs keep the middle of
-			// the graph filled instead of everything spreading into a
-			// hollow ring around an empty center.
-			const degreeFactor = 1 + Math.min(n.degree, 10) * 0.35;
-			const focusFactor = focusIds.has(n.id) ? 2.2 : 1;
-			n.vx += (cx - n.x) * 0.006 * alpha * degreeFactor * focusFactor;
-			n.vy += (cy - n.y) * 0.006 * alpha * degreeFactor * focusFactor;
-
-			// Elastic circular boundary (4): only pushes back once a node
-			// drifts past BOUNDARY_R, gently, proportional to the overshoot.
-			const ddx = n.x - cx;
-			const ddy = n.y - cy;
-			const distFromCenter = Math.sqrt(ddx * ddx + ddy * ddy) || 1;
-			if (distFromCenter > BOUNDARY_R) {
-				const excess = distFromCenter - BOUNDARY_R;
-				const pull = excess * BOUNDARY_PULL;
-				n.vx -= (ddx / distFromCenter) * pull;
-				n.vy -= (ddy / distFromCenter) * pull;
-			}
-
-			// Cap speed so one big force spike can never fling a node across
-			// the screen in a single frame (3).
-			const speed = Math.sqrt(n.vx * n.vx + n.vy * n.vy);
-			if (speed > MAX_SPEED) {
-				n.vx = (n.vx / speed) * MAX_SPEED;
-				n.vy = (n.vy / speed) * MAX_SPEED;
-			}
-
-			n.x += n.vx * 0.6;
-			n.y += n.vy * 0.6;
-			maxMove = Math.max(maxMove, Math.abs(n.vx * 0.6), Math.abs(n.vy * 0.6));
-			n.vx *= 0.82;
-			n.vy *= 0.82;
-		}
-
-		// Settling slows down but never hard-stops — it keeps contributing
-		// a small amount of motion for as long as nodes are still adjusting.
-		alpha = Math.max(alpha * ALPHA_DECAY_RATE, ALPHA_MIN);
-		return maxMove;
-	}
-
-	/**
-	 * Hard minimum-separation constraint (2), enforced every frame
-	 * regardless of alpha/settling state or dragging — directly nudges
-	 * apart any two nodes closer than MIN_SEPARATION so they never
-	 * overlap, even after the layout has fully settled.
-	 */
-	function enforceSeparation() {
-		for (let i = 0; i < nodes.length; i++) {
-			for (let j = i + 1; j < nodes.length; j++) {
-				const a = nodes[i];
-				const b = nodes[j];
-				const dx = b.x - a.x;
-				const dy = b.y - a.y;
-				let dist = Math.sqrt(dx * dx + dy * dy);
-				if (dist >= MIN_SEPARATION) continue;
-				if (dist < 0.001) dist = 0.001;
-				const overlap = (MIN_SEPARATION - dist) / 2;
-				const nx = dx / dist;
-				const ny = dy / dist;
-				const aFixed = a.fx !== null;
-				const bFixed = b.fx !== null;
-				if (!aFixed && !bFixed) {
-					a.x -= nx * overlap;
-					a.y -= ny * overlap;
-					b.x += nx * overlap;
-					b.y += ny * overlap;
-				} else if (!aFixed) {
-					a.x -= nx * overlap * 2;
-					a.y -= ny * overlap * 2;
-				} else if (!bFixed) {
-					b.x += nx * overlap * 2;
-					b.y += ny * overlap * 2;
-				}
-			}
-		}
-	}
-
-	/**
-	 * Smooth, local-only push away from an actively dragged node — this is
-	 * what makes nearby nodes drift out of the way while dragging, without
-	 * relying on reheat()'s global alpha (which would reactivate forces for
-	 * every pair in the graph, not just around the drag). Unlike
-	 * enforceSeparation()'s hard MIN_SEPARATION cutoff (nothing, then a
-	 * sudden snap at an exact radius), this fades continuously to zero — no
-	 * boundary to see. Added to velocity, not position, so the normal
-	 * damping in step() carries it into an organic decelerate-and-settle
-	 * instead of an instant nudge.
-	 */
-	const DRAG_PUSH_RADIUS = 27; // sim-units — well past this, effectively zero
-	const DRAG_PUSH_STRENGTH = 3.5;
-
-	function applyDragRepulsion(dragNode: GNode) {
-		for (const n of nodes) {
-			if (n === dragNode || n.fx !== null) continue;
-			const dx = n.x - dragNode.x;
-			const dy = n.y - dragNode.y;
-			const dist = Math.sqrt(dx * dx + dy * dy);
-			if (dist >= DRAG_PUSH_RADIUS || dist < 0.001) continue;
-			const t = dist / DRAG_PUSH_RADIUS;
-			const falloff = (1 - t) * (1 - t); // 0 at the radius edge, and flat there (no snap)
-			const force = DRAG_PUSH_STRENGTH * falloff;
-			n.vx += (dx / dist) * force;
-			n.vy += (dy / dist) * force;
-		}
-	}
+	const sim = new ForceSimulation(
+		nodes,
+		links.map((l) => ({
+			source: nodeIndex.get(l.source)!,
+			target: nodeIndex.get(l.target)!,
+		})),
+		GRAPH_FORCES,
+	);
+	seedPositions(nodes, (id) => adjacency.get(id) ?? [], nodeIndex);
 
 	// ── Views & shared display state ─────────────────────────────────────────
 
@@ -469,19 +266,15 @@
 			if (n.y > maxY) maxY = n.y;
 		}
 		if (!isFinite(minX)) {
-			minX = 0;
-			minY = 0;
-			maxX = SIM_SIZE;
-			maxY = SIM_SIZE;
+			minX = minY = -50;
+			maxX = maxY = 50;
 		}
 		return { minX, minY, maxX, maxY };
 	}
 
 	/**
 	 * Fit the view so every node is visible (3), based on their real
-	 * bounding box rather than an assumed fixed area — physics can push
-	 * nodes beyond the nominal SIM_SIZE square, so fitting to SIM_SIZE
-	 * alone could clip some of them.
+	 * bounding box rather than an assumed fixed area.
 	 */
 	function fitView(view: View, force = false) {
 		if (view.width <= 0 || view.height <= 0) return;
@@ -517,23 +310,18 @@
 		view.panY = view.height / 2 - n.y * view.scale;
 	}
 
-	/** Fully restart the layout from scratch — scattered positions, hot
+	/** Fully restart the layout from scratch — freshly placed nodes, hot
 	 * physics, no leftover velocity or drag state. */
 	function resetPhysics() {
-		for (const n of nodes) {
-			n.x = Math.random() * SIM_SIZE;
-			n.y = Math.random() * SIM_SIZE;
-			n.vx = 0;
-			n.vy = 0;
-			n.fx = null;
-			n.fy = null;
-		}
-		reheat();
+		seedPositions(nodes, (id) => adjacency.get(id) ?? [], nodeIndex);
+		sim.alpha = 1;
+		sim.alphaTarget = 0;
+		wake();
 	}
 
 	function toggleFilter() {
 		showOnlyLinked = !showOnlyLinked;
-		// Entirely reset the display, zoom, and physics — not just reheat —
+		// Entirely reset the display, zoom, and physics — not just warm it up —
 		// so switching between "all notes" and "only linked" always starts
 		// from a clean slate instead of continuing the previous layout.
 		resetPhysics();
@@ -825,13 +613,13 @@
 			now,
 			nodes,
 			currentNode: !standalone ? (current ?? null) : null,
-			simCenter: { x: SIM_SIZE / 2, y: SIM_SIZE / 2 },
+			simCenter: { x: 0, y: 0 },
 		});
 		nextAnimationAt = now + intervalMs;
 	}
 
 	// The frame loop only runs while something on screen can change: the
-	// layout settling, a drag, a hover fade, the progressive reveal, or a
+	// simulation running, a drag, a hover fade, the progressive reveal, or a
 	// periodic animation in the big view. Otherwise it sleeps, and anything
 	// that changes what's drawn calls wake().
 
@@ -856,28 +644,11 @@
 		const dragging = !!(sidebarView.dragNode || modalView.dragNode);
 		const bigViewActive = standalone || expanded;
 		try {
-			// Local, alpha-independent nudge for whichever node is actively
-			// being dragged — see applyDragRepulsion's own comment for why
-			// this isn't just reheat().
-			if (sidebarView.dragNode) applyDragRepulsion(sidebarView.dragNode);
-			if (modalView.dragNode) applyDragRepulsion(modalView.dragNode);
+			// Stops by itself once alpha has decayed (~5s after the last
+			// disturbance), exactly like Obsidian's.
+			sim.tick();
 
-			// Alpha has a small floor (never hits exactly 0) and the
-			// minimum-separation constraint must hold for as long as nodes
-			// can still move — see (2) and (3). Once nothing moves anymore,
-			// both are skipped until the layout is disturbed again.
-			if (!settled || dragging) {
-				const maxMove = step();
-				enforceSeparation();
-				floorFrames = alpha <= ALPHA_MIN ? floorFrames + 1 : 0;
-				settled =
-					!dragging &&
-					alpha <= 0.02 &&
-					(maxMove < SETTLE_SPEED ||
-						floorFrames >= SETTLE_MAX_FLOOR_FRAMES);
-			}
-
-			const stillMoving = alpha > 0.02;
+			const stillMoving = sim.alpha > 0.02;
 			advanceReveal(now);
 
 			if (standalone) {
@@ -919,7 +690,7 @@
 		// selected — exactly as before this loop learned to sleep.
 		const animating = bigViewActive && !!activeAnimation;
 		if (
-			!settled ||
+			sim.running ||
 			dragging ||
 			revealing ||
 			animating ||
@@ -989,15 +760,15 @@
 			view.moved = true;
 		}
 
-		// No reheat() while dragging on purpose: that would ramp alpha back
-		// up and reactivate repulsion/spring/center forces for every pair in
-		// the graph — a global reshuffle instead of a local one.
-		// enforceSeparation() and applyDragRepulsion() (every frame, in
-		// tick()) already push nearby nodes out of the way.
 		if (view.dragNode) {
+			// Like Obsidian: the simulation stays warm for as long as a
+			// node is being dragged, so the rest of the graph follows it.
 			const { x, y } = toWorld(view, e.clientX, e.clientY);
 			view.dragNode.fx = x;
 			view.dragNode.fy = y;
+			sim.heat(DRAG_ALPHA);
+			sim.alphaTarget = DRAG_ALPHA;
+			wake();
 		} else if (view.isPanning) {
 			view.panX += dx;
 			view.panY += dy;
@@ -1021,8 +792,8 @@
 			view.dragNode.fx = null;
 			view.dragNode.fy = null;
 			view.dragNode = null;
-			// The released node and the ones it pushed aside settle back.
-			settled = false;
+			// Released: let the simulation cool down and settle again.
+			sim.alphaTarget = 0;
 			wake();
 		}
 		view.isPanning = false;
@@ -1104,12 +875,12 @@
 			// (highlight, neighbor labels, the "only linked" filter).
 			currentPath = toRoutePath(p.url.pathname);
 			currentNeighbors = withNeighbors(currentPath);
-			// (1) Reload the physics and recenter on the note we just
-			// navigated to — whether that came from clicking a node in the
-			// graph or any other kind of navigation.
-			reheat();
+			// (1) Recenter on the note we just navigated to — whether that
+			// came from clicking a node in the graph or any other kind of
+			// navigation.
 			if (!standalone) centerOnCurrent(sidebarView);
 			centerOnCurrent(modalView);
+			wake();
 		});
 
 		if (!standalone && sidebarWrapEl && sidebarCanvasEl) {

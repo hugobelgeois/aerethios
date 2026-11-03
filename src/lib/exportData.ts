@@ -4,6 +4,8 @@
 // build if the file doesn't exist yet (e.g. right after updating the
 // plugin's svelte-lib files but before the very first export has run) —
 // the glob form simply leaves it out, and the fallback below applies.
+import type { GraphForces } from "./graphPhysics";
+
 const modules = import.meta.glob("./*.json", { eager: true }) as Record<
 	string,
 	{ default?: unknown }
@@ -13,7 +15,10 @@ function load<T>(name: string, fallback: T): T {
 	return (modules[`./${name}`]?.default as T | undefined) ?? fallback;
 }
 
-const graphConfig = load<{ animationType?: string }>("graphConfig.json", {});
+const graphConfig = load<{
+	animationType?: string;
+	forces?: Partial<GraphForces>;
+}>("graphConfig.json", {});
 const themeConfig = load<{ defaultColorMode?: string }>("themeConfig.json", {});
 
 /** Which periodic animation plays in the graph view's big view (standalone
@@ -21,6 +26,16 @@ const themeConfig = load<{ defaultColorMode?: string }>("themeConfig.json", {});
  * id at random once per page load), or an id matching a filename under
  * lib/animations/ (see lib/animationRegistry.ts). */
 export const ANIMATION_TYPE: string = graphConfig.animationType ?? "none";
+
+/** The vault's graph view "Forces" settings, as Obsidian's simulation
+ * receives them — Obsidian's defaults when not exported yet. */
+export const GRAPH_FORCES: GraphForces = {
+	centerStrength: 0.1,
+	repelStrength: 1000,
+	linkStrength: 1,
+	linkDistance: 250,
+	...graphConfig.forces,
+};
 
 /** Seconds between graph-view animation cycles, unless an animation sets
  * its own intervalSeconds. Fixed here, not user-configurable. */

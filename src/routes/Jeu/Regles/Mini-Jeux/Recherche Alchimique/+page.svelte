@@ -3,7 +3,6 @@
   import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
-  import EmbedBlock from "$lib/EmbedBlock.svelte";
 
   tocHeadings.set([
       {
@@ -33,6 +32,12 @@
 
 <svelte:head>
   <title>{"Recherche Alchimique"}</title>
+  <meta name="description" content={"Ce Mini-Jeux permet aux joueurs de fabriquer des potions ou des invocations afin d'avoir de nouvelles recettes à fabriquer plus rapidement dans le futur. WIP Sélection des ingrédients Lorsqu’on…"} />
+  <meta property="og:type" content={"article"} />
+  <meta property="og:title" content={"Recherche Alchimique"} />
+  <meta property="og:description" content={"Ce Mini-Jeux permet aux joueurs de fabriquer des potions ou des invocations afin d'avoir de nouvelles recettes à fabriquer plus rapidement dans le futur. WIP Sélection des ingrédients Lorsqu’on…"} />
+  <meta property="og:site_name" content={"Aerethios"} />
+  <meta name="twitter:card" content={"summary"} />
 </svelte:head>
 
 <article class="md-page">
@@ -40,48 +45,8 @@
     <h1>{"Recherche Alchimique"}</h1>
   </header>
   <div class="markdown-rendered">
-		{@render preamble()}
-		{@render slectionDesIngrdients()}
-		{@render spcialInvocateur()}
-		{@render modificateursSupplmentaires()}
-		{@render rsolution()}
+    {@html "<blockquote dir=\"auto\">\n<p>Ce Mini-Jeux permet aux joueurs de fabriquer des potions ou des invocations afin d'avoir de nouvelles recettes à fabriquer plus rapidement dans le futur.<br>\nWIP</p>\n</blockquote>\n<h2 data-heading=\"Sélection des ingrédients\" dir=\"auto\" id=\"slection-des-ingrdients\">Sélection des ingrédients</h2>\n<p dir=\"auto\">Lorsqu’on expérimente, la qualité des ingrédients influe sur la facilité d’en tirer le plein potentiel, mais aussi sur le risque de les perdre.</p>\n<p dir=\"auto\"><strong>Modificateurs de difficulté :</strong></p>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th>Déchet</th>\n<th>Commun</th>\n<th>Peu Commun</th>\n<th>Rare</th>\n<th>Légendaire</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>+10</td>\n<td>+8</td>\n<td>+6</td>\n<td>+4</td>\n<td>+2</td>\n</tr>\n</tbody>\n</table></div>\n<h2 data-heading=\"Spécial Invocateur\" dir=\"auto\" id=\"spcial-invocateur\">Spécial Invocateur</h2>\n<p dir=\"auto\">Les conditions extérieures modifient les chances de succès.<br>\nChaque paramètre qui diffère d’un point de la condition optimale ajoute <strong>+1</strong> à la difficulté.<br>\nLes conditions optimales sont décidées par le MJ à l’avance.</p>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th>Facteur</th>\n<th>Exemples de conditions possibles</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Heure</td>\n<td>00h – 06h – 12h – 18h – 00h</td>\n</tr>\n<tr>\n<td>Température</td>\n<td>Froid – Normal – Chaud</td>\n</tr>\n<tr>\n<td>Météo</td>\n<td>Fortes chutes – Légères chutes – Couvert – Dégagé</td>\n</tr>\n<tr>\n<td>État physique</td>\n<td>Fatigué – Normal – Revigoré</td>\n</tr>\n</tbody>\n</table></div>\n<blockquote dir=\"auto\">\n<p>Exemple : si l’heure optimale est 00h mais que l’expérience a lieu à 12h, le joueur ajoute +2 à la difficulté.</p>\n</blockquote>\n<hr>\n<h2 data-heading=\"Modificateurs supplémentaires\" dir=\"auto\" id=\"modificateurs-supplmentaires\">Modificateurs supplémentaires</h2>\n<ul>\n<li dir=\"auto\">\n<p>Hors laboratoire stérile : <strong>+3</strong> difficulté</p>\n</li>\n<li dir=\"auto\">\n<p>En présence d’une source magique instable : <strong>+2</strong></p>\n</li>\n<li dir=\"auto\">\n<p>Avec assistance d’un autre alchimiste : <strong>–1 par niveau de compétence du partenaire</strong> (max –3)</p>\n</li>\n</ul>\n<hr>\n<h2 data-heading=\"Résolution\" dir=\"auto\" id=\"rsolution\">Résolution</h2>\n<p dir=\"auto\">Le joueur lance :<br>\n<strong>1D20 + Mental + Concentration</strong><br>\ncontre la <strong>difficulté finale</strong> calculée à partir des modificateurs ci-dessus.</p>\n<p dir=\"auto\"><strong>Résultats possibles :</strong></p>\n<ul>\n<li dir=\"auto\">\n<p><strong>Réussite critique (20 naturel)</strong> : découverte complète, ingrédient préservé.</p>\n</li>\n<li dir=\"auto\">\n<p><strong>Réussite (≥ difficulté)</strong> : résultat stable, ingrédient consommé.</p>\n</li>\n<li dir=\"auto\">\n<p><strong>Échec (&lt; difficulté)</strong> : échec partiel, ingrédient perdu.</p>\n</li>\n<li dir=\"auto\">\n<p><strong>Échec critique (1 naturel)</strong> : explosion, intoxication ou invocation instable (décidé par le MJ).</p>\n</li>\n</ul>"}
   </div>
 </article>
 
 <LinkPreview />
-
-{#snippet preamble()}
-	{@html "<blockquote>Ce <span class=\"wiki-unresolved\">Mini-Jeux</span> permet aux joueurs de fabriquer des potions ou des invocations afin d'avoir de nouvelles recettes à fabriquer plus rapidement dans le futur.<br>WIP</blockquote>"}
-{/snippet}
-
-{#snippet slectionDesIngrdients()}
-	<section>
-		<h2 id="slection-des-ingrdients">{@html "Sélection des ingrédients"}</h2>
-	{@html "<p>Lorsqu’on expérimente, la qualité des ingrédients influe sur la facilité d’en tirer le plein potentiel, mais aussi sur le risque de les perdre.</p>\n<p><strong>Modificateurs de difficulté :</strong></p>\n<div class=\"table-scroll\"><table><thead><tr><th>Déchet</th><th>Commun</th><th>Peu Commun</th><th>Rare</th><th>Légendaire</th></tr></thead><tbody><tr><td>+10</td><td>+8</td><td>+6</td><td>+4</td><td>+2</td></tr></tbody></table></div>"}
-
-	</section>
-{/snippet}
-
-{#snippet spcialInvocateur()}
-	<section>
-		<h2 id="spcial-invocateur">{@html "Spécial Invocateur"}</h2>
-	{@html "<p>Les conditions extérieures modifient les chances de succès.<br>\nChaque paramètre qui diffère d’un point de la condition optimale ajoute <strong>+1</strong> à la difficulté.<br>\nLes conditions optimales sont décidées par le MJ à l’avance.</p>\n<div class=\"table-scroll\"><table><thead><tr><th>Facteur</th><th>Exemples de conditions possibles</th></tr></thead><tbody><tr><td>Heure</td><td>00h – 06h – 12h – 18h – 00h</td></tr><tr><td>Température</td><td>Froid – Normal – Chaud</td></tr><tr><td>Météo</td><td>Fortes chutes – Légères chutes – Couvert – Dégagé</td></tr><tr><td>État physique</td><td>Fatigué – Normal – Revigoré</td></tr></tbody></table></div>\n<blockquote>Exemple : si l’heure optimale est 00h mais que l’expérience a lieu à 12h, le joueur ajoute +2 à la difficulté.</blockquote>\n<hr>"}
-
-	</section>
-{/snippet}
-
-{#snippet modificateursSupplmentaires()}
-	<section>
-		<h2 id="modificateurs-supplmentaires">{@html "Modificateurs supplémentaires"}</h2>
-	{@html "<ul><li>Hors laboratoire stérile : <strong>+3</strong> difficulté</li></ul>\n<ul><li>En présence d’une source magique instable : <strong>+2</strong></li></ul>\n<ul><li>Avec assistance d’un autre alchimiste : <strong>–1 par niveau de compétence du partenaire</strong> (max –3)</li></ul>\n<hr>"}
-
-	</section>
-{/snippet}
-
-{#snippet rsolution()}
-	<section>
-		<h2 id="rsolution">{@html "Résolution"}</h2>
-	{@html "<p>Le joueur lance :<br>\n<strong>1D20 + Mental + Concentration</strong><br>\ncontre la <strong>difficulté finale</strong> calculée à partir des modificateurs ci-dessus.</p>\n<p><strong>Résultats possibles :</strong></p>\n<ul><li><strong>Réussite critique (20 naturel)</strong> : découverte complète, ingrédient préservé.</li></ul>\n<ul><li><strong>Réussite (≥ difficulté)</strong> : résultat stable, ingrédient consommé.</li></ul>\n<ul><li><strong>Échec (< difficulté)</strong> : échec partiel, ingrédient perdu.</li></ul>\n<ul><li><strong>Échec critique (1 naturel)</strong> : explosion, intoxication ou invocation instable (décidé par le MJ).</li></ul>"}
-
-	</section>
-{/snippet}

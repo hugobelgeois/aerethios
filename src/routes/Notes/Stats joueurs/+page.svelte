@@ -3,7 +3,6 @@
   import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
-  import EmbedBlock from "$lib/EmbedBlock.svelte";
 
   tocHeadings.set([]);
 
@@ -12,6 +11,12 @@
 
 <svelte:head>
   <title>{"Stats joueurs"}</title>
+  <meta name="description" content={"Force Dextérité Mental Perception Charisme Arek 16 10 15 10 8 +3 0 +2 0 -1 Dara 6 17 14 13 7 (+1 wasabi) -2 +3 +2 +1 -1 Haelrak 8 15 16 12 6 -1 +2 +3 +1 -2 Hazdaim 9 14 10 12 12 -1 +2 0 +1 +1 Léoric…"} />
+  <meta property="og:type" content={"article"} />
+  <meta property="og:title" content={"Stats joueurs"} />
+  <meta property="og:description" content={"Force Dextérité Mental Perception Charisme Arek 16 10 15 10 8 +3 0 +2 0 -1 Dara 6 17 14 13 7 (+1 wasabi) -2 +3 +2 +1 -1 Haelrak 8 15 16 12 6 -1 +2 +3 +1 -2 Hazdaim 9 14 10 12 12 -1 +2 0 +1 +1 Léoric…"} />
+  <meta property="og:site_name" content={"Aerethios"} />
+  <meta name="twitter:card" content={"summary"} />
 </svelte:head>
 
 <article class="md-page">
@@ -19,12 +24,8 @@
     <h1>{"Stats joueurs"}</h1>
   </header>
   <div class="markdown-rendered">
-		{@render preamble()}
+    {@html "<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th dir=\"auto\"></th>\n<th align=\"center\" dir=\"ltr\">Force</th>\n<th align=\"center\" dir=\"ltr\">Dextérité</th>\n<th align=\"center\" dir=\"ltr\">Mental</th>\n<th align=\"center\" dir=\"ltr\">Perception</th>\n<th align=\"center\" dir=\"ltr\">Charisme</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td dir=\"ltr\"><strong>Arek</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>16</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>10</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>15</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>10</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>8</strong></td>\n</tr>\n<tr>\n<td dir=\"auto\"></td>\n<td align=\"center\" dir=\"auto\">+3</td>\n<td align=\"center\" dir=\"auto\">0</td>\n<td align=\"center\" dir=\"auto\">+2</td>\n<td align=\"center\" dir=\"auto\">0</td>\n<td align=\"center\" dir=\"auto\">-1</td>\n</tr>\n<tr>\n<td dir=\"ltr\"><strong>Dara</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>6</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>17</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>14</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>13</strong></td>\n<td align=\"center\" dir=\"ltr\"><strong>7 (+1 wasabi)</strong></td>\n</tr>\n<tr>\n<td dir=\"auto\"></td>\n<td align=\"center\" dir=\"auto\">-2</td>\n<td align=\"center\" dir=\"auto\">+3</td>\n<td align=\"center\" dir=\"auto\">+2</td>\n<td align=\"center\" dir=\"auto\">+1</td>\n<td align=\"center\" dir=\"auto\">-1</td>\n</tr>\n<tr>\n<td dir=\"ltr\"><strong>Haelrak</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>8</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>15</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>16</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>12</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>6</strong></td>\n</tr>\n<tr>\n<td dir=\"auto\"></td>\n<td align=\"center\" dir=\"auto\">-1</td>\n<td align=\"center\" dir=\"auto\">+2</td>\n<td align=\"center\" dir=\"auto\">+3</td>\n<td align=\"center\" dir=\"auto\">+1</td>\n<td align=\"center\" dir=\"auto\">-2</td>\n</tr>\n<tr>\n<td dir=\"ltr\"><strong>Hazdaim</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>9</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>14</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>10</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>12</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>12</strong></td>\n</tr>\n<tr>\n<td dir=\"auto\"></td>\n<td align=\"center\" dir=\"auto\">-1</td>\n<td align=\"center\" dir=\"auto\">+2</td>\n<td align=\"center\" dir=\"auto\">0</td>\n<td align=\"center\" dir=\"auto\">+1</td>\n<td align=\"center\" dir=\"auto\">+1</td>\n</tr>\n<tr>\n<td dir=\"ltr\"><strong>Léoric</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>11</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>11</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>13</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>11</strong></td>\n<td align=\"center\" dir=\"auto\"><strong>11</strong></td>\n</tr>\n<tr>\n<td dir=\"auto\"></td>\n<td align=\"center\" dir=\"auto\">0</td>\n<td align=\"center\" dir=\"auto\">0</td>\n<td align=\"center\" dir=\"auto\">+1</td>\n<td align=\"center\" dir=\"auto\">0</td>\n<td align=\"center\" dir=\"auto\">0</td>\n</tr>\n</tbody>\n</table></div>"}
   </div>
 </article>
 
 <LinkPreview />
-
-{#snippet preamble()}
-	{@html "<div class=\"table-scroll\"><table><thead><tr><th></th><th>Force</th><th>Dextérité</th><th>Mental</th><th>Perception</th><th>Charisme</th></tr></thead><tbody><tr><td><strong>Arek</strong></td><td><strong>16</strong></td><td><strong>10</strong></td><td><strong>15</strong></td><td><strong>10</strong></td><td><strong>8</strong></td></tr><tr><td></td><td>+3</td><td>0</td><td>+2</td><td>0</td><td>-1</td></tr><tr><td><strong>Dara</strong></td><td><strong>6</strong></td><td><strong>17</strong></td><td><strong>14</strong></td><td><strong>13</strong></td><td><strong>7 (+1 wasabi)</strong></td></tr><tr><td></td><td>-2</td><td>+3</td><td>+2</td><td>+1</td><td>-1</td></tr><tr><td><strong>Haelrak</strong></td><td><strong>8</strong></td><td><strong>15</strong></td><td><strong>16</strong></td><td><strong>12</strong></td><td><strong>6</strong></td></tr><tr><td></td><td>-1</td><td>+2</td><td>+3</td><td>+1</td><td>-2</td></tr><tr><td><strong>Hazdaim</strong></td><td><strong>9</strong></td><td><strong>14</strong></td><td><strong>10</strong></td><td><strong>12</strong></td><td><strong>12</strong></td></tr><tr><td></td><td>-1</td><td>+2</td><td>0</td><td>+1</td><td>+1</td></tr><tr><td><strong>Léoric</strong></td><td><strong>11</strong></td><td><strong>11</strong></td><td><strong>13</strong></td><td><strong>11</strong></td><td><strong>11</strong></td></tr><tr><td></td><td>0</td><td>0</td><td>+1</td><td>0</td><td>0</td></tr></tbody></table></div>"}
-{/snippet}

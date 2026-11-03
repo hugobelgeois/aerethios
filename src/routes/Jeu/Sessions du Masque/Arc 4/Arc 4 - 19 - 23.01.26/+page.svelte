@@ -3,7 +3,6 @@
   import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
-  import EmbedBlock from "$lib/EmbedBlock.svelte";
 
   tocHeadings.set([
       {
@@ -38,6 +37,12 @@
 
 <svelte:head>
   <title>{"Arc 4 - 19 - 23.01.26"}</title>
+  <meta name="description" content={"Résumé Détails Lieu actuel : Nirina, Pranels Objectif : Pnjs notables : Ilmar Hakka Notes Scénario 1) Document d'information sur le groupe Event, Qui > Quoi Contact : Théon, Templis, pourrait se…"} />
+  <meta property="og:type" content={"article"} />
+  <meta property="og:title" content={"Arc 4 - 19 - 23.01.26"} />
+  <meta property="og:description" content={"Résumé Détails Lieu actuel : Nirina, Pranels Objectif : Pnjs notables : Ilmar Hakka Notes Scénario 1) Document d'information sur le groupe Event, Qui > Quoi Contact : Théon, Templis, pourrait se…"} />
+  <meta property="og:site_name" content={"Aerethios"} />
+  <meta name="twitter:card" content={"summary"} />
 </svelte:head>
 
 <article class="md-page">
@@ -45,56 +50,8 @@
     <h1>{"Arc 4 - 19 - 23.01.26"}</h1>
   </header>
   <div class="markdown-rendered">
-		{@render preamble()}
-		{@render dtails()}
-		{@render notes()}
-		{@render scnario()}
-		{@render joueurs()}
+    {@html applyBase("<blockquote dir=\"auto\">\n<p>Résumé</p>\n</blockquote>\n<h2 data-heading=\"Détails\" dir=\"auto\" id=\"dtails\">Détails</h2>\n<p dir=\"auto\">Lieu actuel : Nirina, Pranels</p>\n<p dir=\"auto\">Objectif :</p>\n<p dir=\"auto\">Pnjs notables : Ilmar Hakka</p>\n<h2 data-heading=\"Notes\" dir=\"auto\" id=\"notes\">Notes</h2>\n<h2 data-heading=\"Scénario\" dir=\"auto\" id=\"scnario\">Scénario</h2>\n<h4 data-heading=\"1) Document d'information sur le groupe\" dir=\"auto\" id=\"1-document-dinformation-sur-le-groupe\">1) Document d'information sur le groupe</h4>\n<blockquote dir=\"auto\">\n<p><strong>Event</strong>, Qui &gt; Quoi</p>\n</blockquote>\n<p dir=\"auto\">Contact :</p>\n<ul>\n<li dir=\"auto\">\n<p>Théon, Templis, pourrait se renseigner en interne</p>\n</li>\n<li dir=\"auto\">\n<p>Nyx, contact d'Arek</p>\n</li>\n<li dir=\"auto\">\n<p>Thierry du Lion d'Argent</p>\n<ul>\n<li dir=\"auto\">Mattias du Lion Tuant</li>\n</ul>\n</li>\n<li dir=\"auto\">\n<p>Ferdinand du Lion d'Argent</p>\n<ul>\n<li dir=\"auto\">Chlodvig du Marteau Lourd<br>\nGroupe avec des sous-fifres</li>\n</ul>\n</li>\n<li dir=\"auto\">\n<p>Salomé du Lion d'Argent</p>\n<ul>\n<li dir=\"auto\">Nyx du Lion d'Argent<br>\nRépandent la foi</li>\n</ul>\n</li>\n<li dir=\"auto\">\n<p>Florian de l'Ancienne Bataille</p>\n<ul>\n<li dir=\"auto\">Erasmus du Tranchant</li>\n</ul>\n</li>\n<li dir=\"auto\">\n<p>Ilmar Hakka</p>\n<ul>\n<li dir=\"auto\">Kigan Krust<br>\nSe trouvent dans Sulimund, à Crache Poussière</li>\n</ul>\n</li>\n</ul>\n<p dir=\"auto\">Parmi les leaders se trouve forcément le planificateur de tout ce qu'il se passe.</p>\n<p dir=\"auto\">Il faudrait réussir à se renseigner auprès des autres leaders pour savoir de qui il s'agit.</p>\n<h2 data-heading=\"Joueurs\" dir=\"auto\" id=\"joueurs\">Joueurs</h2>\n<ul class=\"contains-task-list\">\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Diego 20</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Loïc 15</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Lucas 8</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Michel 22</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Nolan 8</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Thomas 20</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">William 7</li>\n</ul>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th align=\"center\">Précédent</th>\n<th align=\"center\">Suivant</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26\" data-wiki-fragment=\"\">Arc 4 - 18 - 02.01.26</a></td>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26\" data-wiki-fragment=\"\">Arc 4 - 20 - 13.02.26</a></td>\n</tr>\n</tbody>\n</table></div>")}
   </div>
 </article>
 
 <LinkPreview />
-
-{#snippet preamble()}
-	{@html "<blockquote>Résumé</blockquote>"}
-{/snippet}
-
-{#snippet dtails()}
-	<section>
-		<h2 id="dtails">{@html "Détails"}</h2>
-	{@html "<p>Lieu actuel : Nirina, Pranels</p>\n<p>Objectif :</p>\n<p>Pnjs notables : Ilmar Hakka</p>"}
-
-	</section>
-{/snippet}
-
-{#snippet notes()}
-	<section>
-		<h2 id="notes">{@html "Notes"}</h2>
-
-
-	</section>
-{/snippet}
-
-{#snippet scnario()}
-	<section>
-		<h2 id="scnario">{@html "Scénario"}</h2>
-
-	{@render _DocumentDinformationSurLeGroupe()}
-	</section>
-{/snippet}
-
-{#snippet _DocumentDinformationSurLeGroupe()}
-	<section>
-		<h4 id="1-document-dinformation-sur-le-groupe">{@html "1) Document d'information sur le groupe"}</h4>
-	{@html "<blockquote><strong>Event</strong>, Qui > Quoi</blockquote>\n<p>Contact :</p>\n<ul><li>Théon, Templis, pourrait se renseigner en interne</li><li>Nyx, contact d'Arek</li></ul>\n<ul><li>Thierry du Lion d'Argent</li><li>Mattias du Lion Tuant</li></ul>\n<ul><li>Ferdinand du Lion d'Argent</li><li>Chlodvig du Marteau Lourd</li></ul>\n<p>\tGroupe avec des sous-fifres</p>\n<ul><li>Salomé du Lion d'Argent</li><li>Nyx du Lion d'Argent</li></ul>\n<p>\tRépandent la foi</p>\n<ul><li>Florian de l'Ancienne Bataille</li><li>Erasmus du Tranchant</li></ul>\n<ul><li>Ilmar Hakka</li><li>Kigan Krust</li></ul>\n<p>\tSe trouvent dans Sulimund, à Crache Poussière</p>\n<p>Parmi les leaders se trouve forcément le planificateur de tout ce qu'il se passe.</p>\n<p>Il faudrait réussir à se renseigner auprès des autres leaders pour savoir de qui il s'agit.</p>"}
-
-	</section>
-{/snippet}
-
-{#snippet joueurs()}
-	<section>
-		<h2 id="joueurs">{@html "Joueurs"}</h2>
-	{@html applyBase("<ul><li><input type=\"checkbox\" disabled checked> Diego 20</li><li><input type=\"checkbox\" disabled> Loïc 15</li><li><input type=\"checkbox\" disabled> Lucas 8</li><li><input type=\"checkbox\" disabled checked> Michel 22</li><li><input type=\"checkbox\" disabled checked> Nolan 8</li><li><input type=\"checkbox\" disabled checked> Thomas 20</li><li><input type=\"checkbox\" disabled> William 7</li></ul>\n<div class=\"table-scroll\"><table><thead><tr><th>Précédent</th><th>Suivant</th></tr></thead><tbody><tr><td><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26\" data-wiki-fragment=\"\">Arc 4 - 18 - 02.01.26</a></td><td><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26\" class=\"wiki-link internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26\" data-wiki-fragment=\"\">Arc 4 - 20 - 13.02.26</a></td></tr></tbody></table></div>")}
-
-	</section>
-{/snippet}

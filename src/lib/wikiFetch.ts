@@ -1,8 +1,7 @@
 /**
  * Shared logic for fetching a prerendered SvelteKit route and extracting
  * either the whole `.markdown-rendered` content or just a single heading's
- * section from it. Used by both LinkPreview.svelte (hover panel) and
- * EmbedBlock.svelte (inline embeds).
+ * section from it, for LinkPreview.svelte's hover panel.
  */
 import { base } from "$app/paths";
 
@@ -34,17 +33,28 @@ function extractFragment(content: Element, fragment: string): string | null {
 
 	if (!heading) return null;
 
-	const level = parseInt(heading.tagName[1]);
-	const parts: string[] = [heading.outerHTML];
-	let sib = heading.nextElementSibling;
-	while (sib) {
-		if (sib.tagName.match(/^H[1-6]$/) && parseInt(sib.tagName[1]) <= level)
-			break;
+	// Obsidian's renderer wraps every block (heading, paragraph, list…) in
+	// its own <div>, so the section is the heading's block plus the blocks
+	// after it, up to the next one holding a heading of equal/higher level.
+	let block: Element = heading;
+	while (block.parentElement && block.parentElement !== content) {
+		block = block.parentElement;
+	}
+	const headingLevel = (el: Element): number | null => {
+		const h = el.matches(HEADING) ? el : el.querySelector(`:scope > ${HEADING}`);
+		return h ? Number(h.tagName[1]) : null;
+	};
+	const level = Number(heading.tagName[1]);
+	const parts: string[] = [block.outerHTML];
+	for (let sib = block.nextElementSibling; sib; sib = sib.nextElementSibling) {
+		const l = headingLevel(sib);
+		if (l !== null && l <= level) break;
 		parts.push(sib.outerHTML);
-		sib = sib.nextElementSibling;
 	}
 	return parts.join("");
 }
+
+const HEADING = ":is(h1, h2, h3, h4, h5, h6)";
 
 /**
  * Fetch a prerendered route and return the HTML of its rendered content,

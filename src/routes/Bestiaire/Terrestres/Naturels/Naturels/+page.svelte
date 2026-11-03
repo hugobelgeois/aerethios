@@ -3,22 +3,21 @@
   import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
-  import EmbedBlock from "$lib/EmbedBlock.svelte";
 
   tocHeadings.set([
       {
           "id": "bte",
-          "text": "Bête",
+          "text": "[[Bête]]",
           "level": 1
       },
       {
           "id": "insectode",
-          "text": "Insectoïde",
+          "text": "[[Insectoïde]]",
           "level": 1
       },
       {
           "id": "ncrophages",
-          "text": "Nécrophages",
+          "text": "[[Nécrophages]]",
           "level": 1
       }
   ]);
@@ -28,6 +27,12 @@
 
 <svelte:head>
   <title>{"Naturels"}</title>
+  <meta name="description" content={"Toutes les créatures qui existent dans le vrai monde mais dont la taille peut avoir été modifiée Bête Insectoïde Nécrophages"} />
+  <meta property="og:type" content={"article"} />
+  <meta property="og:title" content={"Naturels"} />
+  <meta property="og:description" content={"Toutes les créatures qui existent dans le vrai monde mais dont la taille peut avoir été modifiée Bête Insectoïde Nécrophages"} />
+  <meta property="og:site_name" content={"Aerethios"} />
+  <meta name="twitter:card" content={"summary"} />
 </svelte:head>
 
 <article class="md-page">
@@ -35,39 +40,8 @@
     <h1>{"Naturels"}</h1>
   </header>
   <div class="markdown-rendered">
-		{@render preamble()}
-		{@render bte()}
-		{@render insectode()}
-		{@render ncrophages()}
+    {@html "<p dir=\"auto\">Toutes les créatures qui existent dans le vrai monde mais dont la taille peut avoir été modifiée</p>\n<h1 data-heading=\"[[Bête]]\" dir=\"auto\" id=\"bte\">Bête</h1>\n<h1 data-heading=\"[[Insectoïde]]\" dir=\"auto\" id=\"insectode\">Insectoïde</h1>\n<h1 data-heading=\"[[Nécrophages]]\" dir=\"auto\" id=\"ncrophages\">Nécrophages</h1>"}
   </div>
 </article>
 
 <LinkPreview />
-
-{#snippet preamble()}
-	{@html "<p>Toutes les créatures qui existent dans le vrai monde mais dont la taille peut avoir été modifiée</p>"}
-{/snippet}
-
-{#snippet bte()}
-	<section>
-		<h1 id="bte">{@html "<span class=\"wiki-unresolved\">Bête</span>"}</h1>
-
-
-	</section>
-{/snippet}
-
-{#snippet insectode()}
-	<section>
-		<h1 id="insectode">{@html "<span class=\"wiki-unresolved\">Insectoïde</span>"}</h1>
-
-
-	</section>
-{/snippet}
-
-{#snippet ncrophages()}
-	<section>
-		<h1 id="ncrophages">{@html "<span class=\"wiki-unresolved\">Nécrophages</span>"}</h1>
-
-
-	</section>
-{/snippet}

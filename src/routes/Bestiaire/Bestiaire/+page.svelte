@@ -3,7 +3,6 @@
   import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
-  import EmbedBlock from "$lib/EmbedBlock.svelte";
 
   tocHeadings.set([
       {
@@ -33,6 +32,12 @@
 
 <svelte:head>
   <title>{"Bestiaire"}</title>
+  <meta name="description" content={"Les créatures du monde se regroupent en différentes catégories. Un Arvens ou un Templis se doit de connaître les catégories qui le concernent s'il souhaite être efficace dans son domaine. Créatures…"} />
+  <meta property="og:type" content={"article"} />
+  <meta property="og:title" content={"Bestiaire"} />
+  <meta property="og:description" content={"Les créatures du monde se regroupent en différentes catégories. Un Arvens ou un Templis se doit de connaître les catégories qui le concernent s'il souhaite être efficace dans son domaine. Créatures…"} />
+  <meta property="og:site_name" content={"Aerethios"} />
+  <meta name="twitter:card" content={"summary"} />
 </svelte:head>
 
 <article class="md-page">
@@ -40,48 +45,8 @@
     <h1>{"Bestiaire"}</h1>
   </header>
   <div class="markdown-rendered">
-		{@render preamble()}
-		{@render craturesTerrestres()}
-		{@render craturesPlanaires()}
-		{@render altrations()}
-		{@render tailles()}
+    {@html "<blockquote dir=\"auto\">\n<p>Les créatures du monde se regroupent en différentes catégories.<br>\nUn Arvens ou un Templis se doit de connaître les catégories qui le concernent s'il souhaite être efficace dans son domaine.</p>\n</blockquote>\n<hr>\n<h1 data-heading=\"Créatures Terrestres\" dir=\"auto\" id=\"cratures-terrestres\">Créatures Terrestres</h1>\n<p dir=\"auto\">Entités combattues par les Arvens à l'aide de méthodes de combat conventionnelles.</p>\n<hr>\n<h1 data-heading=\"Créatures Planaires\" dir=\"auto\" id=\"cratures-planaires\">Créatures Planaires</h1>\n<p dir=\"auto\">Entités combattues par les Templis</p>\n<hr>\n<h1 data-heading=\"Altérations\" dir=\"auto\" id=\"altrations\">Altérations</h1>\n<ul>\n<li dir=\"auto\">Imbibé de magie (développe des abilités magiques posistives)</li>\n<li dir=\"auto\">Renforcé (les os sortent du corps pour faire un exo-squelette)</li>\n<li dir=\"auto\">Nécrosé de magie (comportement anormaux, régénération rapide, sorte de cancer)</li>\n<li dir=\"auto\">Parasité/ Symbioté</li>\n<li dir=\"auto\">Sacré </li>\n<li dir=\"auto\">Totémique (lié à un culte, sa force croît avec le nombre d’adorateurs ou de sacrifices)</li>\n<li dir=\"auto\">Cyclique (change d’apparence et de pouvoirs selon un cycle)</li>\n</ul>\n<hr>\n<h1 data-heading=\"Tailles\" dir=\"auto\" id=\"tailles\">Tailles</h1>\n<ul>\n<li dir=\"auto\">Minuscule (rat, chauve-souris, familier)</li>\n<li dir=\"auto\">Petit (chien, gobelin, loup)</li>\n<li dir=\"auto\">Normal (humain, orc, ogre jeune)</li>\n<li dir=\"auto\">Grand (ours, troll, wyverne)</li>\n<li dir=\"auto\">Énorme (hydre, éléphant, ogroides puissants)</li>\n<li dir=\"auto\">Titanesque (dragons anciens, colosses, avatars des dieux)</li>\n</ul>"}
   </div>
 </article>
 
 <LinkPreview />
-
-{#snippet preamble()}
-	{@html "<blockquote>Les créatures du monde se regroupent en différentes catégories.<br>Un <span class=\"wiki-unresolved\">Arvens</span> ou un <span class=\"wiki-unresolved\">Templis</span> se doit de connaître les catégories qui le concernent s'il souhaite être efficace dans son domaine.</blockquote>\n<hr>"}
-{/snippet}
-
-{#snippet craturesTerrestres()}
-	<section>
-		<h1 id="cratures-terrestres">{@html "Créatures Terrestres"}</h1>
-	{@html "<p>Entités combattues par les <span class=\"wiki-unresolved\">Arvens</span> à l'aide de méthodes de combat conventionnelles.</p>\n<hr>"}
-
-	</section>
-{/snippet}
-
-{#snippet craturesPlanaires()}
-	<section>
-		<h1 id="cratures-planaires">{@html "Créatures Planaires"}</h1>
-	{@html "<p>Entités combattues par les <span class=\"wiki-unresolved\">Templis</span></p>\n<hr>"}
-
-	</section>
-{/snippet}
-
-{#snippet altrations()}
-	<section>
-		<h1 id="altrations">{@html "Altérations"}</h1>
-	{@html "<ul><li>Imbibé de magie (développe des abilités magiques posistives)</li><li>Renforcé (les os sortent du corps pour faire un exo-squelette)</li><li>Nécrosé de magie (comportement anormaux, régénération rapide, sorte de cancer)</li><li>Parasité/ Symbioté</li><li>Sacré </li><li>Totémique (lié à un culte, sa force croît avec le nombre d’adorateurs ou de sacrifices)</li><li>Cyclique (change d’apparence et de pouvoirs selon un cycle)</li></ul>\n<hr>"}
-
-	</section>
-{/snippet}
-
-{#snippet tailles()}
-	<section>
-		<h1 id="tailles">{@html "Tailles"}</h1>
-	{@html "<ul><li>Minuscule (rat, chauve-souris, familier)</li><li>Petit (chien, gobelin, loup)</li><li>Normal (humain, orc, ogre jeune)</li><li>Grand (ours, troll, wyverne)</li><li>Énorme (hydre, éléphant, ogroides puissants)</li><li>Titanesque (dragons anciens, colosses, avatars des dieux)</li></ul>"}
-
-	</section>
-{/snippet}

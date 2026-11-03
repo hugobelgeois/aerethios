@@ -3,7 +3,6 @@
   import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
   import LinkPreview from "$lib/LinkPreview.svelte";
-  import EmbedBlock from "$lib/EmbedBlock.svelte";
 
   tocHeadings.set([
       {
@@ -48,6 +47,12 @@
 
 <svelte:head>
   <title>{"Armures - New"}</title>
+  <meta name="description" content={"AC (Armor Class) = Difficulté à blesser le personnage. Armures Une armure nécessite 24 matériaux pour être forgée. Si différents types de matériaux sont utilisés, il faut que leur quantité soit…"} />
+  <meta property="og:type" content={"article"} />
+  <meta property="og:title" content={"Armures - New"} />
+  <meta property="og:description" content={"AC (Armor Class) = Difficulté à blesser le personnage. Armures Une armure nécessite 24 matériaux pour être forgée. Si différents types de matériaux sont utilisés, il faut que leur quantité soit…"} />
+  <meta property="og:site_name" content={"Aerethios"} />
+  <meta name="twitter:card" content={"summary"} />
 </svelte:head>
 
 <article class="md-page">
@@ -55,73 +60,8 @@
     <h1>{"Armures - New"}</h1>
   </header>
   <div class="markdown-rendered">
-		{@render preamble()}
-		{@render armures()}
-		{@render catgories()}
-		{@render boucliers()}
+    {@html "<blockquote dir=\"auto\">\n<p>AC (Armor Class) = Difficulté à blesser le personnage.</p>\n</blockquote>\n<h2 data-heading=\"Armures\" dir=\"auto\" id=\"armures\">Armures</h2>\n<blockquote dir=\"auto\">\n<p>Une armure nécessite 24 matériaux pour être forgée.<br>\nSi différents types de matériaux sont utilisés, il faut que leur quantité soit toujours proportionnelle (24, 12-12, 8-8-8, 6-6-6-6, ...).</p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th>Catégorie</th>\n<th>Légère</th>\n<th>Lourde</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>AC</td>\n<td>5 + Dextérité(Acrobatie)</td>\n<td>10 + Force</td>\n</tr>\n<tr>\n<td>Modificateur max</td>\n<td>2 * rareté</td>\n<td>1 * rareté</td>\n</tr>\n<tr>\n<td>Résistances</td>\n<td>Magique</td>\n<td>Physique</td>\n</tr>\n<tr>\n<td>Coût (pa/ unité)</td>\n<td>20 * rareté</td>\n<td>4 ^ rareté</td>\n</tr>\n<tr>\n<td>Stabilité/ matériau</td>\n<td>-1</td>\n<td>-1.5</td>\n</tr>\n</tbody>\n</table></div>\n<p dir=\"auto\">L'AC pour les armures composées de multiples matériaux est l'AC moyen des catégories et de leur modificateur utilisés.</p>\n<h3 data-heading=\"Instabilité\" dir=\"auto\" id=\"instabilit\">Instabilité</h3>\n<blockquote dir=\"auto\">\n<p>Stabilité de base est de 3.</p>\n</blockquote>\n<p dir=\"auto\">Une armure est stable tant qu'elle ne dépasse pas 0, sinon elle devient instable.<br>\nUne fois instable, si <code>jet ennemi &gt;= AC du joueur + (4 * Stabilité)</code>, l'armure se casse et n'offrira plus de résistance aux prochaines attaques.</p>\n<pre class=\"language-exemple\"><code class=\"language-exemple is-loaded\">- 3 légères            → 0 (stable)\n- 2 légères + 1 lourde → -0.5 (instable) → AC + (4 * -0.5)\n- 3 lourdes            → -1.5 (instable) → AC + (4 * -1.5)\n</code></pre>\n<h2 data-heading=\"Catégories\" dir=\"auto\" id=\"catgories\">Catégories</h2>\n<h3 data-heading=\"Légère\" dir=\"auto\" id=\"lgre\">Légère</h3>\n<blockquote dir=\"auto\">\n<p>Si armure entièrement légère : ? Les dégâts subits par les huiles sont doublés ?</p>\n</blockquote>\n<ul>\n<li dir=\"auto\">Cuir, Ecaille, Os, Mailles</li>\n</ul>\n<h3 data-heading=\"Lourde\" dir=\"auto\" id=\"lourde\">Lourde</h3>\n<blockquote dir=\"auto\">\n<p>Si armure entièrement lourde : Désavantage en Magies &amp; Dextérité(Discrétion).</p>\n</blockquote>\n<ul>\n<li dir=\"auto\">Fer, Bronze, Acier, Titane, Mythril, Palladium, Adamantite, Orichalque</li>\n</ul>\n<h3 data-heading=\"Rareté\" dir=\"auto\" id=\"raret\">Rareté</h3>\n<blockquote dir=\"auto\">\n<p>Offre des bonus supplémentaires si tous les matériaux ont la même rareté, peu importe leur catégorie.</p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th></th>\n<th>Déchet</th>\n<th>Commun</th>\n<th>Peu Commun</th>\n<th>Rare</th>\n<th>Légendaire</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Bonus</strong></td>\n<td>-1 AC</td>\n<td>-</td>\n<td>+1 AC</td>\n<td>+2 AC</td>\n<td>+3 AC</td>\n</tr>\n<tr>\n<td><strong>Prérequis</strong></td>\n<td>-</td>\n<td>1</td>\n<td>2</td>\n<td>3</td>\n<td>4</td>\n</tr>\n</tbody>\n</table></div>\n<p dir=\"auto\">Le prérequis est la valeur minimum que le modificateur lié à la catégorie doit avoir pour pouvoir porter cette armure.<br>\nSi l'armure possède des matériaux légers et lourds, elle doit satisfaire le prérequis pour chaque modificateur.</p>\n<h2 data-heading=\"Boucliers\" dir=\"auto\" id=\"boucliers\">Boucliers</h2>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th>Armure</th>\n<th>AC</th>\n<th align=\"center\">Matériaux</th>\n<th align=\"center\">Force &gt;=</th>\n<th>Stabilité</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Bocle</td>\n<td>0</td>\n<td align=\"center\">2</td>\n<td align=\"center\">---</td>\n<td>0</td>\n</tr>\n<tr>\n<td>Bouclier</td>\n<td>-1</td>\n<td align=\"center\">4</td>\n<td align=\"center\">14</td>\n<td>1</td>\n</tr>\n<tr>\n<td>Pavois</td>\n<td>-3</td>\n<td align=\"center\">8</td>\n<td align=\"center\">17</td>\n<td>2</td>\n</tr>\n</tbody>\n</table></div>"}
   </div>
 </article>
 
 <LinkPreview />
-
-{#snippet preamble()}
-	{@html "<blockquote>AC (Armor Class) = Difficulté à blesser le personnage.</blockquote>"}
-{/snippet}
-
-{#snippet armures()}
-	<section>
-		<h2 id="armures">{@html "Armures"}</h2>
-	{@html "<blockquote>Une armure nécessite 24 matériaux pour être forgée.<br>Si différents types de matériaux sont utilisés, il faut que leur quantité soit toujours proportionnelle (24, 12-12, 8-8-8, 6-6-6-6, ...).</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th>Catégorie</th><th>Légère</th><th>Lourde</th></tr></thead><tbody><tr><td>AC</td><td>5 + Dextérité(Acrobatie)</td><td>10 + Force</td></tr><tr><td>Modificateur max</td><td>2 \\* rareté</td><td>1 \\* rareté</td></tr><tr><td>Résistances</td><td>Magique</td><td>Physique</td></tr><tr><td>Coût (pa/ unité)</td><td>20 \\* rareté</td><td>4 ^ rareté</td></tr><tr><td>Stabilité/ matériau</td><td>-1</td><td>-1.5</td></tr></tbody></table></div>\n<p>L'AC pour les armures composées de multiples matériaux est l'AC moyen des catégories et de leur modificateur utilisés.</p>"}
-	{@render instabilit()}
-	</section>
-{/snippet}
-
-{#snippet instabilit()}
-	<section>
-		<h3 id="instabilit">{@html "Instabilité"}</h3>
-	{@html "<blockquote>Stabilité de base est de 3.</blockquote>\n<p>Une armure est stable tant qu'elle ne dépasse pas 0, sinon elle devient instable.<br>\nUne fois instable, si <code>jet ennemi >= AC du joueur + (4 * Stabilité)</code>, l'armure se casse et n'offrira plus de résistance aux prochaines attaques.</p>\n<pre><code class=\"language-Exemple\">- 3 légères            → 0 (stable)\n- 2 légères + 1 lourde → -0.5 (instable) → AC + (4 * -0.5)\n- 3 lourdes            → -1.5 (instable) → AC + (4 * -1.5)</code></pre>"}
-
-	</section>
-{/snippet}
-
-{#snippet catgories()}
-	<section>
-		<h2 id="catgories">{@html "Catégories"}</h2>
-
-	{@render lgre()}
-	{@render lourde()}
-	{@render raret()}
-	</section>
-{/snippet}
-
-{#snippet lgre()}
-	<section>
-		<h3 id="lgre">{@html "Légère"}</h3>
-	{@html "<blockquote>Si armure entièrement légère : ? Les dégâts subits par les huiles sont doublés ?</blockquote>\n<ul><li>Cuir, Ecaille, Os, Mailles</li></ul>"}
-
-	</section>
-{/snippet}
-
-{#snippet lourde()}
-	<section>
-		<h3 id="lourde">{@html "Lourde"}</h3>
-	{@html "<blockquote>Si armure entièrement lourde : Désavantage en Magies & Dextérité(Discrétion).</blockquote>\n<ul><li>Fer, Bronze, Acier, Titane, Mythril, Palladium, Adamantite, Orichalque</li></ul>"}
-
-	</section>
-{/snippet}
-
-{#snippet raret()}
-	<section>
-		<h3 id="raret">{@html "Rareté"}</h3>
-	{@html "<blockquote>Offre des bonus supplémentaires si tous les matériaux ont la même rareté, peu importe leur catégorie.</blockquote>\n<div class=\"table-scroll\"><table><thead><tr><th></th><th>Déchet</th><th>Commun</th><th>Peu Commun</th><th>Rare</th><th>Légendaire</th></tr></thead><tbody><tr><td><strong>Bonus</strong></td><td>-1 AC</td><td>-</td><td>+1 AC</td><td>+2 AC</td><td>+3 AC</td></tr><tr><td><strong>Prérequis</strong></td><td>-</td><td>1</td><td>2</td><td>3</td><td>4</td></tr></tbody></table></div>\n<p>Le prérequis est la valeur minimum que le modificateur lié à la catégorie doit avoir pour pouvoir porter cette armure.<br>\nSi l'armure possède des matériaux légers et lourds, elle doit satisfaire le prérequis pour chaque modificateur.</p>"}
-
-	</section>
-{/snippet}
-
-{#snippet boucliers()}
-	<section>
-		<h2 id="boucliers">{@html "Boucliers"}</h2>
-	{@html "<div class=\"table-scroll\"><table><thead><tr><th>Armure</th><th>AC</th><th>Matériaux</th><th>Force >=</th><th>Stabilité</th></tr></thead><tbody><tr><td>Bocle</td><td>0</td><td>2</td><td>---</td><td>0</td></tr><tr><td>Bouclier</td><td>-1</td><td>4</td><td>14</td><td>1</td></tr><tr><td>Pavois</td><td>-3</td><td>8</td><td>17</td><td>2</td></tr></tbody></table></div>"}
-
-	</section>
-{/snippet}
