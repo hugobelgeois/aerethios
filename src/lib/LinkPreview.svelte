@@ -143,11 +143,12 @@
 
 	// ── Lifecycle ──────────────────────────────────────────────────────────
 
-	// Mounted once by +layout.svelte for the whole visit — a preview (even
-	// pinned) belongs to the page it was opened from.
+	// Mounted once by +layout.svelte for the whole visit — a hover preview
+	// belongs to the page it was opened from, but a pinned one is kept
+	// across navigations until it's closed or unpinned.
 	afterNavigate(() => {
 		clearTimeout(showTimer ?? undefined);
-		closePanel();
+		if (!pinned) closePanel();
 	});
 
 	onMount(() => {
