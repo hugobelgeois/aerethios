@@ -7,4 +7,11 @@ export const load: PageLoad = () => ({
   pageDescription: "",
   fullBleed: false,
   fullHeight: false,
+  headings: [
+    {
+      "id": "defense",
+      "text": "Défense",
+      "level": 3
+    }
+  ],
 });

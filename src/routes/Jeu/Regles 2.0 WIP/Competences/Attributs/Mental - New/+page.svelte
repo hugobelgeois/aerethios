@@ -1,28 +1,5 @@
 <script lang="ts">
-  import { onDestroy } from "svelte";
-  import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
-  import LinkPreview from "$lib/LinkPreview.svelte";
-
-  tocHeadings.set([
-      {
-          "id": "principales",
-          "text": "Principales",
-          "level": 2
-      },
-      {
-          "id": "secondaires",
-          "text": "Secondaires",
-          "level": 2
-      },
-      {
-          "id": "finales",
-          "text": "Finales",
-          "level": 2
-      }
-  ]);
-
-  onDestroy(() => tocHeadings.set([]));
 </script>
 
 <svelte:head>
@@ -43,5 +20,3 @@
     {@html "<h2 data-heading=\"Principales\" dir=\"auto\" id=\"principales\">Principales</h2>\n<blockquote dir=\"auto\">\n<p>Le joueur en choisi 1 tous les 5 points d'attribut (5, 10, 15, 20).<br>\nDouble le modificateur des jets selon la situation (le modificateur devient 0 s'il était négatif).</p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th>Compétence</th>\n<th>Situation</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Arcaniste</td>\n<td>Magie de Fusion et modification des magies</td>\n</tr>\n<tr>\n<td>Intelligence</td>\n<td>Magies Elétistes et efficacité magique</td>\n</tr>\n<tr>\n<td>Sagesse</td>\n<td>Magies Croitistes et contrôle intérieur</td>\n</tr>\n<tr>\n<td>Volonté</td>\n<td>Résistance mentale</td>\n</tr>\n</tbody>\n</table></div>\n<h2 data-heading=\"Secondaires\" dir=\"auto\" id=\"secondaires\">Secondaires</h2>\n<blockquote dir=\"auto\">\n<p>Le joueur en choisi 1 tous les 3 points d'attribut (3, 6, 9, 12, 15, 18).<br>\nIl est nécessaire de posséder la compétence principale pour débloquer les compétences secondaires liées.</p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th><strong>Principale</strong></th>\n<th>Secondaire</th>\n<th>Type</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Arcaniste</strong></td>\n<td>Amplification</td>\n<td>Action</td>\n<td>Permet de cumuler ses crystaux avec ceux d'une autre entité pour augmenter la puissance d'un sort.<br>Les dés utilisés sont ceux du lanceur.</td>\n</tr>\n<tr>\n<td></td>\n<td>Ancrage</td>\n<td>Action Bonus</td>\n<td>Fait persister un sort pendant 1 tour de plus afin que ces effets soient appliqués une seconde fois.</td>\n</tr>\n<tr>\n<td></td>\n<td>Résonance</td>\n<td>Passif</td>\n<td>Permet de fusionner les magies avec autre chose que le feu.</td>\n</tr>\n<tr>\n<td><strong>Intelligence</strong></td>\n<td>Efficacité</td>\n<td>Passif</td>\n<td>Les faibles résultats ne consomment pas de crystaux.<br>Si <code>jet de magie &lt;= 20% de leur maximum</code>.</td>\n</tr>\n<tr>\n<td></td>\n<td>Redirection</td>\n<td>Réaction</td>\n<td>Redirige un sort vers une autre entité proche. <br><code>1d20 + Mental(Intelligence) &gt;= Niveau Magique + Maîtrise</code>.</td>\n</tr>\n<tr>\n<td></td>\n<td>Ricochet</td>\n<td>Passif</td>\n<td>Lorsqu'un sort touche, vous pouvez immédiatement le propager sur une cible à portée.<br>Si <code>nouveau jet de magie &gt;= 50% de l'ancien jet de magie</code>, le sort est propagé et peut être de nouveau propagé.</td>\n</tr>\n<tr>\n<td><strong>Sagesse</strong></td>\n<td>Insensible</td>\n<td>Passif</td>\n<td>Ignore la douleur et les malus associés.</td>\n</tr>\n<tr>\n<td></td>\n<td>Méditation</td>\n<td>Action</td>\n<td>Se concentrer régénère <code>Mental(Sagesse)</code> crystaux.</td>\n</tr>\n<tr>\n<td></td>\n<td>Sérénité - WIP</td>\n<td>Passif</td>\n<td>Rien ne rompt votre concentration. (prend le dessus sur Dernier souffle et Imperturbable)</td>\n</tr>\n<tr>\n<td><strong>Volonté</strong></td>\n<td>Dernier souffle</td>\n<td>Réaction</td>\n<td>Lorsque vous vous faîtes toucher, vous pouvez conserver votre concentration en échange de <code>1d10 HP</code>.</td>\n</tr>\n<tr>\n<td></td>\n<td>Imperturbable</td>\n<td>Passif</td>\n<td>Permet de se déplacer et d'esquiver sans perdre sa concentration.</td>\n</tr>\n<tr>\n<td></td>\n<td>Résistance</td>\n<td>Réaction</td>\n<td>Avantage contre les effets mentaux.</td>\n</tr>\n</tbody>\n</table></div>\n<h2 data-heading=\"Finales\" dir=\"auto\" id=\"finales\">Finales</h2>\n<blockquote dir=\"auto\">\n<p>Au niveau 10, s'il s'agit de son attribut le plus élevé, le joueur peut en choisir 1.<br>\nAu niveau 20, il peut en choisir un deuxième ou annuler 1 effet négatif de celui qu'il a déjà.</p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th>Compétence</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Archimage</strong></td>\n<td>+ Vous pouvez faire des magies de fusion seul. <br>- Vous ne pouvez rien faire d'autre pendant votre tour.</td>\n</tr>\n<tr>\n<td><strong>Plus ultra</strong></td>\n<td>+ Pouvoir faire une attaque avec les dés et les dégâts maximum auxquels vous avez accès.<br><code>2d10 -&gt; 3(DMG de base) + 8 (nombre de paliers entre 2d10 et 1d4) /Crystal</code>.<br>- Votre Limite Magique est de 0 lors de cette attaque -&gt; Vous subissez les dégâts que vous infligez aux HP de la cible (vos résistances magiques rentrent en compte).<br>Vous ne pouvez pas mourir directement de cette attaque.</td>\n</tr>\n<tr>\n<td><strong>Potter</strong></td>\n<td>+ Les dés de magie qui tombent sous la moitié sont remplacés par la moitié (arrondie vers le haut).<br>- Si la cible a une résistance à la magie utilisée, tous les dégâts sont annulés.</td>\n</tr>\n</tbody>\n</table></div>"}
   </div>
 </article>
-
-<LinkPreview />

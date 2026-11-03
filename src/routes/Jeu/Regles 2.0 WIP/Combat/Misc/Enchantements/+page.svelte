@@ -1,18 +1,5 @@
 <script lang="ts">
-  import { onDestroy } from "svelte";
-  import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
-  import LinkPreview from "$lib/LinkPreview.svelte";
-
-  tocHeadings.set([
-      {
-          "id": "enchantements",
-          "text": "Enchantements",
-          "level": 3
-      }
-  ]);
-
-  onDestroy(() => tocHeadings.set([]));
 </script>
 
 <svelte:head>
@@ -33,5 +20,3 @@
     {@html applyBase("<h3 data-heading=\"Enchantements\" dir=\"auto\" id=\"enchantements\">Enchantements</h3>\n<blockquote dir=\"auto\">\n<p>Fait par un <a data-tooltip-position=\"top\" aria-label=\"Érudition &gt; Enchanteur\" href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Erudition#enchanteur\" class=\"internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Erudition\" data-wiki-fragment=\"Enchanteur\">Enchanteur</a> pour ajouter des effets uniques sur un accessoire.</p>\n</blockquote>\n<p dir=\"auto\">Si une condition est remplie pour 2 enchantements, celui avec la rareté la plus haute l'emporte.</p>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th></th>\n<th align=\"center\">Simple</th>\n<th align=\"center\">Avancé</th>\n<th align=\"center\">Incroyable</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Valeur</strong></td>\n<td align=\"center\">1</td>\n<td align=\"center\">2</td>\n<td align=\"center\">3</td>\n</tr>\n</tbody>\n</table></div>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th>Enchantement</th>\n<th>Effet</th>\n<th>Prérequis</th>\n<th>Rareté</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Vampirique</td>\n<td>Récupère <code>3 * rareté</code>HP par coup.</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Crystallique</td>\n<td>Récupère <code>2 * rareté</code>MP par coup.</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Ellipse</td>\n<td>Réduit le DC de couverture de <code>rareté</code>.<br>La couverture à 100% passe de <code>Impossible</code> à <code>12 - (2 * rareté)</code>.</td>\n<td>Distance</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Recharge rapide</td>\n<td>Après un tir, si <code>1d6 &lt;= rareté</code>, réduit le temps de recharge de l'arme.<br>(Action -&gt; Action Bonus -&gt; Rien)</td>\n<td>Distance</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Surcharge</td>\n<td>Consomme 1 crystal pour faire perdre <code>1d4 + rareté</code>MP à la cible.</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>Brutalité</td>\n<td>Si les dés forment une petite suite (la somme des valeurs ne dépassent pas la plus grande face du dé), la petite valeur s'ajoute aux dégâts pour le reste du combat.</td>\n<td>-</td>\n<td>Simple</td>\n</tr>\n<tr>\n<td>Précision</td>\n<td>Si les dés forment une grande suite (la somme des valeurs dépassent la plus grande face du dé), la petite valeur devient un bonus pour toucher et diminue de 1 (jusqu'à 0 ou la fin du combat) à chaque attaque.</td>\n<td>-</td>\n<td>Simple</td>\n</tr>\n<tr>\n<td></td>\n<td>Si les dés font une somme paire, ??</td>\n<td>-</td>\n<td>Simple</td>\n</tr>\n<tr>\n<td></td>\n<td>Si les dés font une somme impaire, ??</td>\n<td>-</td>\n<td>Simple</td>\n</tr>\n<tr>\n<td>Opposition</td>\n<td>Si les dés tombent sur des faces opposées (ex : 2d6: 2 et 5), le joueur peut doubler la plus grande valeur pour toucher, et doubler la plus petite pour les dégâts, ou inversement.</td>\n<td>-</td>\n<td>Simple</td>\n</tr>\n<tr>\n<td>Balance</td>\n<td>Si les dés font 1 et la valeur max, ??</td>\n<td>-</td>\n<td>Avancé</td>\n</tr>\n<tr>\n<td>Malchance</td>\n<td>Si les dés font 1 et 3, donne un malus de 13 aux jets de la cible.<br>La cible peut transférer sa malchance si elle fait 7 à ses jets.</td>\n<td>-</td>\n<td>Avancé</td>\n</tr>\n<tr>\n<td>L'oeil</td>\n<td>Si les dés font 4 et 2, le point faible de la cible est dévoilé.<br>Cibler ce point faible augmente l'AC de de la cible de 3 mais quadruple les dégâts bruts qu'elle subit.</td>\n<td>-</td>\n<td>Avancé</td>\n</tr>\n<tr>\n<td>Distraction</td>\n<td>Si les dés font 6 et 7, l'action rate, mais la cible passe son tour.</td>\n<td>-</td>\n<td>Avancé</td>\n</tr>\n<tr>\n<td>Séduction</td>\n<td>Si les dés font 6 et 9, la cible ne vous attaquera plus tant que vous ne l'attaquerez plus.</td>\n<td>-</td>\n<td>Avancé</td>\n</tr>\n<tr>\n<td>Explosif</td>\n<td>Faire le même chiffre sur les dés permet de relancer un dé qui s'ajoute aux dégâts.<br>(Explosif fonctionne toujours entre le nouveau dé et ceux jetés avant pour la même action)</td>\n<td>-</td>\n<td>Avancé</td>\n</tr>\n<tr>\n<td>??</td>\n<td>Si les dés font la valeur minimale, ??.</td>\n<td>-</td>\n<td>Incroyable</td>\n</tr>\n<tr>\n<td>Critique</td>\n<td>Pour chaque dé qui fait la valeur maximale, le joueur relance ce dé et ajoute le résultat au jet précédent.</td>\n<td>-</td>\n<td>Incroyable</td>\n</tr>\n</tbody>\n</table></div>")}
   </div>
 </article>
-
-<LinkPreview />

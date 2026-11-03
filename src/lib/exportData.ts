@@ -1,5 +1,5 @@
 // Data files written next to this module by the plugin at export time (see
-// runExport() in the plugin's src/main.ts). import.meta.glob instead of
+// writeSiteData() in the plugin's src/siteFiles.ts). import.meta.glob instead of
 // static `import ... from "./x.json"`: a static import fails the whole Vite
 // build if the file doesn't exist yet (e.g. right after updating the
 // plugin's svelte-lib files but before the very first export has run) —
@@ -42,7 +42,7 @@ export const GRAPH_FORCES: GraphForces = {
 export const ANIMATION_INTERVAL_SECONDS = 5;
 
 /** Which color mode the exported site starts in on first load. A visitor's
- * own toggle still overrides this for the rest of their visit. */
+ * own toggle overrides it, and is remembered (see +layout.svelte). */
 export const DEFAULT_COLOR_MODE: "dark" | "light" =
 	themeConfig.defaultColorMode === "light" ? "light" : "dark";
 

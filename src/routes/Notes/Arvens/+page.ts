@@ -7,4 +7,31 @@ export const load: PageLoad = () => ({
   pageDescription: "",
   fullBleed: false,
   fullHeight: false,
+  headings: [
+    {
+      "id": "bronze",
+      "text": "Bronze",
+      "level": 2
+    },
+    {
+      "id": "argent",
+      "text": "Argent",
+      "level": 2
+    },
+    {
+      "id": "or",
+      "text": "Or",
+      "level": 2
+    },
+    {
+      "id": "platine",
+      "text": "Platine",
+      "level": 2
+    },
+    {
+      "id": "legendes",
+      "text": "Légendes",
+      "level": 2
+    }
+  ],
 });

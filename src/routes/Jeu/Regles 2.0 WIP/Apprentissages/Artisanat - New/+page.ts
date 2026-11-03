@@ -7,4 +7,36 @@ export const load: PageLoad = () => ({
   pageDescription: "",
   fullBleed: false,
   fullHeight: false,
+  headings: [
+    {
+      "id": "rappel",
+      "text": "Rappel",
+      "level": 3
+    },
+    {
+      "id": "specialisations",
+      "text": "Spécialisations",
+      "level": 2
+    },
+    {
+      "id": "artificier---wip",
+      "text": "Artificier - WIP",
+      "level": 3
+    },
+    {
+      "id": "bijoutier",
+      "text": "Bijoutier",
+      "level": 3
+    },
+    {
+      "id": "enchanteur",
+      "text": "Enchanteur",
+      "level": 3
+    },
+    {
+      "id": "forgeron",
+      "text": "Forgeron",
+      "level": 3
+    }
+  ],
 });

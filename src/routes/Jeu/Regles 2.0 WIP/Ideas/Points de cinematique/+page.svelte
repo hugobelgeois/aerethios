@@ -1,12 +1,5 @@
 <script lang="ts">
-  import { onDestroy } from "svelte";
-  import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
-  import LinkPreview from "$lib/LinkPreview.svelte";
-
-  tocHeadings.set([]);
-
-  onDestroy(() => tocHeadings.set([]));
 </script>
 
 <svelte:head>
@@ -27,5 +20,3 @@
     {@html "<p dir=\"auto\">Le joueur peut utiliser ce point pour décrire son action qui touche<br>\nSelon la description, le mj détermine le dé de dégâts et les effets</p>"}
   </div>
 </article>
-
-<LinkPreview />

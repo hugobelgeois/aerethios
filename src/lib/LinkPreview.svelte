@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { afterNavigate } from "$app/navigation";
 	import { onMount } from "svelte";
 	import Icon from "$lib/Icon.svelte";
 	import { fetchWikiHtml } from "$lib/wikiFetch";
@@ -14,20 +15,12 @@
 	let loading = $state(false);
 	let error = $state(false);
 
-	const cache = new Map<string, string>();
 	let showTimer: ReturnType<typeof setTimeout> | null = null;
 	let hideTimer: ReturnType<typeof setTimeout> | null = null;
+	/** Bumped for every preview shown — a fetch that resolves once another
+	 * preview has replaced its own is dropped instead of overwriting it. */
+	let requestId = 0;
 	let panelEl: HTMLElement | undefined = $state();
-
-	// ── Fetch (with per-panel cache on top of the shared fetch helper) ──────
-
-	async function loadPreview(route: string, fragment: string): Promise<string> {
-		const cacheKey = route + (fragment ? "#" + fragment : "");
-		if (cache.has(cacheKey)) return cache.get(cacheKey)!;
-		const result = await fetchWikiHtml(route, fragment);
-		cache.set(cacheKey, result);
-		return result;
-	}
 
 	// ── Hover ──────────────────────────────────────────────────────────────
 
@@ -45,20 +38,26 @@
 		if (!link) return;
 
 		clearTimeout(hideTimer ?? undefined);
+		// mouseover fires again for every element inside the link — only
+		// the latest one may show the preview.
+		clearTimeout(showTimer ?? undefined);
 		showTimer = setTimeout(async () => {
 			const route = link.dataset.wikiHref!;
 			const fragment = link.dataset.wikiFragment ?? "";
+			const id = ++requestId;
 			placeAt(e.clientX + 16, e.clientY + 16);
 			loading = true;
 			error = false;
 			visible = true;
 			html = "";
 			try {
-				html = await loadPreview(route, fragment);
+				// Pages are cached by fetchWikiHtml for the whole visit.
+				const result = await fetchWikiHtml(route, fragment);
+				if (id === requestId) html = result;
 			} catch {
-				error = true;
+				if (id === requestId) error = true;
 			} finally {
-				loading = false;
+				if (id === requestId) loading = false;
 			}
 		}, 300);
 	}
@@ -120,6 +119,7 @@
 	}
 
 	function closePanel() {
+		requestId++;
 		pinned = false;
 		visible = false;
 		html = "";
@@ -142,6 +142,13 @@
 	}
 
 	// ── Lifecycle ──────────────────────────────────────────────────────────
+
+	// Mounted once by +layout.svelte for the whole visit — a preview (even
+	// pinned) belongs to the page it was opened from.
+	afterNavigate(() => {
+		clearTimeout(showTimer ?? undefined);
+		closePanel();
+	});
 
 	onMount(() => {
 		document.addEventListener("mouseover", onMouseOver);

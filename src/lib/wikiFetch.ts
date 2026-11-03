@@ -5,11 +5,15 @@
  */
 import { base } from "$app/paths";
 
+/** Must stay identical to slugify() in the plugin's src/constants.ts, which
+ * gave the headings their ids (separate module graph — can't import it). */
 function slugify(text: string): string {
 	return text
+		.normalize("NFD")
+		.replace(/[̀-ͯ]/g, "")
 		.toLowerCase()
 		.replace(/\s+/g, "-")
-		.replace(/[^\w-]/g, "");
+		.replace(/[^\p{L}\p{N}_-]/gu, "");
 }
 
 /**
@@ -56,16 +60,22 @@ function extractFragment(content: Element, fragment: string): string | null {
 
 const HEADING = ":is(h1, h2, h3, h4, h5, h6)";
 
-/**
- * Fetch a prerendered route and return the HTML of its rendered content,
- * narrowed to `fragment` (a heading) when one is given and found.
- * Throws on network/HTTP errors or if no renderable content is found —
- * callers are expected to catch and show an "unavailable" state.
- */
-export async function fetchWikiHtml(
-	route: string,
-	fragment: string,
-): Promise<string> {
+/** Route → its rendered content, fetched once per visit — whichever of
+ * its headings a link points to. */
+const contents = new Map<string, Promise<Element>>();
+
+function fetchContent(route: string): Promise<Element> {
+	let content = contents.get(route);
+	if (!content) {
+		content = loadContent(route);
+		contents.set(route, content);
+		// A failed fetch is retried next time instead of cached.
+		content.catch(() => contents.delete(route));
+	}
+	return content;
+}
+
+async function loadContent(route: string): Promise<Element> {
 	// `route` is the base-less canonical route (e.g. from data-wiki-href) —
 	// add the site's real base ourselves, same as any other internal link.
 	const fullRoute = base + route;
@@ -78,6 +88,20 @@ export async function fetchWikiHtml(
 	const content =
 		doc.querySelector(".markdown-rendered") ?? doc.querySelector("article");
 	if (!content) throw new Error("selector not found");
+	return content;
+}
+
+/**
+ * Fetch a prerendered route and return the HTML of its rendered content,
+ * narrowed to `fragment` (a heading) when one is given and found.
+ * Throws on network/HTTP errors or if no renderable content is found —
+ * callers are expected to catch and show an "unavailable" state.
+ */
+export async function fetchWikiHtml(
+	route: string,
+	fragment: string,
+): Promise<string> {
+	const content = await fetchContent(route);
 
 	if (fragment) {
 		const narrowed = extractFragment(content, fragment);

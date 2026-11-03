@@ -1,33 +1,5 @@
 <script lang="ts">
-  import { onDestroy } from "svelte";
-  import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
-  import LinkPreview from "$lib/LinkPreview.svelte";
-
-  tocHeadings.set([
-      {
-          "id": "dtails",
-          "text": "Détails",
-          "level": 2
-      },
-      {
-          "id": "scnario",
-          "text": "Scénario",
-          "level": 2
-      },
-      {
-          "id": "notes",
-          "text": "Notes",
-          "level": 2
-      },
-      {
-          "id": "joueurs",
-          "text": "Joueurs",
-          "level": 2
-      }
-  ]);
-
-  onDestroy(() => tocHeadings.set([]));
 </script>
 
 <svelte:head>
@@ -45,8 +17,6 @@
     <h1>{"Arc 2 - 09b - 27.06.25"}</h1>
   </header>
   <div class="markdown-rendered">
-    {@html applyBase("<blockquote dir=\"auto\">\n<p>Résumé</p>\n</blockquote>\n<h2 data-heading=\"Détails\" dir=\"auto\" id=\"dtails\">Détails</h2>\n<p dir=\"auto\">Lieu actuel : Ovliin, voyage au sud de Ruvik</p>\n<p dir=\"auto\">Objectif : Battre le Gammoth</p>\n<p dir=\"auto\">Pnjs notables : Bryumnes, Einar</p>\n<h2 data-heading=\"Scénario\" dir=\"auto\" id=\"scnario\">Scénario</h2>\n<h2 data-heading=\"Notes\" dir=\"auto\" id=\"notes\">Notes</h2>\n<ul>\n<li dir=\"auto\">Sur le chemin, la poupée se transforme et leur dit où se trouve le masque</li>\n<li dir=\"auto\">Discussion sur comment ils comptent s'y prendre</li>\n<li dir=\"auto\">Ils croisent le Gammoth qui en a après Dara</li>\n</ul>\n<p dir=\"auto\"><strong>Gammoth</strong></p>\n<blockquote dir=\"auto\">\n<p><strong>Armure :</strong><br>\nNombre de coups pour casser : 3 &gt; 6 &gt; 9</p>\n<p><strong>Trompe</strong><br>\nDEF 18 (Glace 22) - T &gt; P &gt; C<br>\nATK 3+D6 (Glace 3+D10)<br>\nATK Boule de neige D10</p>\n<p><strong>Défenses</strong><br>\nDEF 24 - C &gt; T &gt; P<br>\nATK 8+D6<br>\nATK Boule de neige D10</p>\n<p><strong>Pattes</strong><br>\nDEF 20 (Glace 24) - T &gt; C &gt; P<br>\nATK Stomp 10+D4 (Glace 10+D8)<br>\nATK Charge +5</p>\n<p><strong>Crâne</strong><br>\nDEF 26 - C &gt; P &gt; T<br>\nATK Charge +5</p>\n<p><strong>Ventre</strong><br>\nDEF 18 - P &gt; T &gt; C<br>\nATK -</p>\n<p><strong>Dos</strong><br>\nDEF 20 - P &gt; C &gt; T<br>\nATK Roulade 14</p>\n<p>Glace : &gt;16</p>\n<p>Force : 10+D20</p>\n</blockquote>\n<p dir=\"auto\"><strong>Bryumnes</strong></p>\n<blockquote dir=\"auto\">\n<p>Armure : 16<br>\nArme : 10+D10<br>\nEsquiver : 6<br>\nFeu : 8<br>\nAir : 4<br>\nFoudre : 4</p>\n</blockquote>\n<p dir=\"auto\"><strong>Einar</strong></p>\n<blockquote dir=\"auto\">\n<p>Armure : 10<br>\nArme : 12+D6<br>\nEsquiver : 3<br>\nBloquer : 6<br>\nFeu : 7<br>\nRoche : 3</p>\n</blockquote>\n<ul>\n<li dir=\"auto\">Fin du combat, ils arrivent chez la connaissance et décident où se tp\n<ul>\n<li dir=\"auto\">Billy (Suraja])</li>\n<li dir=\"auto\">Le masque (Kothula)</li>\n<li dir=\"auto\">Lysara Vein (Nirina)</li>\n</ul>\n</li>\n<li dir=\"auto\">Ils se font séparer au moment de se faire tp (aventure solo en tête à tête)</li>\n</ul>\n<h2 data-heading=\"Joueurs\" dir=\"auto\" id=\"joueurs\">Joueurs</h2>\n<ul class=\"contains-task-list\">\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Diego 11</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Loïc 8</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Michel 12</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Thomas 11</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">William 5</li>\n</ul>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th align=\"center\">Précédent</th>\n<th align=\"center\">Suivant</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09 - 13.06.25\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09 - 13.06.25\" data-wiki-fragment=\"\">Arc 2 - 09 - 13.06.25</a></td>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 05.08.25 Loic\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 05.08.25 Loic\" data-wiki-fragment=\"\">Arc 2.5 - 10 - 05.08.25 Loic</a></td>\n</tr>\n</tbody>\n</table></div>")}
+    {@html applyBase("<blockquote dir=\"auto\">\n<p>Résumé</p>\n</blockquote>\n<h2 data-heading=\"Détails\" dir=\"auto\" id=\"details\">Détails</h2>\n<p dir=\"auto\">Lieu actuel : Ovliin, voyage au sud de Ruvik</p>\n<p dir=\"auto\">Objectif : Battre le Gammoth</p>\n<p dir=\"auto\">Pnjs notables : Bryumnes, Einar</p>\n<h2 data-heading=\"Scénario\" dir=\"auto\" id=\"scenario\">Scénario</h2>\n<h2 data-heading=\"Notes\" dir=\"auto\" id=\"notes\">Notes</h2>\n<ul>\n<li dir=\"auto\">Sur le chemin, la poupée se transforme et leur dit où se trouve le masque</li>\n<li dir=\"auto\">Discussion sur comment ils comptent s'y prendre</li>\n<li dir=\"auto\">Ils croisent le Gammoth qui en a après Dara</li>\n</ul>\n<p dir=\"auto\"><strong>Gammoth</strong></p>\n<blockquote dir=\"auto\">\n<p><strong>Armure :</strong><br>\nNombre de coups pour casser : 3 &gt; 6 &gt; 9</p>\n<p><strong>Trompe</strong><br>\nDEF 18 (Glace 22) - T &gt; P &gt; C<br>\nATK 3+D6 (Glace 3+D10)<br>\nATK Boule de neige D10</p>\n<p><strong>Défenses</strong><br>\nDEF 24 - C &gt; T &gt; P<br>\nATK 8+D6<br>\nATK Boule de neige D10</p>\n<p><strong>Pattes</strong><br>\nDEF 20 (Glace 24) - T &gt; C &gt; P<br>\nATK Stomp 10+D4 (Glace 10+D8)<br>\nATK Charge +5</p>\n<p><strong>Crâne</strong><br>\nDEF 26 - C &gt; P &gt; T<br>\nATK Charge +5</p>\n<p><strong>Ventre</strong><br>\nDEF 18 - P &gt; T &gt; C<br>\nATK -</p>\n<p><strong>Dos</strong><br>\nDEF 20 - P &gt; C &gt; T<br>\nATK Roulade 14</p>\n<p>Glace : &gt;16</p>\n<p>Force : 10+D20</p>\n</blockquote>\n<p dir=\"auto\"><strong>Bryumnes</strong></p>\n<blockquote dir=\"auto\">\n<p>Armure : 16<br>\nArme : 10+D10<br>\nEsquiver : 6<br>\nFeu : 8<br>\nAir : 4<br>\nFoudre : 4</p>\n</blockquote>\n<p dir=\"auto\"><strong>Einar</strong></p>\n<blockquote dir=\"auto\">\n<p>Armure : 10<br>\nArme : 12+D6<br>\nEsquiver : 3<br>\nBloquer : 6<br>\nFeu : 7<br>\nRoche : 3</p>\n</blockquote>\n<ul>\n<li dir=\"auto\">Fin du combat, ils arrivent chez la connaissance et décident où se tp\n<ul>\n<li dir=\"auto\">Billy (Suraja])</li>\n<li dir=\"auto\">Le masque (Kothula)</li>\n<li dir=\"auto\">Lysara Vein (Nirina)</li>\n</ul>\n</li>\n<li dir=\"auto\">Ils se font séparer au moment de se faire tp (aventure solo en tête à tête)</li>\n</ul>\n<h2 data-heading=\"Joueurs\" dir=\"auto\" id=\"joueurs\">Joueurs</h2>\n<ul class=\"contains-task-list\">\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Diego 11</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Loïc 8</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Michel 12</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Thomas 11</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">William 5</li>\n</ul>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th align=\"center\">Précédent</th>\n<th align=\"center\">Suivant</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09 - 13.06.25\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09 - 13.06.25\" data-wiki-fragment=\"\">Arc 2 - 09 - 13.06.25</a></td>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 05.08.25 Loic\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 05.08.25 Loic\" data-wiki-fragment=\"\">Arc 2.5 - 10 - 05.08.25 Loic</a></td>\n</tr>\n</tbody>\n</table></div>")}
   </div>
 </article>
-
-<LinkPreview />

@@ -1,33 +1,5 @@
 <script lang="ts">
-  import { onDestroy } from "svelte";
-  import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
-  import LinkPreview from "$lib/LinkPreview.svelte";
-
-  tocHeadings.set([
-      {
-          "id": "dtails",
-          "text": "Détails",
-          "level": 2
-      },
-      {
-          "id": "scnario",
-          "text": "Scénario",
-          "level": 2
-      },
-      {
-          "id": "notes",
-          "text": "Notes",
-          "level": 2
-      },
-      {
-          "id": "joueurs",
-          "text": "Joueurs",
-          "level": 2
-      }
-  ]);
-
-  onDestroy(() => tocHeadings.set([]));
 </script>
 
 <svelte:head>
@@ -45,8 +17,6 @@
     <h1>{"Arc 2.5 - 10 - 05.08.25 Loic"}</h1>
   </header>
   <div class="markdown-rendered">
-    {@html applyBase("<blockquote dir=\"auto\">\n<p>Résumé</p>\n</blockquote>\n<h2 data-heading=\"Détails\" dir=\"auto\" id=\"dtails\">Détails</h2>\n<p dir=\"auto\">Lieu actuel : Ovliin,</p>\n<p dir=\"auto\">Objectif :</p>\n<p dir=\"auto\">Pnjs notables : Bigard, Mattivi, Marvik, Syrithia, Dieu Savoir</p>\n<h2 data-heading=\"Scénario\" dir=\"auto\" id=\"scnario\">Scénario</h2>\n<h2 data-heading=\"Notes\" dir=\"auto\" id=\"notes\">Notes</h2>\n<blockquote dir=\"auto\">\n<p>Formation scientifique forcée par ses parents à 15 ans<br>\n<del>Etudie 1 an puis se redirige vers la religion</del></p>\n<p><em>Se fait bien voir par son père grâce à ses connaissances alchimique du \"futur\"<br>\nApprends la magie</em><br>\nRencontre de Bigard et Mattivi</p>\n<p><em>Se fait bien voir par l'Académie grâce à ses connaissances<br>\nApprend le feu à 16 ans</em><br>\n<del>Redirection vers la religion</del><br>\n*Continue ses études</p>\n<p>Apprend les ténèbres à 18 ans, et la foudre à 20 ans*<br>\n<del>Don de sa vue à 21 ans<br>\nPurge un village de sa douleur à 24 ans<br>\nPélérinage à travers les 72 temples, rencontre avec Marvik</del></p>\n<p><em>Travail avec Bigard pour créer un élémentaire avec une capacité de réflexion propre<br>\nRencontre avec Marvik<br>\nRedirection vers la religion<br>\nBigard accompagne pour flexer son élémentaire devant un dieu</em></p>\n<p><em>Apprend la magie solide pendant son pèlerinage</em></p>\n<p><em>Rencontre de Syrithia à 28 ans<br>\nRencontre du Dieu Savoir 3 mois après<br>\nFlexe l'élémentaire<br>\nLe dieu propose le savoir de faire un élémentaire ultime contre tous les souvenirs de Léoric<br>\nIl refuse</em><br>\nIl continue son pèlerinage pour se rendre au début du jdr</p>\n</blockquote>\n<p dir=\"auto\">Résultat :</p>\n<ul>\n<li dir=\"auto\">Nouvelle magie de feu et de solide</li>\n<li dir=\"auto\">Nouveau style de magie :\n<ul>\n<li dir=\"auto\">Golem de feu</li>\n</ul>\n</li>\n<li dir=\"auto\">Perte de maîtrise càc pour compenser la magie</li>\n<li dir=\"auto\">Perte de ses rangs Templis</li>\n<li dir=\"auto\">Réputation de mage prometteur dans sa région d'Ovliin</li>\n<li dir=\"auto\">Relation avec certains Doigts (Syrithia, Marvik, Vorithar)</li>\n</ul>\n<h2 data-heading=\"Joueurs\" dir=\"auto\" id=\"joueurs\">Joueurs</h2>\n<ul class=\"contains-task-list\">\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Diego</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Loïc</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Michel</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Thomas</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">William</li>\n</ul>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th align=\"center\">Précédent</th>\n<th align=\"center\">Suivant</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25\" data-wiki-fragment=\"\">Arc 2 - 09b - 27.06.25</a></td>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 3/Arc 3\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3\" data-wiki-fragment=\"\">Arc 3</a></td>\n</tr>\n</tbody>\n</table></div>")}
+    {@html applyBase("<blockquote dir=\"auto\">\n<p>Résumé</p>\n</blockquote>\n<h2 data-heading=\"Détails\" dir=\"auto\" id=\"details\">Détails</h2>\n<p dir=\"auto\">Lieu actuel : Ovliin,</p>\n<p dir=\"auto\">Objectif :</p>\n<p dir=\"auto\">Pnjs notables : Bigard, Mattivi, Marvik, Syrithia, Dieu Savoir</p>\n<h2 data-heading=\"Scénario\" dir=\"auto\" id=\"scenario\">Scénario</h2>\n<h2 data-heading=\"Notes\" dir=\"auto\" id=\"notes\">Notes</h2>\n<blockquote dir=\"auto\">\n<p>Formation scientifique forcée par ses parents à 15 ans<br>\n<del>Etudie 1 an puis se redirige vers la religion</del></p>\n<p><em>Se fait bien voir par son père grâce à ses connaissances alchimique du \"futur\"<br>\nApprends la magie</em><br>\nRencontre de Bigard et Mattivi</p>\n<p><em>Se fait bien voir par l'Académie grâce à ses connaissances<br>\nApprend le feu à 16 ans</em><br>\n<del>Redirection vers la religion</del><br>\n*Continue ses études</p>\n<p>Apprend les ténèbres à 18 ans, et la foudre à 20 ans*<br>\n<del>Don de sa vue à 21 ans<br>\nPurge un village de sa douleur à 24 ans<br>\nPélérinage à travers les 72 temples, rencontre avec Marvik</del></p>\n<p><em>Travail avec Bigard pour créer un élémentaire avec une capacité de réflexion propre<br>\nRencontre avec Marvik<br>\nRedirection vers la religion<br>\nBigard accompagne pour flexer son élémentaire devant un dieu</em></p>\n<p><em>Apprend la magie solide pendant son pèlerinage</em></p>\n<p><em>Rencontre de Syrithia à 28 ans<br>\nRencontre du Dieu Savoir 3 mois après<br>\nFlexe l'élémentaire<br>\nLe dieu propose le savoir de faire un élémentaire ultime contre tous les souvenirs de Léoric<br>\nIl refuse</em><br>\nIl continue son pèlerinage pour se rendre au début du jdr</p>\n</blockquote>\n<p dir=\"auto\">Résultat :</p>\n<ul>\n<li dir=\"auto\">Nouvelle magie de feu et de solide</li>\n<li dir=\"auto\">Nouveau style de magie :\n<ul>\n<li dir=\"auto\">Golem de feu</li>\n</ul>\n</li>\n<li dir=\"auto\">Perte de maîtrise càc pour compenser la magie</li>\n<li dir=\"auto\">Perte de ses rangs Templis</li>\n<li dir=\"auto\">Réputation de mage prometteur dans sa région d'Ovliin</li>\n<li dir=\"auto\">Relation avec certains Doigts (Syrithia, Marvik, Vorithar)</li>\n</ul>\n<h2 data-heading=\"Joueurs\" dir=\"auto\" id=\"joueurs\">Joueurs</h2>\n<ul class=\"contains-task-list\">\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Diego</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Loïc</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Michel</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Thomas</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">William</li>\n</ul>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th align=\"center\">Précédent</th>\n<th align=\"center\">Suivant</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25\" data-wiki-fragment=\"\">Arc 2 - 09b - 27.06.25</a></td>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 3/Arc 3\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3\" data-wiki-fragment=\"\">Arc 3</a></td>\n</tr>\n</tbody>\n</table></div>")}
   </div>
 </article>
-
-<LinkPreview />

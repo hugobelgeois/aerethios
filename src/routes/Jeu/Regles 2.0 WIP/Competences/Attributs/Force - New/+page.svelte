@@ -1,28 +1,5 @@
 <script lang="ts">
-  import { onDestroy } from "svelte";
-  import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
-  import LinkPreview from "$lib/LinkPreview.svelte";
-
-  tocHeadings.set([
-      {
-          "id": "principales",
-          "text": "Principales",
-          "level": 2
-      },
-      {
-          "id": "secondaires",
-          "text": "Secondaires",
-          "level": 2
-      },
-      {
-          "id": "finales",
-          "text": "Finales",
-          "level": 2
-      }
-  ]);
-
-  onDestroy(() => tocHeadings.set([]));
 </script>
 
 <svelte:head>
@@ -43,5 +20,3 @@
     {@html "<h2 data-heading=\"Principales\" dir=\"auto\" id=\"principales\">Principales</h2>\n<blockquote dir=\"auto\">\n<p>Le joueur en choisi 1 tous les 5 points d'attribut (5, 10, 15, 20).<br>\nDouble le modificateur des jets selon la situation (le modificateur devient 0 s'il était négatif).</p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th>Compétence</th>\n<th>Situation</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Athlétisme</td>\n<td>Déplacement de soi-même</td>\n</tr>\n<tr>\n<td>Barbare</td>\n<td>Puissance des coups portés</td>\n</tr>\n<tr>\n<td>Brutalité</td>\n<td>Capacité de destruction</td>\n</tr>\n<tr>\n<td>Endurance</td>\n<td>Résistance aux dégâts et contraintes physiques</td>\n</tr>\n<tr>\n<td>Lutteur</td>\n<td>Contrôle de créatures</td>\n</tr>\n</tbody>\n</table></div>\n<h2 data-heading=\"Secondaires\" dir=\"auto\" id=\"secondaires\">Secondaires</h2>\n<blockquote dir=\"auto\">\n<p>Le joueur en choisi 1 tous les 3 points d'attribut (3, 6, 9, 12, 15, 18).<br>\nIl est nécessaire de posséder la compétence principale pour débloquer les compétences secondaires liées.</p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th><strong>Principale</strong></th>\n<th>Secondaire</th>\n<th>Type</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Athlétisme</strong></td>\n<td>Momentum</td>\n<td>Action</td>\n<td>Charger une créature lui inflige <code>0.1poids + PI actuel + Force(Athlétisme)</code> en dégâts et peut renverser les créatures sur la trajectoire.<br>S'arrêter sans prendre de dégâts est une Action Bonus.<br>Sinon subit 50% des dégâts qu'il inflige.</td>\n</tr>\n<tr>\n<td></td>\n<td>Mule</td>\n<td>Passif</td>\n<td>Ajoute <code>Force(Athlétisme)</code> aux PI maximum.</td>\n</tr>\n<tr>\n<td></td>\n<td>Rattrapage</td>\n<td>Réaction</td>\n<td>Lorsque vous tombez ou êtes poussé, vous pouvez tenter de vous rattraper avant la chute.</td>\n</tr>\n<tr>\n<td><strong>Barbare</strong></td>\n<td>Bagarre</td>\n<td>Passif</td>\n<td>Pour les coups de poings, l'armure est considérée comme une arme et les dégâts de son matériau sont ajoutés aux dégâts de l'arme.<br>Ajoute également <code>Force(Barbare)</code> aux dégâts.</td>\n</tr>\n<tr>\n<td></td>\n<td>Bourrin</td>\n<td>Passif</td>\n<td>Même si la DR absorbe l'attaque, la cible perd des HP égaux à <code>Force(Barbare)</code>.</td>\n</tr>\n<tr>\n<td></td>\n<td>Riposte</td>\n<td>Réaction</td>\n<td>Lorsqu'une attaque ennemie vous touche au corps-à-corps, vous pouvez immédiatement porter une attaque à mains nues.</td>\n</tr>\n<tr>\n<td><strong>Brutalité</strong></td>\n<td>Anti-Blindage</td>\n<td>Action</td>\n<td>Ouvre la garde du bouclier si le matériau de l'arme lui est supérieur.<br>La DR du bouclier n'est plus prise en compte jusqu'au prochain tour.</td>\n</tr>\n<tr>\n<td></td>\n<td>Destructeur</td>\n<td>Passif</td>\n<td>Permet de casser ce qui ne devrait pas l'être (avec confirmation du MJ).</td>\n</tr>\n<tr>\n<td></td>\n<td>Fracasseur</td>\n<td>Passif</td>\n<td>Double les dégâts contre les objets et structures.</td>\n</tr>\n<tr>\n<td><strong>Endurance</strong></td>\n<td>Encaisser</td>\n<td>Réaction</td>\n<td>Une fois par combat, les dégâts subis sont pris en compte à la fin du tour suivant.</td>\n</tr>\n<tr>\n<td></td>\n<td>Impénétrable</td>\n<td>Action Bonus</td>\n<td>Augmente la DR de <code>2 × Force(Endurance)</code> jusqu'au prochain tour.</td>\n</tr>\n<tr>\n<td></td>\n<td>Inébranlable</td>\n<td>Passif</td>\n<td>Les déplacements forcés et renversements sont ignorés si <code>Force(Endurance)</code> est supérieure à celle de l'adversaire.</td>\n</tr>\n<tr>\n<td><strong>Lutteur</strong></td>\n<td>Contre-Lutte</td>\n<td>Réaction</td>\n<td>Lorsqu'une créature tente de vous agripper, vous pouvez directement utiliser Projection pour l'éloigner sans que cela lui fasse des dégâts.</td>\n</tr>\n<tr>\n<td></td>\n<td>Étreinte</td>\n<td>Action Bonus</td>\n<td>Maintient une créature et lui inflige <code>Force(Lutteur)</code> dégâts au début de chacun de ses tours.<br>Ne peut plus rien faire à part se déplacer une fois une créature maintenue.<br>Sortir de l'étreinte nécessite <code>1d20 + Force(Athlétisme) &gt;= 2 × Force(Lutteur) de celui qui nous tient</code></td>\n</tr>\n<tr>\n<td></td>\n<td>Projection</td>\n<td>Action</td>\n<td>Lancer une créature immobilisée pour <code>1d20 + Force(Lutteur)</code> de dégâts.<br>S'il touche une autre créature, celle-ci subit 50% des dégâts.</td>\n</tr>\n</tbody>\n</table></div>\n<h2 data-heading=\"Finales\" dir=\"auto\" id=\"finales\">Finales</h2>\n<blockquote dir=\"auto\">\n<p>Au niveau 10, s'il s'agit de son attribut le plus élevé, le joueur peut en choisir 1.<br>\nAu niveau 20, il peut en choisir un deuxième ou annuler 1 effet négatif de celui qu'il a déjà.</p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th>Compétence</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Cafard</strong></td>\n<td>+ Tant que vous êtes conscient, vous pouvez rester debout jusqu'à -50 HP.<br>- Désavantage à tous ses jets jusqu'au prochain repos sécurisé.</td>\n</tr>\n<tr>\n<td><strong>Matérialiste</strong></td>\n<td>+ Les dégâts font descendre la DR avant les HP (et sont réduits de 50% ?).<br>- Si votre armure perd de sa DR, vous perdez la moitié en HP.</td>\n</tr>\n<tr>\n<td><strong>Titan</strong></td>\n<td>+ Le modificateur <code>2 × Force</code> s'ajoute aux dégâts des armes.<br>- S'il attaque avec une arme, le joueur ne peut rien faire d'autre pendant son tour (Déplacement, Action Bonus, ..)</td>\n</tr>\n</tbody>\n</table></div>"}
   </div>
 </article>
-
-<LinkPreview />

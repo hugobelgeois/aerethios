@@ -1,5 +1,5 @@
 /** One note in static/search.json — written by writeSearchIndex() in the
- * plugin's src/main.ts. */
+ * plugin's src/siteFiles.ts. */
 export interface SearchEntry {
 	route: string;
 	title: string;

@@ -20,17 +20,19 @@
   "lib/basePath.ts",
   "lib/easing.ts",
   "lib/exportData.ts",
+  "lib/graphDraw.ts",
   "lib/graphPhysics.ts",
   "lib/graphTypes.ts",
+  "lib/graphView.ts",
   "lib/linkGraph.ts",
   "lib/routePath.ts",
   "lib/searchText.ts",
   "lib/siteTree.ts",
-  "lib/stores.ts",
   "lib/wikiFetch.ts",
   "markdown-fallback.css",
   "markdown.css",
   "routes/+layout.svelte",
   "routes/+layout.ts",
-  "routes/+page.svelte"
+  "routes/+page.svelte",
+  "routes/+page.ts"
 ]

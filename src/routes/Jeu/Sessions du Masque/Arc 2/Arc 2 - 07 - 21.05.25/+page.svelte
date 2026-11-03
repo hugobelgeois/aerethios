@@ -1,33 +1,5 @@
 <script lang="ts">
-  import { onDestroy } from "svelte";
-  import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
-  import LinkPreview from "$lib/LinkPreview.svelte";
-
-  tocHeadings.set([
-      {
-          "id": "dtails",
-          "text": "Détails",
-          "level": 2
-      },
-      {
-          "id": "scnario",
-          "text": "Scénario",
-          "level": 2
-      },
-      {
-          "id": "notes",
-          "text": "Notes",
-          "level": 2
-      },
-      {
-          "id": "joueurs",
-          "text": "Joueurs",
-          "level": 2
-      }
-  ]);
-
-  onDestroy(() => tocHeadings.set([]));
 </script>
 
 <svelte:head>
@@ -45,8 +17,6 @@
     <h1>{"Arc 2 - 07 - 21.05.25"}</h1>
   </header>
   <div class="markdown-rendered">
-    {@html applyBase("<blockquote dir=\"auto\">\n<p>Résumé</p>\n</blockquote>\n<h2 data-heading=\"Détails\" dir=\"auto\" id=\"dtails\">Détails</h2>\n<p dir=\"auto\">Lieu actuel : Ovliin, Ruvik</p>\n<p dir=\"auto\">Objectif : Récupérer le colis envoyé par Lysara qui leur était destiné</p>\n<p dir=\"auto\">Pnjs notables : -</p>\n<h2 data-heading=\"Scénario\" dir=\"auto\" id=\"scnario\">Scénario</h2>\n<p dir=\"auto\">J-50<br>\nRencontre des Arvens, on leur demande s'ils ont récupéré leur colis<br>\nIls vont chercher leur colis<br>\nIls se font attaquer par des soldats de Suraja qui avaient pris leur identité<br>\nLe colis est une poupée qui prend l'apparence de Zveindel<br>\nC'est un colis de Lysara afin de pouvoir traquer le masque  </p>\n<p dir=\"auto\">Rencontre des Scientes<br>\nOrvain va se faire exécuter<br>\nIls arrivent trop tard, Einar a exécuté Orvain<br>\nEinar les emmène voir sa fille, Bryumnes, qui est chef de guerre<br>\nLes autres continents savent qu'ils sont liés à un masque surpuissant, ils sont donc considérés comme des menaces  </p>\n<p dir=\"auto\">Bryumnes va prendre 3 jours pour se renseigner sur le masque et sur Tarquin<br>\nAvant ça elle veut les tester -&gt; Combat contre Bryumnes</p>\n<h2 data-heading=\"Notes\" dir=\"auto\" id=\"notes\">Notes</h2>\n<p dir=\"auto\">Capitale</p>\n<ul>\n<li dir=\"auto\">\n<p>Shopping</p>\n</li>\n<li dir=\"auto\">\n<p>Chez les Arvens, on leur demande s'ils ont bien récupéré leur colis</p>\n</li>\n<li dir=\"auto\">\n<p>Un autre groupe s'est fait passé pour eux avec une magie assez puissante et a volé le colis</p>\n</li>\n<li dir=\"auto\">\n<p>Le colis s'est fait téléporté hors de la ville</p>\n</li>\n<li dir=\"auto\">\n<p>Ils y trouvent une poupée</p>\n</li>\n<li dir=\"auto\">\n<p>L'autre groupe les attaque pour voler leurs informations</p>\n</li>\n<li dir=\"auto\">\n<p>Gammoth arrive car il a repéré la magie de Dara</p>\n</li>\n<li dir=\"auto\">\n<p>Quand l'autre groupe est mort, ils retrouvent leur apparence de Surajien</p>\n</li>\n</ul>\n<h2 data-heading=\"Joueurs\" dir=\"auto\" id=\"joueurs\">Joueurs</h2>\n<ul class=\"contains-task-list\">\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Diego 9</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Loïc 6</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Lucas 1</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Michel 9</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Thomas 8</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">William 4</li>\n</ul>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th align=\"center\">Précédent</th>\n<th align=\"center\">Suivant</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 2/Arc 2 - 06 - 18.05.25\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 2/Arc 2 - 06 - 18.05.25\" data-wiki-fragment=\"\">Arc 2 - 06 - 18.05.25</a></td>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 2/Arc 2 - 08 - 30.05.25\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 2/Arc 2 - 08 - 30.05.25\" data-wiki-fragment=\"\">Arc 2 - 08 - 30.05.25</a></td>\n</tr>\n</tbody>\n</table></div>")}
+    {@html applyBase("<blockquote dir=\"auto\">\n<p>Résumé</p>\n</blockquote>\n<h2 data-heading=\"Détails\" dir=\"auto\" id=\"details\">Détails</h2>\n<p dir=\"auto\">Lieu actuel : Ovliin, Ruvik</p>\n<p dir=\"auto\">Objectif : Récupérer le colis envoyé par Lysara qui leur était destiné</p>\n<p dir=\"auto\">Pnjs notables : -</p>\n<h2 data-heading=\"Scénario\" dir=\"auto\" id=\"scenario\">Scénario</h2>\n<p dir=\"auto\">J-50<br>\nRencontre des Arvens, on leur demande s'ils ont récupéré leur colis<br>\nIls vont chercher leur colis<br>\nIls se font attaquer par des soldats de Suraja qui avaient pris leur identité<br>\nLe colis est une poupée qui prend l'apparence de Zveindel<br>\nC'est un colis de Lysara afin de pouvoir traquer le masque  </p>\n<p dir=\"auto\">Rencontre des Scientes<br>\nOrvain va se faire exécuter<br>\nIls arrivent trop tard, Einar a exécuté Orvain<br>\nEinar les emmène voir sa fille, Bryumnes, qui est chef de guerre<br>\nLes autres continents savent qu'ils sont liés à un masque surpuissant, ils sont donc considérés comme des menaces  </p>\n<p dir=\"auto\">Bryumnes va prendre 3 jours pour se renseigner sur le masque et sur Tarquin<br>\nAvant ça elle veut les tester -&gt; Combat contre Bryumnes</p>\n<h2 data-heading=\"Notes\" dir=\"auto\" id=\"notes\">Notes</h2>\n<p dir=\"auto\">Capitale</p>\n<ul>\n<li dir=\"auto\">\n<p>Shopping</p>\n</li>\n<li dir=\"auto\">\n<p>Chez les Arvens, on leur demande s'ils ont bien récupéré leur colis</p>\n</li>\n<li dir=\"auto\">\n<p>Un autre groupe s'est fait passé pour eux avec une magie assez puissante et a volé le colis</p>\n</li>\n<li dir=\"auto\">\n<p>Le colis s'est fait téléporté hors de la ville</p>\n</li>\n<li dir=\"auto\">\n<p>Ils y trouvent une poupée</p>\n</li>\n<li dir=\"auto\">\n<p>L'autre groupe les attaque pour voler leurs informations</p>\n</li>\n<li dir=\"auto\">\n<p>Gammoth arrive car il a repéré la magie de Dara</p>\n</li>\n<li dir=\"auto\">\n<p>Quand l'autre groupe est mort, ils retrouvent leur apparence de Surajien</p>\n</li>\n</ul>\n<h2 data-heading=\"Joueurs\" dir=\"auto\" id=\"joueurs\">Joueurs</h2>\n<ul class=\"contains-task-list\">\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Diego 9</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Loïc 6</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Lucas 1</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Michel 9</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Thomas 8</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">William 4</li>\n</ul>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th align=\"center\">Précédent</th>\n<th align=\"center\">Suivant</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 2/Arc 2 - 06 - 18.05.25\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 2/Arc 2 - 06 - 18.05.25\" data-wiki-fragment=\"\">Arc 2 - 06 - 18.05.25</a></td>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 2/Arc 2 - 08 - 30.05.25\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 2/Arc 2 - 08 - 30.05.25\" data-wiki-fragment=\"\">Arc 2 - 08 - 30.05.25</a></td>\n</tr>\n</tbody>\n</table></div>")}
   </div>
 </article>
-
-<LinkPreview />

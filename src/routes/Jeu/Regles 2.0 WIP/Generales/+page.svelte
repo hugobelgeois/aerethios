@@ -1,12 +1,5 @@
 <script lang="ts">
-  import { onDestroy } from "svelte";
-  import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
-  import LinkPreview from "$lib/LinkPreview.svelte";
-
-  tocHeadings.set([]);
-
-  onDestroy(() => tocHeadings.set([]));
 </script>
 
 <svelte:head>
@@ -27,5 +20,3 @@
     {@html "<ul>\n<li dir=\"auto\">Les règles spécifiques prennent le dessus sur les règles générales</li>\n<li dir=\"auto\">Un jet de dé doit toujours être supérieur ou égal à la valeur attendue pour réussir</li>\n<li dir=\"auto\">Les valeurs sont toujours arrondies vers le bas</li>\n<li dir=\"auto\">Ordre des opérateurs : <code>Addition → Soustraction → Multiplication → Division</code></li>\n<li dir=\"auto\">Ordre des dés : <code>d4 → d6 → d8 → d10 → d12</code></li>\n<li dir=\"auto\">Ordre des résistances : <code>Faiblesse → Rien → Résistance → Immunité → Absorption</code></li>\n</ul>"}
   </div>
 </article>
-
-<LinkPreview />

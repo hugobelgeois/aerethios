@@ -1,43 +1,5 @@
 <script lang="ts">
-  import { onDestroy } from "svelte";
-  import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
-  import LinkPreview from "$lib/LinkPreview.svelte";
-
-  tocHeadings.set([
-      {
-          "id": "dbloquer",
-          "text": "Débloquer",
-          "level": 2
-      },
-      {
-          "id": "matrise-darmes",
-          "text": "Maîtrise d'armes",
-          "level": 3
-      },
-      {
-          "id": "magie",
-          "text": "Magie",
-          "level": 3
-      },
-      {
-          "id": "amliorer",
-          "text": "Améliorer",
-          "level": 2
-      },
-      {
-          "id": "matrise-darme-et-de-magie",
-          "text": "Maîtrise d’Arme et de Magie",
-          "level": 3
-      },
-      {
-          "id": "magie",
-          "text": "Magie",
-          "level": 3
-      }
-  ]);
-
-  onDestroy(() => tocHeadings.set([]));
 </script>
 
 <svelte:head>
@@ -55,8 +17,6 @@
     <h1>{"Maîtrises"}</h1>
   </header>
   <div class="markdown-rendered">
-    {@html "<h2 data-heading=\"Débloquer\" dir=\"auto\" id=\"dbloquer\">Débloquer</h2>\n<h3 data-heading=\"Maîtrise d'armes\" dir=\"auto\" id=\"matrise-darmes\">Maîtrise d'armes</h3>\n<p dir=\"auto\">Il n'y a rien de particulier à faire pour passer sa maîtrise d'armes de 0 à 1.</p>\n<h3 data-heading=\"Magie\" dir=\"auto\" id=\"magie\">Magie</h3>\n<p dir=\"auto\">Pour passer une magie de 0 à 1, le joueur doit prendre 15 jours de leçons à 2po par leçon.</p>\n<p dir=\"auto\">Lorsqu’un joueur termine ses leçons, il lance 1d20 :</p>\n<ul>\n<li dir=\"auto\">\n<p>En cas de <strong>réussite critique</strong>, il peut choisir de débloquer le <strong>Feu</strong> (s’il ne l’a pas déjà).</p>\n</li>\n<li dir=\"auto\">\n<p>Sinon, il sélectionne librement <strong>une autre magie non encore maîtrisée</strong> parmi celles disponibles.</p>\n</li>\n</ul>\n<blockquote dir=\"auto\">\n<p><strong>Note :</strong> Le <strong>Feu</strong> est considéré comme une magie fondamentale mais instable, réservée à ceux capables de dépasser leurs limites naturelles.</p>\n</blockquote>\n<h2 data-heading=\"Améliorer\" dir=\"auto\" id=\"amliorer\">Améliorer</h2>\n<p dir=\"auto\">L’amélioration de ses <strong>maîtrises d’armes</strong> et de sa <strong>magie</strong> demande rigueur et encadrement.</p>\n<p dir=\"auto\">Ainsi, il doit :</p>\n<ul>\n<li dir=\"auto\">\n<p>prendre une journée complète de leçon au lieu de 8h,</p>\n</li>\n<li dir=\"auto\">\n<p>jeter des dés liés à la maîtrise en question :</p>\n</li>\n</ul>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th align=\"center\">Avec Tuteur</th>\n<th align=\"center\">Sans Tuteur</th>\n<th align=\"right\">Résultat</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">1 réussite critique</td>\n<td align=\"center\">1 réussite critique</td>\n<td align=\"right\">2 réussites consécutives</td>\n</tr>\n<tr>\n<td align=\"center\">3 réussites consécutives</td>\n<td align=\"center\">5 réussites consécutives</td>\n<td align=\"right\">+2 points</td>\n</tr>\n<tr>\n<td align=\"center\">3 réussites non consécutives</td>\n<td align=\"center\">5 réussites non consécutives</td>\n<td align=\"right\">+1 point</td>\n</tr>\n<tr>\n<td align=\"center\">-</td>\n<td align=\"center\">3 échecs consécutifs</td>\n<td align=\"right\">réinitialise le compteur de réussites</td>\n</tr>\n<tr>\n<td align=\"center\">niveau actuel +1 PO/ leçon</td>\n<td align=\"center\">gratuit</td>\n<td align=\"right\">-</td>\n</tr>\n</tbody>\n</table></div>\n<h3 data-heading=\"Maîtrise d’Arme et de Magie\" dir=\"auto\" id=\"matrise-darme-et-de-magie\">Maîtrise d’Arme et de Magie</h3>\n<blockquote dir=\"auto\">\n<p>Jet : <strong>1d10</strong><br>\n<em>Le résultat doit être strictement supérieur à sa maîtrise actuelle</em></p>\n</blockquote>\n<h3 data-heading=\"Magie\" dir=\"auto\" id=\"magie\">Magie</h3>\n<blockquote dir=\"auto\">\n<p>Jet : <strong>1d20 + Attribut (Intelligence/ Sagesse) + Maîtrise Magique</strong><br>\n<em>Le résultat doit être strictement supérieur aux valeurs du tableau ci-dessous.</em></p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th>Niveau actuel</th>\n<th>Magies (sauf Feu)</th>\n<th>Magie de Feu</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1 - 3</td>\n<td>10</td>\n<td>14</td>\n</tr>\n<tr>\n<td>4 - 6</td>\n<td>12</td>\n<td>16</td>\n</tr>\n<tr>\n<td>7 - 9</td>\n<td>14</td>\n<td>18</td>\n</tr>\n<tr>\n<td>10 - 11</td>\n<td>16</td>\n<td>20</td>\n</tr>\n<tr>\n<td>12 - 13</td>\n<td>18</td>\n<td>22</td>\n</tr>\n<tr>\n<td>14 - 15</td>\n<td>20</td>\n<td>24</td>\n</tr>\n<tr>\n<td>16 - 17</td>\n<td>22</td>\n<td>26</td>\n</tr>\n<tr>\n<td>18</td>\n<td>24</td>\n<td>28</td>\n</tr>\n<tr>\n<td>19</td>\n<td>25</td>\n<td>30</td>\n</tr>\n</tbody>\n</table></div>\n<blockquote dir=\"auto\">\n<p><strong>Exemple</strong> : pour améliorer une magie d'air de niveau 3, le jet doit être supérieur à 10 et le joueur doit payer 3po par jet.</p>\n</blockquote>"}
+    {@html "<h2 data-heading=\"Débloquer\" dir=\"auto\" id=\"debloquer\">Débloquer</h2>\n<h3 data-heading=\"Maîtrise d'armes\" dir=\"auto\" id=\"maitrise-darmes\">Maîtrise d'armes</h3>\n<p dir=\"auto\">Il n'y a rien de particulier à faire pour passer sa maîtrise d'armes de 0 à 1.</p>\n<h3 data-heading=\"Magie\" dir=\"auto\" id=\"magie\">Magie</h3>\n<p dir=\"auto\">Pour passer une magie de 0 à 1, le joueur doit prendre 15 jours de leçons à 2po par leçon.</p>\n<p dir=\"auto\">Lorsqu’un joueur termine ses leçons, il lance 1d20 :</p>\n<ul>\n<li dir=\"auto\">\n<p>En cas de <strong>réussite critique</strong>, il peut choisir de débloquer le <strong>Feu</strong> (s’il ne l’a pas déjà).</p>\n</li>\n<li dir=\"auto\">\n<p>Sinon, il sélectionne librement <strong>une autre magie non encore maîtrisée</strong> parmi celles disponibles.</p>\n</li>\n</ul>\n<blockquote dir=\"auto\">\n<p><strong>Note :</strong> Le <strong>Feu</strong> est considéré comme une magie fondamentale mais instable, réservée à ceux capables de dépasser leurs limites naturelles.</p>\n</blockquote>\n<h2 data-heading=\"Améliorer\" dir=\"auto\" id=\"ameliorer\">Améliorer</h2>\n<p dir=\"auto\">L’amélioration de ses <strong>maîtrises d’armes</strong> et de sa <strong>magie</strong> demande rigueur et encadrement.</p>\n<p dir=\"auto\">Ainsi, il doit :</p>\n<ul>\n<li dir=\"auto\">\n<p>prendre une journée complète de leçon au lieu de 8h,</p>\n</li>\n<li dir=\"auto\">\n<p>jeter des dés liés à la maîtrise en question :</p>\n</li>\n</ul>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th align=\"center\">Avec Tuteur</th>\n<th align=\"center\">Sans Tuteur</th>\n<th align=\"right\">Résultat</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\">1 réussite critique</td>\n<td align=\"center\">1 réussite critique</td>\n<td align=\"right\">2 réussites consécutives</td>\n</tr>\n<tr>\n<td align=\"center\">3 réussites consécutives</td>\n<td align=\"center\">5 réussites consécutives</td>\n<td align=\"right\">+2 points</td>\n</tr>\n<tr>\n<td align=\"center\">3 réussites non consécutives</td>\n<td align=\"center\">5 réussites non consécutives</td>\n<td align=\"right\">+1 point</td>\n</tr>\n<tr>\n<td align=\"center\">-</td>\n<td align=\"center\">3 échecs consécutifs</td>\n<td align=\"right\">réinitialise le compteur de réussites</td>\n</tr>\n<tr>\n<td align=\"center\">niveau actuel +1 PO/ leçon</td>\n<td align=\"center\">gratuit</td>\n<td align=\"right\">-</td>\n</tr>\n</tbody>\n</table></div>\n<h3 data-heading=\"Maîtrise d’Arme et de Magie\" dir=\"auto\" id=\"maitrise-darme-et-de-magie\">Maîtrise d’Arme et de Magie</h3>\n<blockquote dir=\"auto\">\n<p>Jet : <strong>1d10</strong><br>\n<em>Le résultat doit être strictement supérieur à sa maîtrise actuelle</em></p>\n</blockquote>\n<h3 data-heading=\"Magie\" dir=\"auto\" id=\"magie-1\">Magie</h3>\n<blockquote dir=\"auto\">\n<p>Jet : <strong>1d20 + Attribut (Intelligence/ Sagesse) + Maîtrise Magique</strong><br>\n<em>Le résultat doit être strictement supérieur aux valeurs du tableau ci-dessous.</em></p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th>Niveau actuel</th>\n<th>Magies (sauf Feu)</th>\n<th>Magie de Feu</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1 - 3</td>\n<td>10</td>\n<td>14</td>\n</tr>\n<tr>\n<td>4 - 6</td>\n<td>12</td>\n<td>16</td>\n</tr>\n<tr>\n<td>7 - 9</td>\n<td>14</td>\n<td>18</td>\n</tr>\n<tr>\n<td>10 - 11</td>\n<td>16</td>\n<td>20</td>\n</tr>\n<tr>\n<td>12 - 13</td>\n<td>18</td>\n<td>22</td>\n</tr>\n<tr>\n<td>14 - 15</td>\n<td>20</td>\n<td>24</td>\n</tr>\n<tr>\n<td>16 - 17</td>\n<td>22</td>\n<td>26</td>\n</tr>\n<tr>\n<td>18</td>\n<td>24</td>\n<td>28</td>\n</tr>\n<tr>\n<td>19</td>\n<td>25</td>\n<td>30</td>\n</tr>\n</tbody>\n</table></div>\n<blockquote dir=\"auto\">\n<p><strong>Exemple</strong> : pour améliorer une magie d'air de niveau 3, le jet doit être supérieur à 10 et le joueur doit payer 3po par jet.</p>\n</blockquote>"}
   </div>
 </article>
-
-<LinkPreview />

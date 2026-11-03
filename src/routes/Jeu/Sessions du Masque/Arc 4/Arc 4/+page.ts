@@ -7,4 +7,16 @@ export const load: PageLoad = () => ({
   pageDescription: "",
   fullBleed: false,
   fullHeight: false,
+  headings: [
+    {
+      "id": "details",
+      "text": "Détails",
+      "level": 2
+    },
+    {
+      "id": "sessions",
+      "text": "Sessions",
+      "level": 2
+    }
+  ],
 });

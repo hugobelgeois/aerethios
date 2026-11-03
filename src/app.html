@@ -7,6 +7,16 @@
 		%sveltekit.head%
 	</head>
 	<body data-sveltekit-preload-data="hover">
+		<script data-svelte-exporter-theme>
+			(function () {
+				var mode = "light";
+				try {
+					var saved = localStorage.getItem("svelte-exporter-color-mode");
+					if (saved === "dark" || saved === "light") mode = saved;
+				} catch (e) {}
+				document.body.classList.add.apply(document.body.classList, [].concat("theme-" + mode));
+			})();
+		</script>
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>

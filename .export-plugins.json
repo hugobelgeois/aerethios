@@ -1,11 +1,12 @@
 {
   "signatures": {
-    "obsidian-5e-statblocks": "1793631299662.504:1793715313337:1793631299669.1711"
+    "obsidian-5e-statblocks": "1793631299662.504:1793719136738:1793631299669.1711"
   },
   "pages": {
     "Bestiaire/Bestiaire.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -25,6 +26,7 @@
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Images\\dieu-dormant-2.png",
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Images\\dieu-pourpre.png"
       ],
+      "css": [],
       "deps": {
         "links": [
           "Notes/Archives/Gamesh, Dieu Scintillant.md",
@@ -48,6 +50,7 @@
     "Bestiaire/Planaires/Planaires.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Bestiaire/Planaires/Dieux/Dieux.md"
@@ -68,6 +71,7 @@
     "Bestiaire/Terrestres/Humanoïdes/Calico.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -78,6 +82,7 @@
     "Bestiaire/Terrestres/Humanoïdes/Elfe.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -88,6 +93,7 @@
     "Bestiaire/Terrestres/Humanoïdes/Humain.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -98,6 +104,7 @@
     "Bestiaire/Terrestres/Humanoïdes/Humanoïdes.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Bestiaire/Terrestres/Humanoïdes/Humain.md",
@@ -114,6 +121,7 @@
     "Bestiaire/Terrestres/Humanoïdes/Nain.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -124,6 +132,7 @@
     "Bestiaire/Terrestres/Humanoïdes/Orc.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -134,6 +143,7 @@
     "Bestiaire/Terrestres/Hybrides/Hybrides.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Bestiaire/Terrestres/Hybrides/Vampire.md",
@@ -158,6 +168,7 @@
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Images\\naga-warrior.png",
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Images\\naga-adult.png"
       ],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [
@@ -173,6 +184,7 @@
     "Bestiaire/Terrestres/Hybrides/Vampire.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -183,6 +195,7 @@
     "Bestiaire/Terrestres/Magiques/Magiques.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -198,6 +211,7 @@
     "Bestiaire/Terrestres/Mythiques/Mythiques.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -211,6 +225,7 @@
     "Bestiaire/Terrestres/Naturels/Naturels.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -225,6 +240,7 @@
     "Bestiaire/Terrestres/Plantes/Plantes.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -235,6 +251,7 @@
     "Bestiaire/Terrestres/Terrestres.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Bestiaire/Terrestres/Humanoïdes/Humanoïdes.md",
@@ -252,6 +269,7 @@
     "Jeu/Campagne 2/Joueurs/Aldrich.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Compétences/Attributs/Force.md",
@@ -272,6 +290,7 @@
     "Jeu/Campagne 2/Joueurs/Ligolas.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Compétences/Attributs/Force.md",
@@ -292,6 +311,7 @@
     "Jeu/Campagne 2/Joueurs/Ronronov.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Compétences/Attributs/Force.md",
@@ -312,6 +332,7 @@
     "Jeu/Campagne 2/Joueurs/Strauss.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Compétences/Attributs/Force.md",
@@ -332,6 +353,7 @@
     "Jeu/Campagne 2/Joueurs/Urzok.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Compétences/Attributs/Force.md",
@@ -352,6 +374,7 @@
     "Jeu/Campagne 2/Scenes/00a. 13-06-26.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -362,6 +385,7 @@
     "Jeu/Campagne 2/Scenes/00b. xx-xx-26.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles 2.0 WIP/Apprentissages/Apprentissages - New.md"
@@ -374,6 +398,7 @@
     "Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles 2.0 WIP/Apprentissages/Artisanat - New.md",
@@ -390,6 +415,7 @@
     "Jeu/Règles 2.0 WIP/Apprentissages/Apprentissages - New.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles 2.0 WIP/Apprentissages/Artisanat - New.md",
@@ -406,6 +432,7 @@
     "Jeu/Règles 2.0 WIP/Apprentissages/Artisanat - New.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md",
@@ -421,6 +448,7 @@
     "Jeu/Règles 2.0 WIP/Apprentissages/Misc/Rappel.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -431,6 +459,7 @@
     "Jeu/Règles 2.0 WIP/Apprentissages/Érudition.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles 2.0 WIP/Apprentissages/Artisanat - New.md",
@@ -446,6 +475,7 @@
     "Jeu/Règles 2.0 WIP/Combat/Armes de mêlées - New.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles 2.0 WIP/Apprentissages/Artisanat - New.md",
@@ -463,6 +493,7 @@
     "Jeu/Règles 2.0 WIP/Combat/Armes à distances - New.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md"
@@ -478,6 +509,7 @@
     "Jeu/Règles 2.0 WIP/Combat/Armures - New.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -488,6 +520,7 @@
     "Jeu/Règles 2.0 WIP/Combat/Combat - New.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -498,6 +531,7 @@
     "Jeu/Règles 2.0 WIP/Combat/Magie - New.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [
@@ -510,6 +544,7 @@
     "Jeu/Règles 2.0 WIP/Combat/Magies/Magie - Types.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -520,6 +555,7 @@
     "Jeu/Règles 2.0 WIP/Combat/Misc/Affinités aux Dégâts.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -530,6 +566,7 @@
     "Jeu/Règles 2.0 WIP/Combat/Misc/Enchantements.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles 2.0 WIP/Apprentissages/Érudition.md"
@@ -542,6 +579,7 @@
     "Jeu/Règles 2.0 WIP/Combat/Misc/Huiles.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md"
@@ -554,6 +592,7 @@
     "Jeu/Règles 2.0 WIP/Combat/Misc/Magies.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -564,6 +603,7 @@
     "Jeu/Règles 2.0 WIP/Compétences/Attributs/Charisme - New.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -574,6 +614,7 @@
     "Jeu/Règles 2.0 WIP/Compétences/Attributs/Dextérité - New.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -584,6 +625,7 @@
     "Jeu/Règles 2.0 WIP/Compétences/Attributs/Force - New.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -594,6 +636,7 @@
     "Jeu/Règles 2.0 WIP/Compétences/Attributs/Mental - New.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -604,6 +647,7 @@
     "Jeu/Règles 2.0 WIP/Compétences/Maisons.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -614,6 +658,7 @@
     "Jeu/Règles 2.0 WIP/Générales.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -624,6 +669,7 @@
     "Jeu/Règles 2.0 WIP/Ideas/Affinités.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -634,6 +680,7 @@
     "Jeu/Règles 2.0 WIP/Ideas/Perception - New.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -644,6 +691,7 @@
     "Jeu/Règles 2.0 WIP/Ideas/Points d'Action.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -654,6 +702,7 @@
     "Jeu/Règles 2.0 WIP/Ideas/Points de cinématique.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -664,6 +713,7 @@
     "Jeu/Règles 2.0 WIP/Inventaire.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -674,6 +724,7 @@
     "Jeu/Règles 2.0 WIP/Niveaux.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -684,6 +735,7 @@
     "Jeu/Règles 2.0 WIP/Repos.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -694,6 +746,7 @@
     "Jeu/Règles 2.0 WIP/Tokens.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -704,6 +757,7 @@
     "Jeu/Règles/Apprentissages/Alchimie/Alchimie.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Apprentissages/Alchimie/Cuisinier.md",
@@ -719,6 +773,7 @@
     "Jeu/Règles/Apprentissages/Alchimie/Cuisinier.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Apprentissages/Alchimie/Alchimie.md"
@@ -731,6 +786,7 @@
     "Jeu/Règles/Apprentissages/Alchimie/Invocateur.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Apprentissages/Alchimie/Alchimie.md"
@@ -743,6 +799,7 @@
     "Jeu/Règles/Apprentissages/Alchimie/Potionniste.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Apprentissages/Alchimie/Alchimie.md"
@@ -755,6 +812,7 @@
     "Jeu/Règles/Apprentissages/Apprentissages.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Apprentissages/Alchimie/Alchimie.md",
@@ -777,6 +835,7 @@
     "Jeu/Règles/Apprentissages/Artisanat/Artisanat.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md",
@@ -794,6 +853,7 @@
     "Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Apprentissages/Artisanat/Artisanat.md",
@@ -810,6 +870,7 @@
     "Jeu/Règles/Apprentissages/Artisanat/Forgeron.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Apprentissages/Artisanat/Artisanat.md"
@@ -822,6 +883,7 @@
     "Jeu/Règles/Apprentissages/Maîtrises.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -832,6 +894,7 @@
     "Jeu/Règles/Bénédictions.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -842,6 +905,7 @@
     "Jeu/Règles/Combat/Armes.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Statuts/Propriétés.md",
@@ -857,6 +921,7 @@
     "Jeu/Règles/Combat/Armures.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md",
@@ -871,6 +936,7 @@
     "Jeu/Règles/Combat/Combat.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -881,6 +947,7 @@
     "Jeu/Règles/Combat/Magie.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -891,6 +958,7 @@
     "Jeu/Règles/Compétences/Attributs/Charisme.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -901,6 +969,7 @@
     "Jeu/Règles/Compétences/Attributs/Dextérité.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -911,6 +980,7 @@
     "Jeu/Règles/Compétences/Attributs/Force.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -921,6 +991,7 @@
     "Jeu/Règles/Compétences/Attributs/Mental.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -931,6 +1002,7 @@
     "Jeu/Règles/Compétences/Attributs/Perception.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -941,6 +1013,7 @@
     "Jeu/Règles/Mini-Jeux/Alcoolique.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -953,6 +1026,7 @@
     "Jeu/Règles/Mini-Jeux/Bagarre.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -963,6 +1037,7 @@
     "Jeu/Règles/Mini-Jeux/Chasseur de prime.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -975,6 +1050,7 @@
     "Jeu/Règles/Mini-Jeux/Commerçant.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -987,6 +1063,7 @@
     "Jeu/Règles/Mini-Jeux/Propriétaire.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -999,6 +1076,7 @@
     "Jeu/Règles/Mini-Jeux/Recherche Alchimique.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -1011,6 +1089,7 @@
     "Jeu/Règles/Statuts/Afflictions.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -1021,6 +1100,7 @@
     "Jeu/Règles/Statuts/Conditions.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Statuts/Conditions.md"
@@ -1033,6 +1113,7 @@
     "Jeu/Règles/Statuts/Propriétés.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Statuts/Afflictions.md"
@@ -1045,6 +1126,9 @@
     "Jeu/Sessions du Masque/Arc 1 - Kothula.md": {
       "plugins": [],
       "assets": [],
+      "css": [
+        "mathjax"
+      ],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 1 - Kothula.md"
@@ -1057,6 +1141,9 @@
     "Jeu/Sessions du Masque/Arc 2 - Ovliin.md": {
       "plugins": [],
       "assets": [],
+      "css": [
+        "mathjax"
+      ],
       "deps": {
         "links": [],
         "embeds": [],
@@ -1067,6 +1154,7 @@
     "Jeu/Sessions du Masque/Arc 2/Arc 2 - 05 - 27.04.25.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 2/Arc 2 - 06 - 18.05.25.md"
@@ -1079,6 +1167,7 @@
     "Jeu/Sessions du Masque/Arc 2/Arc 2 - 06 - 18.05.25.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 2/Arc 2 - 05 - 27.04.25.md",
@@ -1092,6 +1181,7 @@
     "Jeu/Sessions du Masque/Arc 2/Arc 2 - 07 - 21.05.25.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 2/Arc 2 - 06 - 18.05.25.md",
@@ -1105,6 +1195,7 @@
     "Jeu/Sessions du Masque/Arc 2/Arc 2 - 08 - 30.05.25.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 2/Arc 2 - 07 - 21.05.25.md",
@@ -1118,6 +1209,7 @@
     "Jeu/Sessions du Masque/Arc 2/Arc 2 - 09 - 13.06.25.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 2/Arc 2 - 08 - 30.05.25.md",
@@ -1131,6 +1223,7 @@
     "Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 2/Arc 2 - 09 - 13.06.25.md",
@@ -1144,6 +1237,7 @@
     "Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 05.08.25 Loic.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25.md",
@@ -1157,6 +1251,7 @@
     "Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 06.07.25 Diego.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25.md",
@@ -1170,6 +1265,7 @@
     "Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 07.07.25 Thomas.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25.md",
@@ -1185,6 +1281,7 @@
     "Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 11.07.25 + 08.08.25 Michel.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25.md",
@@ -1203,6 +1300,7 @@
     "Jeu/Sessions du Masque/Arc 3/Arc 3 - 11 - 14.08.25.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25.md",
@@ -1216,6 +1314,7 @@
     "Jeu/Sessions du Masque/Arc 3/Arc 3 - 12 - 19.09.25.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 3/Arc 3 - 13 - 29.08.25.md",
@@ -1229,6 +1328,7 @@
     "Jeu/Sessions du Masque/Arc 3/Arc 3 - 13 - 29.08.25.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 3/Arc 3 - 11 - 14.08.25.md",
@@ -1242,6 +1342,7 @@
     "Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 3/Arc 3 - 12 - 19.09.25.md",
@@ -1255,6 +1356,7 @@
     "Jeu/Sessions du Masque/Arc 3/Arc 3 - 14 - 11.10.25.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25.md",
@@ -1268,6 +1370,7 @@
     "Jeu/Sessions du Masque/Arc 3/Arc 3 - 15 - 14.11.25.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 3/Arc 3 - 14 - 11.10.25.md",
@@ -1281,6 +1384,7 @@
     "Jeu/Sessions du Masque/Arc 3/Arc 3 - 16 - 28.11.25.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 3/Arc 3 - 15 - 14.11.25.md",
@@ -1294,6 +1398,7 @@
     "Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 3/Arc 3 - 16 - 28.11.25.md",
@@ -1309,6 +1414,7 @@
     "Jeu/Sessions du Masque/Arc 3/Arc 3.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Géographie/Suraja/Suraja.md",
@@ -1338,6 +1444,7 @@
     "Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25.md",
@@ -1351,6 +1458,7 @@
     "Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26.md",
@@ -1364,6 +1472,7 @@
     "Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26.md",
@@ -1377,6 +1486,7 @@
     "Jeu/Sessions du Masque/Arc 4/Arc 4 - 21 - 20.02.26.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26.md",
@@ -1390,6 +1500,7 @@
     "Jeu/Sessions du Masque/Arc 4/Arc 4 - 22 - 03.04.26.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Combat/Armes.md",
@@ -1404,6 +1515,7 @@
     "Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 4/Arc 4 - 22 - 03.04.26.md",
@@ -1427,6 +1539,7 @@
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Jeu\\Sessions du Masque\\Scenes\\Images\\3-Atilal.png",
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Jeu\\Sessions du Masque\\Scenes\\Images\\4-Ville-du-Dragon.jpg"
       ],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26.md"
@@ -1455,6 +1568,7 @@
     "Jeu/Sessions du Masque/Arc 4/Arc 4.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Géographie/Nirina/Nirina.md",
@@ -1477,6 +1591,9 @@
       "assets": [
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Arek_1793397272678_hh42cw.webp",
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Images\\arek.png"
+      ],
+      "css": [
+        "obsidian-5e-statblocks"
       ],
       "deps": {
         "links": [
@@ -1519,6 +1636,9 @@
       "assets": [
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Images\\dara.png"
       ],
+      "css": [
+        "obsidian-5e-statblocks"
+      ],
       "deps": {
         "links": [
           "Jeu/Règles 2.0 WIP/Compétences/Maisons.md",
@@ -1558,6 +1678,9 @@
     "Jeu/Sessions du Masque/Joueurs/Haelrak.md": {
       "plugins": [],
       "assets": [],
+      "css": [
+        "obsidian-5e-statblocks"
+      ],
       "deps": {
         "links": [
           "Notes/Scienctes.md",
@@ -1598,6 +1721,9 @@
       "assets": [
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Images\\hazdaim.png"
       ],
+      "css": [
+        "obsidian-5e-statblocks"
+      ],
       "deps": {
         "links": [
           "Jeu/Règles/Compétences/Attributs/Force.md",
@@ -1636,6 +1762,9 @@
     "Jeu/Sessions du Masque/Joueurs/Léoric.md": {
       "plugins": [],
       "assets": [],
+      "css": [
+        "obsidian-5e-statblocks"
+      ],
       "deps": {
         "links": [
           "Notes/Scienctes.md",
@@ -1672,6 +1801,7 @@
     "Jeu/Sessions du Masque/Joueurs/Old/Cira.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles 2.0 WIP/Compétences/Maisons.md",
@@ -1695,6 +1825,7 @@
     "Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [
           "Jeu/Règles/Compétences/Attributs/Force.md",
@@ -1727,6 +1858,7 @@
       "assets": [
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Images\\zveindel.png"
       ],
+      "css": [],
       "deps": {
         "links": [
           "Notes/Scienctes.md",
@@ -1767,6 +1899,7 @@
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Jeu\\Sessions du Masque\\Scenes\\Images\\1-Colonel-Thierry-du-Lion-d'Argent.webp",
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Jeu\\Sessions du Masque\\Scenes\\Images\\1-Mattias-du-Lion-Tuant.jpg"
       ],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [
@@ -1787,6 +1920,7 @@
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Jeu\\Sessions du Masque\\Scenes\\Images\\2-Salome.jpg",
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Jeu\\Sessions du Masque\\Scenes\\Images\\2-Campement-de-Nix-et-Salome-Monstre.jpg"
       ],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [
@@ -1810,6 +1944,7 @@
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Jeu\\Sessions du Masque\\Scenes\\Images\\3-Dragon.png",
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Jeu\\Sessions du Masque\\Scenes\\Images\\3-Atilal.png"
       ],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [
@@ -1832,6 +1967,7 @@
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Jeu\\Sessions du Masque\\Scenes\\Images\\4-Boss-des-Illusions.png",
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Jeu\\Sessions du Masque\\Scenes\\Images\\4-Fortissax.jpg"
       ],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [
@@ -1851,6 +1987,7 @@
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Jeu\\Sessions du Masque\\Scenes\\Images\\5-Tree.jpg",
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Jeu\\Sessions du Masque\\Scenes\\Images\\5-Spectre.jpg"
       ],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [
@@ -1866,6 +2003,7 @@
     "Jeu/Sessions du Masque/Scenes/06. Antre de Bayle.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -1878,6 +2016,7 @@
     "Jeu/Sessions du Masque/Scenes/07. Retour chez Zaledra.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -1890,6 +2029,7 @@
     "Notes/Arvens.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -1900,6 +2040,7 @@
     "Notes/Economie.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -1910,6 +2051,7 @@
     "Notes/Scienctes.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -1920,6 +2062,7 @@
     "Notes/Stats joueurs.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -1930,6 +2073,7 @@
     "Notes/Templis.md": {
       "plugins": [],
       "assets": [],
+      "css": [],
       "deps": {
         "links": [],
         "embeds": [],
@@ -1943,6 +2087,9 @@
       ],
       "assets": [
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Arek_1793397272678_hh42cw.webp"
+      ],
+      "css": [
+        "obsidian-5e-statblocks"
       ],
       "deps": {
         "links": [],
@@ -1962,18 +2109,18 @@
       "svelte-420xq": ".statblock-content.svelte-420xq { font-family: var(--active-content-font); font-size: var(--active-content-font-size); color: var(--active-font-color); background-color: var(--active-background-color); padding: 0.5em; border: var(--active-border-size) var(--active-border-color) solid; box-shadow: var(--active-box-shadow-x-offset)\n            var(--active-box-shadow-y-offset) var(--active-box-shadow-blur)\n            var(--active-box-shadow-color); margin-left: 2px; margin-right: 2px; display: flex; gap: 1rem; }\n.statblock-content.svelte-420xq > .column { width: var(--statblock-column-width); }\n@media screen and (max-width: 400px) {\n  .statblock-content.svelte-420xq > .column { width: 75vw; }\n}",
       "svelte-14k5qsm": ".flex-container.svelte-14k5qsm { display: flex; justify-content: space-between; align-items: center; }\n.heading.svelte-14k5qsm { font-family: var(--active-heading-font); color: var(--active-heading-font-color); font-weight: var(--active-heading-font-weight); font-variant: var(--active-heading-font-variant); font-size: var(--active-heading-font-size); line-height: var(--active-heading-line-height); margin: 0px; letter-spacing: 1px; display: flex; justify-content: space-between; align-items: center; }",
       "svelte-1lnliuc": ".inline.svelte-1lnliuc { display: inline; }",
-      "svelte-q1pj66": ".image.svelte-q1pj66 { width: var(--active-image-width); height: var(--active-image-height); }\n.image.pointer.svelte-q1pj66 { cursor: pointer; }\nimg.svelte-q1pj66 { object-fit: cover; width: 100%; height: 100%; border-radius: 100%; border: var(--active-image-border-size) solid\n            var(--active-image-border-color); object-position: center center; }",
+      "svelte-1fyuyh": ".subheading.svelte-1fyuyh { font-weight: var(--active-subheading-font-weight); font-style: var(--active-subheading-font-style); font-size: var(--active-subheading-font-size); font-family: var(--active-subheading-font-family); color: var(--active-subheading-font-color); margin: 0px; }",
       "svelte-k72li0": ".tapered-rule.svelte-k72li0 { width: auto; margin: 0.5em 0px; height: 5px; background: -webkit-linear-gradient(\n            0deg,\n            var(--active-rule-color) 0%,\n            var(--active-rule-color) 50%,\n            var(--active-background-color) 95%,\n            var(--active-background-color) 100%\n        ); clip-path: polygon(0px 0px, 0px 100%, 95% 50%); }",
       "svelte-1rketb6": ".line.svelte-1rketb6 { line-height: var(--active-property-line-height); display: block; font-family: var(--active-property-font); color: var(--active-property-font-color); font-variant: var(--active-property-font-variant); font-size: var(--active-property-font-size); font-weight: var(--active-property-font-weight); }\n.property-name.svelte-1rketb6 { margin: 0px 0.25em 0px 0px; display: inline; font-family: var(--active-property-name-font); color: var(--active-property-name-font-color); font-variant: var(--active-property-name-font-variant); font-size: var(--active-property-name-font-size); font-weight: var(--active-property-name-font-weight); }",
       "svelte-1c3hzq4": ".statblock-markdown.svelte-1c3hzq4 { display: inline; }\n.statblock-markdown.svelte-1c3hzq4 p { display: inline; }\n.statblock-markdown.svelte-1c3hzq4 p ~ p { display: inline-block; }",
       "svelte-1jjvt5k": ".statblock-table-header.svelte-1jjvt5k { font-weight: var(--active-table-header-font-weight); }\n.statblock-table.svelte-1jjvt5k { display: flex; justify-content: space-evenly; align-items: center; flex-wrap: wrap; }\n.table-item.svelte-1jjvt5k { display: flex; justify-content: center; align-items: center; flex-flow: column; }\n.calculated-modifier.svelte-1jjvt5k::before { content: \"(\"; }\n.calculated-modifier.svelte-1jjvt5k::after { content: \")\"; }",
-      "svelte-1674zvq": "details.svelte-1674zvq > summary.svelte-1674zvq.svelte-1674zvq.svelte-1674zvq { outline: none; min-height: 1rem; border-top-left-radius: 0.1rem; border-top-right-radius: 0.1rem; cursor: pointer; position: relative; margin-bottom: 1rem; display: block !important; list-style: none !important; }\ndetails.svelte-1674zvq > summary.svelte-1674zvq.svelte-1674zvq.svelte-1674zvq::-webkit-details-marker, details.svelte-1674zvq > summary.svelte-1674zvq.svelte-1674zvq.svelte-1674zvq::marker { display: none !important; }\ndetails.svelte-1674zvq > summary.svelte-1674zvq > .collapser.svelte-1674zvq.svelte-1674zvq { position: absolute; top: 50%; right: 8px; transform: translateY(-50%); content: \"\"; }\ndetails.svelte-1674zvq > summary.svelte-1674zvq > .collapser.svelte-1674zvq > .handle.svelte-1674zvq { transform: rotate(0deg); transition: transform 0.25s; background-color: currentcolor; mask-repeat: no-repeat; mask-size: contain; mask-image: url(\"data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z'/></svg>\"); width: 20px; height: 20px; }\ndetails[open].svelte-1674zvq > summary.svelte-1674zvq > .collapser.svelte-1674zvq > .handle.svelte-1674zvq { transform: rotate(90deg); }",
-      "svelte-1ascaxr": ".section-header.svelte-1ascaxr { border-bottom: var(--active-section-heading-border-size) solid\n            var(--active-section-heading-border-color); color: var(--active-section-heading-font-color); font-size: var(--active-section-heading-font-size); font-variant: var(--active-section-heading-font-variant); font-weight: var(--active-section-heading-font-weight); font-family: var(--active-section-heading-font); letter-spacing: 1px; margin: 0px 0px 0.3em; break-inside: avoid-column; break-after: avoid-column; }",
-      "svelte-1d2gp4n": ".trait.svelte-1d2gp4n { font-family: var(--active-traits-font); color: var(--active-traits-font-color); font-size: var(--active-traits-font-size); font-weight: var(--active-traits-font-weight); font-style: var(--active-traits-font-style); }\n.trait-name.svelte-1d2gp4n { font-family: var(--active-traits-name-font); color: var(--active-traits-name-font-color); font-size: var(--active-traits-name-font-size); font-weight: var(--active-traits-name-font-weight); font-style: var(--active-traits-name-font-style); }\n.property-name.svelte-1d2gp4n { margin: 0px 0.25em 0px 0px; display: inline; }\n.statblock-nested-traits.svelte-1d2gp4n { margin-left: 1rem; }",
-      "svelte-1fyuyh": ".subheading.svelte-1fyuyh { font-weight: var(--active-subheading-font-weight); font-style: var(--active-subheading-font-style); font-size: var(--active-subheading-font-size); font-family: var(--active-subheading-font-family); color: var(--active-subheading-font-color); margin: 0px; }",
       "svelte-1vwmbsx": ".line.svelte-1vwmbsx.svelte-1vwmbsx { line-height: var(--active-saves-line-height); display: block; color: var(--active-font-color); }\n.property-name.svelte-1vwmbsx.svelte-1vwmbsx { color: var(--active-property-name-font-color); margin: 0px 0.25em 0px 0px; display: inline; font-weight: bold; }\n.property-text.svelte-1vwmbsx.svelte-1vwmbsx { display: inline; margin: 0px; }\n.save-entry.svelte-1vwmbsx.svelte-1vwmbsx, .save-name.svelte-1vwmbsx.svelte-1vwmbsx, .save-value.svelte-1vwmbsx.svelte-1vwmbsx { display: inline; }\n.save-entry.svelte-1vwmbsx:not(:last-child) .save-value.svelte-1vwmbsx::after { content: \", \"; }",
-      "svelte-1suaf4g": "ul.spell-item.svelte-1suaf4g { margin: 0px; }\nul.spell-item.first.svelte-1suaf4g { margin-top: revert; }\nul.spell-item.last.svelte-1suaf4g { margin-bottom: revert; }\n.spells.svelte-1suaf4g { font-style: italic; }"
+      "svelte-1d2gp4n": ".trait.svelte-1d2gp4n { font-family: var(--active-traits-font); color: var(--active-traits-font-color); font-size: var(--active-traits-font-size); font-weight: var(--active-traits-font-weight); font-style: var(--active-traits-font-style); }\n.trait-name.svelte-1d2gp4n { font-family: var(--active-traits-name-font); color: var(--active-traits-name-font-color); font-size: var(--active-traits-name-font-size); font-weight: var(--active-traits-name-font-weight); font-style: var(--active-traits-name-font-style); }\n.property-name.svelte-1d2gp4n { margin: 0px 0.25em 0px 0px; display: inline; }\n.statblock-nested-traits.svelte-1d2gp4n { margin-left: 1rem; }",
+      "svelte-1suaf4g": "ul.spell-item.svelte-1suaf4g { margin: 0px; }\nul.spell-item.first.svelte-1suaf4g { margin-top: revert; }\nul.spell-item.last.svelte-1suaf4g { margin-bottom: revert; }\n.spells.svelte-1suaf4g { font-style: italic; }",
+      "svelte-1ascaxr": ".section-header.svelte-1ascaxr { border-bottom: var(--active-section-heading-border-size) solid\n            var(--active-section-heading-border-color); color: var(--active-section-heading-font-color); font-size: var(--active-section-heading-font-size); font-variant: var(--active-section-heading-font-variant); font-weight: var(--active-section-heading-font-weight); font-family: var(--active-section-heading-font); letter-spacing: 1px; margin: 0px 0px 0.3em; break-inside: avoid-column; break-after: avoid-column; }",
+      "svelte-q1pj66": ".image.svelte-q1pj66 { width: var(--active-image-width); height: var(--active-image-height); }\n.image.pointer.svelte-q1pj66 { cursor: pointer; }\nimg.svelte-q1pj66 { object-fit: cover; width: 100%; height: 100%; border-radius: 100%; border: var(--active-image-border-size) solid\n            var(--active-image-border-color); object-position: center center; }",
+      "svelte-1674zvq": "details.svelte-1674zvq > summary.svelte-1674zvq.svelte-1674zvq.svelte-1674zvq { outline: none; min-height: 1rem; border-top-left-radius: 0.1rem; border-top-right-radius: 0.1rem; cursor: pointer; position: relative; margin-bottom: 1rem; display: block !important; list-style: none !important; }\ndetails.svelte-1674zvq > summary.svelte-1674zvq.svelte-1674zvq.svelte-1674zvq::-webkit-details-marker, details.svelte-1674zvq > summary.svelte-1674zvq.svelte-1674zvq.svelte-1674zvq::marker { display: none !important; }\ndetails.svelte-1674zvq > summary.svelte-1674zvq > .collapser.svelte-1674zvq.svelte-1674zvq { position: absolute; top: 50%; right: 8px; transform: translateY(-50%); content: \"\"; }\ndetails.svelte-1674zvq > summary.svelte-1674zvq > .collapser.svelte-1674zvq > .handle.svelte-1674zvq { transform: rotate(0deg); transition: transform 0.25s; background-color: currentcolor; mask-repeat: no-repeat; mask-size: contain; mask-image: url(\"data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z'/></svg>\"); width: 20px; height: 20px; }\ndetails[open].svelte-1674zvq > summary.svelte-1674zvq > .collapser.svelte-1674zvq > .handle.svelte-1674zvq { transform: rotate(90deg); }"
     }
   },
-  "pageFormat": "[4,{\"url\":\"\",\"name\":\"Aerethios\"}]"
+  "pageFormat": "[7,{\"url\":\"\",\"name\":\"Aerethios\"}]"
 }

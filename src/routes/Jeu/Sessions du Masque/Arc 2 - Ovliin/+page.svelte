@@ -1,44 +1,6 @@
 <script lang="ts">
-  import { onDestroy } from "svelte";
-  import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
-  import LinkPreview from "$lib/LinkPreview.svelte";
   import "$lib/pluginCss/mathjax.css";
-
-  tocHeadings.set([
-      {
-          "id": "270425",
-          "text": "$$27.04.25$$",
-          "level": 6
-      },
-      {
-          "id": "180525",
-          "text": "$$18.05.25$$",
-          "level": 6
-      },
-      {
-          "id": "210525",
-          "text": "$$21.05.25$$",
-          "level": 6
-      },
-      {
-          "id": "300525",
-          "text": "$$30.05.25$$",
-          "level": 6
-      },
-      {
-          "id": "130625",
-          "text": "$$13.06.25$$",
-          "level": 6
-      },
-      {
-          "id": "270625",
-          "text": "$$27.06.25$$",
-          "level": 6
-      }
-  ]);
-
-  onDestroy(() => tocHeadings.set([]));
 </script>
 
 <svelte:head>
@@ -59,5 +21,3 @@
     {@html "<p dir=\"auto\"><em>Extrait du carnet de voyage de Léoric, Arvens d’Ovliin</em></p>\n<hr>\n<h6 data-heading=\"$$27.04.25$$\" dir=\"auto\" id=\"270425\"><span class=\"math math-block is-loaded\"><mjx-container class=\"MathJax\" jax=\"CHTML\" overflow=\"overflow\" display=\"true\"><mjx-math data-latex=\"27.04.25\" display=\"true\" class=\"TEX-N\"><mjx-mn data-latex=\"27.04\"><mjx-c class=\"mjx-c32\" noic=\"true\" style=\"padding-top: 0.677em;\">2</mjx-c><mjx-c class=\"mjx-c37\" noic=\"true\" style=\"padding-top: 0.677em;\">7</mjx-c><mjx-c class=\"mjx-c2E\" noic=\"true\" style=\"padding-top: 0.677em;\">.</mjx-c><mjx-c class=\"mjx-c30\" noic=\"true\" style=\"padding-top: 0.677em;\">0</mjx-c><mjx-c class=\"mjx-c34\" style=\"padding-top: 0.677em;\">4</mjx-c></mjx-mn><mjx-mn data-latex=\".25\"><mjx-c class=\"mjx-c2E\" noic=\"true\" style=\"padding-top: 0.666em;\">.</mjx-c><mjx-c class=\"mjx-c32\" noic=\"true\" style=\"padding-top: 0.666em;\">2</mjx-c><mjx-c class=\"mjx-c35\" style=\"padding-top: 0.666em;\">5</mjx-c></mjx-mn></mjx-math></mjx-container></span></h6>\n<h6 data-heading=\"$$18.05.25$$\" dir=\"auto\" id=\"180525\"><span class=\"math math-block is-loaded\"><mjx-container class=\"MathJax\" jax=\"CHTML\" overflow=\"overflow\" display=\"true\"><mjx-math data-latex=\"18.05.25\" display=\"true\" class=\"TEX-N\"><mjx-mn data-latex=\"18.05\"><mjx-c class=\"mjx-c31\" noic=\"true\" style=\"padding-top: 0.666em;\">1</mjx-c><mjx-c class=\"mjx-c38\" noic=\"true\" style=\"padding-top: 0.666em;\">8</mjx-c><mjx-c class=\"mjx-c2E\" noic=\"true\" style=\"padding-top: 0.666em;\">.</mjx-c><mjx-c class=\"mjx-c30\" noic=\"true\" style=\"padding-top: 0.666em;\">0</mjx-c><mjx-c class=\"mjx-c35\" style=\"padding-top: 0.666em;\">5</mjx-c></mjx-mn><mjx-mn data-latex=\".25\"><mjx-c class=\"mjx-c2E\" noic=\"true\" style=\"padding-top: 0.666em;\">.</mjx-c><mjx-c class=\"mjx-c32\" noic=\"true\" style=\"padding-top: 0.666em;\">2</mjx-c><mjx-c class=\"mjx-c35\" style=\"padding-top: 0.666em;\">5</mjx-c></mjx-mn></mjx-math></mjx-container></span></h6>\n<h6 data-heading=\"$$21.05.25$$\" dir=\"auto\" id=\"210525\"><span class=\"math math-block is-loaded\"><mjx-container class=\"MathJax\" jax=\"CHTML\" overflow=\"overflow\" display=\"true\"><mjx-math data-latex=\"21.05.25\" display=\"true\" class=\"TEX-N\"><mjx-mn data-latex=\"21.05\"><mjx-c class=\"mjx-c32\" noic=\"true\" style=\"padding-top: 0.666em;\">2</mjx-c><mjx-c class=\"mjx-c31\" noic=\"true\" style=\"padding-top: 0.666em;\">1</mjx-c><mjx-c class=\"mjx-c2E\" noic=\"true\" style=\"padding-top: 0.666em;\">.</mjx-c><mjx-c class=\"mjx-c30\" noic=\"true\" style=\"padding-top: 0.666em;\">0</mjx-c><mjx-c class=\"mjx-c35\" style=\"padding-top: 0.666em;\">5</mjx-c></mjx-mn><mjx-mn data-latex=\".25\"><mjx-c class=\"mjx-c2E\" noic=\"true\" style=\"padding-top: 0.666em;\">.</mjx-c><mjx-c class=\"mjx-c32\" noic=\"true\" style=\"padding-top: 0.666em;\">2</mjx-c><mjx-c class=\"mjx-c35\" style=\"padding-top: 0.666em;\">5</mjx-c></mjx-mn></mjx-math></mjx-container></span></h6>\n<h6 data-heading=\"$$30.05.25$$\" dir=\"auto\" id=\"300525\"><span class=\"math math-block is-loaded\"><mjx-container class=\"MathJax\" jax=\"CHTML\" overflow=\"overflow\" display=\"true\"><mjx-math data-latex=\"30.05.25\" display=\"true\" class=\"TEX-N\"><mjx-mn data-latex=\"30.05\"><mjx-c class=\"mjx-c33\" noic=\"true\" style=\"padding-top: 0.666em;\">3</mjx-c><mjx-c class=\"mjx-c30\" noic=\"true\" style=\"padding-top: 0.666em;\">0</mjx-c><mjx-c class=\"mjx-c2E\" noic=\"true\" style=\"padding-top: 0.666em;\">.</mjx-c><mjx-c class=\"mjx-c30\" noic=\"true\" style=\"padding-top: 0.666em;\">0</mjx-c><mjx-c class=\"mjx-c35\" style=\"padding-top: 0.666em;\">5</mjx-c></mjx-mn><mjx-mn data-latex=\".25\"><mjx-c class=\"mjx-c2E\" noic=\"true\" style=\"padding-top: 0.666em;\">.</mjx-c><mjx-c class=\"mjx-c32\" noic=\"true\" style=\"padding-top: 0.666em;\">2</mjx-c><mjx-c class=\"mjx-c35\" style=\"padding-top: 0.666em;\">5</mjx-c></mjx-mn></mjx-math></mjx-container></span></h6>\n<h6 data-heading=\"$$13.06.25$$\" dir=\"auto\" id=\"130625\"><span class=\"math math-block is-loaded\"><mjx-container class=\"MathJax\" jax=\"CHTML\" overflow=\"overflow\" display=\"true\"><mjx-math data-latex=\"13.06.25\" display=\"true\" class=\"TEX-N\"><mjx-mn data-latex=\"13.06\"><mjx-c class=\"mjx-c31\" noic=\"true\" style=\"padding-top: 0.666em;\">1</mjx-c><mjx-c class=\"mjx-c33\" noic=\"true\" style=\"padding-top: 0.666em;\">3</mjx-c><mjx-c class=\"mjx-c2E\" noic=\"true\" style=\"padding-top: 0.666em;\">.</mjx-c><mjx-c class=\"mjx-c30\" noic=\"true\" style=\"padding-top: 0.666em;\">0</mjx-c><mjx-c class=\"mjx-c36\" style=\"padding-top: 0.666em;\">6</mjx-c></mjx-mn><mjx-mn data-latex=\".25\"><mjx-c class=\"mjx-c2E\" noic=\"true\" style=\"padding-top: 0.666em;\">.</mjx-c><mjx-c class=\"mjx-c32\" noic=\"true\" style=\"padding-top: 0.666em;\">2</mjx-c><mjx-c class=\"mjx-c35\" style=\"padding-top: 0.666em;\">5</mjx-c></mjx-mn></mjx-math></mjx-container></span></h6>\n<h6 data-heading=\"$$27.06.25$$\" dir=\"auto\" id=\"270625\"><span class=\"math math-block is-loaded\"><mjx-container class=\"MathJax\" jax=\"CHTML\" overflow=\"overflow\" display=\"true\"><mjx-math data-latex=\"27.06.25\" display=\"true\" class=\"TEX-N\"><mjx-mn data-latex=\"27.06\"><mjx-c class=\"mjx-c32\" noic=\"true\" style=\"padding-top: 0.676em;\">2</mjx-c><mjx-c class=\"mjx-c37\" noic=\"true\" style=\"padding-top: 0.676em;\">7</mjx-c><mjx-c class=\"mjx-c2E\" noic=\"true\" style=\"padding-top: 0.676em;\">.</mjx-c><mjx-c class=\"mjx-c30\" noic=\"true\" style=\"padding-top: 0.676em;\">0</mjx-c><mjx-c class=\"mjx-c36\" style=\"padding-top: 0.676em;\">6</mjx-c></mjx-mn><mjx-mn data-latex=\".25\"><mjx-c class=\"mjx-c2E\" noic=\"true\" style=\"padding-top: 0.666em;\">.</mjx-c><mjx-c class=\"mjx-c32\" noic=\"true\" style=\"padding-top: 0.666em;\">2</mjx-c><mjx-c class=\"mjx-c35\" style=\"padding-top: 0.666em;\">5</mjx-c></mjx-mn></mjx-math></mjx-container></span></h6>"}
   </div>
 </article>
-
-<LinkPreview />

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { goto } from "$app/navigation";
 	import { base } from "$app/paths";
-	import { page } from "$app/stores";
+	import { page } from "$app/state";
 	import { animationRegistry, randomAnimationId } from "$lib/animationRegistry";
 	import {
 		ANIMATION_INTERVAL_SECONDS,
@@ -9,8 +9,24 @@
 		GRAPH_FORCES,
 		NODE_COLORS,
 	} from "$lib/exportData";
+	import {
+		DIM_TAU_MS,
+		drawGraph,
+		REVEAL_FADE_MS,
+		withNeighbors,
+		type GraphColors,
+	} from "$lib/graphDraw";
 	import { DRAG_ALPHA, ForceSimulation, seedPositions } from "$lib/graphPhysics";
 	import type { GNode } from "$lib/graphTypes";
+	import {
+		centerOn,
+		createView,
+		fitView,
+		nodeAt,
+		toWorld,
+		zoomAt,
+		type View,
+	} from "$lib/graphView";
 	import { getLinkEdges } from "$lib/linkGraph";
 	import { toRoutePath } from "$lib/routePath";
 	import Icon from "$lib/Icon.svelte";
@@ -44,46 +60,6 @@
 	interface GLink {
 		source: string;
 		target: string;
-	}
-
-	/** Independent pan/zoom/hover state for one canvas (sidebar vs. modal). */
-	interface View {
-		canvas: HTMLCanvasElement | null;
-		width: number;
-		height: number;
-		scale: number;
-		/** The "fit all nodes" scale, tracked even after a manual zoom moves
-		 * `scale` away from it — used as the zoom-in reference point for
-		 * degree-based label transparency. */
-		fitScale: number;
-		panX: number;
-		panY: number;
-		hoveredId: string | null;
-		dragNode: GNode | null;
-		isPanning: boolean;
-		userAdjusted: boolean;
-		lastX: number;
-		lastY: number;
-		moved: boolean;
-	}
-
-	function createView(): View {
-		return {
-			canvas: null,
-			width: 0,
-			height: 0,
-			scale: 1,
-			fitScale: 1,
-			panX: 0,
-			panY: 0,
-			hoveredId: null,
-			dragNode: null,
-			isPanning: false,
-			userAdjusted: false,
-			lastX: 0,
-			lastY: 0,
-			moved: false,
-		};
 	}
 
 	// ── Graph data (structure is static — built once) ───────────────────────
@@ -125,15 +101,11 @@
 		nodeIndex.get(l.target)!.degree++;
 	}
 
-	/** `id` itself plus every note directly linked to it (empty for null). */
-	function withNeighbors(id: string | null): Set<string> {
-		return id ? new Set([id, ...(adjacency.get(id) ?? [])]) : new Set();
-	}
-
-	/** Same size formula for every node — only depends on its link count. */
-	function baseRadius(n: GNode, scale: number): number {
-		return (3.5 + Math.min(n.degree, 6) * 0.55) / scale;
-	}
+	/** Every link, as the nodes it joins — for the physics and drawing. */
+	const edges = links.map((l) => ({
+		source: nodeIndex.get(l.source)!,
+		target: nodeIndex.get(l.target)!,
+	}));
 
 	// ── Progressive reveal (standalone page only) ───────────────────────────
 	// Order: the most-connected node first, then its neighbors (breadth-
@@ -176,63 +148,17 @@
 		25,
 		Math.min(70, 4000 / Math.max(revealOrder.length, 1)),
 	);
-	const REVEAL_FADE_MS = 320;
 	let revealCursor = 0;
 	let nextRevealAt = 0;
 
-	function revealEase(n: GNode, now: number): number {
-		if (!n.revealed) return 0;
-		if (n.revealedAt === null) return 1;
-		const t = Math.min(1, (now - n.revealedAt) / REVEAL_FADE_MS);
-		if (t >= 1) return 1;
-		return 1 - Math.pow(1 - t, 3); // ease-out cubic "pop"
-	}
-
-	// ── Periodic animation (standalone page + popup modal) ──────────────────
-	// The actual effect lives in lib/animations/ — see activeAnimation above
-	// and advanceAnimation()/drawPos() below for how it's driven and drawn.
-	// Both hooks are purely visual and never touch n.x/n.y, so there's no
-	// risk of the layout itself drifting.
-
-	/** Generic radius multiplier from the active animation's intensity —
-	 * shared by every intensity-based animation so individual animation
-	 * files don't each need their own "how big does a highlighted node get"
-	 * constant. Animations that need to shrink a node (not just grow it)
-	 * provide getSizeScale instead, which takes priority here. */
-	const INTENSITY_MAX_SCALE = 1.7;
-
-	function animationScale(n: GNode, now: number): number {
-		if (activeAnimation?.getSizeScale) {
-			return Math.max(0.05, activeAnimation.getSizeScale(n, now));
-		}
-		const t = activeAnimation?.getIntensity?.(n, now) ?? 0;
-		return 1 + (INTENSITY_MAX_SCALE - 1) * t;
-	}
-
-	// ── Hover dimming (eased, not instant) ──────────────────────────────────
-	// Frame-rate-independent exponential smoothing: after DIM_TAU_MS
-	// milliseconds, dimAlpha has closed ~63% of the gap to its target; after
-	// 3× that (~0.5–1s total, per DIM_TAU_MS below) it's visually settled.
-	const DIM_TAU_MS = 250;
+	/** Previous frame's time, for the hover dimming's easing. */
 	let lastDimFrameTime = 0;
-
-	function updateDimAlpha(n: GNode, target: number, dt: number) {
-		const k = 1 - Math.exp(-dt / DIM_TAU_MS);
-		n.dimAlpha += (target - n.dimAlpha) * k;
-	}
 
 	// ── Physics ──────────────────────────────────────────────────────────────
 	// Obsidian's own graph simulation, with the force settings from the
 	// vault's graph view — see lib/graphPhysics.ts.
 
-	const sim = new ForceSimulation(
-		nodes,
-		links.map((l) => ({
-			source: nodeIndex.get(l.source)!,
-			target: nodeIndex.get(l.target)!,
-		})),
-		GRAPH_FORCES,
-	);
+	const sim = new ForceSimulation(nodes, edges, GRAPH_FORCES);
 	seedPositions(nodes, (id) => adjacency.get(id) ?? [], nodeIndex);
 
 	// ── Views & shared display state ─────────────────────────────────────────
@@ -253,61 +179,9 @@
 	/** Current note + its direct links — recomputed on navigation only. */
 	let currentNeighbors = new Set<string>();
 
-	/** Actual bounding box of every node's current position. */
-	function computeBounds() {
-		let minX = Infinity,
-			minY = Infinity,
-			maxX = -Infinity,
-			maxY = -Infinity;
-		for (const n of nodes) {
-			if (n.x < minX) minX = n.x;
-			if (n.x > maxX) maxX = n.x;
-			if (n.y < minY) minY = n.y;
-			if (n.y > maxY) maxY = n.y;
-		}
-		if (!isFinite(minX)) {
-			minX = minY = -50;
-			maxX = maxY = 50;
-		}
-		return { minX, minY, maxX, maxY };
-	}
-
-	/**
-	 * Fit the view so every node is visible (3), based on their real
-	 * bounding box rather than an assumed fixed area.
-	 */
-	function fitView(view: View, force = false) {
-		if (view.width <= 0 || view.height <= 0) return;
-		const { minX, minY, maxX, maxY } = computeBounds();
-		const w = Math.max(maxX - minX, 1);
-		const h = Math.max(maxY - minY, 1);
-		const margin = 28;
-		const idealScale = Math.max(
-			Math.min(
-				Math.min(
-					(view.width - margin * 2) / w,
-					(view.height - margin * 2) / h,
-				),
-				3,
-			),
-			0.05,
-		);
-		view.fitScale = idealScale;
-
-		if (view.userAdjusted && !force) return;
-		view.scale = idealScale;
-		const cx = (minX + maxX) / 2;
-		const cy = (minY + maxY) / 2;
-		view.panX = view.width / 2 - cx * view.scale;
-		view.panY = view.height / 2 - cy * view.scale;
-	}
-
 	/** Recenter (pan only, keep current zoom level) on the current note. */
 	function centerOnCurrent(view: View) {
-		const n = currentPath ? nodeIndex.get(currentPath) : null;
-		if (!n || view.width <= 0 || view.height <= 0) return;
-		view.panX = view.width / 2 - n.x * view.scale;
-		view.panY = view.height / 2 - n.y * view.scale;
+		centerOn(view, currentPath ? nodeIndex.get(currentPath) : null);
 	}
 
 	/** Fully restart the layout from scratch — freshly placed nodes, hot
@@ -327,8 +201,8 @@
 		resetPhysics();
 		sidebarView.userAdjusted = false;
 		modalView.userAdjusted = false;
-		fitView(sidebarView, true);
-		if (expanded) fitView(modalView, true);
+		fitView(sidebarView, nodes, true);
+		if (expanded) fitView(modalView, nodes, true);
 	}
 
 	// ── Rendering ────────────────────────────────────────────────────────────
@@ -336,12 +210,9 @@
 	/** Theme colors, read once and cached: getComputedStyle every frame is
 	 * costly. Cleared by the <body> class observer in onMount — that's where
 	 * the light/dark toggle (theme-dark/theme-light) lands. */
-	let colors: Record<
-		"colorEdge" | "colorNode" | "colorActive" | "colorLabel" | "colorBg",
-		string
-	> | null = null;
+	let colors: GraphColors | null = null;
 
-	function getColors() {
+	function getColors(): GraphColors {
 		if (!colors) {
 			const style = getComputedStyle(document.body);
 			const read = (name: string, fallback: string) =>
@@ -357,213 +228,28 @@
 		return colors;
 	}
 
+	/** Draws one frame of `view` — see drawGraph() in graphDraw.ts. */
 	function draw(view: View, isModal: boolean, now: number) {
-		if (!view.canvas || view.width <= 0 || view.height <= 0) return;
-		const ctx = view.canvas.getContext("2d");
-		if (!ctx) return;
-
-		// The animation's positional offset is a big-view-only effect
-		// (standalone page + popup modal, never the small sidebar preview)
-		// and purely visual — it never touches n.x/n.y, so this is the only
-		// place it exists.
-		function drawPos(n: GNode): { x: number; y: number } {
-			if (!isModal) return { x: n.x, y: n.y };
-			const off = activeAnimation?.getOffset?.(n, now);
-			if (!off) return { x: n.x, y: n.y };
-			return { x: n.x + off.dx, y: n.y + off.dy };
-		}
-
-		const dpr = window.devicePixelRatio || 1;
-		const targetW = Math.round(view.width * dpr);
-		const targetH = Math.round(view.height * dpr);
-		if (view.canvas.width !== targetW || view.canvas.height !== targetH) {
-			view.canvas.width = targetW;
-			view.canvas.height = targetH;
-		}
-
-		ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-		ctx.clearRect(0, 0, view.width, view.height);
-		ctx.save();
-		ctx.translate(view.panX, view.panY);
-		ctx.scale(view.scale, view.scale);
-
-		const { colorEdge, colorNode, colorActive, colorLabel, colorBg } =
-			getColors();
-
 		const dimDt = lastDimFrameTime > 0 ? now - lastDimFrameTime : 16;
 		lastDimFrameTime = now;
-
-		const neighborIds = currentNeighbors;
-		// Filter (2): restrict to current note + its direct neighbors.
-		const visibleIds = showOnlyLinked ? neighborIds : null;
-
-		const hovered = view.hoveredId ? nodeIndex.get(view.hoveredId) : null;
-		const linkedToHovered = withNeighbors(hovered?.id ?? null);
-
-		// Label mode: in the big view with "all notes" shown, every note's
-		// name visibility depends on how many links it has (more links =
-		// more visible at the default zoom, zero links = invisible), and
-		// zooming in gradually reveals everyone regardless of link count.
-		// Otherwise: just current + hovered, plus direct neighbors too when
-		// the big view is filtered down to them.
-		const degreeFade = isModal && !showOnlyLinked;
-		const zoomRatio = view.fitScale > 0 ? view.scale / view.fitScale : 1;
-		// 0 once at (or below) the default fit scale, growing as you zoom in.
-		const zoomBoost = Math.max(0, zoomRatio - 1) * 0.5;
-
-		const labelIds = new Set<string>();
-		if (!degreeFade) {
-			for (const n of nodes) {
-				if (visibleIds && !visibleIds.has(n.id)) continue;
-				const isCurrent = n.id === currentPath;
-				const isHovered = n.id === view.hoveredId;
-				const isNearCurrent = isModal && neighborIds.has(n.id);
-				if (isCurrent || isHovered || isNearCurrent) labelIds.add(n.id);
-			}
-		}
-		// The more names would be drawn at once, the more transparent each
-		// one is, so a heavily-connected note's neighbor labels don't turn
-		// into an unreadable block of overlapping text — but never so
-		// transparent they stop being "permanently visible".
-		const labelAlpha = Math.max(
-			0.55,
-			Math.min(1, 10 / Math.max(labelIds.size, 1)),
+		drawGraph(
+			view,
+			{
+				nodes,
+				edges,
+				nodeIndex,
+				adjacency,
+				currentPath,
+				currentNeighbors,
+				showOnlyLinked,
+				animation: activeAnimation,
+				nodeColors: NODE_COLORS,
+				colors: getColors(),
+			},
+			isModal,
+			now,
+			dimDt,
 		);
-
-		/** Returns null when this node shouldn't get a label at all. */
-		function getLabelAlpha(n: GNode): number | null {
-			// The node under the cursor always gets its full name at full
-			// opacity — degree-based fade and the "many labels at once"
-			// dimming are both about decluttering everything else, not this.
-			if (n.id === view.hoveredId) return 1;
-			if (degreeFade) {
-				const degreeComponent = Math.min(n.degree, 8) / 8; // 0..1
-				const a = Math.min(1, degreeComponent * 0.85 + zoomBoost);
-				return a <= 0.03 ? null : a;
-			}
-			return labelIds.has(n.id) ? labelAlpha : null;
-		}
-
-		// Edges — (1) always visible: a solid base opacity that never fades
-		// toward nothing, only brightened further when connected to the
-		// hovered note.
-		for (const l of links) {
-			const s = nodeIndex.get(l.source);
-			const t = nodeIndex.get(l.target);
-			if (!s || !t) continue;
-			if (!s.revealed || !t.revealed) continue;
-			if (visibleIds && !(visibleIds.has(s.id) && visibleIds.has(t.id)))
-				continue;
-			const isHighlighted =
-				!!hovered && (s.id === hovered.id || t.id === hovered.id);
-			ctx.strokeStyle = isHighlighted ? colorActive : colorEdge;
-			ctx.globalAlpha = isHighlighted ? 1 : 0.65;
-			ctx.lineWidth = (isHighlighted ? 1.8 : 1.1) / view.scale;
-			const sp = drawPos(s);
-			const tp = drawPos(t);
-			ctx.beginPath();
-			ctx.moveTo(sp.x, sp.y);
-			ctx.lineTo(tp.x, tp.y);
-			ctx.stroke();
-		}
-
-		// Nodes — draw the current note LAST (in its own pass) so it always
-		// sits on top of everything else, with a halo — but sized the same
-		// as everyone else, purely by degree (not because it's "the" note).
-		let currentNode: GNode | null = null;
-		for (const n of nodes) {
-			if (!n.revealed) continue;
-			if (visibleIds && !visibleIds.has(n.id)) continue;
-			const isCurrent = n.id === currentPath;
-			if (isCurrent) {
-				currentNode = n;
-				continue;
-			}
-			const isHovered = n.id === view.hoveredId;
-			const dimmed = !!hovered && !linkedToHovered.has(n.id);
-			updateDimAlpha(n, dimmed ? 0.35 : 1, dimDt);
-			const ease = revealEase(n, now);
-			const baseR = baseRadius(n, view.scale);
-			const intensity = activeAnimation?.getIntensity?.(n, now) ?? 0;
-			const r = baseR * ease * animationScale(n, now);
-			const p = drawPos(n);
-
-			if (intensity > 0.01) {
-				// Soft glow behind the node, same treatment as the "current
-				// note" halo below — this is what an intensity-based
-				// animation (e.g. flicker) reads as a "twinkle".
-				ctx.globalAlpha = intensity * 0.5 * ease;
-				ctx.beginPath();
-				ctx.arc(p.x, p.y, baseR * 2.2, 0, Math.PI * 2);
-				ctx.fillStyle = colorActive;
-				ctx.fill();
-			}
-
-			// Obsidian's own graph "Groups" color — big-view-only (matches
-			// how the graph's own periodic animations are scoped), never
-			// applied to the small sidebar preview.
-			const groupColor = isModal ? NODE_COLORS[n.id] : undefined;
-
-			ctx.globalAlpha = n.dimAlpha * ease;
-			ctx.beginPath();
-			ctx.arc(p.x, p.y, r, 0, Math.PI * 2);
-			ctx.fillStyle = isHovered ? colorLabel : (groupColor ?? colorNode);
-			ctx.fill();
-
-			if (isHovered) {
-				ctx.lineWidth = 2 / view.scale;
-				ctx.strokeStyle = colorBg;
-				ctx.stroke();
-			}
-
-			const labelA = getLabelAlpha(n);
-			if (labelA !== null) {
-				ctx.globalAlpha = Math.min(labelA, n.dimAlpha) * ease;
-				ctx.font = `${11 / view.scale}px system-ui, sans-serif`;
-				ctx.fillStyle = colorLabel;
-				ctx.fillText(n.label, p.x + r + 4 / view.scale, p.y + 4 / view.scale);
-			}
-		}
-
-		if (
-			currentNode?.revealed &&
-			(!visibleIds || visibleIds.has(currentNode.id))
-		) {
-			const ease = revealEase(currentNode, now);
-			// Same size formula as every other node — only the color and
-			// halo mark it as "you are here", not an oversized radius.
-			const r =
-				baseRadius(currentNode, view.scale) *
-				ease *
-				animationScale(currentNode, now);
-			const p = drawPos(currentNode);
-			// Halo: soft glow behind the node so it reads as "the" focal point.
-			ctx.globalAlpha = 0.28 * ease;
-			ctx.beginPath();
-			ctx.arc(p.x, p.y, r * 2.2, 0, Math.PI * 2);
-			ctx.fillStyle = colorActive;
-			ctx.fill();
-
-			ctx.globalAlpha = ease;
-			ctx.beginPath();
-			ctx.arc(p.x, p.y, r, 0, Math.PI * 2);
-			ctx.fillStyle = colorActive;
-			ctx.fill();
-			ctx.lineWidth = 2.5 / view.scale;
-			ctx.strokeStyle = colorBg;
-			ctx.stroke();
-
-			ctx.font = `bold ${12 / view.scale}px system-ui, sans-serif`;
-			ctx.fillStyle = colorLabel;
-			ctx.fillText(
-				currentNode.label,
-				p.x + r + 5 / view.scale,
-				p.y + 4.5 / view.scale,
-			);
-		}
-
-		ctx.globalAlpha = 1;
-		ctx.restore();
 	}
 
 	// ── Animation loop ───────────────────────────────────────────────────────
@@ -653,7 +339,7 @@
 
 			if (standalone) {
 				// Full-page mode: only the big view exists, always active.
-				if (stillMoving && !modalView.dragNode) fitView(modalView);
+				if (stillMoving && !modalView.dragNode) fitView(modalView, nodes);
 				advanceAnimation(now, true);
 				draw(modalView, true, now);
 			} else {
@@ -662,10 +348,10 @@
 				// but never while that view's own drag is in progress, or
 				// dragging a node out of frame would resize/pan the window (2).
 				if (!expanded && stillMoving && !sidebarView.dragNode) {
-					fitView(sidebarView);
+					fitView(sidebarView, nodes);
 				}
 				if (expanded && stillMoving && !modalView.dragNode) {
-					fitView(modalView);
+					fitView(modalView, nodes);
 				}
 				advanceAnimation(now, expanded);
 				// The small preview is disabled while the big view is open —
@@ -700,41 +386,13 @@
 		}
 	}
 
-	// ── Coordinate helpers ───────────────────────────────────────────────────
-
-	function toWorld(view: View, clientX: number, clientY: number) {
-		const rect = view.canvas!.getBoundingClientRect();
-		const sx = clientX - rect.left;
-		const sy = clientY - rect.top;
-		return {
-			x: (sx - view.panX) / view.scale,
-			y: (sy - view.panY) / view.scale,
-		};
-	}
-
-	function nodeAt(view: View, wx: number, wy: number): GNode | null {
-		const hitR = 10 / view.scale;
-		let best: GNode | null = null;
-		let bestDist = hitR;
-		for (const n of nodes) {
-			const dx = n.x - wx;
-			const dy = n.y - wy;
-			const d = Math.sqrt(dx * dx + dy * dy);
-			if (d < bestDist) {
-				best = n;
-				bestDist = d;
-			}
-		}
-		return best;
-	}
-
 	// ── Pointer interactions ─────────────────────────────────────────────────
 	// Both views: hover, click a node to navigate, drag a node (5). The
 	// big view (`canPan`) also drags the background to pan.
 
 	function handlePointerDown(view: View, canPan: boolean, e: PointerEvent) {
 		const { x, y } = toWorld(view, e.clientX, e.clientY);
-		const hit = nodeAt(view, x, y);
+		const hit = nodeAt(view, nodes, x, y);
 		view.moved = false;
 		view.lastX = e.clientX;
 		view.lastY = e.clientY;
@@ -776,7 +434,7 @@
 			wake();
 		} else {
 			const { x, y } = toWorld(view, e.clientX, e.clientY);
-			const hit = nodeAt(view, x, y);
+			const hit = nodeAt(view, nodes, x, y);
 			setHovered(view, hit ? hit.id : null);
 			view.canvas!.style.cursor = hit
 				? "pointer"
@@ -819,31 +477,10 @@
 		wake();
 	}
 
-	/** Zoom `view` at a screen point, keeping that point fixed under the cursor. */
-	function zoomAt(
-		view: View,
-		clientX: number,
-		clientY: number,
-		deltaY: number,
-	) {
-		if (!view.canvas) return;
-		const rect = view.canvas.getBoundingClientRect();
-		const cx = clientX - rect.left;
-		const cy = clientY - rect.top;
-		const zoomFactor = Math.exp(-deltaY * 0.001);
-		const newScale = Math.min(Math.max(view.scale * zoomFactor, 0.05), 5);
-		const wx = (cx - view.panX) / view.scale;
-		const wy = (cy - view.panY) / view.scale;
-		view.scale = newScale;
-		view.panX = cx - wx * newScale;
-		view.panY = cy - wy * newScale;
-		view.userAdjusted = true;
-		wake();
-	}
-
 	function handleWheel(view: View, e: WheelEvent) {
 		e.preventDefault();
 		zoomAt(view, e.clientX, e.clientY, e.deltaY);
+		wake();
 	}
 
 	function openModal() {
@@ -858,23 +495,23 @@
 
 	// ── Lifecycle ────────────────────────────────────────────────────────────
 
-	let unsubscribePage: () => void;
 	let sidebarResizeObserver: ResizeObserver;
 	let themeObserver: MutationObserver;
 
-	onMount(() => {
-		unsubscribePage = page.subscribe((p) => {
-			// $page.url.pathname is URL-encoded by the browser (spaces become
-			// "%20", accented/special chars may be encoded too) and includes
-			// the site's base path in production, but node ids are the
-			// literal, base-less characters straight from the folder names
-			// on disk — toRoutePath() undoes both. Without it, a route like
-			// "Sessions du Masque" would never match "Sessions%20du%20Masque"
-			// (or, deployed under a subpath, nothing would ever match at
-			// all), breaking every current-note-dependent feature
-			// (highlight, neighbor labels, the "only linked" filter).
-			currentPath = toRoutePath(p.url.pathname);
-			currentNeighbors = withNeighbors(currentPath);
+	$effect(() => {
+		// page.url.pathname is URL-encoded by the browser (spaces become
+		// "%20", accented/special chars may be encoded too) and includes
+		// the site's base path in production, but node ids are the
+		// literal, base-less characters straight from the folder names
+		// on disk — toRoutePath() undoes both. Without it, a route like
+		// "Sessions du Masque" would never match "Sessions%20du%20Masque"
+		// (or, deployed under a subpath, nothing would ever match at
+		// all), breaking every current-note-dependent feature
+		// (highlight, neighbor labels, the "only linked" filter).
+		const path = toRoutePath(page.url.pathname);
+		untrack(() => {
+			currentPath = path;
+			currentNeighbors = withNeighbors(adjacency, currentPath);
 			// (1) Recenter on the note we just navigated to — whether that
 			// came from clicking a node in the graph or any other kind of
 			// navigation.
@@ -882,14 +519,16 @@
 			centerOnCurrent(modalView);
 			wake();
 		});
+	});
 
+	onMount(() => {
 		if (!standalone && sidebarWrapEl && sidebarCanvasEl) {
 			const wrap = sidebarWrapEl;
 			sidebarView.canvas = sidebarCanvasEl;
 			sidebarResizeObserver = new ResizeObserver(() => {
 				sidebarView.width = wrap.clientWidth;
 				sidebarView.height = wrap.clientHeight;
-				fitView(sidebarView); // respects a manual zoom, if any (2)
+				fitView(sidebarView, nodes); // respects a manual zoom, if any (2)
 				wake();
 			});
 			sidebarResizeObserver.observe(wrap);
@@ -910,7 +549,6 @@
 
 	onDestroy(() => {
 		destroyed = true;
-		unsubscribePage?.();
 		sidebarResizeObserver?.disconnect();
 		themeObserver?.disconnect();
 		if (rafId) cancelAnimationFrame(rafId);
@@ -929,7 +567,7 @@
 		const ro = new ResizeObserver(() => {
 			modalView.width = modalWrapEl.clientWidth;
 			modalView.height = modalWrapEl.clientHeight;
-			fitView(modalView);
+			fitView(modalView, nodes);
 			wake();
 		});
 		ro.observe(modalWrapEl);

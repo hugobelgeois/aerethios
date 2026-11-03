@@ -7,4 +7,46 @@ export const load: PageLoad = () => ({
   pageDescription: "",
   fullBleed: false,
   fullHeight: false,
+  headings: [
+    {
+      "id": "details",
+      "text": "Détails",
+      "level": 2
+    },
+    {
+      "id": "notes",
+      "text": "Notes",
+      "level": 2
+    },
+    {
+      "id": "scenario",
+      "text": "Scénario",
+      "level": 2
+    },
+    {
+      "id": "1-orphelinat-dhazdaim",
+      "text": "1. Orphelinat d'Hazdaim",
+      "level": 3
+    },
+    {
+      "id": "2-campement-de-nix-et-salome",
+      "text": "2. Campement de Nix et Salomé",
+      "level": 3
+    },
+    {
+      "id": "3-village-du-chef",
+      "text": "3. Village du chef",
+      "level": 3
+    },
+    {
+      "id": "4-ville-du-dragon",
+      "text": "4. Ville du Dragon",
+      "level": 3
+    },
+    {
+      "id": "joueurs",
+      "text": "Joueurs",
+      "level": 2
+    }
+  ],
 });

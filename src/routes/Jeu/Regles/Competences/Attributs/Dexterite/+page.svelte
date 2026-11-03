@@ -1,28 +1,5 @@
 <script lang="ts">
-  import { onDestroy } from "svelte";
-  import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
-  import LinkPreview from "$lib/LinkPreview.svelte";
-
-  tocHeadings.set([
-      {
-          "id": "principales",
-          "text": "Principales",
-          "level": 2
-      },
-      {
-          "id": "secondaires",
-          "text": "Secondaires",
-          "level": 2
-      },
-      {
-          "id": "finales",
-          "text": "Finales",
-          "level": 2
-      }
-  ]);
-
-  onDestroy(() => tocHeadings.set([]));
 </script>
 
 <svelte:head>
@@ -43,5 +20,3 @@
     {@html "<h2 data-heading=\"Principales\" dir=\"auto\" id=\"principales\">Principales</h2>\n<blockquote dir=\"auto\">\n<p>Le joueur en choisi 1 tous les 5 points d'attribut (5, 10, 15, 20).<br>\nDouble le modificateur des jets selon la situation (le modificateur devient 0 s'il était négatif).</p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th>Compétence</th>\n<th>Situation</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Acrobatie</td>\n<td>Mobilité et AC</td>\n</tr>\n<tr>\n<td>Assassin</td>\n<td>Attaque surprise</td>\n</tr>\n<tr>\n<td>Ranger</td>\n<td>Combat</td>\n</tr>\n<tr>\n<td>Voleur</td>\n<td>Larcin (pickpocket, crochetage, ..)</td>\n</tr>\n</tbody>\n</table></div>\n<h2 data-heading=\"Secondaires\" dir=\"auto\" id=\"secondaires\">Secondaires</h2>\n<blockquote dir=\"auto\">\n<p>Le joueur en choisi 1 tous les 1 point de modificateur (1, 2, 3, 4, 5).<br>\nIl est nécessaire de posséder la compétence principale pour débloquer les compétences secondaires liées.</p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th><strong>Principale</strong></th>\n<th>Secondaire</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Acrobatie</strong></td>\n<td>Matrix</td>\n<td>Peut esquiver les attaques magiques<br><em>1d20 +Dextérité(Acrobatie) &gt;= 1d20 +Mental(Arcaniste|Intelligence|Sagesse)</em></td>\n</tr>\n<tr>\n<td></td>\n<td>Parade</td>\n<td>Si le dé d'une attaque ennemie est inférieur à la Dextérité(Acrobatie), le joueur peut le désarmer</td>\n</tr>\n<tr>\n<td><strong>Assassin</strong></td>\n<td>Coup précis</td>\n<td>Ignore la DR s'il s'agit d'une attaque surprise</td>\n</tr>\n<tr>\n<td></td>\n<td>Rapide</td>\n<td>Permet d'ajouter sa Dextérité(Assassin) à ses dés de dégâts pour les armes courtes ou légères</td>\n</tr>\n<tr>\n<td><strong>Ranger</strong></td>\n<td>Ambidextre</td>\n<td>Permet d'utiliser une arme à 1 main dans chaque main</td>\n</tr>\n<tr>\n<td></td>\n<td>Point faible</td>\n<td>Attaquer génère une blessure pendant 1 tour qui ajoute 1 dé à la prochaine attaque à cet endroit</td>\n</tr>\n<tr>\n<td><strong>Voleur</strong></td>\n<td>Dissimulation</td>\n<td>Les petits objets (bourses, bijoux, clefs, couteau, crochet, ..) ne peuvent pas être trouvé lors de fouille</td>\n</tr>\n<tr>\n<td></td>\n<td>Discrétion</td>\n<td>Rater Larcin ne révèle pas la position</td>\n</tr>\n</tbody>\n</table></div>\n<h2 data-heading=\"Finales\" dir=\"auto\" id=\"finales\">Finales</h2>\n<blockquote dir=\"auto\">\n<p>S'il s'agit de son attribut le plus élevé, le joueur peut en choisir 1.<br>\nAu niveau 20, il peut en choisir un deuxième ou annuler 1 effet négatif de celui qu'il a déjà (si c'est toujours son attribut le plus élevé).</p>\n</blockquote>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th>Compétence</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Sixième sens</strong></td>\n<td>+ Evite les attaques surprises et d'opportunité<br>- Les armes à distance touchent toujours le joueur</td>\n</tr>\n<tr>\n<td><strong>Money</strong></td>\n<td>+ Tenir des pièces en main permet d'augmenter les dégâts (1po = 1 dégât) (max : combien de pièces le joueur peut tenir)<br>1 seule main peut tenir les pièces, et elle ne peut pas tenir d'arme en conséquence<br>- A chaque coup reçu, lancer 1d10 pour savoir combien de pièces sont perdues (impossible de les récupérer après le combat)</td>\n</tr>\n</tbody>\n</table></div>"}
   </div>
 </article>
-
-<LinkPreview />

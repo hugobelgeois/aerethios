@@ -7,4 +7,21 @@ export const load: PageLoad = () => ({
   pageDescription: "",
   fullBleed: false,
   fullHeight: false,
+  headings: [
+    {
+      "id": "bete",
+      "text": "[[Bête]]",
+      "level": 1
+    },
+    {
+      "id": "insectoide",
+      "text": "[[Insectoïde]]",
+      "level": 1
+    },
+    {
+      "id": "necrophages",
+      "text": "[[Nécrophages]]",
+      "level": 1
+    }
+  ],
 });

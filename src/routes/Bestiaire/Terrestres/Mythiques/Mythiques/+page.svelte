@@ -1,23 +1,5 @@
 <script lang="ts">
-  import { onDestroy } from "svelte";
-  import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
-  import LinkPreview from "$lib/LinkPreview.svelte";
-
-  tocHeadings.set([
-      {
-          "id": "ange",
-          "text": "[[Ange]]",
-          "level": 1
-      },
-      {
-          "id": "dmon",
-          "text": "[[Démon]]",
-          "level": 1
-      }
-  ]);
-
-  onDestroy(() => tocHeadings.set([]));
 </script>
 
 <svelte:head>
@@ -35,8 +17,6 @@
     <h1>{"Mythiques"}</h1>
   </header>
   <div class="markdown-rendered">
-    {@html "<p dir=\"auto\">Définit les entités dont les pouvoirs peuvent côtoyer celui des dieux.<br>\nissus des dieux ou de la Fracture</p>\n<h1 data-heading=\"[[Ange]]\" dir=\"auto\" id=\"ange\">Ange</h1>\n<h1 data-heading=\"[[Démon]]\" dir=\"auto\" id=\"dmon\">Démon</h1>"}
+    {@html "<p dir=\"auto\">Définit les entités dont les pouvoirs peuvent côtoyer celui des dieux.<br>\nissus des dieux ou de la Fracture</p>\n<h1 data-heading=\"[[Ange]]\" dir=\"auto\" id=\"ange\">Ange</h1>\n<h1 data-heading=\"[[Démon]]\" dir=\"auto\" id=\"demon\">Démon</h1>"}
   </div>
 </article>
-
-<LinkPreview />

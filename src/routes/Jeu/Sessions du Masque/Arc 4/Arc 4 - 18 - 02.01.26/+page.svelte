@@ -1,63 +1,5 @@
 <script lang="ts">
-  import { onDestroy } from "svelte";
-  import { tocHeadings } from "$lib/stores";
   import { applyBase } from "$lib/basePath";
-  import LinkPreview from "$lib/LinkPreview.svelte";
-
-  tocHeadings.set([
-      {
-          "id": "dtails",
-          "text": "Détails",
-          "level": 2
-      },
-      {
-          "id": "notes",
-          "text": "Notes",
-          "level": 2
-      },
-      {
-          "id": "scnario",
-          "text": "Scénario",
-          "level": 2
-      },
-      {
-          "id": "1-billy-et-les-dieux",
-          "text": "1) Billy et les Dieux",
-          "level": 4
-      },
-      {
-          "id": "2-combat-contre-un-dieu",
-          "text": "2) Combat contre un Dieu",
-          "level": 4
-      },
-      {
-          "id": "3-prsentation-des-templis",
-          "text": "3) Présentation des Templis",
-          "level": 4
-      },
-      {
-          "id": "4-trouver-le-gobelin",
-          "text": "4) Trouver le gobelin",
-          "level": 4
-      },
-      {
-          "id": "5-abattre-le-gobelin",
-          "text": "5) Abattre le gobelin",
-          "level": 4
-      },
-      {
-          "id": "6-retrouver-syrithia",
-          "text": "6) Retrouver Syrithia",
-          "level": 4
-      },
-      {
-          "id": "joueurs",
-          "text": "Joueurs",
-          "level": 2
-      }
-  ]);
-
-  onDestroy(() => tocHeadings.set([]));
 </script>
 
 <svelte:head>
@@ -75,8 +17,6 @@
     <h1>{"Arc 4 - 18 - 02.01.26"}</h1>
   </header>
   <div class="markdown-rendered">
-    {@html applyBase("<blockquote dir=\"auto\">\n<p>Résumé</p>\n</blockquote>\n<h2 data-heading=\"Détails\" dir=\"auto\" id=\"dtails\">Détails</h2>\n<p dir=\"auto\">Lieu actuel : Nirina, Pranels</p>\n<p dir=\"auto\">Objectif :</p>\n<p dir=\"auto\">Pnjs notables : Syrithia, Billy, Dieu Pourpre, Dieu Scintillant, Grande Mère</p>\n<h2 data-heading=\"Notes\" dir=\"auto\" id=\"notes\">Notes</h2>\n<h2 data-heading=\"Scénario\" dir=\"auto\" id=\"scnario\">Scénario</h2>\n<h4 data-heading=\"1) Billy et les Dieux\" dir=\"auto\" id=\"1-billy-et-les-dieux\">1) Billy et les Dieux</h4>\n<blockquote dir=\"auto\">\n<p><strong>Interaction</strong>, Qui &gt; Quoi</p>\n</blockquote>\n<p dir=\"auto\">Résumé de la situation actuelle avec le masque et les dieux.</p>\n<p dir=\"auto\">Dieux :</p>\n<ul>\n<li dir=\"auto\">Dieu Pourpre</li>\n<li dir=\"auto\">Dieu Scintillant</li>\n<li dir=\"auto\">Grande Mère</li>\n</ul>\n<h4 data-heading=\"2) Combat contre un Dieu\" dir=\"auto\" id=\"2-combat-contre-un-dieu\">2) Combat contre un Dieu</h4>\n<blockquote dir=\"auto\">\n<p><strong>Combat</strong>,</p>\n</blockquote>\n<p dir=\"auto\">Le Dieu Pourpre veut tester le groupe.</p>\n<p dir=\"auto\">Celui qui arrive à lui faire mal aura une bénédiction (bénédiction de la pièce / fratricide).</p>\n<p dir=\"auto\">Si un joueur demande pour tester les dieux, le Dieu Pourpre le prends en 1v1.<br>\nIl le laisse le taper le temps de charger son attaque.</p>\n<h4 data-heading=\"3) Présentation des Templis\" dir=\"auto\" id=\"3-prsentation-des-templis\">3) Présentation des Templis</h4>\n<blockquote dir=\"auto\">\n<p><strong>Interaction</strong>, Qui &gt; Quoi</p>\n</blockquote>\n<p dir=\"auto\">Syrithia leur demande de l'aider à réparer les dégâts causés par le masque</p>\n<p dir=\"auto\">Pour se faire ils doivent s'occuper d'un gobelin qui s'occupait de garder une maison de noble</p>\n<p dir=\"auto\">Le gobelin est un esprit qui ne peut pas pleinement se faire taper, mais il est fort et des Arvens en armure ne seraient pas de trop</p>\n<p dir=\"auto\">Pour l'abattre ils doivent utiliser un autre équipement fourni par Syrithia :</p>\n<ul>\n<li dir=\"auto\">chaine en argent pour le capturer,</li>\n<li dir=\"auto\">limaille de fer &amp; sel pour l'affaiblir,</li>\n<li dir=\"auto\">eau bénite pour le tuer,</li>\n<li dir=\"auto\">bois d'olivier pour l'étourdir,</li>\n<li dir=\"auto\">magies élétistes.</li>\n</ul>\n<p dir=\"auto\">La magie des ténèbres attirent la créature, la lumière la révèle afin que l'équipement la touche, et la foudre lui fait mal.</p>\n<p dir=\"auto\">Jets entièrement basés sur le mental et la perception</p>\n<p dir=\"auto\">Si possible ne pas le tuer et le capturer avec la chaine d'argent</p>\n<p dir=\"auto\">Une fois que ce sera fait, elle leur demande de la retrouver, elle aidera les gens blessés</p>\n<h4 data-heading=\"4) Trouver le gobelin\" dir=\"auto\" id=\"4-trouver-le-gobelin\">4) Trouver le gobelin</h4>\n<blockquote dir=\"auto\">\n<p><strong>Exploration</strong>, Dara/ Hazdaim &gt; Magie de Ténèbres</p>\n</blockquote>\n<p dir=\"auto\">Le bâtiment est rempli d'humidité, la brume empêche les torches de s'allumer correctement</p>\n<p dir=\"auto\">Les joueurs doivent se laisser plonger dans l'obscurité pour que la créature se manifeste</p>\n<h4 data-heading=\"5) Abattre le gobelin\" dir=\"auto\" id=\"5-abattre-le-gobelin\">5) Abattre le gobelin</h4>\n<blockquote dir=\"auto\">\n<p><strong>Combat</strong>, Arek/ Hazdaim &gt; Magie de Lumière</p>\n</blockquote>\n<h4 data-heading=\"6) Retrouver Syrithia\" dir=\"auto\" id=\"6-retrouver-syrithia\">6) Retrouver Syrithia</h4>\n<blockquote dir=\"auto\">\n<p><strong>Exploration</strong>, Qui &gt; Quoi</p>\n</blockquote>\n<p dir=\"auto\">Ils parcourent la ville et constatent les dégâts</p>\n<p dir=\"auto\">Ils retrouvent Syrithia en train de soigner en masse avec la lumière</p>\n<p dir=\"auto\">Elle leur propose de s'équiper avec les matériaux du Shara Ishvalda pour les remercier</p>\n<p dir=\"auto\">Ils doivent faire attention au Magala.<br>\nLe masque a empêché sa transformation finale, mais il en aurait pris le contrôle</p>\n<h2 data-heading=\"Joueurs\" dir=\"auto\" id=\"joueurs\">Joueurs</h2>\n<ul class=\"contains-task-list\">\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Diego 19</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Loïc 15</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Lucas 8</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Michel 21</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Nolan 7</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Thomas 19</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">William 7</li>\n</ul>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th align=\"center\">Précédent</th>\n<th align=\"center\">Suivant</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25\" data-wiki-fragment=\"\">Arc 3 - 17 - 20.12.25</a></td>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26\" data-wiki-fragment=\"\">Arc 4 - 19 - 23.01.26</a></td>\n</tr>\n</tbody>\n</table></div>")}
+    {@html applyBase("<blockquote dir=\"auto\">\n<p>Résumé</p>\n</blockquote>\n<h2 data-heading=\"Détails\" dir=\"auto\" id=\"details\">Détails</h2>\n<p dir=\"auto\">Lieu actuel : Nirina, Pranels</p>\n<p dir=\"auto\">Objectif :</p>\n<p dir=\"auto\">Pnjs notables : Syrithia, Billy, Dieu Pourpre, Dieu Scintillant, Grande Mère</p>\n<h2 data-heading=\"Notes\" dir=\"auto\" id=\"notes\">Notes</h2>\n<h2 data-heading=\"Scénario\" dir=\"auto\" id=\"scenario\">Scénario</h2>\n<h4 data-heading=\"1) Billy et les Dieux\" dir=\"auto\" id=\"1-billy-et-les-dieux\">1) Billy et les Dieux</h4>\n<blockquote dir=\"auto\">\n<p><strong>Interaction</strong>, Qui &gt; Quoi</p>\n</blockquote>\n<p dir=\"auto\">Résumé de la situation actuelle avec le masque et les dieux.</p>\n<p dir=\"auto\">Dieux :</p>\n<ul>\n<li dir=\"auto\">Dieu Pourpre</li>\n<li dir=\"auto\">Dieu Scintillant</li>\n<li dir=\"auto\">Grande Mère</li>\n</ul>\n<h4 data-heading=\"2) Combat contre un Dieu\" dir=\"auto\" id=\"2-combat-contre-un-dieu\">2) Combat contre un Dieu</h4>\n<blockquote dir=\"auto\">\n<p><strong>Combat</strong>,</p>\n</blockquote>\n<p dir=\"auto\">Le Dieu Pourpre veut tester le groupe.</p>\n<p dir=\"auto\">Celui qui arrive à lui faire mal aura une bénédiction (bénédiction de la pièce / fratricide).</p>\n<p dir=\"auto\">Si un joueur demande pour tester les dieux, le Dieu Pourpre le prends en 1v1.<br>\nIl le laisse le taper le temps de charger son attaque.</p>\n<h4 data-heading=\"3) Présentation des Templis\" dir=\"auto\" id=\"3-presentation-des-templis\">3) Présentation des Templis</h4>\n<blockquote dir=\"auto\">\n<p><strong>Interaction</strong>, Qui &gt; Quoi</p>\n</blockquote>\n<p dir=\"auto\">Syrithia leur demande de l'aider à réparer les dégâts causés par le masque</p>\n<p dir=\"auto\">Pour se faire ils doivent s'occuper d'un gobelin qui s'occupait de garder une maison de noble</p>\n<p dir=\"auto\">Le gobelin est un esprit qui ne peut pas pleinement se faire taper, mais il est fort et des Arvens en armure ne seraient pas de trop</p>\n<p dir=\"auto\">Pour l'abattre ils doivent utiliser un autre équipement fourni par Syrithia :</p>\n<ul>\n<li dir=\"auto\">chaine en argent pour le capturer,</li>\n<li dir=\"auto\">limaille de fer &amp; sel pour l'affaiblir,</li>\n<li dir=\"auto\">eau bénite pour le tuer,</li>\n<li dir=\"auto\">bois d'olivier pour l'étourdir,</li>\n<li dir=\"auto\">magies élétistes.</li>\n</ul>\n<p dir=\"auto\">La magie des ténèbres attirent la créature, la lumière la révèle afin que l'équipement la touche, et la foudre lui fait mal.</p>\n<p dir=\"auto\">Jets entièrement basés sur le mental et la perception</p>\n<p dir=\"auto\">Si possible ne pas le tuer et le capturer avec la chaine d'argent</p>\n<p dir=\"auto\">Une fois que ce sera fait, elle leur demande de la retrouver, elle aidera les gens blessés</p>\n<h4 data-heading=\"4) Trouver le gobelin\" dir=\"auto\" id=\"4-trouver-le-gobelin\">4) Trouver le gobelin</h4>\n<blockquote dir=\"auto\">\n<p><strong>Exploration</strong>, Dara/ Hazdaim &gt; Magie de Ténèbres</p>\n</blockquote>\n<p dir=\"auto\">Le bâtiment est rempli d'humidité, la brume empêche les torches de s'allumer correctement</p>\n<p dir=\"auto\">Les joueurs doivent se laisser plonger dans l'obscurité pour que la créature se manifeste</p>\n<h4 data-heading=\"5) Abattre le gobelin\" dir=\"auto\" id=\"5-abattre-le-gobelin\">5) Abattre le gobelin</h4>\n<blockquote dir=\"auto\">\n<p><strong>Combat</strong>, Arek/ Hazdaim &gt; Magie de Lumière</p>\n</blockquote>\n<h4 data-heading=\"6) Retrouver Syrithia\" dir=\"auto\" id=\"6-retrouver-syrithia\">6) Retrouver Syrithia</h4>\n<blockquote dir=\"auto\">\n<p><strong>Exploration</strong>, Qui &gt; Quoi</p>\n</blockquote>\n<p dir=\"auto\">Ils parcourent la ville et constatent les dégâts</p>\n<p dir=\"auto\">Ils retrouvent Syrithia en train de soigner en masse avec la lumière</p>\n<p dir=\"auto\">Elle leur propose de s'équiper avec les matériaux du Shara Ishvalda pour les remercier</p>\n<p dir=\"auto\">Ils doivent faire attention au Magala.<br>\nLe masque a empêché sa transformation finale, mais il en aurait pris le contrôle</p>\n<h2 data-heading=\"Joueurs\" dir=\"auto\" id=\"joueurs\">Joueurs</h2>\n<ul class=\"contains-task-list\">\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Diego 19</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Loïc 15</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Lucas 8</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Michel 21</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Nolan 7</li>\n<li data-task=\"x\" class=\"task-list-item is-checked\" dir=\"auto\"><input checked=\"\" type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">Thomas 19</li>\n<li data-task=\"\" class=\"task-list-item\" dir=\"auto\"><input type=\"checkbox\" class=\"task-list-item-checkbox\" disabled=\"\">William 7</li>\n</ul>\n<div class=\"table-scroll\"><table>\n<thead>\n<tr>\n<th align=\"center\">Précédent</th>\n<th align=\"center\">Suivant</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25\" data-wiki-fragment=\"\">Arc 3 - 17 - 20.12.25</a></td>\n<td align=\"center\"><a href=\"%%BASE%%/Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26\" class=\"internal-link\" data-wiki-href=\"/Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26\" data-wiki-fragment=\"\">Arc 4 - 19 - 23.01.26</a></td>\n</tr>\n</tbody>\n</table></div>")}
   </div>
 </article>
-
-<LinkPreview />
