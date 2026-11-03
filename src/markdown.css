@@ -163,6 +163,11 @@
   margin: 0.5em auto;
 }
 
+/* Clicked note images open full size (ImageLightbox.svelte) — except
+   inside a link, which keeps its own behaviour. */
+.markdown-rendered img { cursor: zoom-in; }
+.markdown-rendered a img { cursor: pointer; }
+
 /* ── Mobile ───────────────────────────────────────────────── */
 
 @media (max-width: 768px) {

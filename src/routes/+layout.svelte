@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Body from "$lib/Body.svelte";
 	import LeftSidebar from "$lib/LeftSidebar.svelte";
+	import ImageLightbox from "$lib/ImageLightbox.svelte";
 	import LinkPreview from "$lib/LinkPreview.svelte";
 	import Icon from "$lib/Icon.svelte";
 	import RightSidebar from "$lib/RightSidebar.svelte";
@@ -204,4 +205,7 @@
 	<!-- Hover previews of every page's internal links — mounted once here,
 	     so the pages fetched for them stay cached across navigations. -->
 	<LinkPreview />
+
+	<!-- Full-size view of a clicked note image. -->
+	<ImageLightbox />
 </div>

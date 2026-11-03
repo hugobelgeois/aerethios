@@ -5,6 +5,7 @@
   "lib/FileTree.svelte",
   "lib/Graph.svelte",
   "lib/Icon.svelte",
+  "lib/ImageLightbox.svelte",
   "lib/LeftSidebar.svelte",
   "lib/LinkPreview.svelte",
   "lib/RightSidebar.svelte",
