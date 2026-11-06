@@ -346,7 +346,6 @@
     "/Jeu/Regles/Combat/Armes",
     "/Jeu/Regles/Statuts/Proprietes",
     "/Jeu/Regles/Combat/Armures",
-    "/Jeu/Regles/Apprentissages/Apprentissages",
     "/Jeu/Sessions du Masque/Joueurs/Dara",
     "/Jeu/Sessions du Masque/Joueurs/Haelrak",
     "/Jeu/Sessions du Masque/Joueurs/Old/Halfdan",
@@ -355,7 +354,6 @@
     "/Jeu/Sessions du Masque/Joueurs/Old/Zveindel"
   ],
   "/Jeu/Sessions du Masque/Joueurs/Dara": [
-    "/Jeu/Regles 2.0 WIP/Competences/Maisons",
     "/Jeu/Regles/Competences/Attributs/Force",
     "/Jeu/Regles/Competences/Attributs/Dexterite",
     "/Jeu/Regles/Competences/Attributs/Mental",
@@ -365,7 +363,6 @@
     "/Jeu/Regles/Statuts/Proprietes",
     "/Jeu/Regles/Combat/Armures",
     "/Jeu/Regles/Statuts/Conditions",
-    "/Jeu/Regles/Apprentissages/Apprentissages",
     "/Jeu/Sessions du Masque/Joueurs/Arek",
     "/Jeu/Sessions du Masque/Joueurs/Haelrak",
     "/Jeu/Sessions du Masque/Joueurs/Old/Halfdan",
@@ -374,7 +371,6 @@
     "/Jeu/Sessions du Masque/Joueurs/Old/Zveindel"
   ],
   "/Jeu/Sessions du Masque/Joueurs/Haelrak": [
-    "/Notes/Scienctes",
     "/Jeu/Regles/Competences/Attributs/Force",
     "/Jeu/Regles/Competences/Attributs/Dexterite",
     "/Jeu/Regles/Competences/Attributs/Mental",
@@ -384,7 +380,6 @@
     "/Jeu/Regles/Statuts/Proprietes",
     "/Jeu/Regles/Combat/Armures",
     "/Jeu/Regles/Statuts/Conditions",
-    "/Jeu/Regles/Apprentissages/Apprentissages",
     "/Jeu/Sessions du Masque/Joueurs/Arek",
     "/Jeu/Sessions du Masque/Joueurs/Dara",
     "/Jeu/Sessions du Masque/Joueurs/Old/Halfdan",
@@ -402,7 +397,6 @@
     "/Jeu/Regles/Statuts/Proprietes",
     "/Jeu/Regles/Combat/Armures",
     "/Jeu/Regles/Statuts/Conditions",
-    "/Jeu/Regles/Apprentissages/Apprentissages",
     "/Jeu/Sessions du Masque/Joueurs/Arek",
     "/Jeu/Sessions du Masque/Joueurs/Dara",
     "/Jeu/Sessions du Masque/Joueurs/Haelrak",
@@ -411,7 +405,6 @@
     "/Jeu/Sessions du Masque/Joueurs/Old/Zveindel"
   ],
   "/Jeu/Sessions du Masque/Joueurs/Leoric": [
-    "/Notes/Scienctes",
     "/Jeu/Regles/Competences/Attributs/Force",
     "/Jeu/Regles/Competences/Attributs/Dexterite",
     "/Jeu/Regles/Competences/Attributs/Mental",
@@ -420,7 +413,6 @@
     "/Jeu/Regles/Combat/Armes",
     "/Jeu/Regles/Statuts/Proprietes",
     "/Jeu/Regles/Combat/Armures",
-    "/Jeu/Regles/Apprentissages/Apprentissages",
     "/Jeu/Sessions du Masque/Joueurs/Arek",
     "/Jeu/Sessions du Masque/Joueurs/Dara",
     "/Jeu/Sessions du Masque/Joueurs/Haelrak",

@@ -9,21 +9,6 @@ export const load: PageLoad = () => ({
   fullHeight: false,
   headings: [
     {
-      "id": "attributs",
-      "text": "Attributs",
-      "level": 2
-    },
-    {
-      "id": "combat",
-      "text": "Combat",
-      "level": 3
-    },
-    {
-      "id": "magie",
-      "text": "Magie",
-      "level": 3
-    },
-    {
       "id": "competences",
       "text": "Compétences",
       "level": 2
@@ -42,11 +27,6 @@ export const load: PageLoad = () => ({
       "id": "armures",
       "text": "[[Armures]]",
       "level": 3
-    },
-    {
-      "id": "apprentissages",
-      "text": "[[Apprentissages]]",
-      "level": 2
     },
     {
       "id": "inventaire",

@@ -208,6 +208,8 @@ settings:
 
 .inline.svelte-1lnliuc { display: inline; }
 
+.subheading.svelte-1fyuyh { font-weight: var(--active-subheading-font-weight); font-style: var(--active-subheading-font-style); font-size: var(--active-subheading-font-size); font-family: var(--active-subheading-font-family); color: var(--active-subheading-font-color); margin: 0px; }
+
 .image.svelte-q1pj66 { width: var(--active-image-width); height: var(--active-image-height); }
 .image.pointer.svelte-q1pj66 { cursor: pointer; }
 img.svelte-q1pj66 { object-fit: cover; width: 100%; height: 100%; border-radius: 100%; border: var(--active-image-border-size) solid
@@ -240,23 +242,10 @@ details.svelte-1674zvq > summary.svelte-1674zvq > .collapser.svelte-1674zvq.svel
 details.svelte-1674zvq > summary.svelte-1674zvq > .collapser.svelte-1674zvq > .handle.svelte-1674zvq { transform: rotate(0deg); transition: transform 0.25s; background-color: currentcolor; mask-repeat: no-repeat; mask-size: contain; mask-image: url("data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z'/></svg>"); width: 20px; height: 20px; }
 details[open].svelte-1674zvq > summary.svelte-1674zvq > .collapser.svelte-1674zvq > .handle.svelte-1674zvq { transform: rotate(90deg); }
 
-.section-header.svelte-1ascaxr { border-bottom: var(--active-section-heading-border-size) solid
-            var(--active-section-heading-border-color); color: var(--active-section-heading-font-color); font-size: var(--active-section-heading-font-size); font-variant: var(--active-section-heading-font-variant); font-weight: var(--active-section-heading-font-weight); font-family: var(--active-section-heading-font); letter-spacing: 1px; margin: 0px 0px 0.3em; break-inside: avoid-column; break-after: avoid-column; }
-
 .trait.svelte-1d2gp4n { font-family: var(--active-traits-font); color: var(--active-traits-font-color); font-size: var(--active-traits-font-size); font-weight: var(--active-traits-font-weight); font-style: var(--active-traits-font-style); }
 .trait-name.svelte-1d2gp4n { font-family: var(--active-traits-name-font); color: var(--active-traits-name-font-color); font-size: var(--active-traits-name-font-size); font-weight: var(--active-traits-name-font-weight); font-style: var(--active-traits-name-font-style); }
 .property-name.svelte-1d2gp4n { margin: 0px 0.25em 0px 0px; display: inline; }
 .statblock-nested-traits.svelte-1d2gp4n { margin-left: 1rem; }
 
-.subheading.svelte-1fyuyh { font-weight: var(--active-subheading-font-weight); font-style: var(--active-subheading-font-style); font-size: var(--active-subheading-font-size); font-family: var(--active-subheading-font-family); color: var(--active-subheading-font-color); margin: 0px; }
-
-.line.svelte-1vwmbsx.svelte-1vwmbsx { line-height: var(--active-saves-line-height); display: block; color: var(--active-font-color); }
-.property-name.svelte-1vwmbsx.svelte-1vwmbsx { color: var(--active-property-name-font-color); margin: 0px 0.25em 0px 0px; display: inline; font-weight: bold; }
-.property-text.svelte-1vwmbsx.svelte-1vwmbsx { display: inline; margin: 0px; }
-.save-entry.svelte-1vwmbsx.svelte-1vwmbsx, .save-name.svelte-1vwmbsx.svelte-1vwmbsx, .save-value.svelte-1vwmbsx.svelte-1vwmbsx { display: inline; }
-.save-entry.svelte-1vwmbsx:not(:last-child) .save-value.svelte-1vwmbsx::after { content: ", "; }
-
-ul.spell-item.svelte-1suaf4g { margin: 0px; }
-ul.spell-item.first.svelte-1suaf4g { margin-top: revert; }
-ul.spell-item.last.svelte-1suaf4g { margin-bottom: revert; }
-.spells.svelte-1suaf4g { font-style: italic; }
+.section-header.svelte-1ascaxr { border-bottom: var(--active-section-heading-border-size) solid
+            var(--active-section-heading-border-color); color: var(--active-section-heading-font-color); font-size: var(--active-section-heading-font-size); font-variant: var(--active-section-heading-font-variant); font-weight: var(--active-section-heading-font-weight); font-family: var(--active-section-heading-font); letter-spacing: 1px; margin: 0px 0px 0.3em; break-inside: avoid-column; break-after: avoid-column; }
