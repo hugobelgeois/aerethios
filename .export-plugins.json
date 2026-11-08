@@ -1,6 +1,6 @@
 {
   "signatures": {
-    "obsidian-5e-statblocks": "1793631299662.504:1793974821239:1793631299669.1711"
+    "obsidian-5e-statblocks": "1793631299662.504:1794127073537:1793631299669.1711"
   },
   "pages": {
     "Bestiaire/Bestiaire.md": {
@@ -1625,7 +1625,9 @@
       "depsKey": "L 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Léoric.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Perseus \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux "
     },
     "Jeu/Sessions du Masque/Joueurs/Dara.md": {
-      "plugins": [],
+      "plugins": [
+        "obsidian-5e-statblocks"
+      ],
       "assets": [
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Dara_1793397272679_rszd5i.webp"
       ],
@@ -1664,7 +1666,9 @@
       "depsKey": "L 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Conditions.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Arek.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Léoric.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Perseus \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux "
     },
     "Jeu/Sessions du Masque/Joueurs/Haelrak.md": {
-      "plugins": [],
+      "plugins": [
+        "obsidian-5e-statblocks"
+      ],
       "assets": [
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Haelrak_1793397670328_te3ew9.webp"
       ],
@@ -1703,7 +1707,9 @@
       "depsKey": "L 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Conditions.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Arek.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Léoric.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Perseus \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux "
     },
     "Jeu/Sessions du Masque/Joueurs/Hazdaim.md": {
-      "plugins": [],
+      "plugins": [
+        "obsidian-5e-statblocks"
+      ],
       "assets": [
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Hazdaim_1793397272680_vij4et.webp"
       ],
@@ -1742,7 +1748,9 @@
       "depsKey": "L 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Conditions.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Arek.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Léoric.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Perseus \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux "
     },
     "Jeu/Sessions du Masque/Joueurs/Léoric.md": {
-      "plugins": [],
+      "plugins": [
+        "obsidian-5e-statblocks"
+      ],
       "assets": [],
       "css": [
         "obsidian-5e-statblocks"
@@ -2067,6 +2075,21 @@
       "assets": [
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Arek_1793397272678_hh42cw.webp"
       ],
+      "css": [
+        "obsidian-5e-statblocks"
+      ],
+      "deps": {
+        "links": [],
+        "embeds": [],
+        "unresolved": []
+      },
+      "depsKey": ""
+    },
+    "Jeu/Sessions du Masque/Scenes/Excaliburne.md": {
+      "plugins": [
+        "obsidian-5e-statblocks"
+      ],
+      "assets": [],
       "css": [
         "obsidian-5e-statblocks"
       ],
