@@ -2,7 +2,22 @@
 	import type { Snippet } from "svelte";
 	import { afterNavigate } from "$app/navigation";
 	import { page } from "$app/state";
-	const { children }: { children: Snippet } = $props();
+	const {
+		children,
+		onContentClick,
+	}: {
+		children: Snippet;
+		/** Capture-phase click anywhere in the note column; returns true if
+		 * it consumed the click (it then never reaches links/buttons inside). */
+		onContentClick?: () => boolean;
+	} = $props();
+
+	function handleClickCapture(e: MouseEvent) {
+		if (onContentClick?.()) {
+			e.preventDefault();
+			e.stopPropagation();
+		}
+	}
 
 	let contentEl: HTMLElement;
 
@@ -15,7 +30,8 @@
 	});
 </script>
 
-<div class="workspace-split mod-vertical mod-root">
+<!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_static_element_interactions -->
+<div class="workspace-split mod-vertical mod-root" onclickcapture={handleClickCapture}>
 	<div
 		class="workspace-tabs mod-top workspace-tab-container workspace-leaf workspace-leaf-content view-content markdown-preview-view"
 		data-type="markdown"
