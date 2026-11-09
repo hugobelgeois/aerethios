@@ -1,6 +1,6 @@
 {
   "signatures": {
-    "obsidian-5e-statblocks": "1793631299662.504:1794127073537:1793631299669.1711"
+    "obsidian-5e-statblocks": "1793631299662.504:1794218180229:1793631299669.1711"
   },
   "pages": {
     "Bestiaire/Bestiaire.md": {
@@ -1541,9 +1541,7 @@
       ],
       "css": [],
       "deps": {
-        "links": [
-          "Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26.md"
-        ],
+        "links": [],
         "embeds": [
           "Jeu/Sessions du Masque/Scenes/01. Orphelinat d'Hazdaim.md",
           "Jeu/Sessions du Masque/Scenes/Images/1-Orphelinat-d'Hazdaim.jpg",
@@ -1557,13 +1555,13 @@
           "Jeu/Sessions du Masque/Scenes/Images/3-Dragon.png",
           "Jeu/Sessions du Masque/Scenes/Images/3-Atilal.png",
           "Jeu/Sessions du Masque/Scenes/04. Ville du Dragon.md",
-          "Jeu/Sessions du Masque/Scenes/Images/4-Ville-du-Dragon.jpg"
+          "Jeu/Sessions du Masque/Scenes/Images/4-Ville-du-Dragon.jpg",
+          "Jeu/Sessions du Masque/Scenes/05. Troupes d'Havel.md",
+          "Jeu/Sessions du Masque/Scenes/06. Antre de Bayle.md"
         ],
-        "unresolved": [
-          "Arc 4 - 24 - 05.06.26"
-        ]
+        "unresolved": []
       },
-      "depsKey": "E Jeu/Sessions du Masque/Scenes/01. Orphelinat d'Hazdaim.md 1793633104890 e\nE Jeu/Sessions du Masque/Scenes/02. Campement de Nix et Salomé.md 1793633116381 e\nE Jeu/Sessions du Masque/Scenes/03. Village du chef.md 1793633157253 e\nE Jeu/Sessions du Masque/Scenes/04. Ville du Dragon.md 1793540478101 e\nE Jeu/Sessions du Masque/Scenes/Images/1-Orphelinat-d'Hazdaim.jpg 1784704767739 -\nE Jeu/Sessions du Masque/Scenes/Images/2-Campement-de-Nix-et-Salome.jpg 1784704737742 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Atilal.png 1786090517783 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Box.png 1786003527098 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Dragon.png 1786002969113 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Mask.png 1786003173681 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Mecha.png 1786001555267 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Village-du-chef.jpg 1784704783726 -\nE Jeu/Sessions du Masque/Scenes/Images/4-Ville-du-Dragon.jpg 1790929746331 -\nL Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26.md 1 e\nU Arc 4 - 24 - 05.06.26 "
+      "depsKey": "E Jeu/Sessions du Masque/Scenes/01. Orphelinat d'Hazdaim.md 1793633104890 e\nE Jeu/Sessions du Masque/Scenes/02. Campement de Nix et Salomé.md 1793633116381 e\nE Jeu/Sessions du Masque/Scenes/03. Village du chef.md 1793633157253 e\nE Jeu/Sessions du Masque/Scenes/04. Ville du Dragon.md 1794215630653 e\nE Jeu/Sessions du Masque/Scenes/05. Troupes d'Havel.md 1794215951986 e\nE Jeu/Sessions du Masque/Scenes/06. Antre de Bayle.md 1794215910091 e\nE Jeu/Sessions du Masque/Scenes/Images/1-Orphelinat-d'Hazdaim.jpg 1784704767739 -\nE Jeu/Sessions du Masque/Scenes/Images/2-Campement-de-Nix-et-Salome.jpg 1784704737742 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Atilal.png 1786090517783 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Box.png 1786003527098 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Dragon.png 1786002969113 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Mask.png 1786003173681 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Mecha.png 1786001555267 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Village-du-chef.jpg 1784704783726 -\nE Jeu/Sessions du Masque/Scenes/Images/4-Ville-du-Dragon.jpg 1790929746331 -"
     },
     "Jeu/Sessions du Masque/Arc 4/Arc 4.md": {
       "plugins": [],
@@ -2075,21 +2073,6 @@
       "assets": [
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Arek_1793397272678_hh42cw.webp"
       ],
-      "css": [
-        "obsidian-5e-statblocks"
-      ],
-      "deps": {
-        "links": [],
-        "embeds": [],
-        "unresolved": []
-      },
-      "depsKey": ""
-    },
-    "Jeu/Sessions du Masque/Scenes/Excaliburne.md": {
-      "plugins": [
-        "obsidian-5e-statblocks"
-      ],
-      "assets": [],
       "css": [
         "obsidian-5e-statblocks"
       ],

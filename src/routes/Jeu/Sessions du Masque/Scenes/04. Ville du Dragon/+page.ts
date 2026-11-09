@@ -37,11 +37,6 @@ export const load: PageLoad = () => ({
       "id": "actions-des-joueurs",
       "text": "Actions des joueurs",
       "level": 2
-    },
-    {
-      "id": "01-11-2026",
-      "text": "**01-11-2026**",
-      "level": 2
     }
   ],
 });

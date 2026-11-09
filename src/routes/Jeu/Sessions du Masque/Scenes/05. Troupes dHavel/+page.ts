@@ -59,11 +59,6 @@ export const load: PageLoad = () => ({
       "level": 3
     },
     {
-      "id": "nid",
-      "text": "Nid",
-      "level": 4
-    },
-    {
       "id": "next",
       "text": "Next",
       "level": 3

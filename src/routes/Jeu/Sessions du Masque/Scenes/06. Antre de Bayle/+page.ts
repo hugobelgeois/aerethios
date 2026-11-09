@@ -29,11 +29,6 @@ export const load: PageLoad = () => ({
       "level": 3
     },
     {
-      "id": "intrigues",
-      "text": "Intrigues",
-      "level": 2
-    },
-    {
       "id": "actions-des-joueurs",
       "text": "Actions des joueurs",
       "level": 2

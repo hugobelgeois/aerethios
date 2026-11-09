@@ -330,7 +330,8 @@
     "/Jeu/Sessions du Masque/Scenes/02. Campement de Nix et Salome",
     "/Jeu/Sessions du Masque/Scenes/03. Village du chef",
     "/Jeu/Sessions du Masque/Scenes/04. Ville du Dragon",
-    "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26"
+    "/Jeu/Sessions du Masque/Scenes/05. Troupes dHavel",
+    "/Jeu/Sessions du Masque/Scenes/06. Antre de Bayle"
   ],
   "/Jeu/Sessions du Masque/Arc 4/Arc 4": [
     "/Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26",
@@ -487,6 +488,5 @@
   "/Jeu/Sessions du Masque/Scenes/05. Troupes dHavel": [],
   "/Jeu/Sessions du Masque/Scenes/06. Antre de Bayle": [],
   "/Jeu/Sessions du Masque/Scenes/07. Retour chez Zaledra": [],
-  "/Notes/statblock": [],
-  "/Jeu/Sessions du Masque/Scenes/Excaliburne": []
+  "/Notes/statblock": []
 }

@@ -9,11 +9,6 @@ export const load: PageLoad = () => ({
   fullHeight: false,
   headings: [
     {
-      "id": "details",
-      "text": "Détails",
-      "level": 2
-    },
-    {
       "id": "notes",
       "text": "Notes",
       "level": 2
@@ -44,9 +39,14 @@ export const load: PageLoad = () => ({
       "level": 3
     },
     {
-      "id": "joueurs",
-      "text": "Joueurs",
-      "level": 2
+      "id": "05-troupes-dhavel",
+      "text": "05. Troupes d'Havel",
+      "level": 3
+    },
+    {
+      "id": "06-antre-de-bayle",
+      "text": "06. Antre de Bayle",
+      "level": 3
     }
   ],
 });
