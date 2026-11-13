@@ -29,13 +29,13 @@ export const load: PageLoad = () => ({
       "level": 3
     },
     {
-      "id": "inventaire",
-      "text": "Inventaire",
+      "id": "invocations",
+      "text": "Invocations",
       "level": 2
     },
     {
-      "id": "invocations",
-      "text": "Invocations",
+      "id": "inventaire",
+      "text": "Inventaire",
       "level": 2
     },
     {
