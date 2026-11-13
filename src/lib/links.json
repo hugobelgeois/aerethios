@@ -406,6 +406,9 @@
     "/Jeu/Sessions du Masque/Joueurs/Old/Zveindel"
   ],
   "/Jeu/Sessions du Masque/Joueurs/Leoric": [
+    "/Jeu/Sessions du Masque/Npcs/Elementaire I",
+    "/Jeu/Sessions du Masque/Npcs/Elementaire II",
+    "/Jeu/Sessions du Masque/Npcs/Elementaire III",
     "/Jeu/Regles/Competences/Attributs/Force",
     "/Jeu/Regles/Competences/Attributs/Dexterite",
     "/Jeu/Regles/Competences/Attributs/Mental",
@@ -488,5 +491,10 @@
   "/Jeu/Sessions du Masque/Scenes/05. Troupes dHavel": [],
   "/Jeu/Sessions du Masque/Scenes/06. Antre de Bayle": [],
   "/Jeu/Sessions du Masque/Scenes/07. Retour chez Zaledra": [],
-  "/Notes/statblock": []
+  "/Jeu/Sessions du Masque/Npcs/Bayle": [],
+  "/Jeu/Sessions du Masque/Npcs/Elementaire I": [],
+  "/Jeu/Sessions du Masque/Npcs/Elementaire II": [],
+  "/Jeu/Sessions du Masque/Npcs/Elementaire III": [],
+  "/Jeu/Sessions du Masque/Npcs/Shroom": [],
+  "/Jeu/Sessions du Masque/Npcs/Havel": []
 }

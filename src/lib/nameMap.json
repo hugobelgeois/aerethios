@@ -156,6 +156,13 @@
   "/Jeu/Sessions du Masque/Joueurs/Old": "Old",
   "/Jeu/Sessions du Masque/Joueurs/Old/Halfdan": "Halfdan",
   "/Jeu/Sessions du Masque/Joueurs/Old/Zveindel": "Zveindel",
+  "/Jeu/Sessions du Masque/Npcs/Bayle": "Bayle",
+  "/Jeu/Sessions du Masque/Npcs": "Npcs",
+  "/Jeu/Sessions du Masque/Npcs/Elementaire I": "Elementaire I",
+  "/Jeu/Sessions du Masque/Npcs/Elementaire II": "Elementaire II",
+  "/Jeu/Sessions du Masque/Npcs/Elementaire III": "Elementaire III",
+  "/Jeu/Sessions du Masque/Npcs/Havel": "Havel",
+  "/Jeu/Sessions du Masque/Npcs/Shroom": "Shroom",
   "/Jeu/Sessions du Masque/Scenes/01. Orphelinat dHazdaim": "01. Orphelinat d'Hazdaim",
   "/Jeu/Sessions du Masque/Scenes": "Scenes",
   "/Jeu/Sessions du Masque/Scenes/02. Campement de Nix et Salome": "02. Campement de Nix et Salomé",
@@ -169,6 +176,5 @@
   "/Notes/Economie": "Economie",
   "/Notes/Scienctes": "Scienctes",
   "/Notes/Stats joueurs": "Stats joueurs",
-  "/Notes/Templis": "Templis",
-  "/Notes/statblock": "statblock"
+  "/Notes/Templis": "Templis"
 }

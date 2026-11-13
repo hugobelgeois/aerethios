@@ -1,6 +1,6 @@
 {
   "signatures": {
-    "obsidian-5e-statblocks": "1793631299662.504:1794227696783:1793631299669.1711"
+    "obsidian-5e-statblocks": "1793631299662.504:1794567564729:1793631299669.1711"
   },
   "pages": {
     "Bestiaire/Bestiaire.md": {
@@ -1561,7 +1561,7 @@
         ],
         "unresolved": []
       },
-      "depsKey": "E Jeu/Sessions du Masque/Scenes/01. Orphelinat d'Hazdaim.md 1793633104890 e\nE Jeu/Sessions du Masque/Scenes/02. Campement de Nix et Salomé.md 1793633116381 e\nE Jeu/Sessions du Masque/Scenes/03. Village du chef.md 1793633157253 e\nE Jeu/Sessions du Masque/Scenes/04. Ville du Dragon.md 1794215630653 e\nE Jeu/Sessions du Masque/Scenes/05. Troupes d'Havel.md 1794215951986 e\nE Jeu/Sessions du Masque/Scenes/06. Antre de Bayle.md 1794215910091 e\nE Jeu/Sessions du Masque/Scenes/Images/1-Orphelinat-d'Hazdaim.jpg 1784704767739 -\nE Jeu/Sessions du Masque/Scenes/Images/2-Campement-de-Nix-et-Salome.jpg 1784704737742 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Atilal.png 1786090517783 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Box.png 1786003527098 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Dragon.png 1786002969113 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Mask.png 1786003173681 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Mecha.png 1786001555267 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Village-du-chef.jpg 1784704783726 -\nE Jeu/Sessions du Masque/Scenes/Images/4-Ville-du-Dragon.jpg 1790929746331 -"
+      "depsKey": "E Jeu/Sessions du Masque/Scenes/01. Orphelinat d'Hazdaim.md 1793633104890 e\nE Jeu/Sessions du Masque/Scenes/02. Campement de Nix et Salomé.md 1793633116381 e\nE Jeu/Sessions du Masque/Scenes/03. Village du chef.md 1793633157253 e\nE Jeu/Sessions du Masque/Scenes/04. Ville du Dragon.md 1794215630653 e\nE Jeu/Sessions du Masque/Scenes/05. Troupes d'Havel.md 1794497288121 e\nE Jeu/Sessions du Masque/Scenes/06. Antre de Bayle.md 1794497171284 e\nE Jeu/Sessions du Masque/Scenes/Images/1-Orphelinat-d'Hazdaim.jpg 1784704767739 -\nE Jeu/Sessions du Masque/Scenes/Images/2-Campement-de-Nix-et-Salome.jpg 1784704737742 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Atilal.png 1786090517783 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Box.png 1786003527098 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Dragon.png 1786002969113 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Mask.png 1786003173681 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Mecha.png 1786001555267 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Village-du-chef.jpg 1784704783726 -\nE Jeu/Sessions du Masque/Scenes/Images/4-Ville-du-Dragon.jpg 1790929746331 -"
     },
     "Jeu/Sessions du Masque/Arc 4/Arc 4.md": {
       "plugins": [],
@@ -1749,7 +1749,9 @@
       "plugins": [
         "obsidian-5e-statblocks"
       ],
-      "assets": [],
+      "assets": [
+        "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Warlock_1792623308436_je2oxz.webp"
+      ],
       "css": [
         "obsidian-5e-statblocks"
       ],
@@ -1771,7 +1773,11 @@
           "Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md",
           "0_Private/Billy.md"
         ],
-        "embeds": [],
+        "embeds": [
+          "Jeu/Sessions du Masque/Npcs/Elementaire I.md",
+          "Jeu/Sessions du Masque/Npcs/Elementaire II.md",
+          "Jeu/Sessions du Masque/Npcs/Elementaire III.md"
+        ],
         "unresolved": [
           "aerethios/docs/Bestiaire/Planaires/Dieux/Dieux",
           "Perseus",
@@ -1781,7 +1787,7 @@
           "Zaledra"
         ]
       },
-      "depsKey": "L 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Arek.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Perseus \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux "
+      "depsKey": "E Jeu/Sessions du Masque/Npcs/Elementaire I.md 1794569099872 e\nE Jeu/Sessions du Masque/Npcs/Elementaire II.md 1794569120469 e\nE Jeu/Sessions du Masque/Npcs/Elementaire III.md 1794569159749 e\nL 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Arek.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Perseus \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux "
     },
     "Jeu/Sessions du Masque/Joueurs/Old/Cira.md": {
       "plugins": [],
@@ -1967,6 +1973,7 @@
     "Jeu/Sessions du Masque/Scenes/05. Troupes d'Havel.md": {
       "plugins": [],
       "assets": [
+        "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\collections\\Default\\scenes\\05 - Troupes d'Havel.thumb.jpg",
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Jeu\\Sessions du Masque\\Scenes\\Images\\5-Havel.jpg",
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Jeu\\Sessions du Masque\\Scenes\\Images\\5-ShroomD.jpg",
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Jeu\\Sessions du Masque\\Scenes\\Images\\5-Tree.jpg",
@@ -1976,6 +1983,7 @@
       "deps": {
         "links": [],
         "embeds": [
+          "atlas-vtt/collections/Default/scenes/05 - Troupes d'Havel.atlasmap",
           "Jeu/Sessions du Masque/Scenes/Images/5-Havel.jpg",
           "Jeu/Sessions du Masque/Scenes/Images/5-ShroomD.jpg",
           "Jeu/Sessions du Masque/Scenes/Images/5-Tree.jpg",
@@ -1983,33 +1991,39 @@
         ],
         "unresolved": []
       },
-      "depsKey": "E Jeu/Sessions du Masque/Scenes/Images/5-Havel.jpg 1790866631165 -\nE Jeu/Sessions du Masque/Scenes/Images/5-ShroomD.jpg 1793533211797 -\nE Jeu/Sessions du Masque/Scenes/Images/5-Spectre.jpg 1793533217443 -\nE Jeu/Sessions du Masque/Scenes/Images/5-Tree.jpg 1793533220671 -"
+      "depsKey": "E Jeu/Sessions du Masque/Scenes/Images/5-Havel.jpg 1790866631165 -\nE Jeu/Sessions du Masque/Scenes/Images/5-ShroomD.jpg 1793533211797 -\nE Jeu/Sessions du Masque/Scenes/Images/5-Spectre.jpg 1793533217443 -\nE Jeu/Sessions du Masque/Scenes/Images/5-Tree.jpg 1793533220671 -\nE atlas-vtt/collections/Default/scenes/05 - Troupes d'Havel.atlasmap 1794569094211 -"
     },
     "Jeu/Sessions du Masque/Scenes/06. Antre de Bayle.md": {
       "plugins": [],
-      "assets": [],
+      "assets": [
+        "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\collections\\Default\\scenes\\06. Antre de Bayle.thumb.jpg",
+        "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Jeu\\Sessions du Masque\\Scenes\\Images\\6-Bayle.jpg"
+      ],
       "css": [],
       "deps": {
         "links": [],
-        "embeds": [],
-        "unresolved": [
-          "6-Bayle.jpg"
-        ]
+        "embeds": [
+          "atlas-vtt/collections/Default/scenes/06. Antre de Bayle.atlasmap",
+          "Jeu/Sessions du Masque/Scenes/Images/6-Bayle.jpg"
+        ],
+        "unresolved": []
       },
-      "depsKey": "U 6-Bayle.jpg "
+      "depsKey": "E Jeu/Sessions du Masque/Scenes/Images/6-Bayle.jpg 1790866631206 -\nE atlas-vtt/collections/Default/scenes/06. Antre de Bayle.atlasmap 1794569094211 -"
     },
     "Jeu/Sessions du Masque/Scenes/07. Retour chez Zaledra.md": {
       "plugins": [],
-      "assets": [],
+      "assets": [
+        "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\Jeu\\Sessions du Masque\\Scenes\\Images\\7-Zaledra.jpg"
+      ],
       "css": [],
       "deps": {
         "links": [],
-        "embeds": [],
-        "unresolved": [
-          "7-Zaledra.jpg"
-        ]
+        "embeds": [
+          "Jeu/Sessions du Masque/Scenes/Images/7-Zaledra.jpg"
+        ],
+        "unresolved": []
       },
-      "depsKey": "U 7-Zaledra.jpg "
+      "depsKey": "E Jeu/Sessions du Masque/Scenes/Images/7-Zaledra.jpg 1790866631151 -"
     },
     "Notes/Arvens.md": {
       "plugins": [],
@@ -2066,12 +2080,97 @@
       },
       "depsKey": ""
     },
-    "Notes/statblock.md": {
+    "Jeu/Sessions du Masque/Npcs/Bayle.md": {
       "plugins": [
         "obsidian-5e-statblocks"
       ],
       "assets": [
-        "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Arek_1793397272678_hh42cw.webp"
+        "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Bayle_1794481829610_h8byy7.webp"
+      ],
+      "css": [
+        "obsidian-5e-statblocks"
+      ],
+      "deps": {
+        "links": [],
+        "embeds": [],
+        "unresolved": []
+      },
+      "depsKey": ""
+    },
+    "Jeu/Sessions du Masque/Npcs/Elementaire I.md": {
+      "plugins": [
+        "obsidian-5e-statblocks"
+      ],
+      "assets": [
+        "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Warlock_1792623308436_je2oxz.webp"
+      ],
+      "css": [
+        "obsidian-5e-statblocks"
+      ],
+      "deps": {
+        "links": [],
+        "embeds": [],
+        "unresolved": []
+      },
+      "depsKey": ""
+    },
+    "Jeu/Sessions du Masque/Npcs/Elementaire II.md": {
+      "plugins": [
+        "obsidian-5e-statblocks"
+      ],
+      "assets": [
+        "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Warlock_1792623308436_je2oxz.webp"
+      ],
+      "css": [
+        "obsidian-5e-statblocks"
+      ],
+      "deps": {
+        "links": [],
+        "embeds": [],
+        "unresolved": []
+      },
+      "depsKey": ""
+    },
+    "Jeu/Sessions du Masque/Npcs/Elementaire III.md": {
+      "plugins": [
+        "obsidian-5e-statblocks"
+      ],
+      "assets": [
+        "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Warlock_1792623308436_je2oxz.webp"
+      ],
+      "css": [
+        "obsidian-5e-statblocks"
+      ],
+      "deps": {
+        "links": [],
+        "embeds": [],
+        "unresolved": []
+      },
+      "depsKey": ""
+    },
+    "Jeu/Sessions du Masque/Npcs/Shroom.md": {
+      "plugins": [
+        "obsidian-5e-statblocks"
+      ],
+      "assets": [
+        "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Shroom_1793468152324_zzrs0f.webp"
+      ],
+      "css": [
+        "obsidian-5e-statblocks"
+      ],
+      "deps": {
+        "links": [],
+        "embeds": [],
+        "unresolved": []
+      },
+      "depsKey": ""
+    },
+    "Jeu/Sessions du Masque/Npcs/Havel.md": {
+      "plugins": [
+        "obsidian-5e-statblocks"
+      ],
+      "assets": [
+        "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Havel_1793468049094_cga8n6.webp"
       ],
       "css": [
         "obsidian-5e-statblocks"
