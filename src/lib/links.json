@@ -349,12 +349,11 @@
     "/Jeu/Regles/Combat/Armures",
     "/Jeu/Sessions du Masque/Joueurs/Dara",
     "/Jeu/Sessions du Masque/Joueurs/Haelrak",
-    "/Jeu/Sessions du Masque/Joueurs/Old/Halfdan",
     "/Jeu/Sessions du Masque/Joueurs/Hazdaim",
-    "/Jeu/Sessions du Masque/Joueurs/Leoric",
-    "/Jeu/Sessions du Masque/Joueurs/Old/Zveindel"
+    "/Jeu/Sessions du Masque/Joueurs/Leoric"
   ],
   "/Jeu/Sessions du Masque/Joueurs/Dara": [
+    "/Jeu/Regles/Statuts/Conditions",
     "/Jeu/Regles/Competences/Attributs/Force",
     "/Jeu/Regles/Competences/Attributs/Dexterite",
     "/Jeu/Regles/Competences/Attributs/Mental",
@@ -363,15 +362,13 @@
     "/Jeu/Regles/Combat/Armes",
     "/Jeu/Regles/Statuts/Proprietes",
     "/Jeu/Regles/Combat/Armures",
-    "/Jeu/Regles/Statuts/Conditions",
     "/Jeu/Sessions du Masque/Joueurs/Arek",
     "/Jeu/Sessions du Masque/Joueurs/Haelrak",
-    "/Jeu/Sessions du Masque/Joueurs/Old/Halfdan",
     "/Jeu/Sessions du Masque/Joueurs/Hazdaim",
-    "/Jeu/Sessions du Masque/Joueurs/Leoric",
-    "/Jeu/Sessions du Masque/Joueurs/Old/Zveindel"
+    "/Jeu/Sessions du Masque/Joueurs/Leoric"
   ],
   "/Jeu/Sessions du Masque/Joueurs/Haelrak": [
+    "/Jeu/Regles/Statuts/Conditions",
     "/Jeu/Regles/Competences/Attributs/Force",
     "/Jeu/Regles/Competences/Attributs/Dexterite",
     "/Jeu/Regles/Competences/Attributs/Mental",
@@ -380,15 +377,13 @@
     "/Jeu/Regles/Combat/Armes",
     "/Jeu/Regles/Statuts/Proprietes",
     "/Jeu/Regles/Combat/Armures",
-    "/Jeu/Regles/Statuts/Conditions",
     "/Jeu/Sessions du Masque/Joueurs/Arek",
     "/Jeu/Sessions du Masque/Joueurs/Dara",
-    "/Jeu/Sessions du Masque/Joueurs/Old/Halfdan",
     "/Jeu/Sessions du Masque/Joueurs/Hazdaim",
-    "/Jeu/Sessions du Masque/Joueurs/Leoric",
-    "/Jeu/Sessions du Masque/Joueurs/Old/Zveindel"
+    "/Jeu/Sessions du Masque/Joueurs/Leoric"
   ],
   "/Jeu/Sessions du Masque/Joueurs/Hazdaim": [
+    "/Jeu/Regles/Statuts/Conditions",
     "/Jeu/Regles/Competences/Attributs/Force",
     "/Jeu/Regles/Competences/Attributs/Dexterite",
     "/Jeu/Regles/Competences/Attributs/Mental",
@@ -397,13 +392,10 @@
     "/Jeu/Regles/Combat/Armes",
     "/Jeu/Regles/Statuts/Proprietes",
     "/Jeu/Regles/Combat/Armures",
-    "/Jeu/Regles/Statuts/Conditions",
     "/Jeu/Sessions du Masque/Joueurs/Arek",
     "/Jeu/Sessions du Masque/Joueurs/Dara",
     "/Jeu/Sessions du Masque/Joueurs/Haelrak",
-    "/Jeu/Sessions du Masque/Joueurs/Old/Halfdan",
-    "/Jeu/Sessions du Masque/Joueurs/Leoric",
-    "/Jeu/Sessions du Masque/Joueurs/Old/Zveindel"
+    "/Jeu/Sessions du Masque/Joueurs/Leoric"
   ],
   "/Jeu/Sessions du Masque/Joueurs/Leoric": [
     "/Jeu/Sessions du Masque/Npcs/Elementaire I",
@@ -420,9 +412,7 @@
     "/Jeu/Sessions du Masque/Joueurs/Arek",
     "/Jeu/Sessions du Masque/Joueurs/Dara",
     "/Jeu/Sessions du Masque/Joueurs/Haelrak",
-    "/Jeu/Sessions du Masque/Joueurs/Old/Halfdan",
-    "/Jeu/Sessions du Masque/Joueurs/Hazdaim",
-    "/Jeu/Sessions du Masque/Joueurs/Old/Zveindel"
+    "/Jeu/Sessions du Masque/Joueurs/Hazdaim"
   ],
   "/Jeu/Sessions du Masque/Joueurs/Old/Cira": [
     "/Jeu/Regles 2.0 WIP/Competences/Maisons",
@@ -496,5 +486,7 @@
   "/Jeu/Sessions du Masque/Npcs/Elementaire II": [],
   "/Jeu/Sessions du Masque/Npcs/Elementaire III": [],
   "/Jeu/Sessions du Masque/Npcs/Shroom": [],
-  "/Jeu/Sessions du Masque/Npcs/Havel": []
+  "/Jeu/Sessions du Masque/Npcs/Havel": [
+    "/Jeu/Regles/Statuts/Proprietes"
+  ]
 }

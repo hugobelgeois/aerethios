@@ -17,6 +17,6 @@
     <h1>{"Huiles"}</h1>
   </header>
   <div class="markdown-rendered">
-    {@html applyBase("<h3 data-heading=\"Huiles\" dir=\"auto\" id=\"huiles\">Huiles</h3>\n<blockquote dir=\"auto\">\n<p>Fait par un <a data-tooltip-position=\"top\" aria-label=\"Alchimie - New &gt; Huiles\" href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New#huiles\" class=\"internal-link\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" data-wiki-fragment=\"Huiles\">Potionniste</a> pour déterminer les dégâts (DMG arrondi vers le bas).</p>\n</blockquote>\n<p dir=\"auto\">Ajoute temporairement l'effet d'1 huile à l'arme (dure 1 combat et n'est pas cumulable).</p>\n<p dir=\"auto\">Les huiles ne s'appliquent que sur les armes Tranchantes, Perforantes et à Corde.</p>")}
+    {@html applyBase("<h3 data-heading=\"Huiles\" dir=\"auto\" id=\"huiles\">Huiles</h3>\n<blockquote dir=\"auto\">\n<p>Fait par un <a class=\"internal-link\" href=\"%%BASE%%/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New#huiles\" aria-label=\"Alchimie - New &gt; Huiles\" data-tooltip-position=\"top\" data-wiki-href=\"/Jeu/Regles 2.0 WIP/Apprentissages/Alchimie - New\" data-wiki-fragment=\"huiles\">Potionniste</a> pour déterminer les dégâts (DMG arrondi vers le bas).</p>\n</blockquote>\n<p dir=\"auto\">Ajoute temporairement l'effet d'1 huile à l'arme (dure 1 combat et n'est pas cumulable).</p>\n<p dir=\"auto\">Les huiles ne s'appliquent que sur les armes Tranchantes, Perforantes et à Corde.</p>")}
   </div>
 </article>

@@ -1,6 +1,6 @@
 {
   "signatures": {
-    "obsidian-5e-statblocks": "1793631299662.504:1794569683796:1793631299669.1711"
+    "obsidian-5e-statblocks": "1793631299662.504:1794819574529:1793631299669.1711"
   },
   "pages": {
     "Bestiaire/Bestiaire.md": {
@@ -13,7 +13,8 @@
         "unresolved": [
           "aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Arvens",
           "aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Templis"
-        ]
+        ],
+        "anchors": []
       },
       "depsKey": "U aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Arvens \nU aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Templis "
     },
@@ -43,7 +44,8 @@
           "Images/dieu-dormant-2.png",
           "Images/dieu-pourpre.png"
         ],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "E Images/dieu-dormant-2.png 1775225629721 -\nE Images/dieu-dormant.png 1775225629732 -\nE Images/dieu-pourpre.png 1775225629737 -\nE Images/dieu-scintillant.png 1775225629745 -\nE Images/grande-mère.png 1775225629813 -\nL Notes/Archives/Aerel, Grande Mère.md 1 -\nL Notes/Archives/Gamesh, Dieu Scintillant.md 1 -\nL Notes/Archives/Imet, Dieu Patient.md 1 -\nL Notes/Archives/Kira, Dieu Pourpre.md 1 -\nL Notes/Archives/Obel, Dieu Affamé.md 1 -\nL Notes/Archives/Radeon, Dieu Dormant.md 1 -"
     },
@@ -64,7 +66,8 @@
           "Possédés",
           "Ressuscités",
           "Liches"
-        ]
+        ],
+        "anchors": []
       },
       "depsKey": "L Bestiaire/Planaires/Dieux/Dieux.md 1 e\nU Esprits \nU Gobelins \nU Liches \nU Possédés \nU Ressuscités \nU Spectres \nU Vampires "
     },
@@ -75,7 +78,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -86,7 +90,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -97,7 +102,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -114,7 +120,8 @@
           "Bestiaire/Terrestres/Humanoïdes/Calico.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Bestiaire/Terrestres/Humanoïdes/Calico.md 1 e\nL Bestiaire/Terrestres/Humanoïdes/Elfe.md 1 e\nL Bestiaire/Terrestres/Humanoïdes/Humain.md 1 e\nL Bestiaire/Terrestres/Humanoïdes/Nain.md 1 e\nL Bestiaire/Terrestres/Humanoïdes/Orc.md 1 e"
     },
@@ -125,7 +132,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -136,7 +144,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -156,7 +165,8 @@
           "Symbiotiques",
           "Hommes-bêtes",
           "Chimères"
-        ]
+        ],
+        "anchors": []
       },
       "depsKey": "L Bestiaire/Terrestres/Hybrides/Naga.md 1 e\nL Bestiaire/Terrestres/Hybrides/Vampire.md 1 e\nU Chimères \nU Evolutifs \nU Hommes-bêtes \nU Mutations \nU Symbiotiques "
     },
@@ -177,7 +187,8 @@
           "Images/naga-warrior.png",
           "Images/naga-adult.png"
         ],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "E Images/naga-adult.png 1775225629823 -\nE Images/naga-sand.png 1775225629825 -\nE Images/naga-warrior.png 1775225629833 -\nE Images/naga-water.png 1775225629840 -"
     },
@@ -188,7 +199,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -204,7 +216,8 @@
           "Elémentaire",
           "Mimics",
           "Draconide"
-        ]
+        ],
+        "anchors": []
       },
       "depsKey": "U Draconide \nU Elémentaire \nU Invocation \nU Mimics "
     },
@@ -218,7 +231,8 @@
         "unresolved": [
           "Ange",
           "Démon"
-        ]
+        ],
+        "anchors": []
       },
       "depsKey": "U Ange \nU Démon "
     },
@@ -233,7 +247,8 @@
           "Bête",
           "Insectoïde",
           "Nécrophages"
-        ]
+        ],
+        "anchors": []
       },
       "depsKey": "U Bête \nU Insectoïde \nU Nécrophages "
     },
@@ -244,7 +259,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -262,7 +278,8 @@
           "Bestiaire/Terrestres/Plantes/Plantes.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Bestiaire/Terrestres/Humanoïdes/Humanoïdes.md 1 e\nL Bestiaire/Terrestres/Hybrides/Hybrides.md 1 e\nL Bestiaire/Terrestres/Magiques/Magiques.md 1 e\nL Bestiaire/Terrestres/Mythiques/Mythiques.md 1 e\nL Bestiaire/Terrestres/Naturels/Naturels.md 1 e\nL Bestiaire/Terrestres/Plantes/Plantes.md 1 e"
     },
@@ -283,7 +300,8 @@
           "Jeu/Règles 2.0 WIP/Apprentissages/Apprentissages - New.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Règles 2.0 WIP/Apprentissages/Apprentissages - New.md 1 e\nL Jeu/Règles 2.0 WIP/Combat/Armes de mêlées - New.md 1 e\nL Jeu/Règles 2.0 WIP/Combat/Armes à distances - New.md 1 e\nL Jeu/Règles 2.0 WIP/Combat/Armures - New.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e"
     },
@@ -304,7 +322,8 @@
           "Jeu/Règles 2.0 WIP/Apprentissages/Apprentissages - New.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Règles 2.0 WIP/Apprentissages/Apprentissages - New.md 1 e\nL Jeu/Règles 2.0 WIP/Combat/Armes de mêlées - New.md 1 e\nL Jeu/Règles 2.0 WIP/Combat/Armes à distances - New.md 1 e\nL Jeu/Règles 2.0 WIP/Combat/Armures - New.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e"
     },
@@ -325,7 +344,8 @@
           "Jeu/Règles 2.0 WIP/Apprentissages/Apprentissages - New.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Règles 2.0 WIP/Apprentissages/Apprentissages - New.md 1 e\nL Jeu/Règles 2.0 WIP/Combat/Armes de mêlées - New.md 1 e\nL Jeu/Règles 2.0 WIP/Combat/Armes à distances - New.md 1 e\nL Jeu/Règles 2.0 WIP/Combat/Armures - New.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e"
     },
@@ -346,7 +366,8 @@
           "Jeu/Règles 2.0 WIP/Apprentissages/Apprentissages - New.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Règles 2.0 WIP/Apprentissages/Apprentissages - New.md 1 e\nL Jeu/Règles 2.0 WIP/Combat/Armes de mêlées - New.md 1 e\nL Jeu/Règles 2.0 WIP/Combat/Armes à distances - New.md 1 e\nL Jeu/Règles 2.0 WIP/Combat/Armures - New.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e"
     },
@@ -367,7 +388,8 @@
           "Jeu/Règles 2.0 WIP/Apprentissages/Apprentissages - New.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Règles 2.0 WIP/Apprentissages/Apprentissages - New.md 1 e\nL Jeu/Règles 2.0 WIP/Combat/Armes de mêlées - New.md 1 e\nL Jeu/Règles 2.0 WIP/Combat/Armes à distances - New.md 1 e\nL Jeu/Règles 2.0 WIP/Combat/Armures - New.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e"
     },
@@ -378,7 +400,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -391,7 +414,8 @@
           "Jeu/Règles 2.0 WIP/Apprentissages/Apprentissages - New.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Règles 2.0 WIP/Apprentissages/Apprentissages - New.md 1 e"
     },
@@ -408,7 +432,8 @@
         "embeds": [
           "Jeu/Règles 2.0 WIP/Apprentissages/Misc/Rappel.md"
         ],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "E Jeu/Règles 2.0 WIP/Apprentissages/Misc/Rappel.md 1785834962569 e\nL Jeu/Règles 2.0 WIP/Apprentissages/Artisanat - New.md 1 e\nL Jeu/Règles 2.0 WIP/Apprentissages/Érudition.md 1 e\nL Jeu/Règles 2.0 WIP/Combat/Misc/Huiles.md 1 e"
     },
@@ -425,7 +450,8 @@
         "embeds": [
           "Jeu/Règles 2.0 WIP/Apprentissages/Misc/Rappel.md"
         ],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "E Jeu/Règles 2.0 WIP/Apprentissages/Misc/Rappel.md 1785834962569 e\nL Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md 1 e\nL Jeu/Règles 2.0 WIP/Apprentissages/Artisanat - New.md 1 e\nL Jeu/Règles 2.0 WIP/Apprentissages/Érudition.md 1 e"
     },
@@ -441,7 +467,8 @@
         "embeds": [
           "Jeu/Règles 2.0 WIP/Apprentissages/Misc/Rappel.md"
         ],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "E Jeu/Règles 2.0 WIP/Apprentissages/Misc/Rappel.md 1785834962569 e\nL Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md 1 e\nL Jeu/Règles 2.0 WIP/Apprentissages/Érudition.md 1 e"
     },
@@ -452,7 +479,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -468,7 +496,8 @@
         "embeds": [
           "Jeu/Règles 2.0 WIP/Apprentissages/Misc/Rappel.md"
         ],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "E Jeu/Règles 2.0 WIP/Apprentissages/Misc/Rappel.md 1785834962569 e\nL Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md 1 e\nL Jeu/Règles 2.0 WIP/Apprentissages/Artisanat - New.md 1 e"
     },
@@ -486,9 +515,14 @@
           "Jeu/Règles 2.0 WIP/Combat/Misc/Huiles.md",
           "Jeu/Règles 2.0 WIP/Combat/Misc/Magies.md"
         ],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": [
+          "Jeu/Règles 2.0 WIP/Apprentissages/Artisanat - New.md#Forgeron",
+          "Jeu/Règles 2.0 WIP/Apprentissages/Érudition.md#Joaillier",
+          "Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md#Huiles"
+        ]
       },
-      "depsKey": "E Jeu/Règles 2.0 WIP/Combat/Misc/Huiles.md 1789989985899 e\nE Jeu/Règles 2.0 WIP/Combat/Misc/Magies.md 1789989966971 e\nL Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md 1 e\nL Jeu/Règles 2.0 WIP/Apprentissages/Artisanat - New.md 1 e\nL Jeu/Règles 2.0 WIP/Apprentissages/Érudition.md 1 e"
+      "depsKey": "A Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md#Huiles huiles\nA Jeu/Règles 2.0 WIP/Apprentissages/Artisanat - New.md#Forgeron forgeron\nA Jeu/Règles 2.0 WIP/Apprentissages/Érudition.md#Joaillier joaillier\nE Jeu/Règles 2.0 WIP/Combat/Misc/Huiles.md 1789989985899 e\nE Jeu/Règles 2.0 WIP/Combat/Misc/Magies.md 1789989966971 e\nL Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md 1 e\nL Jeu/Règles 2.0 WIP/Apprentissages/Artisanat - New.md 1 e\nL Jeu/Règles 2.0 WIP/Apprentissages/Érudition.md 1 e"
     },
     "Jeu/Règles 2.0 WIP/Combat/Armes à distances - New.md": {
       "plugins": [],
@@ -502,9 +536,12 @@
           "Jeu/Règles 2.0 WIP/Combat/Misc/Huiles.md",
           "Jeu/Règles 2.0 WIP/Combat/Misc/Magies.md"
         ],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": [
+          "Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md#Huiles"
+        ]
       },
-      "depsKey": "E Jeu/Règles 2.0 WIP/Combat/Misc/Huiles.md 1789989985899 e\nE Jeu/Règles 2.0 WIP/Combat/Misc/Magies.md 1789989966971 e\nL Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md 1 e"
+      "depsKey": "A Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md#Huiles huiles\nE Jeu/Règles 2.0 WIP/Combat/Misc/Huiles.md 1789989985899 e\nE Jeu/Règles 2.0 WIP/Combat/Misc/Magies.md 1789989966971 e\nL Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md 1 e"
     },
     "Jeu/Règles 2.0 WIP/Combat/Armures - New.md": {
       "plugins": [],
@@ -513,7 +550,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -524,7 +562,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -537,7 +576,8 @@
         "embeds": [
           "Jeu/Règles 2.0 WIP/Combat/Magies/Magie - Types.md"
         ],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "E Jeu/Règles 2.0 WIP/Combat/Magies/Magie - Types.md 1793355753832 e"
     },
@@ -548,7 +588,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -559,7 +600,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -572,9 +614,12 @@
           "Jeu/Règles 2.0 WIP/Apprentissages/Érudition.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": [
+          "Jeu/Règles 2.0 WIP/Apprentissages/Érudition.md#Enchanteur"
+        ]
       },
-      "depsKey": "L Jeu/Règles 2.0 WIP/Apprentissages/Érudition.md 1 e"
+      "depsKey": "A Jeu/Règles 2.0 WIP/Apprentissages/Érudition.md#Enchanteur enchanteur\nL Jeu/Règles 2.0 WIP/Apprentissages/Érudition.md 1 e"
     },
     "Jeu/Règles 2.0 WIP/Combat/Misc/Huiles.md": {
       "plugins": [],
@@ -585,9 +630,12 @@
           "Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": [
+          "Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md#Huiles"
+        ]
       },
-      "depsKey": "L Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md 1 e"
+      "depsKey": "A Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md#Huiles huiles\nL Jeu/Règles 2.0 WIP/Apprentissages/Alchimie - New.md 1 e"
     },
     "Jeu/Règles 2.0 WIP/Combat/Misc/Magies.md": {
       "plugins": [],
@@ -596,7 +644,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -607,7 +656,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -618,7 +668,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -629,7 +680,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -640,7 +692,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -651,7 +704,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -662,7 +716,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -673,7 +728,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -684,7 +740,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -695,7 +752,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -706,7 +764,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -717,7 +776,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -728,7 +788,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -739,7 +800,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -750,7 +812,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -766,7 +829,8 @@
           "Jeu/Règles/Mini-Jeux/Recherche Alchimique.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Règles/Apprentissages/Alchimie/Cuisinier.md 1 e\nL Jeu/Règles/Apprentissages/Alchimie/Invocateur.md 1 e\nL Jeu/Règles/Apprentissages/Alchimie/Potionniste.md 1 e\nL Jeu/Règles/Mini-Jeux/Recherche Alchimique.md 1 e"
     },
@@ -779,7 +843,8 @@
           "Jeu/Règles/Apprentissages/Alchimie/Alchimie.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Règles/Apprentissages/Alchimie/Alchimie.md 1 e"
     },
@@ -792,7 +857,8 @@
           "Jeu/Règles/Apprentissages/Alchimie/Alchimie.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Règles/Apprentissages/Alchimie/Alchimie.md 1 e"
     },
@@ -805,7 +871,8 @@
           "Jeu/Règles/Apprentissages/Alchimie/Alchimie.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Règles/Apprentissages/Alchimie/Alchimie.md 1 e"
     },
@@ -828,9 +895,15 @@
           "Artificier",
           "Bijoutier",
           "Tanneur"
+        ],
+        "anchors": [
+          "Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Kothula (WIP)",
+          "Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Nirina",
+          "Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Ovliin",
+          "Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Suraja"
         ]
       },
-      "depsKey": "L Jeu/Règles/Apprentissages/Alchimie/Alchimie.md 1 e\nL Jeu/Règles/Apprentissages/Alchimie/Cuisinier.md 1 e\nL Jeu/Règles/Apprentissages/Alchimie/Invocateur.md 1 e\nL Jeu/Règles/Apprentissages/Alchimie/Potionniste.md 1 e\nL Jeu/Règles/Apprentissages/Artisanat/Artisanat.md 1 e\nL Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md 1 e\nL Jeu/Règles/Apprentissages/Artisanat/Forgeron.md 1 e\nU Artificier \nU Bijoutier \nU Tanneur "
+      "depsKey": "A Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Kothula (WIP) kothula-wip\nA Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Nirina nirina\nA Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Ovliin ovliin\nA Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Suraja suraja\nL Jeu/Règles/Apprentissages/Alchimie/Alchimie.md 1 e\nL Jeu/Règles/Apprentissages/Alchimie/Cuisinier.md 1 e\nL Jeu/Règles/Apprentissages/Alchimie/Invocateur.md 1 e\nL Jeu/Règles/Apprentissages/Alchimie/Potionniste.md 1 e\nL Jeu/Règles/Apprentissages/Artisanat/Artisanat.md 1 e\nL Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md 1 e\nL Jeu/Règles/Apprentissages/Artisanat/Forgeron.md 1 e\nU Artificier \nU Bijoutier \nU Tanneur "
     },
     "Jeu/Règles/Apprentissages/Artisanat/Artisanat.md": {
       "plugins": [],
@@ -846,7 +919,8 @@
           "Artificier",
           "Bijoutier",
           "Tanneur"
-        ]
+        ],
+        "anchors": []
       },
       "depsKey": "L Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md 1 e\nL Jeu/Règles/Apprentissages/Artisanat/Forgeron.md 1 e\nU Artificier \nU Bijoutier \nU Tanneur "
     },
@@ -863,7 +937,8 @@
           "Géographie/Suraja/Suraja.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Géographie/Kothula/Kothula.md 1 -\nL Géographie/Nirina/Nirina.md 1 -\nL Géographie/Ovliin/Ovliin.md 1 -\nL Géographie/Suraja/Suraja.md 1 -\nL Jeu/Règles/Apprentissages/Artisanat/Artisanat.md 1 e"
     },
@@ -876,7 +951,8 @@
           "Jeu/Règles/Apprentissages/Artisanat/Artisanat.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Règles/Apprentissages/Artisanat/Artisanat.md 1 e"
     },
@@ -887,7 +963,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -898,7 +975,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -914,9 +992,21 @@
           "Jeu/Règles/Statuts/Conditions.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": [
+          "Jeu/Règles/Statuts/Propriétés.md#Léger",
+          "Jeu/Règles/Statuts/Propriétés.md#Critique",
+          "Jeu/Règles/Statuts/Propriétés.md#Portée",
+          "Jeu/Règles/Statuts/Propriétés.md#Lent",
+          "Jeu/Règles/Statuts/Propriétés.md#Instable",
+          "Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Nirina",
+          "Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Ovliin",
+          "Jeu/Règles/Statuts/Afflictions.md#Surcharge",
+          "Jeu/Règles/Statuts/Propriétés.md#Lacération",
+          "Jeu/Règles/Statuts/Conditions.md#Couché"
+        ]
       },
-      "depsKey": "L Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md 1 e\nL Jeu/Règles/Statuts/Afflictions.md 1 e\nL Jeu/Règles/Statuts/Conditions.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e"
+      "depsKey": "A Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Nirina nirina\nA Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Ovliin ovliin\nA Jeu/Règles/Statuts/Afflictions.md#Surcharge surcharge\nA Jeu/Règles/Statuts/Conditions.md#Couché couche\nA Jeu/Règles/Statuts/Propriétés.md#Critique critique\nA Jeu/Règles/Statuts/Propriétés.md#Instable instable\nA Jeu/Règles/Statuts/Propriétés.md#Lacération laceration\nA Jeu/Règles/Statuts/Propriétés.md#Lent lent\nA Jeu/Règles/Statuts/Propriétés.md#Léger leger\nA Jeu/Règles/Statuts/Propriétés.md#Portée portee\nL Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md 1 e\nL Jeu/Règles/Statuts/Afflictions.md 1 e\nL Jeu/Règles/Statuts/Conditions.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e"
     },
     "Jeu/Règles/Combat/Armures.md": {
       "plugins": [],
@@ -929,9 +1019,20 @@
           "Jeu/Règles/Statuts/Propriétés.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": [
+          "Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Suraja",
+          "Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Kothula",
+          "Jeu/Règles/Statuts/Conditions.md#Saignement",
+          "Jeu/Règles/Statuts/Conditions.md#Poison",
+          "Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Ovliin",
+          "Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Nirina",
+          "Jeu/Règles/Statuts/Propriétés.md#Parade",
+          "Jeu/Règles/Statuts/Propriétés.md#Charge",
+          "Jeu/Règles/Statuts/Propriétés.md#Lent"
+        ]
       },
-      "depsKey": "L Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md 1 e\nL Jeu/Règles/Statuts/Conditions.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e"
+      "depsKey": "A Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Kothula \nA Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Nirina nirina\nA Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Ovliin ovliin\nA Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md#Suraja suraja\nA Jeu/Règles/Statuts/Conditions.md#Poison \nA Jeu/Règles/Statuts/Conditions.md#Saignement \nA Jeu/Règles/Statuts/Propriétés.md#Charge charge\nA Jeu/Règles/Statuts/Propriétés.md#Lent lent\nA Jeu/Règles/Statuts/Propriétés.md#Parade parade\nL Jeu/Règles/Apprentissages/Artisanat/Enchanteur.md 1 e\nL Jeu/Règles/Statuts/Conditions.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e"
     },
     "Jeu/Règles/Combat/Combat.md": {
       "plugins": [],
@@ -940,7 +1041,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -951,7 +1053,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -962,7 +1065,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -973,7 +1077,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -984,7 +1089,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -995,7 +1101,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -1006,7 +1113,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -1019,7 +1127,8 @@
         "embeds": [],
         "unresolved": [
           "Mini-Jeux"
-        ]
+        ],
+        "anchors": []
       },
       "depsKey": "U Mini-Jeux "
     },
@@ -1030,7 +1139,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -1043,7 +1153,8 @@
         "embeds": [],
         "unresolved": [
           "Mini-Jeux"
-        ]
+        ],
+        "anchors": []
       },
       "depsKey": "U Mini-Jeux "
     },
@@ -1056,7 +1167,8 @@
         "embeds": [],
         "unresolved": [
           "Mini-Jeux"
-        ]
+        ],
+        "anchors": []
       },
       "depsKey": "U Mini-Jeux "
     },
@@ -1069,7 +1181,8 @@
         "embeds": [],
         "unresolved": [
           "Mini-Jeux"
-        ]
+        ],
+        "anchors": []
       },
       "depsKey": "U Mini-Jeux "
     },
@@ -1082,7 +1195,8 @@
         "embeds": [],
         "unresolved": [
           "Mini-Jeux"
-        ]
+        ],
+        "anchors": []
       },
       "depsKey": "U Mini-Jeux "
     },
@@ -1093,7 +1207,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -1106,9 +1221,13 @@
           "Jeu/Règles/Statuts/Conditions.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": [
+          "Jeu/Règles/Statuts/Conditions.md#Incapable",
+          "Jeu/Règles/Statuts/Conditions.md#Couché"
+        ]
       },
-      "depsKey": "L Jeu/Règles/Statuts/Conditions.md 1 e"
+      "depsKey": "A Jeu/Règles/Statuts/Conditions.md#Couché couche\nA Jeu/Règles/Statuts/Conditions.md#Incapable \nL Jeu/Règles/Statuts/Conditions.md 1 e"
     },
     "Jeu/Règles/Statuts/Propriétés.md": {
       "plugins": [],
@@ -1119,9 +1238,12 @@
           "Jeu/Règles/Statuts/Afflictions.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": [
+          "Jeu/Règles/Statuts/Afflictions.md#Saignement"
+        ]
       },
-      "depsKey": "L Jeu/Règles/Statuts/Afflictions.md 1 e"
+      "depsKey": "A Jeu/Règles/Statuts/Afflictions.md#Saignement saignement\nL Jeu/Règles/Statuts/Afflictions.md 1 e"
     },
     "Jeu/Sessions du Masque/Arc 1 - Kothula.md": {
       "plugins": [],
@@ -1134,9 +1256,12 @@
           "Jeu/Sessions du Masque/Arc 1 - Kothula.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": [
+          "Jeu/Sessions du Masque/Arc 1 - Kothula.md#$$11.04.25$$"
+        ]
       },
-      "depsKey": "L Jeu/Sessions du Masque/Arc 1 - Kothula.md 1 e"
+      "depsKey": "A Jeu/Sessions du Masque/Arc 1 - Kothula.md#$$11.04.25$$ 110425\nL Jeu/Sessions du Masque/Arc 1 - Kothula.md 1 e"
     },
     "Jeu/Sessions du Masque/Arc 2 - Ovliin.md": {
       "plugins": [],
@@ -1147,7 +1272,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -1160,7 +1286,8 @@
           "Jeu/Sessions du Masque/Arc 2/Arc 2 - 06 - 18.05.25.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 2/Arc 2 - 06 - 18.05.25.md 1 e"
     },
@@ -1174,7 +1301,8 @@
           "Jeu/Sessions du Masque/Arc 2/Arc 2 - 07 - 21.05.25.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 2/Arc 2 - 05 - 27.04.25.md 1 e\nL Jeu/Sessions du Masque/Arc 2/Arc 2 - 07 - 21.05.25.md 1 e"
     },
@@ -1188,7 +1316,8 @@
           "Jeu/Sessions du Masque/Arc 2/Arc 2 - 08 - 30.05.25.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 2/Arc 2 - 06 - 18.05.25.md 1 e\nL Jeu/Sessions du Masque/Arc 2/Arc 2 - 08 - 30.05.25.md 1 e"
     },
@@ -1202,7 +1331,8 @@
           "Jeu/Sessions du Masque/Arc 2/Arc 2 - 09 - 13.06.25.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 2/Arc 2 - 07 - 21.05.25.md 1 e\nL Jeu/Sessions du Masque/Arc 2/Arc 2 - 09 - 13.06.25.md 1 e"
     },
@@ -1216,7 +1346,8 @@
           "Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 2/Arc 2 - 08 - 30.05.25.md 1 e\nL Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25.md 1 e"
     },
@@ -1230,7 +1361,8 @@
           "Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 05.08.25 Loic.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 2/Arc 2 - 09 - 13.06.25.md 1 e\nL Jeu/Sessions du Masque/Arc 2/Oav/Arc 2.5 - 10 - 05.08.25 Loic.md 1 e"
     },
@@ -1244,7 +1376,8 @@
           "Jeu/Sessions du Masque/Arc 3/Arc 3.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25.md 1 e\nL Jeu/Sessions du Masque/Arc 3/Arc 3.md 1 e"
     },
@@ -1258,7 +1391,8 @@
           "Jeu/Sessions du Masque/Arc 3/Arc 3.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25.md 1 e\nL Jeu/Sessions du Masque/Arc 3/Arc 3.md 1 e"
     },
@@ -1274,7 +1408,8 @@
         "embeds": [],
         "unresolved": [
           "Theon"
-        ]
+        ],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25.md 1 e\nL Jeu/Sessions du Masque/Arc 3/Arc 3.md 1 e\nU Theon "
     },
@@ -1293,7 +1428,8 @@
           "Calista",
           "Nyx",
           "Chlorys"
-        ]
+        ],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25.md 1 e\nL Jeu/Sessions du Masque/Arc 3/Arc 3.md 1 e\nU Calista \nU Chlorys \nU Loukas \nU Nyx "
     },
@@ -1307,7 +1443,8 @@
           "Jeu/Sessions du Masque/Arc 3/Arc 3 - 13 - 29.08.25.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 2/Arc 2 - 09b - 27.06.25.md 1 e\nL Jeu/Sessions du Masque/Arc 3/Arc 3 - 13 - 29.08.25.md 1 e"
     },
@@ -1321,7 +1458,8 @@
           "Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 3/Arc 3 - 13 - 29.08.25.md 1 e\nL Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25.md 1 e"
     },
@@ -1335,7 +1473,8 @@
           "Jeu/Sessions du Masque/Arc 3/Arc 3 - 12 - 19.09.25.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 3/Arc 3 - 11 - 14.08.25.md 1 e\nL Jeu/Sessions du Masque/Arc 3/Arc 3 - 12 - 19.09.25.md 1 e"
     },
@@ -1349,7 +1488,8 @@
           "Jeu/Sessions du Masque/Arc 3/Arc 3 - 14 - 11.10.25.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 3/Arc 3 - 12 - 19.09.25.md 1 e\nL Jeu/Sessions du Masque/Arc 3/Arc 3 - 14 - 11.10.25.md 1 e"
     },
@@ -1363,7 +1503,8 @@
           "Jeu/Sessions du Masque/Arc 3/Arc 3 - 15 - 14.11.25.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25.md 1 e\nL Jeu/Sessions du Masque/Arc 3/Arc 3 - 15 - 14.11.25.md 1 e"
     },
@@ -1377,7 +1518,8 @@
           "Jeu/Sessions du Masque/Arc 3/Arc 3 - 16 - 28.11.25.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 3/Arc 3 - 14 - 11.10.25.md 1 e\nL Jeu/Sessions du Masque/Arc 3/Arc 3 - 16 - 28.11.25.md 1 e"
     },
@@ -1391,7 +1533,8 @@
           "Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 3/Arc 3 - 15 - 14.11.25.md 1 e\nL Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25.md 1 e"
     },
@@ -1407,7 +1550,8 @@
         "embeds": [],
         "unresolved": [
           "Shara Ishvalda"
-        ]
+        ],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 3/Arc 3 - 16 - 28.11.25.md 1 e\nL Jeu/Sessions du Masque/Arc 4/Arc 4.md 1 e\nU Shara Ishvalda "
     },
@@ -1437,7 +1581,8 @@
           "Nocim",
           "Shara Ishvalda",
           "Arc 2"
-        ]
+        ],
+        "anchors": []
       },
       "depsKey": "L Géographie/Suraja/Suraja.md 1 -\nL Jeu/Sessions du Masque/Arc 3/Arc 3 - 11 - 14.08.25.md 1 e\nL Jeu/Sessions du Masque/Arc 3/Arc 3 - 12 - 19.09.25.md 1 e\nL Jeu/Sessions du Masque/Arc 3/Arc 3 - 13 - 29.08.25.md 1 e\nL Jeu/Sessions du Masque/Arc 3/Arc 3 - 13b - 03.10.25.md 1 e\nL Jeu/Sessions du Masque/Arc 3/Arc 3 - 14 - 11.10.25.md 1 e\nL Jeu/Sessions du Masque/Arc 3/Arc 3 - 15 - 14.11.25.md 1 e\nL Jeu/Sessions du Masque/Arc 3/Arc 3 - 16 - 28.11.25.md 1 e\nL Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25.md 1 e\nL Jeu/Sessions du Masque/Arc 4/Arc 4.md 1 e\nU Arc 2 \nU Chlorys \nU Dieu \nU Nocim \nU Raja \nU Rysom Javak \nU Shara Ishvalda "
     },
@@ -1451,7 +1596,8 @@
           "Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 3/Arc 3 - 17 - 20.12.25.md 1 e\nL Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26.md 1 e"
     },
@@ -1465,7 +1611,8 @@
           "Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26.md 1 e\nL Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26.md 1 e"
     },
@@ -1479,7 +1626,8 @@
           "Jeu/Sessions du Masque/Arc 4/Arc 4 - 21 - 20.02.26.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26.md 1 e\nL Jeu/Sessions du Masque/Arc 4/Arc 4 - 21 - 20.02.26.md 1 e"
     },
@@ -1493,7 +1641,8 @@
           "Jeu/Sessions du Masque/Arc 4/Arc 4 - 22 - 03.04.26.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 4/Arc 4 - 20 - 13.02.26.md 1 e\nL Jeu/Sessions du Masque/Arc 4/Arc 4 - 22 - 03.04.26.md 1 e"
     },
@@ -1508,9 +1657,12 @@
           "Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": [
+          "Jeu/Règles/Combat/Armes.md#Matériaux"
+        ]
       },
-      "depsKey": "L Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Sessions du Masque/Arc 4/Arc 4 - 21 - 20.02.26.md 1 e\nL Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26.md 1 e"
+      "depsKey": "A Jeu/Règles/Combat/Armes.md#Matériaux materiaux\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Sessions du Masque/Arc 4/Arc 4 - 21 - 20.02.26.md 1 e\nL Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26.md 1 e"
     },
     "Jeu/Sessions du Masque/Arc 4/Arc 4 - 22b - 06.03.26.md": {
       "plugins": [],
@@ -1522,7 +1674,8 @@
           "Jeu/Sessions du Masque/Arc 4/Arc 4 - 23 - 23.05.26.md"
         ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "L Jeu/Sessions du Masque/Arc 4/Arc 4 - 22 - 03.04.26.md 1 e\nL Jeu/Sessions du Masque/Arc 4/Arc 4 - 23 - 23.05.26.md 1 e"
     },
@@ -1559,7 +1712,8 @@
           "Jeu/Sessions du Masque/Scenes/05. Troupes d'Havel.md",
           "Jeu/Sessions du Masque/Scenes/06. Antre de Bayle.md"
         ],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "E Jeu/Sessions du Masque/Scenes/01. Orphelinat d'Hazdaim.md 1793633104890 e\nE Jeu/Sessions du Masque/Scenes/02. Campement de Nix et Salomé.md 1793633116381 e\nE Jeu/Sessions du Masque/Scenes/03. Village du chef.md 1793633157253 e\nE Jeu/Sessions du Masque/Scenes/04. Ville du Dragon.md 1794215630653 e\nE Jeu/Sessions du Masque/Scenes/05. Troupes d'Havel.md 1794497288121 e\nE Jeu/Sessions du Masque/Scenes/06. Antre de Bayle.md 1794497171284 e\nE Jeu/Sessions du Masque/Scenes/Images/1-Orphelinat-d'Hazdaim.jpg 1784704767739 -\nE Jeu/Sessions du Masque/Scenes/Images/2-Campement-de-Nix-et-Salome.jpg 1784704737742 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Atilal.png 1786090517783 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Box.png 1786003527098 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Dragon.png 1786002969113 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Mask.png 1786003173681 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Mecha.png 1786001555267 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Village-du-chef.jpg 1784704783726 -\nE Jeu/Sessions du Masque/Scenes/Images/4-Ville-du-Dragon.jpg 1790929746331 -"
     },
@@ -1578,14 +1732,13 @@
         "unresolved": [
           "Syrithia",
           "Arc 5"
-        ]
+        ],
+        "anchors": []
       },
       "depsKey": "L Géographie/Nirina/Nirina.md 1 -\nL Jeu/Sessions du Masque/Arc 3/Arc 3.md 1 e\nL Jeu/Sessions du Masque/Arc 4/Arc 4 - 18 - 02.01.26.md 1 e\nL Jeu/Sessions du Masque/Arc 4/Arc 4 - 19 - 23.01.26.md 1 e\nU Arc 5 \nU Syrithia "
     },
     "Jeu/Sessions du Masque/Joueurs/Arek.md": {
-      "plugins": [
-        "obsidian-5e-statblocks"
-      ],
+      "plugins": [],
       "assets": [
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Arek_1793397272678_hh42cw.webp"
       ],
@@ -1604,10 +1757,8 @@
           "Jeu/Règles/Combat/Armures.md",
           "Jeu/Sessions du Masque/Joueurs/Dara.md",
           "Jeu/Sessions du Masque/Joueurs/Haelrak.md",
-          "Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md",
           "Jeu/Sessions du Masque/Joueurs/Hazdaim.md",
           "Jeu/Sessions du Masque/Joueurs/Léoric.md",
-          "Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md",
           "0_Private/Billy.md"
         ],
         "embeds": [],
@@ -1618,14 +1769,16 @@
           "Einar",
           "Chlorys",
           "Zaledra"
+        ],
+        "anchors": [
+          "Jeu/Règles/Statuts/Propriétés.md#Lacération",
+          "Jeu/Règles/Statuts/Propriétés.md#Charge"
         ]
       },
-      "depsKey": "L 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Léoric.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Perseus \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux "
+      "depsKey": "A Jeu/Règles/Statuts/Propriétés.md#Charge charge\nA Jeu/Règles/Statuts/Propriétés.md#Lacération laceration\nL 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Léoric.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Perseus \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux "
     },
     "Jeu/Sessions du Masque/Joueurs/Dara.md": {
-      "plugins": [
-        "obsidian-5e-statblocks"
-      ],
+      "plugins": [],
       "assets": [
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Dara_1793397272679_rszd5i.webp"
       ],
@@ -1634,6 +1787,7 @@
       ],
       "deps": {
         "links": [
+          "Jeu/Règles/Statuts/Conditions.md",
           "Jeu/Règles/Compétences/Attributs/Force.md",
           "Jeu/Règles/Compétences/Attributs/Dextérité.md",
           "Jeu/Règles/Compétences/Attributs/Mental.md",
@@ -1642,13 +1796,10 @@
           "Jeu/Règles/Combat/Armes.md",
           "Jeu/Règles/Statuts/Propriétés.md",
           "Jeu/Règles/Combat/Armures.md",
-          "Jeu/Règles/Statuts/Conditions.md",
           "Jeu/Sessions du Masque/Joueurs/Arek.md",
           "Jeu/Sessions du Masque/Joueurs/Haelrak.md",
-          "Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md",
           "Jeu/Sessions du Masque/Joueurs/Hazdaim.md",
           "Jeu/Sessions du Masque/Joueurs/Léoric.md",
-          "Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md",
           "0_Private/Billy.md"
         ],
         "embeds": [],
@@ -1659,14 +1810,17 @@
           "Einar",
           "Chlorys",
           "Zaledra"
+        ],
+        "anchors": [
+          "Jeu/Règles/Statuts/Conditions.md#Poison",
+          "Jeu/Règles/Statuts/Propriétés.md#Critique",
+          "Jeu/Règles/Statuts/Propriétés.md#Jetable"
         ]
       },
-      "depsKey": "L 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Conditions.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Arek.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Léoric.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Perseus \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux "
+      "depsKey": "A Jeu/Règles/Statuts/Conditions.md#Poison \nA Jeu/Règles/Statuts/Propriétés.md#Critique critique\nA Jeu/Règles/Statuts/Propriétés.md#Jetable jetable\nL 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Conditions.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Arek.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Léoric.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Perseus \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux "
     },
     "Jeu/Sessions du Masque/Joueurs/Haelrak.md": {
-      "plugins": [
-        "obsidian-5e-statblocks"
-      ],
+      "plugins": [],
       "assets": [
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Haelrak_1793397670328_te3ew9.webp"
       ],
@@ -1675,6 +1829,7 @@
       ],
       "deps": {
         "links": [
+          "Jeu/Règles/Statuts/Conditions.md",
           "Jeu/Règles/Compétences/Attributs/Force.md",
           "Jeu/Règles/Compétences/Attributs/Dextérité.md",
           "Jeu/Règles/Compétences/Attributs/Mental.md",
@@ -1683,13 +1838,10 @@
           "Jeu/Règles/Combat/Armes.md",
           "Jeu/Règles/Statuts/Propriétés.md",
           "Jeu/Règles/Combat/Armures.md",
-          "Jeu/Règles/Statuts/Conditions.md",
           "Jeu/Sessions du Masque/Joueurs/Arek.md",
           "Jeu/Sessions du Masque/Joueurs/Dara.md",
-          "Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md",
           "Jeu/Sessions du Masque/Joueurs/Hazdaim.md",
           "Jeu/Sessions du Masque/Joueurs/Léoric.md",
-          "Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md",
           "0_Private/Billy.md"
         ],
         "embeds": [],
@@ -1700,14 +1852,17 @@
           "Einar",
           "Chlorys",
           "Zaledra"
+        ],
+        "anchors": [
+          "Jeu/Règles/Statuts/Conditions.md#Poison",
+          "Jeu/Règles/Statuts/Propriétés.md#Portée",
+          "Jeu/Règles/Statuts/Propriétés.md#Jetable"
         ]
       },
-      "depsKey": "L 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Conditions.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Arek.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Léoric.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Perseus \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux "
+      "depsKey": "A Jeu/Règles/Statuts/Conditions.md#Poison \nA Jeu/Règles/Statuts/Propriétés.md#Jetable jetable\nA Jeu/Règles/Statuts/Propriétés.md#Portée portee\nL 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Conditions.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Arek.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Léoric.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Perseus \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux "
     },
     "Jeu/Sessions du Masque/Joueurs/Hazdaim.md": {
-      "plugins": [
-        "obsidian-5e-statblocks"
-      ],
+      "plugins": [],
       "assets": [
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Hazdaim_1793397272680_vij4et.webp"
       ],
@@ -1716,6 +1871,7 @@
       ],
       "deps": {
         "links": [
+          "Jeu/Règles/Statuts/Conditions.md",
           "Jeu/Règles/Compétences/Attributs/Force.md",
           "Jeu/Règles/Compétences/Attributs/Dextérité.md",
           "Jeu/Règles/Compétences/Attributs/Mental.md",
@@ -1724,13 +1880,10 @@
           "Jeu/Règles/Combat/Armes.md",
           "Jeu/Règles/Statuts/Propriétés.md",
           "Jeu/Règles/Combat/Armures.md",
-          "Jeu/Règles/Statuts/Conditions.md",
           "Jeu/Sessions du Masque/Joueurs/Arek.md",
           "Jeu/Sessions du Masque/Joueurs/Dara.md",
           "Jeu/Sessions du Masque/Joueurs/Haelrak.md",
-          "Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md",
           "Jeu/Sessions du Masque/Joueurs/Léoric.md",
-          "Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md",
           "0_Private/Billy.md"
         ],
         "embeds": [],
@@ -1741,14 +1894,16 @@
           "Einar",
           "Chlorys",
           "Zaledra"
+        ],
+        "anchors": [
+          "Jeu/Règles/Statuts/Conditions.md#Poison",
+          "Jeu/Règles/Statuts/Propriétés.md#Léger"
         ]
       },
-      "depsKey": "L 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Conditions.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Arek.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Léoric.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Perseus \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux "
+      "depsKey": "A Jeu/Règles/Statuts/Conditions.md#Poison \nA Jeu/Règles/Statuts/Propriétés.md#Léger leger\nL 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Conditions.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Arek.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Léoric.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Perseus \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux "
     },
     "Jeu/Sessions du Masque/Joueurs/Léoric.md": {
-      "plugins": [
-        "obsidian-5e-statblocks"
-      ],
+      "plugins": [],
       "assets": [
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Warlock_1792623308436_je2oxz.webp"
       ],
@@ -1768,9 +1923,7 @@
           "Jeu/Sessions du Masque/Joueurs/Arek.md",
           "Jeu/Sessions du Masque/Joueurs/Dara.md",
           "Jeu/Sessions du Masque/Joueurs/Haelrak.md",
-          "Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md",
           "Jeu/Sessions du Masque/Joueurs/Hazdaim.md",
-          "Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md",
           "0_Private/Billy.md"
         ],
         "embeds": [
@@ -1785,9 +1938,12 @@
           "Einar",
           "Chlorys",
           "Zaledra"
+        ],
+        "anchors": [
+          "Jeu/Règles/Statuts/Propriétés.md#Léger"
         ]
       },
-      "depsKey": "E Jeu/Sessions du Masque/Npcs/Elementaire I.md 1794569700148 e\nE Jeu/Sessions du Masque/Npcs/Elementaire II.md 1794569632049 e\nE Jeu/Sessions du Masque/Npcs/Elementaire III.md 1794569639191 e\nL 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Arek.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Perseus \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux "
+      "depsKey": "A Jeu/Règles/Statuts/Propriétés.md#Léger leger\nE Jeu/Sessions du Masque/Npcs/Elementaire I.md 1794573012397 e\nE Jeu/Sessions du Masque/Npcs/Elementaire II.md 1794573015074 e\nE Jeu/Sessions du Masque/Npcs/Elementaire III.md 1794573016662 e\nL 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Arek.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Perseus \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux "
     },
     "Jeu/Sessions du Masque/Joueurs/Old/Cira.md": {
       "plugins": [],
@@ -1809,9 +1965,15 @@
         "embeds": [],
         "unresolved": [
           "aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Arvens"
+        ],
+        "anchors": [
+          "Jeu/Règles 2.0 WIP/Compétences/Maisons.md#100 po",
+          "Jeu/Règles/Statuts/Propriétés.md#Jetable",
+          "Jeu/Règles/Statuts/Propriétés.md#Critique",
+          "Jeu/Règles/Statuts/Conditions.md#Poison"
         ]
       },
-      "depsKey": "L Jeu/Règles 2.0 WIP/Compétences/Maisons.md 1 e\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Conditions.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nU aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Arvens "
+      "depsKey": "A Jeu/Règles 2.0 WIP/Compétences/Maisons.md#100 po \nA Jeu/Règles/Statuts/Conditions.md#Poison \nA Jeu/Règles/Statuts/Propriétés.md#Critique critique\nA Jeu/Règles/Statuts/Propriétés.md#Jetable jetable\nL Jeu/Règles 2.0 WIP/Compétences/Maisons.md 1 e\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Conditions.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nU aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Arvens "
     },
     "Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md": {
       "plugins": [],
@@ -1840,9 +2002,15 @@
         "embeds": [],
         "unresolved": [
           "aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Arvens"
+        ],
+        "anchors": [
+          "Jeu/Règles/Statuts/Propriétés.md#Jetable",
+          "Jeu/Règles/Statuts/Propriétés.md#Critique",
+          "Jeu/Règles/Statuts/Propriétés.md#Lent",
+          "Jeu/Règles/Statuts/Conditions.md#Poison"
         ]
       },
-      "depsKey": "L 0_Private/Billy.md 1 -\nL Jeu/Règles/Apprentissages/Apprentissages.md 1 e\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Conditions.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Arek.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Léoric.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md 1 e\nU aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Arvens "
+      "depsKey": "A Jeu/Règles/Statuts/Conditions.md#Poison \nA Jeu/Règles/Statuts/Propriétés.md#Critique critique\nA Jeu/Règles/Statuts/Propriétés.md#Jetable jetable\nA Jeu/Règles/Statuts/Propriétés.md#Lent lent\nL 0_Private/Billy.md 1 -\nL Jeu/Règles/Apprentissages/Apprentissages.md 1 e\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Conditions.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Arek.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Léoric.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md 1 e\nU aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Arvens "
     },
     "Jeu/Sessions du Masque/Joueurs/Old/Zveindel.md": {
       "plugins": [],
@@ -1878,9 +2046,12 @@
           "Einar",
           "Chlorys",
           "Zaledra"
+        ],
+        "anchors": [
+          "Notes/Scienctes.md#Archimage"
         ]
       },
-      "depsKey": "E Images/zveindel.png 1775225629876 -\nL 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Arek.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Léoric.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md 1 e\nL Notes/Scienctes.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux \nU aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Arvens "
+      "depsKey": "A Notes/Scienctes.md#Archimage \nE Images/zveindel.png 1775225629876 -\nL 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Arek.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Léoric.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Old/Halfdan.md 1 e\nL Notes/Scienctes.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux \nU aerethios/docs/Jeu/Règles/Compétences/Compétences de Maisons/Arvens "
     },
     "Jeu/Sessions du Masque/Scenes/01. Orphelinat d'Hazdaim.md": {
       "plugins": [],
@@ -1899,7 +2070,8 @@
           "Jeu/Sessions du Masque/Scenes/Images/1-Colonel-Thierry-du-Lion-d'Argent.webp",
           "Jeu/Sessions du Masque/Scenes/Images/1-Mattias-du-Lion-Tuant.jpg"
         ],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "E Jeu/Sessions du Masque/Scenes/Images/1-Colonel-Thierry-du-Lion-d'Argent.webp 1784704744903 -\nE Jeu/Sessions du Masque/Scenes/Images/1-Mattias-du-Lion-Tuant.jpg 1784704759774 -\nE Jeu/Sessions du Masque/Scenes/Images/1-Orphelinat-d'Hazdaim.jpg 1784704767739 -\nE Jeu/Sessions du Masque/Scenes/Images/1-Orphelinat-d'Hazdaim.png 1784704773762 -"
     },
@@ -1920,7 +2092,8 @@
           "Jeu/Sessions du Masque/Scenes/Images/2-Salome.jpg",
           "Jeu/Sessions du Masque/Scenes/Images/2-Campement-de-Nix-et-Salome-Monstre.jpg"
         ],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "E Jeu/Sessions du Masque/Scenes/Images/2-Campement-de-Nix-et-Salome-Monstre.jpg 1784704723181 -\nE Jeu/Sessions du Masque/Scenes/Images/2-Campement-de-Nix-et-Salome.jpg 1784704737742 -\nE Jeu/Sessions du Masque/Scenes/Images/2-Nix.jpg 1784704763831 -\nE Jeu/Sessions du Masque/Scenes/Images/2-Salome.jpg 1784704778944 -"
     },
@@ -1947,7 +2120,8 @@
           "Jeu/Sessions du Masque/Scenes/Images/3-Dragon.png",
           "Jeu/Sessions du Masque/Scenes/Images/3-Atilal.png"
         ],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "E Jeu/Sessions du Masque/Scenes/Images/3-Atilal.png 1786090517783 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Box.png 1786003527098 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Dragon.png 1786002969113 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Hippo.png 1793533204021 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Mask.png 1786003173681 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Mecha.png 1786001555267 -\nE Jeu/Sessions du Masque/Scenes/Images/3-Village-du-chef.jpg 1784704783726 -"
     },
@@ -1966,7 +2140,8 @@
           "Jeu/Sessions du Masque/Scenes/Images/4-Boss-des-Illusions.png",
           "Jeu/Sessions du Masque/Scenes/Images/4-Fortissax.jpg"
         ],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "E Jeu/Sessions du Masque/Scenes/Images/4-Boss-des-Illusions.png 1793355975045 -\nE Jeu/Sessions du Masque/Scenes/Images/4-Fortissax.jpg 1790929746338 -\nE Jeu/Sessions du Masque/Scenes/Images/4-Ville-du-Dragon.jpg 1790929746331 -"
     },
@@ -1989,9 +2164,10 @@
           "Jeu/Sessions du Masque/Scenes/Images/5-Tree.jpg",
           "Jeu/Sessions du Masque/Scenes/Images/5-Spectre.jpg"
         ],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
-      "depsKey": "E Jeu/Sessions du Masque/Scenes/Images/5-Havel.jpg 1790866631165 -\nE Jeu/Sessions du Masque/Scenes/Images/5-ShroomD.jpg 1793533211797 -\nE Jeu/Sessions du Masque/Scenes/Images/5-Spectre.jpg 1793533217443 -\nE Jeu/Sessions du Masque/Scenes/Images/5-Tree.jpg 1793533220671 -\nE atlas-vtt/collections/Default/scenes/05 - Troupes d'Havel.atlasmap 1794569094211 -"
+      "depsKey": "E Jeu/Sessions du Masque/Scenes/Images/5-Havel.jpg 1790866631165 -\nE Jeu/Sessions du Masque/Scenes/Images/5-ShroomD.jpg 1793533211797 -\nE Jeu/Sessions du Masque/Scenes/Images/5-Spectre.jpg 1793533217443 -\nE Jeu/Sessions du Masque/Scenes/Images/5-Tree.jpg 1793533220671 -\nE atlas-vtt/collections/Default/scenes/05 - Troupes d'Havel.atlasmap 1794815890641 -"
     },
     "Jeu/Sessions du Masque/Scenes/06. Antre de Bayle.md": {
       "plugins": [],
@@ -2006,7 +2182,8 @@
           "atlas-vtt/collections/Default/scenes/06. Antre de Bayle.atlasmap",
           "Jeu/Sessions du Masque/Scenes/Images/6-Bayle.jpg"
         ],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "E Jeu/Sessions du Masque/Scenes/Images/6-Bayle.jpg 1790866631206 -\nE atlas-vtt/collections/Default/scenes/06. Antre de Bayle.atlasmap 1794569094211 -"
     },
@@ -2021,7 +2198,8 @@
         "embeds": [
           "Jeu/Sessions du Masque/Scenes/Images/7-Zaledra.jpg"
         ],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": "E Jeu/Sessions du Masque/Scenes/Images/7-Zaledra.jpg 1790866631151 -"
     },
@@ -2032,7 +2210,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -2043,7 +2222,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -2054,7 +2234,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -2065,7 +2246,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -2076,7 +2258,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -2093,7 +2276,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -2110,7 +2294,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -2127,7 +2312,8 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
@@ -2144,14 +2330,13 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
     "Jeu/Sessions du Masque/Npcs/Shroom.md": {
-      "plugins": [
-        "obsidian-5e-statblocks"
-      ],
+      "plugins": [],
       "assets": [
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Shroom_1793468152324_zzrs0f.webp"
       ],
@@ -2161,14 +2346,13 @@
       "deps": {
         "links": [],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": []
       },
       "depsKey": ""
     },
     "Jeu/Sessions du Masque/Npcs/Havel.md": {
-      "plugins": [
-        "obsidian-5e-statblocks"
-      ],
+      "plugins": [],
       "assets": [
         "C:\\Users\\hfr\\Documents\\Vaults\\Aerethios\\atlas-vtt\\assets\\Havel_1793468049094_cga8n6.webp"
       ],
@@ -2176,11 +2360,17 @@
         "obsidian-5e-statblocks"
       ],
       "deps": {
-        "links": [],
+        "links": [
+          "Jeu/Règles/Statuts/Propriétés.md"
+        ],
         "embeds": [],
-        "unresolved": []
+        "unresolved": [],
+        "anchors": [
+          "Jeu/Règles/Statuts/Propriétés.md#Charge",
+          "Jeu/Règles/Statuts/Propriétés.md#Lent"
+        ]
       },
-      "depsKey": ""
+      "depsKey": "A Jeu/Règles/Statuts/Propriétés.md#Charge charge\nA Jeu/Règles/Statuts/Propriétés.md#Lent lent\nL Jeu/Règles/Statuts/Propriétés.md 1 e"
     }
   },
   "runtimeCss": {
@@ -2198,10 +2388,12 @@
       "svelte-1c3hzq4": ".statblock-markdown.svelte-1c3hzq4 { display: inline; }\n.statblock-markdown.svelte-1c3hzq4 p { display: inline; }\n.statblock-markdown.svelte-1c3hzq4 p ~ p { display: inline-block; }",
       "svelte-q1pj66": ".image.svelte-q1pj66 { width: var(--active-image-width); height: var(--active-image-height); }\n.image.pointer.svelte-q1pj66 { cursor: pointer; }\nimg.svelte-q1pj66 { object-fit: cover; width: 100%; height: 100%; border-radius: 100%; border: var(--active-image-border-size) solid\n            var(--active-image-border-color); object-position: center center; }",
       "svelte-k72li0": ".tapered-rule.svelte-k72li0 { width: auto; margin: 0.5em 0px; height: 5px; background: -webkit-linear-gradient(\n            0deg,\n            var(--active-rule-color) 0%,\n            var(--active-rule-color) 50%,\n            var(--active-background-color) 95%,\n            var(--active-background-color) 100%\n        ); clip-path: polygon(0px 0px, 0px 100%, 95% 50%); }",
+      "svelte-1d2gp4n": ".trait.svelte-1d2gp4n { font-family: var(--active-traits-font); color: var(--active-traits-font-color); font-size: var(--active-traits-font-size); font-weight: var(--active-traits-font-weight); font-style: var(--active-traits-font-style); }\n.trait-name.svelte-1d2gp4n { font-family: var(--active-traits-name-font); color: var(--active-traits-name-font-color); font-size: var(--active-traits-name-font-size); font-weight: var(--active-traits-name-font-weight); font-style: var(--active-traits-name-font-style); }\n.property-name.svelte-1d2gp4n { margin: 0px 0.25em 0px 0px; display: inline; }\n.statblock-nested-traits.svelte-1d2gp4n { margin-left: 1rem; }",
       "svelte-1jjvt5k": ".statblock-table-header.svelte-1jjvt5k { font-weight: var(--active-table-header-font-weight); }\n.statblock-table.svelte-1jjvt5k { display: flex; justify-content: space-evenly; align-items: center; flex-wrap: wrap; }\n.table-item.svelte-1jjvt5k { display: flex; justify-content: center; align-items: center; flex-flow: column; }\n.calculated-modifier.svelte-1jjvt5k::before { content: \"(\"; }\n.calculated-modifier.svelte-1jjvt5k::after { content: \")\"; }",
       "svelte-1674zvq": "details.svelte-1674zvq > summary.svelte-1674zvq.svelte-1674zvq.svelte-1674zvq { outline: none; min-height: 1rem; border-top-left-radius: 0.1rem; border-top-right-radius: 0.1rem; cursor: pointer; position: relative; margin-bottom: 1rem; display: block !important; list-style: none !important; }\ndetails.svelte-1674zvq > summary.svelte-1674zvq.svelte-1674zvq.svelte-1674zvq::-webkit-details-marker, details.svelte-1674zvq > summary.svelte-1674zvq.svelte-1674zvq.svelte-1674zvq::marker { display: none !important; }\ndetails.svelte-1674zvq > summary.svelte-1674zvq > .collapser.svelte-1674zvq.svelte-1674zvq { position: absolute; top: 50%; right: 8px; transform: translateY(-50%); content: \"\"; }\ndetails.svelte-1674zvq > summary.svelte-1674zvq > .collapser.svelte-1674zvq > .handle.svelte-1674zvq { transform: rotate(0deg); transition: transform 0.25s; background-color: currentcolor; mask-repeat: no-repeat; mask-size: contain; mask-image: url(\"data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z'/></svg>\"); width: 20px; height: 20px; }\ndetails[open].svelte-1674zvq > summary.svelte-1674zvq > .collapser.svelte-1674zvq > .handle.svelte-1674zvq { transform: rotate(90deg); }",
-      "svelte-1d2gp4n": ".trait.svelte-1d2gp4n { font-family: var(--active-traits-font); color: var(--active-traits-font-color); font-size: var(--active-traits-font-size); font-weight: var(--active-traits-font-weight); font-style: var(--active-traits-font-style); }\n.trait-name.svelte-1d2gp4n { font-family: var(--active-traits-name-font); color: var(--active-traits-name-font-color); font-size: var(--active-traits-name-font-size); font-weight: var(--active-traits-name-font-weight); font-style: var(--active-traits-name-font-style); }\n.property-name.svelte-1d2gp4n { margin: 0px 0.25em 0px 0px; display: inline; }\n.statblock-nested-traits.svelte-1d2gp4n { margin-left: 1rem; }"
+      "svelte-1vwmbsx": ".line.svelte-1vwmbsx.svelte-1vwmbsx { line-height: var(--active-saves-line-height); display: block; color: var(--active-font-color); }\n.property-name.svelte-1vwmbsx.svelte-1vwmbsx { color: var(--active-property-name-font-color); margin: 0px 0.25em 0px 0px; display: inline; font-weight: bold; }\n.property-text.svelte-1vwmbsx.svelte-1vwmbsx { display: inline; margin: 0px; }\n.save-entry.svelte-1vwmbsx.svelte-1vwmbsx, .save-name.svelte-1vwmbsx.svelte-1vwmbsx, .save-value.svelte-1vwmbsx.svelte-1vwmbsx { display: inline; }\n.save-entry.svelte-1vwmbsx:not(:last-child) .save-value.svelte-1vwmbsx::after { content: \", \"; }",
+      "svelte-1ascaxr": ".section-header.svelte-1ascaxr { border-bottom: var(--active-section-heading-border-size) solid\n            var(--active-section-heading-border-color); color: var(--active-section-heading-font-color); font-size: var(--active-section-heading-font-size); font-variant: var(--active-section-heading-font-variant); font-weight: var(--active-section-heading-font-weight); font-family: var(--active-section-heading-font); letter-spacing: 1px; margin: 0px 0px 0.3em; break-inside: avoid-column; break-after: avoid-column; }"
     }
   },
-  "pageFormat": "[7,{\"url\":\"\",\"name\":\"Aerethios\"}]"
+  "pageFormat": "[8,{\"url\":\"\",\"name\":\"Aerethios\"}]"
 }
