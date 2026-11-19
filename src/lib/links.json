@@ -469,14 +469,9 @@
     "/Jeu/Sessions du Masque/Joueurs/Hazdaim",
     "/Jeu/Sessions du Masque/Joueurs/Leoric"
   ],
-  "/Jeu/Sessions du Masque/Npcs/Bayle": [],
   "/Jeu/Sessions du Masque/Npcs/Elementaire I": [],
   "/Jeu/Sessions du Masque/Npcs/Elementaire II": [],
   "/Jeu/Sessions du Masque/Npcs/Elementaire III": [],
-  "/Jeu/Sessions du Masque/Npcs/Havel": [
-    "/Jeu/Regles/Statuts/Proprietes"
-  ],
-  "/Jeu/Sessions du Masque/Npcs/Shroom": [],
   "/Jeu/Sessions du Masque/Scenes/01. Orphelinat dHazdaim": [],
   "/Jeu/Sessions du Masque/Scenes/02. Campement de Nix et Salome": [],
   "/Jeu/Sessions du Masque/Scenes/03. Village du chef": [],
@@ -487,6 +482,5 @@
   "/Notes/Stats joueurs": [],
   "/Notes/Templis": [],
   "/Jeu/Sessions du Masque/Scenes/05. Troupes dHavel": [],
-  "/Jeu/Sessions du Masque/Scenes/06. Antre de Bayle": [],
-  "/Jeu/Sessions du Masque/Scenes/07. Retour chez Zaledra": []
+  "/Jeu/Sessions du Masque/Scenes/06. Antre de Bayle": []
 }
