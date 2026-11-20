@@ -217,9 +217,7 @@
   "/Jeu/Regles/Mini-Jeux/Proprietaire": [],
   "/Jeu/Regles/Mini-Jeux/Recherche Alchimique": [],
   "/Jeu/Regles/Statuts/Afflictions": [],
-  "/Jeu/Regles/Statuts/Conditions": [
-    "/Jeu/Regles/Statuts/Conditions"
-  ],
+  "/Jeu/Regles/Statuts/Conditions": [],
   "/Jeu/Regles/Statuts/Proprietes": [
     "/Jeu/Regles/Statuts/Afflictions"
   ],
