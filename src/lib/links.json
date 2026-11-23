@@ -343,7 +343,8 @@
     "/Jeu/Sessions du Masque/Scenes/03. Village du chef",
     "/Jeu/Sessions du Masque/Scenes/04. Ville du Dragon",
     "/Jeu/Sessions du Masque/Scenes/05. Troupes dHavel",
-    "/Jeu/Sessions du Masque/Scenes/06. Antre de Bayle"
+    "/Jeu/Sessions du Masque/Scenes/06. Antre de Bayle",
+    "/Jeu/Sessions du Masque/Scenes/07. Retour chez Zaledra"
   ],
   "/Jeu/Sessions du Masque/Joueurs/Arek": [
     "/Jeu/Regles/Competences/Attributs/Force",
@@ -481,5 +482,6 @@
   "/Notes/Stats joueurs": [],
   "/Notes/Templis": [],
   "/Jeu/Sessions du Masque/Scenes/05. Troupes dHavel": [],
-  "/Jeu/Sessions du Masque/Scenes/06. Antre de Bayle": []
+  "/Jeu/Sessions du Masque/Scenes/06. Antre de Bayle": [],
+  "/Jeu/Sessions du Masque/Scenes/07. Retour chez Zaledra": []
 }
