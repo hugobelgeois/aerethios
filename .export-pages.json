@@ -1,6 +1,6 @@
 {
   "signatures": {
-    "obsidian-5e-statblocks": "1793631299662.504:1795543233031:1793631299669.1711"
+    "obsidian-5e-statblocks": "1793631299662.504:1795544152351:1793631299669.1711"
   },
   "pages": {
     "Bestiaire/Bestiaire.md": {
@@ -2233,6 +2233,15 @@
         ],
         "embeds": [],
         "unresolved": [
+          "Hache 1",
+          "Hache 2",
+          "Epée Sanglante",
+          "Griffe de Dragon",
+          "Armure",
+          "Cape",
+          "Bouclier",
+          "Bouclier Dragon",
+          "Armure Gammoth",
           "aerethios/docs/Bestiaire/Planaires/Dieux/Dieux",
           "Perseus",
           "Bryumnes",
@@ -2246,7 +2255,7 @@
           "Jeu/Règles/Statuts/Propriétés.md#Lent"
         ]
       },
-      "depsKey": "A Jeu/Règles/Statuts/Propriétés.md#Charge charge\nA Jeu/Règles/Statuts/Propriétés.md#Lacération laceration\nA Jeu/Règles/Statuts/Propriétés.md#Lent lent\nL 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Léoric.md 1 e\nU Bryumnes \nU Chlorys \nU Einar \nU Perseus \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux "
+      "depsKey": "A Jeu/Règles/Statuts/Propriétés.md#Charge charge\nA Jeu/Règles/Statuts/Propriétés.md#Lacération laceration\nA Jeu/Règles/Statuts/Propriétés.md#Lent lent\nL 0_Private/Billy.md 1 -\nL Jeu/Règles/Combat/Armes.md 1 e\nL Jeu/Règles/Combat/Armures.md 1 e\nL Jeu/Règles/Compétences/Attributs/Charisme.md 1 e\nL Jeu/Règles/Compétences/Attributs/Dextérité.md 1 e\nL Jeu/Règles/Compétences/Attributs/Force.md 1 e\nL Jeu/Règles/Compétences/Attributs/Mental.md 1 e\nL Jeu/Règles/Compétences/Attributs/Perception.md 1 e\nL Jeu/Règles/Statuts/Propriétés.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Dara.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Haelrak.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Hazdaim.md 1 e\nL Jeu/Sessions du Masque/Joueurs/Léoric.md 1 e\nU Armure \nU Armure Gammoth \nU Bouclier \nU Bouclier Dragon \nU Bryumnes \nU Cape \nU Chlorys \nU Einar \nU Epée Sanglante \nU Griffe de Dragon \nU Hache 1 \nU Hache 2 \nU Perseus \nU Zaledra \nU aerethios/docs/Bestiaire/Planaires/Dieux/Dieux "
     },
     "Jeu/Sessions du Masque/Joueurs/Old/Cira.md": {
       "links": [
@@ -2931,5 +2940,5 @@
       "svelte-1674zvq": "details.svelte-1674zvq > summary.svelte-1674zvq.svelte-1674zvq.svelte-1674zvq { outline: none; min-height: 1rem; border-top-left-radius: 0.1rem; border-top-right-radius: 0.1rem; cursor: pointer; position: relative; margin-bottom: 1rem; display: block !important; list-style: none !important; }\ndetails.svelte-1674zvq > summary.svelte-1674zvq.svelte-1674zvq.svelte-1674zvq::-webkit-details-marker, details.svelte-1674zvq > summary.svelte-1674zvq.svelte-1674zvq.svelte-1674zvq::marker { display: none !important; }\ndetails.svelte-1674zvq > summary.svelte-1674zvq > .collapser.svelte-1674zvq.svelte-1674zvq { position: absolute; top: 50%; right: 8px; transform: translateY(-50%); content: \"\"; }\ndetails.svelte-1674zvq > summary.svelte-1674zvq > .collapser.svelte-1674zvq > .handle.svelte-1674zvq { transform: rotate(0deg); transition: transform 0.25s; background-color: currentcolor; mask-repeat: no-repeat; mask-size: contain; mask-image: url(\"data:image/svg+xml;charset=utf-8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z'/></svg>\"); width: 20px; height: 20px; }\ndetails[open].svelte-1674zvq > summary.svelte-1674zvq > .collapser.svelte-1674zvq > .handle.svelte-1674zvq { transform: rotate(90deg); }"
     }
   },
-  "pageFormat": "[8,{\"url\":\"\",\"name\":\"Aerethios\"}]"
+  "pageFormat": "[9,{\"url\":\"\",\"name\":\"Aerethios\"}]"
 }
