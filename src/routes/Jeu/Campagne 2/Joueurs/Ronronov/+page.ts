@@ -44,8 +44,8 @@ export const load: PageLoad = () => ({
       "level": 3
     },
     {
-      "id": "apprentissages---new",
-      "text": "[[Apprentissages - New]]",
+      "id": "jeuregles-20-wipapprentissagesapprentissages---new",
+      "text": "[[Jeu/Règles 2.0 WIP/Apprentissages/Apprentissages - New]]",
       "level": 2
     },
     {
